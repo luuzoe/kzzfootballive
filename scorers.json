@@ -5,7 +5,7 @@
    {
     "rank": 1,
     "player": "Erling Haaland",
-    "team": "Manchester City",
+    "team": "Man City",
     "goals": 6,
     "pid": "253989"
    },
@@ -26,7 +26,7 @@
    {
     "rank": 4,
     "player": "Rayan Cherki",
-    "team": "Manchester City",
+    "team": "Man City",
     "goals": 4,
     "pid": "298008"
    },
@@ -40,21 +40,21 @@
    {
     "rank": 6,
     "player": "Bryan Mbeumo",
-    "team": "Manchester United",
+    "team": "Man United",
     "goals": 3,
     "pid": "271170"
    },
    {
     "rank": 7,
     "player": "Pascal Gross",
-    "team": "Brighton & Hove Albion",
+    "team": "Brighton",
     "goals": 3,
     "pid": "132659"
    },
    {
     "rank": 8,
     "player": "Bruno Fernandes",
-    "team": "Manchester United",
+    "team": "Man United",
     "goals": 3,
     "pid": "124091"
    },
@@ -98,14 +98,14 @@
    {
     "rank": 4,
     "player": "Sergio Camello",
-    "team": "Rayo Vallecano",
+    "team": "Rayo",
     "goals": 7,
     "pid": "276652"
    },
    {
     "rank": 5,
     "player": "Yassir Zabiri",
-    "team": "Racing Santander",
+    "team": "Racing",
     "goals": 7,
     "pid": "390389"
    },
@@ -177,7 +177,7 @@
    {
     "rank": 5,
     "player": "Lautaro Martínez",
-    "team": "Internazionale",
+    "team": "Inter Milan",
     "goals": 4,
     "pid": "219713"
    },
@@ -212,7 +212,7 @@
    {
     "rank": 10,
     "player": "Adrien Rabiot",
-    "team": "AC Milan",
+    "team": "Milan",
     "goals": 3,
     "pid": "176203"
    }
@@ -221,14 +221,14 @@
    {
     "rank": 1,
     "player": "Younes Ebnoutalib",
-    "team": "Eintracht Frankfurt",
+    "team": "Frankfurt",
     "goals": 5,
     "pid": "359793"
    },
    {
     "rank": 2,
     "player": "Patrik Schick",
-    "team": "Bayer Leverkusen",
+    "team": "Leverkusen",
     "goals": 5,
     "pid": "212330"
    },
@@ -242,21 +242,21 @@
    {
     "rank": 4,
     "player": "Niclas Füllkrug",
-    "team": "Werder Bremen",
+    "team": "Bremen",
     "goals": 4,
     "pid": "170257"
    },
    {
     "rank": 5,
     "player": "Michael Olise",
-    "team": "Bayern Munich",
+    "team": "Bayern",
     "goals": 4,
     "pid": "286831"
    },
    {
     "rank": 6,
     "player": "Yuito Suzuki",
-    "team": "SC Freiburg",
+    "team": "Freiburg",
     "goals": 4,
     "pid": "303031"
    },
@@ -270,14 +270,14 @@
    {
     "rank": 8,
     "player": "Jonathan Burkardt",
-    "team": "Eintracht Frankfurt",
+    "team": "Frankfurt",
     "goals": 3,
     "pid": "274887"
    },
    {
     "rank": 9,
     "player": "Maximilian Eggestein",
-    "team": "SC Freiburg",
+    "team": "Freiburg",
     "goals": 3,
     "pid": "214203"
    },
@@ -328,28 +328,28 @@
    {
     "rank": 6,
     "player": "Esteban Lepaul",
-    "team": "Stade Rennais",
+    "team": "Rennes",
     "goals": 4,
     "pid": "323850"
    },
    {
     "rank": 7,
     "player": "Ferran Torres",
-    "team": "Paris Saint-Germain",
+    "team": "PSG",
     "goals": 4,
     "pid": "265869"
    },
    {
     "rank": 8,
     "player": "Paris Brunner",
-    "team": "AS Monaco",
+    "team": "Monaco",
     "goals": 4,
     "pid": "365789"
    },
    {
     "rank": 9,
     "player": "Cameron Archer",
-    "team": "AJ Auxerre",
+    "team": "Auxerre",
     "goals": 4,
     "pid": "293347"
    },
@@ -379,14 +379,14 @@
    {
     "rank": 3,
     "player": "Gjivai Zechiël",
-    "team": "Feyenoord Rotterdam",
+    "team": "Feyenoord",
     "goals": 5,
     "pid": "365021"
    },
    {
     "rank": 4,
     "player": "Guus Til",
-    "team": "PSV Eindhoven",
+    "team": "PSV",
     "goals": 5,
     "pid": "240965"
    },
@@ -400,14 +400,14 @@
    {
     "rank": 6,
     "player": "Milan Zonneveld",
-    "team": "Sparta Rotterdam",
+    "team": "Sparta",
     "goals": 5,
     "pid": "324585"
    },
    {
     "rank": 7,
     "player": "Anis Hadj Moussa",
-    "team": "Feyenoord Rotterdam",
+    "team": "Feyenoord",
     "goals": 5,
     "pid": "341711"
    },
@@ -428,7 +428,7 @@
    {
     "rank": 10,
     "player": "Rafik El Arguioui",
-    "team": "SC Cambuur",
+    "team": "Cambuur",
     "goals": 4,
     "pid": "337056"
    }
@@ -444,7 +444,7 @@
    {
     "rank": 2,
     "player": "Luis Suárez",
-    "team": "Sporting CP",
+    "team": "Sporting",
     "goals": 7,
     "pid": "272722"
    },
@@ -493,7 +493,7 @@
    {
     "rank": 9,
     "player": "André Clóvis",
-    "team": "Académico de Viseu",
+    "team": "Académico",
     "goals": 4,
     "pid": "270648"
    },
@@ -509,7 +509,7 @@
    {
     "rank": 1,
     "player": "Erling Haaland",
-    "team": "Manchester City",
+    "team": "Man City",
     "goals": 4,
     "pid": "253989"
    },
@@ -523,14 +523,14 @@
    {
     "rank": 3,
     "player": "Ermedin Demirovic",
-    "team": "VfB Stuttgart",
+    "team": "Stuttgart",
     "goals": 4,
     "pid": "269136"
    },
    {
     "rank": 4,
     "player": "Harry Kane",
-    "team": "Bayern Munich",
+    "team": "Bayern",
     "goals": 3,
     "pid": "142200"
    },
@@ -544,7 +544,7 @@
    {
     "rank": 6,
     "player": "Ousmane Dembélé",
-    "team": "Paris Saint-Germain",
+    "team": "PSG",
     "goals": 3,
     "pid": "229744"
    },
@@ -558,7 +558,7 @@
    {
     "rank": 8,
     "player": "Ferran Torres",
-    "team": "Paris Saint-Germain",
+    "team": "PSG",
     "goals": 3,
     "pid": "265869"
    },
@@ -588,14 +588,14 @@
    {
     "rank": 2,
     "player": "Alphadjo Cissè",
-    "team": "AC Milan",
+    "team": "Milan",
     "goals": 3,
     "pid": "359754"
    },
    {
     "rank": 3,
     "player": "Tobias Guddal",
-    "team": "Sparta Prague",
+    "team": "Sparta",
     "goals": 2,
     "pid": "382244"
    },
@@ -616,7 +616,7 @@
    {
     "rank": 6,
     "player": "Yéremy Pino",
-    "team": "Crystal Palace",
+    "team": "C Palace",
     "goals": 2,
     "pid": "297370"
    },
@@ -630,7 +630,7 @@
    {
     "rank": 8,
     "player": "Patrik Schick",
-    "team": "Bayer Leverkusen",
+    "team": "Leverkusen",
     "goals": 2,
     "pid": "212330"
    },
@@ -644,7 +644,7 @@
    {
     "rank": 10,
     "player": "Rayan",
-    "team": "AFC Bournemouth",
+    "team": "Bournemouth",
     "goals": 2,
     "pid": "357719"
    }
@@ -655,21 +655,21 @@
    {
     "rank": 1,
     "player": "Pascal Gross",
-    "team": "Brighton & Hove Albion",
+    "team": "Brighton",
     "assists": 4,
     "pid": "132659"
    },
    {
     "rank": 2,
     "player": "Antoine Semenyo",
-    "team": "Manchester City",
+    "team": "Man City",
     "assists": 3,
     "pid": "273292"
    },
    {
     "rank": 3,
     "player": "Daichi Kamada",
-    "team": "Crystal Palace",
+    "team": "C Palace",
     "assists": 3,
     "pid": "219362"
    },
@@ -683,7 +683,7 @@
    {
     "rank": 5,
     "player": "Evanilson",
-    "team": "AFC Bournemouth",
+    "team": "Bournemouth",
     "assists": 3,
     "pid": "102368"
    },
@@ -697,7 +697,7 @@
    {
     "rank": 7,
     "player": "Josko Gvardiol",
-    "team": "Manchester City",
+    "team": "Man City",
     "assists": 3,
     "pid": "299910"
    },
@@ -718,7 +718,7 @@
    {
     "rank": 10,
     "player": "Morgan Gibbs-White",
-    "team": "Nottingham Forest",
+    "team": "Nottm Forest",
     "assists": 2,
     "pid": "243396"
    }
@@ -748,7 +748,7 @@
    {
     "rank": 4,
     "player": "Iñigo Vicente",
-    "team": "Racing Santander",
+    "team": "Racing",
     "assists": 3,
     "pid": "284699"
    },
@@ -762,7 +762,7 @@
    {
     "rank": 6,
     "player": "Unai López",
-    "team": "Rayo Vallecano",
+    "team": "Rayo",
     "assists": 3,
     "pid": "203711"
    },
@@ -813,7 +813,7 @@
    {
     "rank": 3,
     "player": "Andy Diouf",
-    "team": "Internazionale",
+    "team": "Inter Milan",
     "assists": 3,
     "pid": "319167"
    },
@@ -862,7 +862,7 @@
    {
     "rank": 10,
     "player": "Samuel Chukwueze",
-    "team": "AC Milan",
+    "team": "Milan",
     "assists": 2,
     "pid": "228298"
    }
@@ -871,28 +871,28 @@
    {
     "rank": 1,
     "player": "Marco Grüll",
-    "team": "Werder Bremen",
+    "team": "Bremen",
     "assists": 4,
     "pid": "305853"
    },
    {
     "rank": 2,
     "player": "Matthias Ginter",
-    "team": "SC Freiburg",
+    "team": "Freiburg",
     "assists": 3,
     "pid": "170209"
    },
    {
     "rank": 3,
     "player": "Fabian Rieder",
-    "team": "FC Augsburg",
+    "team": "Augsburg",
     "assists": 3,
     "pid": "308908"
    },
    {
     "rank": 4,
     "player": "Miguel Gutiérrez",
-    "team": "Bayer Leverkusen",
+    "team": "Leverkusen",
     "assists": 3,
     "pid": "290044"
    },
@@ -906,7 +906,7 @@
    {
     "rank": 6,
     "player": "Harry Kane",
-    "team": "Bayern Munich",
+    "team": "Bayern",
     "assists": 3,
     "pid": "142200"
    },
@@ -920,14 +920,14 @@
    {
     "rank": 8,
     "player": "Linton Maina",
-    "team": "FC Cologne",
+    "team": "Cologne",
     "assists": 2,
     "pid": "231173"
    },
    {
     "rank": 9,
     "player": "Jordy Makengo",
-    "team": "SC Freiburg",
+    "team": "Freiburg",
     "assists": 2,
     "pid": "367558"
    },
@@ -957,7 +957,7 @@
    {
     "rank": 3,
     "player": "Aleksandr Golovin",
-    "team": "AS Monaco",
+    "team": "Monaco",
     "assists": 3,
     "pid": "195501"
    },
@@ -1006,7 +1006,7 @@
    {
     "rank": 10,
     "player": "Adrien Thomasson",
-    "team": "Stade Rennais",
+    "team": "Rennes",
     "assists": 2,
     "pid": "173266"
    }
@@ -1022,21 +1022,21 @@
    {
     "rank": 2,
     "player": "Gjivai Zechiël",
-    "team": "Feyenoord Rotterdam",
+    "team": "Feyenoord",
     "assists": 4,
     "pid": "365021"
    },
    {
     "rank": 3,
     "player": "Givairo Read",
-    "team": "Feyenoord Rotterdam",
+    "team": "Feyenoord",
     "assists": 4,
     "pid": "337084"
    },
    {
     "rank": 4,
     "player": "Oscar Gloukh",
-    "team": "Ajax Amsterdam",
+    "team": "Ajax",
     "assists": 4,
     "pid": "325609"
    },
@@ -1050,7 +1050,7 @@
    {
     "rank": 6,
     "player": "Bas Kuipers",
-    "team": "Sparta Rotterdam",
+    "team": "Sparta",
     "assists": 3,
     "pid": "188458"
    },
@@ -1101,14 +1101,14 @@
    {
     "rank": 3,
     "player": "Geny Catamo",
-    "team": "Sporting CP",
+    "team": "Sporting",
     "assists": 4,
     "pid": "296969"
    },
    {
     "rank": 4,
     "player": "Cihan Kahraman",
-    "team": "Académico de Viseu",
+    "team": "Académico",
     "assists": 4,
     "pid": "233987"
    },
@@ -1166,7 +1166,7 @@
    {
     "rank": 2,
     "player": "Ousmane Dembélé",
-    "team": "Paris Saint-Germain",
+    "team": "PSG",
     "assists": 3,
     "pid": "229744"
    },
@@ -1187,7 +1187,7 @@
    {
     "rank": 5,
     "player": "Deniz Undav",
-    "team": "VfB Stuttgart",
+    "team": "Stuttgart",
     "assists": 2,
     "pid": "273300"
    },
@@ -1201,7 +1201,7 @@
    {
     "rank": 7,
     "player": "Zlatko Tripic",
-    "team": "Viking FK",
+    "team": "VIKING FK",
     "assists": 2,
     "pid": "164279"
    },
@@ -1215,7 +1215,7 @@
    {
     "rank": 9,
     "player": "Angelo Stiller",
-    "team": "VfB Stuttgart",
+    "team": "Stuttgart",
     "assists": 2,
     "pid": "290232"
    },
@@ -1238,7 +1238,7 @@
    {
     "rank": 2,
     "player": "Adam Wharton",
-    "team": "Crystal Palace",
+    "team": "C Palace",
     "assists": 2,
     "pid": "333419"
    },
@@ -1273,14 +1273,14 @@
    {
     "rank": 7,
     "player": "Massiré Sylla",
-    "team": "Union St.-Gilloise",
+    "team": "Union SG",
     "assists": 1,
     "pid": "389282"
    },
    {
     "rank": 8,
     "player": "Besfort Zeneli",
-    "team": "Union St.-Gilloise",
+    "team": "Union SG",
     "assists": 1,
     "pid": "334024"
    },
