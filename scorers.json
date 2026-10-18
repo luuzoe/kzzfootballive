@@ -6,7 +6,7 @@
     "rank": 1,
     "player": "Erling Haaland",
     "team": "Man City",
-    "goals": 6,
+    "goals": 8,
     "pid": "253989"
    },
    {
@@ -18,59 +18,59 @@
    },
    {
     "rank": 3,
+    "player": "Alexander Isak",
+    "team": "Liverpool",
+    "goals": 5,
+    "pid": "235662"
+   },
+   {
+    "rank": 4,
     "player": "Morgan Rogers",
     "team": "Chelsea",
     "goals": 4,
     "pid": "265653"
    },
    {
-    "rank": 4,
+    "rank": 5,
     "player": "Rayan Cherki",
     "team": "Man City",
     "goals": 4,
     "pid": "298008"
    },
    {
-    "rank": 5,
-    "player": "Alexander Isak",
-    "team": "Liverpool",
-    "goals": 4,
-    "pid": "235662"
-   },
-   {
     "rank": 6,
-    "player": "Bryan Mbeumo",
-    "team": "Man United",
-    "goals": 3,
-    "pid": "271170"
-   },
-   {
-    "rank": 7,
-    "player": "Pascal Gross",
-    "team": "Brighton",
-    "goals": 3,
-    "pid": "132659"
-   },
-   {
-    "rank": 8,
-    "player": "Bruno Fernandes",
-    "team": "Man United",
-    "goals": 3,
-    "pid": "124091"
-   },
-   {
-    "rank": 9,
-    "player": "Bukayo Saka",
-    "team": "Arsenal",
-    "goals": 3,
-    "pid": "280555"
-   },
-   {
-    "rank": 10,
     "player": "Thierno Barry",
     "team": "Everton",
     "goals": 3,
     "pid": "301166"
+   },
+   {
+    "rank": 7,
+    "player": "Kevin Schade",
+    "team": "Brentford",
+    "goals": 3,
+    "pid": "310958"
+   },
+   {
+    "rank": 8,
+    "player": "Mohamed Belloumi",
+    "team": "Hull",
+    "goals": 3,
+    "pid": "320417"
+   },
+   {
+    "rank": 9,
+    "player": "Pedro Neto",
+    "team": "Chelsea",
+    "goals": 3,
+    "pid": "256115"
+   },
+   {
+    "rank": 10,
+    "player": "Bryan Mbeumo",
+    "team": "Man United",
+    "goals": 3,
+    "pid": "271170"
    }
   ],
   "esp.1": [
@@ -83,17 +83,17 @@
    },
    {
     "rank": 2,
+    "player": "Lamine Yamal",
+    "team": "Barcelona",
+    "goals": 8,
+    "pid": "362150"
+   },
+   {
+    "rank": 3,
     "player": "Kylian Mbappé",
     "team": "Real Madrid",
     "goals": 7,
     "pid": "231388"
-   },
-   {
-    "rank": 3,
-    "player": "Lamine Yamal",
-    "team": "Barcelona",
-    "goals": 7,
-    "pid": "362150"
    },
    {
     "rank": 4,
@@ -132,17 +132,17 @@
    },
    {
     "rank": 9,
+    "player": "Álex Baena",
+    "team": "Atlético",
+    "goals": 5,
+    "pid": "297373"
+   },
+   {
+    "rank": 10,
     "player": "Pierre-Emerick Aubameyang",
     "team": "Deportivo",
     "goals": 5,
     "pid": "122260"
-   },
-   {
-    "rank": 10,
-    "player": "Lucas Boyé",
-    "team": "Alavés",
-    "goals": 5,
-    "pid": "207236"
    }
   ],
   "ita.1": [
@@ -661,52 +661,52 @@
    },
    {
     "rank": 2,
-    "player": "Antoine Semenyo",
-    "team": "Man City",
-    "assists": 3,
-    "pid": "273292"
-   },
-   {
-    "rank": 3,
-    "player": "Daichi Kamada",
-    "team": "C Palace",
-    "assists": 3,
-    "pid": "219362"
-   },
-   {
-    "rank": 4,
     "player": "Cole Palmer",
     "team": "Chelsea",
     "assists": 3,
     "pid": "296395"
    },
    {
-    "rank": 5,
-    "player": "Evanilson",
-    "team": "Bournemouth",
+    "rank": 3,
+    "player": "Antoine Semenyo",
+    "team": "Man City",
     "assists": 3,
-    "pid": "102368"
+    "pid": "273292"
    },
    {
-    "rank": 6,
-    "player": "Declan Rice",
-    "team": "Arsenal",
-    "assists": 3,
-    "pid": "238262"
-   },
-   {
-    "rank": 7,
+    "rank": 4,
     "player": "Josko Gvardiol",
     "team": "Man City",
     "assists": 3,
     "pid": "299910"
    },
    {
-    "rank": 8,
+    "rank": 5,
+    "player": "Daichi Kamada",
+    "team": "C Palace",
+    "assists": 3,
+    "pid": "219362"
+   },
+   {
+    "rank": 6,
     "player": "João Pedro",
     "team": "Chelsea",
     "assists": 3,
     "pid": "284960"
+   },
+   {
+    "rank": 7,
+    "player": "Evanilson",
+    "team": "Bournemouth",
+    "assists": 3,
+    "pid": "102368"
+   },
+   {
+    "rank": 8,
+    "player": "Declan Rice",
+    "team": "Arsenal",
+    "assists": 3,
+    "pid": "238262"
    },
    {
     "rank": 9,
@@ -717,10 +717,10 @@
    },
    {
     "rank": 10,
-    "player": "Morgan Gibbs-White",
-    "team": "Nottm Forest",
+    "player": "Harvey Barnes",
+    "team": "Newcastle",
     "assists": 2,
-    "pid": "243396"
+    "pid": "243386"
    }
   ],
   "esp.1": [
@@ -728,7 +728,7 @@
     "rank": 1,
     "player": "Lamine Yamal",
     "team": "Barcelona",
-    "assists": 5,
+    "assists": 6,
     "pid": "362150"
    },
    {
@@ -747,52 +747,52 @@
    },
    {
     "rank": 4,
-    "player": "Iñigo Vicente",
-    "team": "Racing",
-    "assists": 3,
-    "pid": "284699"
-   },
-   {
-    "rank": 5,
-    "player": "Vinícius Júnior",
-    "team": "Real Madrid",
-    "assists": 3,
-    "pid": "252107"
-   },
-   {
-    "rank": 6,
-    "player": "Unai López",
-    "team": "Rayo",
-    "assists": 3,
-    "pid": "203711"
-   },
-   {
-    "rank": 7,
-    "player": "Ángel Pérez",
-    "team": "Alavés",
-    "assists": 3,
-    "pid": "374621"
-   },
-   {
-    "rank": 8,
-    "player": "Carlos Soler",
-    "team": "Real Sociedad",
-    "assists": 3,
-    "pid": "235072"
-   },
-   {
-    "rank": 9,
     "player": "Alberto Moleiro",
     "team": "Villarreal",
     "assists": 3,
     "pid": "307390"
    },
    {
-    "rank": 10,
+    "rank": 5,
     "player": "José Antonio Morente",
     "team": "Elche",
     "assists": 3,
     "pid": "259916"
+   },
+   {
+    "rank": 6,
+    "player": "Dani Olmo",
+    "team": "Barcelona",
+    "assists": 3,
+    "pid": "227765"
+   },
+   {
+    "rank": 7,
+    "player": "Iñigo Vicente",
+    "team": "Racing",
+    "assists": 3,
+    "pid": "284699"
+   },
+   {
+    "rank": 8,
+    "player": "Vinícius Júnior",
+    "team": "Real Madrid",
+    "assists": 3,
+    "pid": "252107"
+   },
+   {
+    "rank": 9,
+    "player": "Unai López",
+    "team": "Rayo",
+    "assists": 3,
+    "pid": "203711"
+   },
+   {
+    "rank": 10,
+    "player": "Raphinha",
+    "team": "Barcelona",
+    "assists": 3,
+    "pid": "231050"
    }
   ],
   "ita.1": [
