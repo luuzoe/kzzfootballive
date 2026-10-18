@@ -252,6 +252,7 @@ def main():
     news_d = load("news.json", {"news": []})
     pred_d = load("predictions.json", {"predictions": []})
     ana_d = load("analyses.json", {"analyses": []})
+    teams_mm = load("teams_mm.json", {"teams": {}}).get("teams", {})
     team_info = load("team_info.json", {})
 
     news = sorted(news_d.get("news", []), key=lambda x: x.get("published", ""), reverse=True)[:60]
@@ -371,7 +372,8 @@ def main():
     # ---------- team pages (English) ----------
     os.makedirs(os.path.join(SITE, "teams"), exist_ok=True)
     for tid, info in team_info.items():
-        en = info.get("name") or "Team %s" % tid
+        rec = teams_mm.get(tid, {})
+        en = rec.get("en") or info.get("name") or "Team %s" % tid
         tslug = slugify(en)
         trophies = "".join("<li>%s × %s</li>" % (esc(t["t"]), t["c"])
                            for t in info.get("trophies", []) if t.get("c"))
