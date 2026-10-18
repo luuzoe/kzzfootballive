@@ -1,28 +1,6 @@
 {
  "news": [
   {
-   "id": "2026-10-17-arsenal-birmingham",
-   "title": "Arsenal Women booed off after 1-1 draw with Birmingham",
-   "title_mm": "အာဆင်နယ် အမျိုးသမီး ဘာမင်ဂမ်နဲ့ ၁-၁ သရေကျ — ပရိသတ် လှောင်ပြောင်ခံရ",
-   "body": "Arsenal Women were booed off at the Emirates Stadium after a 1-1 draw with Birmingham City on Saturday left them winless in five Women's Super League games. Oceane Hurtre put the visitors ahead on the counter-attack in the 53rd minute before Olivia Smith equalised with a stunning strike from 20 yards in the 66th minute. Arsenal had 27 shots but could not find a winner, and pressure continues to mount on manager Renee Slegers with the team eighth in the table.",
-   "body_mm": "အာဆင်နယ် အမျိုးသမီး အသင်းဟာ အမ်းမရိတ် ကွင်းမှာ ဘာမင်ဂမ် စီးတီးနဲ့ ၁-၁ သရေကျပြီးနောက် ပရိသတ်တွေရဲ့ လှောင်ပြောင်သံနဲ့ ကြုံခဲ့ရပြီး WSL မှာ ၅ ပွဲဆက် နိုင်ပွဲမဲ့ ဖြစ်သွားခဲ့ပါတယ်။ အိုစီယန် ဟာထရေးက ၅၃ မိနစ်မှာ ဧည့်သည် အသင်းအတွက် ဦးဆောင်ဂိုးကို သွင်းခဲ့ပြီး အိုလီဗီယာ စမစ်က ၆၆ မိနစ်မှာ ယဒ်ကနေ လှပတဲ့ ကန်ချက်နဲ့ ချေပဂိုးကို သွင်းခဲ့ပါတယ်။ အာဆင်နယ်ဟာ ၂၇ ကြိမ် ကန်သွင်းခဲ့ပေမဲ့ အနိုင်ဂိုးကို ရှာမတွေ့ခဲ့ဘဲ နည်းပြ ရီနီ ဆလက်ဂါးစ်အပေါ် ဖိအားတွေ ဆက်လက် မြင့်တက်နေပြီး အသင်းက အဆင့် ၈ နေရာမှာ ရပ်တည်နေပါတယ်။",
-   "image": "news-arsenal-birmingham-2026-10-17.webp",
-   "source": "Sky Sports",
-   "published": "2026-10-17T21:24:00+06:30",
-   "fb_url": ""
-  },
-  {
-   "id": "2026-10-17-man-city-ipswich",
-   "title": "Haaland brace as Man City beat Ipswich 3-2 for seventh straight win",
-   "title_mm": "ဟာလန်း နှစ်ဂိုးနဲ့ မန်စီးတီး အစ်ဝစ်ချ်ကို ၃-၂ နိုင် — ၇ ပွဲဆက် အနိုင်ရ",
-   "body": "Erling Haaland scored twice as Premier League leaders Manchester City beat Ipswich Town 3-2 at the Etihad on Saturday, making it seven straight wins. Phil Foden opened the scoring in the 19th minute before Daizen Maeda equalised for Ipswich, and Haaland headed City back in front before half-time. Haaland added a second midway through the second half to keep City on top of the table.",
-   "body_mm": "အာလင်း ဟာလန်းရဲ့ နှစ်ဂိုးနဲ့ ပရီးမီးယားလိဂ် ထိပ်ဆုံးက မန်ချက်စတာ စီးတီးဟာ အစ်ဝစ်ချ်တောင်းကို အိမ်ကွင်း အီတီဟတ်မှာ ၃-၂ နဲ့ အနိုင်ရခဲ့ပြီး ၇ ပွဲဆက် အနိုင်ရရှိနေပါတယ်။ ဖီးလ် ဖိုဒန်က ၁၉ မိနစ်မှာ ဦးဆောင်ဂိုး သွင်းခဲ့ပေမဲ့ ဒိုင်ဇင် မာအဲဒါက အစ်ဝစ်ချ်အတွက် ချေပဂိုး ပြန်သွင်းခဲ့ပါတယ်။ ဟာလန်းက ပထမပိုင်း မပြီးခင် ခေါင်းတိုက်ဂိုးနဲ့ စီးတီးကို ပြန်ဦးဆောင်စေခဲ့ပြီး ဒုတိယပိုင်း အလယ်မှာလည်း တစ်ဂိုး ထပ်သွင်းခဲ့တာကြောင့် စီးတီးဟာ အမှတ်ပေးဇယား ထိပ်ဆုံးမှာ ဆက်ရှိနေပါတယ်။",
-   "image": "news-man-city-ipswich-2026-10-17.jpg",
-   "source": "Sky Sports",
-   "published": "2026-10-17T23:24:00+06:30",
-   "fb_url": ""
-  },
-  {
    "id": "2026-10-17-liverpool-brentford",
    "title": "Isak winner on injury return as Liverpool come back to beat nine-man Brentford 2-1",
    "title_mm": "ဒဏ်ရာက ပြန်လာတဲ့ အီဆက်ရဲ့ အနိုင်ဂိုးနဲ့ လီဗာပူး ၉ ယောက်ကျန် ဘရန့်ဖို့ဒ်ကို ၂-၁ နိုင်",
@@ -219,7 +197,29 @@
    "source": "Reuters",
    "published": "2026-10-18T11:24:00+06:30",
    "fb_url": ""
+  },
+  {
+   "id": "2026-10-18-man-city-appeal",
+   "title": "Do Manchester City have any grounds to win their appeal?",
+   "title_mm": "မန်စီးတီး အယူခံ အနိုင်ရဖို့ 'အတော်ခက်ခဲမယ်' လို့ ရှေ့နေများ ပြော",
+   "body": "Manchester City face an uphill battle in their appeal after being found guilty of breaches of the Premier League's financial rules, leading lawyers have told BBC Sport. City were found guilty of all charges relating to the 2009-10 to 2017-18 seasons, with the independent commission concluding the club created 'sham contracts' to inflate sponsorship deals by £830m. The club insist they are innocent, claim to have 'irrefutable evidence', and will argue the disputed payments came from the Abu Dhabi government as a shareholder of the sponsors rather than the owners — and that the commission misunderstood key Football Leaks emails. But lawyer James Severn warned an appeal is 'not simply an opportunity to invite a new panel': City must prove a material error of law, principle or fact, or serious procedural unfairness, otherwise they face 'an uphill struggle'. Finance expert Kieran Maguire believes 'there is a route' but expects City to take a 'mess and noise approach' against the process rather than the evidence itself. Premier League rules require the appeal to be heard within 12 weeks — by Christmas Eve — though a final outcome could take longer. The case continues to hang over City even as their record-breaking start to the season goes on on the pitch.",
+   "body_mm": "မန်ချက်စတာ စီးတီးဟာ ပရီးမီးယားလိဂ်ရဲ့ ငွေကြေးဆိုင်ရာ စည်းမျဉ်းတွေကို ချိုးဖောက်မှုနဲ့ အပြစ်ရှိကြောင်း ဆုံးဖြတ်ခံရပြီးနောက် အယူခံဝင်ရာမှာ အတော်ခက်ခဲမယ့် အခြေအနေနဲ့ ရင်ဆိုင်ရမယ်လို့ ထိပ်တန်း ရှေ့နေတွေက BBC Sport ကို ပြောကြားခဲ့ပါတယ်။ လွတ်လပ်တဲ့ ကော်မရှင်က ၂၀၀၉-၁၀ ကနေ ၂၀၁၇-၁၈ ရာသီတွေအတွင်း စီးတီးဟာ စပွန်ဆာ စာချုပ်တွေကို ပေါင် သန်း ၈၃၀ အထိ မြှင့်တင်ဖို့ အတု စာချုပ်တွေ ဖန်တီးခဲ့တယ်လို့ ဆုံးဖြတ်ခဲ့ပါတယ်။ စီးတီးကတော့ သူတို့ အပြစ်ကင်းကြောင်း၊ ချေပလို့မရတဲ့ သက်သေတွေ ရှိတယ်လို့ ဆိုပြီး အငြင်းပွားနေတဲ့ ငွေတွေဟာ ပိုင်ရှင်တွေဆီက မဟုတ်ဘဲ စပွန်ဆာတွေရဲ့ ရှယ်ယာရှင် အဖြစ် အာဘူဒါဘီ အစိုးရဆီက ပေးခဲ့တာလို့ အယူခံမှာ တင်ပြမှာပါ။ ဒါပေမဲ့ ရှေ့နေ ဂျိမ်းစ် ဆဗာန်က အယူခံဟာ ကော်မတီ အသစ်ကို ဖိတ်တာလောက် ရိုးရှင်းတာ မဟုတ်ဘူးလို့ သတိပေးခဲ့ပြီး ဥပဒေ၊ အခြေခံမူ ဒါမှမဟုတ် အချက်အလက်ဆိုင်ရာ ကြီးမားတဲ့ အမှား ဒါမှမဟုတ် လုပ်ထုံးလုပ်နည်း မမျှတမှု ရှိခဲ့တာကို သက်သေပြနိုင်မှ အနိုင်ရနိုင်မယ်လို့ ဆိုပါတယ်။ ဘဏ္ဍာရေး ကျွမ်းကျင်သူ ကီရန် မက်ဂွိုင်းယားကတော့ လမ်းကြောင်း ရှိတယ်လို့ ယုံကြည်ပေမဲ့ စီးတီးဟာ သက်သေကို တိုက်ရိုက်မချေပဘဲ လုပ်ငန်းစဉ်ကိုပဲ တိုက်ခိုက်တဲ့ နည်းလမ်း သုံးနိုင်တယ်လို့ သုံးသပ်ပါတယ်။ ပရီးမီးယားလိဂ် စည်းမျဉ်းအရ အယူခံကို ၁၂ ပတ်အတွင်း၊ ခရစ္စမတ်အကြို မတိုင်ခင် ကြားနာရမှာဖြစ်ပေမဲ့ နောက်ဆုံး ဆုံးဖြတ်ချက် ထွက်ဖို့က ပိုကြာနိုင်ပါတယ်။ ကွင်းတွင်းမှာတော့ စီးတီးဟာ ရာသီအစ စံချိန်တင် ခြေစွမ်းနဲ့ ထိပ်ဆုံးမှာ ဆက်လက် ဦးဆောင်နေပါတယ်။",
+   "image": "news-man-city-appeal-2026-10-18.jpg",
+   "source": "BBC Sport",
+   "published": "2026-10-18T13:06:00+06:30",
+   "fb_url": ""
+  },
+  {
+   "id": "2026-10-18-kirby-vidosic",
+   "title": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
+   "title_mm": "ကာဘီ - ဗီဒိုဆစ် ရုတ်တရက် ထွက်ခွာမှုကြောင့် 'စိတ်ဖိစီးမှု ရှိခဲ့တယ်'",
+   "body": "Former England striker Fran Kirby has said the abrupt departure of Brighton head coach Dario Vidosic on the eve of the new season left her feeling 'stressed' and 'disappointed'. Speaking to BBC Sport, the veteran forward admitted the timing of Vidosic's exit was difficult for the squad to take. Kirby has been a key figure for Brighton, and her comments underline the unsettled mood at the club after a surprise coaching change so close to the start of the Women's Super League campaign.",
+   "body_mm": "အင်္ဂလန် လက်ရွေးစင် တိုက်စစ်မှူးဟောင်း ဖရန် ကာဘီက ဘရိုက်တန် နည်းပြ ဒါရီယို ဗီဒိုဆစ် ရာသီအစ နားကပ်မှာ ရုတ်တရက် ထွက်ခွာခဲ့မှုကြောင့် သူမ စိတ်ဖိစီးမှုနဲ့ စိတ်ပျက်လက်ပျက် ဖြစ်ခဲ့ရတယ်လို့ ဖွင့်ဟခဲ့ပါတယ်။ BBC Sport နဲ့ ပြောဆိုရာမှာ ဝါရင့် တိုက်စစ်မှူးက ဗီဒိုဆစ်ရဲ့ ထွက်ခွာချိန်ဟာ အသင်းသားတွေအတွက် လက်ခံဖို့ ခက်ခဲခဲ့တယ်လို့ ဝန်ခံခဲ့ပါတယ်။ ဘရိုက်တန်ရဲ့ အဓိက ကစားသမား ဖြစ်တဲ့ ကာဘီရဲ့ ဒီပြောဆိုမှုဟာ အမျိုးသမီး စူပါလိဂ် ရာသီအစ မတိုင်ခင် နည်းပြ အပြောင်းအလဲ ဖြစ်ခဲ့ပြီးနောက် ကလပ်တွင်း မတည်ငြိမ်တဲ့ အခြေအနေကို ပြသနေပါတယ်။",
+   "image": "news-kirby-vidosic-2026-10-18.jpg",
+   "source": "BBC Sport",
+   "published": "2026-10-18T12:19:00+06:30",
+   "fb_url": ""
   }
  ],
- "updated": "2026-10-18T09:21:00+06:30"
+ "updated": "2026-10-18T06:56:23.134828+00:00"
 }
