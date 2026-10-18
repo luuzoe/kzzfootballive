@@ -84,6 +84,13 @@ function esc(s) {
   return String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
 
+/* English-first field read with Burmese fallback — site is English-only (2026-10-18). */
+function enf(item, enKey, mmKey) {
+  const v = item && item[enKey];
+  if (v && String(v).trim()) return v;
+  return (item && item[mmKey]) || '';
+}
+
 async function getJSON(url) {
   const r = await fetch(url);
   if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -570,14 +577,14 @@ async function renderPredictions() {
           <div class="prob-labels"><span>🏠 ${p.prob_home}%</span><span>🤝 ${p.prob_draw}%</span><span>✈️ ${p.prob_away}%</span></div>
         </div>`;
       }
-      const searchText = ((p.home || "") + " " + (p.away || "") + " " + (p.league || "") + " " + (p.reason_mm || "")).toLowerCase();
+      const searchText = ((p.home || "") + " " + (p.away || "") + " " + (p.league || "") + " " + (enf(p, "en_reason", "reason_mm"))).toLowerCase();
       return `
       <div class="pred-card" data-search="${esc(searchText)}">
         <div class="pred-match">${esc(p.home)} vs ${esc(p.away)}</div>
         <div class="pred-meta">${esc(p.league || '')} ${p.date ? '• ' + esc(fmtDateTime(p.date)) : ''}</div>
-        <div class="pred-pick">👉 ${esc(p.pick || '')} <span class="${confClass[p.confidence] || ''}">(${esc(confLabel[p.confidence] || '')})</span></div>
+        <div class="pred-pick">👉 ${esc(enf(p, 'pick_en', 'pick'))} <span class="${confClass[p.confidence] || ''}">(${esc(confLabel[p.confidence] || '')})</span></div>
         ${probHtml}
-        ${p.reason_mm ? `<div class="pred-reason">${esc(p.reason_mm)}</div>` : ''}
+        ${enf(p, 'en_reason', 'reason_mm') ? `<div class="pred-reason">${esc(enf(p, 'en_reason', 'reason_mm'))}</div>` : ''}
         ${socialButtons(p.home + '-' + p.away + '-' + (p.date || ''), p.home + ' vs ' + p.away)}
       </div>`;
     }).join('');
@@ -729,16 +736,16 @@ async function renderNews() {
     html += `<div class="empty">News coming soon.</div>`;
   } else {
     html += items.map((n) => {
-      const body = esc(n.body_mm || '').replace(/\n/g, '<br>');
+      const body = esc(enf(n, 'body', 'body_mm')).replace(/\n/g, '<br>');
       const when = n.published ? esc(new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(n.published))) : '';
       return `
-      <article class="news-card" data-search="${esc((n.title_mm || '') + ' ' + (n.body_mm || '')).toLowerCase()}">
+      <article class="news-card" data-search="${esc((enf(n, 'title', 'title_mm') + ' ' + enf(n, 'body', 'body_mm')).toLowerCase())}">
         ${n.image ? `<img class="news-img" src="${esc(n.image)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
         <div class="news-body">
-          <h3 class="news-title">${esc(n.title_mm || '')}</h3>
+          <h3 class="news-title">${esc(enf(n, 'title', 'title_mm'))}</h3>
           <div class="news-text">${body}</div>
           <div class="news-meta">📰 ${esc(n.source || '')}${when ? ' • ' + when : ''}${n.fb_url ? ` • <a href="${esc(n.fb_url)}" target="_blank" rel="noopener">View on Facebook</a>` : ''}</div>
-          ${socialButtons(n.id || '', n.title_mm || '')}
+          ${socialButtons(n.id || '', enf(n, 'title', 'title_mm'))}
         </div>
       </article>`;
     }).join('');
@@ -888,16 +895,16 @@ async function renderAnalyses() {
     html += `<div class="empty">Analysis pieces coming soon.</div>`;
   } else {
     html += items.map((a) => {
-      const body = esc(a.body_mm || '').replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>');
+      const body = esc(enf(a, 'en_body', 'body_mm')).replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>');
       const score = (a.home_score != null && a.away_score != null) ? `${a.home_score} - ${a.away_score}` : '';
-      const searchText = ((a.title_mm || "") + " " + (a.home_mm || a.home || "") + " " + (a.away_mm || a.away || "") + " " + (a.league_mm || a.league || "") + " " + (a.body_mm || "")).toLowerCase();
+      const searchText = (enf(a, "en_title", "title_mm") + " " + (a.home || "") + " " + (a.away || "") + " " + (a.league || "") + " " + enf(a, "en_body", "body_mm")).toLowerCase();
       return `
       <article class="analysis-card" data-search="${esc(searchText)}">
-        <h3 class="analysis-title">${esc(a.title_mm || '')}</h3>
-        <div class="analysis-score">${esc(a.home_mm || a.home || '')} <b>${esc(score)}</b> ${esc(a.away_mm || a.away || '')}</div>
-        <div class="analysis-meta">🏆 ${esc(a.league_mm || a.league || '')}${a.date ? ' • ' + esc(a.date) : ''}</div>
+        <h3 class="analysis-title">${esc(enf(a, 'en_title', 'title_mm'))}</h3>
+        <div class="analysis-score">${esc(a.home || '')} <b>${esc(score)}</b> ${esc(a.away || '')}</div>
+        <div class="analysis-meta">🏆 ${esc(a.league || '')}${a.date ? ' • ' + esc(a.date) : ''}</div>
         <div class="analysis-text"><p>${body}</p></div>
-        ${socialButtons(a.id || '', a.title_mm || '')}
+        ${socialButtons(a.id || '', enf(a, 'en_title', 'title_mm'))}
       </article>`;
     }).join('');
   }
