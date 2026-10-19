@@ -1,48 +1,5 @@
 {
-  "predictions": [
-    {
-      "home": "Parma",
-      "away": "Torino",
-      "league": "Serie A",
-      "date": "2026-10-20T01:15:00+06:30",
-      "pick": "တိုရီနို အနိုင်",
-      "pick_en": "Torino win",
-      "confidence": "low",
-      "prob_home": 30,
-      "prob_draw": 32,
-      "prob_away": 38,
-      "reason_mm": "ပါမာက အဆင့် ၁၈ မှာ ရပ်တည်နေပြီး အင်တာကို ၃-၀ ရှုံးအပြီးမှာ နည်းပြ ကာလို့စ် ကူအက်စတာကို ထုတ်ပယ်ကာ ဂီလာဒီနို အစားခန့်ထားလို့ ဒါဟာ နည်းပြသစ်ရဲ့ ပထမဆုံးပွဲ ဖြစ်မယ်။ အိမ်ကွင်း ၃ ပွဲမှာ ၁နိုင် ၁သရေ ၁ရှုံး (၃-၃) ဖြစ်ပြီး လိဂ် ၆ ပွဲလုံး ဂိုးပေးခဲ့ရတယ်။ ဒဏ်ရာလည်း များနေတယ် — အယ်လ်ဖက်ဂျ် (အူအတက်ခွဲစိတ်မှု)၊ အမ်းကဗစ်စ်၊ ကာဗီလီယာ တို့ လွဲမယ်။ တိုရီနိုက ၁၂ နေရာမှာ ရှိနေပြီး နောက်ဆုံး ၂ ပွဲမှာ ရှုံးပွဲမရှိ (ဥဒီနိစ်ကို ၂-၁ နိုင်၊ ဘိုလော့နာနဲ့ ၁-၁ သရေ)၊ အဝေးကွင်းလည်း ၁နိုင် ၁သရေ ၁ရှုံးနဲ့ မဆိုးဘူး။ ထိပ်တိုက်တွေ့ဆုံမှု နောက်ဆုံးပွဲမှာ တိုရီနို ၄-၁ နဲ့ နိုင်ခဲ့ပြီး နောက်ဆုံး ၇ ကြိမ်မှာ ၅ ကြိမ် အရင်ဂိုးသွင်းခဲ့တယ်။ အနိုင်ရ အလားအလာ — ပါမာ 30%, သရေ 32%, တိုရီနို 38% (ခန့်မှန်းချက်သာ — သေချာတာ မဟုတ်)",
-      "en_reason": "Parma sacked Carlos Cuesta after the 3-0 loss at Inter and appointed Alberto Gilardino, so this is the new manager's first game — a possible bounce, but the squad is thin with Elphege (appendicitis surgery), Almqvist and Nicolussi Caviglia out, and they've conceded in all six league games. Torino are unbeaten in two (2-1 vs Udinese, 1-1 at Bologna), solid away (1W 1D 1L), won the last meeting 4-1 and have scored first in five of the last seven H2Hs. Expect a cagey, low-scoring game — both rank bottom-three for shots on target — with Torino's experience edging it. (Prediction only — nothing is certain.)"
-    },
-    {
-      "league": "Serie A",
-      "home": "Monza",
-      "away": "Cagliari",
-      "date": "2026-10-19T23:00:00+06:30",
-      "pick": "ကာလိယာရီ အနိုင် (40%)",
-      "pick_en": "Cagliari win",
-      "confidence": "medium",
-      "prob_home": 28,
-      "prob_draw": 32,
-      "prob_away": 40,
-      "reason_mm": "ကာလိယာရီဟာ ဒီရာသီ အဝေးကွင်း 3 ပွဲကစားပြီး 3 ပွဲလုံးနိုင်ထားတယ် (ပါးမား 1-0, အတ္တလန္တာ 2-1, အူဒီနီဇီ 1-0) — ပေးဂိုး 3 ဂိုးသာ၊ လိဂ်မှာ အနည်းဆုံး။ နောက် 4 ပွဲမှာ ရှုံးပွဲမရှိ (3 နိုင်ပွဲ 1 သရေ)၊ Daniel Maldini က 4 ပွဲဆက် ဂိုးသွင်းနေပါတယ်။ မွန်ဇာက 6 ပွဲမှာ 4 ပွဲရှုံး (ပေးဂိုး 15 ဂိုး)၊ Matteo Pessina ဒဏ်ရာရ၊ Lorenzo Lucchesi ပွဲပယ်ခံထားရ၊ H2H နောက် 4 ပွဲမှာ ကာလိယာရီ 2 ကြိမ်နိုင်။ ဂိုးနည်းနိုင်ခြေမြင့် — ကာလိယာရီ 6 ပွဲမှာ 5 ပွဲ under 2.5။",
-      "en_reason": "Cagliari have won all three away games this season (Parma 1-0, Atalanta 2-1, Udinese 1-0) and conceded only three goals total — the fewest in Serie A. They are unbeaten in four (3 wins, 1 draw), and Daniel Maldini has scored in four consecutive matches. Monza have lost four of six, conceding 15 goals; Matteo Pessina is injured and Lorenzo Lucchesi is suspended. Head-to-head: Cagliari won two of the last four meetings. Expect a low-scoring game — five of Cagliari's six matches went under 2.5 goals."
-    },
-    {
-      "league": "La Liga",
-      "home": "Getafe",
-      "away": "Rayo Vallecano",
-      "date": "2026-10-20T01:30:00+06:30",
-      "pick": "သရေ",
-      "pick_en": "Draw",
-      "confidence": "medium",
-      "prob_home": 32,
-      "prob_draw": 38,
-      "prob_away": 30,
-      "reason_mm": "ဂီတာဖေ့ဟာ အိမ်ကွင်း ၄ ပွဲမှာ ရှုံးပွဲမရှိ (၂နိုင် ၂သရေ၊ ပေးဂိုး ၂ ဂိုးသာ) — ဒါပေမယ့် လိဂ် ၈ ပွဲမှာ ဂိုး ၄ ဂိုးသာ သွင်းထားလို့ တိုက်စစ်က အဆိုးဆုံးအဆင့်၊ ဦးချီ (အူအတက်ခွဲစိတ်မှု)၊ ဟွန်းမီ (ဒူး)၊ ဇာအစ် ရိုမဲရို (ပေါင်ခြံ) တို့ ဒဏ်ရာရ၊ ကြာသပတေးနေ့က ရိုမေးနီးယားမှာ ကွန်ဖရင့်လိဂ် (ခရိုင်အိုဗာ ၁-၁) ကစားခဲ့လို့ ပင်ပန်းမှုရှိနိုင်တယ်။ ရာယိုက အဝေးကွင်း ၄ ပွဲမှာ နိုင်ပွဲမရှိ (၁သရေ ၃ရှုံး၊ ပေးဂိုး ၁၂ ဂိုး)၊ ဒါပေမယ့် ဆာဂျီယို ကာမယ်လိုက ၇ ပွဲမှာ ၇ ဂိုးသွင်းနေပြီး ဖောင်အကောင်းဆုံး တိုက်စစ်မှူးဖြစ်နေတယ် — ဂိုးသမားအဓိက ဘာတာယာ (ခြေထောက်ကျိုး) ဒဏ်ရာရနေတာတော့ ဆိုးရွားတယ်။ ထိပ်တိုက်တွေ့ဆုံမှု နောက်ဆုံး ၅ ပွဲမှာ ဂီတာဖေ့ နိုင်ပွဲမရှိ (ရာယို ၂နိုင် ၃သရေ)၊ ၉ ပွဲဆက် ဂိုး ၂.၅ အောက် ပြီးခဲ့တယ်။ နှစ်သင်းလုံး ၈ မှတ်စီနဲ့ ဆင်းတန်းဇုန်အထက် ၁ မှတ်သာ ကွာလို့ ဒါဘီပွဲ ဖိအားများမယ်။ အနိုင်ရ အလားအလာ — ဂီတာဖေ့ 32%, သရေ 38%, ရာယို ဗယ်လေကာနို 30% (ခန့်မှန်းချက်သာ — သေချာတာ မဟုတ်)",
-      "en_reason": "Getafe are unbeaten at home this season (2W 2D, only 2 conceded at the Coliseum) but have the joint-worst attack in La Liga (4 goals in 8 games), a long injury list - Uche (cruciate), Juanmi (knee), Zaid Romero (quad) - and heavy legs after Thursday's Conference League trip to Romania (1-1 at Universitatea Craiova). Rayo are winless away (1D 3L, 12 conceded) yet carry the game's one genuine difference-maker in Sergio Camello (7 goals in 7 league apps), though first-choice keeper Batalla (broken leg) is a big miss. Getafe are winless in the last 10 meetings (Rayo 2W 3D in the last five) and nine straight H2Hs finished under 2.5 goals. Both sit on 8 points, one above the drop zone, so expect an edgy Madrid derby - 1-1 the most likely scoreline. Probabilities: Getafe 32%, draw 38%, Rayo 30% (prediction only, not guaranteed)."
-    }
-  ],
-  "source": "KZZ Football Analysis",
-  "updated": "2026-10-19"
+ "predictions": [],
+ "source": "KZZ Football Analysis",
+ "updated": "2026-10-20"
 }
