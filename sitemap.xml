@@ -19,6 +19,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-19-bayern-diaz-leipzig.html</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-19-scotland-roundup.html</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-19-ronaldo-portugal-row.html</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
@@ -26,6 +38,12 @@
   </url>
   <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-19-maguire-martinez.html</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-19-wsl-roundup.html</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -115,25 +133,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-19-ramos-getafe.html</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-19-parrott-manutd.html</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-19-infantino-fifa.html</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-19-europe-roundup.html</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
