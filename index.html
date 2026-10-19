@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="my">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KZZ Football Live — Live Football Scores, Fixtures & Predictions</title>
-<meta name="description" content="Live football scores, fixtures, results, standings, predictions and news — KZZ Football Live. Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Champions League.">
+<title>KZZ Football Live — ဘောလုံးတိုက်ရိုက် Live Scores</title>
+<meta name="description" content="ဘောလုံး live scores, ပွဲစဉ်၊ ရလဒ်၊ အဆင့်ဇယား နှင့် ပွဲကြိုခန့်မှန်းချက်များ — KZZ Football Analysis">
 <link rel="canonical" href="https://luuzoe.github.io/kzzfootballive/">
 <meta name="theme-color" content="#0d2417">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="KZZ Football Live">
-<meta property="og:title" content="KZZ Football Live — Live Football Scores">
-<meta property="og:description" content="Live scores • Fixtures • Results • Standings • Predictions • News — KZZ Football Live">
+<meta property="og:title" content="KZZ Football Live — ဘောလုံးတိုက်ရိုက်">
+<meta property="og:description" content="Live scores • ပွဲစဉ် • ရလဒ် • အဆင့်ဇယား • ပွဲကြိုခန့်မှန်းချက် — KZZ Football Analysis">
 <meta property="og:url" content="https://luuzoe.github.io/kzzfootballive/">
 <meta property="og:image" content="https://luuzoe.github.io/kzzfootballive/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -35,39 +35,39 @@
 </head>
 <body>
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/my_MM/sdk.js#xfbml=1&version=v18.0"></script>
 <header class="site-header">
   <div class="header-inner">
     <div class="brand">
       <span class="brand-ball">⚽</span>
       <div>
         <h1>KZZ Football Live</h1>
-        <p class="tagline">Live Football — Scores • Fixtures • Standings • Predictions</p>
+        <p class="tagline">ဘောလုံးတိုက်ရိုက် — Live Scores • Fixtures • Standings • Predictions</p>
       </div>
     </div>
-    <div class="header-note">All times shown in Yangon time (UTC+6:30) <button class="theme-btn" id="themeBtn" onclick="toggleTheme()" title="Light/Dark">🌙</button></div>
+    <div class="header-note">မြန်မာစံတော်ချိန် ပြသထားသည် <button class="theme-btn" id="themeBtn" onclick="toggleTheme()" title="အလင်း/အမှောင်">🌙</button></div>
   </div>
 </header>
 
 <nav class="league-bar" id="leagueBar" aria-label="Leagues"></nav>
 
 <nav class="tab-bar" id="tabBar" aria-label="Sections">
-  <button class="tab active" data-tab="live">🔴 Live</button>
-  <button class="tab" data-tab="fixtures">📅 Fixtures</button>
-  <button class="tab" data-tab="results">✅ Results</button>
-  <button class="tab" data-tab="lineups">👥 Lineups</button>
-  <button class="tab" data-tab="standings">📊 Standings</button>
-  <button class="tab" data-tab="predictions">🔮 Predictions</button>
-  <button class="tab" data-tab="news">📰 News</button>
-  <button class="tab" data-tab="analyses">📝 Match Analysis</button>
-  <button class="tab" data-tab="highlights">🎬 Highlights</button>
-  <button class="tab" data-tab="scorers">🥇 Top Scorers</button>
+  <button class="tab active" data-tab="live">🔴 တိုက်ရိုက်</button>
+  <button class="tab" data-tab="fixtures">📅 ပွဲစဉ်</button>
+  <button class="tab" data-tab="results">✅ ရလဒ်</button>
+  <button class="tab" data-tab="lineups">👥 လူစာရင်း</button>
+  <button class="tab" data-tab="standings">📊 အဆင့်</button>
+  <button class="tab" data-tab="predictions">🔮 ပွဲကြို ခန့်မှန်း သုံးသပ်ချက်</button>
+  <button class="tab" data-tab="news">📰 သတင်း</button>
+  <button class="tab" data-tab="analyses">📝 ပွဲပြီး သုံးသပ်ချက်</button>
+  <button class="tab" data-tab="highlights">🎬 ဟိုက်လိုက်</button>
+  <button class="tab" data-tab="scorers">🥇 ဂိုးသွင်းအများဆုံး</button>
 </nav>
 
 <div class="fav-bar" id="favBar">
-  <span>⭐ Favorite team:</span>
-  <select id="favSelect"><option value="">— Select —</option></select>
-  <button id="favClear" title="Clear" style="display:none">✕</button>
+  <span>⭐ အကြိုက်ဆုံးအသင်း:</span>
+  <select id="favSelect"><option value="">— ရွေးပါ —</option></select>
+  <button id="favClear" title="ဖျက်မယ်" style="display:none">✕</button>
 </div>
 
 <div class="modal-backdrop" id="modalBackdrop" style="display:none">
@@ -75,7 +75,7 @@
 </div>
 
 <main class="content" id="content">
-  <div class="loading">Loading data…</div>
+  <div class="loading">ဒေတာဆွဲနေသည်…</div>
 </main>
 
 <!-- AdSense ad slot: ca-pub-4388974491023298 -->
@@ -89,23 +89,23 @@
 </div>
 
 <footer class="site-footer">
-  <p>🏆 Leagues:
-    <a href="/kzzfootballive/leagues/premier-league.html">Premier League</a> •
-    <a href="/kzzfootballive/leagues/la-liga.html">La Liga</a> •
-    <a href="/kzzfootballive/leagues/serie-a.html">Serie A</a> •
-    <a href="/kzzfootballive/leagues/bundesliga.html">Bundesliga</a> •
-    <a href="/kzzfootballive/leagues/ligue-1.html">Ligue 1</a> •
-    <a href="/kzzfootballive/leagues/eredivisie.html">Eredivisie</a> •
-    <a href="/kzzfootballive/leagues/primeira-liga.html">Primeira Liga</a> •
-    <a href="/kzzfootballive/leagues/champions-league.html">Champions League</a> •
-    <a href="/kzzfootballive/leagues/europa-league.html">Europa League</a>
+  <p>🏆 လိဂ်များ:
+    <a href="/kzzfootballive/leagues/premier-league.html">ပရီးမီးယားလိဂ်</a> •
+    <a href="/kzzfootballive/leagues/la-liga.html">လာလီဂါ</a> •
+    <a href="/kzzfootballive/leagues/serie-a.html">စီးရီးအေ</a> •
+    <a href="/kzzfootballive/leagues/bundesliga.html">ဘွန်ဒက်စ်လီဂါ</a> •
+    <a href="/kzzfootballive/leagues/ligue-1.html">လီဂူး ၁</a> •
+    <a href="/kzzfootballive/leagues/eredivisie.html">အရီဒီဗီစီ</a> •
+    <a href="/kzzfootballive/leagues/primeira-liga.html">ပရိုင်းရာလီဂါ</a> •
+    <a href="/kzzfootballive/leagues/champions-league.html">ချန်ပီယံလိဂ်</a> •
+    <a href="/kzzfootballive/leagues/europa-league.html">ယူရိုပါလိဂ်</a>
   </p>
-  <p><a href="/#predictions">🔮 Predictions</a> • <a href="/#news">📰 News</a> • <a href="/about.html">About</a> • <a href="/privacy.html">Privacy Policy</a></p>
-  <p>Scores & fixtures data — ESPN public API • No live video streams</p>
+  <p><a href="/#predictions">🔮 ခန့်မှန်းချက်</a> • <a href="/#news">📰 သတင်း</a> • <a href="/about.html">About</a> • <a href="/privacy.html">Privacy Policy</a></p>
+  <p>ရမှတ်/ပွဲစဉ် ဒေတာများ — ESPN public API • ဗီဒီယို တိုက်ရိုက်ထုတ်လွှင့်မှု မပါဝင်ပါ</p>
   <p>KZZ Football Analysis • <span id="updatedAt"></span><span id="appVer"></span></p>
-  <p><a href="contact.html">📩 Contact</a> • <a href="terms.html">📜 Terms</a> • <a href="privacy.html">🔒 Privacy</a> • <a href="about.html">ℹ️ About</a></p>
+  <p><a href="contact.html">📩 ဆက်သွယ်ရန်</a> • <a href="terms.html">📜 စည်းကမ်းချက်များ</a> • <a href="privacy.html">🔒 ကိုယ်ရေးကိုယ်တာ</a> • <a href="about.html">ℹ️ အကြောင်း</a></p>
 </footer>
 
-<script src="app.js?v=142"></script>
+<script src="app.js?v=143"></script>
 </body>
 </html>

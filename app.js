@@ -3,26 +3,26 @@
    Predictions: local predictions.json (edit the file, re-upload to update). */
 
 const LEAGUES = [
-  { id: 'eng.1',          name: 'Premier League', icon: '🇬🇧' },
-  { id: 'esp.1',          name: 'La Liga',           icon: '🇪🇸' },
-  { id: 'ita.1',          name: 'Serie A',          icon: '🇮🇹' },
-  { id: 'ger.1',          name: 'Bundesliga',    icon: '🇩🇪' },
-  { id: 'fra.1',          name: 'Ligue 1',         icon: '🇫🇷' },
-  { id: 'ned.1',          name: 'Eredivisie',      icon: '🇳🇱' },
-  { id: 'por.1',          name: 'Primeira Liga',   icon: '🇵🇹' },
-  { id: 'uefa.champions', name: 'Champions League',            icon: '⭐' },
-  { id: 'uefa.europa',   name: 'Europa League',             icon: '🟠' },
+  { id: 'eng.1',          name: 'Premier League',   mm: 'အင်္ဂလန် ပရီးမီးယားလိဂ်', icon: '🇬🇧' },
+  { id: 'esp.1',          name: 'La Liga',          mm: 'စပိန် လာလီဂါ',           icon: '🇪🇸' },
+  { id: 'ita.1',          name: 'Serie A',          mm: 'အီတလီ စီးရီးအေ',          icon: '🇮🇹' },
+  { id: 'ger.1',          name: 'Bundesliga',       mm: 'ဂျာမန် ဘွန်ဒက်စ်လီဂါ',    icon: '🇩🇪' },
+  { id: 'fra.1',          name: 'Ligue 1',          mm: 'ပြင်သစ် လီဂူး ၁',         icon: '🇫🇷' },
+  { id: 'ned.1',          name: 'Eredivisie',       mm: 'နယ်သာလန် အရီဒီဗီစီ',      icon: '🇳🇱' },
+  { id: 'por.1',          name: 'Primeira Liga',    mm: 'ပေါ်တူဂီ ပရိုင်းရာလီဂါ',   icon: '🇵🇹' },
+  { id: 'uefa.champions', name: 'Champions League', mm: 'ချန်ပီယံလိဂ်',            icon: '⭐' },
+  { id: 'uefa.europa',   name: 'Europa League',    mm: 'ယူရိုပါလိဂ်',             icon: '🟠' },
 ];
 
-const APP_VERSION = 14; // bump on every deploy
+const APP_VERSION = 15; // bump on every deploy
 
 const TABS = {
-  live:        '🔴 Live',
-  fixtures:    '📅 Fixtures',
-  results:     '✅ Results',
-  standings:   '📊 Standings',
-  predictions: '🔮 Predictions',
-  news:        '📰 News',
+  live:        '🔴 တိုက်ရိုက်',
+  fixtures:    '📅 ပွဲစဉ်',
+  results:     '✅ ရလဒ်',
+  standings:   '📊 အဆင့်',
+  predictions: '🔮 ခန့်မှန်းချက်',
+  news:        '📰 သတင်း',
 };
 
 let state = { league: 'all', tab: 'live', timer: null, standView: 'table' };
@@ -35,7 +35,9 @@ let favTeamId = null;
 try { favTeamId = localStorage.getItem(FAV_KEY) || null; } catch (e) {}
 
 function teamMm(t) {
-  // t: {id, abbr, name, full} — English names only
+  // t: {id, abbr, name, full}
+  const rec = t && t.id && TEAMS_MM[t.id];
+  if (rec && rec.mm) return `<span class="nm-mm">${esc(rec.mm)}</span> <span class="nm-en">${esc(rec.abbr || t.abbr || '')}</span>`;
   return `<span class="nm-en-only">${esc((t && (t.name || t.full)) || '')}</span>`;
 }
 function isFavMatch(m) {
@@ -46,15 +48,15 @@ function sortFavFirst(matches) {
 }
 function favDisplayName() {
   const rec = favTeamId && TEAMS_MM[favTeamId];
-  if (rec && rec.en) return rec.en;
+  if (rec && rec.mm) return rec.mm;
   const sel = $('#favSelect');
   if (sel && sel.selectedIndex > 0) return sel.options[sel.selectedIndex].text;
   return '';
 }
 function favSectionHtml(favMs, cardsHtml, emptyMsg) {
   if (!favTeamId) return '';
-  const fn = favDisplayName() || 'Your team';
-  if (favMs.length) return `<div class="date-group">⭐ ${esc(fn)} Matches</div>${cardsHtml}`;
+  const fn = favDisplayName() || 'မင်းအသင်း';
+  if (favMs.length) return `<div class="date-group">⭐ ${esc(fn)} ရဲ့ပွဲများ</div>${cardsHtml}`;
   return `<div class="fav-empty">⭐ ${esc(fn)} — ${emptyMsg}</div>`;
 }
 
@@ -153,7 +155,7 @@ function goalsHtml(m) {
     }).join('');
     return `<div class="goal-col ${cls}">${rows}</div>`;
   };
-  return `<div class="goals"><div class="goals-title">Goalscorers</div><div class="goals-split">${col(hg, 'left')}${col(ag, 'right')}</div></div>`;
+  return `<div class="goals"><div class="goals-title">ဂိုးသွင်းသူများ</div><div class="goals-split">${col(hg, 'left')}${col(ag, 'right')}</div></div>`;
 }
 
 function fmtClock(totalSec, period) {
@@ -186,7 +188,7 @@ function matchCard(m) {
   const isLive = m.state === 'in';
   const isPost = m.state === 'post';
   const badge = isLive
-    ? `<span class="badge-live">🔴 LIVE</span>`
+    ? `<span class="badge-live">🔴 တိုက်ရိုက်</span>`
     : isPost
       ? `<span class="badge-ft">${esc(m.detail || 'FT')}</span>`
       : `<span class="badge-pre">${esc(fmtDateTime(m.date))}</span>`;
@@ -202,8 +204,8 @@ function matchCard(m) {
     else if (mode === 'tick') liveClock = `<div class="match-clock" data-sec="${m.clockSec}" data-period="${m.period || 0}" data-t0="${Date.now()}">⏱ ${fmtClock(m.clockSec, m.period)}</div>`;
   }
   return `
-  <div class="match-card${isLive ? ' live-now' : ''}${isFavMatch(m) ? ' fav-match' : ''}" onclick="openMatchDetail('${esc(m.id)}')" style="cursor:pointer" title="Click for match details">
-    <div class="match-top">${badge}<span>${esc(fmtDate(m.date))}</span>${!isLive && !isPost ? `<button class="remind-btn" onclick="event.stopPropagation();toggleReminder('${esc(m.id)}','${esc(teamMm(m.home))} vs ${esc(teamMm(m.away))}','${esc(m.date)}')" title="Set reminder">🔔</button>` : ''}</div>
+  <div class="match-card${isLive ? ' live-now' : ''}${isFavMatch(m) ? ' fav-match' : ''}" onclick="openMatchDetail('${esc(m.id)}')" style="cursor:pointer" title="အသေးစိတ်ကြည့်ရန် နှိပ်ပါ">
+    <div class="match-top">${badge}<span>${esc(fmtDate(m.date))}</span>${!isLive && !isPost ? `<button class="remind-btn" onclick="event.stopPropagation();toggleReminder('${esc(m.id)}','${esc(teamMm(m.home))} vs ${esc(teamMm(m.away))}','${esc(m.date)}')" title="သတိပေးချက်">🔔</button>` : ''}</div>
     <div class="match-teams">
       <div class="team home">${logo(m.home)}<span>${teamMm(m.home)}${favBadge(m.home)}</span></div>
       ${score}
@@ -212,15 +214,15 @@ function matchCard(m) {
     ${liveClock}
     ${m.venue ? `<div class="match-venue">🏟 ${esc(m.venue)}</div>` : ''}
     ${goalsHtml(m)}
-    <div class="tap-hint">👆 Tap for lineups, goals/cards & detailed stats</div>
+    <div class="tap-hint">👆 နှိပ်၍ အသေးစိတ် (lineup • stats) ကြည့်ရန်</div>
   </div>`;
 }
 
 function showLoading(msg) {
-  content.innerHTML = `<div class="loading">${esc(msg || 'Loading data…')}</div>`;
+  content.innerHTML = `<div class="loading">${esc(msg || 'ဒေတာဆွဲနေသည်…')}</div>`;
 }
 function showError(msg) {
-  content.innerHTML = `<div class="error">${esc(msg || 'Could not load data.')}<br><button onclick="loadTab()">🔄 Try again</button></div>`;
+  content.innerHTML = `<div class="error">${esc(msg || 'ဒေတာဆွဲမရသေးပါ။')}<br><button onclick="loadTab()">🔄 ပြန်ကြိုးစားမယ်</button></div>`;
 }
 
 // Fetch scoreboard: if state.league is 'all', fetch all leagues and merge events
@@ -237,12 +239,12 @@ async function fetchScoreboard(dates) {
   return { events };
 }
 function leagueName() {
-  if (state.league === 'all') return '🌍 All';
+  if (state.league === 'all') return '🌍 အားလုံး';
   const l = LEAGUES.find((x) => x.id === state.league);
-  return l ? `${l.icon} ${l.name}` : '';
+  return l ? `${l.icon} ${l.mm}` : '';
 }
 function stamp() {
-  $('#updatedAt').textContent = 'Last updated: ' + new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date()) + ' (Yangon time, UTC+6:30)';
+  $('#updatedAt').textContent = 'နောက်ဆုံးအပ်ဒိတ်: ' + new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date()) + ' (မြန်မာစံတော်ချိန်)';
 }
 
 /* ---------- tabs ---------- */
@@ -254,12 +256,12 @@ async function renderLive() {
   if (!matches.length) {
     content.innerHTML = `
       <h2 class="section-title">${leagueName()}</h2>
-      <div class="empty">No live matches right now.<br>Check the Fixtures tab for upcoming games.</div>
-      <div class="refresh-line">Auto-refreshes every 60 seconds <button onclick="loadTab()">🔄 Refresh now</button></div>`;
+      <div class="empty">ယခု တိုက်ရိုက်ကစားနေတဲ့ပွဲ မရှိသေးပါ။<br>ပွဲစဉ် tab မှာ လာမယ့်ပွဲတွေ ကြည့်နိုင်ပါတယ်။</div>
+      <div class="refresh-line">စက္ကန့် ၆၀ တိုင်း အလိုအလျောက် ပြန်ဆွဲမယ်<button onclick="loadTab()">🔄 ယခုပြန်ဆွဲမယ်</button></div>`;
   } else {
     content.innerHTML = `
-      <h2 class="section-title">${leagueName()} — Live (${matches.length} matches)</h2>
-      <div class="refresh-line">Auto-refreshes every 60 seconds <button onclick="loadTab()">🔄 Refresh now</button></div>
+      <h2 class="section-title">${leagueName()} — တိုက်ရိုက် (${matches.length} ပွဲ)</h2>
+      <div class="refresh-line">စက္ကန့် ၆၀ တိုင်း အလိုအလျောက် ပြန်ဆွဲမယ်<button onclick="loadTab()">🔄 ယခုပြန်ဆွဲမယ်</button></div>
       ${matches.map(matchCard).join('')}`;
   }
   stamp();
@@ -283,10 +285,10 @@ async function renderFixtures() {
   matches.sort((a, b) => new Date(a.date) - new Date(b.date));
   const favMs = matches.filter(isFavMatch);
   if (!matches.length) {
-    content.innerHTML = `<h2 class="section-title">${leagueName()}</h2><div class="empty">No fixtures in the next 7 days.</div>`;
+    content.innerHTML = `<h2 class="section-title">${leagueName()}</h2><div class="empty">နောက် ၇ ရက်အတွင်း ပွဲစဉ် မရှိပါ။</div>`;
   } else {
-    let html = `<h2 class="section-title">${leagueName()} — Upcoming Fixtures</h2>`;
-    html += favSectionHtml(favMs, favMs.map(matchCard).join(''), 'No fixtures in the next 7 days');
+    let html = `<h2 class="section-title">${leagueName()} — လာမယ့်ပွဲစဉ်များ</h2>`;
+    html += favSectionHtml(favMs, favMs.map(matchCard).join(''), 'နောက် ၇ ရက်အတွင်း ပွဲစဉ် မရှိပါ');
     let lastDay = '';
     matches.forEach((m) => {
       const day = fmtDate(m.date);
@@ -316,10 +318,10 @@ async function renderResults() {
   matches.sort((a, b) => new Date(b.date) - new Date(a.date));
   const favMs = matches.filter(isFavMatch);
   if (!matches.length) {
-    content.innerHTML = `<h2 class="section-title">${leagueName()}</h2><div class="empty">No recent results.</div>`;
+    content.innerHTML = `<h2 class="section-title">${leagueName()}</h2><div class="empty">ပြီးခဲ့တဲ့ရလဒ် မရှိပါ။</div>`;
   } else {
-    let html = `<h2 class="section-title">${leagueName()} — Recent Results</h2>`;
-    html += favSectionHtml(favMs, favMs.map(matchCard).join(''), 'No matches in the last few days');
+    let html = `<h2 class="section-title">${leagueName()} — ပြီးခဲ့တဲ့ရလဒ်များ</h2>`;
+    html += favSectionHtml(favMs, favMs.map(matchCard).join(''), 'ပြီးခဲ့တဲ့ရက်ပိုင်းမှာ ပွဲမရှိပါ');
     let lastDay = '';
     matches.slice(0, 30).forEach((m) => {
       const day = fmtDate(m.date);
@@ -347,17 +349,17 @@ async function renderLineups() {
   }));
   matches.sort((a, b) => new Date(a.date) - new Date(b.date));
   if (!matches.length) {
-    content.innerHTML = `<h2 class="section-title">${leagueName()} — 👥 Lineups</h2>
-      <div class="empty">No matches in the next 6 hours.<br>Lineups are published 1 hour before kickoff.</div>`;
+    content.innerHTML = `<h2 class="section-title">${leagueName()} — 👥 လူစာရင်း</h2>
+      <div class="empty">နောက် ၆ နာရီအတွင်း ပွဲမရှိပါ။<br>လူစာရင်းများကို ပွဲမစမီ ၁ နာရီအလိုတွင် ထုတ်ပြန်ပါသည်။</div>`;
     stamp();
     return;
   }
   const limited = matches.slice(0, 12);
-  content.innerHTML = `<h2 class="section-title">${leagueName()} — 👥 Starting Lineups</h2>
-    <div class="empty">Lineups are published 1 hour before kickoff.</div>
+  content.innerHTML = `<h2 class="section-title">${leagueName()} — 👥 ပွဲထွက်လူစာရင်း</h2>
+    <div class="empty">လူစာရင်းများကို ပွဲမစမီ ၁ နာရီအလိုတွင် ထုတ်ပြန်ပါသည်။</div>
     ${limited.map((m) => `<div class="lineup-match" id="lu-${esc(m.id)}">
       <div class="lineup-match-head"><b>${esc(teamMm(m.home))} vs ${esc(teamMm(m.away))}</b><span>${esc(fmtDateTime(m.date))}</span></div>
-      <div class="loading">Loading lineups…</div>
+      <div class="loading">လူစာရင်း ဆွဲနေသည်…</div>
     </div>`).join('')}`;
   stamp();
   await Promise.all(limited.map(async (m) => {
@@ -367,13 +369,13 @@ async function renderLineups() {
       const d = await getJSON(`https://site.api.espn.com/apis/site/v2/sports/soccer/all/summary?event=${encodeURIComponent(m.id)}`);
       const rosters = d.rosters || [];
       if (!rosters.length) {
-        el.querySelector('.loading').outerHTML = '<div class="empty">Lineups not out yet.</div>';
+        el.querySelector('.loading').outerHTML = '<div class="empty">လူစာရင်း မထွက်သေးပါ။</div>';
         return;
       }
       const cols = rosters.map((r) => {
         const t = r.team || {};
         const rec = t.id && TEAMS_MM[t.id];
-        const tnm = rec && rec.en ? rec.en : (t.shortDisplayName || t.displayName || '');
+        const tnm = rec && rec.mm ? rec.mm : (t.shortDisplayName || t.displayName || '');
         const starters = (r.roster || []).filter((p) => p.starter);
         const subs = (r.roster || []).filter((p) => !p.starter);
         const pRow = (p) => {
@@ -382,13 +384,13 @@ async function renderLineups() {
           return `<div class="lu-row"><span class="lu-j">${esc(p.jersey != null ? p.jersey : '')}</span><span>${esc(a.displayName || a.shortName || '')}</span>${pos}</div>`;
         };
         return `<div class="lu-team"><div class="lu-title">${esc(tnm)}${r.formation ? ` <span class="form">(${esc(r.formation)})</span>` : ''}</div>
-          <div class="lu-sec">Starting XI</div>${starters.map(pRow).join('') || '<div class="empty">—</div>'}
-          ${subs.length ? `<div class="lu-sec">Substitutes</div>${subs.map(pRow).join('')}` : ''}</div>`;
+          <div class="lu-sec">ပွဲထွက်လူစာရင်း</div>${starters.map(pRow).join('') || '<div class="empty">—</div>'}
+          ${subs.length ? `<div class="lu-sec">အရံခုံ</div>${subs.map(pRow).join('')}` : ''}</div>`;
       }).join('');
       el.querySelector('.loading').outerHTML = `<div class="lu-cols">${cols}</div>`;
     } catch (e) {
       const ld = el.querySelector('.loading');
-      if (ld) ld.outerHTML = '<div class="empty">Could not load lineups.</div>';
+      if (ld) ld.outerHTML = '<div class="empty">လူစာရင်း ဆွဲမရပါ။</div>';
     }
   }));
 }
@@ -396,9 +398,9 @@ async function renderLineups() {
 async function renderStandings() {
   const sub = `
     <div class="sub-tabs">
-      <button class="sub-tab${state.standView === 'table' ? ' active' : ''}" onclick="setStandView('table')">📊 Standings</button>
-      <button class="sub-tab${state.standView === 'scorers' ? ' active' : ''}" onclick="setStandView('scorers')">🎯 Top Scorers</button>
-      <button class="sub-tab${state.standView === 'assists' ? ' active' : ''}" onclick="setStandView('assists')">🅰️ Most Assists</button>
+      <button class="sub-tab${state.standView === 'table' ? ' active' : ''}" onclick="setStandView('table')">📊 အဆင့်ဇယား</button>
+      <button class="sub-tab${state.standView === 'scorers' ? ' active' : ''}" onclick="setStandView('scorers')">🎯 ဂိုးသွင်းအများဆုံး</button>
+      <button class="sub-tab${state.standView === 'assists' ? ' active' : ''}" onclick="setStandView('assists')">🅰️ Assist အများဆုံး</button>
     </div>`;
   if (state.standView === 'scorers') { await renderScorers(sub); return; }
   if (state.standView === 'assists') { await renderAssists(sub); return; }
@@ -411,11 +413,11 @@ async function renderStandings() {
         return { league: l, entries: (ch && ch.standings && ch.standings.entries) || [] };
       } catch (e) { return { league: l, entries: [] }; }
     }));
-    let html = `<h2 class="section-title">🌍 All — Standings (Top 5)</h2>${sub}`;
+    let html = `<h2 class="section-title">🌍 အားလုံး — အဆင့်ဇယား (ထိပ်ဆုံး ၅ သင်း)</h2>${sub}`;
     allData.forEach(({ league, entries }) => {
       if (!entries.length) return;
       html += `<h3 style="margin:20px 0 8px;">${league.icon} ${esc(league.name)}</h3><table style="width:100%;border-collapse:collapse;">`;
-      html += `<tr style="background:#f0f0f0;"><th style="padding:6px;text-align:left;">#</th><th style="padding:6px;text-align:left;">Team</th><th style="padding:6px;">P</th><th style="padding:6px;">W</th><th style="padding:6px;">D</th><th style="padding:6px;">L</th><th style="padding:6px;">Pts</th></tr>`;
+      html += `<tr style="background:#f0f0f0;"><th style="padding:6px;text-align:left;">#</th><th style="padding:6px;text-align:left;">အသင်း</th><th style="padding:6px;">ပွဲ</th><th style="padding:6px;">နိုင်</th><th style="padding:6px;">သရေ</th><th style="padding:6px;">ရှုံး</th><th style="padding:6px;">ရမှတ်</th></tr>`;
       const stat = (en, n) => { const s = (en.stats || []).find(x => x.name === n); return s ? s.displayValue : '–'; };
       entries.slice(0, 5).forEach(en => {
         const tm = en.team || {};
@@ -432,7 +434,7 @@ async function renderStandings() {
   const child = data.children && data.children[0];
   const entries = (child && child.standings && child.standings.entries) || [];
   if (!entries.length) {
-    content.innerHTML = `<h2 class="section-title">${leagueName()}</h2>${sub}<div class="empty">Standings not available yet.</div>`;
+    content.innerHTML = `<h2 class="section-title">${leagueName()}</h2>${sub}<div class="empty">အဆင့်ဇယား မရသေးပါ။</div>`;
     return;
   }
   const stat = (en, n) => {
@@ -443,7 +445,7 @@ async function renderStandings() {
     const tm = en.team || {};
     const logo = tm.logos && tm.logos[0] ? `<img src="${esc(tm.logos[0].href)}" alt="" loading="lazy" onerror="this.style.display='none'">` : '';
     const tid = tm.id || '';
-    const mm = tid && TEAMS_MM[tid] && TEAMS_MM[tid].en ? esc(TEAMS_MM[tid].en) : esc(tm.shortDisplayName || tm.displayName || '');
+    const mm = tid && TEAMS_MM[tid] && TEAMS_MM[tid].mm ? esc(TEAMS_MM[tid].mm) : esc(tm.shortDisplayName || tm.displayName || '');
     return `<tr class="${Number(stat(en, 'rank')) <= 4 ? 'top4' : ''}${tid ? ' clickable-row' : ''}"${tid ? ` onclick="openTeamDetail('${esc(tid)}')"` : ''}>
       <td>${esc(stat(en, 'rank'))}</td>
       <td class="team-cell">${logo}<span>${mm}</span></td>
@@ -453,9 +455,9 @@ async function renderStandings() {
     </tr>`;
   }).join('');
   content.innerHTML = `
-    <h2 class="section-title">${leagueName()} — Standings</h2>${sub}
+    <h2 class="section-title">${leagueName()} — အဆင့်</h2>${sub}
     <div class="table-wrap"><table class="standings">
-      <thead><tr><th>#</th><th style="text-align:left">Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr></thead>
+      <thead><tr><th>#</th><th style="text-align:left">အသင်း</th><th>ပွဲ</th><th>နိုင်</th><th>သရေ</th><th>ရှုံး</th><th>ဂိုးကွာ</th><th>ရမှတ်</th></tr></thead>
       <tbody>${rows}</tbody>
     </table></div>`;
   stamp();
@@ -463,7 +465,7 @@ async function renderStandings() {
 function setStandView(v) { state.standView = v; loadTab(); }
 
 async function renderAssists(sub) {
-  showLoading('Loading assists…');
+  showLoading('Assist စာရင်း ဆွဲနေသည်…');
   try {
     const data = await getJSON('scorers.json');
     const leaders = ((data.assists || {})[state.league]) || [];
@@ -473,19 +475,19 @@ async function renderAssists(sub) {
       return `<tr><td>${i + 1}</td><td style="text-align:left">${nm}</td><td style="text-align:left">${esc(l.team || '–')}</td><td class="pts">🅰️ ${esc(a)}</td></tr>`;
     });
     content.innerHTML = `
-      <h2 class="section-title">${leagueName()} — Most Assists</h2>${sub}
+      <h2 class="section-title">${leagueName()} — Assist အများဆုံး</h2>${sub}
       ${rows.length ? `<div class="table-wrap"><table class="standings">
-        <thead><tr><th>#</th><th style="text-align:left">Player</th><th style="text-align:left">Team</th><th>Assists</th></tr></thead>
+        <thead><tr><th>#</th><th style="text-align:left">ကစားသမား</th><th style="text-align:left">အသင်း</th><th>Assist</th></tr></thead>
         <tbody>${rows.join('')}</tbody></table></div>`
-        : `<div class="empty">No assist data yet.</div>`}`;
+        : `<div class="empty">Assist စာရင်း မရသေးပါ။</div>`}`;
   } catch (e) {
-    content.innerHTML = `<h2 class="section-title">${leagueName()}</h2>${sub}<div class="empty">Could not load assist data.</div>`;
+    content.innerHTML = `<h2 class="section-title">${leagueName()}</h2>${sub}<div class="empty">Assist စာရင်း ဆွဲမရသေးပါ။</div>`;
   }
   stamp();
 }
 
 async function renderScorers(sub) {
-  showLoading('Loading scoring charts…');
+  showLoading('ဂိုးသွင်းစာရင်း ဆွဲနေသည်…');
   try {
     const data = await getJSON('scorers.json'); // pre-built VM-side daily (no browser API issues)
     const leaders = ((data.leagues || {})[state.league]) || [];
@@ -495,13 +497,13 @@ async function renderScorers(sub) {
       return `<tr><td>${i + 1}</td><td style="text-align:left">${nm}</td><td style="text-align:left">${esc(l.team || '–')}</td><td class="pts">⚽ ${esc(goals)}</td></tr>`;
     });
     content.innerHTML = `
-      <h2 class="section-title">${leagueName()} — Top Scorers</h2>${sub}
+      <h2 class="section-title">${leagueName()} — ဂိုးသွင်းအများဆုံး</h2>${sub}
       ${rows.length ? `<div class="table-wrap"><table class="standings">
-        <thead><tr><th>#</th><th style="text-align:left">Player</th><th style="text-align:left">Team</th><th>Goals</th></tr></thead>
+        <thead><tr><th>#</th><th style="text-align:left">ကစားသမား</th><th style="text-align:left">အသင်း</th><th>ဂိုး</th></tr></thead>
         <tbody>${rows.join('')}</tbody></table></div>`
-        : `<div class="empty">No scoring data yet.</div>`}`;
+        : `<div class="empty">ဂိုးသွင်းစာရင်း မရသေးပါ။</div>`}`;
   } catch (e) {
-    content.innerHTML = `<h2 class="section-title">${leagueName()}</h2>${sub}<div class="empty">Could not load scoring data.</div>`;
+    content.innerHTML = `<h2 class="section-title">${leagueName()}</h2>${sub}<div class="empty">ဂိုးသွင်းစာရင်း ဆွဲမရသေးပါ။</div>`;
   }
   stamp();
 }
@@ -548,17 +550,17 @@ async function renderPredictions() {
   let data = null;
   try { data = await getJSON('predictions.json'); } catch (e) { data = null; }
   const preds = (data && data.predictions) || [];
-  const confLabel = { high: 'High confidence', medium: 'Medium', low: 'Low' };
+  const confLabel = { high: 'ယုံကြည်မှုမြင့်', medium: 'အလယ်အလတ်', low: 'သတိထား' };
   const confClass = { high: 'conf-high', medium: 'conf-med', low: 'conf-low' };
-  let html = `<h2 class="section-title">🔮 Match Predictions — KZZ Football Analysis</h2>`;
+  let html = `<h2 class="section-title">🔮 ပွဲကြို ခန့်မှန်း သုံးသပ်ချက် — KZZ Football Analysis</h2>`;
   if (data && data.updated) {
     let upd = data.updated;
     try { upd = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(data.updated)); } catch (e) {}
-    html += `<div class="refresh-line">Latest predictions: ${esc(upd)}</div>`;
-  html += `<input type="search" id="pred-search" placeholder="🔍 Search predictions..." oninput="filterPreds()" style="width:100%;padding:10px;margin:10px 0;border:1px solid #ddd;border-radius:8px;font-size:15px;">`;
+    html += `<div class="refresh-line">နောက်ဆုံးခန့်မှန်းချက်: ${esc(upd)}</div>`;
+  html += `<input type="search" id="pred-search" placeholder="🔍 ခန့်မှန်းချက် ရှာပါ..." oninput="filterPreds()" style="width:100%;padding:10px;margin:10px 0;border:1px solid #ddd;border-radius:8px;font-size:15px;">`;
   }
   if (!preds.length) {
-    html += `<div class="empty">Predictions coming soon.<br>Pre-match predictions from the KZZ Facebook page will appear here.</div>`;
+    html += `<div class="empty">ခန့်မှန်းချက်တွေ မကြာမီ လာမယ်။<br>KZZ Facebook page မှာ တင်ထားတဲ့ ပွဲကြိုခန့်မှန်းချက်တွေ ဒီမှာ ပေါ်လာမယ်။</div>`;
   } else {
     html += preds.map((p) => {
       let probHtml = '';
@@ -582,7 +584,7 @@ async function renderPredictions() {
       </div>`;
     }).join('');
   }
-  html += `<div class="refresh-line">⚠️ Predictions are guidance only — nothing is guaranteed.</div>`;
+  html += `<div class="refresh-line">⚠️ ခန့်မှန်းချက်များသည် အကြံပြုချက်သာဖြစ်ပြီး အာမခံချက် မဟုတ်ပါ။</div>`;
   content.innerHTML = html;
   stamp();
   parseFB();
@@ -603,8 +605,8 @@ function socialButtons(id, title) {
   <div class="comment-box" id="cbox-${safeId}" style="display:none">
     <div class="comment-list" id="clist-${safeId}"><div style="color:#888;font-size:12px">Loading...</div></div>
     <div class="comment-form-row">
-      <textarea id="ctext-${safeId}" placeholder="Write a comment..." rows="1" maxlength="500"></textarea>
-      <button class="share-btn" onclick="event.stopPropagation();postComment('${safeId}')">Send</button>
+      <textarea id="ctext-${safeId}" placeholder="Comment ရေးပါ..." rows="1" maxlength="500"></textarea>
+      <button class="share-btn" onclick="event.stopPropagation();postComment('${safeId}')">ပို့မယ်</button>
     </div>
   </div>`;
 }
@@ -625,7 +627,7 @@ async function loadSocial(safeId) {
   const countEl = document.getElementById('ccount-' + safeId);
   if (comments && listEl) {
     if (!comments.length) {
-      listEl.innerHTML = '<div style="color:#888;font-size:12px">No comments yet</div>';
+      listEl.innerHTML = '<div style="color:#888;font-size:12px">Comment မရှိသေးပါ</div>';
     } else {
       listEl.innerHTML = comments.map(c => {
         const d = new Date(c.created_at);
@@ -670,7 +672,7 @@ function toggleCommentBox(safeId) {
 function postComment(safeId) {
   const textEl = document.getElementById('ctext-' + safeId);
   const text = textEl.value.trim().slice(0, 500);
-  if (!text) { alert('Please write a comment first'); return; }
+  if (!text) { alert('Comment ရေးပါ'); return; }
   sbPost('comments', {post_id: safeId, name: 'Anonymous', text: text}).then(() => {
     textEl.value = '';
     loadSocial(safeId);
@@ -701,13 +703,13 @@ function sharePost(safeId) {
   };
   const doCopy = () => {
     if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(url).then(() => showToast('Link copied! 📋')).catch(() => showToast('Link: ' + url));
+      navigator.clipboard.writeText(url).then(() => showToast('Link ကူးပြီးပြီ! 📋')).catch(() => showToast('Link: ' + url));
     } else { showToast('Link: ' + url); }
   };
   // Try native share first (mobile + modern desktop browsers)
   try {
     if (navigator.share) {
-      navigator.share({title: 'KZZ Football Live', text: 'KZZ Football Live — live football scores', url: url}).catch((err) => {
+      navigator.share({title: 'KZZ Football Live', text: 'KZZ Football Live — ဘောလုံးတိုက်ရိုက်', url: url}).catch((err) => {
         // User cancelled = do nothing. Other error = silent copy.
         if (err && err.name !== 'AbortError') doCopy();
       });
@@ -718,15 +720,15 @@ async function renderNews() {
   let data = null;
   try { data = await getJSON('news.json'); } catch (e) { data = null; }
   const items = (data && data.news) || [];
-  let html = `<h2 class="section-title">📰 Football News</h2>
-  <div class="search-row"><input type="text" id="news-search" placeholder="🔍 Search news..." oninput="filterNews(this.value)"></div>`;
+  let html = `<h2 class="section-title">📰 ဘောလုံးသတင်းများ</h2>
+  <div class="search-row"><input type="text" id="news-search" placeholder="🔍 သတင်း ရှာမယ်..." oninput="filterNews(this.value)"></div>`;
   if (data && data.updated) {
     let upd = data.updated;
     try { upd = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(data.updated)); } catch (e) {}
-    html += `<div class="refresh-line">Last updated: ${esc(upd)}</div>`;
+    html += `<div class="refresh-line">နောက်ဆုံးအပ်ဒိတ်: ${esc(upd)}</div>`;
   }
   if (!items.length) {
-    html += `<div class="empty">News coming soon.</div>`;
+    html += `<div class="empty">သတင်းတွေ မကြာမီ လာမယ်။</div>`;
   } else {
     html += items.map((n) => {
       const body = esc(n.body_mm || '').replace(/\n/g, '<br>');
@@ -737,7 +739,7 @@ async function renderNews() {
         <div class="news-body">
           <h3 class="news-title">${esc(n.title_mm || '')}</h3>
           <div class="news-text">${body}</div>
-          <div class="news-meta">📰 ${esc(n.source || '')}${when ? ' • ' + when : ''}${n.fb_url ? ` • <a href="${esc(n.fb_url)}" target="_blank" rel="noopener">View on Facebook</a>` : ''}</div>
+          <div class="news-meta">📰 ${esc(n.source || '')}${when ? ' • ' + when : ''}${n.fb_url ? ` • <a href="${esc(n.fb_url)}" target="_blank" rel="noopener">Facebook မှာ ကြည့်ရန်</a>` : ''}</div>
           ${socialButtons(n.id || '', n.title_mm || '')}
         </div>
       </article>`;
@@ -792,14 +794,14 @@ async function renderScorersTab() {
   let data = null;
   try { data = await getJSON('scorers.json'); } catch (e) { data = null; }
   const leagues = (data && data.leagues) || {};
-  const names = { 'eng.1': '🏴󐁧󐁢󐁥󐁮󐁧󐁿 Premier League', 'esp.1': '🇪🇸 La Liga', 'ita.1': '🇮🇹 Serie A', 'ger.1': '🇩🇪 Bundesliga', 'fra.1': '🇫🇷 Ligue 1' };
-  let html = `<h2 class="section-title">🥇 Top Scorers</h2>`;
-  if (data && data.updated) html += `<div class="refresh-line">Last updated: ${esc(data.updated)}</div>`;
+  const names = { 'eng.1': '🇬🇧 ပရီးမီးယားလိဂ်', 'esp.1': '🇪🇸 လာလီဂါ', 'ita.1': '🇮🇹 စီးရီးအေ', 'ger.1': '🇩🇪 ဘွန်ဒက်စ်လီဂါ', 'fra.1': '🇫🇷 လီဂူး ၁' };
+  let html = `<h2 class="section-title">🥇 ဂိုးသွင်းအများဆုံး</h2>`;
+  if (data && data.updated) html += `<div class="refresh-line">နောက်ဆုံးအပ်ဒိတ်: ${esc(data.updated)}</div>`;
   for (const [key, name] of Object.entries(names)) {
     const players = leagues[key] || [];
     if (!players.length) continue;
     html += `<h3 style="margin:20px 0 10px;">${name}</h3><table style="width:100%;border-collapse:collapse;">`;
-    html += `<tr style="background:#f0f0f0;"><th style="padding:8px;text-align:left;">#</th><th style="padding:8px;text-align:left;">Player</th><th style="padding:8px;text-align:left;">Team</th><th style="padding:8px;text-align:right;">Goals</th></tr>`;
+    html += `<tr style="background:#f0f0f0;"><th style="padding:8px;text-align:left;">#</th><th style="padding:8px;text-align:left;">ကစားသမား</th><th style="padding:8px;text-align:left;">အသင်း</th><th style="padding:8px;text-align:right;">ဂိုး</th></tr>`;
     players.slice(0, 10).forEach(p => {
       html += `<tr style="border-bottom:1px solid #eee;"><td style="padding:8px;">${p.rank}</td><td style="padding:8px;">${esc(p.player)}</td><td style="padding:8px;">${esc(p.team)}</td><td style="padding:8px;text-align:right;font-weight:bold;">${p.goals}</td></tr>`;
     });
@@ -810,7 +812,7 @@ async function renderScorersTab() {
   parseFB();
 }
 async function renderHighlights() {
-  let html = `<h2 class="section-title">🎬 Highlight Videos</h2>`;
+  let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;">`;
   const videos = [
     { id: "1jU2ASFtgsI", title: "Slovan Bratislava 0-3 VfB Stuttgart | Highlights | UEFA Champions League 2026/27", channel: "CHEFON FF", date: "Oct 14, 2026" },
@@ -868,7 +870,7 @@ async function renderHighlights() {
     document.body.style.overflow = '';
   };
   html += `</div>`;
-  html += `<p style="color:#888;font-size:12px;margin-top:15px;">⚠️ Videos are from official YouTube channels.</p>`;
+  html += `<p style="color:#888;font-size:12px;margin-top:15px;">⚠️ ဗီဒီယိုများသည် တရားဝင် YouTube ချန်နယ်များမှ ဖြစ်ပါသည်။</p>`;
   content.innerHTML = html;
   stamp();
   parseFB();
@@ -877,15 +879,15 @@ async function renderAnalyses() {
   let data = null;
   try { data = await getJSON('analyses.json'); } catch (e) { data = null; }
   const items = (data && data.analyses) || [];
-  let html = `<h2 class="section-title">📝 Post-Match Analysis</h2>`;
+  let html = `<h2 class="section-title">📝 ပွဲပြီး သုံးသပ်ချက်များ</h2>`;
   if (data && data.updated) {
     let upd = data.updated;
     try { upd = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(data.updated)); } catch (e) {}
-    html += `<div class="refresh-line">Last updated: ${esc(upd)}</div>`;
+    html += `<div class="refresh-line">နောက်ဆုံးအပ်ဒိတ်: ${esc(upd)}</div>`;
   }
-  html += `<input type="search" id="analysis-search" placeholder="🔍 Search analysis..." oninput="filterAnalyses()" style="width:100%;padding:10px;margin:10px 0;border:1px solid #ddd;border-radius:8px;font-size:15px;">`;
+  html += `<input type="search" id="analysis-search" placeholder="🔍 သုံးသပ်ချက် ရှာပါ..." oninput="filterAnalyses()" style="width:100%;padding:10px;margin:10px 0;border:1px solid #ddd;border-radius:8px;font-size:15px;">`;
   if (!items.length) {
-    html += `<div class="empty">Analysis pieces coming soon.</div>`;
+    html += `<div class="empty">သုံးသပ်ချက်တွေ မကြာမီ လာမယ်။</div>`;
   } else {
     html += items.map((a) => {
       const body = esc(a.body_mm || '').replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>');
@@ -908,12 +910,11 @@ async function renderAnalyses() {
 }
 
 function mmTeamName(en) {
-  // English-only: return the name unchanged (all call sites keep working)
   if (!en) return '';
-  return en;
+  return TEAM_MM_BY_NAME[String(en).toLowerCase()] || en;
 }
 
-/* ESPN key-event text is already English; render clean English descriptions (fallback: original text). */
+/* Translate ESPN key-event text into Burmese (fallback: original English). */
 function mmEvent(k) {
   const txt = k.text || '';
   const parts = k.participants || [];
@@ -929,7 +930,7 @@ function mmEvent(k) {
   // Substitution: "Substitution, FC Porto. Oskar Pietuszewski replaces Pepê."
   m = txt.match(/^Substitution,\s*([^.]+)\.\s*(.+?)\s+replaces\s+(.+?)\.?$/);
   if (m) {
-    return `<span class="ev-ic">🔄</span><span class="ev-txt">Substitution • ${esc(mmTeamName(m[1].trim()))}: ${linkName(m[2].trim())} replaces <b>${esc(m[3].trim())}</b></span>`;
+    return `<span class="ev-ic">🔄</span><span class="ev-txt">လူစားလဲခြင်း • ${esc(mmTeamName(m[1].trim()))}: <b>${esc(m[3].trim())}</b> အစား ${linkName(m[2].trim())} ဝင်လာသည်</span>`;
   }
   // Goal: "Goal! Arsenal 0, Leeds United 1. James Justin (Leeds United) right footed shot ..."
   m = txt.match(/^Goal!\s*[^.]+\.\s*(.+?)\s+\(([^)]+)\)(.*)$/);
@@ -937,16 +938,16 @@ function mmEvent(k) {
     const scorer = m ? m[1].trim() : txt;
     const team = m ? m[2].trim() : '';
     let method = '';
-    if (/own goal/i.test(txt)) method = ' · Own goal (OG)';
-    else if (/penalty/i.test(txt)) method = ' · Penalty';
-    else if (/header/i.test(txt)) method = ' · Header';
-    return `<span class="ev-ic">⚽</span><span class="ev-txt">Goal — ${linkName(scorer)}${team ? ` (${esc(mmTeamName(team))})` : ''}${method}</span>`;
+    if (/own goal/i.test(txt)) method = ' · ကိုယ့်ဂိုးကိုယ်သွင်း (OG)';
+    else if (/penalty/i.test(txt)) method = ' · ပင်နယ်တီ';
+    else if (/header/i.test(txt)) method = ' · ခေါင်းတိုက်';
+    return `<span class="ev-ic">⚽</span><span class="ev-txt">ဂိုး — ${linkName(scorer)}${team ? ` (${esc(mmTeamName(team))})` : ''}${method}</span>`;
   }
   // Cards: "Bruno Fernandes (Manchester United) is shown the yellow card ..."
   m = txt.match(/^(.+?)\s+\(([^)]+)\)\s+is shown the (second yellow|yellow|red) card/i);
   if (m) {
     const red = /red|second yellow/i.test(m[3]);
-    return `<span class="ev-ic">${red ? '🟥' : '🟨'}</span><span class="ev-txt">${red ? 'Red card' : 'Yellow card'} — ${linkName(m[1].trim())} (${esc(mmTeamName(m[2].trim()))})</span>`;
+    return `<span class="ev-ic">${red ? '🟥' : '🟨'}</span><span class="ev-txt">${red ? 'အနီကတ်' : 'အဝါကတ်'} — ${linkName(m[1].trim())} (${esc(mmTeamName(m[2].trim()))})</span>`;
   }
   const typeIcon = k.scoringPlay ? '⚽' : '•';
   return `<span class="ev-ic">${typeIcon}</span><span class="ev-txt">${esc(txt)}</span>`;
@@ -954,12 +955,12 @@ function mmEvent(k) {
 
 function openMatchDetail(eventId) {
   const bd = $('#modalBackdrop'), box = $('#modalBox');
-  box.innerHTML = `<div class="loading">Loading details…</div>`;
+  box.innerHTML = `<div class="loading">အသေးစိတ်ဆွဲနေသည်…</div>`;
   bd.style.display = 'flex';
   document.body.style.overflow = 'hidden';
   getJSON(`https://site.api.espn.com/apis/site/v2/sports/soccer/${state.league}/summary?event=${encodeURIComponent(eventId)}`)
     .then((d) => { box.innerHTML = detailHtml(d); })
-    .catch(() => { box.innerHTML = `<div class="error">Could not load details.<br><button onclick="closeModal()">Close</button></div>`; });
+    .catch(() => { box.innerHTML = `<div class="error">အသေးစိတ် ဆွဲမရသေးပါ။<br><button onclick="closeModal()">ပိတ်မယ်</button></div>`; });
 }
 function closeModal() {
   $('#modalBackdrop').style.display = 'none';
@@ -967,13 +968,21 @@ function closeModal() {
 }
 
 /* ---------- team detail modal ---------- */
-const POS_MM = { GK: 'Goalkeeper', DF: 'Defender', MF: 'Midfielder', FW: 'Attacker' };
+const POS_MM = { GK: 'ဂိုးသမား', DF: 'နောက်တန်း', MF: 'ကွင်းလယ်', FW: 'တိုက်စစ်' };
+const TROPHY_MM = {
+  'Premier League': 'ပရီးမီးယားလိဂ်', 'La Liga': 'လာလီဂါ', 'Serie A': 'စီးရီးအေ',
+  'Bundesliga': 'ဘွန်ဒက်စ်လီဂါ', 'Ligue 1': 'လီဂူး ၁', 'Eredivisie': 'အီရက်ဒီဗီစီ',
+  'Primeira Liga': 'ပေါ်တူဂီလိဂ်', 'Champions League': 'ချန်ပီယံလိဂ်',
+  'Europa League': 'ယူရိုပါလိဂ်', 'FA Cup': 'FA ဖလား', 'Copa del Rey': 'ကိုပါဒယ်ရေး',
+  'Coppa Italia': 'ကိုပါအီတာလီယာ', 'DFB-Pokal': 'ဂျာမနီဖလား', 'Coupe de France': 'ပြင်သစ်ဖလား',
+  'KNVB Cup': 'နယ်သာလန်ဖလား', 'Taca de Portugal': 'ပေါ်တူဂီဖလား',
+};
 function openTeamDetail(tid) {
   const box = $('#modalBox');
-  box.innerHTML = '<div class="loading">Loading team info…</div>';
+  box.innerHTML = '<div class="loading">အသင်းအချက်အလက် ဆွဲနေသည်…</div>';
   $('#modalBackdrop').style.display = 'flex';
   document.body.style.overflow = 'hidden';
-  const mm = (TEAMS_MM[tid] && TEAMS_MM[tid].en) || '';
+  const mm = (TEAMS_MM[tid] && TEAMS_MM[tid].mm) || '';
   const en = (TEAMS_MM[tid] && TEAMS_MM[tid].en) || '';
   // team news (ESPN) — best effort
   getJSON(`https://site.api.espn.com/apis/site/v2/sports/soccer/${state.league}/news?team=${encodeURIComponent(tid)}&limit=5`)
@@ -988,15 +997,15 @@ function teamDetailHtml(tid, mm, en, articles) {
   let infoHtml = '';
   if (info) {
     infoHtml = `<div class="team-info-grid">
-      ${info.founded ? `<div><span>📅 Founded</span><b>${esc(info.founded)}</b></div>` : ''}
-      ${info.stadium ? `<div><span>🏟 Stadium</span><b>${esc(info.stadium)}</b></div>` : ''}
-      ${info.city ? `<div><span>📍 City</span><b>${esc(info.city)}</b></div>` : ''}
+      ${info.founded ? `<div><span>📅 တည်ထောင်နှစ်</span><b>${esc(info.founded)}</b></div>` : ''}
+      ${info.stadium ? `<div><span>🏟 ကွင်း</span><b>${esc(info.stadium)}</b></div>` : ''}
+      ${info.city ? `<div><span>📍 မြို့</span><b>${esc(info.city)}</b></div>` : ''}
     </div>`;
     if (info.trophies && info.trophies.length) {
       const nonZero = info.trophies.filter((t) => Number(t.c) > 0);
       if (nonZero.length) {
-        infoHtml += `<h4>🏆 Trophies</h4><div class="trophy-list">` +
-          nonZero.map((t) => `<div class="trophy"><span>${esc(t.t)}</span><b>${esc(t.c)}</b></div>`).join('') +
+        infoHtml += `<h4>🏆 ဖလားများ</h4><div class="trophy-list">` +
+          nonZero.map((t) => `<div class="trophy"><span>${esc(TROPHY_MM[t.t] || t.t)}</span><b>${esc(t.c)}</b></div>`).join('') +
           `</div>`;
       }
     }
@@ -1005,7 +1014,7 @@ function teamDetailHtml(tid, mm, en, articles) {
   if (squad.length) {
     const groups = { GK: [], DF: [], MF: [], FW: [] };
     squad.forEach((p) => { (groups[p.pos] || groups.MF).push(p); });
-    squadHtml = '<h4>👥 Squad</h4>' + Object.keys(groups).map((pos) => {
+    squadHtml = '<h4>👥 လူစာရင်း</h4>' + Object.keys(groups).map((pos) => {
       if (!groups[pos].length) return '';
       const rows = groups[pos].map((p) =>
         `<div class="squad-row"><span class="squad-num">${esc(p.n || '–')}</span><span class="squad-name">${esc(p.name)}</span><span class="squad-nat">${esc(p.nat || '')}</span></div>`
@@ -1013,11 +1022,11 @@ function teamDetailHtml(tid, mm, en, articles) {
       return `<div class="squad-group"><div class="squad-pos">${POS_MM[pos] || pos}</div>${rows}</div>`;
     }).join('');
   } else {
-    squadHtml = '<h4>👥 Squad</h4><div class="empty">Squad not available yet.</div>';
+    squadHtml = '<h4>👥 လူစာရင်း</h4><div class="empty">လူစာရင်း မရသေးပါ။</div>';
   }
   let newsHtml = '';
   if (articles.length) {
-    newsHtml = '<h4>📰 Team News</h4>' + articles.slice(0, 5).map((a) => {
+    newsHtml = '<h4>📰 အသင်းသတင်းများ</h4>' + articles.slice(0, 5).map((a) => {
       const u = (a.links && a.links.web && a.links.web.href) || '#';
       const img = (a.images && a.images[0] && a.images[0].url) || '';
       return `<a class="team-news" href="${esc(u)}" target="_blank" rel="noopener">
@@ -1028,17 +1037,17 @@ function teamDetailHtml(tid, mm, en, articles) {
   }
   return `
     <div class="team-head">
-      <div class="team-head-name">${esc(en || mm || '')}</div>
+      <div class="team-head-name">${esc(mm || en || '')}</div>
     </div>
     ${infoHtml}${squadHtml}${newsHtml}
-    <button class="modal-close" onclick="closeModal()">✕ Close</button>`;
+    <button class="modal-close" onclick="closeModal()">✕ ပိတ်မယ်</button>`;
 }
 window.openTeamDetail = openTeamDetail;
 function detailHtml(d) {
   const h = d.header || {};
   const comps = (h.competitions && h.competitions[0] && h.competitions[0].competitors) || [];
   const side = (ha) => comps.find((x) => x.homeAway === ha) || {};
-  const nm = (x) => { const t = x.team || {}; const rec = t.id && TEAMS_MM[t.id]; return rec && rec.en ? rec.en : (t.shortDisplayName || t.displayName || ''); };
+  const nm = (x) => { const t = x.team || {}; const rec = t.id && TEAMS_MM[t.id]; return rec && rec.mm ? rec.mm : (t.shortDisplayName || t.displayName || ''); };
   const sc = (x) => (x.score != null ? x.score : '–');
   const hm = side('home'), aw = side('away');
   const st = (h.competitions && h.competitions[0] && h.competitions[0].status) || {};
@@ -1051,7 +1060,7 @@ function detailHtml(d) {
   const evHtml = kev.length ? kev.map((k) => {
     const clk = (k.clock && k.clock.displayValue) || '';
     return `<div class="ev-row"><span class="ev-min">${esc(clk)}</span>${mmEvent(k)}</div>`;
-  }).join('') : '<div class="empty">No match events yet.</div>';
+  }).join('') : '<div class="empty">အဖြစ်အပျက်မှတ်တမ်း မရှိသေးပါ။</div>';
 
   // stats comparison
   const bt = d.boxscore && d.boxscore.teams ? d.boxscore.teams : [];
@@ -1059,10 +1068,10 @@ function detailHtml(d) {
   const ba = bt.find((x) => x.homeAway === 'away') || {};
   const statVal = (t, n) => { const s = (t.statistics || []).find((x) => x.name === n); return s ? s.displayValue : null; };
   const STAT_DEFS = [
-    ['possessionPct', 'Possession %'], ['totalShots', 'Total Shots'],
-    ['shotsOnTarget', 'Shots on Target'], ['wonCorners', 'Corners'],
-    ['foulsCommitted', 'Fouls'], ['offsides', 'Offsides'],
-    ['saves', 'Saves'], ['yellowCards', 'Yellow Cards'],
+    ['possessionPct', 'ဘောလုံးပိုင်ဆိုင်မှု %'], ['totalShots', 'စုစုပေါင်းကန်ချက်'],
+    ['shotsOnTarget', 'ဂိုးပေါက်တည့်ကန်ချက်'], ['wonCorners', 'ကော်နာ'],
+    ['foulsCommitted', 'ပြစ်ဒဏ်'], ['offsides', 'အော့ဖ်ဆိုဒ်'],
+    ['saves', 'ဂိုးသမားကာကွယ်မှု'], ['yellowCards', 'အဝါကတ်'],
   ];
   let statsHtml = '';
   STAT_DEFS.forEach(([key, label]) => {
@@ -1070,14 +1079,14 @@ function detailHtml(d) {
     if (hv == null && av == null) return;
     statsHtml += `<div class="stat-row"><span class="stat-v">${esc(hv == null ? '–' : hv)}</span><span class="stat-l">${esc(label)}</span><span class="stat-v">${esc(av == null ? '–' : av)}</span></div>`;
   });
-  if (!statsHtml) statsHtml = '<div class="empty">No stats available yet.</div>';
+  if (!statsHtml) statsHtml = '<div class="empty">စာရင်းအင်း မရှိသေးပါ။</div>';
 
   // lineups
   const rosters = d.rosters || [];
   const lineupHtml = rosters.map((r) => {
     const t = r.team || {};
     const rec = t.id && TEAMS_MM[t.id];
-    const tnm = rec && rec.en ? rec.en : (t.shortDisplayName || t.displayName || '');
+    const tnm = rec && rec.mm ? rec.mm : (t.shortDisplayName || t.displayName || '');
     const starters = (r.roster || []).filter((p) => p.starter);
     const subs = (r.roster || []).filter((p) => !p.starter);
     const pRow = (p) => {
@@ -1089,10 +1098,10 @@ function detailHtml(d) {
       return `<div class="lu-row"><span class="lu-j">${esc(p.jersey != null ? p.jersey : '')}</span>${nmHtml}${pos}</div>`;
     };
     return `<div class="lu-team"><div class="lu-title">${esc(tnm)}${r.formation ? ` <span class="form">(${esc(r.formation)})</span>` : ''}</div>
-      <div class="lu-sec">Starting XI</div>${starters.map(pRow).join('') || '<div class="empty">—</div>'}
-      ${subs.length ? `<div class="lu-sec">Substitutes</div>${subs.map(pRow).join('')}` : ''}</div>`;
+      <div class="lu-sec">ပွဲထွက်လူစာရင်း</div>${starters.map(pRow).join('') || '<div class="empty">—</div>'}
+      ${subs.length ? `<div class="lu-sec">အရံခုံ</div>${subs.map(pRow).join('')}` : ''}</div>`;
   }).join('');
-  const lineups = lineupHtml ? `<div class="lu-cols">${lineupHtml}</div>` : '<div class="empty">No lineups available yet.</div>';
+  const lineups = lineupHtml ? `<div class="lu-cols">${lineupHtml}</div>` : '<div class="empty">လူစာရင်း မရှိသေးပါ။</div>';
 
   // head-to-head from lastFiveGames
   let h2hHtml = '';
@@ -1137,11 +1146,11 @@ function detailHtml(d) {
         return `<div class="h2h-row"><span class="h2h-date">${esc(g.date)}</span><span class="h2h-match">${esc(hn)} ${esc(g.homeScore || '?')} - ${esc(g.awayScore || '?')} ${esc(an)}</span><span>${res}</span></div>`;
       }).join('');
       const nmA = nm(hm), nmB = nm(aw);
-      h2hHtml = `<div class="modal-sec-title">🆚 Head-to-Head (Last ${recent.length} Matches)</div>
-      <div class="h2h-summary">${esc(nmA)} ${wA} Wins • ${dr} Draws • ${esc(nmB)} ${wB} Wins</div>
+      h2hHtml = `<div class="modal-sec-title">🆚 ထိပ်တိုက်တွေ့ဆုံမှု (နောက်ဆုံး ${recent.length} ပွဲ)</div>
+      <div class="h2h-summary">${esc(nmA)} ${wA} နိုင်ပွဲ • သရေ ${dr} • ${esc(nmB)} ${wB} နိုင်ပွဲ</div>
       <div class="h2h-list">${rows}</div>`;
     } else {
-      h2hHtml = `<div class="modal-sec-title">🆚 Head-to-Head</div><div class="empty">No head-to-head meetings in the last 5 matches.</div>`;
+      h2hHtml = `<div class="modal-sec-title">🆚 ထိပ်တိုက်တွေ့ဆုံမှု</div><div class="empty">နောက်ဆုံး ၅ ပွဲမှာ ထိပ်တိုက်မတွေ့ခဲ့ပါ။</div>`;
     }
   }
 
@@ -1155,13 +1164,13 @@ function detailHtml(d) {
         <div class="modal-team"><b>${esc(sc(aw))}</b><span>${esc(nm(aw))}</span></div>
       </div>
       ${venue ? `<div class="modal-venue">🏟 ${esc(venue)}${gi.attendance ? ' • 👥 ' + Number(gi.attendance).toLocaleString() : ''}</div>` : ''}
-      <button class="modal-close" onclick="closeModal()">✕ Close</button>
+      <button class="modal-close" onclick="closeModal()">✕ ပိတ်မယ်</button>
     </div>
-    <div class="modal-sec-title">📝 Key Events</div>
+    <div class="modal-sec-title">📝 အဖြစ်အပျက်များ</div>
     <div class="ev-list">${evHtml}</div>
-    <div class="modal-sec-title">📊 Stats Comparison</div>
+    <div class="modal-sec-title">📊 စာရင်းအနှိုင်း</div>
     <div class="stat-list">${statsHtml}</div>
-    <div class="modal-sec-title">👥 Lineups</div>
+    <div class="modal-sec-title">👥 လူစာရင်း</div>
     ${lineups}
     ${h2hHtml}`;
 }
@@ -1188,7 +1197,7 @@ function showGoalAlert(m) {
   const favName = (TEAMS_MM[favTeamId] && TEAMS_MM[favTeamId].en) || '';
   const banner = document.createElement('div');
   banner.className = 'goal-alert';
-  banner.innerHTML = `⚽ <b>GOAL!</b> ${esc(favName)} scores! (${esc(m.home.score)} - ${esc(m.away.score)})`;
+  banner.innerHTML = `⚽ <b>ဂိုးးးး!</b> ${esc(favName)} ဂိုးသွင်းပြီ! (${esc(m.home.score)} - ${esc(m.away.score)})`;
   document.body.appendChild(banner);
   try {
     const ctx = new (window.AudioContext || window.webkitAudioContext)();
@@ -1206,9 +1215,22 @@ function showGoalAlert(m) {
 }
 
 /* ---------- player detail ---------- */
+const POS_MM_FULL = {
+  'Goalkeeper': 'ဂိုးသမား', 'Defender': 'နောက်တန်း',
+  'Left Back': 'ဘယ်နောက်တန်း', 'Right Back': 'ညာနောက်တန်း',
+  'Centre Back': 'နောက်တန်း', 'Center Back': 'နောက်တန်း',
+  'Midfielder': 'ကွင်းလယ်', 'Defensive Midfielder': 'ကွင်းလယ်ခံစစ်',
+  'Central Midfielder': 'ကွင်းလယ်', 'Attacking Midfielder': 'ကွင်းလယ်',
+  'Left Midfielder': 'ဘယ်တောင်ပံ', 'Right Midfielder': 'ညာတောင်ပံ',
+  'Left Wing': 'ဘယ်တောင်ပံ', 'Right Wing': 'ညာတောင်ပံ',
+  'Left Winger': 'ဘယ်တောင်ပံ', 'Right Winger': 'ညာတောင်ပံ',
+  'Forward': 'တိုက်စစ်မှူး', 'Striker': 'တိုက်စစ်မှူး',
+  'Centre Forward': 'တိုက်စစ်မှူး', 'Center Forward': 'တိုက်စစ်မှူး',
+  'Second Striker': 'တိုက်စစ်မှူး',
+};
 async function openPlayerDetail(pid) {
   const bd = $('#modalBackdrop'), box = $('#modalBox');
-  box.innerHTML = `<div class="loading">Loading player info…</div>`;
+  box.innerHTML = `<div class="loading">ကစားသမားအချက်အလက် ဆွဲနေသည်…</div>`;
   bd.style.display = 'flex';
   document.body.style.overflow = 'hidden';
   try {
@@ -1232,7 +1254,7 @@ async function openPlayerDetail(pid) {
     }
     box.innerHTML = playerDetailHtml(d, posName, photoUrl);
   } catch (e) {
-    box.innerHTML = `<div class="error">Could not load info.<br><button onclick="closeModal()">Close</button></div>`;
+    box.innerHTML = `<div class="error">အချက်အလက် ဆွဲမရသေးပါ။<br><button onclick="closeModal()">ပိတ်မယ်</button></div>`;
   }
 }
 function playerDetailHtml(d, posName, photoUrl) {
@@ -1255,16 +1277,16 @@ function playerDetailHtml(d, posName, photoUrl) {
           <div class="player-pos">${esc(posName || '–')}</div>
         </div>
       </div>
-      <button class="modal-close" onclick="closeModal()">✕ Close</button>
+      <button class="modal-close" onclick="closeModal()">✕ ပိတ်မယ်</button>
     </div>
     <div class="player-grid">
-      <div><span>⚽ Position</span><b>${esc(posName || '–')}</b></div>
-      <div><span>🎂 Age</span><b>${esc(String(age))}</b></div>
-      <div><span>📅 Born</span><b>${esc(dob)}</b></div>
-      <div><span>📏 Height</span><b>${esc(height)}</b></div>
-      <div><span>⚖️ Weight</span><b>${esc(weight)}</b></div>
-      <div><span>👕 Number</span><b>${esc(String(jersey))}</b></div>
-      <div><span>🌍 Nationality</span><b>${esc(nation)}</b></div>
+      <div><span>⚽ ကစားတဲ့နေရာ</span><b>${esc(posName || '–')}</b></div>
+      <div><span>🎂 အသက်</span><b>${esc(String(age))}</b></div>
+      <div><span>📅 မွေးနေ့</span><b>${esc(dob)}</b></div>
+      <div><span>📏 အရပ်</span><b>${esc(height)}</b></div>
+      <div><span>⚖️ ကိုယ်အလေးချိန်</span><b>${esc(weight)}</b></div>
+      <div><span>👕 နံပါတ်</span><b>${esc(String(jersey))}</b></div>
+      <div><span>🌍 နိုင်ငံ</span><b>${esc(nation)}</b></div>
     </div>`;
 }
 window.openPlayerDetail = openPlayerDetail;
@@ -1274,7 +1296,7 @@ window.openPlayerDetail = openPlayerDetail;
 async function populateFavSelect() {
   const sel = $('#favSelect');
   if (!sel) return;
-  sel.innerHTML = `<option value="">⏳ Loading teams…</option>`;
+  sel.innerHTML = `<option value="">⏳ အသင်းစာရင်း ဆွဲနေသည်…</option>`;
   const url = `https://site.api.espn.com/apis/site/v2/sports/soccer/${state.league}/teams`;
   let teams = [];
   for (let attempt = 1; attempt <= 3 && !teams.length; attempt++) {
@@ -1295,16 +1317,16 @@ async function populateFavSelect() {
     } catch (e) {}
   }
   if (!teams.length) {
-    sel.innerHTML = `<option value="">— Select —</option><option value="__retry">⚠️ Failed to load — tap to retry</option>`;
+    sel.innerHTML = `<option value="">— ရွေးပါ —</option><option value="__retry">⚠️ ဆွဲမရပါ — ပြန်ကြိုးစားရန် နှိပ်ပါ</option>`;
   } else {
     const opts = teams
       .sort((a, b) => (a.displayName || '').localeCompare(b.displayName || ''))
       .map((t) => {
         const rec = TEAMS_MM[t.id];
-        const label = rec && rec.en ? `${rec.en} (${t.abbreviation || ''})` : (t.displayName || '');
+        const label = rec && rec.mm ? `${rec.mm} (${t.abbreviation || ''})` : (t.displayName || '');
         return `<option value="${esc(t.id)}"${String(t.id) === String(favTeamId) ? ' selected' : ''}>${esc(label)}</option>`;
       }).join('');
-    sel.innerHTML = `<option value="">— Select —</option>` + opts;
+    sel.innerHTML = `<option value="">— ရွေးပါ —</option>` + opts;
   }
   $('#favClear').style.display = favTeamId ? '' : 'none';
 }
@@ -1334,9 +1356,9 @@ function bindFav() {
 /* ---------- navigation ---------- */
 
 function buildLeagues() {
-  const allBtn = `<button class="league-chip${state.league === 'all' ? ' active' : ''}" data-league="all">🌍 All</button>`;
+  const allBtn = `<button class="league-chip${state.league === 'all' ? ' active' : ''}" data-league="all">🌍 အားလုံး</button>`;
   $('#leagueBar').innerHTML = allBtn + LEAGUES.map((l) =>
-    `<button class="league-chip${l.id === state.league ? ' active' : ''}" data-league="${l.id}">${l.icon} ${esc(l.name)}</button>`
+    `<button class="league-chip${l.id === state.league ? ' active' : ''}" data-league="${l.id}">${l.icon} ${esc(l.mm)}</button>`
   ).join('');
   document.querySelectorAll('.league-chip').forEach((b) => b.addEventListener('click', () => {
     state.league = b.dataset.league;
@@ -1366,20 +1388,20 @@ function armAutoRefresh() {
 
 /* ---------- reminders ---------- */
 function toggleReminder(matchId, title, dateStr) {
-  if (!('Notification' in window)) { alert('This browser does not support notifications'); return; }
+  if (!('Notification' in window)) { alert('ဒီ browser က notification မရဘူး'); return; }
   const key = 'kzz-remind-' + matchId;
   if (localStorage.getItem(key)) {
     localStorage.removeItem(key);
-    alert('Reminder turned off');
+    alert('သတိပေးချက် ပိတ်လိုက်ပြီ');
     return;
   }
   const go = () => {
     localStorage.setItem(key, JSON.stringify({title: title, date: dateStr}));
-    alert('🔔 Reminder set — 15 minutes before kickoff!');
+    alert('🔔 ပွဲစခါနီး ၁၅ မိနစ် သတိပေးမယ်!');
     scheduleReminders();
   };
   if (Notification.permission === 'granted') go();
-  else Notification.requestPermission().then(p => { if (p === 'granted') go(); else alert('Notifications not allowed — cannot set a reminder'); });
+  else Notification.requestPermission().then(p => { if (p === 'granted') go(); else alert('Notification ခွင့်မပြုလို့ သတိပေးလို့မရဘူး'); });
 }
 function scheduleReminders() {
   // Check every minute for upcoming matches
@@ -1395,7 +1417,7 @@ function scheduleReminders() {
         const diff = matchTime - now;
         // 15 min before AND not yet notified
         if (diff > 0 && diff < 15 * 60 * 1000 && !r.notified) {
-          new Notification('⚽ Kickoff!', {body: r.title + ' — 15 minutes to go'});
+          new Notification('⚽ ပွဲ စတော့မယ်!', {body: r.title + ' — ၁၅ မိနစ် အလို'});
           r.notified = true;
           localStorage.setItem(k, JSON.stringify(r));
         }
@@ -1416,7 +1438,7 @@ async function renderPoll() {
   const polls = await sbGet('polls?order=created_at.desc&limit=1');
   const poll = (polls && polls[0]) || null;
   if (!poll) {
-    content.innerHTML = `<h2 class="section-title">🏆 Poll</h2><div class="empty">No polls yet.</div>`;
+    content.innerHTML = `<h2 class="section-title">🏆 မဲ</h2><div class="empty">မဲ မရှိသေးပါ။</div>`;
     return;
   }
   const votes = await sbGet('poll_votes?poll_id=eq.' + poll.id);
@@ -1435,15 +1457,15 @@ async function renderPoll() {
     html += `<div class="poll-card${voted ? ' voted' : ''}" onclick="votePoll('${poll.id}',${i})">
       <div class="poll-card-emoji">${emojis[i % emojis.length]}</div>
       <div class="poll-card-name">${esc(opt)}</div>
-      ${total ? `<div class="poll-card-pct">${pct}%</div><div class="poll-card-votes">${c} votes</div>` : `<div class="poll-card-vote-btn">Vote</div>`}
+      ${total ? `<div class="poll-card-pct">${pct}%</div><div class="poll-card-votes">${c} မဲ</div>` : `<div class="poll-card-vote-btn">မဲပေး</div>`}
       ${voted ? `<div class="poll-card-check">✅</div>` : ''}
     </div>`;
   });
-  html += `</div><div class="poll-total">Total votes: ${total}</div>`;
+  html += `</div><div class="poll-total">စုစုပေါင်း မဲ: ${total}</div>`;
   content.innerHTML = html;
 }
 async function votePoll(pollId, option) {
-  if (localStorage.getItem('kzz-poll-' + pollId)) { alert('You have already voted!'); return; }
+  if (localStorage.getItem('kzz-poll-' + pollId)) { alert('မဲ ပေးပြီးသားပါ!'); return; }
   await sbPost('poll_votes', {poll_id: pollId, option: option});
   localStorage.setItem('kzz-poll-' + pollId, String(option));
   renderPoll();
@@ -1460,14 +1482,14 @@ async function renderH2H() {
     const entries = data?.children?.[0]?.standings?.entries || [];
     teams = entries.map(e => ({id: e.team.id, name: e.team.displayName})).sort((a,b) => a.name.localeCompare(b.name));
   } catch (e) {}
-  let html = `<h2 class="section-title">⚔️ Head-to-Head Compare</h2>
+  let html = `<h2 class="section-title">⚔️ Head-to-Head ယှဉ်ပြ</h2>
   <div class="h2h-box">
     <div class="h2h-select">
-      <select id="h2hTeam1"><option value="">Select team 1</option>${teams.map(t => `<option value="${t.id}">${esc(t.name)}</option>`).join('')}</select>
-      <select id="h2hTeam2"><option value="">Select team 2</option>${teams.map(t => `<option value="${t.id}">${esc(t.name)}</option>`).join('')}</select>
-      <button class="share-btn" onclick="loadH2H()">Compare</button>
+      <select id="h2hTeam1"><option value="">အသင်း ၁ ရွေး</option>${teams.map(t => `<option value="${t.id}">${esc(t.name)}</option>`).join('')}</select>
+      <select id="h2hTeam2"><option value="">အသင်း ၂ ရွေး</option>${teams.map(t => `<option value="${t.id}">${esc(t.name)}</option>`).join('')}</select>
+      <button class="share-btn" onclick="loadH2H()">ယှဉ်မယ်</button>
     </div>
-    <div class="h2h-result" id="h2hResult"><div style="color:#888">Select 2 teams and press "Compare"</div></div>
+    <div class="h2h-result" id="h2hResult"><div style="color:#888">အသင်း ၂ သင်း ရွေးပြီး "ယှဉ်မယ်" နှိပ်ပါ</div></div>
   </div>`;
   content.innerHTML = html;
 }
@@ -1475,9 +1497,9 @@ async function loadH2H() {
   const t1 = document.getElementById('h2hTeam1').value;
   const t2 = document.getElementById('h2hTeam2').value;
   const resEl = document.getElementById('h2hResult');
-  if (!t1 || !t2) { resEl.innerHTML = `<div style="color:#f66">Please select both teams</div>`; return; }
-  if (t1 === t2) { resEl.innerHTML = `<div style="color:#f66">Please select 2 different teams</div>`; return; }
-  resEl.innerHTML = `<div style="color:#888">Searching...</div>`;
+  if (!t1 || !t2) { resEl.innerHTML = `<div style="color:#f66">အသင်း ၂ သင်း လုံး ရွေးပါ</div>`; return; }
+  if (t1 === t2) { resEl.innerHTML = `<div style="color:#f66">မတူတဲ့ အသင်း ၂ သင်း ရွေးပါ</div>`; return; }
+  resEl.innerHTML = `<div style="color:#888">ရှာနေတယ်...</div>`;
   try {
     // Get recent matches for both teams and find head-to-head
     const [d1, d2] = await Promise.all([
@@ -1507,7 +1529,7 @@ async function loadH2H() {
     });
     h2h.sort((a,b) => new Date(b.date) - new Date(a.date));
     if (!h2h.length) {
-      resEl.innerHTML = `<div style="color:#888">${esc(name1)} vs ${esc(name2)} — no meetings (this season)</div>`;
+      resEl.innerHTML = `<div style="color:#888">${esc(name1)} vs ${esc(name2)} — တွေ့ဆုံမှု မရှိပါ (ဒီရာသီ)</div>`;
     } else {
       let w1 = 0, w2 = 0, d = 0;
       h2h.forEach(m => {
@@ -1519,7 +1541,7 @@ async function loadH2H() {
       resEl.innerHTML = `
         <div style="text-align:center;margin-bottom:12px;font-size:16px">
           <b>${esc(name1)}</b> ${w1} - ${d} - ${w2} <b>${esc(name2)}</b><br>
-          <small style="color:var(--muted)">W - D - W</small>
+          <small style="color:var(--muted)">နိုင် - သရေ - နိုင်</small>
         </div>
         ${h2h.slice(0, 10).map(m => {
           const dt = new Date(m.date).toLocaleDateString('en-GB', {day: 'numeric', month: 'short', year: 'numeric'});
@@ -1527,7 +1549,7 @@ async function loadH2H() {
         }).join('')}`;
     }
   } catch (e) {
-    resEl.innerHTML = `<div style="color:#f66">Could not load data</div>`;
+    resEl.innerHTML = `<div style="color:#f66">ဒေတာ ဆွဲမရဘူး</div>`;
   }
 }
 window.loadH2H = loadH2H;
@@ -1537,18 +1559,18 @@ async function renderChat() {
   const content = document.getElementById('content');
   const msgs = await sbGet('chat_messages?order=created_at.desc&limit=50');
   const list = (msgs || []).reverse();
-  let html = `<h2 class="section-title">💬 Chat</h2>
+  let html = `<h2 class="section-title">💬 စကားဝိုင်း</h2>
   <div class="chat-box"><div class="chat-list" id="chatList">`;
-  if (!list.length) html += `<div style="color:#888">No messages yet — be the first to post!</div>`;
+  if (!list.length) html += `<div style="color:#888">စကား မရှိသေးပါ — ပထမဆုံး ပြောလိုက်ပါ!</div>`;
   else html += list.map(m => {
     const d = new Date(m.created_at);
     const t = d.toLocaleString('en-GB', {timeZone: 'Asia/Yangon', hour: '2-digit', minute: '2-digit'});
     return `<div class="chat-msg"><b>${esc(m.name || 'Anonymous')}</b> <small>${t}</small><br>${esc(m.text)}</div>`;
   }).join('');
   html += `</div><div class="chat-form">
-    <input type="text" id="chatName" placeholder="Name" maxlength="30" style="width:100px">
-    <input type="text" id="chatText" placeholder="Say something..." maxlength="300">
-    <button class="share-btn" onclick="sendChat()">Send</button>
+    <input type="text" id="chatName" placeholder="နာမည်" maxlength="30" style="width:100px">
+    <input type="text" id="chatText" placeholder="စကားပြောမယ်..." maxlength="300">
+    <button class="share-btn" onclick="sendChat()">ပို့မယ်</button>
   </div></div>`;
   content.innerHTML = html;
   const cl = document.getElementById('chatList');
@@ -1610,7 +1632,7 @@ function showUpdateBanner() {
   if ($('#updateBanner')) return;
   const b = document.createElement('div');
   b.id = 'updateBanner';
-  b.innerHTML = `✨ A new version is available! <button onclick="location.reload()">Update now</button>`;
+  b.innerHTML = `✨ version အသစ် ထွက်ပြီ! <button onclick="location.reload()">အပ်ဒိတ်လုပ်မယ်</button>`;
   document.body.prepend(b);
 }
 
