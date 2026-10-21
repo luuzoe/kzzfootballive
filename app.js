@@ -1611,6 +1611,7 @@ window.sendChat = sendChat;
 
 async function loadTab(quiet) {
   if (!quiet) showLoading();
+  const keepY = quiet ? window.scrollY : 0;
   armAutoRefresh();
   try {
     if (state.tab === 'live') await renderLive();
@@ -1626,6 +1627,7 @@ async function loadTab(quiet) {
   } catch (e) {
     if (!quiet) showError();
   }
+  if (quiet && keepY) window.scrollTo(0, keepY);
 }
 
 try { const h = (location.hash || '').replace('#', ''); if (['live','fixtures','results','standings','predictions','news','analyses'].includes(h)) state.tab = h; } catch (e) {}

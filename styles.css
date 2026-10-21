@@ -269,7 +269,7 @@ table.standings { width: 100%; border-collapse: collapse; font-size: 14px; }
 
 /* ---------- news ---------- */
 .news-card { background: #131b2e; border: 1px solid #24304d; border-radius: 12px; overflow: hidden; margin: 12px 0; }
-.news-img { width: 100%; max-height: 280px; object-fit: cover; display: block; }
+.news-img { width: 100%; aspect-ratio: 16 / 9; max-height: 280px; object-fit: cover; display: block; background: var(--card2); }
 .news-body { padding: 12px 14px; }
 .news-title { margin: 0 0 8px; font-size: 1.02rem; color: #fff; }
 .news-text { font-size: 0.9rem; line-height: 1.65; color: #c6d0e2; }
