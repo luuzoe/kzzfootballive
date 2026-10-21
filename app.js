@@ -1008,6 +1008,13 @@ function mmEvent(k) {
     const red = /red|second yellow/i.test(m[3]);
     return `<span class="ev-ic">${red ? '🟥' : '🟨'}</span><span class="ev-txt">${red ? 'အနီကတ်' : 'အဝါကတ်'} — ${linkName(m[1].trim())} (${esc(mmTeamName(m[2].trim()))})</span>`;
   }
+  if (/^First Half begins\.?$/i.test(txt)) return `<span class="ev-ic">🏁</span><span class="ev-txt">ပထမပိုင်း စတင်ပါပြီ</span>`;
+  if (/^Second Half begins\.?$/i.test(txt)) return `<span class="ev-ic">🏁</span><span class="ev-txt">ဒုတိယပိုင်း စတင်ပါပြီ</span>`;
+  m = txt.match(/^(?:Second Half|Match) ends,?\s*(.*)$/i);
+  if (m) return `<span class="ev-ic">🏁</span><span class="ev-txt">ပွဲပြီးဆုံးပါပြီ${m[1] ? ' — ' + esc(m[1]) : ''}</span>`;
+  m = txt.match(/^Delay in match(?:\s*\(([^)]+)\))?/i);
+  if (m) return `<span class="ev-ic">⏱</span><span class="ev-txt">ပွဲခဏ ရပ်နား${m[1] ? ' (' + esc(mmTeamName(m[1].trim())) + ')' : ''}</span>`;
+  if (/^Delay over\./i.test(txt)) return `<span class="ev-ic">▶</span><span class="ev-txt">ပွဲ ပြန်စပါပြီ</span>`;
   const typeIcon = k.scoringPlay ? '⚽' : '•';
   return `<span class="ev-ic">${typeIcon}</span><span class="ev-txt">${esc(txt)}</span>`;
 }
@@ -1115,9 +1122,20 @@ function detailHtml(d) {
   const venue = gi.venue ? `${gi.venue.fullName || ''}${gi.venue.address && gi.venue.address.city ? ' • ' + gi.venue.address.city : ''}` : '';
 
   // key events
-  const kev = (d.keyEvents || []).slice().reverse();
+  const seenEv = new Set();
+  const kev = (d.keyEvents || []).filter((k) => {
+    const txt = (k.text || '').trim();
+    const ty = (k.type && k.type.type) || '';
+    if (!txt && ty !== 'halftime') return false;
+    const key = ((k.clock && k.clock.displayValue) || '') + '|' + ty + '|' + txt;
+    if (seenEv.has(key)) return false;
+    seenEv.add(key);
+    return true;
+  }).slice().reverse();
   const evHtml = kev.length ? kev.map((k) => {
     const clk = (k.clock && k.clock.displayValue) || '';
+    const ty = (k.type && k.type.type) || '';
+    if (ty === 'halftime' && !(k.text || '').trim()) return `<div class="ev-row"><span class="ev-min">${esc(clk)}</span><span class="ev-ic">⏸</span><span class="ev-txt">ပထမပိုင်း နားချိန် (HT)</span></div>`;
     return `<div class="ev-row"><span class="ev-min">${esc(clk)}</span>${mmEvent(k)}</div>`;
   }).join('') : '<div class="empty">အဖြစ်အပျက်မှတ်တမ်း မရှိသေးပါ။</div>';
 
