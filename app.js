@@ -183,13 +183,36 @@ function tickClocks() {
 // and on every tab re-entry. Keep the anchor in page memory and preserve the
 // running seconds phase when ESPN's minute advances.
 const clockAnchors = {};
+const CLOCK_LS_KEY = 'kzzClockAnchors';
+function saveAnchors() {
+  try {
+    const now = Date.now();
+    Object.keys(clockAnchors).forEach((k) => { if (now - (clockAnchors[k].t0 || 0) > 12 * 3600 * 1000) delete clockAnchors[k]; });
+    localStorage.setItem(CLOCK_LS_KEY, JSON.stringify(clockAnchors));
+  } catch (e) {}
+}
+function koPhase(m) {
+  // ESPN reports whole minutes only; estimate the seconds phase from kickoff.
+  const ko = Date.parse(m.date || '');
+  if (isNaN(ko)) return 0;
+  const el = (Date.now() - ko) / 1000;
+  return el > 0 ? Math.floor(el % 60) : 0;
+}
 function anchorClock(m) {
   const now = Date.now();
   const espn = (typeof m.clockSec === 'number' ? m.clockSec : 0);
   const period = m.period || 0;
   let a = clockAnchors[m.id];
+  if (!a) {
+    try {
+      const stored = (JSON.parse(localStorage.getItem(CLOCK_LS_KEY) || '{}') || {})[m.id];
+      if (stored && typeof stored.base === 'number') a = clockAnchors[m.id] = stored;
+    } catch (e) {}
+  }
   if (!a || a.period !== period) {
-    a = clockAnchors[m.id] = { base: espn, t0: now, period: period, lastEspn: espn };
+    const phase = (espn % 60 === 0) ? koPhase(m) : 0;
+    a = clockAnchors[m.id] = { base: espn + phase, t0: now, period: period, lastEspn: espn };
+    saveAnchors();
     return a;
   }
   const shown = a.base + (now - a.t0) / 1000;
@@ -198,8 +221,10 @@ function anchorClock(m) {
     a.base = (espn % 60 === 0) ? espn + phase : espn;
     a.t0 = now;
     a.lastEspn = espn;
+    saveAnchors();
   } else if (shown - espn > 180) {
     a.base = espn; a.t0 = now; a.lastEspn = espn;
+    saveAnchors();
   }
   return a;
 }
