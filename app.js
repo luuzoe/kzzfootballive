@@ -250,7 +250,7 @@ function matchCard(m) {
   let liveClock = '';
   if (isLive) {
     const mode = clockMode(m);
-    if (mode === 'static') liveClock = `<div class="match-clock">⏱ ${esc(m.clock || 'HT')}</div>`;
+    if (mode === 'static') liveClock = `<div class="match-clock">⏸ ပထမပိုင်း နားချိန် (HT${m.clock ? ' ' + esc(m.clock) : ''})</div>`;
     else if (mode === 'tick') { const a = anchorClock(m); liveClock = `<div class="match-clock" data-sec="${a.base}" data-period="${m.period || 0}" data-t0="${a.t0}">⏱ ${fmtClock(a.base + (Date.now() - a.t0) / 1000, m.period)}</div>`; }
   }
   return `
