@@ -840,6 +840,9 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "YLf6yUhju1o", title: "GETAFE CF 1 - 1 RAYO VALLECANO | HIGHLIGHTS LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 19, 2026" },
+    { id: "MulHLnyJGLY", title: "Dominant Monza End Cagliari's Strong Run | MONZA-CAGLIARI | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 19, 2026" },
+    { id: "utscqP0EWrQ", title: "PARMA-TORINO 0-3 | HIGHLIGHTS SERIE A ENILIVE 2026/27", channel: "Torino FC", date: "Oct 19, 2026" },
     { id: "LRlY31UlP3U", title: "Barcelona Vs PSG Extended Highlights | UEFA Champions League 2026", channel: "FOOTBALL MANIA", date: "Oct 20, 2026" },
     { id: "hYf2XSGOZkU", title: "Roma 4-0 Slovan Bratislava | UEFA Champions League Highlights", channel: "DMD Sports TV", date: "Oct 20, 2026" },
     { id: "r92uvxmxKqs", title: "Spurs 3-1 Coventry City | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 19, 2026" },
@@ -861,10 +864,7 @@ async function renderHighlights() {
     { id: "79D4_JhjQ80", title: "EXTENDED HIGHLIGHTS | Man City 3-2 Ipswich | Maresca with a record-breaking start!", channel: "Man City", date: "Oct 17, 2026" },
     { id: "Bht1xOnl6Ik", title: "Everton 0-2 Chelsea | HIGHLIGHTS - Extended | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 17, 2026" },
     { id: "KRp3Z2Dd9ZA", title: "Luis Díaz With A Hattrick! | FC BAYERN - RB LEIPZIG | Highlights | Matchday 6 – Bundesliga 2026/27", channel: "Bundesliga", date: "Oct 17, 2026" },
-    { id: "1jU2ASFtgsI", title: "Slovan Bratislava 0-3 VfB Stuttgart | Highlights | UEFA Champions League 2026/27", channel: "CHEFON FF", date: "Oct 14, 2026" },
     { id: "pRO8JfsXxl0", title: "Persib Bandung 1-0 Viettel FC | Highlights ACL Two", channel: "TV360 Thể Thao", date: "Oct 15, 2026" },
-    { id: "hK3YQ6Ilqws", title: "Chicago Fire FC vs. Philadelphia Union | Full Match Highlights | Damiani BRACE!", channel: "Major League Soccer", date: "Oct 14, 2026" },
-    { id: "Y5bnjRuMEo0", title: "LAFC vs. Austin FC | Full Match Highlights | the Son & Bouanga Show BACK IN ACTION!", channel: "Major League Soccer", date: "Oct 14, 2026" },
     { id: "PszrO5TDv24", title: "LA Galaxy vs. Portland Timbers | Full Match Highlights | Marco Reus GOAL AND ASSIST!", channel: "Major League Soccer", date: "Oct 14, 2026" },
     { id: "pXaCEY4BfMk", title: "Liverpool vs LASK Highlights 6-3 BARCOLA HATTRICK • UEFA CHAMPIONS LEAGUE", channel: "Footballia", date: "Oct 14, 2026" },
     { id: "ymVX9lP2mT0", title: "Roma vs Real Madrid 3-4 • MALEN & MBAPPE Goals - Highlights Uefa Champions League 26/27", channel: "Antonionne Football", date: "Oct 14, 2026" },
