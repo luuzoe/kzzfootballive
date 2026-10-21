@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "MBSkAKB3iuw", title: "Real Madrid vs RB Leipzig 4-1 Highlights & Goals | UEFA Champions League 2026/27", channel: "سامح كورة ومنوعات", date: "Oct 21, 2026" },
     { id: "dHVv62Hxm-g", title: "Como vs Manchester United 4-1 Highlights | Nico Paz & Douvikas Goals | UEFA Champions League 2026", channel: "MDF Channel", date: "Oct 21, 2026" },
     { id: "mZgyLHkeU34", title: "Como - Manchester United | 4-1 | Highlights | Champions League 2026-27", channel: "Sponitor", date: "Oct 21, 2026" },
     { id: "LaJkUmgUpb0", title: "VfB Stuttgart 1-1 Atlético de Madrid | ⚽ Julián Alvarez | HIGHLIGHTS, UCL - MD3", channel: "Atlético de Madrid", date: "Oct 20, 2026" },
