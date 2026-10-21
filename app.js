@@ -815,6 +815,9 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;">`;
   const videos = [
+    { id: "hYf2XSGOZkU", title: "Roma 4-0 Slovan Bratislava | UEFA Champions League Highlights", channel: "DMD Sports TV", date: "Oct 20, 2026" },
+    { id: "r92uvxmxKqs", title: "Spurs 3-1 Coventry City | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 19, 2026" },
+    { id: "4OTqgha1Mf0", title: "Leeds 1-1 Man Utd | Highlights", channel: "Manchester United", date: "Oct 18, 2026" },
     { id: "_pYxYapNPKM", title: "PSG vs Barcelona | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 20, 2026" },
     { id: "ftO2ywDloLg", title: "SUPER EXTENDED HIGHLIGHTS - Liverpool 4-3 Villarreal | UEFA Champions League - J3 Fase Liga 2026-27", channel: "TUDN USA", date: "Oct 20, 2026" },
     { id: "6HOwK8MliqM", title: "CRAZY MATCH!! Napoli vs FK Bodø/Glimt (4-3) FULL HIGHLIGHTS | UEFA Champions League 2026/27", channel: "Halotub", date: "Oct 20, 2026" },
