@@ -840,6 +840,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "8sv8UW8n_Ws", title: "Sabah Baku - Borussia Dortmund 1:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
+    { id: "hIFIffIO27o", title: "Fenerbahce - Slavia Prague 2:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
     { id: "YLf6yUhju1o", title: "GETAFE CF 1 - 1 RAYO VALLECANO | HIGHLIGHTS LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 19, 2026" },
     { id: "MulHLnyJGLY", title: "Dominant Monza End Cagliari's Strong Run | MONZA-CAGLIARI | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 19, 2026" },
     { id: "utscqP0EWrQ", title: "PARMA-TORINO 0-3 | HIGHLIGHTS SERIE A ENILIVE 2026/27", channel: "Torino FC", date: "Oct 19, 2026" },
