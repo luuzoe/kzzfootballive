@@ -509,3 +509,13 @@ table.standings { width: 100%; border-collapse: collapse; font-size: 14px; }
 [data-theme="light"] .player-photo { background: #fdf3d7; border-color: var(--gold); }
 [data-theme="light"] .lineup-match { background: var(--card); border-color: var(--line); }
 [data-theme="light"] .squad-pos { color: #1d6fd1; }
+
+/* ---------- highlights ---------- */
+.highlights-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+@media (max-width: 860px) { .highlights-grid { grid-template-columns:repeat(2,1fr); gap:10px; } }
+.highlight-card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:8px; cursor:pointer; }
+.hl-thumb { position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; background:var(--card2); }
+.hl-thumb img { position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; }
+.hl-play { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:rgba(0,0,0,0.6); border-radius:50%; width:44px; height:44px; display:flex; align-items:center; justify-content:center; color:#fff; font-size:18px; }
+.hl-title { margin:8px 0 4px; font-size:13px; line-height:1.35; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.hl-meta { color:var(--muted); font-size:11px; margin:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }

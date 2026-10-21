@@ -838,7 +838,7 @@ async function renderScorersTab() {
 }
 async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
-  html += `<div class="highlights-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;">`;
+  html += `<div class="highlights-grid">`;
   const videos = [
     { id: "LRlY31UlP3U", title: "Barcelona Vs PSG Extended Highlights | UEFA Champions League 2026", channel: "FOOTBALL MANIA", date: "Oct 20, 2026" },
     { id: "hYf2XSGOZkU", title: "Roma 4-0 Slovan Bratislava | UEFA Champions League Highlights", channel: "DMD Sports TV", date: "Oct 20, 2026" },
@@ -882,13 +882,13 @@ async function renderHighlights() {
     { id: "t5PtlOA0Ksc", title: "ALL 57 Mo Salah Goals and Assist from 2024/25", channel: "Liverpool FC", date: "Classic" },
   ];
   html += videos.map(v => `
-    <div class="highlight-card" onclick="openHighlight('${v.id}', '${esc(v.title).replace(/'/g, "&#39;")}')" style="border:1px solid #ddd;border-radius:12px;padding:8px;cursor:pointer;">
-      <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;">
-        <img src="https://i.ytimg.com/vi/${v.id}/hqdefault.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;" loading="lazy" alt="${esc(v.title)}">
-        <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,0.6);border-radius:50%;width:48px;height:48px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:20px;">▶</div>
+    <div class="highlight-card" onclick="openHighlight('${v.id}', '${esc(v.title).replace(/'/g, "&#39;")}')">
+      <div class="hl-thumb">
+        <img src="https://i.ytimg.com/vi/${v.id}/hqdefault.jpg" loading="lazy" alt="${esc(v.title)}">
+        <div class="hl-play">▶</div>
       </div>
-      <h3 style="margin:8px 0 4px;font-size:13px;line-height:1.3;">${esc(v.title)}</h3>
-      <p style="color:#888;font-size:11px;margin:0;">📺 ${esc(v.channel)}${v.date ? " • " + esc(v.date) : ""}</p>
+      <h3 class="hl-title">${esc(v.title)}</h3>
+      <p class="hl-meta">📺 ${esc(v.channel)}${v.date ? " • " + esc(v.date) : ""}</p>
     </div>
   `).join('');
   html += `</div>`;
