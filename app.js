@@ -815,7 +815,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;">`;
   const videos = [
-    { id: "cjaOYVBtoT4", title: "🔥 PSG 4-2 BARCELONA! DESIRÉ DOUE SHINES AS PSG WIN CHAMPIONS LEAGUE THRILLER!", channel: "Kari Sports", date: "Oct 20, 2026" },
+    { id: "_pYxYapNPKM", title: "PSG vs Barcelona | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 20, 2026" },
     { id: "ftO2ywDloLg", title: "SUPER EXTENDED HIGHLIGHTS - Liverpool 4-3 Villarreal | UEFA Champions League - J3 Fase Liga 2026-27", channel: "TUDN USA", date: "Oct 20, 2026" },
     { id: "6HOwK8MliqM", title: "CRAZY MATCH!! Napoli vs FK Bodø/Glimt (4-3) FULL HIGHLIGHTS | UEFA Champions League 2026/27", channel: "Halotub", date: "Oct 20, 2026" },
     { id: "Vnt4aut2lOU", title: "Manchester city vs Aek Athens 5-1 Highlights | Champions league 2026/27 FODEN HATTRICK", channel: "PVXFC", date: "Oct 20, 2026" },
