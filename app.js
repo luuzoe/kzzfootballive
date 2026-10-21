@@ -175,8 +175,33 @@ function tickClocks() {
   document.querySelectorAll('.match-clock[data-sec]').forEach((el) => {
     const base = parseFloat(el.dataset.sec) || 0;
     const t0 = parseFloat(el.dataset.t0) || Date.now();
-    el.textContent = '⏱ ' + fmtClock(base + (Date.now() - t0) / 1000);
+    el.textContent = '⏱ ' + fmtClock(base + (Date.now() - t0) / 1000, parseInt(el.dataset.period || '0', 10) || 0);
   });
+}
+// Persistent per-match clock anchors: ESPN's clock is minute-precision, so
+// re-anchoring on every render made the seconds restart from :00 each minute
+// and on every tab re-entry. Keep the anchor in page memory and preserve the
+// running seconds phase when ESPN's minute advances.
+const clockAnchors = {};
+function anchorClock(m) {
+  const now = Date.now();
+  const espn = (typeof m.clockSec === 'number' ? m.clockSec : 0);
+  const period = m.period || 0;
+  let a = clockAnchors[m.id];
+  if (!a || a.period !== period) {
+    a = clockAnchors[m.id] = { base: espn, t0: now, period: period, lastEspn: espn };
+    return a;
+  }
+  const shown = a.base + (now - a.t0) / 1000;
+  if (espn > a.lastEspn) {
+    const phase = ((shown % 60) + 60) % 60;
+    a.base = (espn % 60 === 0) ? espn + phase : espn;
+    a.t0 = now;
+    a.lastEspn = espn;
+  } else if (shown - espn > 180) {
+    a.base = espn; a.t0 = now; a.lastEspn = espn;
+  }
+  return a;
 }
 let clockTimer = null;
 function armClockTicker(on) {
@@ -201,7 +226,7 @@ function matchCard(m) {
   if (isLive) {
     const mode = clockMode(m);
     if (mode === 'static') liveClock = `<div class="match-clock">⏱ ${esc(m.clock || 'HT')}</div>`;
-    else if (mode === 'tick') liveClock = `<div class="match-clock" data-sec="${m.clockSec}" data-period="${m.period || 0}" data-t0="${Date.now()}">⏱ ${fmtClock(m.clockSec, m.period)}</div>`;
+    else if (mode === 'tick') { const a = anchorClock(m); liveClock = `<div class="match-clock" data-sec="${a.base}" data-period="${m.period || 0}" data-t0="${a.t0}">⏱ ${fmtClock(a.base + (Date.now() - a.t0) / 1000, m.period)}</div>`; }
   }
   return `
   <div class="match-card${isLive ? ' live-now' : ''}${isFavMatch(m) ? ' fav-match' : ''}" onclick="openMatchDetail('${esc(m.id)}')" style="cursor:pointer" title="အသေးစိတ်ကြည့်ရန် နှိပ်ပါ">
