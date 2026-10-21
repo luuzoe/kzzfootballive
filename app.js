@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "SgwT8g0U6Y4", title: "¡GOL DEL INTER! Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 21, 2026" },
     { id: "MBSkAKB3iuw", title: "Real Madrid vs RB Leipzig 4-1 Highlights & Goals | UEFA Champions League 2026/27", channel: "سامح كورة ومنوعات", date: "Oct 21, 2026" },
     { id: "dHVv62Hxm-g", title: "Como vs Manchester United 4-1 Highlights | Nico Paz & Douvikas Goals | UEFA Champions League 2026", channel: "MDF Channel", date: "Oct 21, 2026" },
     { id: "mZgyLHkeU34", title: "Como - Manchester United | 4-1 | Highlights | Champions League 2026-27", channel: "Sponitor", date: "Oct 21, 2026" },
