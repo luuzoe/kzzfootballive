@@ -478,3 +478,34 @@ table.standings { width: 100%; border-collapse: collapse; font-size: 14px; }
 .lineup-match { background: #12233a; border: 1px solid #1a2340; border-radius: 12px; padding: 14px; margin: 12px 0; }
 .lineup-match-head { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; font-size: 1rem; margin-bottom: 10px; color: #fff; }
 .lineup-match-head span { color: #8fa3c8; font-size: 0.85rem; }
+
+/* ---------- light theme: hardcoded-dark components ---------- */
+[data-theme="light"] .fav-bar { background: #e9f2e9; border-bottom: 1px solid var(--line); color: var(--text); }
+[data-theme="light"] .fav-bar select { background: #ffffff; color: var(--text); border-color: var(--line); }
+[data-theme="light"] .fav-bar button { color: var(--muted); }
+[data-theme="light"] .sub-tab { background: var(--card); color: var(--text); border-color: var(--line); }
+[data-theme="light"] .news-card { background: var(--card); border-color: var(--line); }
+[data-theme="light"] .news-title { color: var(--text); }
+[data-theme="light"] .news-text { color: #33473a; }
+[data-theme="light"] .news-meta { color: var(--muted); }
+[data-theme="light"] .news-meta a { color: #1d6fd1; }
+[data-theme="light"] .analysis-card { border-color: var(--line); }
+[data-theme="light"] .analysis-title { color: var(--gold); }
+[data-theme="light"] .analysis-text { color: var(--text); }
+[data-theme="light"] .analysis-score b { color: #15803d; }
+[data-theme="light"] .modal { background: var(--card); border-color: var(--line); color: var(--text); }
+[data-theme="light"] .modal-head { border-bottom-color: var(--line); }
+[data-theme="light"] .modal-team b { color: var(--gold); }
+[data-theme="light"] .modal-sec-title { color: var(--gold); }
+[data-theme="light"] .modal-vs, [data-theme="light"] .modal-venue { color: var(--muted); }
+[data-theme="light"] .ev-row, [data-theme="light"] .stat-row { background: var(--card2); }
+[data-theme="light"] .fav-empty { background: var(--card2); border-color: var(--line); color: var(--muted); }
+[data-theme="light"] .comment-box { background: var(--card2); border-color: var(--line); }
+[data-theme="light"] .comment-form-row textarea { background: var(--card); border-color: var(--line); color: var(--text); }
+[data-theme="light"] .comment-item small { color: var(--muted); }
+[data-theme="light"] .share-btn { background: #e7f4ea; border-color: #bcd8c2; color: #14532d; }
+[data-theme="light"] .prob-bar { background: #dfe7df; }
+[data-theme="light"] .player-jersey { background: #fdf3d7; color: var(--gold); border-color: var(--gold); }
+[data-theme="light"] .player-photo { background: #fdf3d7; border-color: var(--gold); }
+[data-theme="light"] .lineup-match { background: var(--card); border-color: var(--line); }
+[data-theme="light"] .squad-pos { color: #1d6fd1; }
