@@ -840,6 +840,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;">`;
   const videos = [
+    { id: "LRlY31UlP3U", title: "Barcelona Vs PSG Extended Highlights | UEFA Champions League 2026", channel: "FOOTBALL MANIA", date: "Oct 20, 2026" },
     { id: "hYf2XSGOZkU", title: "Roma 4-0 Slovan Bratislava | UEFA Champions League Highlights", channel: "DMD Sports TV", date: "Oct 20, 2026" },
     { id: "r92uvxmxKqs", title: "Spurs 3-1 Coventry City | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 19, 2026" },
     { id: "4OTqgha1Mf0", title: "Leeds 1-1 Man Utd | Highlights", channel: "Manchester United", date: "Oct 18, 2026" },
@@ -861,7 +862,6 @@ async function renderHighlights() {
     { id: "Bht1xOnl6Ik", title: "Everton 0-2 Chelsea | HIGHLIGHTS - Extended | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 17, 2026" },
     { id: "KRp3Z2Dd9ZA", title: "Luis Díaz With A Hattrick! | FC BAYERN - RB LEIPZIG | Highlights | Matchday 6 – Bundesliga 2026/27", channel: "Bundesliga", date: "Oct 17, 2026" },
     { id: "1jU2ASFtgsI", title: "Slovan Bratislava 0-3 VfB Stuttgart | Highlights | UEFA Champions League 2026/27", channel: "CHEFON FF", date: "Oct 14, 2026" },
-    { id: "OOR125rkjhk", title: "Poland vs. Belgium (13.10.2026) - highlights", channel: "Lechus7", date: "Oct 13, 2026" },
     { id: "pRO8JfsXxl0", title: "Persib Bandung 1-0 Viettel FC | Highlights ACL Two", channel: "TV360 Thể Thao", date: "Oct 15, 2026" },
     { id: "hK3YQ6Ilqws", title: "Chicago Fire FC vs. Philadelphia Union | Full Match Highlights | Damiani BRACE!", channel: "Major League Soccer", date: "Oct 14, 2026" },
     { id: "Y5bnjRuMEo0", title: "LAFC vs. Austin FC | Full Match Highlights | the Son & Bouanga Show BACK IN ACTION!", channel: "Major League Soccer", date: "Oct 14, 2026" },
