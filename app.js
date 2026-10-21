@@ -815,6 +815,23 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;">`;
   const videos = [
+    { id: "cjaOYVBtoT4", title: "🔥 PSG 4-2 BARCELONA! DESIRÉ DOUE SHINES AS PSG WIN CHAMPIONS LEAGUE THRILLER!", channel: "Kari Sports", date: "Oct 20, 2026" },
+    { id: "ftO2ywDloLg", title: "SUPER EXTENDED HIGHLIGHTS - Liverpool 4-3 Villarreal | UEFA Champions League - J3 Fase Liga 2026-27", channel: "TUDN USA", date: "Oct 20, 2026" },
+    { id: "6HOwK8MliqM", title: "CRAZY MATCH!! Napoli vs FK Bodø/Glimt (4-3) FULL HIGHLIGHTS | UEFA Champions League 2026/27", channel: "Halotub", date: "Oct 20, 2026" },
+    { id: "Vnt4aut2lOU", title: "Manchester city vs Aek Athens 5-1 Highlights | Champions league 2026/27 FODEN HATTRICK", channel: "PVXFC", date: "Oct 20, 2026" },
+    { id: "6D8B_IWnEzQ", title: "Porto - PSV | 0-1 | Highlights | Champions League 2026-27 | porto psv", channel: "Sponitor", date: "Oct 20, 2026" },
+    { id: "XJkoqX_9Cxw", title: "Real Madrid - Sevilla FC (4-1) LALIGA | Resumen", channel: "Sevilla FC", date: "Oct 18, 2026" },
+    { id: "yMp7sMdtq9k", title: "Extended Highlights 2026/27 | Milan 3-2 Atalanta | Ramos, Rabiot e Gila firmano la vittoria!", channel: "AC Milan", date: "Oct 18, 2026" },
+    { id: "R8fHN1bbWiQ", title: "JUVENTUS-LAZIO 0-3 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 18, 2026" },
+    { id: "WnGuIHR_3aM", title: "FIORENTINA-COMO 1-3 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 18, 2026" },
+    { id: "iXObcdrHgJE", title: "Nottingham Forest 0 - 1 Arsenal | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 18, 2026" },
+    { id: "Nj8sIYlGOVw", title: "Résumé 7ème journée | Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald’s", date: "Oct 18, 2026" },
+    { id: "e6B-zToIh7k", title: "Resumen del partido Real Betis - FC Barcelona | HIGHLIGHTS | Real BETIS Balompié", channel: "Real Betis Balompié", date: "Oct 17, 2026" },
+    { id: "FHAHC2cXIuo", title: "BOLOGNA-INTER 1-3 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 17, 2026" },
+    { id: "hPSVl8MxITI", title: "Brentford 1-2 Liverpool | Defeat at the Gtech | Premier League Highlights", channel: "Brentford Football Club", date: "Oct 17, 2026" },
+    { id: "79D4_JhjQ80", title: "EXTENDED HIGHLIGHTS | Man City 3-2 Ipswich | Maresca with a record-breaking start!", channel: "Man City", date: "Oct 17, 2026" },
+    { id: "Bht1xOnl6Ik", title: "Everton 0-2 Chelsea | HIGHLIGHTS - Extended | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 17, 2026" },
+    { id: "KRp3Z2Dd9ZA", title: "Luis Díaz With A Hattrick! | FC BAYERN - RB LEIPZIG | Highlights | Matchday 6 – Bundesliga 2026/27", channel: "Bundesliga", date: "Oct 17, 2026" },
     { id: "1jU2ASFtgsI", title: "Slovan Bratislava 0-3 VfB Stuttgart | Highlights | UEFA Champions League 2026/27", channel: "CHEFON FF", date: "Oct 14, 2026" },
     { id: "OOR125rkjhk", title: "Poland vs. Belgium (13.10.2026) - highlights", channel: "Lechus7", date: "Oct 13, 2026" },
     { id: "pRO8JfsXxl0", title: "Persib Bandung 1-0 Viettel FC | Highlights ACL Two", channel: "TV360 Thể Thao", date: "Oct 15, 2026" },
