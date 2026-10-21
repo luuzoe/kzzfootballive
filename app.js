@@ -868,8 +868,6 @@ async function renderHighlights() {
     { id: "KRp3Z2Dd9ZA", title: "Luis Díaz With A Hattrick! | FC BAYERN - RB LEIPZIG | Highlights | Matchday 6 – Bundesliga 2026/27", channel: "Bundesliga", date: "Oct 17, 2026" },
     { id: "pRO8JfsXxl0", title: "Persib Bandung 1-0 Viettel FC | Highlights ACL Two", channel: "TV360 Thể Thao", date: "Oct 15, 2026" },
     { id: "PszrO5TDv24", title: "LA Galaxy vs. Portland Timbers | Full Match Highlights | Marco Reus GOAL AND ASSIST!", channel: "Major League Soccer", date: "Oct 14, 2026" },
-    { id: "pXaCEY4BfMk", title: "Liverpool vs LASK Highlights 6-3 BARCOLA HATTRICK • UEFA CHAMPIONS LEAGUE", channel: "Footballia", date: "Oct 14, 2026" },
-    { id: "ymVX9lP2mT0", title: "Roma vs Real Madrid 3-4 • MALEN & MBAPPE Goals - Highlights Uefa Champions League 26/27", channel: "Antonionne Football", date: "Oct 14, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
