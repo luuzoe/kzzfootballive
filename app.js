@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "SbGF1xglHh4", title: "HIGHLIGHTS | Real Madrid 4-1 RB Leipzig | Champions League", channel: "Real Madrid", date: "Oct 21, 2026" },
     { id: "RKdtcQYFBxE", title: "HIGHLIGHTS | Man City 5-1 AEK Athens | Foden hat-trick and Cherki magic in Champions League rout!", channel: "Man City", date: "Oct 20, 2026" },
     { id: "iSPDVKdWoJU", title: "Highlights: Liverpool 4-3 Villarreal | Champions League comeback win! Mac Allister, Araujo & Wirtz!", channel: "Liverpool FC", date: "Oct 20, 2026" },
     { id: "jM_bVGPowhA", title: "Thrilling draw in a top-class clash | FC Bayern vs Arsenal FC | Champions League Highlights", channel: "FC Bayern München", date: "Oct 21, 2026" },
