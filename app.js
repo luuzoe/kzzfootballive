@@ -893,7 +893,6 @@ async function renderHighlights() {
     { id: "XJkoqX_9Cxw", title: "Real Madrid - Sevilla FC (4-1) LALIGA | Resumen", channel: "Sevilla FC", date: "Oct 18, 2026" },
     { id: "yMp7sMdtq9k", title: "Extended Highlights 2026/27 | Milan 3-2 Atalanta | Ramos, Rabiot e Gila firmano la vittoria!", channel: "AC Milan", date: "Oct 18, 2026" },
     { id: "R8fHN1bbWiQ", title: "JUVENTUS-LAZIO 0-3 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 18, 2026" },
-    { id: "iXObcdrHgJE", title: "Nottingham Forest 0 - 1 Arsenal | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 18, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
