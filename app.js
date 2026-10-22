@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "LaJkUmgUpb0", title: "VfB Stuttgart 1-1 Atl\u00e9tico de Madrid | \u26bd Juli\u00e1n Alvarez | HIGHLIGHTS, UCL - MD3", channel: "Atl\u00e9tico de Madrid", date: "Oct 21, 2026" },
     { id: "jM_bVGPowhA", title: "Thrilling draw in a top-class clash | FC Bayern vs Arsenal FC | Champions League Highlights", channel: "FC Bayern München", date: "Oct 22, 2026" },
     { id: "SbGF1xglHh4", title: "HIGHLIGHTS | Real Madrid 4-1 RB Leipzig | Champions League", channel: "Real Madrid", date: "Oct 22, 2026" },
     { id: "RKdtcQYFBxE", title: "HIGHLIGHTS | Man City 5-1 AEK Athens | Foden hat-trick and Cherki magic in Champions League rout!", channel: "Man City", date: "Oct 20, 2026" },
@@ -892,7 +893,6 @@ async function renderHighlights() {
     { id: "dx7x6C5-diY", title: "EZE AND RICE GOALS IN CRAZY GAME 🤯 | Bayern Munich vs Arsenal (2-2) | Champions League", channel: "Arsenal", date: "Oct 21, 2026" },
     { id: "iBzTGEpZX2E", title: "Real Madrid vs Leipzig (4-1) Extended Highlights l Champions League 2026", channel: "David Valdearenas", date: "Oct 22, 2026" },
     { id: "4UqZyCBYJqk", title: "HIGHLIGHTS - Napoli vs Bodo/Glimt | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 20, 2026" },
-    { id: "_LpzkLDdR6U", title: "HIGHLIGHTS | PSG 4 vs 2 FC BARCELONA | UEFA CHAMPIONS LEAGUE 26/27", channel: "FC Barcelona", date: "Oct 20, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
