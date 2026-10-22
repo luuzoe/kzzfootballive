@@ -865,13 +865,13 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "n3m3opN9o_k", title: "Manchester City vs AEK Athens | Key Moments | UEFA Champions League 2026", channel: "Sony Sports Network", date: "Oct 20, 2026" },
+    { id: "RqrmnDOPhyI", title: "Spurs claim FIRST league win of season! ✅ | Spurs 3-1 Coventry | Premier League highlights", channel: "Sky Sports Premier League", date: "Oct 19, 2026" },
+    { id: "bFsvl1ssxpI", title: "Neto scores brace to give Blues win! | Everton 0-2 Chelsea | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 17, 2026" },
     { id: "z4mQWetH5cQ", title: "HIGHLIGHTS - Liverpool vs Villarreal | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 21, 2026" },
     { id: "BQoR3qD2WOc", title: "HIGHLIGHTS - Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga", channel: "TUDN USA", date: "Oct 22, 2026" },
     { id: "Bht1xOnl6Ik", title: "Everton 0-2 Chelsea | HIGHLIGHTS - Extended | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 19, 2026" },
-    { id: "iXObcdrHgJE", title: "Nottingham Forest 0 - 1 Arsenal | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 18, 2026" },
     { id: "0x1Veh5Dw0c", title: "Nottm Forest vs Arsenal 0-1 Highlights | Premier League 2026/27 Highlights", channel: "Cric7 Cool", date: "Oct 18, 2026" },
-    { id: "9Bd8gb6k7hE", title: "HIGHLIGHTS | Man City 3-2 Ipswich | Haaland brace and Foden goal!", channel: "Man City", date: "Oct 17, 2026" },
-    { id: "79D4_JhjQ80", title: "EXTENDED HIGHLIGHTS | Man City 3-2 Ipswich | Maresca with a record-breaking start!", channel: "Man City", date: "Oct 17, 2026" },
     { id: "-0qWJKEULjE", title: "Napoli v Bodo/Glimt | Highlights | UEFA Champions League 2026/27", channel: "Stan Sport Football", date: "Oct 20, 2026" },
     { id: "bS28cJNMg1I", title: "Bayern Munich vs Arsenal | 2:2 Highlights WHAT A MATCH! 🔥 All Goals", channel: "Sasky", date: "Oct 22, 2026" },
     { id: "js-UOjc28Gk", title: "TOTAL ROUT! ⚡ Como 4-1 Man Utd Highlights | Nico Paz Double & Zirkzee Goal | UEFA Champions League", channel: "Halotub", date: "Oct 21, 2026" },
