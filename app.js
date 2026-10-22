@@ -893,7 +893,6 @@ async function renderHighlights() {
     { id: "jM_bVGPowhA", title: "Thrilling draw in a top-class clash | FC Bayern vs Arsenal FC | Champions League Highlights", channel: "FC Bayern München", date: "Oct 21, 2026" },
     { id: "SgwT8g0U6Y4", title: "¡GOL DEL INTER! Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 21, 2026" },
     { id: "gSCbm_ia-zE", title: "HIGHLIGHTS - Como vs Manchester United | UEFA Champions League - J3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 21, 2026" },
-    { id: "LaJkUmgUpb0", title: "VfB Stuttgart 1-1 Atlético de Madrid | ⚽ Julián Alvarez | HIGHLIGHTS, UCL - MD3", channel: "Atlético de Madrid", date: "Oct 20, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
