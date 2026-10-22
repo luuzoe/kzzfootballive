@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "js-UOjc28Gk", title: "TOTAL ROUT! ⚡ Como 4-1 Man Utd Highlights | Nico Paz Double & Zirkzee Goal | UEFA Champions League", channel: "Halotub", date: "Oct 21, 2026" },
     { id: "RFWP_0e6hTQ", title: "PSG - Barcelona 4:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
     { id: "BZskW9-LzHM", title: "TOTTENHAM 3-1 COVENTRY CITY 🔥 INSANE COMEBACK! | Match Highlights & All Goals", channel: "Tottenham Corner", date: "Oct 19, 2026" },
     { id: "jfqldLeIItQ", title: "Brentford vs Liverpool 1-2 Highlights | Premier League 2026 | Matchday Highlights", channel: "DroidTV74", date: "Oct 17, 2026" },
