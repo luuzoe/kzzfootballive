@@ -881,7 +881,6 @@ async function renderHighlights() {
     { id: "iSPDVKdWoJU", title: "Highlights: Liverpool 4-3 Villarreal | Champions League comeback win! Mac Allister, Araujo & Wirtz!", channel: "Liverpool FC", date: "Oct 20, 2026" },
     { id: "jM_bVGPowhA", title: "Thrilling draw in a top-class clash | FC Bayern vs Arsenal FC | Champions League Highlights", channel: "FC Bayern München", date: "Oct 21, 2026" },
     { id: "SgwT8g0U6Y4", title: "¡GOL DEL INTER! Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 21, 2026" },
-    { id: "dHVv62Hxm-g", title: "Como vs Manchester United 4-1 Highlights | Nico Paz & Douvikas Goals | UEFA Champions League 2026", channel: "MDF Channel", date: "Oct 21, 2026" },
     { id: "mZgyLHkeU34", title: "Como - Manchester United | 4-1 | Highlights | Champions League 2026-27", channel: "Sponitor", date: "Oct 21, 2026" },
     { id: "LaJkUmgUpb0", title: "VfB Stuttgart 1-1 Atlético de Madrid | ⚽ Julián Alvarez | HIGHLIGHTS, UCL - MD3", channel: "Atlético de Madrid", date: "Oct 20, 2026" },
     { id: "8sv8UW8n_Ws", title: "Sabah Baku - Borussia Dortmund 1:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
