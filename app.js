@@ -865,6 +865,12 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "r92uvxmxKqs", title: "Spurs 3-1 Coventry City | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 19, 2026" },
+    { id: "wkJ9JVSLpiM", title: "Madueke snatches it late for champions 🔴 | Nottingham Forest 0-1 Arsenal | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 18, 2026" },
+    { id: "1besSatcPzs", title: "War of the Roses at Elland Road | Uncut exclusive footage | Leeds United 1-1 Manchester United", channel: "Leeds United Official", date: "Oct 18, 2026" },
+    { id: "dYSC5IxFlAM", title: "Leeds United 1 - 1 Manchester United | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 18, 2026" },
+    { id: "BORuDyEx8zI", title: "Extended Highlights: Brentford 1-2 Liverpool | Late Reds comeback!", channel: "Liverpool FC", date: "Oct 17, 2026" },
+    { id: "vlu2Kt3QHko", title: "HIGHLIGHTS | MAN CITY 3 TOWN 2", channel: "Ipswich Town FC", date: "Oct 17, 2026" },
     { id: "atz7piAn0-Y", title: "AC Milan vs Bournemouth 0-2 😱 Highlights & All Goals | Europa League 2026", channel: "Goal Rush TV", date: "Oct 22, 2026" },
     { id: "xvdKn1B5K8s", title: "Bournemouth vs AC Milan (2-0) — Mike Maignan Red Card 📕 | All Events & Extended Highlights", channel: "DJsportHD", date: "Oct 22, 2026" },
     { id: "leY1v8f-Mtk", title: "HIGHLIGHTS - Juventus vs Rennes | UEFA Europa League - J3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 22, 2026" },
@@ -887,12 +893,6 @@ async function renderHighlights() {
     { id: "iBzTGEpZX2E", title: "Real Madrid vs Leipzig (4-1) Extended Highlights l Champions League 2026", channel: "David Valdearenas", date: "Oct 22, 2026" },
     { id: "4UqZyCBYJqk", title: "HIGHLIGHTS - Napoli vs Bodo/Glimt | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 20, 2026" },
     { id: "_LpzkLDdR6U", title: "HIGHLIGHTS | PSG 4 vs 2 FC BARCELONA | UEFA CHAMPIONS LEAGUE 26/27", channel: "FC Barcelona", date: "Oct 20, 2026" },
-    { id: "SbGF1xglHh4", title: "HIGHLIGHTS | Real Madrid 4-1 RB Leipzig | Champions League", channel: "Real Madrid", date: "Oct 21, 2026" },
-    { id: "RKdtcQYFBxE", title: "HIGHLIGHTS | Man City 5-1 AEK Athens | Foden hat-trick and Cherki magic in Champions League rout!", channel: "Man City", date: "Oct 20, 2026" },
-    { id: "iSPDVKdWoJU", title: "Highlights: Liverpool 4-3 Villarreal | Champions League comeback win! Mac Allister, Araujo & Wirtz!", channel: "Liverpool FC", date: "Oct 20, 2026" },
-    { id: "jM_bVGPowhA", title: "Thrilling draw in a top-class clash | FC Bayern vs Arsenal FC | Champions League Highlights", channel: "FC Bayern München", date: "Oct 21, 2026" },
-    { id: "SgwT8g0U6Y4", title: "¡GOL DEL INTER! Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 21, 2026" },
-    { id: "gSCbm_ia-zE", title: "HIGHLIGHTS - Como vs Manchester United | UEFA Champions League - J3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 21, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
