@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "z4mQWetH5cQ", title: "HIGHLIGHTS - Liverpool vs Villarreal | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 21, 2026" },
     { id: "BQoR3qD2WOc", title: "HIGHLIGHTS - Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga", channel: "TUDN USA", date: "Oct 22, 2026" },
     { id: "Bht1xOnl6Ik", title: "Everton 0-2 Chelsea | HIGHLIGHTS - Extended | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 19, 2026" },
     { id: "iXObcdrHgJE", title: "Nottingham Forest 0 - 1 Arsenal | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 18, 2026" },
@@ -892,7 +893,6 @@ async function renderHighlights() {
     { id: "LaJkUmgUpb0", title: "VfB Stuttgart 1-1 Atlético de Madrid | ⚽ Julián Alvarez | HIGHLIGHTS, UCL - MD3", channel: "Atlético de Madrid", date: "Oct 20, 2026" },
     { id: "8sv8UW8n_Ws", title: "Sabah Baku - Borussia Dortmund 1:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
     { id: "r92uvxmxKqs", title: "Spurs 3-1 Coventry City | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 19, 2026" },
-    { id: "4OTqgha1Mf0", title: "Leeds 1-1 Man Utd | Highlights", channel: "Manchester United", date: "Oct 18, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
