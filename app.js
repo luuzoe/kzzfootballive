@@ -865,15 +865,16 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "leY1v8f-Mtk", title: "HIGHLIGHTS - Juventus vs Rennes | UEFA Europa League - J3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 22, 2026" },
+    { id: "HDsiMIz2aHY", title: "Juventus vs Rennes 2-2 Highlights UEFA Europa League 2026/27", channel: "Footballia", date: "Oct 22, 2026" },
+    { id: "RaBG_VPGFmk", title: "HIGHLIGHTS - OFI vs Bayer Leverkusen | UEFA Europa League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 22, 2026" },
+    { id: "R_8X4LwtSng", title: "Bayer Leverkusen 2-0 OFI Crete 😱🔥 HOFMANN BRACE! | Europa League Highlights", channel: "Goal Rush TV", date: "Oct 22, 2026" },
     { id: "DuEe6hA6RwI", title: "HIGHLIGHTS: Como 4-1 Manchester United | UEFA Champions League", channel: "BBC Football", date: "Oct 22, 2026" },
     { id: "JnJPxvUkaKc", title: "CARLOS CI REGALA LA PRIMA VITTORIA EUROPEA 🖤💙 | INTER 1-0 SHAKHTAR DONETSK | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Oct 22, 2026" },
     { id: "xSF8wrBPY7k", title: "Napoli - Bodo/Glimt 4-3 | Highlights 20.10.2026", channel: "Cytavision Sports", date: "Oct 20, 2026" },
-    { id: "Vnt4aut2lOU", title: "Manchester city vs Aek Athens 5-1 Highlights| Champions league 2026/27 FODEN HATTRICK", channel: "PVXFC", date: "Oct 20, 2026" },
     { id: "n3m3opN9o_k", title: "Manchester City vs AEK Athens | Key Moments | UEFA Champions League 2026", channel: "Sony Sports Network", date: "Oct 20, 2026" },
-    { id: "RqrmnDOPhyI", title: "Spurs claim FIRST league win of season! ✅ | Spurs 3-1 Coventry | Premier League highlights", channel: "Sky Sports Premier League", date: "Oct 19, 2026" },
     { id: "z4mQWetH5cQ", title: "HIGHLIGHTS - Liverpool vs Villarreal | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 21, 2026" },
     { id: "BQoR3qD2WOc", title: "HIGHLIGHTS - Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga", channel: "TUDN USA", date: "Oct 22, 2026" },
-    { id: "Bht1xOnl6Ik", title: "Everton 0-2 Chelsea | HIGHLIGHTS - Extended | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 19, 2026" },
     { id: "-0qWJKEULjE", title: "Napoli v Bodo/Glimt | Highlights | UEFA Champions League 2026/27", channel: "Stan Sport Football", date: "Oct 20, 2026" },
     { id: "bS28cJNMg1I", title: "Bayern Munich vs Arsenal | 2:2 Highlights WHAT A MATCH! 🔥 All Goals", channel: "Sasky", date: "Oct 22, 2026" },
     { id: "RFWP_0e6hTQ", title: "PSG - Barcelona 4:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
@@ -892,7 +893,6 @@ async function renderHighlights() {
     { id: "gSCbm_ia-zE", title: "HIGHLIGHTS - Como vs Manchester United | UEFA Champions League - J3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 21, 2026" },
     { id: "LaJkUmgUpb0", title: "VfB Stuttgart 1-1 Atlético de Madrid | ⚽ Julián Alvarez | HIGHLIGHTS, UCL - MD3", channel: "Atlético de Madrid", date: "Oct 20, 2026" },
     { id: "8sv8UW8n_Ws", title: "Sabah Baku - Borussia Dortmund 1:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
-    { id: "r92uvxmxKqs", title: "Spurs 3-1 Coventry City | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 19, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
