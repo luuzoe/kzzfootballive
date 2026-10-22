@@ -151,6 +151,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-10-22-juventus-stade-rennais.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-10-22-ofi-crete-bayer-leverkusen.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-10-21-real-madrid-rb-leipzig.html</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -314,18 +326,6 @@
   </url>
   <url>
     <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-10-15-celta-juventus.html</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-10-15-lech-leverkusen.html</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-10-15-salzburg-milan.html</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
