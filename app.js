@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "DuEe6hA6RwI", title: "HIGHLIGHTS: Como 4-1 Manchester United | UEFA Champions League", channel: "BBC Football", date: "Oct 22, 2026" },
     { id: "JnJPxvUkaKc", title: "CARLOS CI REGALA LA PRIMA VITTORIA EUROPEA 🖤💙 | INTER 1-0 SHAKHTAR DONETSK | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Oct 22, 2026" },
     { id: "xSF8wrBPY7k", title: "Napoli - Bodo/Glimt 4-3 | Highlights 20.10.2026", channel: "Cytavision Sports", date: "Oct 20, 2026" },
     { id: "Vnt4aut2lOU", title: "Manchester city vs Aek Athens 5-1 Highlights| Champions league 2026/27 FODEN HATTRICK", channel: "PVXFC", date: "Oct 20, 2026" },
@@ -875,7 +876,6 @@ async function renderHighlights() {
     { id: "Bht1xOnl6Ik", title: "Everton 0-2 Chelsea | HIGHLIGHTS - Extended | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 19, 2026" },
     { id: "-0qWJKEULjE", title: "Napoli v Bodo/Glimt | Highlights | UEFA Champions League 2026/27", channel: "Stan Sport Football", date: "Oct 20, 2026" },
     { id: "bS28cJNMg1I", title: "Bayern Munich vs Arsenal | 2:2 Highlights WHAT A MATCH! 🔥 All Goals", channel: "Sasky", date: "Oct 22, 2026" },
-    { id: "js-UOjc28Gk", title: "TOTAL ROUT! ⚡ Como 4-1 Man Utd Highlights | Nico Paz Double & Zirkzee Goal | UEFA Champions League", channel: "Halotub", date: "Oct 21, 2026" },
     { id: "RFWP_0e6hTQ", title: "PSG - Barcelona 4:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
     { id: "a3P2YvlOFFU", title: "Paris Saint Germain Vs Fc Barcelona Extended Highlights (21/10/26)", channel: "ONLYKMcompsJR 3", date: "Oct 22, 2026" },
     { id: "QwiKOrerpd0", title: "Real Madrid vs RB Leipzig 4-1 Highlights UEFA Champions League 2026/27", channel: "Footballia", date: "Oct 22, 2026" },
