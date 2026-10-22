@@ -865,6 +865,9 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "zOPyh46UFZQ", title: "COMO vs Manchester United (4-1) NICO PAZ 2 GOALS | FULL Highlights UEFA Champions League 26/27", channel: "Antonionne Football", date: "Oct 21, 2026" },
+    { id: "3awvx_3GKlo", title: "Como vs Manchester United 4-1 HIGHLIGHTS • Nico Paz Brace & Zirkzee Goal • Champions League 2026", channel: "Dollar VFX", date: "Oct 21, 2026" },
+    { id: "Tx9lpBpnWzs", title: "Manchester United 1-4 Como | MU SHOCKING DEFEAT! All Goals & Highlights | Champions League 2026", channel: "N24 News", date: "Oct 21, 2026" },
     { id: "dx7x6C5-diY", title: "EZE AND RICE GOALS IN CRAZY GAME 🤯 | Bayern Munich vs Arsenal (2-2) | Champions League", channel: "Arsenal", date: "Oct 21, 2026" },
     { id: "iBzTGEpZX2E", title: "Real Madrid vs Leipzig (4-1) Extended Highlights l Champions League 2026", channel: "David Valdearenas", date: "Oct 22, 2026" },
     { id: "4UqZyCBYJqk", title: "HIGHLIGHTS - Napoli vs Bodo/Glimt | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 20, 2026" },
@@ -890,9 +893,6 @@ async function renderHighlights() {
     { id: "yMp7sMdtq9k", title: "Extended Highlights 2026/27 | Milan 3-2 Atalanta | Ramos, Rabiot e Gila firmano la vittoria!", channel: "AC Milan", date: "Oct 18, 2026" },
     { id: "R8fHN1bbWiQ", title: "JUVENTUS-LAZIO 0-3 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 18, 2026" },
     { id: "iXObcdrHgJE", title: "Nottingham Forest 0 - 1 Arsenal | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 18, 2026" },
-    { id: "e6B-zToIh7k", title: "Resumen del partido Real Betis - FC Barcelona | HIGHLIGHTS | Real BETIS Balompié", channel: "Real Betis Balompié", date: "Oct 17, 2026" },
-    { id: "FHAHC2cXIuo", title: "BOLOGNA-INTER 1-3 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 17, 2026" },
-    { id: "hPSVl8MxITI", title: "Brentford 1-2 Liverpool | Defeat at the Gtech | Premier League Highlights", channel: "Brentford Football Club", date: "Oct 17, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
