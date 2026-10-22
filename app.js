@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "b0J7UcbgU2s", title: "Highlights: Liverpool 4-3 Villarreal", channel: "Liverpool FC", date: "Oct 20, 2026" },
     { id: "3awvx_3GKlo", title: "Como vs Manchester United 4-1 HIGHLIGHTS • Nico Paz Brace & Zirkzee Goal • Champions League 2026", channel: "Dollar VFX", date: "Oct 22, 2026" },
     { id: "_pYxYapNPKM", title: "PSG vs Barcelona | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 21, 2026" },
     { id: "pDyaurLPeko", title: "Marmoush's first goal! | Spurs 3-1 Coventry City | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 21, 2026" },
@@ -892,7 +893,6 @@ async function renderHighlights() {
     { id: "bS28cJNMg1I", title: "Bayern Munich vs Arsenal | 2:2 Highlights WHAT A MATCH! 🔥 All Goals", channel: "Sasky", date: "Oct 22, 2026" },
     { id: "RFWP_0e6hTQ", title: "PSG - Barcelona 4:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
     { id: "a3P2YvlOFFU", title: "Paris Saint Germain Vs Fc Barcelona Extended Highlights (21/10/26)", channel: "ONLYKMcompsJR 3", date: "Oct 22, 2026" },
-    { id: "dx7x6C5-diY", title: "EZE AND RICE GOALS IN CRAZY GAME 🤯 | Bayern Munich vs Arsenal (2-2) | Champions League", channel: "Arsenal", date: "Oct 21, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
