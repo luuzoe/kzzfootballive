@@ -866,8 +866,6 @@ async function renderHighlights() {
   html += `<div class="highlights-grid">`;
   const videos = [
     { id: "zOPyh46UFZQ", title: "COMO vs Manchester United (4-1) NICO PAZ 2 GOALS | FULL Highlights UEFA Champions League 26/27", channel: "Antonionne Football", date: "Oct 21, 2026" },
-    { id: "3awvx_3GKlo", title: "Como vs Manchester United 4-1 HIGHLIGHTS • Nico Paz Brace & Zirkzee Goal • Champions League 2026", channel: "Dollar VFX", date: "Oct 21, 2026" },
-    { id: "Tx9lpBpnWzs", title: "Manchester United 1-4 Como | MU SHOCKING DEFEAT! All Goals & Highlights | Champions League 2026", channel: "N24 News", date: "Oct 21, 2026" },
     { id: "dx7x6C5-diY", title: "EZE AND RICE GOALS IN CRAZY GAME 🤯 | Bayern Munich vs Arsenal (2-2) | Champions League", channel: "Arsenal", date: "Oct 21, 2026" },
     { id: "iBzTGEpZX2E", title: "Real Madrid vs Leipzig (4-1) Extended Highlights l Champions League 2026", channel: "David Valdearenas", date: "Oct 22, 2026" },
     { id: "4UqZyCBYJqk", title: "HIGHLIGHTS - Napoli vs Bodo/Glimt | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 20, 2026" },
