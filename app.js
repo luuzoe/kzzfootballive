@@ -14,7 +14,7 @@ const LEAGUES = [
   { id: 'uefa.europa',   name: 'Europa League',    mm: 'ယူရိုပါလိဂ်',             icon: '🟠' },
 ];
 
-const APP_VERSION = 18; // bump on every deploy
+const APP_VERSION = 19; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -865,17 +865,17 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-    { id: "xSF8wrBPY7k", title: "Napoli - Bodo/Glimt 4-3 | Highlights 20.10.2026", channel: "Cytavision Sports", date: "Oct 20, 2026" },
-    { id: "Vnt4aut2lOU", title: "Manchester city vs Aek Athens 5-1 Highlights | Champions league 2026/27 FODEN HATTRICK", channel: "PVXFC", date: "Oct 20, 2026" },
-    { id: "PYhTaTCNNwE", title: "Liverpool vs Villarreal 4-3 Highlights | All Goals & Match Highlights | UEFA Champions League 2026/27", channel: "Derby Football", date: "Oct 20, 2026" },
     { id: "iXObcdrHgJE", title: "Nottingham Forest 0 - 1 Arsenal | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 18, 2026" },
     { id: "0x1Veh5Dw0c", title: "Nottm Forest vs Arsenal 0-1 Highlights | Premier League 2026/27 Highlights", channel: "Cric7 Cool", date: "Oct 18, 2026" },
     { id: "9Bd8gb6k7hE", title: "HIGHLIGHTS | Man City 3-2 Ipswich | Haaland brace and Foden goal!", channel: "Man City", date: "Oct 17, 2026" },
+    { id: "79D4_JhjQ80", title: "EXTENDED HIGHLIGHTS | Man City 3-2 Ipswich | Maresca with a record-breaking start!", channel: "Man City", date: "Oct 17, 2026" },
+    { id: "hOCJ-8mthH0", title: "Everton 0-2 Chelsea | All Goals & Highlights | Premier League 2026", channel: "DroidTV74", date: "Oct 17, 2026" },
     { id: "-0qWJKEULjE", title: "Napoli v Bodo/Glimt | Highlights | UEFA Champions League 2026/27", channel: "Stan Sport Football", date: "Oct 20, 2026" },
     { id: "bS28cJNMg1I", title: "Bayern Munich vs Arsenal | 2:2 Highlights WHAT A MATCH! 🔥 All Goals", channel: "Sasky", date: "Oct 22, 2026" },
     { id: "js-UOjc28Gk", title: "TOTAL ROUT! ⚡ Como 4-1 Man Utd Highlights | Nico Paz Double & Zirkzee Goal | UEFA Champions League", channel: "Halotub", date: "Oct 21, 2026" },
     { id: "RFWP_0e6hTQ", title: "PSG - Barcelona 4:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
     { id: "BZskW9-LzHM", title: "TOTTENHAM 3-1 COVENTRY CITY 🔥 INSANE COMEBACK! | Match Highlights & All Goals", channel: "Tottenham Corner", date: "Oct 19, 2026" },
+    { id: "jfqldLeIItQ", title: "Brentford vs Liverpool 1-2 Highlights | Premier League 2026 | Matchday Highlights", channel: "DroidTV74", date: "Oct 17, 2026" },
     { id: "a3P2YvlOFFU", title: "Paris Saint Germain Vs Fc Barcelona Extended Highlights (21/10/26)", channel: "ONLYKMcompsJR 3", date: "Oct 22, 2026" },
     { id: "QwiKOrerpd0", title: "Real Madrid vs RB Leipzig 4-1 Highlights UEFA Champions League 2026/27", channel: "Footballia", date: "Oct 22, 2026" },
     { id: "zOPyh46UFZQ", title: "COMO vs Manchester United (4-1) NICO PAZ 2 GOALS | FULL Highlights UEFA Champions League 26/27", channel: "Antonionne Football", date: "Oct 21, 2026" },
