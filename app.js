@@ -884,7 +884,6 @@ async function renderHighlights() {
     { id: "mZgyLHkeU34", title: "Como - Manchester United | 4-1 | Highlights | Champions League 2026-27", channel: "Sponitor", date: "Oct 21, 2026" },
     { id: "LaJkUmgUpb0", title: "VfB Stuttgart 1-1 Atlético de Madrid | ⚽ Julián Alvarez | HIGHLIGHTS, UCL - MD3", channel: "Atlético de Madrid", date: "Oct 20, 2026" },
     { id: "8sv8UW8n_Ws", title: "Sabah Baku - Borussia Dortmund 1:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
-    { id: "LRlY31UlP3U", title: "Barcelona Vs PSG Extended Highlights | UEFA Champions League 2026", channel: "FOOTBALL MANIA", date: "Oct 20, 2026" },
     { id: "r92uvxmxKqs", title: "Spurs 3-1 Coventry City | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 19, 2026" },
     { id: "4OTqgha1Mf0", title: "Leeds 1-1 Man Utd | Highlights", channel: "Manchester United", date: "Oct 18, 2026" },
     { id: "_pYxYapNPKM", title: "PSG vs Barcelona | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 20, 2026" },
