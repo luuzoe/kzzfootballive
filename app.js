@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "bS28cJNMg1I", title: "Bayern Munich vs Arsenal | 2:2 Highlights WHAT A MATCH! 🔥 All Goals", channel: "Sasky", date: "Oct 22, 2026" },
     { id: "js-UOjc28Gk", title: "TOTAL ROUT! ⚡ Como 4-1 Man Utd Highlights | Nico Paz Double & Zirkzee Goal | UEFA Champions League", channel: "Halotub", date: "Oct 21, 2026" },
     { id: "RFWP_0e6hTQ", title: "PSG - Barcelona 4:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
     { id: "BZskW9-LzHM", title: "TOTTENHAM 3-1 COVENTRY CITY 🔥 INSANE COMEBACK! | Match Highlights & All Goals", channel: "Tottenham Corner", date: "Oct 19, 2026" },
@@ -891,7 +892,6 @@ async function renderHighlights() {
     { id: "6HOwK8MliqM", title: "CRAZY MATCH!! Napoli vs FK Bodø/Glimt (4-3) FULL HIGHLIGHTS | UEFA Champions League 2026/27", channel: "Halotub", date: "Oct 20, 2026" },
     { id: "Vnt4aut2lOU", title: "Manchester city vs Aek Athens 5-1 Highlights | Champions league 2026/27 FODEN HATTRICK", channel: "PVXFC", date: "Oct 20, 2026" },
     { id: "XJkoqX_9Cxw", title: "Real Madrid - Sevilla FC (4-1) LALIGA | Resumen", channel: "Sevilla FC", date: "Oct 18, 2026" },
-    { id: "yMp7sMdtq9k", title: "Extended Highlights 2026/27 | Milan 3-2 Atalanta | Ramos, Rabiot e Gila firmano la vittoria!", channel: "AC Milan", date: "Oct 18, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
