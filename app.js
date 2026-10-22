@@ -14,7 +14,7 @@ const LEAGUES = [
   { id: 'uefa.europa',   name: 'Europa League',    mm: 'ယူရိုပါလိဂ်',             icon: '🟠' },
 ];
 
-const APP_VERSION = 22; // bump on every deploy
+const APP_VERSION = 23; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -865,6 +865,10 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "3awvx_3GKlo", title: "Como vs Manchester United 4-1 HIGHLIGHTS • Nico Paz Brace & Zirkzee Goal • Champions League 2026", channel: "Dollar VFX", date: "Oct 22, 2026" },
+    { id: "_pYxYapNPKM", title: "PSG vs Barcelona | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 21, 2026" },
+    { id: "pDyaurLPeko", title: "Marmoush's first goal! | Spurs 3-1 Coventry City | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 21, 2026" },
+    { id: "BZskW9-LzHM", title: "TOTTENHAM 3-1 COVENTRY CITY 🔥 INSANE COMEBACK! | Match Highlights & All Goals", channel: "Tottenham Corner", date: "Oct 21, 2026" },
     { id: "orezm491DCs", title: "EL MILAN SUFRIÓ UNA DURA GOLEADA Y NO ENCUENTRA EL RUMBO | Bournemouth 3-0 AC Milan | RESUMEN", channel: "ESPN Fans", date: "Oct 22, 2026" },
     { id: "LaJkUmgUpb0", title: "VfB Stuttgart 1-1 Atl\u00e9tico de Madrid | \u26bd Juli\u00e1n Alvarez | HIGHLIGHTS, UCL - MD3", channel: "Atl\u00e9tico de Madrid", date: "Oct 21, 2026" },
     { id: "jM_bVGPowhA", title: "Thrilling draw in a top-class clash | FC Bayern vs Arsenal FC | Champions League Highlights", channel: "FC Bayern München", date: "Oct 22, 2026" },
@@ -888,11 +892,7 @@ async function renderHighlights() {
     { id: "bS28cJNMg1I", title: "Bayern Munich vs Arsenal | 2:2 Highlights WHAT A MATCH! 🔥 All Goals", channel: "Sasky", date: "Oct 22, 2026" },
     { id: "RFWP_0e6hTQ", title: "PSG - Barcelona 4:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
     { id: "a3P2YvlOFFU", title: "Paris Saint Germain Vs Fc Barcelona Extended Highlights (21/10/26)", channel: "ONLYKMcompsJR 3", date: "Oct 22, 2026" },
-    { id: "QwiKOrerpd0", title: "Real Madrid vs RB Leipzig 4-1 Highlights UEFA Champions League 2026/27", channel: "Footballia", date: "Oct 22, 2026" },
-    { id: "zOPyh46UFZQ", title: "COMO vs Manchester United (4-1) NICO PAZ 2 GOALS | FULL Highlights UEFA Champions League 26/27", channel: "Antonionne Football", date: "Oct 21, 2026" },
     { id: "dx7x6C5-diY", title: "EZE AND RICE GOALS IN CRAZY GAME 🤯 | Bayern Munich vs Arsenal (2-2) | Champions League", channel: "Arsenal", date: "Oct 21, 2026" },
-    { id: "iBzTGEpZX2E", title: "Real Madrid vs Leipzig (4-1) Extended Highlights l Champions League 2026", channel: "David Valdearenas", date: "Oct 22, 2026" },
-    { id: "4UqZyCBYJqk", title: "HIGHLIGHTS - Napoli vs Bodo/Glimt | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 20, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
