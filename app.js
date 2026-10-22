@@ -865,6 +865,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "atz7piAn0-Y", title: "AC Milan vs Bournemouth 0-2 😱 Highlights & All Goals | Europa League 2026", channel: "Goal Rush TV", date: "Oct 22, 2026" },
+    { id: "xvdKn1B5K8s", title: "Bournemouth vs AC Milan (2-0) — Mike Maignan Red Card 📕 | All Events & Extended Highlights", channel: "DJsportHD", date: "Oct 22, 2026" },
     { id: "leY1v8f-Mtk", title: "HIGHLIGHTS - Juventus vs Rennes | UEFA Europa League - J3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 22, 2026" },
     { id: "HDsiMIz2aHY", title: "Juventus vs Rennes 2-2 Highlights UEFA Europa League 2026/27", channel: "Footballia", date: "Oct 22, 2026" },
     { id: "RaBG_VPGFmk", title: "HIGHLIGHTS - OFI vs Bayer Leverkusen | UEFA Europa League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 22, 2026" },
@@ -892,7 +894,6 @@ async function renderHighlights() {
     { id: "SgwT8g0U6Y4", title: "¡GOL DEL INTER! Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 21, 2026" },
     { id: "gSCbm_ia-zE", title: "HIGHLIGHTS - Como vs Manchester United | UEFA Champions League - J3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 21, 2026" },
     { id: "LaJkUmgUpb0", title: "VfB Stuttgart 1-1 Atlético de Madrid | ⚽ Julián Alvarez | HIGHLIGHTS, UCL - MD3", channel: "Atlético de Madrid", date: "Oct 20, 2026" },
-    { id: "8sv8UW8n_Ws", title: "Sabah Baku - Borussia Dortmund 1:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
