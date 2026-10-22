@@ -893,7 +893,6 @@ async function renderHighlights() {
     { id: "hPSVl8MxITI", title: "Brentford 1-2 Liverpool | Defeat at the Gtech | Premier League Highlights", channel: "Brentford Football Club", date: "Oct 17, 2026" },
     { id: "79D4_JhjQ80", title: "EXTENDED HIGHLIGHTS | Man City 3-2 Ipswich | Maresca with a record-breaking start!", channel: "Man City", date: "Oct 17, 2026" },
     { id: "Bht1xOnl6Ik", title: "Everton 0-2 Chelsea | HIGHLIGHTS - Extended | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 17, 2026" },
-    { id: "KRp3Z2Dd9ZA", title: "Luis Díaz With A Hattrick! | FC BAYERN - RB LEIPZIG | Highlights | Matchday 6 – Bundesliga 2026/27", channel: "Bundesliga", date: "Oct 17, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
