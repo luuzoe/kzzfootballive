@@ -865,6 +865,11 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "iXObcdrHgJE", title: "Nottingham Forest 0 - 1 Arsenal | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 18, 2026" },
+    { id: "0x1Veh5Dw0c", title: "Nottm Forest vs Arsenal 0-1 Highlights | Premier League 2026/27 Highlights", channel: "Cric7 Cool", date: "Oct 18, 2026" },
+    { id: "9Bd8gb6k7hE", title: "HIGHLIGHTS | Man City 3-2 Ipswich | Haaland brace and Foden goal!", channel: "Man City", date: "Oct 17, 2026" },
+    { id: "79D4_JhjQ80", title: "EXTENDED HIGHLIGHTS | Man City 3-2 Ipswich | Maresca with a record-breaking start!", channel: "Man City", date: "Oct 17, 2026" },
+    { id: "hOCJ-8mthH0", title: "Everton 0-2 Chelsea | All Goals & Highlights | Premier League 2026", channel: "DroidTV74", date: "Oct 17, 2026" },
     { id: "-0qWJKEULjE", title: "Napoli v Bodo/Glimt | Highlights | UEFA Champions League 2026/27", channel: "Stan Sport Football", date: "Oct 20, 2026" },
     { id: "bS28cJNMg1I", title: "Bayern Munich vs Arsenal | 2:2 Highlights WHAT A MATCH! 🔥 All Goals", channel: "Sasky", date: "Oct 22, 2026" },
     { id: "js-UOjc28Gk", title: "TOTAL ROUT! ⚡ Como 4-1 Man Utd Highlights | Nico Paz Double & Zirkzee Goal | UEFA Champions League", channel: "Halotub", date: "Oct 21, 2026" },
@@ -888,11 +893,6 @@ async function renderHighlights() {
     { id: "8sv8UW8n_Ws", title: "Sabah Baku - Borussia Dortmund 1:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
     { id: "r92uvxmxKqs", title: "Spurs 3-1 Coventry City | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 19, 2026" },
     { id: "4OTqgha1Mf0", title: "Leeds 1-1 Man Utd | Highlights", channel: "Manchester United", date: "Oct 18, 2026" },
-    { id: "_pYxYapNPKM", title: "PSG vs Barcelona | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 20, 2026" },
-    { id: "ftO2ywDloLg", title: "SUPER EXTENDED HIGHLIGHTS - Liverpool 4-3 Villarreal | UEFA Champions League - J3 Fase Liga 2026-27", channel: "TUDN USA", date: "Oct 20, 2026" },
-    { id: "6HOwK8MliqM", title: "CRAZY MATCH!! Napoli vs FK Bodø/Glimt (4-3) FULL HIGHLIGHTS | UEFA Champions League 2026/27", channel: "Halotub", date: "Oct 20, 2026" },
-    { id: "Vnt4aut2lOU", title: "Manchester city vs Aek Athens 5-1 Highlights | Champions league 2026/27 FODEN HATTRICK", channel: "PVXFC", date: "Oct 20, 2026" },
-    { id: "XJkoqX_9Cxw", title: "Real Madrid - Sevilla FC (4-1) LALIGA | Resumen", channel: "Sevilla FC", date: "Oct 18, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
