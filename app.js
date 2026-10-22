@@ -14,7 +14,7 @@ const LEAGUES = [
   { id: 'uefa.europa',   name: 'Europa League',    mm: 'ယူရိုပါလိဂ်',             icon: '🟠' },
 ];
 
-const APP_VERSION = 21; // bump on every deploy
+const APP_VERSION = 22; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -865,13 +865,13 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "orezm491DCs", title: "EL MILAN SUFRIÓ UNA DURA GOLEADA Y NO ENCUENTRA EL RUMBO | Bournemouth 3-0 AC Milan | RESUMEN", channel: "ESPN Fans", date: "Oct 22, 2026" },
     { id: "LaJkUmgUpb0", title: "VfB Stuttgart 1-1 Atl\u00e9tico de Madrid | \u26bd Juli\u00e1n Alvarez | HIGHLIGHTS, UCL - MD3", channel: "Atl\u00e9tico de Madrid", date: "Oct 21, 2026" },
     { id: "jM_bVGPowhA", title: "Thrilling draw in a top-class clash | FC Bayern vs Arsenal FC | Champions League Highlights", channel: "FC Bayern München", date: "Oct 22, 2026" },
     { id: "SbGF1xglHh4", title: "HIGHLIGHTS | Real Madrid 4-1 RB Leipzig | Champions League", channel: "Real Madrid", date: "Oct 22, 2026" },
     { id: "RKdtcQYFBxE", title: "HIGHLIGHTS | Man City 5-1 AEK Athens | Foden hat-trick and Cherki magic in Champions League rout!", channel: "Man City", date: "Oct 20, 2026" },
     { id: "r92uvxmxKqs", title: "Spurs 3-1 Coventry City | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 19, 2026" },
     { id: "wkJ9JVSLpiM", title: "Madueke snatches it late for champions 🔴 | Nottingham Forest 0-1 Arsenal | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 18, 2026" },
-    { id: "1besSatcPzs", title: "War of the Roses at Elland Road | Uncut exclusive footage | Leeds United 1-1 Manchester United", channel: "Leeds United Official", date: "Oct 18, 2026" },
     { id: "atz7piAn0-Y", title: "AC Milan vs Bournemouth 0-2 😱 Highlights & All Goals | Europa League 2026", channel: "Goal Rush TV", date: "Oct 22, 2026" },
     { id: "xvdKn1B5K8s", title: "Bournemouth vs AC Milan (2-0) — Mike Maignan Red Card 📕 | All Events & Extended Highlights", channel: "DJsportHD", date: "Oct 22, 2026" },
     { id: "leY1v8f-Mtk", title: "HIGHLIGHTS - Juventus vs Rennes | UEFA Europa League - J3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 22, 2026" },
