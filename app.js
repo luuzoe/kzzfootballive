@@ -14,7 +14,7 @@ const LEAGUES = [
   { id: 'uefa.europa',   name: 'Europa League',    mm: 'ယူရိုပါလိဂ်',             icon: '🟠' },
 ];
 
-const APP_VERSION = 15; // bump on every deploy
+const APP_VERSION = 16; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "-0qWJKEULjE", title: "Napoli v Bodo/Glimt | Highlights | UEFA Champions League 2026/27", channel: "Stan Sport Football", date: "Oct 20, 2026" },
     { id: "bS28cJNMg1I", title: "Bayern Munich vs Arsenal | 2:2 Highlights WHAT A MATCH! 🔥 All Goals", channel: "Sasky", date: "Oct 22, 2026" },
     { id: "js-UOjc28Gk", title: "TOTAL ROUT! ⚡ Como 4-1 Man Utd Highlights | Nico Paz Double & Zirkzee Goal | UEFA Champions League", channel: "Halotub", date: "Oct 21, 2026" },
     { id: "RFWP_0e6hTQ", title: "PSG - Barcelona 4:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
