@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "dx7x6C5-diY", title: "EZE AND RICE GOALS IN CRAZY GAME 🤯 | Bayern Munich vs Arsenal (2-2) | Champions League", channel: "Arsenal", date: "Oct 21, 2026" },
     { id: "zOPyh46UFZQ", title: "COMO vs Manchester United (4-1) NICO PAZ 2 GOALS | FULL Highlights UEFA Champions League 26/27", channel: "Antonionne Football", date: "Oct 21, 2026" },
     { id: "Vnt4aut2lOU", title: "Manchester City vs AEK Athens 5-1 Highlights | FODEN HATTRICK | Champions League 2026/27", channel: "PVXFC", date: "Oct 20, 2026" },
     { id: "7siqpHSvBpA", title: "2–0 win at OFI Crete | Highlights | Hofmann's brace secures 3rd win in Europa League", channel: "Bayer 04 Leverkusen", date: "Oct 22, 2026" },
@@ -877,7 +878,6 @@ async function renderHighlights() {
     { id: "SgwT8g0U6Y4", title: "¡GOL DEL INTER! Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 22, 2026" },
     { id: "iNOX1R3XLq0", title: "Real Madrid - RB Leipzig | Highlights | UEFA Champions League", channel: "RB Leipzig", date: "Oct 21, 2026" },
     { id: "B2B7tWnPDW4", title: "NAPOLI 4-3 BODO GLIMT | CHAMPIONS LEAGUE | RESUMEN | Italianos y noruegos dieron un PARTIDAZO", channel: "ESPN Centroam\u00e9rica", date: "Oct 20, 2026" },
-    { id: "7gfmon5Ki9s", title: "Bayern Munich 2-2 Arsenal | Champions League 26/27 Match Highlights", channel: "CMM Sports", date: "Oct 22, 2026" },
     { id: "ItCZ26AwAj4", title: "Real Madrid vs RB Leipzig 4-1 HIGHLIGHTS", channel: "The African Beast.", date: "Oct 22, 2026" },
     { id: "_LpzkLDdR6U", title: "HIGHLIGHTS | PSG 4 vs 2 FC BARCELONA | UEFA CHAMPIONS LEAGUE 26/27", channel: "FC Barcelona", date: "Oct 21, 2026" },
     { id: "8vfp4t44kBs", title: "Sabah - Borussia Dortmund | 1-2 | Highlights | Champions League 2026-27", channel: "Sponitor", date: "Oct 20, 2026" },
