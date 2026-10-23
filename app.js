@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "NI6YNO-ibBI", title: "CARLOS SECURES OUR FIRST EUROPEAN WIN 🖤💙 | INTER 1-0 SHAKHTAR DONETSK | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Oct 22, 2026" },
     { id: "WWeH9Hfr1b8", title: "Bayern Munich vs Arsenal 2-2 HIGHLIGHTS - Harry Kane, Eze & Declan Rice Goals! Champions League 2026", channel: "Dollar VFX", date: "Oct 22, 2026" },
     { id: "LRlY31UlP3U", title: "Barcelona Vs PSG Extended Highlights | UEFA Champions League 2026", channel: "FOOTBALL MANIA", date: "Oct 21, 2026" },
     { id: "SgwT8g0U6Y4", title: "¡GOL DEL INTER! Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 22, 2026" },
@@ -886,7 +887,6 @@ async function renderHighlights() {
     { id: "jM_bVGPowhA", title: "Thrilling draw in a top-class clash | FC Bayern vs Arsenal FC | Champions League Highlights", channel: "FC Bayern München", date: "Oct 22, 2026" },
     { id: "SbGF1xglHh4", title: "HIGHLIGHTS | Real Madrid 4-1 RB Leipzig | Champions League", channel: "Real Madrid", date: "Oct 22, 2026" },
     { id: "RKdtcQYFBxE", title: "HIGHLIGHTS | Man City 5-1 AEK Athens | Foden hat-trick and Cherki magic in Champions League rout!", channel: "Man City", date: "Oct 20, 2026" },
-    { id: "wkJ9JVSLpiM", title: "Madueke snatches it late for champions 🔴 | Nottingham Forest 0-1 Arsenal | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 18, 2026" },
     { id: "atz7piAn0-Y", title: "AC Milan vs Bournemouth 0-2 😱 Highlights & All Goals | Europa League 2026", channel: "Goal Rush TV", date: "Oct 22, 2026" },
     { id: "wghF06oU--M", title: "Highlights Europa League | Bournemouth 3-0 Milan | Serata amara per il Diavolo", channel: "AC Milan", date: "Oct 22, 2026" },
     { id: "leY1v8f-Mtk", title: "HIGHLIGHTS - Juventus vs Rennes | UEFA Europa League - J3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 22, 2026" },
