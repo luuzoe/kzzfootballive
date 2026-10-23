@@ -865,9 +865,9 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "HDsiMIz2aHY", title: "Juventus vs Rennes 2-2 Highlights UEFA Europa League 2026/27", channel: "Footballia", date: "Oct 22, 2026" },
     { id: "dx7x6C5-diY", title: "EZE AND RICE GOALS IN CRAZY GAME 🤯 | Bayern Munich vs Arsenal (2-2) | Champions League", channel: "Arsenal", date: "Oct 21, 2026" },
     { id: "zOPyh46UFZQ", title: "COMO vs Manchester United (4-1) NICO PAZ 2 GOALS | FULL Highlights UEFA Champions League 26/27", channel: "Antonionne Football", date: "Oct 21, 2026" },
-    { id: "Vnt4aut2lOU", title: "Manchester City vs AEK Athens 5-1 Highlights | FODEN HATTRICK | Champions League 2026/27", channel: "PVXFC", date: "Oct 20, 2026" },
     { id: "7siqpHSvBpA", title: "2–0 win at OFI Crete | Highlights | Hofmann's brace secures 3rd win in Europa League", channel: "Bayer 04 Leverkusen", date: "Oct 22, 2026" },
     { id: "erUcubqphYM", title: "WOLTEMADE: GOAL & ASSIST! 💥 | JUVENTUS 2-2 RENNAIS | HIGHLIGHTS EUROPA LEAGUE", channel: "Juventus", date: "Oct 22, 2026" },
     { id: "HY_GX12ojek", title: "HIGHLIGHTS | LIVERPOOL 4-3 VILLARREAL | CHAMPIONS LEAGUE", channel: "Villarreal CF", date: "Oct 21, 2026" },
