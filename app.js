@@ -865,12 +865,12 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "8UlWeAhk2fY", title: "HIGHLIGHTS - Sabah vs B. Dortmund | UEFA Champions League - Matchday 3 League Phase 2026-27", channel: "TUDN USA", date: "Oct 20, 2026" },
     { id: "RMzcmGNA-_g", title: "Stuttgart 1-1 Atlético Madrid | Highlights | UCL 26/27", channel: "On Sports", date: "Oct 21, 2026" },
     { id: "r92uvxmxKqs", title: "Spurs 3-1 Coventry City | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 20, 2026" },
     { id: "LaJkUmgUpb0", title: "VfB Stuttgart 1-1 Atlético de Madrid | Julián Alvarez | HIGHLIGHTS, UCL - MD3", channel: "Atlético de Madrid", date: "Oct 20, 2026" },
     { id: "jM_bVGPowhA", title: "Thrilling draw in a top-class clash | FC Bayern vs Arsenal FC | Champions League Highlights", channel: "FC Bayern München", date: "Oct 21, 2026" },
     { id: "RKdtcQYFBxE", title: "HIGHLIGHTS | Man City 5-1 AEK Athens | Foden hat-trick and Cherki magic in Champions League rout!", channel: "Man City", date: "Oct 21, 2026" },
-    { id: "BZskW9-LzHM", title: "TOTTENHAM 3-1 COVENTRY CITY 🔥 INSANE COMEBACK! | Match Highlights & All Goals", channel: "Tottenham Corner", date: "Oct 20, 2026" },
     { id: "SbGF1xglHh4", title: "HIGHLIGHTS | Real Madrid 4-1 RB Leipzig | Champions League", channel: "Real Madrid", date: "Oct 21, 2026" },
     { id: "PYhTaTCNNwE", title: "Liverpool vs Villarreal 4-3 Highlights | All Goals & Match Highlights | UEFA League 2026/27", channel: "Derby Football", date: "Oct 23, 2026" },
     { id: "b0J7UcbgU2s", title: "Highlights: Liverpool 4-3 Villarreal", channel: "Liverpool FC", date: "Oct 20, 2026" },
