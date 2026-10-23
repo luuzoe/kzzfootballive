@@ -865,6 +865,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "PYhTaTCNNwE", title: "Liverpool vs Villarreal 4-3 Highlights | All Goals & Match Highlights | UEFA League 2026/27", channel: "Derby Football", date: "Oct 23, 2026" },
+    { id: "_r1w1KfIoTc", title: "MCTOMINAY LA ROMPIÓ Y NAPOLI SE QUEDÓ CON UN TRIUNFAZO ANTE BODO | Napoli 4-3 Bodo/Glimt | RESUMEN", channel: "ESPN Fans", date: "Oct 23, 2026" },
     { id: "SSF2Z4-gUH8", title: "FODEN HAT-TRICK FOR CITY! | Man City 5-1 AEK Athens | Champions League", channel: "Man City", date: "Oct 20, 2026" },
     { id: "wghF06oU--M", title: "Highlights Europa League | Bournemouth 3-0 Milan | Serata amara per il Diavolo", channel: "AC Milan", date: "Oct 22, 2026" },
     { id: "nhKTFBySOWQ", title: "Liverpool vs Villarreal 4-3 | Highlights & All Goals | UEFA Champions League 2026/27", channel: "Anfield Signal", date: "Oct 23, 2026" },
@@ -888,8 +890,8 @@ async function renderHighlights() {
     { id: "3awvx_3GKlo", title: "Como vs Manchester United 4-1 HIGHLIGHTS • Nico Paz Brace & Zirkzee Goal • Champions League 2026", channel: "Dollar VFX", date: "Oct 22, 2026" },
     { id: "_pYxYapNPKM", title: "PSG vs Barcelona | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 21, 2026" },
     { id: "pDyaurLPeko", title: "Marmoush's first goal! | Spurs 3-1 Coventry City | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 21, 2026" },
-    { id: "BZskW9-LzHM", title: "TOTTENHAM 3-1 COVENTRY CITY 🔥 INSANE COMEBACK! | Match Highlights & All Goals", channel: "Tottenham Corner", date: "Oct 21, 2026" },
-    { id: "orezm491DCs", title: "EL MILAN SUFRIÓ UNA DURA GOLEADA Y NO ENCUENTRA EL RUMBO | Bournemouth 3-0 AC Milan | RESUMEN", channel: "ESPN Fans", date: "Oct 22, 2026" },
+
+
     { id: "LaJkUmgUpb0", title: "VfB Stuttgart 1-1 Atl\u00e9tico de Madrid | \u26bd Juli\u00e1n Alvarez | HIGHLIGHTS, UCL - MD3", channel: "Atl\u00e9tico de Madrid", date: "Oct 21, 2026" },
     { id: "jM_bVGPowhA", title: "Thrilling draw in a top-class clash | FC Bayern vs Arsenal FC | Champions League Highlights", channel: "FC Bayern München", date: "Oct 22, 2026" },
     { id: "SbGF1xglHh4", title: "HIGHLIGHTS | Real Madrid 4-1 RB Leipzig | Champions League", channel: "Real Madrid", date: "Oct 22, 2026" },
