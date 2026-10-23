@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "eldQMooolQc", title: "Como vs Manchester United | Key Moments | UEFA Champions League 2026", channel: "Sony Sports Network", date: "Oct 22, 2026" },
     { id: "8UlWeAhk2fY", title: "HIGHLIGHTS - Sabah vs B. Dortmund | UEFA Champions League - Matchday 3 League Phase 2026-27", channel: "TUDN USA", date: "Oct 20, 2026" },
     { id: "RMzcmGNA-_g", title: "Stuttgart 1-1 Atlético Madrid | Highlights | UCL 26/27", channel: "On Sports", date: "Oct 21, 2026" },
     { id: "r92uvxmxKqs", title: "Spurs 3-1 Coventry City | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 20, 2026" },
@@ -891,7 +892,6 @@ async function renderHighlights() {
     { id: "LRlY31UlP3U", title: "Barcelona Vs PSG Extended Highlights | UEFA Champions League 2026", channel: "FOOTBALL MANIA", date: "Oct 21, 2026" },
     { id: "SgwT8g0U6Y4", title: "¡GOL DEL INTER! Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 22, 2026" },
     { id: "iNOX1R3XLq0", title: "Real Madrid - RB Leipzig | Highlights | UEFA Champions League", channel: "RB Leipzig", date: "Oct 21, 2026" },
-    { id: "B2B7tWnPDW4", title: "NAPOLI 4-3 BODO GLIMT | CHAMPIONS LEAGUE | RESUMEN | Italianos y noruegos dieron un PARTIDAZO", channel: "ESPN Centroam\u00e9rica", date: "Oct 20, 2026" },
     { id: "_LpzkLDdR6U", title: "HIGHLIGHTS | PSG 4 vs 2 FC BARCELONA | UEFA CHAMPIONS LEAGUE 26/27", channel: "FC Barcelona", date: "Oct 21, 2026" },
 
 
