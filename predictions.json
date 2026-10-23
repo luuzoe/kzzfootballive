@@ -1,5 +1,76 @@
 {
- "predictions": [],
+ "predictions": [
+  {
+   "league": "Bundesliga",
+   "home": "VfB Stuttgart",
+   "away": "Borussia M'gladbach",
+   "date": "2026-10-24T01:00:00+06:30",
+   "pick": "ရှတ်ဂတ် နိုင်မယ်",
+   "pick_en": "Stuttgart win",
+   "confidence": "medium",
+   "prob_home": 55,
+   "prob_draw": 25,
+   "prob_away": 20,
+   "reason_mm": "ရှတ်ဂတ်က လိဂ်မှာ ၆ ပွဲမှာ ၆ မှတ်သာ ရပြီး အဆင့် ၁၃ မှာ ရပ်နေပေမယ့် ချန်ပီယံလိဂ်မှာတော့ ခြေစွမ်းကောင်းနေတယ် — အောက်တိုဘာ ၂၀ တုန်းက ၁၀ ယောက်သာကျန်တဲ့ အတ်လက်တီကို မက်ဒရစ်နဲ့ ၁-၁ သရေပြီး ၃ ပွဲမှာ ၇ မှတ် ရထားတယ်။ ဂလတ်ဘတ်ကတော့ လိဂ် ၆ ပွဲလုံး ရှုံးပြီး အဆင့်နောက်ဆုံး၊ ဂိုး ၂၀ ပေးထားရတယ်၊ နည်းပြသစ် Blessin လက်အောက်မှာလည်း နှစ်ပွဲလုံး ရှုံးခဲ့တယ်။ အချင်းချင်း နောက်ဆုံး ၅ ပွဲမှာ ရှတ်ဂတ်က ၄ ပွဲ နိုင်ထားပြီး ဂလတ်ဘတ် အဝေးကွင်း ၃ ပွဲလုံး ရှုံးနေတယ်။ သို့သော် ရှတ်ဂတ်က ဥရောပပွဲပြီး ၃ ရက်သာ နားရသလို Vagnoman လည်း ဒဏ်ရာရနေတယ်။",
+   "en_reason": "Stuttgart sit 13th with just 6 points from 6 Bundesliga games, but their European form is strong — unbeaten in the UCL with 7 points from 3 after holding ten-man Atlético Madrid 1-1 on Oct 20. Mönchengladbach are bottom with zero points from six, have conceded 20, and new coach Alexander Blessin has lost both games in charge. Stuttgart won four of the last five H2H meetings and Gladbach are 0-0-3 away. The main risk is Stuttgart's short rest plus Vagnoman's absence — medium-confidence lean, never a guarantee."
+  },
+  {
+   "league": "Serie A",
+   "home": "Torino",
+   "away": "Monza",
+   "date": "2026-10-24T01:15:00+06:30",
+   "pick": "တိုရီနို နိုင်မယ်",
+   "pick_en": "Torino win",
+   "confidence": "medium",
+   "prob_home": 45,
+   "prob_draw": 28,
+   "prob_away": 27,
+   "reason_mm": "တိုရီနိုက နောက်ဆုံး ၃ ပွဲ ရှုံးပွဲမရှိဘူး — ပါမာကို ၃-၀ နဲ့ ရှင်းရှင်းလင်းလင်း နိုင်ပြီး Udinese ကိုလည်း ၂-၁ နဲ့ အနိုင်ရထားတယ်။ စက်တင်ဘာမှာ Coppa Italia ကို အိမ်ကွင်းမှာပဲ Monza ကို ၀-၁ ရှုံးခဲ့တဲ့ အလှစ်ကို ဒီပွဲမှာ ပြန်ပေးမယ့်ပွဲလည်း ဖြစ်တယ်။ တစ်ဖက်က Monza က အဝေးကွင်းမှာ အရမ်းညံ့တယ် — ဒီရာသီ အဝေးပွဲ ၄ ပွဲ တစ်ပွဲမှ မနိုင်ဘူး၊ ပျမ်းမျှ ၂.၇၅ ဂိုး ပေးနေရတယ်။ Varela (၆ ဂိုး) က တိုက်စစ်မှာ ခြေစွမ်းကောင်းနေတယ်။ တိုရီနို အိမ်ကွင်းမှာ တည်ငြိမ်မှု မရှိတာရယ်၊ Monza က ဂိုးရနေတာရယ်ကြောင့် သရေလည်း ဖြစ်နိုင်တယ်။",
+   "en_reason": "Torino arrive in their best league rhythm of the season — unbeaten in three with back-to-back wins, including a commanding 3-0 at Parma, and they carry the added fuel of cup revenge after Monza knocked them out of the Coppa Italia at this stadium in September. Monza are winless in four away, shipping around 2.75 goals per away game. The caveats are real — Torino's home form is their weaker split and Monza score via the in-form Varela (6 goals). Torino edge it on momentum, but a draw is very live."
+  },
+  {
+   "league": "Ligue 1",
+   "home": "Brest",
+   "away": "Nice",
+   "date": "2026-10-24T01:15:00+06:30",
+   "pick": "ဘရက်စ် နိုင်မယ်",
+   "pick_en": "Brest win",
+   "confidence": "medium",
+   "prob_home": 45,
+   "prob_draw": 27,
+   "prob_away": 28,
+   "reason_mm": "Brest က နောက်ဆုံး ၂ ပွဲမှာ ရှုံးပွဲမရှိဘူး — Angers ကို ၅-၁ နဲ့ ရှင်းရှင်းလင်းလင်း နိုင်ပြီး Lille လို ထိပ်တန်းအသင်းရဲ့ အိမ်ကွင်းမှာလည်း ၁-၁ သရေ ရခဲ့တယ်။ Doumbia က ၄ ဂိုး သွင်းထားပြီး တိုက်စစ်က ဂိုးရနိုင်ခြေကောင်းတယ်။ တစ်ဖက်က Nice က အဝေးကွင်းမှာ အရမ်းညံ့တယ် — ဒီရာသီ အဝေးပွဲ ၃ ပွဲလုံး ရှုံးပြီး ဂိုး ၁ ဂိုးသာ သွင်းထားတယ်၊ နောက်တန်းဒဏ်ရာတွေလည်း များတယ်။ သို့သော် နှစ်သင်းတွေ့တိုင်း ပွဲအဖြေက ပြောင်းလဲနေတတ်တယ်၊ Nice ရဲ့ အိမ်ကွင်းခြေစွမ်းလည်း မဆိုးဘူး။ Brest က အိမ်ကွင်းအားနဲ့ အနည်းငယ် သာပေမယ့် သရေလည်း အတော်လေး ဖြစ်နိုင်တယ်။",
+   "en_reason": "Brest come in with momentum — four points from their last two, a statement 5-1 home win over Angers and a hard-earned 1-1 at Lille. Doumbia (4 goals) leads a side that has scored in every league game except against champions PSG. Nice are an away-day disaster: three defeats from three on the road with a single goal, and their defensive absences are severe. The H2H is the warning label — this fixture can explode either way — and Nice's home wins over Lille and Strasbourg prove they're no pushovers. Brest's attacking rhythm tilts it toward the hosts, with the draw a strong second outcome."
+  },
+  {
+   "league": "Premier League",
+   "home": "Ipswich Town",
+   "away": "Nottingham Forest",
+   "date": "2026-10-24T01:30:00+06:30",
+   "pick": "ဖောရက်စ် နိုင်မယ်",
+   "pick_en": "Nottingham Forest win",
+   "confidence": "medium",
+   "prob_home": 32,
+   "prob_draw": 30,
+   "prob_away": 38,
+   "reason_mm": "ဖောရက်စ်က ဒီပွဲမှာ အနည်းငယ်သာ အနိုင်ရနိုင်ခြေ ပိုများတယ်။ အိပ်စ်ဝစ်ခ်နဲ့ နောက်ဆုံး ၆ ပွဲ ရှုံးပွဲမရှိခဲ့သလို (၂၀၂၅ မတ်လတုန်းက Portman Road မှာပဲ ၄-၂ နဲ့ နိုင်ခဲ့တယ်)၊ အသင်းခေါင်းဆောင် Gibbs-White လည်း ဒဏ်ရာက ပြန်လာတယ်။ ဒါပေမယ့် ဖောရက်စ်က ဒီရာသီ လိဂ်မှာ ဂိုးအနည်းဆုံးအသင်း (၇ ပွဲမှာ ၅ ဂိုး)၊ နောက်ဆုံး ၃ ပွဲဆက် ရှုံးနေတယ်။ အိပ်စ်ဝစ်ခ်က အိမ်ကွင်းမှာ ၃ ပွဲမှာ ၂ ပွဲ နိုင်ထားပေမယ့် ဒီရာသီ တစ်ပွဲမှ ဂိုးမပြန်သေးဘူး၊ ကွင်းလယ်လူ Sasa Lukic ဒဏ်ရာနဲ့ လွဲမယ်။ ပွဲက ဂိုးနည်းနည်းနဲ့ နီးနီးကပ်ကပ် ဖြစ်မယ်လို့ ထင်တယ်။",
+   "en_reason": "Forest are slight favourites: unbeaten in the last six meetings with Ipswich — including a 4-2 win at Portman Road in March 2025 — and captain Morgan Gibbs-White returns. But Forest are the league's lowest scorers (5 goals in 7 games), have lost three straight, and four of their five points have come on the road. Ipswich have won two of three at home but have kept zero clean sheets all season and miss Sasa Lukic in midfield. Expect a tight, low-scoring game; Forest's record in this fixture just edges the call."
+  },
+  {
+   "league": "La Liga",
+   "home": "Alaves",
+   "away": "Malaga",
+   "date": "2026-10-24T01:30:00+06:30",
+   "pick": "အလာဗက်စ် နိုင်မယ်",
+   "pick_en": "Alaves win",
+   "confidence": "medium",
+   "prob_home": 50,
+   "prob_draw": 30,
+   "prob_away": 20,
+   "reason_mm": "အလာဗက်စ်က လိဂ် ၉ ပွဲမှာ ၁၁ မှတ် ရပြီး အဆင့် ၇ မှာ ရပ်နေပေမယ့် နောက်ဆုံး ၅ ပွဲမှာ ၁ မှတ်သာ ရခဲ့ပြီး ခြေကျနေတယ်။ ဒါပေမယ့် အိမ်ကွင်း Mendizorroza မှာတော့ ၅ ပွဲမှာ ပျမ်းမျှ ၂ ဂိုး သွင်းထားပြီး တိုက်စစ်မှူး Lucas Boyé က ၅ ဂိုး သွင်းထားတယ်။ မာလာဂါကတော့ လိဂ်မှာ တစ်ပွဲမှ မနိုင်သေးတဲ့ တစ်သင်းတည်း — အဆင့်နောက်ဆုံး ၄ မှတ်၊ ဂိုး ၁၈ ဂိုး ပေးထားရတယ်၊ အဝေးကွင်း နောက်ဆုံး ၇ ပွဲမှာ ၆ ပွဲ ရှုံးထားတယ်။ အလာဗက်စ်က မာလာဂါကို အိမ်ကွင်းမှာ နောက်ဆုံး ၃ ပွဲ မရှုံးခဲ့ဘူး။ သို့သော် အလာဗက်စ်ကိုယ်တိုင်လည်း ခြေမမှန်နေတော့ သရေလည်း ဖြစ်နိုင်တယ်။",
+   "en_reason": "Alavés are 7th with 11 points from 9, but their form is worrying — one point from the last five La Liga matches and no win since early September. They remain strong at Mendizorroza though, averaging two goals per game at home with Lucas Boyé on five league goals. Málaga are the only La Liga side without a win (0W 4D 5L, bottom, -12) and have lost six of their last seven away matches while conceding 18 in 9 games. Alavés are unbeaten in the last three home meetings with Málaga. Alavés win is the honest lean, but the hosts' own slump keeps it at medium confidence — never a guarantee."
+  }
+ ],
  "source": "KZZ Football Analysis",
  "updated": "2026-10-23"
 }
