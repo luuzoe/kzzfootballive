@@ -883,7 +883,7 @@ async function renderHighlights() {
     { id: "r92uvxmxKqs", title: "Spurs 3-1 Coventry City | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 19, 2026" },
     { id: "wkJ9JVSLpiM", title: "Madueke snatches it late for champions 🔴 | Nottingham Forest 0-1 Arsenal | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 18, 2026" },
     { id: "atz7piAn0-Y", title: "AC Milan vs Bournemouth 0-2 😱 Highlights & All Goals | Europa League 2026", channel: "Goal Rush TV", date: "Oct 22, 2026" },
-    { id: "xvdKn1B5K8s", title: "Bournemouth vs AC Milan (2-0) — Mike Maignan Red Card 📕 | All Events & Extended Highlights", channel: "DJsportHD", date: "Oct 22, 2026" },
+    { id: "wghF06oU--M", title: "Highlights Europa League | Bournemouth 3-0 Milan | Serata amara per il Diavolo", channel: "AC Milan", date: "Oct 22, 2026" },
     { id: "leY1v8f-Mtk", title: "HIGHLIGHTS - Juventus vs Rennes | UEFA Europa League - J3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 22, 2026" },
     { id: "HDsiMIz2aHY", title: "Juventus vs Rennes 2-2 Highlights UEFA Europa League 2026/27", channel: "Footballia", date: "Oct 22, 2026" },
     { id: "RaBG_VPGFmk", title: "HIGHLIGHTS - OFI vs Bayer Leverkusen | UEFA Europa League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 22, 2026" },
