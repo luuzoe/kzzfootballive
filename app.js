@@ -865,6 +865,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "iNOX1R3XLq0", title: "Real Madrid - RB Leipzig | Highlights | UEFA Champions League", channel: "RB Leipzig", date: "Oct 21, 2026" },
+    { id: "B2B7tWnPDW4", title: "NAPOLI 4-3 BODO GLIMT | CHAMPIONS LEAGUE | RESUMEN | Italianos y noruegos dieron un PARTIDAZO", channel: "ESPN Centroam\u00e9rica", date: "Oct 20, 2026" },
     { id: "7gfmon5Ki9s", title: "Bayern Munich 2-2 Arsenal | Champions League 26/27 Match Highlights", channel: "CMM Sports", date: "Oct 22, 2026" },
     { id: "ItCZ26AwAj4", title: "Real Madrid vs RB Leipzig 4-1 HIGHLIGHTS", channel: "The African Beast.", date: "Oct 22, 2026" },
     { id: "4UqZyCBYJqk", title: "HIGHLIGHTS - Napoli vs Bodo/Glimt | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 20, 2026" },
@@ -891,8 +893,6 @@ async function renderHighlights() {
     { id: "DuEe6hA6RwI", title: "HIGHLIGHTS: Como 4-1 Manchester United | UEFA Champions League", channel: "BBC Football", date: "Oct 22, 2026" },
     { id: "JnJPxvUkaKc", title: "CARLOS CI REGALA LA PRIMA VITTORIA EUROPEA 🖤💙 | INTER 1-0 SHAKHTAR DONETSK | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Oct 22, 2026" },
     { id: "n3m3opN9o_k", title: "Manchester City vs AEK Athens | Key Moments | UEFA Champions League 2026", channel: "Sony Sports Network", date: "Oct 20, 2026" },
-    { id: "z4mQWetH5cQ", title: "HIGHLIGHTS - Liverpool vs Villarreal | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 21, 2026" },
-    { id: "BQoR3qD2WOc", title: "HIGHLIGHTS - Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga", channel: "TUDN USA", date: "Oct 22, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
