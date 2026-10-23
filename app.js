@@ -14,7 +14,7 @@ const LEAGUES = [
   { id: 'uefa.europa',   name: 'Europa League',    mm: 'ယူရိုပါလိဂ်',             icon: '🟠' },
 ];
 
-const APP_VERSION = 24; // bump on every deploy
+const APP_VERSION = 25; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -1384,24 +1384,33 @@ async function populateFavSelect() {
   const sel = $('#favSelect');
   if (!sel) return;
   sel.innerHTML = `<option value="">⏳ အသင်းစာရင်း ဆွဲနေသည်…</option>`;
-  const url = `https://site.api.espn.com/apis/site/v2/sports/soccer/${state.league}/teams`;
   let teams = [];
-  for (let attempt = 1; attempt <= 3 && !teams.length; attempt++) {
-    try {
-      const data = await getJSON(url);
-      const raw = ((data.sports || [])[0] && (data.sports[0].leagues || [])[0] && data.sports[0].leagues[0].teams) || [];
-      teams = raw.map((w) => w.team).filter(Boolean);
-    } catch (e) {
-      if (attempt < 3) await new Promise((r) => setTimeout(r, 1500));
+  // NOTE: state.league can be 'all' — not a valid ESPN slug, so ESPN team fetches are skipped in that mode (the local fallback below covers it).
+  if (state.league !== 'all') {
+    const url = `https://site.api.espn.com/apis/site/v2/sports/soccer/${state.league}/teams`;
+    for (let attempt = 1; attempt <= 3 && !teams.length; attempt++) {
+      try {
+        const data = await getJSON(url);
+        const raw = ((data.sports || [])[0] && (data.sports[0].leagues || [])[0] && data.sports[0].leagues[0].teams) || [];
+        teams = raw.map((w) => w.team).filter(Boolean);
+      } catch (e) {
+        if (attempt < 3) await new Promise((r) => setTimeout(r, 1500));
+      }
+    }
+    if (!teams.length) {
+      // Fallback: team list from the standings API (different host)
+      try {
+        const data = await getJSON(`https://site.web.api.espn.com/apis/v2/sports/soccer/${state.league}/standings`);
+        const entries = ((data.children || [])[0] && data.children[0].standings && data.children[0].standings.entries) || [];
+        teams = entries.map((en) => en.team).filter(Boolean);
+      } catch (e) {}
     }
   }
   if (!teams.length) {
-    // Fallback: team list from the standings API (different host)
-    try {
-      const data = await getJSON(`https://site.web.api.espn.com/apis/v2/sports/soccer/${state.league}/standings`);
-      const entries = ((data.children || [])[0] && data.children[0].standings && data.children[0].standings.entries) || [];
-      teams = entries.map((en) => en.team).filter(Boolean);
-    } catch (e) {}
+    // Local fallback: teams_mm.json (loaded at init) lists every covered team — works in 'all' mode and whenever ESPN is unreachable.
+    teams = Object.entries(TEAMS_MM)
+      .map(([id, r]) => ({ id, displayName: (r && r.en) || '', abbreviation: (r && r.abbr) || '' }))
+      .filter((t) => t.displayName);
   }
   if (!teams.length) {
     sel.innerHTML = `<option value="">— ရွေးပါ —</option><option value="__retry">⚠️ ဆွဲမရပါ — ပြန်ကြိုးစားရန် နှိပ်ပါ</option>`;
