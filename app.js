@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "_LpzkLDdR6U", title: "HIGHLIGHTS | PSG 4 vs 2 FC BARCELONA | UEFA CHAMPIONS LEAGUE 26/27", channel: "FC Barcelona", date: "Oct 21, 2026" },
     { id: "8vfp4t44kBs", title: "Sabah - Borussia Dortmund | 1-2 | Highlights | Champions League 2026-27", channel: "Sponitor", date: "Oct 20, 2026" },
     { id: "UzPxZ74h2Zk", title: "Calvert-Lewin ensures Man Utd winless run continues | Leeds 1-1 Man Utd | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 18, 2026" },
     { id: "BORuDyEx8zI", title: "Extended Highlights: Brentford 1-2 Liverpool | Late Reds comeback!", channel: "Liverpool FC", date: "Oct 17, 2026" },
@@ -889,7 +890,6 @@ async function renderHighlights() {
     { id: "R_8X4LwtSng", title: "Bayer Leverkusen 2-0 OFI Crete 😱🔥 HOFMANN BRACE! | Europa League Highlights", channel: "Goal Rush TV", date: "Oct 22, 2026" },
     { id: "DuEe6hA6RwI", title: "HIGHLIGHTS: Como 4-1 Manchester United | UEFA Champions League", channel: "BBC Football", date: "Oct 22, 2026" },
     { id: "JnJPxvUkaKc", title: "CARLOS CI REGALA LA PRIMA VITTORIA EUROPEA 🖤💙 | INTER 1-0 SHAKHTAR DONETSK | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Oct 22, 2026" },
-    { id: "xSF8wrBPY7k", title: "Napoli - Bodo/Glimt 4-3 | Highlights 20.10.2026", channel: "Cytavision Sports", date: "Oct 20, 2026" },
     { id: "n3m3opN9o_k", title: "Manchester City vs AEK Athens | Key Moments | UEFA Champions League 2026", channel: "Sony Sports Network", date: "Oct 20, 2026" },
     { id: "z4mQWetH5cQ", title: "HIGHLIGHTS - Liverpool vs Villarreal | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 21, 2026" },
     { id: "BQoR3qD2WOc", title: "HIGHLIGHTS - Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga", channel: "TUDN USA", date: "Oct 22, 2026" },
