@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "SSF2Z4-gUH8", title: "FODEN HAT-TRICK FOR CITY! | Man City 5-1 AEK Athens | Champions League", channel: "Man City", date: "Oct 20, 2026" },
     { id: "wghF06oU--M", title: "Highlights Europa League | Bournemouth 3-0 Milan | Serata amara per il Diavolo", channel: "AC Milan", date: "Oct 22, 2026" },
     { id: "nhKTFBySOWQ", title: "Liverpool vs Villarreal 4-3 | Highlights & All Goals | UEFA Champions League 2026/27", channel: "Anfield Signal", date: "Oct 23, 2026" },
     { id: "js-UOjc28Gk", title: "TOTAL ROUT! ⚡ Como 4-1 Man Utd Highlights | Nico Paz Double & Zirkzee Goal | UEFA Champions League", channel: "Halotub", date: "Oct 22, 2026" },
@@ -884,7 +885,6 @@ async function renderHighlights() {
     { id: "ItCZ26AwAj4", title: "Real Madrid vs RB Leipzig 4-1 HIGHLIGHTS", channel: "The African Beast.", date: "Oct 22, 2026" },
     { id: "_LpzkLDdR6U", title: "HIGHLIGHTS | PSG 4 vs 2 FC BARCELONA | UEFA CHAMPIONS LEAGUE 26/27", channel: "FC Barcelona", date: "Oct 21, 2026" },
     { id: "8vfp4t44kBs", title: "Sabah - Borussia Dortmund | 1-2 | Highlights | Champions League 2026-27", channel: "Sponitor", date: "Oct 20, 2026" },
-    { id: "b0J7UcbgU2s", title: "Highlights: Liverpool 4-3 Villarreal", channel: "Liverpool FC", date: "Oct 20, 2026" },
     { id: "3awvx_3GKlo", title: "Como vs Manchester United 4-1 HIGHLIGHTS • Nico Paz Brace & Zirkzee Goal • Champions League 2026", channel: "Dollar VFX", date: "Oct 22, 2026" },
     { id: "_pYxYapNPKM", title: "PSG vs Barcelona | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 21, 2026" },
     { id: "pDyaurLPeko", title: "Marmoush's first goal! | Spurs 3-1 Coventry City | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 21, 2026" },
