@@ -14,7 +14,7 @@ const LEAGUES = [
   { id: 'uefa.europa',   name: 'Europa League',    mm: 'ယူရိုပါလိဂ်',             icon: '🟠' },
 ];
 
-const APP_VERSION = 23; // bump on every deploy
+const APP_VERSION = 24; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -865,6 +865,10 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "8vfp4t44kBs", title: "Sabah - Borussia Dortmund | 1-2 | Highlights | Champions League 2026-27", channel: "Sponitor", date: "Oct 20, 2026" },
+    { id: "UzPxZ74h2Zk", title: "Calvert-Lewin ensures Man Utd winless run continues | Leeds 1-1 Man Utd | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 18, 2026" },
+    { id: "BORuDyEx8zI", title: "Extended Highlights: Brentford 1-2 Liverpool | Late Reds comeback!", channel: "Liverpool FC", date: "Oct 17, 2026" },
+    { id: "Bht1xOnl6Ik", title: "Everton 0-2 Chelsea | HIGHLIGHTS - Extended | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 17, 2026" },
     { id: "b0J7UcbgU2s", title: "Highlights: Liverpool 4-3 Villarreal", channel: "Liverpool FC", date: "Oct 20, 2026" },
     { id: "3awvx_3GKlo", title: "Como vs Manchester United 4-1 HIGHLIGHTS • Nico Paz Brace & Zirkzee Goal • Champions League 2026", channel: "Dollar VFX", date: "Oct 22, 2026" },
     { id: "_pYxYapNPKM", title: "PSG vs Barcelona | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 21, 2026" },
@@ -889,10 +893,6 @@ async function renderHighlights() {
     { id: "n3m3opN9o_k", title: "Manchester City vs AEK Athens | Key Moments | UEFA Champions League 2026", channel: "Sony Sports Network", date: "Oct 20, 2026" },
     { id: "z4mQWetH5cQ", title: "HIGHLIGHTS - Liverpool vs Villarreal | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 21, 2026" },
     { id: "BQoR3qD2WOc", title: "HIGHLIGHTS - Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga", channel: "TUDN USA", date: "Oct 22, 2026" },
-    { id: "-0qWJKEULjE", title: "Napoli v Bodo/Glimt | Highlights | UEFA Champions League 2026/27", channel: "Stan Sport Football", date: "Oct 20, 2026" },
-    { id: "bS28cJNMg1I", title: "Bayern Munich vs Arsenal | 2:2 Highlights WHAT A MATCH! 🔥 All Goals", channel: "Sasky", date: "Oct 22, 2026" },
-    { id: "RFWP_0e6hTQ", title: "PSG - Barcelona 4:2 | UEFA CHAMPIONS LEAGUE (3. kolo) | 20. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 20, 2026" },
-    { id: "a3P2YvlOFFU", title: "Paris Saint Germain Vs Fc Barcelona Extended Highlights (21/10/26)", channel: "ONLYKMcompsJR 3", date: "Oct 22, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
