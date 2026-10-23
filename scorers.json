@@ -580,73 +580,73 @@
   "uefa.europa": [
    {
     "rank": 1,
+    "player": "Sergio Gómez",
+    "team": "ရီးရဲလ်ဆိုစီဒက်",
+    "goals": 3,
+    "pid": "265993"
+   },
+   {
+    "rank": 2,
     "player": "Kristoffer Zachariassen",
     "team": "ဖီရန်စဗာရို့စ်",
     "goals": 3,
     "pid": "253991"
    },
    {
-    "rank": 2,
+    "rank": 3,
+    "player": "Nick Woltemade",
+    "team": "ဂျူဗင်တပ်စ်",
+    "goals": 3,
+    "pid": "298349"
+   },
+   {
+    "rank": 4,
+    "player": "Yéremy Pino",
+    "team": "ခရစ္စတယ်ပဲလေ့စ်",
+    "goals": 3,
+    "pid": "297370"
+   },
+   {
+    "rank": 5,
     "player": "Alphadjo Cissè",
     "team": "အေစီမီလန်",
     "goals": 3,
     "pid": "359754"
    },
    {
-    "rank": 3,
+    "rank": 6,
+    "player": "Dion Drena Beljo",
+    "team": "ဒီနာမိုဇာဂရက်",
+    "goals": 3,
+    "pid": "306647"
+   },
+   {
+    "rank": 7,
     "player": "Tobias Guddal",
     "team": "စပါတာပရက်",
     "goals": 2,
     "pid": "382244"
    },
    {
-    "rank": 4,
-    "player": "Amir Murillo",
-    "team": "ဘီရှစ်တပ်စ်",
-    "goals": 2,
-    "pid": "216420"
-   },
-   {
-    "rank": 5,
-    "player": "Nick Woltemade",
-    "team": "ဂျူဗင်တပ်စ်",
-    "goals": 2,
-    "pid": "298349"
-   },
-   {
-    "rank": 6,
-    "player": "Yéremy Pino",
-    "team": "ခရစ္စတယ်ပဲလေ့စ်",
-    "goals": 2,
-    "pid": "297370"
-   },
-   {
-    "rank": 7,
-    "player": "Jhon Durán",
-    "team": "ဘန်ဖီကာ",
-    "goals": 2,
-    "pid": "285629"
-   },
-   {
     "rank": 8,
-    "player": "Patrik Schick",
-    "team": "လီဗာကူဆင်",
+    "player": "Javi Rodríguez",
+    "team": "ဆယ်လ်တာဗီဂို",
     "goals": 2,
-    "pid": "212330"
+    "pid": "376147"
    },
    {
     "rank": 9,
-    "player": "Oh Hyeon-Gyu",
-    "team": "ဘီရှစ်တပ်စ်",
+    "player": "Tjaronn Chery",
+    "team": "နိုင်မီဂန်",
     "goals": 2,
-    "pid": "302434"
+    "pid": "116893"
    },
    {
     "rank": 10,
-    "player": "Rayan",
-    "team": "ဘုန်းမောက်",
+    "player": "Bryan Linssen",
+    "team": "နိုင်မီဂန်",
     "goals": 2,
-    "pid": "357719"
+    "pid": "122954"
    }
   ]
  },
@@ -1028,10 +1028,10 @@
    },
    {
     "rank": 3,
-    "player": "–",
+    "player": "Gjivai Zechiël",
     "team": "ဖီယင်နော့",
     "assists": 4,
-    "pid": ""
+    "pid": "365021"
    },
    {
     "rank": 4,
@@ -1230,73 +1230,73 @@
   "uefa.europa": [
    {
     "rank": 1,
+    "player": "Mikel Oyarzabal",
+    "team": "ရီးရဲလ်ဆိုစီဒက်",
+    "assists": 3,
+    "pid": "229018"
+   },
+   {
+    "rank": 2,
     "player": "Junior Olaitan",
     "team": "ဘီရှစ်တပ်စ်",
     "assists": 3,
     "pid": "319985"
    },
    {
-    "rank": 2,
+    "rank": 3,
     "player": "Adam Wharton",
     "team": "ခရစ္စတယ်ပဲလေ့စ်",
     "assists": 2,
     "pid": "333419"
    },
    {
-    "rank": 3,
+    "rank": 4,
     "player": "Keito Nakamura",
     "team": "လိုင်ယွန်",
     "assists": 2,
     "pid": "265953"
    },
    {
-    "rank": 4,
+    "rank": 5,
+    "player": "Javier Vazquez",
+    "team": "တိုရေးရင်ဆီ",
+    "assists": 2,
+    "pid": "266780"
+   },
+   {
+    "rank": 6,
     "player": "Bamidele Isa Yusuf",
     "team": "ဖီရန်စဗာရို့စ်",
     "assists": 2,
     "pid": "322421"
    },
    {
-    "rank": 5,
-    "player": "Orkun Kökçü",
-    "team": "ဘီရှစ်တပ်စ်",
+    "rank": 7,
+    "player": "Andrej Kramaric",
+    "team": "ဟော့ဖန်ဟိမ်း",
     "assists": 2,
-    "pid": "272700"
+    "pid": "139520"
    },
    {
-    "rank": 6,
+    "rank": 8,
     "player": "Gianluca Prestianni",
     "team": "ဘန်ဖီကာ",
     "assists": 2,
     "pid": "339191"
    },
    {
-    "rank": 7,
-    "player": "Massiré Sylla",
-    "team": "ယူနီယံစိန့်ဂီလွိုင်",
-    "assists": 1,
-    "pid": "389282"
-   },
-   {
-    "rank": 8,
-    "player": "Besfort Zeneli",
-    "team": "ယူနီယံစိန့်ဂီလွိုင်",
-    "assists": 1,
-    "pid": "334024"
-   },
-   {
     "rank": 9,
-    "player": "Tomás Araújo",
-    "team": "ဘန်ဖီကာ",
-    "assists": 1,
-    "pid": "329691"
+    "player": "Damir Redzic",
+    "team": "ဆဲလ်ဇ်ဘတ်",
+    "assists": 2,
+    "pid": "308980"
    },
    {
     "rank": 10,
-    "player": "Svetoslav Vutsov",
-    "team": "လက်ဗ်စကီဆိုဖီယာ",
-    "assists": 1,
-    "pid": "326583"
+    "player": "Veljko Birmancevic",
+    "team": "ဖီရန်စဗာရို့စ်",
+    "assists": 2,
+    "pid": "238991"
    }
   ]
  }
