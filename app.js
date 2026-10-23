@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "SgwT8g0U6Y4", title: "¡GOL DEL INTER! Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 22, 2026" },
     { id: "ylz-JQsFLh0", title: "Liverpool - Villarreal 4-3 | Highlights 20.10.2026", channel: "Cytavision Sports", date: "Oct 20, 2026" },
     { id: "iNOX1R3XLq0", title: "Real Madrid - RB Leipzig | Highlights | UEFA Champions League", channel: "RB Leipzig", date: "Oct 21, 2026" },
     { id: "B2B7tWnPDW4", title: "NAPOLI 4-3 BODO GLIMT | CHAMPIONS LEAGUE | RESUMEN | Italianos y noruegos dieron un PARTIDAZO", channel: "ESPN Centroam\u00e9rica", date: "Oct 20, 2026" },
@@ -883,7 +884,6 @@ async function renderHighlights() {
     { id: "jM_bVGPowhA", title: "Thrilling draw in a top-class clash | FC Bayern vs Arsenal FC | Champions League Highlights", channel: "FC Bayern München", date: "Oct 22, 2026" },
     { id: "SbGF1xglHh4", title: "HIGHLIGHTS | Real Madrid 4-1 RB Leipzig | Champions League", channel: "Real Madrid", date: "Oct 22, 2026" },
     { id: "RKdtcQYFBxE", title: "HIGHLIGHTS | Man City 5-1 AEK Athens | Foden hat-trick and Cherki magic in Champions League rout!", channel: "Man City", date: "Oct 20, 2026" },
-    { id: "r92uvxmxKqs", title: "Spurs 3-1 Coventry City | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 19, 2026" },
     { id: "wkJ9JVSLpiM", title: "Madueke snatches it late for champions 🔴 | Nottingham Forest 0-1 Arsenal | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 18, 2026" },
     { id: "atz7piAn0-Y", title: "AC Milan vs Bournemouth 0-2 😱 Highlights & All Goals | Europa League 2026", channel: "Goal Rush TV", date: "Oct 22, 2026" },
     { id: "wghF06oU--M", title: "Highlights Europa League | Bournemouth 3-0 Milan | Serata amara per il Diavolo", channel: "AC Milan", date: "Oct 22, 2026" },
