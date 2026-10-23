@@ -865,17 +865,17 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "HY_GX12ojek", title: "HIGHLIGHTS | LIVERPOOL 4-3 VILLARREAL | CHAMPIONS LEAGUE", channel: "Villarreal CF", date: "Oct 21, 2026" },
+    { id: "Vnt4aut2lOU", title: "Manchester city vs Aek Athens 5-1 Highlights| Champions league 2026/27 FODEN HATTRICK", channel: "PVXFC", date: "Oct 20, 2026" },
     { id: "Kdwfh-fVWls", title: "SUPER EXTENDED HIGHLIGHTS - Napoli vs Bodo/Glimt | UEFA Champions League - J3 Fase de Liga 2026-27", channel: "TUDN USA", date: "Oct 20, 2026" },
     { id: "NI6YNO-ibBI", title: "CARLOS SECURES OUR FIRST EUROPEAN WIN 🖤💙 | INTER 1-0 SHAKHTAR DONETSK | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Oct 22, 2026" },
     { id: "WWeH9Hfr1b8", title: "Bayern Munich vs Arsenal 2-2 HIGHLIGHTS - Harry Kane, Eze & Declan Rice Goals! Champions League 2026", channel: "Dollar VFX", date: "Oct 22, 2026" },
     { id: "LRlY31UlP3U", title: "Barcelona Vs PSG Extended Highlights | UEFA Champions League 2026", channel: "FOOTBALL MANIA", date: "Oct 21, 2026" },
     { id: "SgwT8g0U6Y4", title: "¡GOL DEL INTER! Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 22, 2026" },
-    { id: "ylz-JQsFLh0", title: "Liverpool - Villarreal 4-3 | Highlights 20.10.2026", channel: "Cytavision Sports", date: "Oct 20, 2026" },
     { id: "iNOX1R3XLq0", title: "Real Madrid - RB Leipzig | Highlights | UEFA Champions League", channel: "RB Leipzig", date: "Oct 21, 2026" },
     { id: "B2B7tWnPDW4", title: "NAPOLI 4-3 BODO GLIMT | CHAMPIONS LEAGUE | RESUMEN | Italianos y noruegos dieron un PARTIDAZO", channel: "ESPN Centroam\u00e9rica", date: "Oct 20, 2026" },
     { id: "7gfmon5Ki9s", title: "Bayern Munich 2-2 Arsenal | Champions League 26/27 Match Highlights", channel: "CMM Sports", date: "Oct 22, 2026" },
     { id: "ItCZ26AwAj4", title: "Real Madrid vs RB Leipzig 4-1 HIGHLIGHTS", channel: "The African Beast.", date: "Oct 22, 2026" },
-    { id: "4UqZyCBYJqk", title: "HIGHLIGHTS - Napoli vs Bodo/Glimt | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 20, 2026" },
     { id: "_LpzkLDdR6U", title: "HIGHLIGHTS | PSG 4 vs 2 FC BARCELONA | UEFA CHAMPIONS LEAGUE 26/27", channel: "FC Barcelona", date: "Oct 21, 2026" },
     { id: "8vfp4t44kBs", title: "Sabah - Borussia Dortmund | 1-2 | Highlights | Champions League 2026-27", channel: "Sponitor", date: "Oct 20, 2026" },
     { id: "b0J7UcbgU2s", title: "Highlights: Liverpool 4-3 Villarreal", channel: "Liverpool FC", date: "Oct 20, 2026" },
