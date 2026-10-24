@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "sexhXXpV4Jg", title: "Manchester City vs Aston Villa 1-2 Highlights | All Goals & Extended Highlights | Premier League 2026", channel: "La2ta Tv", date: "Oct 24, 2026" },
     { id: "8vfp4t44kBs", title: "Sabah - Borussia Dortmund | 1-2 | Highlights | Champions League 2026-27", channel: "Sponitor", date: "Oct 20, 2026" },
     { id: "_LpzkLDdR6U", title: "HIGHLIGHTS | PSG 4 vs 2 FC BARCELONA | UEFA CHAMPIONS LEAGUE 26/27 🔵🔴", channel: "FC Barcelona", date: "Oct 21, 2026" },
     { id: "OgjmpRb_VOw", title: "Two penalties and STUNNING Adli free-kick to dominate AC Milan | AFC Bournemouth 3-0 AC Milan", channel: "AFC Bournemouth", date: "Oct 23, 2026" },
@@ -892,8 +893,6 @@ async function renderHighlights() {
     { id: "7siqpHSvBpA", title: "2–0 win at OFI Crete | Highlights | Hofmann's brace secures 3rd win in Europa League", channel: "Bayer 04 Leverkusen", date: "Oct 22, 2026" },
     { id: "erUcubqphYM", title: "WOLTEMADE: GOAL & ASSIST! 💥 | JUVENTUS 2-2 RENNAIS | HIGHLIGHTS EUROPA LEAGUE", channel: "Juventus", date: "Oct 22, 2026" },
     { id: "HY_GX12ojek", title: "HIGHLIGHTS | LIVERPOOL 4-3 VILLARREAL | CHAMPIONS LEAGUE", channel: "Villarreal CF", date: "Oct 21, 2026" },
-    { id: "NI6YNO-ibBI", title: "CARLOS SECURES OUR FIRST EUROPEAN WIN 🖤💙 | INTER 1-0 SHAKHTAR DONETSK | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Oct 22, 2026" },
-
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
