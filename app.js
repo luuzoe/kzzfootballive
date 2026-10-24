@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "iYUD6EaBkcA", title: "Konsa and Gabriel send Gunners level at the top! | Arsenal 2-0 Everton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
     { id: "MxbQoZzqhMc", title: "Arsenal vs Everton Highlights 2-0 Premier League 2026/27", channel: "Footballia", date: "Oct 24, 2026" },
     { id: "8OkMeG9UbgA", title: "Arsenal vs Everton 2-0 Highlights | Ezri Konsa & Gabriel Goals | Premier League 2026", channel: "La2ta Tv", date: "Oct 24, 2026" },
     { id: "NI6YNO-ibBI", title: "CARLOS SECURES OUR FIRST EUROPEAN WIN 🖤💙 | INTER 1-0 SHAKHTAR DONETSK | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Oct 21, 2026" },
@@ -885,7 +886,6 @@ async function renderHighlights() {
     { id: "SbGF1xglHh4", title: "HIGHLIGHTS | Real Madrid 4-1 RB Leipzig | Champions League", channel: "Real Madrid", date: "Oct 21, 2026" },
     { id: "b0J7UcbgU2s", title: "Highlights: Liverpool 4-3 Villarreal", channel: "Liverpool FC", date: "Oct 20, 2026" },
     { id: "_r1w1KfIoTc", title: "MCTOMINAY LA ROMPIÓ Y NAPOLI SE QUEDÓ CON UN TRIUNFAZO ANTE BODO | Napoli 4-3 Bodo/Glimt | RESUMEN", channel: "ESPN Fans", date: "Oct 23, 2026" },
-    { id: "SSF2Z4-gUH8", title: "FODEN HAT-TRICK FOR CITY! | Man City 5-1 AEK Athens | Champions League", channel: "Man City", date: "Oct 20, 2026" },
     { id: "Sr6rEVLZ2nM", title: "HIGHLIGHTS - Bournemouth vs AC Milan | UEFA Europa League - Jornada 3 Fase de Liga 2026-27", channel: "TUDN USA", date: "Oct 22, 2026" },
     { id: "wghF06oU--M", title: "Highlights Europa League | Bournemouth 3-0 Milan | Serata amara per il Diavolo", channel: "AC Milan", date: "Oct 22, 2026" },
     { id: "js-UOjc28Gk", title: "TOTAL ROUT! ⚡ Como 4-1 Man Utd Highlights | Nico Paz Double & Zirkzee Goal | UEFA Champions League", channel: "Halotub", date: "Oct 22, 2026" },
