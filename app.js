@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "NI6YNO-ibBI", title: "CARLOS SECURES OUR FIRST EUROPEAN WIN 🖤💙 | INTER 1-0 SHAKHTAR DONETSK | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Oct 21, 2026" },
     { id: "G7D7IxqNGOs", title: "Aston Villa vs Manchester City Highlights (2-1) | Jackson Goals ⚽⚽", channel: "Footballia", date: "Oct 24, 2026" },
     { id: "sexhXXpV4Jg", title: "Manchester City vs Aston Villa 1-2 Highlights | All Goals & Extended Highlights | Premier League 2026", channel: "La2ta Tv", date: "Oct 24, 2026" },
     { id: "8vfp4t44kBs", title: "Sabah - Borussia Dortmund | 1-2 | Highlights | Champions League 2026-27", channel: "Sponitor", date: "Oct 20, 2026" },
@@ -888,7 +889,6 @@ async function renderHighlights() {
     { id: "Sr6rEVLZ2nM", title: "HIGHLIGHTS - Bournemouth vs AC Milan | UEFA Europa League - Jornada 3 Fase de Liga 2026-27", channel: "TUDN USA", date: "Oct 22, 2026" },
     { id: "wghF06oU--M", title: "Highlights Europa League | Bournemouth 3-0 Milan | Serata amara per il Diavolo", channel: "AC Milan", date: "Oct 22, 2026" },
     { id: "js-UOjc28Gk", title: "TOTAL ROUT! ⚡ Como 4-1 Man Utd Highlights | Nico Paz Double & Zirkzee Goal | UEFA Champions League", channel: "Halotub", date: "Oct 22, 2026" },
-    { id: "HDsiMIz2aHY", title: "Juventus vs Rennes 2-2 Highlights UEFA Europa League 2026/27", channel: "Footballia", date: "Oct 22, 2026" },
     { id: "dx7x6C5-diY", title: "EZE AND RICE GOALS IN CRAZY GAME 🤯 | Bayern Munich vs Arsenal (2-2) | Champions League", channel: "Arsenal", date: "Oct 21, 2026" },
     { id: "zOPyh46UFZQ", title: "COMO vs Manchester United (4-1) NICO PAZ 2 GOALS | FULL Highlights UEFA Champions League 26/27", channel: "Antonionne Football", date: "Oct 21, 2026" },
     { id: "7siqpHSvBpA", title: "2–0 win at OFI Crete | Highlights | Hofmann's brace secures 3rd win in Europa League", channel: "Bayer 04 Leverkusen", date: "Oct 22, 2026" },
