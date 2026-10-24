@@ -865,6 +865,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "5B-ZfFEEYQE", title: "Napoli vs AS Roma 3-3 - All Goals & Extended Highlights - 2026 HD", channel: "jensm888", date: "Oct 24, 2026" },
+    { id: "w37C6cKva3c", title: "chelsea vs tottenham 0-2 || All Goals & Extended Highlights || Premier League 2026/27", channel: "Mahmoud Shaker", date: "Oct 24, 2026" },
     { id: "vMNzBOLU9ns", title: "Joker Scores Winner! | BORUSSIA DORTMUND - EINTRACHT FRANKFURT | Highlights | Matchday 7 Bundesliga", channel: "Bundesliga", date: "Oct 24, 2026" },
     { id: "Glw_cYzk3WM", title: "Chelsea vs Tottenham 0-2 - Highlights - Cole Palmer Red Card & Mathys Tel Goal - Premier League 2026", channel: "Dollar VFX", date: "Oct 24, 2026" },
     { id: "iYUD6EaBkcA", title: "Konsa and Gabriel send Gunners level at the top! | Arsenal 2-0 Everton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
@@ -889,9 +891,7 @@ async function renderHighlights() {
     { id: "_r1w1KfIoTc", title: "MCTOMINAY LA ROMPIÓ Y NAPOLI SE QUEDÓ CON UN TRIUNFAZO ANTE BODO | Napoli 4-3 Bodo/Glimt | RESUMEN", channel: "ESPN Fans", date: "Oct 23, 2026" },
     { id: "Sr6rEVLZ2nM", title: "HIGHLIGHTS - Bournemouth vs AC Milan | UEFA Europa League - Jornada 3 Fase de Liga 2026-27", channel: "TUDN USA", date: "Oct 22, 2026" },
     { id: "wghF06oU--M", title: "Highlights Europa League | Bournemouth 3-0 Milan | Serata amara per il Diavolo", channel: "AC Milan", date: "Oct 22, 2026" },
-    { id: "js-UOjc28Gk", title: "TOTAL ROUT! ⚡ Como 4-1 Man Utd Highlights | Nico Paz Double & Zirkzee Goal | UEFA Champions League", channel: "Halotub", date: "Oct 22, 2026" },
     { id: "dx7x6C5-diY", title: "EZE AND RICE GOALS IN CRAZY GAME 🤯 | Bayern Munich vs Arsenal (2-2) | Champions League", channel: "Arsenal", date: "Oct 21, 2026" },
-    { id: "zOPyh46UFZQ", title: "COMO vs Manchester United (4-1) NICO PAZ 2 GOALS | FULL Highlights UEFA Champions League 26/27", channel: "Antonionne Football", date: "Oct 21, 2026" },
     { id: "7siqpHSvBpA", title: "2–0 win at OFI Crete | Highlights | Hofmann's brace secures 3rd win in Europa League", channel: "Bayer 04 Leverkusen", date: "Oct 22, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
