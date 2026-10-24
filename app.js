@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "OgjmpRb_VOw", title: "Two penalties and STUNNING Adli free-kick to dominate AC Milan | AFC Bournemouth 3-0 AC Milan", channel: "AFC Bournemouth", date: "Oct 23, 2026" },
     { id: "UDsBEJZoP0A", title: "Real Madrid vs RB Leipzig 4-1 Highlights & Goals | UCL League Phase 2026/27", channel: "Mahmudul Hasan", date: "Oct 21, 2026" },
     { id: "QwiKOrerpd0", title: "Real Madrid vs RB Leipzig 4-1 Highlights UEFA Champions League 2026/27", channel: "Footballia", date: "Oct 21, 2026" },
     { id: "_pYxYapNPKM", title: "PSG vs Barcelona | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 21, 2026" },
@@ -892,7 +893,6 @@ async function renderHighlights() {
     { id: "NI6YNO-ibBI", title: "CARLOS SECURES OUR FIRST EUROPEAN WIN 🖤💙 | INTER 1-0 SHAKHTAR DONETSK | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Oct 22, 2026" },
     { id: "WWeH9Hfr1b8", title: "Bayern Munich vs Arsenal 2-2 HIGHLIGHTS - Harry Kane, Eze & Declan Rice Goals! Champions League 2026", channel: "Dollar VFX", date: "Oct 22, 2026" },
     { id: "LRlY31UlP3U", title: "Barcelona Vs PSG Extended Highlights | UEFA Champions League 2026", channel: "FOOTBALL MANIA", date: "Oct 21, 2026" },
-    { id: "_LpzkLDdR6U", title: "HIGHLIGHTS | PSG 4 vs 2 FC BARCELONA | UEFA CHAMPIONS LEAGUE 26/27", channel: "FC Barcelona", date: "Oct 21, 2026" },
 
 
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
