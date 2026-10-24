@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "yCyiGPu7ryU", title: "Chelsea 0-2 Tottenham | Premier League Match Highlights", channel: "VANTA", date: "Oct 24, 2026" },
     { id: "erUcubqphYM", title: "WOLTEMADE: GOAL & ASSIST! 💥 | JUVENTUS 2-2 RENNAIS | HIGHLIGHTS EUROPA LEAGUE", channel: "Juventus", date: "Oct 22, 2026" },
     { id: "NQqiEsVALss", title: "Jackson BRACE gives City first loss! 🟣 | Aston Villa 2-1 Manchester City | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
     { id: "5B-ZfFEEYQE", title: "Napoli vs AS Roma 3-3 - All Goals & Extended Highlights - 2026 HD", channel: "jensm888", date: "Oct 24, 2026" },
@@ -892,7 +893,6 @@ async function renderHighlights() {
     { id: "b0J7UcbgU2s", title: "Highlights: Liverpool 4-3 Villarreal", channel: "Liverpool FC", date: "Oct 20, 2026" },
     { id: "_r1w1KfIoTc", title: "MCTOMINAY LA ROMPIÓ Y NAPOLI SE QUEDÓ CON UN TRIUNFAZO ANTE BODO | Napoli 4-3 Bodo/Glimt | RESUMEN", channel: "ESPN Fans", date: "Oct 23, 2026" },
     { id: "Sr6rEVLZ2nM", title: "HIGHLIGHTS - Bournemouth vs AC Milan | UEFA Europa League - Jornada 3 Fase de Liga 2026-27", channel: "TUDN USA", date: "Oct 22, 2026" },
-    { id: "wghF06oU--M", title: "Highlights Europa League | Bournemouth 3-0 Milan | Serata amara per il Diavolo", channel: "AC Milan", date: "Oct 22, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
