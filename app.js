@@ -865,6 +865,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "vMNzBOLU9ns", title: "Joker Scores Winner! | BORUSSIA DORTMUND - EINTRACHT FRANKFURT | Highlights | Matchday 7 Bundesliga", channel: "Bundesliga", date: "Oct 24, 2026" },
     { id: "Glw_cYzk3WM", title: "Chelsea vs Tottenham 0-2 - Highlights - Cole Palmer Red Card & Mathys Tel Goal - Premier League 2026", channel: "Dollar VFX", date: "Oct 24, 2026" },
     { id: "iYUD6EaBkcA", title: "Konsa and Gabriel send Gunners level at the top! | Arsenal 2-0 Everton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
     { id: "MxbQoZzqhMc", title: "Arsenal vs Everton Highlights 2-0 Premier League 2026/27", channel: "Footballia", date: "Oct 24, 2026" },
@@ -892,7 +893,6 @@ async function renderHighlights() {
     { id: "dx7x6C5-diY", title: "EZE AND RICE GOALS IN CRAZY GAME 🤯 | Bayern Munich vs Arsenal (2-2) | Champions League", channel: "Arsenal", date: "Oct 21, 2026" },
     { id: "zOPyh46UFZQ", title: "COMO vs Manchester United (4-1) NICO PAZ 2 GOALS | FULL Highlights UEFA Champions League 26/27", channel: "Antonionne Football", date: "Oct 21, 2026" },
     { id: "7siqpHSvBpA", title: "2–0 win at OFI Crete | Highlights | Hofmann's brace secures 3rd win in Europa League", channel: "Bayer 04 Leverkusen", date: "Oct 22, 2026" },
-    { id: "erUcubqphYM", title: "WOLTEMADE: GOAL & ASSIST! 💥 | JUVENTUS 2-2 RENNAIS | HIGHLIGHTS EUROPA LEAGUE", channel: "Juventus", date: "Oct 22, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
