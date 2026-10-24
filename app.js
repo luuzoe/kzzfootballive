@@ -865,13 +865,13 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "Glw_cYzk3WM", title: "Chelsea vs Tottenham 0-2 - Highlights - Cole Palmer Red Card & Mathys Tel Goal - Premier League 2026", channel: "Dollar VFX", date: "Oct 24, 2026" },
     { id: "iYUD6EaBkcA", title: "Konsa and Gabriel send Gunners level at the top! | Arsenal 2-0 Everton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
     { id: "MxbQoZzqhMc", title: "Arsenal vs Everton Highlights 2-0 Premier League 2026/27", channel: "Footballia", date: "Oct 24, 2026" },
     { id: "8OkMeG9UbgA", title: "Arsenal vs Everton 2-0 Highlights | Ezri Konsa & Gabriel Goals | Premier League 2026", channel: "La2ta Tv", date: "Oct 24, 2026" },
     { id: "NI6YNO-ibBI", title: "CARLOS SECURES OUR FIRST EUROPEAN WIN 🖤💙 | INTER 1-0 SHAKHTAR DONETSK | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Oct 21, 2026" },
     { id: "G7D7IxqNGOs", title: "Aston Villa vs Manchester City Highlights (2-1) | Jackson Goals ⚽⚽", channel: "Footballia", date: "Oct 24, 2026" },
     { id: "sexhXXpV4Jg", title: "Manchester City vs Aston Villa 1-2 Highlights | All Goals & Extended Highlights | Premier League 2026", channel: "La2ta Tv", date: "Oct 24, 2026" },
-    { id: "8vfp4t44kBs", title: "Sabah - Borussia Dortmund | 1-2 | Highlights | Champions League 2026-27", channel: "Sponitor", date: "Oct 20, 2026" },
     { id: "_LpzkLDdR6U", title: "HIGHLIGHTS | PSG 4 vs 2 FC BARCELONA | UEFA CHAMPIONS LEAGUE 26/27 🔵🔴", channel: "FC Barcelona", date: "Oct 21, 2026" },
     { id: "OgjmpRb_VOw", title: "Two penalties and STUNNING Adli free-kick to dominate AC Milan | AFC Bournemouth 3-0 AC Milan", channel: "AFC Bournemouth", date: "Oct 23, 2026" },
     { id: "_pYxYapNPKM", title: "PSG vs Barcelona | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 21, 2026" },
