@@ -865,6 +865,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "_pYxYapNPKM", title: "PSG vs Barcelona | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 21, 2026" },
+    { id: "6HOwK8MliqM", title: "CRAZY MATCH!! Napoli vs FK Bodø/Glimt (4-3) FULL HIGHLIGHTS | UEFA Champions League 2026/27", channel: "Halotub", date: "Oct 21, 2026" },
     { id: "SRzLacf10p8", title: "Liverpool vs Villarreal | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 22, 2026" },
     { id: "eldQMooolQc", title: "Como vs Manchester United | Key Moments | UEFA Champions League 2026", channel: "Sony Sports Network", date: "Oct 22, 2026" },
     { id: "8UlWeAhk2fY", title: "HIGHLIGHTS - Sabah vs B. Dortmund | UEFA Champions League - Matchday 3 League Phase 2026-27", channel: "TUDN USA", date: "Oct 20, 2026" },
@@ -890,8 +892,6 @@ async function renderHighlights() {
     { id: "NI6YNO-ibBI", title: "CARLOS SECURES OUR FIRST EUROPEAN WIN 🖤💙 | INTER 1-0 SHAKHTAR DONETSK | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Oct 22, 2026" },
     { id: "WWeH9Hfr1b8", title: "Bayern Munich vs Arsenal 2-2 HIGHLIGHTS - Harry Kane, Eze & Declan Rice Goals! Champions League 2026", channel: "Dollar VFX", date: "Oct 22, 2026" },
     { id: "LRlY31UlP3U", title: "Barcelona Vs PSG Extended Highlights | UEFA Champions League 2026", channel: "FOOTBALL MANIA", date: "Oct 21, 2026" },
-    { id: "SgwT8g0U6Y4", title: "¡GOL DEL INTER! Inter vs Shakhtar | UEFA Champions League - Jornada 3 Fase de Liga 2026-27 | TUDN", channel: "TUDN USA", date: "Oct 22, 2026" },
-    { id: "iNOX1R3XLq0", title: "Real Madrid - RB Leipzig | Highlights | UEFA Champions League", channel: "RB Leipzig", date: "Oct 21, 2026" },
     { id: "_LpzkLDdR6U", title: "HIGHLIGHTS | PSG 4 vs 2 FC BARCELONA | UEFA CHAMPIONS LEAGUE 26/27", channel: "FC Barcelona", date: "Oct 21, 2026" },
 
 
