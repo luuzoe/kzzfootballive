@@ -865,11 +865,12 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "UDsBEJZoP0A", title: "Real Madrid vs RB Leipzig 4-1 Highlights & Goals | UCL League Phase 2026/27", channel: "Mahmudul Hasan", date: "Oct 21, 2026" },
+    { id: "QwiKOrerpd0", title: "Real Madrid vs RB Leipzig 4-1 Highlights UEFA Champions League 2026/27", channel: "Footballia", date: "Oct 21, 2026" },
     { id: "_pYxYapNPKM", title: "PSG vs Barcelona | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 21, 2026" },
     { id: "6HOwK8MliqM", title: "CRAZY MATCH!! Napoli vs FK Bodø/Glimt (4-3) FULL HIGHLIGHTS | UEFA Champions League 2026/27", channel: "Halotub", date: "Oct 21, 2026" },
     { id: "SRzLacf10p8", title: "Liverpool vs Villarreal | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 22, 2026" },
     { id: "eldQMooolQc", title: "Como vs Manchester United | Key Moments | UEFA Champions League 2026", channel: "Sony Sports Network", date: "Oct 22, 2026" },
-    { id: "8UlWeAhk2fY", title: "HIGHLIGHTS - Sabah vs B. Dortmund | UEFA Champions League - Matchday 3 League Phase 2026-27", channel: "TUDN USA", date: "Oct 20, 2026" },
     { id: "RMzcmGNA-_g", title: "Stuttgart 1-1 Atlético Madrid | Highlights | UCL 26/27", channel: "On Sports", date: "Oct 21, 2026" },
     { id: "r92uvxmxKqs", title: "Spurs 3-1 Coventry City | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 20, 2026" },
     { id: "LaJkUmgUpb0", title: "VfB Stuttgart 1-1 Atlético de Madrid | Julián Alvarez | HIGHLIGHTS, UCL - MD3", channel: "Atlético de Madrid", date: "Oct 20, 2026" },
@@ -888,7 +889,6 @@ async function renderHighlights() {
     { id: "7siqpHSvBpA", title: "2–0 win at OFI Crete | Highlights | Hofmann's brace secures 3rd win in Europa League", channel: "Bayer 04 Leverkusen", date: "Oct 22, 2026" },
     { id: "erUcubqphYM", title: "WOLTEMADE: GOAL & ASSIST! 💥 | JUVENTUS 2-2 RENNAIS | HIGHLIGHTS EUROPA LEAGUE", channel: "Juventus", date: "Oct 22, 2026" },
     { id: "HY_GX12ojek", title: "HIGHLIGHTS | LIVERPOOL 4-3 VILLARREAL | CHAMPIONS LEAGUE", channel: "Villarreal CF", date: "Oct 21, 2026" },
-    { id: "Kdwfh-fVWls", title: "SUPER EXTENDED HIGHLIGHTS - Napoli vs Bodo/Glimt | UEFA Champions League - J3 Fase de Liga 2026-27", channel: "TUDN USA", date: "Oct 20, 2026" },
     { id: "NI6YNO-ibBI", title: "CARLOS SECURES OUR FIRST EUROPEAN WIN 🖤💙 | INTER 1-0 SHAKHTAR DONETSK | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Oct 22, 2026" },
     { id: "WWeH9Hfr1b8", title: "Bayern Munich vs Arsenal 2-2 HIGHLIGHTS - Harry Kane, Eze & Declan Rice Goals! Champions League 2026", channel: "Dollar VFX", date: "Oct 22, 2026" },
     { id: "LRlY31UlP3U", title: "Barcelona Vs PSG Extended Highlights | UEFA Champions League 2026", channel: "FOOTBALL MANIA", date: "Oct 21, 2026" },
