@@ -125,40 +125,40 @@
    },
    {
     "rank": 8,
+    "player": "Lucas Boyé",
+    "team": "အလာဗတ်စ်",
+    "goals": 5,
+    "pid": "207236"
+   },
+   {
+    "rank": 9,
     "player": "Fer Niño",
     "team": "အဲလ်ချီ",
     "goals": 5,
     "pid": "301684"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Álex Baena",
     "team": "အက်သလက်တီကိုမက်ဒရစ်",
     "goals": 5,
     "pid": "297373"
-   },
-   {
-    "rank": 10,
-    "player": "Roger Brugué",
-    "team": "လီဗန်တေး",
-    "goals": 5,
-    "pid": "267591"
    }
   ],
   "ita.1": [
    {
     "rank": 1,
+    "player": "Gustavo Varela",
+    "team": "မွန်ဇာ",
+    "goals": 7,
+    "pid": "384482"
+   },
+   {
+    "rank": 2,
     "player": "Antonio Raimondo",
     "team": "ဖရိုစီနိုနီ",
     "goals": 7,
     "pid": "319265"
-   },
-   {
-    "rank": 2,
-    "player": "Gustavo Varela",
-    "team": "မွန်ဇာ",
-    "goals": 6,
-    "pid": "384482"
    },
    {
     "rank": 3,
@@ -320,17 +320,17 @@
    },
    {
     "rank": 5,
-    "player": "Louis Mafouta",
-    "team": "လမန်း",
-    "goals": 4,
-    "pid": "268720"
-   },
-   {
-    "rank": 6,
     "player": "Kamory Doumbia",
     "team": "ဘရက်စ်",
     "goals": 4,
     "pid": "330412"
+   },
+   {
+    "rank": 6,
+    "player": "Louis Mafouta",
+    "team": "လမန်း",
+    "goals": 4,
+    "pid": "268720"
    },
    {
     "rank": 7,
@@ -355,26 +355,26 @@
    },
    {
     "rank": 10,
-    "player": "Florian Thauvin",
-    "team": "လန့်စ်",
+    "player": "Ludovic Ajorque",
+    "team": "ဘရက်စ်",
     "goals": 3,
-    "pid": "156898"
+    "pid": "192015"
    }
   ],
   "ned.1": [
    {
     "rank": 1,
+    "player": "Sören Tengstedt",
+    "team": "ဂိုးအဟက်အီးဂဲလ်",
+    "goals": 8,
+    "pid": "289301"
+   },
+   {
+    "rank": 2,
     "player": "Thom Van Bergen",
     "team": "ဂရိုနင်ဂန်",
     "goals": 6,
     "pid": "351290"
-   },
-   {
-    "rank": 2,
-    "player": "Sören Tengstedt",
-    "team": "ဂိုးအဟက်အီးဂဲလ်",
-    "goals": 6,
-    "pid": "289301"
    },
    {
     "rank": 3,
@@ -717,10 +717,10 @@
    },
    {
     "rank": 10,
-    "player": "Tarik Muharemovic",
-    "team": "လိဒ်စ်ယူနိုက်တက်",
+    "player": "Julio Enciso",
+    "team": "အစ်ဝစ်ချ်",
     "assists": 2,
-    "pid": "318390"
+    "pid": "20975"
    }
   ],
   "esp.1": [
@@ -775,24 +775,24 @@
    },
    {
     "rank": 8,
+    "player": "Ángel Pérez",
+    "team": "အလာဗတ်စ်",
+    "assists": 3,
+    "pid": "374621"
+   },
+   {
+    "rank": 9,
     "player": "Carlos Soler",
     "team": "ရီးရဲလ်ဆိုစီဒက်",
     "assists": 3,
     "pid": "235072"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Alberto Moleiro",
     "team": "ဗီလာရီးရဲလ်",
     "assists": 3,
     "pid": "307390"
-   },
-   {
-    "rank": 10,
-    "player": "José Antonio Morente",
-    "team": "အဲလ်ချီ",
-    "assists": 3,
-    "pid": "259916"
    }
   ],
   "ita.1": [
@@ -847,24 +847,24 @@
    },
    {
     "rank": 8,
-    "player": "Danilo Veiga",
-    "team": "လက်ချီ",
-    "assists": 2,
-    "pid": "344844"
-   },
-   {
-    "rank": 9,
-    "player": "Michel Adopo",
-    "team": "ကာဂလီယာရီ",
-    "assists": 2,
-    "pid": "272745"
-   },
-   {
-    "rank": 10,
     "player": "Samuele Birindelli",
     "team": "မွန်ဇာ",
     "assists": 2,
     "pid": "248440"
+   },
+   {
+    "rank": 9,
+    "player": "Ricardo Mangas",
+    "team": "မွန်ဇာ",
+    "assists": 2,
+    "pid": "259871"
+   },
+   {
+    "rank": 10,
+    "player": "Danilo Veiga",
+    "team": "လက်ချီ",
+    "assists": 2,
+    "pid": "344844"
    }
   ],
   "ger.1": [
@@ -926,17 +926,17 @@
    },
    {
     "rank": 9,
+    "player": "Angelo Stiller",
+    "team": "စတုဂတ်",
+    "assists": 2,
+    "pid": "290232"
+   },
+   {
+    "rank": 10,
     "player": "Hennes Behrens",
     "team": "အော့စ်ဘတ်",
     "assists": 2,
     "pid": "399214"
-   },
-   {
-    "rank": 10,
-    "player": "Jordy Makengo",
-    "team": "ဖရိုင်းဘတ်",
-    "assists": 2,
-    "pid": "367558"
    }
   ],
   "fra.1": [
@@ -991,24 +991,24 @@
    },
    {
     "rank": 8,
-    "player": "Emerson",
-    "team": "မာဆေး",
-    "assists": 2,
-    "pid": "159051"
-   },
-   {
-    "rank": 9,
-    "player": "Gessime Yassine",
-    "team": "စထရာ့စ်ဘတ်",
-    "assists": 2,
-    "pid": "379012"
-   },
-   {
-    "rank": 10,
     "player": "Joris Chotard",
     "team": "ဘရက်စ်",
     "assists": 2,
     "pid": "291850"
+   },
+   {
+    "rank": 9,
+    "player": "Sofiane Diop",
+    "team": "နိစ်",
+    "assists": 2,
+    "pid": "276995"
+   },
+   {
+    "rank": 10,
+    "player": "Emerson",
+    "team": "မာဆေး",
+    "assists": 2,
+    "pid": "159051"
    }
   ],
   "ned.1": [
@@ -1056,31 +1056,31 @@
    },
    {
     "rank": 7,
+    "player": "Mathis Suray",
+    "team": "ဂိုးအဟက်အီးဂဲလ်",
+    "assists": 3,
+    "pid": "308091"
+   },
+   {
+    "rank": 8,
     "player": "Bas Kuipers",
     "team": "စပါတာရော့တာဒမ်",
     "assists": 3,
     "pid": "188458"
    },
    {
-    "rank": 8,
+    "rank": 9,
     "player": "David Van Der Werff",
     "team": "ဂရိုနင်ဂန်",
     "assists": 3,
     "pid": "385716"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Mateo Chávez",
     "team": "အဲဇက်အယ်လ်ခ်မား",
     "assists": 3,
     "pid": "379193"
-   },
-   {
-    "rank": 10,
-    "player": "Simon Janssen",
-    "team": "အက်ဆဲလ်ရှာ",
-    "assists": 3,
-    "pid": "278383"
    }
   ],
   "por.1": [
