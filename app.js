@@ -14,7 +14,7 @@ const LEAGUES = [
   { id: 'uefa.europa',   name: 'Europa League',    mm: 'ယူရိုပါလိဂ်',             icon: '🟠' },
 ];
 
-const APP_VERSION = 26; // bump on every deploy
+const APP_VERSION = 27; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -1085,6 +1085,11 @@ const TROPHY_MM = {
   'Coppa Italia': 'ကိုပါအီတာလီယာ', 'DFB-Pokal': 'ဂျာမနီဖလား', 'Coupe de France': 'ပြင်သစ်ဖလား',
   'KNVB Cup': 'နယ်သာလန်ဖလား', 'Taca de Portugal': 'ပေါ်တူဂီဖလား',
 };
+/* ---------- squads (lazy-loaded: only when a team detail is opened) ---------- */
+async function ensureSquads() {
+  if (Object.keys(SQUADS).length) return;
+  try { const s = await getJSON('squads.json'); if (s) SQUADS = s; } catch (e) {}
+}
 function openTeamDetail(tid) {
   const box = $('#modalBox');
   box.innerHTML = '<div class="loading">အသင်းအချက်အလက် ဆွဲနေသည်…</div>';
@@ -1095,7 +1100,8 @@ function openTeamDetail(tid) {
   // team news (ESPN) — best effort
   getJSON(`https://site.api.espn.com/apis/site/v2/sports/soccer/${state.league}/news?team=${encodeURIComponent(tid)}&limit=5`)
     .catch(() => null)
-    .then((news) => {
+    .then(async (news) => {
+      await ensureSquads();
       box.innerHTML = teamDetailHtml(tid, mm, en, (news && news.articles) || []);
     });
 }
@@ -1508,9 +1514,10 @@ function armAutoRefresh() {
   if (state.timer) { clearInterval(state.timer); state.timer = null; }
   if (state.chatTimer) { clearInterval(state.chatTimer); state.chatTimer = null; }
   armClockTicker(false);
-  if (state.tab === 'live') {
-    armClockTicker(true);
-    state.timer = setInterval(() => { if (state.tab === 'live') loadTab(true); }, 60000);
+  if (state.tab === 'live' || state.tab === 'today') {
+    if (state.tab === 'live') armClockTicker(true);
+    const t = state.tab;
+    state.timer = setInterval(() => { if (state.tab === t) loadTab(true); }, 60000);
   }
 }
 
@@ -1596,7 +1603,7 @@ async function votePoll(pollId, option) {
   if (localStorage.getItem('kzz-poll-' + pollId)) { alert('မဲ ပေးပြီးသားပါ!'); return; }
   await sbPost('poll_votes', {poll_id: pollId, option: option});
   localStorage.setItem('kzz-poll-' + pollId, String(option));
-  renderPoll();
+  if (state.tab === 'community') renderCommunity(); else renderPoll();
 }
 window.votePoll = votePoll;
 
@@ -1716,7 +1723,7 @@ async function sendChat() {
   localStorage.setItem('kzz-chat-name', name);
   await sbPost('chat_messages', {name: name, text: text});
   textEl.value = '';
-  renderChat();
+  if (state.tab === 'community') renderCommunity(); else renderChat();
 }
 window.sendChat = sendChat;
 
@@ -1726,19 +1733,129 @@ async function loadTab(quiet) {
   armAutoRefresh();
   try {
     if (state.tab === 'live') await renderLive();
+    else if (state.tab === 'today') await renderToday();
     else if (state.tab === 'fixtures') await renderFixtures();
     else if (state.tab === 'results') await renderResults();
     else if (state.tab === 'lineups') await renderLineups();
     else if (state.tab === 'standings') await renderStandings();
     else if (state.tab === 'predictions') await renderPredictions();
     else if (state.tab === 'news') await renderNews();
+    else if (state.tab === 'transfers') await renderTransfers();
     else if (state.tab === 'analyses') await renderAnalyses();
     else if (state.tab === 'highlights') await renderHighlights();
+    else if (state.tab === 'community') await renderCommunity();
     else if (state.tab === 'scorers') await renderScorersTab();
   } catch (e) {
     if (!quiet) showError();
   }
   if (quiet && keepY) window.scrollTo(0, keepY);
+}
+
+/* ---------- today: live + today's fixtures + today's results, one screen ---------- */
+async function renderToday() {
+  const todayKey = yyyymmdd(new Date());
+  const ydayKey = yyyymmdd(new Date(Date.now() - 86400000));
+  const boards = await Promise.all([todayKey, ydayKey].map((ds) => fetchMerged(ds).catch(() => [])));
+  const seen = new Set(); const matches = [];
+  boards.forEach((evts) => evts.forEach((e) => {
+    const m = parseMatch(e);
+    if (!seen.has(m.id)) { seen.add(m.id); matches.push(m); }
+  }));
+  const ymdKey = (iso) => { const p = yangonParts(new Date(iso)); return `${p.year}${p.month}${p.day}`; };
+  const todays = matches.filter((m) => ymdKey(m.date) === todayKey);
+  const byDate = (a, b) => new Date(a.date) - new Date(b.date);
+  const live = todays.filter((m) => m.state === 'in').sort(byDate);
+  const upcoming = todays.filter((m) => m.state === 'pre').sort(byDate);
+  const done = todays.filter((m) => m.state === 'post').sort(byDate);
+  let html = `<h2 class="section-title">📅 ဒီနေ့ — ${esc(fmtDate(new Date().toISOString()))}</h2>`;
+  html += `<div class="refresh-line">စက္ကန့် ၆၀ တိုင်း အလိုအလျောက် ပြန်ဆွဲမယ်<button onclick="loadTab()">🔄 ယခုပြန်ဆွဲမယ်</button></div>`;
+  if (!todays.length) {
+    html += `<div class="empty">ဒီနေ့ ပွဲစဉ် မတွေ့ပါ။<br>ပွဲစဉ် tab မှာ လာမယ့်ပွဲတွေ ကြည့်နိုင်ပါတယ်။</div>`;
+  } else {
+    if (live.length) html += `<div class="date-group">🔴 အခု ကစားနေတယ် (${live.length} ပွဲ)</div>` + live.map(matchCard).join('');
+    if (upcoming.length) html += `<div class="date-group">🕐 ဒီနေ့ လာမယ့်ပွဲများ (${upcoming.length} ပွဲ)</div>` + upcoming.map(matchCard).join('');
+    if (done.length) html += `<div class="date-group">✅ ဒီနေ့ ပြီးသွားတဲ့ပွဲများ (${done.length} ပွဲ)</div>` + done.map(matchCard).join('');
+  }
+  content.innerHTML = html;
+  stamp();
+}
+
+/* ---------- transfers ---------- */
+async function renderTransfers() {
+  let data = null;
+  try { data = await getJSON('transfers.json'); } catch (e) {}
+  const items = (data && data.transfers) || [];
+  let html = `<h2 class="section-title">🔄 အပြောင်းအရွှေ့ သတင်းများ</h2>`;
+  if (!items.length) {
+    html += `<div class="empty">အပြောင်းအရွှေ့ သတင်း မရှိသေးပါ။</div>`;
+  } else {
+    html += items.map((n) => {
+      const body = esc(n.body_mm || '').replace(/\n/g, '<br>');
+      const when = n.published ? esc(new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(n.published))) : '';
+      return `
+      <article class="news-card">
+        ${n.image ? `<img class="news-img" src="${esc(n.image)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
+        <div class="news-body">
+          <h3 class="news-title">${esc(n.title_mm || '')}</h3>
+          <div class="news-text">${body}</div>
+          <div class="news-meta">🔄 ${esc(n.source || '')}${when ? ' • ' + when : ''}${n.fb_url ? ` • <a href="${esc(n.fb_url)}" target="_blank" rel="noopener">Facebook မှာ ကြည့်ရန်</a>` : ''}</div>
+        </div>
+      </article>`;
+    }).join('');
+  }
+  content.innerHTML = html;
+  stamp();
+}
+
+/* ---------- community: poll + chat in one tab ---------- */
+async function refreshChatList() {
+  const list = document.getElementById('chatList');
+  if (!list || state.tab !== 'community') return;
+  const msgs = await sbGet('chat_messages?order=created_at.desc&limit=50').catch(() => null);
+  const arr = (msgs || []).reverse();
+  list.innerHTML = arr.length ? arr.map((m) => {
+    const t = new Date(m.created_at).toLocaleString('en-GB', { timeZone: 'Asia/Yangon', hour: '2-digit', minute: '2-digit' });
+    return `<div class="chat-msg"><b>${esc(m.name || 'Anonymous')}</b> <small>${t}</small><br>${esc(m.text)}</div>`;
+  }).join('') : `<div style="color:#888">စကား မရှိသေးပါ — ပထမဆုံး ပြောလိုက်ပါ!</div>`;
+  list.scrollTop = list.scrollHeight;
+}
+async function renderCommunity() {
+  const polls = await sbGet('polls?order=created_at.desc&limit=1').catch(() => null);
+  const poll = (polls && polls[0]) || null;
+  let pollHtml = `<h2 class="section-title">🏆 မဲ</h2><div class="empty">မဲ မရှိသေးပါ။</div>`;
+  if (poll) {
+    const votes = await sbGet('poll_votes?poll_id=eq.' + poll.id).catch(() => []);
+    const counts = {};
+    (votes || []).forEach((v) => { counts[v.option] = (counts[v.option] || 0) + 1; });
+    const total = (votes || []).length;
+    const myVote = localStorage.getItem('kzz-poll-' + poll.id);
+    const emojis = ['🔴', '🔵', '🟢', '🟡', '🟠', '🟣'];
+    pollHtml = `<h2 class="section-title">🏆 ${esc(poll.question)}</h2><div class="poll-cards">`;
+    (poll.options || []).forEach((opt, i) => {
+      const c = counts[i] || 0;
+      const pct = total ? Math.round(c / total * 100) : 0;
+      const voted = myVote == String(i);
+      pollHtml += `<div class="poll-card${voted ? ' voted' : ''}" onclick="votePoll('${poll.id}',${i})">
+        <div class="poll-card-emoji">${emojis[i % emojis.length]}</div>
+        <div class="poll-card-name">${esc(opt)}</div>
+        ${total ? `<div class="poll-card-pct">${pct}%</div><div class="poll-card-votes">${c} မဲ</div>` : `<div class="poll-card-vote-btn">မဲပေး</div>`}
+        ${voted ? `<div class="poll-card-check">✅</div>` : ''}
+      </div>`;
+    });
+    pollHtml += `</div><div class="poll-total">စုစုပေါင်း မဲ: ${total}</div>`;
+  }
+  const savedName = (() => { try { return localStorage.getItem('kzz-chat-name') || ''; } catch (e) { return ''; } })();
+  const chatHtml = `<h2 class="section-title">💬 စကားဝိုင်း</h2>
+  <div class="chat-box"><div class="chat-list" id="chatList"><div style="color:#888">ဆွဲနေသည်…</div></div><div class="chat-form">
+    <input type="text" id="chatName" placeholder="နာမည်" maxlength="30" style="width:100px" value="${esc(savedName)}">
+    <input type="text" id="chatText" placeholder="စကားပြောမယ်..." maxlength="300">
+    <button class="share-btn" onclick="sendChat()">ပို့မယ်</button>
+  </div></div>`;
+  content.innerHTML = pollHtml + chatHtml;
+  refreshChatList();
+  if (state.chatTimer) clearInterval(state.chatTimer);
+  state.chatTimer = setInterval(() => { if (state.tab === 'community') refreshChatList(); }, 10000);
+  stamp();
 }
 
 /* ---------- global team search ---------- */
@@ -1778,11 +1895,11 @@ async function doSearch(q) {
 }
 window.doSearch = doSearch;
 
-try { const h = (location.hash || '').replace('#', ''); if (['live','fixtures','results','standings','predictions','news','analyses'].includes(h)) state.tab = h; } catch (e) {}
+try { const h = (location.hash || '').replace('#', ''); if (['live','today','fixtures','results','standings','predictions','news','transfers','analyses','highlights','community'].includes(h)) state.tab = h; } catch (e) {}
 window.addEventListener('hashchange', () => {
   try {
     const h = (location.hash || '').replace('#', '');
-    if (['live','fixtures','results','standings','predictions','news','analyses'].includes(h) && h !== state.tab) {
+    if (['live','today','fixtures','results','standings','predictions','news','transfers','analyses','highlights','community'].includes(h) && h !== state.tab) {
       state.tab = h; buildTabs(); loadTab();
     }
   } catch (e) {}
@@ -1813,7 +1930,6 @@ function showUpdateBanner() {
       });
     }
   } catch (e) { /* Burmese names optional — English fallback */ }
-  try { const s = await getJSON('squads.json'); if (s) SQUADS = s; } catch (e) {}
   try { const ti = await getJSON('team_info.json'); if (ti) TEAM_INFO = ti; } catch (e) {}
   bindFav();
   populateFavSelect();
