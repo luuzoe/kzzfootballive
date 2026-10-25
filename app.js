@@ -880,6 +880,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "wghF06oU--M", title: "Highlights Europa League | Bournemouth 3-0 Milan | Serata amara per il Diavolo", channel: "AC Milan", date: "Oct 22, 2026" },
     { id: "TPKlbCGbDP8", title: "Chelsea 0-2 Spurs | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea FC", date: "Oct 24, 2026" },
     { id: "SbGF1xglHh4", title: "HIGHLIGHTS | Real Madrid 4-1 RB Leipzig | Champions League", channel: "Real Madrid", date: "Oct 21, 2026" },
     { id: "dLMRZScxQb0", title: "Doppio McTominay-BALERDI nel match più bello: Napoli-Roma 3-3 | Serie A Enilive | DAZN Highlights", channel: "DAZN Italia", date: "Oct 24, 2026" },
@@ -907,7 +908,6 @@ async function renderHighlights() {
     { id: "RMzcmGNA-_g", title: "Stuttgart 1-1 Atlético Madrid | Highlights | UCL 26/27", channel: "On Sports", date: "Oct 21, 2026" },
     { id: "LaJkUmgUpb0", title: "VfB Stuttgart 1-1 Atlético de Madrid | Julián Alvarez | HIGHLIGHTS, UCL - MD3", channel: "Atlético de Madrid", date: "Oct 20, 2026" },
     { id: "jM_bVGPowhA", title: "Thrilling draw in a top-class clash | FC Bayern vs Arsenal FC | Champions League Highlights", channel: "FC Bayern München", date: "Oct 21, 2026" },
-    { id: "RKdtcQYFBxE", title: "HIGHLIGHTS | Man City 5-1 AEK Athens | Foden hat-trick and Cherki magic in Champions League rout!", channel: "Man City", date: "Oct 21, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
