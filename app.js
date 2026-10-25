@@ -14,7 +14,7 @@ const LEAGUES = [
   { id: 'uefa.europa',   name: 'Europa League',    mm: 'ယူရိုပါလိဂ်',             icon: '🟠' },
 ];
 
-const APP_VERSION = 27; // bump on every deploy
+const APP_VERSION = 28; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -1603,7 +1603,7 @@ async function votePoll(pollId, option) {
   if (localStorage.getItem('kzz-poll-' + pollId)) { alert('မဲ ပေးပြီးသားပါ!'); return; }
   await sbPost('poll_votes', {poll_id: pollId, option: option});
   localStorage.setItem('kzz-poll-' + pollId, String(option));
-  if (state.tab === 'community') renderCommunity(); else renderPoll();
+  renderPoll();
 }
 window.votePoll = votePoll;
 
@@ -1723,7 +1723,7 @@ async function sendChat() {
   localStorage.setItem('kzz-chat-name', name);
   await sbPost('chat_messages', {name: name, text: text});
   textEl.value = '';
-  if (state.tab === 'community') renderCommunity(); else renderChat();
+  renderChat();
 }
 window.sendChat = sendChat;
 
@@ -1743,7 +1743,6 @@ async function loadTab(quiet) {
     else if (state.tab === 'transfers') await renderTransfers();
     else if (state.tab === 'analyses') await renderAnalyses();
     else if (state.tab === 'highlights') await renderHighlights();
-    else if (state.tab === 'community') await renderCommunity();
     else if (state.tab === 'scorers') await renderScorersTab();
   } catch (e) {
     if (!quiet) showError();
@@ -1807,57 +1806,6 @@ async function renderTransfers() {
   stamp();
 }
 
-/* ---------- community: poll + chat in one tab ---------- */
-async function refreshChatList() {
-  const list = document.getElementById('chatList');
-  if (!list || state.tab !== 'community') return;
-  const msgs = await sbGet('chat_messages?order=created_at.desc&limit=50').catch(() => null);
-  const arr = (msgs || []).reverse();
-  list.innerHTML = arr.length ? arr.map((m) => {
-    const t = new Date(m.created_at).toLocaleString('en-GB', { timeZone: 'Asia/Yangon', hour: '2-digit', minute: '2-digit' });
-    return `<div class="chat-msg"><b>${esc(m.name || 'Anonymous')}</b> <small>${t}</small><br>${esc(m.text)}</div>`;
-  }).join('') : `<div style="color:#888">စကား မရှိသေးပါ — ပထမဆုံး ပြောလိုက်ပါ!</div>`;
-  list.scrollTop = list.scrollHeight;
-}
-async function renderCommunity() {
-  const polls = await sbGet('polls?order=created_at.desc&limit=1').catch(() => null);
-  const poll = (polls && polls[0]) || null;
-  let pollHtml = `<h2 class="section-title">🏆 မဲ</h2><div class="empty">မဲ မရှိသေးပါ။</div>`;
-  if (poll) {
-    const votes = await sbGet('poll_votes?poll_id=eq.' + poll.id).catch(() => []);
-    const counts = {};
-    (votes || []).forEach((v) => { counts[v.option] = (counts[v.option] || 0) + 1; });
-    const total = (votes || []).length;
-    const myVote = localStorage.getItem('kzz-poll-' + poll.id);
-    const emojis = ['🔴', '🔵', '🟢', '🟡', '🟠', '🟣'];
-    pollHtml = `<h2 class="section-title">🏆 ${esc(poll.question)}</h2><div class="poll-cards">`;
-    (poll.options || []).forEach((opt, i) => {
-      const c = counts[i] || 0;
-      const pct = total ? Math.round(c / total * 100) : 0;
-      const voted = myVote == String(i);
-      pollHtml += `<div class="poll-card${voted ? ' voted' : ''}" onclick="votePoll('${poll.id}',${i})">
-        <div class="poll-card-emoji">${emojis[i % emojis.length]}</div>
-        <div class="poll-card-name">${esc(opt)}</div>
-        ${total ? `<div class="poll-card-pct">${pct}%</div><div class="poll-card-votes">${c} မဲ</div>` : `<div class="poll-card-vote-btn">မဲပေး</div>`}
-        ${voted ? `<div class="poll-card-check">✅</div>` : ''}
-      </div>`;
-    });
-    pollHtml += `</div><div class="poll-total">စုစုပေါင်း မဲ: ${total}</div>`;
-  }
-  const savedName = (() => { try { return localStorage.getItem('kzz-chat-name') || ''; } catch (e) { return ''; } })();
-  const chatHtml = `<h2 class="section-title">💬 စကားဝိုင်း</h2>
-  <div class="chat-box"><div class="chat-list" id="chatList"><div style="color:#888">ဆွဲနေသည်…</div></div><div class="chat-form">
-    <input type="text" id="chatName" placeholder="နာမည်" maxlength="30" style="width:100px" value="${esc(savedName)}">
-    <input type="text" id="chatText" placeholder="စကားပြောမယ်..." maxlength="300">
-    <button class="share-btn" onclick="sendChat()">ပို့မယ်</button>
-  </div></div>`;
-  content.innerHTML = pollHtml + chatHtml;
-  refreshChatList();
-  if (state.chatTimer) clearInterval(state.chatTimer);
-  state.chatTimer = setInterval(() => { if (state.tab === 'community') refreshChatList(); }, 10000);
-  stamp();
-}
-
 /* ---------- global team search ---------- */
 async function fetchMerged(ds) {
   const results = await Promise.all(LEAGUES.map(l =>
@@ -1895,11 +1843,11 @@ async function doSearch(q) {
 }
 window.doSearch = doSearch;
 
-try { const h = (location.hash || '').replace('#', ''); if (['live','today','fixtures','results','standings','predictions','news','transfers','analyses','highlights','community'].includes(h)) state.tab = h; } catch (e) {}
+try { const h = (location.hash || '').replace('#', ''); if (['live','today','fixtures','results','standings','predictions','news','transfers','analyses','highlights'].includes(h)) state.tab = h; } catch (e) {}
 window.addEventListener('hashchange', () => {
   try {
     const h = (location.hash || '').replace('#', '');
-    if (['live','today','fixtures','results','standings','predictions','news','transfers','analyses','highlights','community'].includes(h) && h !== state.tab) {
+    if (['live','today','fixtures','results','standings','predictions','news','transfers','analyses','highlights'].includes(h) && h !== state.tab) {
       state.tab = h; buildTabs(); loadTab();
     }
   } catch (e) {}
