@@ -14,7 +14,7 @@ const LEAGUES = [
   { id: 'uefa.europa',   name: 'Europa League',    mm: 'ယူရိုပါလိဂ်',             icon: '🟠' },
 ];
 
-const APP_VERSION = 28; // bump on every deploy
+const APP_VERSION = 29; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -295,7 +295,7 @@ function leagueName() {
   return l ? `${l.icon} ${l.mm}` : '';
 }
 function stamp() {
-  $('#updatedAt').textContent = 'နောက်ဆုံးအပ်ဒိတ်: ' + new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date()) + ' (မြန်မာစံတော်ချိန်)';
+  $('#updatedAt').textContent = 'နောက်ဆုံးအပ်ဒိတ်: ' + new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date());
 }
 
 /* ---------- tabs ---------- */
