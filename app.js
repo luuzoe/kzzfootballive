@@ -879,7 +879,7 @@ async function renderHighlights() {
     { id: "vMNzBOLU9ns", title: "Joker Scores Winner! | BORUSSIA DORTMUND - EINTRACHT FRANKFURT | Highlights | Matchday 7 Bundesliga", channel: "Bundesliga", date: "Oct 24, 2026" },
     { id: "iYUD6EaBkcA", title: "Konsa and Gabriel send Gunners level at the top! | Arsenal 2-0 Everton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
     { id: "MxbQoZzqhMc", title: "Arsenal vs Everton Highlights 2-0 Premier League 2026/27", channel: "Footballia", date: "Oct 24, 2026" },
-    { id: "8OkMeG9UbgA", title: "Arsenal vs Everton 2-0 Highlights | Ezri Konsa & Gabriel Goals | Premier League 2026", channel: "La2ta Tv", date: "Oct 24, 2026" },
+    { id: "_1fx7VA2ImE", title: "Arsenal vs Everton 2-0 Highlights | Konsa & Gabriel Fire Gunners Level at Top!", channel: "GOALSPORTS TV.", date: "Oct 24, 2026" },
     { id: "NI6YNO-ibBI", title: "CARLOS SECURES OUR FIRST EUROPEAN WIN 🖤💙 | INTER 1-0 SHAKHTAR DONETSK | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Oct 21, 2026" },
     { id: "G7D7IxqNGOs", title: "Aston Villa vs Manchester City Highlights (2-1) | Jackson Goals ⚽⚽", channel: "Footballia", date: "Oct 24, 2026" },
     { id: "_LpzkLDdR6U", title: "HIGHLIGHTS | PSG 4 vs 2 FC BARCELONA | UEFA CHAMPIONS LEAGUE 26/27 🔵🔴", channel: "FC Barcelona", date: "Oct 21, 2026" },
