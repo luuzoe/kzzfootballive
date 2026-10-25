@@ -14,7 +14,7 @@ const LEAGUES = [
   { id: 'uefa.europa',   name: 'Europa League',    mm: 'ယူရိုပါလိဂ်',             icon: '🟠' },
 ];
 
-const APP_VERSION = 36; // bump on every deploy
+const APP_VERSION = 37; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',

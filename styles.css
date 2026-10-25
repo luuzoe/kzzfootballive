@@ -244,7 +244,6 @@ table.standings { width: 100%; border-collapse: collapse; font-size: 14px; }
 .ad-slot { max-width: 900px; margin: 12px auto; padding: 0 16px; text-align: center; min-height: 90px; }
 
 @media (max-width: 560px) {
-  .highlights-grid { grid-template-columns: 1fr; }
   .brand h1 { font-size: 18px; }
   .tagline { font-size: 12px; }
   .league-chip { font-size: 13px; }
@@ -589,3 +588,7 @@ body {
 }
 
 .hl-note { color: var(--muted); font-size: 12px; margin: -6px 0 12px; }
+
+/* phone highlights: single column (must come AFTER the 860px 2-col rule or it loses) */
+@media (max-width: 560px) { .highlights-grid { grid-template-columns: 1fr; } }
+.highlight-card { min-width: 0; }
