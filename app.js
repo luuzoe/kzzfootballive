@@ -14,7 +14,28 @@ const LEAGUES = [
   { id: 'uefa.europa',   name: 'Europa League',    mm: 'ယူရိုပါလိဂ်',             icon: '🟠' },
 ];
 
-const APP_VERSION = 41; // bump on every deploy
+
+// Team name -> league id (built 2026-10-25 from ESPN standings + teams_mm.json).
+// News/transfers items carry no league field, so their league is derived from team names in the text.
+const TEAM_LEAGUE = {"fulham":"eng.1","ဖူလ်ဟမ်":"eng.1","brighton & hove albion":"eng.1","ဘရိုက်တန်":"eng.1","tottenham hotspur":"eng.1","စပါး":"eng.1","coventry city":"eng.1","ကိုဗင်ထရီစီးတီး":"eng.1","afc bournemouth":"eng.1","ဘုန်းမောက်":"eng.1","newcastle united":"eng.1","နယူးကာဆယ်":"eng.1","brentford":"eng.1","ဘရန့်ဖို့ဒ်":"eng.1","liverpool":"eng.1","လီဗာပူး":"eng.1","manchester city":"eng.1","မန်စီးတီး":"eng.1","leeds united":"eng.1","လိဒ်စ်ယူနိုက်တက်":"eng.1","hull city":"eng.1","ဟားလ်စီးတီး":"eng.1","ipswich town":"eng.1","အစ်ဝစ်ချ်":"eng.1","arsenal":"eng.1","အာဆင်နယ်":"eng.1","sunderland":"eng.1","ဆန်းဒါးလန်း":"eng.1","nottingham forest":"eng.1","နော်တင်ဟမ်ဖောရက်စ်":"eng.1","manchester united":"eng.1","မန်ယူ":"eng.1","crystal palace":"eng.1","ခရစ္စတယ်ပဲလေ့စ်":"eng.1","everton":"eng.1","အဲဗာတန်":"eng.1","aston villa":"eng.1","အက်စတွန်ဗီလာ":"eng.1","chelsea":"eng.1","ချယ်လ်ဆီး":"eng.1","espanyol":"esp.1","အက်စ်ပန်ညောလ်":"esp.1","atlético madrid":"esp.1","အက်သလက်တီကိုမက်ဒရစ်":"esp.1","sevilla":"esp.1","ဆီဗီလာ":"esp.1","deportivo":"esp.1","ဒီပို့တီဗို":"esp.1","racing santander":"esp.1","ရေးစင်းဆန်တန်ဒါး":"esp.1","real betis":"esp.1","ရီးရဲလ်ဘက်တစ်":"esp.1","elche":"esp.1","အဲလ်ချီ":"esp.1","real madrid":"esp.1","ရီးယဲလ်":"esp.1","villarreal":"esp.1","ဗီလာရီးရဲလ်":"esp.1","celta vigo":"esp.1","ဆယ်လ်တာဗီဂို":"esp.1","levante":"esp.1","လီဗန်တေး":"esp.1","osasuna":"esp.1","အိုဆာဆူနာ":"esp.1","real sociedad":"esp.1","ရီးရဲလ်ဆိုစီဒက်":"esp.1","málaga":"esp.1","မာလာဂါ":"esp.1","valencia":"esp.1","ဗလန်စီယာ":"esp.1","rayo vallecano":"esp.1","ရာယိုဗယ်လီကာနို":"esp.1","alavés":"esp.1","အလာဗတ်စ်":"esp.1","getafe":"esp.1","ဂီတာဖေး":"esp.1","barcelona":"esp.1","ဘာစီလိုနာ":"esp.1","athletic club":"esp.1","အက်သလတစ်ဘီလ်ဘာအို":"esp.1","venezia":"ita.1","ဗင်နီဇီယာ":"ita.1","genoa":"ita.1","ဂျီနိုအာ":"ita.1","fiorentina":"ita.1","ဖီအိုရင်တီးနား":"ita.1","parma":"ita.1","ပါးမား":"ita.1","juventus":"ita.1","ဂျူဗင်တပ်စ်":"ita.1","napoli":"ita.1","နာပိုလီ":"ita.1","atalanta":"ita.1","အတ္တလန္တာ":"ita.1","torino":"ita.1","တိုရီနို":"ita.1","udinese":"ita.1","အူဒီနီဆီ":"ita.1","como":"ita.1","ကိုမို":"ita.1","sassuolo":"ita.1","ဆာဆူအိုလို":"ita.1","ac milan":"ita.1","အေစီမီလန်":"ita.1","cagliari":"ita.1","ကာဂလီယာရီ":"ita.1","internazionale":"ita.1","အင်တာ":"ita.1","bologna":"ita.1","ဘိုလော့နာ":"ita.1","monza":"ita.1","မွန်ဇာ":"ita.1","lecce":"ita.1","လက်ချီ":"ita.1","as roma":"ita.1","ရိုးမား":"ita.1","frosinone":"ita.1","ဖရိုစီနိုနီ":"ita.1","lazio":"ita.1","လာဇီယို":"ita.1","rb leipzig":"ger.1","လိုက်ပ်ဇစ်":"ger.1","eintracht frankfurt":"ger.1","ဖရန့်ဖတ်":"ger.1","fc augsburg":"ger.1","အော့စ်ဘတ်":"ger.1","hamburg sv":"ger.1","ဟမ်းဘတ်":"ger.1","1. fc union berlin":"ger.1","ယူနီယံဘာလင်":"ger.1","tsg hoffenheim":"ger.1","ဟော့ဖန်ဟိမ်း":"ger.1","schalke 04":"ger.1","ရှော်ကေး":"ger.1","sc paderborn 07":"ger.1","ပါဒါဘွန်း":"ger.1","borussia mönchengladbach":"ger.1","ဂလက်ဘတ်":"ger.1","fc cologne":"ger.1","ကိုလုံး":"ger.1","mainz":"ger.1","မိန့်ဇ်":"ger.1","vfb stuttgart":"ger.1","စတုဂတ်":"ger.1","werder bremen":"ger.1","ဝါဒါဘရီမင်":"ger.1","bayer leverkusen":"ger.1","လီဗာကူဆင်":"ger.1","bayern munich":"ger.1","ဘိုင်ယန်":"ger.1","sv elversberg":"ger.1","အဲလ်ဗားစ်ဘတ်":"ger.1","sc freiburg":"ger.1","ဖရိုင်းဘတ်":"ger.1","borussia dortmund":"ger.1","ဒေါ့မန်":"ger.1","lille":"fra.1","လိုင်လီ":"fra.1","paris fc":"fra.1","ပဲရစ်အက်ဖ်စီ":"fra.1","lens":"fra.1","လန့်စ်":"fra.1","angers":"fra.1","အွန်ဂျေး":"fra.1","lorient":"fra.1","လိုရီယန့်":"fra.1","as monaco":"fra.1","မိုနာကို":"fra.1","strasbourg":"fra.1","စထရာ့စ်ဘတ်":"fra.1","paris saint-germain":"fra.1","ပီအက်စ်ဂျီ":"fra.1","stade rennais":"fra.1","ရန်းစ်":"fra.1","brest":"fra.1","ဘရက်စ်":"fra.1","aj auxerre":"fra.1","အောက်ဆဲ":"fra.1","troyes":"fra.1","ထရွာ":"fra.1","le havre ac":"fra.1","လဟာဗေး":"fra.1","nice":"fra.1","နိစ်":"fra.1","le mans":"fra.1","လမန်း":"fra.1","lyon":"fra.1","လိုင်ယွန်":"fra.1","marseille":"fra.1","မာဆေး":"fra.1","toulouse":"fra.1","တူးလူး":"fra.1","heerenveen":"ned.1","ဟီရန်ဗိန်း":"ned.1","fc twente":"ned.1","ထွမ်တေး":"ned.1","fc utrecht":"ned.1","ယူထရက်ချ်":"ned.1","pec zwolle":"ned.1","ဇဝူးလီ":"ned.1","feyenoord rotterdam":"ned.1","ဖီယင်နော့":"ned.1","fc groningen":"ned.1","ဂရိုနင်ဂန်":"ned.1","sparta rotterdam":"ned.1","စပါတာရော့တာဒမ်":"ned.1","nec nijmegen":"ned.1","နိုင်မီဂန်":"ned.1","fortuna sittard":"ned.1","ဖော်ကျူနာစစ်တာ့ဒ်":"ned.1","ado den haag":"ned.1","ဒန်ဟက်":"ned.1","willem ii":"ned.1","ဝီလျံနှစ်":"ned.1","psv eindhoven":"ned.1","ပီအက်စ်ဗီ":"ned.1","sc cambuur":"ned.1","ကမ်ဘူး":"ned.1","excelsior":"ned.1","အက်ဆဲလ်ရှာ":"ned.1","telstar":"ned.1","တဲလ်စတာ":"ned.1","ajax amsterdam":"ned.1","အေဂျက်စ်":"ned.1","go ahead eagles":"ned.1","ဂိုးအဟက်အီးဂဲလ်":"ned.1","az alkmaar":"ned.1","အဲဇက်အယ်လ်ခ်မား":"ned.1","rio ave":"por.1","ရီယိုအဲဗီ":"por.1","arouca":"por.1","အာရူကာ":"por.1","fc porto":"por.1","ပေါ်တို":"por.1","braga":"por.1","ဘရာဂါ":"por.1","alverca":"por.1","အဲလ်ဗာကာ":"por.1","maritimo":"por.1","မာရီတီမို":"por.1","vitória de guimaraes":"por.1","ဂီမာရေးရှ်":"por.1","benfica":"por.1","ဘန်ဖီကာ":"por.1","c.d. nacional":"por.1","နာစီယွန်နယ်":"por.1","moreirense":"por.1","မိုရေးရင်ဆီ":"por.1","estrela":"por.1","အက်စ်ထရီလာ":"por.1","casa pia":"por.1","ကာဆာပီယာ":"por.1","estoril":"por.1","အက်စ်တိုရီလ်":"por.1","académico de viseu":"por.1","ဗီဆူး":"por.1","gil vicente":"por.1","ဂီလ်ဗီဆင်တေး":"por.1","santa clara":"por.1","ဆန်တာကလာရာ":"por.1","fc famalicao":"por.1","ဖာမလီကောင်":"por.1","sporting cp":"por.1","စပေါ်တင်း":"por.1","lask linz":"uefa.champions","လင့်ဇ်":"uefa.champions","viking fk":"uefa.champions","ဗိုက်ကင်းအက်ဖ်ကေ":"uefa.champions","galatasaray":"uefa.champions","ဂါလာတာဆာရေး":"uefa.champions","shakhtar donetsk":"uefa.champions","ရှက်တာဒိုးနက်စ်":"uefa.champions","aek athens":"uefa.champions","အေအီးကေအေသင်":"uefa.champions","fenerbahce":"uefa.champions","ဖီနာဘာချီ":"uefa.champions","bodo/glimt":"uefa.champions","ဘိုဒိုဂလင့်မ်":"uefa.champions","sabah fk":"uefa.champions","ဆာဘာ့ခ်":"uefa.champions","slavia prague":"uefa.champions","ဆလာဗီယာပရက်":"uefa.champions","slovan bratislava":"uefa.champions","ဆလိုဗန်ဘရာတစ်စလာဗာ":"uefa.champions","club brugge":"uefa.champions","ကလပ်ဘရုဂေး":"uefa.champions","viktoria plzen":"uefa.europa","ပယ်လ်ဇင်":"uefa.europa","anderlecht":"uefa.europa","အန်ဒါလက်ချ်":"uefa.europa","jagiellonia bialystok":"uefa.europa","ဂျာဂီလိုနီယာ":"uefa.europa","levski sofia":"uefa.europa","လက်ဗ်စကီဆိုဖီယာ":"uefa.europa","ofi crete":"uefa.europa","အိုအက်ဖ်အိုင်ခရီးတ်":"uefa.europa","union st.-gilloise":"uefa.europa","ယူနီယံစိန့်ဂီလွိုင်":"uefa.europa","torreense":"uefa.europa","တိုရေးရင်ဆီ":"uefa.europa","celtic":"uefa.europa","ဆဲလ်တစ်":"uefa.europa","dinamo zagreb":"uefa.europa","ဒီနာမိုဇာဂရက်":"uefa.europa","sk sturm graz":"uefa.europa","စတုန်းဂရက်ဇ်":"uefa.europa","lech poznan":"uefa.europa","ပိုဇနန်":"uefa.europa","omonia nicosia":"uefa.europa","အိုမိုနီယာ":"uefa.europa","olympiacos":"uefa.europa","အိုလံပီယာကို့စ်":"uefa.europa","rb salzburg":"uefa.europa","ဆဲလ်ဇ်ဘတ်":"uefa.europa","lillestrom":"uefa.europa","လိလ်စထရုမ်း":"uefa.europa","sparta prague":"uefa.europa","စပါတာပရက်":"uefa.europa","ferencvaros":"uefa.europa","ဖီရန်စဗာရို့စ်":"uefa.europa","hapoel be'er":"uefa.europa","ဟာပိုရယ်ဘီယာရှီဗာ":"uefa.europa","besiktas":"uefa.europa","ဘီရှစ်တပ်စ်":"uefa.europa","ararat-armenia":"uefa.europa","အာရာရတ်-အာမေးနီးယား":"uefa.europa","nk celje":"uefa.europa","ဆဲလ်ယဲ":"uefa.europa","inter":"ita.1","milan":"ita.1","spurs":"eng.1","man city":"eng.1","man utd":"eng.1","man united":"eng.1","barca":"esp.1","atletico":"esp.1","psg":"fra.1","bvb":"ger.1","bayern":"ger.1","juve":"ita.1"};
+function leagueIdOfName(nm) { const l = LEAGUES.find((x) => x.name === nm); return l ? l.id : null; }
+function leaguesOfText(txt) {
+  const t = (txt || '').toLowerCase();
+  const found = new Set();
+  for (const name of Object.keys(TEAM_LEAGUE)) {
+    let hit = false;
+    if (/[a-z]/.test(name)) {
+      const esc = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      hit = new RegExp('(?<![a-z0-9])' + esc + '(?![a-z0-9])').test(t);
+    } else {
+      hit = t.includes(name);
+    }
+    if (hit) found.add(TEAM_LEAGUE[name]);
+  }
+  return found;
+}
+
+const APP_VERSION = 42; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -601,6 +622,7 @@ async function renderPredictions() {
   let data = null;
   try { data = await getJSON('predictions.json'); } catch (e) { data = null; }
   const preds = (data && data.predictions) || [];
+  const shown = state.league === 'all' ? preds : preds.filter((p) => leagueIdOfName(p.league) === state.league);
   const confLabel = { high: 'ယုံကြည်မှုမြင့်', medium: 'အလယ်အလတ်', low: 'သတိထား' };
   const confClass = { high: 'conf-high', medium: 'conf-med', low: 'conf-low' };
   let recHtml = '';
@@ -613,17 +635,17 @@ async function renderPredictions() {
       (rec.results || []).forEach(r => { recMap[r.home + '|' + r.away] = r; });
     }
   } catch (e) {}
-  let html = `<h2 class="section-title">🔮 ပွဲကြို ခန့်မှန်း သုံးသပ်ချက် — KZZ Football Analysis</h2>${recHtml}`;
+  let html = `<h2 class="section-title">🔮 ပွဲကြို ခန့်မှန်း သုံးသပ်ချက် — KZZ Football Analysis (${leagueName()})</h2>${recHtml}`;
   if (data && data.updated) {
     let upd = data.updated;
     try { upd = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(data.updated)); } catch (e) {}
     html += `<div class="refresh-line">နောက်ဆုံးခန့်မှန်းချက်: ${esc(upd)}</div>`;
   html += `<input type="search" id="pred-search" placeholder="🔍 ခန့်မှန်းချက် ရှာပါ..." oninput="filterPreds()" style="width:100%;padding:10px;margin:10px 0;border:1px solid #ddd;border-radius:8px;font-size:15px;">`;
   }
-  if (!preds.length) {
-    html += `<div class="empty">ခန့်မှန်းချက်တွေ မကြာမီ လာမယ်။<br>KZZ Facebook page မှာ တင်ထားတဲ့ ပွဲကြိုခန့်မှန်းချက်တွေ ဒီမှာ ပေါ်လာမယ်။</div>`;
+  if (!shown.length) {
+    html += `<div class="empty">${preds.length ? 'ရွေးထားတဲ့ လိဂ်အတွက် ခန့်မှန်းချက် မရှိသေးပါ။' : 'ခန့်မှန်းချက်တွေ မကြာမီ လာမယ်။<br>KZZ Facebook page မှာ တင်ထားတဲ့ ပွဲကြိုခန့်မှန်းချက်တွေ ဒီမှာ ပေါ်လာမယ်။'}</div>`;
   } else {
-    html += preds.map((p) => {
+    html += shown.map((p) => {
       let probHtml = '';
       if (p.prob_home != null && p.prob_draw != null && p.prob_away != null) {
         probHtml = `<div class="pred-prob">
@@ -785,17 +807,18 @@ async function renderNews() {
   let data = null;
   try { data = await getJSON('news.json'); } catch (e) { data = null; }
   const items = (data && data.news) || [];
-  let html = `<h2 class="section-title">📰 ဘောလုံးသတင်းများ</h2>
+  const shown = state.league === 'all' ? items : items.filter((n) => { const ls = leaguesOfText((n.title || '') + ' ' + (n.body || '') + ' ' + (n.title_mm || '') + ' ' + (n.body_mm || '')); return ls.size === 0 || ls.has(state.league); });
+  let html = `<h2 class="section-title">📰 ဘောလုံးသတင်းများ (${leagueName()})</h2>
   <div class="search-row"><input type="text" id="news-search" placeholder="🔍 သတင်း ရှာမယ်..." oninput="filterNews(this.value)"></div>`;
   if (data && data.updated) {
     let upd = data.updated;
     try { upd = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(data.updated)); } catch (e) {}
     html += `<div class="refresh-line">နောက်ဆုံးအပ်ဒိတ်: ${esc(upd)}</div>`;
   }
-  if (!items.length) {
-    html += `<div class="empty">သတင်းတွေ မကြာမီ လာမယ်။</div>`;
+  if (!shown.length) {
+    html += `<div class="empty">${items.length ? 'ရွေးထားတဲ့ လိဂ်အတွက် သတင်း မရှိသေးပါ။' : 'သတင်းတွေ မကြာမီ လာမယ်။'}</div>`;
   } else {
-    html += items.map((n) => {
+    html += shown.map((n) => {
       const body = esc(n.body_mm || '').replace(/\n/g, '<br>');
       const when = n.published ? esc(new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(n.published))) : '';
       return `
@@ -963,17 +986,18 @@ async function renderAnalyses() {
   let data = null;
   try { data = await getJSON('analyses.json'); } catch (e) { data = null; }
   const items = (data && data.analyses) || [];
-  let html = `<h2 class="section-title">📝 ပွဲပြီး သုံးသပ်ချက်များ</h2>`;
+  const shown = state.league === 'all' ? items : items.filter((a) => leagueIdOfName(a.league) === state.league);
+  let html = `<h2 class="section-title">📝 ပွဲပြီး သုံးသပ်ချက်များ (${leagueName()})</h2>`;
   if (data && data.updated) {
     let upd = data.updated;
     try { upd = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(data.updated)); } catch (e) {}
     html += `<div class="refresh-line">နောက်ဆုံးအပ်ဒိတ်: ${esc(upd)}</div>`;
   }
   html += `<input type="search" id="analysis-search" placeholder="🔍 သုံးသပ်ချက် ရှာပါ..." oninput="filterAnalyses()" style="width:100%;padding:10px;margin:10px 0;border:1px solid #ddd;border-radius:8px;font-size:15px;">`;
-  if (!items.length) {
-    html += `<div class="empty">သုံးသပ်ချက်တွေ မကြာမီ လာမယ်။</div>`;
+  if (!shown.length) {
+    html += `<div class="empty">${items.length ? 'ရွေးထားတဲ့ လိဂ်အတွက် သုံးသပ်ချက် မရှိသေးပါ။' : 'သုံးသပ်ချက်တွေ မကြာမီ လာမယ်။'}</div>`;
   } else {
-    html += items.map((a) => {
+    html += shown.map((a) => {
       const body = esc(a.body_mm || '').replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>');
       const score = (a.home_score != null && a.away_score != null) ? `${a.home_score} - ${a.away_score}` : '';
       const searchText = ((a.title_mm || "") + " " + (a.home_mm || a.home || "") + " " + (a.away_mm || a.away || "") + " " + (a.league_mm || a.league || "") + " " + (a.body_mm || "")).toLowerCase();
@@ -1785,11 +1809,12 @@ async function renderTransfers() {
   let data = null;
   try { data = await getJSON('transfers.json'); } catch (e) {}
   const items = (data && data.transfers) || [];
-  let html = `<h2 class="section-title">🔄 အပြောင်းအရွှေ့ သတင်းများ</h2>`;
-  if (!items.length) {
-    html += `<div class="empty">အပြောင်းအရွှေ့ သတင်း မရှိသေးပါ။</div>`;
+  const shown = state.league === 'all' ? items : items.filter((n) => { const ls = leaguesOfText((n.title_mm || '') + ' ' + (n.body_mm || '')); return ls.size === 0 || ls.has(state.league); });
+  let html = `<h2 class="section-title">🔄 အပြောင်းအရွှေ့ သတင်းများ (${leagueName()})</h2>`;
+  if (!shown.length) {
+    html += `<div class="empty">${items.length ? 'ရွေးထားတဲ့ လိဂ်အတွက် အပြောင်းအရွှေ့ သတင်း မရှိသေးပါ။' : 'အပြောင်းအရွှေ့ သတင်း မရှိသေးပါ။'}</div>`;
   } else {
-    html += items.map((n) => {
+    html += shown.map((n) => {
       const body = esc(n.body_mm || '').replace(/\n/g, '<br>');
       const when = n.published ? esc(new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(n.published))) : '';
       return `
