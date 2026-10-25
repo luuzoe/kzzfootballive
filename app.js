@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 43; // bump on every deploy
+const APP_VERSION = 44; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -807,8 +807,7 @@ async function renderNews() {
   try { data = await getJSON('news.json'); } catch (e) { data = null; }
   const items = (data && data.news) || [];
   const shown = state.league === 'all' ? items : items.filter((n) => { const ls = leaguesOfText((n.title || '') + ' ' + (n.body || '') + ' ' + (n.title_mm || '') + ' ' + (n.body_mm || '')); return ls.size === 0 || ls.has(state.league); });
-  let html = `<h2 class="section-title">📰 ဘောလုံးသတင်းများ (${leagueName()})</h2>
-  if (data && data.updated) {
+  let html = `<h2 class="section-title">📰 ဘောလုံးသတင်းများ (${leagueName()})</h2>`;  if (data && data.updated) {
     let upd = data.updated;
     try { upd = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(data.updated)); } catch (e) {}
     html += `<div class="refresh-line">နောက်ဆုံးအပ်ဒိတ်: ${esc(upd)}</div>`;
