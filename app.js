@@ -14,7 +14,7 @@ const LEAGUES = [
   { id: 'uefa.europa',   name: 'Europa League',    mm: 'ယူရိုပါလိဂ်',             icon: '🟠' },
 ];
 
-const APP_VERSION = 40; // bump on every deploy
+const APP_VERSION = 41; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -1761,12 +1761,13 @@ async function renderToday() {
     if (!seen.has(m.id)) { seen.add(m.id); matches.push(m); }
   }));
   const ymdKey = (iso) => { const p = yangonParts(new Date(iso)); return `${p.year}${p.month}${p.day}`; };
-  const todays = matches.filter((m) => ymdKey(m.date) === todayKey);
+  const todays = matches.filter((m) => ymdKey(m.date) === todayKey)
+    .filter((m) => state.league === 'all' || EVENT_LEAGUE[m.id] === state.league);
   const byDate = (a, b) => new Date(a.date) - new Date(b.date);
   const live = todays.filter((m) => m.state === 'in').sort(byDate);
   const upcoming = todays.filter((m) => m.state === 'pre').sort(byDate);
   const done = todays.filter((m) => m.state === 'post').sort(byDate);
-  let html = `<h2 class="section-title">📅 ဒီနေ့ — ${esc(fmtDate(new Date().toISOString()))}</h2>`;
+  let html = `<h2 class="section-title">📅 ဒီနေ့ — ${leagueName()} — ${esc(fmtDate(new Date().toISOString()))}</h2>`;
   html += `<div class="refresh-line">စက္ကန့် ၆၀ တိုင်း အလိုအလျောက် ပြန်ဆွဲမယ်<button onclick="loadTab()">🔄 ယခုပြန်ဆွဲမယ်</button></div>`;
   if (!todays.length) {
     html += `<div class="empty">ဒီနေ့ ပွဲစဉ် မတွေ့ပါ။<br>ပွဲစဉ် tab မှာ လာမယ့်ပွဲတွေ ကြည့်နိုင်ပါတယ်။</div>`;
