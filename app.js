@@ -880,6 +880,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "TPKlbCGbDP8", title: "Chelsea 0-2 Spurs | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea FC", date: "Oct 24, 2026" },
     { id: "SbGF1xglHh4", title: "HIGHLIGHTS | Real Madrid 4-1 RB Leipzig | Champions League", channel: "Real Madrid", date: "Oct 21, 2026" },
     { id: "dLMRZScxQb0", title: "Doppio McTominay-BALERDI nel match più bello: Napoli-Roma 3-3 | Serie A Enilive | DAZN Highlights", channel: "DAZN Italia", date: "Oct 24, 2026" },
     { id: "YD9G7iuZGjw", title: "Tel scores a BEAUTY at the Bridge! | Chelsea 0-2 Spurs | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 24, 2026" },
@@ -888,7 +889,6 @@ async function renderHighlights() {
     { id: "7siqpHSvBpA", title: "2–0 win at OFI Crete | Highlights | Hofmann's brace secures 3rd win in Europa League", channel: "Bayer 04 Leverkusen", date: "Oct 22, 2026" },
     { id: "_fn3LWD4KSU", title: "SIX-GOAL Blockbuster in Naples! | NAPOLI-ROMA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 24, 2026" },
     { id: "3Hma8i1EtO4", title: "Chelsea 0-2 Tottenham Hotspur | Premier League Highlights 2026/27", channel: "Stadium Astro", date: "Oct 24, 2026" },
-    { id: "yCyiGPu7ryU", title: "Chelsea 0-2 Tottenham | Premier League Match Highlights", channel: "VANTA", date: "Oct 24, 2026" },
     { id: "erUcubqphYM", title: "WOLTEMADE: GOAL & ASSIST! 💥 | JUVENTUS 2-2 RENNAIS | HIGHLIGHTS EUROPA LEAGUE", channel: "Juventus", date: "Oct 22, 2026" },
     { id: "NQqiEsVALss", title: "Jackson BRACE gives City first loss! 🟣 | Aston Villa 2-1 Manchester City | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
     { id: "pbdVNLFnrmg", title: "NAPOLI 3-3 ROMA | SERIE A HIGHLIGHTS 2026-27", channel: "AS Roma", date: "Oct 24, 2026" },
