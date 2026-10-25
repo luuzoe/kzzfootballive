@@ -1,6 +1,20 @@
 {
  "analyses": [
   {
+   "id": "2026-10-25-udinese-milan",
+   "home": "Udinese",
+   "home_mm": "အူဒီနီဆီ",
+   "home_score": 0,
+   "away": "AC Milan",
+   "away_mm": "အေစီမီလန်",
+   "away_score": 2,
+   "league": "Serie A",
+   "league_mm": "စီးရီးအေ",
+   "date": "2026-10-25",
+   "title_mm": "⚽ အူဒီနီဆီ ၀-၂ အေစီမီလန် — ပူလီဆစ်ရဲ့ စောစောဂိုးနဲ့ ဖရူလီကွင်းမှာ အနိုင်ရခဲ့တဲ့ မီလန်",
+   "body_mm": "စတာဒီယို ဖရူလီကွင်းမှာ ကစားခဲ့တဲ့ ဒီပွဲမှာ အေစီမီလန်က အစကတည်းက ပွဲကို ကိုင်တွယ်ခဲ့တယ်။ ၆ မိနစ်မှာတင် လူကာ မိုဒရစ်ရဲ့ set piece ကနေ ခရစ္စတီယန် ပူလီဆစ်က ဂိုးဧရိယာအလယ်ကနေ ညာခြေနဲ့ အောက်ညာထောင့်ထဲ ကန်သွင်းပြီး အဖွင့်ဂိုးကို ရခဲ့တယ်။ စောစောဂိုးရပြီးနောက်မှာလည်း မီလန်က ဘောလုံးကို ဆက်ကိုင်ထားနိုင်ပြီး ပထမပိုင်းကို ဦးဆောင်ပြီး ပြီးဆုံးခဲ့တယ်။\n\nဒုတိယပိုင်းမှာ အူဒီနီဆီက ပြန်လာဖို့ လူစားတွေ လဲခဲ့တယ်။ ပထမပိုင်းအပြီးမှာ လီနွန် မီလာကို ထည့်ခဲ့ပြီး ၆၃ မိနစ်နဲ့ ၆၄ မိနစ်မှာလည်း နီကိုလို ဇာနီယိုလို၊ ဟွမ် အရီဇာလာတို့ကို ထည့်ခဲ့တယ်။ ဒါပေမဲ့ အပြောင်းအလဲတွေက ပွဲကို မပြောင်းလဲနိုင်ခဲ့ဘူး။ ၆၅ မိနစ်မှာ အိုမာရီ ဟတ်ချင်ဆန်က ဂိုးနဲ့ အလွန်နီးကပ်တဲ့ နေရာကနေ ညာခြေနဲ့ အပေါ်ညာထောင့်ထဲ ကန်သွင်းပြီး ဒုတိယဂိုးကို သွင်းခဲ့တယ်။ အဲ့ဒီနောက်မှာတော့ ပွဲက လုံးဝ ပြီးသွားခဲ့တယ်။\n\nကိန်းဂဏန်းတွေကလည်း မီလန်ရဲ့ အသာစီးကို ပြတယ်။ ဘောလုံးပိုင်ဆိုင်မှု ၅၉ ဒသမ ၉ ရာခိုင်နှုန်း၊ ကန်ချက် ၁၉ ကြိမ်နဲ့ ၁၂ ကြိမ်၊ ဂိုးပေါက်တည့်တည့် ကန်ချက် ၇ ကြိမ်နဲ့ ၅ ကြိမ်။ အူဒီနီဆီကလည်း ကန်ချက် ၁၂ ကြိမ် ဖန်တီးနိုင်ခဲ့ပေမဲ့ မီလန်ဂိုးသမားရဲ့ ကာကွယ်မှု ၅ ကြိမ်ကိုသာ ကျော်နိုင်ခဲ့ပြီး ဂိုးမရခဲ့ဘူး။ မိုဒရစ်ရဲ့ set piece ဖန်တီးမှုနဲ့ ပူလီဆစ်ရဲ့ အဆုံးသတ်က ဒီပွဲရဲ့ အဓိက ကွာခြားချက်ပဲ။\n\nဒီနိုင်ပွဲနဲ့ မီလန်က ရှုံးပွဲမရှိ စတင်မှုကို ဆက်ထိန်းထားနိုင်ခဲ့ပြီး အမှတ်ပေးဇယား အပေါ်ပိုင်းမှာ ဆက်နေနိုင်ခဲ့တယ်။ အူဒီနီဆီကတော့ အိမ်ကွင်းမှာ ထပ်ရှုံးခဲ့ပြီး ခက်ခဲတဲ့ အစပိုင်းကို ဆက်ဖြတ်သန်းနေရတယ်။ မီလန်အတွက်တော့ ဒါက စောစောဂိုးရ၊ ပွဲကို ထိန်း၊ ဒုတိယဂိုးနဲ့ ပိတ်တဲ့ သပ်ရပ်တဲ့ အဝေးကွင်းနိုင်ပွဲပဲ။"
+  },
+  {
    "id": "2026-10-25-lecce-juventus",
    "home": "Lecce",
    "home_mm": "လက်ချီ",
@@ -467,24 +481,7 @@
    "updated": "2026-10-19T00:30:52+06:30",
    "en_title": "AC Milan 3-2 Atalanta — From a 3-0 cruise to a nerve-shredding San Siro finale",
    "en_body": "At San Siro, AC Milan controlled the first hour completely. Goncalo Ramos opened the scoring from the penalty spot, Adrien Rabiot doubled the lead from Diego Moreira's pass, and Mario Gila headed in a third from Rabiot's flick-on at a corner to make it 3-0. But the real turning point had already come at 2-0, when Marco Carnesecchi saved Ramos's second penalty — a stop that kept Atalanta alive. Substitute Gianluca Gaetano pulled one back from fellow substitute Nicola Zalewski's assist to make it 3-1, and Nikola Krstovic's late strike from Raoul Bellanova's pass made it 3-2, sending San Siro into palpitations. After a stoppage for Mike Maignan's injury, Milan held on for a hard-earned win.\n\nTactically, Rabiot was the game's standout: a yellow card, a goal, and a headed assist. Milan held 56% of possession but managed only 11 shots to Atalanta's 12 — a reminder that controlling the ball and applying pressure are not the same thing. Atalanta's substitutions changed the match: Gaetano and Zalewski combined for a goal within minutes of coming on, and Carnesecchi's penalty save kept them in the contest.\n\nLooking ahead, the three points are precious for Milan, but they come with a warning. Conceding twice from 3-0 up exposed lapses in defensive concentration late on. The attack, though, looks sharp — Ramos and Rabiot in form, and genuine threat from set pieces. For Atalanta, the bench showed it can score, but their slow start proved costly, and Sead Kolasinac's early injury is a worry for the games to come."
-  },
-  {
-   "id": "2026-10-18-nottingham-forest-arsenal",
-   "home": "Nottingham Forest",
-   "away": "Arsenal",
-   "home_mm": "နော်တင်ဟမ်ဖောရက်စ်",
-   "away_mm": "အာဆင်နယ်",
-   "home_score": 0,
-   "away_score": 1,
-   "league": "Premier League",
-   "league_mm": "ပရီးမီးယားလိဂ်",
-   "date": "2026-10-18",
-   "title_mm": "⚽ နော်တင်ဟမ်ဖောရက်စ် ၀-၁ အာဆင်နယ် — လူစားဝင် မဒူကီ ၈၀ မိနစ်အနိုင်ဂိုး",
-   "body_mm": "စီးတီးဂရောင်းမှာ ပထမပိုင်းက တကယ့်ကို သက်ဝင်လှုပ်ရှားမှု နည်းခဲ့တယ်။ နော်တင်ဟမ်ဖောရက်စ်က ဘောလုံးကို ၂၆.၁% သာ ကိုင်ထားခဲ့ပေမဲ့ နက်ရောင့်ခံစစ်နဲ့ အာဆင်နယ်ရဲ့ ရှေ့တန်းကို ပထမပိုင်း ၄၅ မိနစ်လုံး ထိန်းထားနိုင်ခဲ့တယ်။ အာဆင်နယ်က ၇၃.၉% ဘောလုံးကိုင်ထားခဲ့ပေမဲ့ ဂိုးသွင်းနိုင်တဲ့ အခွင့်အရေး တကယ်ဖြစ်ပေါ်မလာခဲ့ဘူး။ ပွဲရဲ့ အလှည့်အပြောင်းက ဒုတိယပိုင်းအစမှာ ရောက်လာတယ်။ နည်းပြက ပထမပိုင်းအပြီး အီဘီရီချီ အီဇီကို ထွက်စေပြီး နိုနီ မဒူကီကို ထည့်သွင်းလိုက်တာ။ အဲ့ဒီ အပြောင်းအလဲက ၈၀ မိနစ်မှာ အလုပ်ဖြစ်ခဲ့တယ်။ ဒီကလန် ရိုက်စ်ရဲ့ ပေးပို့မှုကို မဒူကီက ဂိုးဧရိယာဘယ်ဘက်ခြမ်းကနေ ခြေညာနဲ့ ကန်သွင်းပြီး ဂိုးသမားကို ကျော်ဖြတ် အနိုင်ဂိုးသွင်းခဲ့တာ။ အာဆင်နယ်ရဲ့ တစ်ပွဲလုံး ဂိုးပေါက်တည့်ကန် ၁ ကြိမ်သာ ရှိခဲ့ပြီး အဲ့ဒီ တစ်ကြိမ်တည်းနဲ့ပဲ ၃ မှတ် ရသွားခဲ့တယ်။\n\nနည်းဗျူဟာအရ ကြည့်ရင် ဒီပွဲက ဘောလုံးကိုင်နှုန်း များတာနဲ့ နိုင်တာ တိုက်ရိုက်ဆက်စပ်မှု မရှိတဲ့ ဥပမာပဲ။ ဖောရက်စ်က ကြာရှည်ဘော ၆၄ ကြိမ် ကန်ပြီး ခံစစ်ကို နက်နက်ရှိုင်းရှိုင်း ချထားခဲ့တယ်။ သူတို့က ကန်ချက် ၁၄ ကြိမ် ကြိုးစားခဲ့ပြီး အာဆင်နယ် ၉ ကြိမ်ထက် များခဲ့တယ်။ ဒါပေမဲ့ ဂိုးပေါက်တည့်တဲ့ ကန်ချက် ၂ ကြိမ်သာ ရှိခဲ့တယ်။ ပွဲပြီးခါနီးမှာ ခရစ် ဝုဒ်ရဲ့ ကန်ချက်ကို ပိတ်ဆို့ခံခဲ့ရပြီး မူရီယိုရဲ့ ကန်ချက်ကလည်း ဂိုးတိုင်အနီးကပ်လွဲချော်ခဲ့တယ်။ အာဆင်နယ်ဘက်က ဗစ်တော ယိုခီးရက်စ်ရဲ့ ခေါင်းတိုက်ဘောက လွဲချော်ခဲ့ပြီး မီကယ် မယ်ရီနိုရဲ့ ကန်ချက်ကိုလည်း ပိတ်ဆို့ခံခဲ့ရတယ်။ ဒဏ်ရာတွေကလည်း ပွဲရဲ့ စီးဆင်းမှုကို ဖြတ်တောက်ခဲ့တယ်။ မူရီယို၊ ရှလာဂါ၊ ဂီမာရက်စ်၊ ဂါဘရီယယ်တို့တစ်ယောက်ချင်းစီ ဒဏ်ရာရခဲ့ကြတယ်။\n\nဒီအနိုင်က အာဆင်နယ်အတွက် အရေးကြီးတယ်။ ခက်ခဲတဲ့ အဝေးကွင်းမှာ ခံစစ်နက်တဲ့ အသင်းကို ဖြိုခွဲနိုင်ခဲ့တာ ချန်ပီယံဆုအတွက် ယှဉ်ပြိုင်နေတဲ့ အသင်းရဲ့ လက္ခဏာပဲ။ မဒူကီလို လူစားဝင်ကစားသမားက ပွဲကို ပြောင်းလဲပေးနိုင်တာက အာဆင်နယ်ရဲ့ လူစာရင်းအင်အား နက်ရှိုင်းမှုကို ပြသနေတယ်။ ဖောရက်စ်ကတော့ ရလဒ် မရခဲ့ပေမဲ့ ဒီလို ခံစစ်စနစ်နဲ့ ကြီးမားတဲ့အသင်းတွေကို ခက်ခဲစေနိုင်တယ်ဆိုတာ သက်သေပြခဲ့တယ်။ သူတို့အတွက် လိုအပ်တာက နောက်ဆုံးမိနစ်တွေမှာ ရခဲ့တဲ့ အခွင့်အရေးတွေကို ဂိုးအဖြစ် ပြောင်းလဲနိုင်ဖို့ပဲ။",
-   "updated": "2026-10-18T23:57:01+06:30",
-   "en_title": "Nottingham Forest 0-1 Arsenal — Substitute Madueke strikes in the 80th minute",
-   "en_body": "At the City Ground, the first half was a genuine stalemate. Nottingham Forest held just 26.1% of possession yet kept Arsenal's front line quiet for the entire opening 45 minutes with a deep, disciplined block. Arsenal monopolised the ball at 73.9% but created no genuine cutting edge before the break. The turning point arrived at half-time, when the manager replaced Eberechi Eze with Noni Madueke. That change paid off in the 80th minute: from Declan Rice's pass, Madueke cut in from the left side of the box and drove a right-footed finish past the keeper for the winner. Arsenal managed only one shot on target all match — and it won them all three points.\n\nTactically, this was a reminder that possession dominance guarantees nothing. Forest played 64 long balls and sat in a deep defensive shape, attempting 14 shots to Arsenal's 9, but only 2 were on target. Late on, Chris Wood's effort was blocked and Murillo's strike slid narrowly wide. For Arsenal, Viktor Gyökeres headed wide and Mikel Merino saw a shot blocked. Injuries also disrupted the flow, with Murillo, Schlager, Bruno Guimarães and Gabriel all picking up knocks.\n\nThis win matters for Arsenal. Breaking down a deep block at a difficult away ground is the hallmark of a team competing for the title. That a substitute like Madueke could change the game shows the depth of Arsenal's squad. Forest, despite the defeat, proved they can make life hard for the big clubs with this defensive system — what they need now is to turn those late chances into goals."
   }
  ],
- "updated": "2026-10-25T23:35:00+06:30"
+ "updated": "2026-10-26T04:15:00+06:30"
 }
