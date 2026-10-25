@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T04:25:22+06:30",
+ "updated": "2026-10-25T08:54:06+06:30",
  "summary": {
   "resolved": 33,
   "correct": 16,
@@ -509,6 +509,15 @@
    "away": "Bayern Munich",
    "league": "Bundesliga",
    "pick_en": "Bayern Munich win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Lecce",
+   "away": "Juventus",
+   "league": "Serie A",
+   "pick_en": "Juventus win",
    "score": null,
    "outcome": "pending"
   }
