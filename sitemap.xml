@@ -181,6 +181,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-10-25-liverpool-brighton.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-10-25-manchester-united-bournemouth.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-10-25-inter-fiorentina.html</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -344,18 +356,6 @@
   </url>
   <url>
     <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-10-17-bayern-leipzig.html</loc>
-    <lastmod>2026-10-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-10-17-betis-barcelona.html</loc>
-    <lastmod>2026-10-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-10-17-bologna-inter.html</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
