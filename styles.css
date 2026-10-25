@@ -244,6 +244,7 @@ table.standings { width: 100%; border-collapse: collapse; font-size: 14px; }
 .ad-slot { max-width: 900px; margin: 12px auto; padding: 0 16px; text-align: center; min-height: 90px; }
 
 @media (max-width: 560px) {
+  .highlights-grid { grid-template-columns: 1fr; }
   .brand h1 { font-size: 18px; }
   .tagline { font-size: 12px; }
   .league-chip { font-size: 13px; }
@@ -545,20 +546,26 @@ h1 .theme-btn { padding: 4px 8px; font-size: 16px; vertical-align: middle; margi
 .pred-result.wrong { color: #f87171; }
 
 /* ---------- liquid glass buttons (added 2026-10-25) ---------- */
+body {
+  background:
+    radial-gradient(700px 300px at 15% -50px, rgba(34, 197, 94, 0.20), transparent 60%),
+    radial-gradient(500px 260px at 90% 0%, rgba(251, 191, 36, 0.12), transparent 60%),
+    var(--bg);
+}
 .tab-bar {
-  background: rgba(10, 20, 16, 0.72);
-  background: color-mix(in srgb, var(--bg) 72%, transparent);
-  -webkit-backdrop-filter: blur(16px) saturate(160%);
-  backdrop-filter: blur(16px) saturate(160%);
+  background: rgba(10, 20, 16, 0.62);
+  background: color-mix(in srgb, var(--bg) 62%, transparent);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
 }
 .tab, .league-chip, .sub-tab, .theme-btn, .share-btn, .modal-close,
 .refresh-line button, .error button {
-  -webkit-backdrop-filter: blur(14px) saturate(160%);
-  backdrop-filter: blur(14px) saturate(160%);
-  background: rgba(255, 255, 255, 0.07);
-  background: color-mix(in srgb, var(--card) 55%, transparent);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  backdrop-filter: blur(16px) saturate(180%);
+  background: rgba(255, 255, 255, 0.11);
+  background: color-mix(in srgb, var(--card) 45%, transparent);
   border: 1px solid var(--line);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16), 0 4px 14px rgba(0, 0, 0, 0.22);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.28), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 6px 18px rgba(0, 0, 0, 0.28);
   transition: transform 0.18s ease, background 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 .tab:active, .league-chip:active, .sub-tab:active, .theme-btn:active,
@@ -580,3 +587,5 @@ h1 .theme-btn { padding: 4px 8px; font-size: 16px; vertical-align: middle; margi
   border-color: var(--accent);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 4px 16px rgba(34, 197, 94, 0.25);
 }
+
+.hl-note { color: var(--muted); font-size: 12px; margin: -6px 0 12px; }
