@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 45; // bump on every deploy
+const APP_VERSION = 46; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,6 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "UjDk5QxPVoc", title: "Liverpool vs Brighton 2-0 HIGHLIGHTS - Florian Wirtz & Alexander Isak Goals! - Premier League 2026", channel: "Dollar VFX", date: "Oct 25, 2026" },
+    { id: "RMlIZ8seURg", title: "Bournemouth vs Manchester United 3-0 Highlights Premier League 2026/27", channel: "Footballia", date: "Oct 25, 2026" },
     { id: "mqAA12-3hIA", title: "THURAM AND ZIELIŃSKI COMPLETE AN INCREDIBLE COMEBACK 🤯 | INTER 2-1 FIORENTINA | HIGHLIGHTS 🖤💙", channel: "Inter", date: "Oct 25, 2026" },
     { id: "M4cFytVHg4E", title: "Inter Pull Off Crazy Late Comeback! | INTER-FIORENTINA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 25, 2026" },
     { id: "wghF06oU--M", title: "Highlights Europa League | Bournemouth 3-0 Milan | Serata amara per il Diavolo", channel: "AC Milan", date: "Oct 22, 2026" },
@@ -926,8 +928,6 @@ async function renderHighlights() {
     { id: "_pYxYapNPKM", title: "PSG vs Barcelona | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 21, 2026" },
     { id: "6HOwK8MliqM", title: "CRAZY MATCH!! Napoli vs FK Bodø/Glimt (4-3) FULL HIGHLIGHTS | UEFA Champions League 2026/27", channel: "Halotub", date: "Oct 21, 2026" },
     { id: "SRzLacf10p8", title: "Liverpool vs Villarreal | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 22, 2026" },
-    { id: "eldQMooolQc", title: "Como vs Manchester United | Key Moments | UEFA Champions League 2026", channel: "Sony Sports Network", date: "Oct 22, 2026" },
-    { id: "RMzcmGNA-_g", title: "Stuttgart 1-1 Atlético Madrid | Highlights | UCL 26/27", channel: "On Sports", date: "Oct 21, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
