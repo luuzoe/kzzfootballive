@@ -320,45 +320,45 @@
    },
    {
     "rank": 5,
+    "player": "Florian Thauvin",
+    "team": "လန့်စ်",
+    "goals": 4,
+    "pid": "156898"
+   },
+   {
+    "rank": 6,
     "player": "Kamory Doumbia",
     "team": "ဘရက်စ်",
     "goals": 4,
     "pid": "330412"
    },
    {
-    "rank": 6,
+    "rank": 7,
     "player": "Louis Mafouta",
     "team": "လမန်း",
     "goals": 4,
     "pid": "268720"
    },
    {
-    "rank": 7,
+    "rank": 8,
     "player": "Ferran Torres",
     "team": "ပီအက်စ်ဂျီ",
     "goals": 4,
     "pid": "265869"
    },
    {
-    "rank": 8,
+    "rank": 9,
     "player": "Cameron Archer",
     "team": "အောက်ဆဲ",
     "goals": 4,
     "pid": "293347"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Paris Brunner",
     "team": "မိုနာကို",
     "goals": 4,
     "pid": "365789"
-   },
-   {
-    "rank": 10,
-    "player": "Ludovic Ajorque",
-    "team": "ဘရက်စ်",
-    "goals": 3,
-    "pid": "192015"
    }
   ],
   "ned.1": [
@@ -944,7 +944,7 @@
     "rank": 1,
     "player": "Florian Thauvin",
     "team": "လန့်စ်",
-    "assists": 6,
+    "assists": 7,
     "pid": "156898"
    },
    {
@@ -956,24 +956,24 @@
    },
    {
     "rank": 3,
+    "player": "Lassine Sinayoko",
+    "team": "ပဲရစ်အက်ဖ်စီ",
+    "assists": 4,
+    "pid": "271137"
+   },
+   {
+    "rank": 4,
     "player": "Zachary Athekame",
     "team": "လိုင်ယွန်",
     "assists": 3,
     "pid": "370758"
    },
    {
-    "rank": 4,
+    "rank": 5,
     "player": "Aleksandr Golovin",
     "team": "မိုနာကို",
     "assists": 3,
     "pid": "195501"
-   },
-   {
-    "rank": 5,
-    "player": "Lassine Sinayoko",
-    "team": "ပဲရစ်အက်ဖ်စီ",
-    "assists": 3,
-    "pid": "271137"
    },
    {
     "rank": 6,
