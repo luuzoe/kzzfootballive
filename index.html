@@ -18,13 +18,14 @@
 <meta property="og:image" content="https://luuzoe.github.io/kzzfootballive/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://luuzoe.github.io/kzzfootballive/og-image.png">
+<link rel="icon" href="favicon.ico">
 <link rel="icon" type="image/png" href="icon-192.png">
 <link rel="apple-touch-icon" href="icon-192.png">
 <link rel="manifest" href="manifest.json">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="stylesheet" href="styles.css?v=245">
+<link rel="stylesheet" href="styles.css?v=246">
 <!-- Adcash library -->
 <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
 <!-- Google tag (gtag.js) -->
@@ -64,6 +65,12 @@
   <button class="tab" data-tab="analyses">📝 ပွဲပြီး သုံးသပ်ချက်</button>
   <button class="tab" data-tab="highlights">🎬 ဟိုက်လိုက်</button>
 </nav>
+
+<div class="search-row" style="max-width:900px;margin:10px auto;padding:0 12px">
+  <form onsubmit="event.preventDefault();doSearch(document.getElementById('globalSearch').value)">
+    <input type="search" id="globalSearch" placeholder="🔍 အသင်း ရှာမယ်... (ဥပမာ: Arsenal, ရီးရဲလ်)">
+  </form>
+</div>
 
 <div class="fav-bar" id="favBar">
   <span>⭐ အကြိုက်ဆုံးအသင်း:</span>
@@ -119,7 +126,7 @@
   <p><a href="contact.html">📩 ဆက်သွယ်ရန်</a> • <a href="terms.html">📜 စည်းကမ်းချက်များ</a> • <a href="privacy.html">🔒 ကိုယ်ရေးကိုယ်တာ</a> • <a href="about.html">ℹ️ အကြောင်း</a></p>
 </footer>
 
-<script src="app.js?v=257"></script>
+<script src="app.js?v=258"></script>
 <!-- Adsterra Social Bar -->
 <script data-cfasync="false" src="https://czernik.org/14/d8e7af227e87ad49a97c0a13c34d9068"></script>
 <!-- Adsterra Popunder (Popunder_1) — added 2026-10-23 per Zaw's explicit instruction, reversing his earlier no-popunder decision -->

@@ -1,0 +1,345 @@
+{
+ "updated": "2026-10-25T04:23:06+06:30",
+ "summary": {
+  "resolved": 33,
+  "correct": 16,
+  "wrong": 17,
+  "accuracy_pct": 48.5,
+  "not_found": 2
+ },
+ "results": [
+  {
+   "date": "2026-10-22",
+   "home": "Ferencvaros",
+   "away": "Torreense",
+   "league": "Europa League",
+   "pick_en": "Ferencvaros win",
+   "score": "4-1",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-22",
+   "home": "Dinamo Zagreb",
+   "away": "NEC Nijmegen",
+   "league": "Europa League",
+   "pick_en": "Dinamo Zagreb win",
+   "score": "2-4",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-22",
+   "home": "Sturm Graz",
+   "away": "Marseille",
+   "league": "Europa League",
+   "pick_en": "Marseille win",
+   "score": "1-0",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-22",
+   "home": "OFI Crete",
+   "away": "Bayer Leverkusen",
+   "league": "Europa League",
+   "pick_en": "Bayer Leverkusen win",
+   "score": "0-2",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-22",
+   "home": "Juventus",
+   "away": "Rennes",
+   "league": "Europa League",
+   "pick_en": "Juventus win",
+   "score": "2-2",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-22",
+   "home": "Lech Poznan",
+   "away": "Sunderland",
+   "league": "Europa League",
+   "pick_en": "Sunderland win",
+   "score": "1-1",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-22",
+   "home": "Ararat-Armenia",
+   "away": "AZ Alkmaar",
+   "league": "Europa League",
+   "pick_en": "AZ Alkmaar win",
+   "score": "0-4",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-22",
+   "home": "Bournemouth",
+   "away": "AC Milan",
+   "league": "Europa League",
+   "pick_en": "Bournemouth win",
+   "score": "3-0",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-22",
+   "home": "Besiktas",
+   "away": "Crystal Palace",
+   "league": "Europa League",
+   "pick_en": "Besiktas win",
+   "score": "2-2",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-22",
+   "home": "Celtic",
+   "away": "Celta Vigo",
+   "league": "Europa League",
+   "pick_en": "Celtic win",
+   "score": "1-2",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-22",
+   "home": "Viktoria Plzen",
+   "away": "Levski Sofia",
+   "league": "Europa League",
+   "pick_en": "Draw",
+   "score": "1-2",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-22",
+   "home": "Jagiellonia Bialystok",
+   "away": "Anderlecht",
+   "league": "Europa League",
+   "pick_en": "Draw",
+   "score": "0-3",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-22",
+   "home": "Lillestrom",
+   "away": "Real Sociedad",
+   "league": "Europa League",
+   "pick_en": "Real Sociedad win",
+   "score": "0-6",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-22",
+   "home": "Olympiacos",
+   "away": "Sparta Praha",
+   "league": "Europa League",
+   "pick_en": "Olympiacos win",
+   "score": "1-0",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-22",
+   "home": "Omonia Nicosia",
+   "away": "Benfica",
+   "league": "Europa League",
+   "pick_en": "Benfica win",
+   "score": "1-4",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-22",
+   "home": "Hoffenheim",
+   "away": "Lyon",
+   "league": "Europa League",
+   "pick_en": "Lyon win",
+   "score": "3-0",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-22T23:15:00+06:30",
+   "home": "Union Saint-Gilloise",
+   "away": "Hapoel Be'er Sheva",
+   "league": "Europa League",
+   "pick_en": "Union Saint-Gilloise win",
+   "score": null,
+   "outcome": "not_found"
+  },
+  {
+   "date": "2026-10-23T01:30:00+06:30",
+   "home": "Celje",
+   "away": "Red Bull Salzburg",
+   "league": "Europa League",
+   "pick_en": "Red Bull Salzburg win",
+   "score": null,
+   "outcome": "not_found"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Aston Villa",
+   "away": "Manchester City",
+   "league": "Premier League",
+   "pick_en": "Manchester City win",
+   "score": "2-1",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Rayo Vallecano",
+   "away": "Elche",
+   "league": "La Liga",
+   "pick_en": "Rayo Vallecano win",
+   "score": "0-3",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Cagliari",
+   "away": "Bologna",
+   "league": "Serie A",
+   "pick_en": "Cagliari win",
+   "score": "0-2",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Como",
+   "away": "Sassuolo",
+   "league": "Serie A",
+   "pick_en": "Como win",
+   "score": "2-0",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Augsburg",
+   "away": "Union Berlin",
+   "league": "Bundesliga",
+   "pick_en": "Augsburg win",
+   "score": "1-1",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Cologne",
+   "away": "Schalke 04",
+   "league": "Bundesliga",
+   "pick_en": "Cologne win",
+   "score": "0-0",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Mainz",
+   "away": "Werder Bremen",
+   "league": "Bundesliga",
+   "pick_en": "Both teams to score",
+   "score": "2-3",
+   "outcome": "ungraded"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "RB Leipzig",
+   "away": "Elversberg",
+   "league": "Bundesliga",
+   "pick_en": "RB Leipzig win",
+   "score": "4-0",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Paderborn",
+   "away": "Hamburg",
+   "league": "Bundesliga",
+   "pick_en": "Under 2.5 goals",
+   "score": "1-0",
+   "outcome": "ungraded"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Arsenal",
+   "away": "Everton",
+   "league": "Premier League",
+   "pick_en": "Arsenal win",
+   "score": "2-0",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Coventry City",
+   "away": "Fulham",
+   "league": "Premier League",
+   "pick_en": "Coventry City win",
+   "score": "0-1",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Racing Santander",
+   "away": "Espanyol",
+   "league": "La Liga",
+   "pick_en": "Racing Santander win",
+   "score": "2-1",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Napoli",
+   "away": "AS Roma",
+   "league": "Serie A",
+   "pick_en": "Draw",
+   "score": "3-3",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Chelsea",
+   "away": "Tottenham Hotspur",
+   "league": "Premier League",
+   "pick_en": "Chelsea win",
+   "score": "0-2",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Valencia",
+   "away": "Villarreal",
+   "league": "La Liga",
+   "pick_en": "Draw",
+   "score": "1-2",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Borussia Dortmund",
+   "away": "Eintracht Frankfurt",
+   "league": "Bundesliga",
+   "pick_en": "Borussia Dortmund win",
+   "score": "1-0",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Lazio",
+   "away": "Parma",
+   "league": "Serie A",
+   "pick_en": "Lazio win",
+   "score": "2-1",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Lens",
+   "away": "Paris FC",
+   "league": "Ligue 1",
+   "pick_en": "Lens win",
+   "score": "2-1",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-24",
+   "home": "Atlético Madrid",
+   "away": "Deportivo La Coruña",
+   "league": "La Liga",
+   "pick_en": "Atlético Madrid win",
+   "score": "1-0",
+   "outcome": "correct"
+  }
+ ]
+}

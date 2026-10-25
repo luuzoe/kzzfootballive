@@ -519,3 +519,9 @@ table.standings { width: 100%; border-collapse: collapse; font-size: 14px; }
 .hl-play { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:rgba(0,0,0,0.6); border-radius:50%; width:44px; height:44px; display:flex; align-items:center; justify-content:center; color:#fff; font-size:18px; }
 .hl-title { margin:8px 0 4px; font-size:13px; line-height:1.35; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
 .hl-meta { color:var(--muted); font-size:11px; margin:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
+/* ---------- predictions record ---------- */
+.pred-record { background: #12261a; border: 1px solid #2a5c3a; border-radius: 10px; padding: 12px 14px; margin: 12px 0; font-size: 15px; }
+.pred-result { margin-top: 8px; font-weight: 700; }
+.pred-result.correct { color: #4ade80; }
+.pred-result.wrong { color: #f87171; }

@@ -14,7 +14,7 @@ const LEAGUES = [
   { id: 'uefa.europa',   name: 'Europa League',    mm: 'ယူရိုပါလိဂ်',             icon: '🟠' },
 ];
 
-const APP_VERSION = 25; // bump on every deploy
+const APP_VERSION = 26; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -26,6 +26,7 @@ const TABS = {
 };
 
 let state = { league: 'all', tab: 'live', timer: null, standView: 'table' };
+const EVENT_LEAGUE = {};  // event id -> ESPN league slug (match detail works in 'all' mode)
 let TEAMS_MM = {};                       // ESPN team id -> {en, abbr, mm}
 let SQUADS = {};                           // ESPN team id -> {updated, team, players:[{n,pos,name,nat}]}
 let TEAM_INFO = {};                        // ESPN team id -> {founded, stadium, city, trophies:[{t,c}]}
@@ -285,7 +286,7 @@ async function fetchScoreboard(dates) {
     getJSON(`https://site.api.espn.com/apis/site/v2/sports/soccer/${l.id}/scoreboard` + (dates ? `?dates=${dates}` : '')).catch(() => null)
   ));
   const events = [];
-  results.forEach(r => { if (r && r.events) events.push(...r.events); });
+  results.forEach((r, i) => { if (r && r.events) r.events.forEach(e => { EVENT_LEAGUE[e.id] = LEAGUES[i].id; events.push(e); }); });
   return { events };
 }
 function leagueName() {
@@ -602,7 +603,17 @@ async function renderPredictions() {
   const preds = (data && data.predictions) || [];
   const confLabel = { high: 'ယုံကြည်မှုမြင့်', medium: 'အလယ်အလတ်', low: 'သတိထား' };
   const confClass = { high: 'conf-high', medium: 'conf-med', low: 'conf-low' };
-  let html = `<h2 class="section-title">🔮 ပွဲကြို ခန့်မှန်း သုံးသပ်ချက် — KZZ Football Analysis</h2>`;
+  let recHtml = '';
+  const recMap = {};
+  try {
+    const rec = await getJSON('prediction_results.json');
+    if (rec && rec.summary && rec.summary.resolved) {
+      const s = rec.summary;
+      recHtml = `<div class="pred-record">📊 ခန့်မှန်းမှတ်တမ်း: <b>${s.correct} မှန် / ${s.resolved} ပွဲ (${s.accuracy_pct}%)</b>${s.not_found ? ` • ရှာမတွေ့တာ ${s.not_found} ပွဲ` : ''} — အရင်ခန့်မှန်းချက်တွေကို တကယ့်ရလဒ်နဲ့ တိုက်စစ်ထားတာပါ</div>`;
+      (rec.results || []).forEach(r => { recMap[r.home + '|' + r.away] = r; });
+    }
+  } catch (e) {}
+  let html = `<h2 class="section-title">🔮 ပွဲကြို ခန့်မှန်း သုံးသပ်ချက် — KZZ Football Analysis</h2>${recHtml}`;
   if (data && data.updated) {
     let upd = data.updated;
     try { upd = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(data.updated)); } catch (e) {}
@@ -623,11 +634,15 @@ async function renderPredictions() {
         </div>`;
       }
       const searchText = ((p.home || "") + " " + (p.away || "") + " " + (p.league || "") + " " + (p.reason_mm || "")).toLowerCase();
+      const rec = recMap[(p.home || '') + '|' + (p.away || '')];
+      const recBadge = rec && rec.outcome === 'correct' ? `<div class="pred-result correct">✅ မှန်တယ် (${esc(rec.score || '')})</div>`
+        : rec && rec.outcome === 'wrong' ? `<div class="pred-result wrong">❌ မှားတယ် (${esc(rec.score || '')})</div>` : '';
       return `
       <div class="pred-card" data-search="${esc(searchText)}">
         <div class="pred-match">${esc(p.home)} vs ${esc(p.away)}</div>
         <div class="pred-meta">${esc(p.league || '')} ${p.date ? '• ' + esc(fmtDateTime(p.date)) : ''}</div>
         <div class="pred-pick">👉 ${esc(p.pick || '')} <span class="${confClass[p.confidence] || ''}">(${esc(confLabel[p.confidence] || '')})</span></div>
+        ${recBadge}
         ${probHtml}
         ${p.reason_mm ? `<div class="pred-reason">${esc(p.reason_mm)}</div>` : ''}
         ${socialButtons(p.home + '-' + p.away + '-' + (p.date || ''), p.home + ' vs ' + p.away)}
@@ -1029,14 +1044,31 @@ function mmEvent(k) {
   return `<span class="ev-ic">${typeIcon}</span><span class="ev-txt">${esc(txt)}</span>`;
 }
 
-function openMatchDetail(eventId) {
+async function openMatchDetail(eventId) {
   const bd = $('#modalBackdrop'), box = $('#modalBox');
   box.innerHTML = `<div class="loading">အသေးစိတ်ဆွဲနေသည်…</div>`;
   bd.style.display = 'flex';
   document.body.style.overflow = 'hidden';
-  getJSON(`https://site.api.espn.com/apis/site/v2/sports/soccer/${state.league}/summary?event=${encodeURIComponent(eventId)}`)
-    .then((d) => { box.innerHTML = detailHtml(d); })
-    .catch(() => { box.innerHTML = `<div class="error">အသေးစိတ် ဆွဲမရသေးပါ။<br><button onclick="closeModal()">ပိတ်မယ်</button></div>`; });
+  const tryLeague = async (lg) => {
+    const d = await getJSON(`https://site.api.espn.com/apis/site/v2/sports/soccer/${lg}/summary?event=${encodeURIComponent(eventId)}`);
+    if (d && d.header && d.header.competitions && d.header.competitions.length) return d;
+    throw new Error('no event');
+  };
+  try {
+    const known = EVENT_LEAGUE[eventId] || (state.league !== 'all' ? state.league : null);
+    let d = null;
+    if (known) { try { d = await tryLeague(known); } catch (e) {} }
+    if (!d) {
+      for (const l of LEAGUES) {
+        if (l.id === known) continue;
+        try { d = await tryLeague(l.id); if (d) break; } catch (e) {}
+      }
+    }
+    if (!d) throw new Error('not found');
+    box.innerHTML = detailHtml(d);
+  } catch (e) {
+    box.innerHTML = `<div class="error">အသေးစိတ် ဆွဲမရသေးပါ။<br><button onclick="closeModal()">ပိတ်မယ်</button></div>`;
+  }
 }
 function closeModal() {
   $('#modalBackdrop').style.display = 'none';
@@ -1708,6 +1740,43 @@ async function loadTab(quiet) {
   }
   if (quiet && keepY) window.scrollTo(0, keepY);
 }
+
+/* ---------- global team search ---------- */
+async function fetchMerged(ds) {
+  const results = await Promise.all(LEAGUES.map(l =>
+    getJSON(`https://site.api.espn.com/apis/site/v2/sports/soccer/${l.id}/scoreboard?dates=${ds}`).catch(() => null)
+  ));
+  const events = [];
+  results.forEach((r, i) => { if (r && r.events) r.events.forEach(e => { EVENT_LEAGUE[e.id] = LEAGUES[i].id; events.push(e); }); });
+  return events;
+}
+async function doSearch(q) {
+  q = (q || '').trim();
+  if (q.length < 2) {
+    content.innerHTML = `<h2 class="section-title">🔍 ရှာဖွေမှု</h2><div class="empty">အသင်းအမည် အနည်းဆုံး ၂ လုံး ရိုက်ပါ။</div>`;
+    return;
+  }
+  showLoading('ရှာနေသည်…');
+  const ql = q.toLowerCase();
+  const days = [];
+  for (let i = -4; i <= 7; i++) days.push(yyyymmdd(new Date(Date.now() + i * 86400000)));
+  const boards = await Promise.all(days.map(ds => fetchMerged(ds).catch(() => [])));
+  const seen = new Set(); const matches = [];
+  boards.forEach(evts => evts.forEach(e => {
+    const m = parseMatch(e);
+    if (seen.has(m.id)) return;
+    const hay = (((m.home && (m.home.full + ' ' + m.home.name + ' ' + m.home.abbr)) || '') + ' ' + ((m.away && (m.away.full + ' ' + m.away.name + ' ' + m.away.abbr)) || '') + ' ' + teamMm(m.home) + ' ' + teamMm(m.away)).toLowerCase();
+    if (hay.includes(ql)) { seen.add(m.id); matches.push(m); }
+  }));
+  matches.sort((a, b) => new Date(a.date) - new Date(b.date));
+  if (!matches.length) {
+    content.innerHTML = `<h2 class="section-title">🔍 "${esc(q)}"</h2><div class="empty">ဒီအသင်းရဲ့ ပွဲ မတွေ့ပါ။<br>အင်္ဂလိပ်အမည် (ဥပမာ Arsenal) နဲ့ ထပ်စမ်းကြည့်ပါ။</div>`;
+  } else {
+    content.innerHTML = `<h2 class="section-title">🔍 "${esc(q)}" — ${matches.length} ပွဲ တွေ့တယ်</h2>` + matches.map(matchCard).join('');
+  }
+  stamp();
+}
+window.doSearch = doSearch;
 
 try { const h = (location.hash || '').replace('#', ''); if (['live','fixtures','results','standings','predictions','news','analyses'].includes(h)) state.tab = h; } catch (e) {}
 window.addEventListener('hashchange', () => {
