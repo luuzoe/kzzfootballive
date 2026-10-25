@@ -19,6 +19,24 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-25-ballon-dor-england.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-25-manutd-wsl-turnaround.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-25-clasico-record.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-25-pulis-stability.html</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>daily</changefreq>
@@ -121,24 +139,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-24-fulham-coventry-bobb.html</loc>
-    <lastmod>2026-10-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-24-villa-city-jackson.html</loc>
-    <lastmod>2026-10-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-24-spurs-arsenal-wsl-result.html</loc>
-    <lastmod>2026-10-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/predictions/2026-10-25-bundesliga.html</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>daily</changefreq>
@@ -164,6 +164,18 @@
   </url>
   <url>
     <loc>https://luuzoe.github.io/kzzfootballive/predictions/2026-10-25-serie-a.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/predictions/2026-10-26-la-liga.html</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/predictions/2026-10-26-serie-a.html</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

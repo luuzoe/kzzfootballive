@@ -265,6 +265,48 @@
    "prob_draw": 25,
    "prob_home": 27,
    "reason_mm": "ဘိုင်ယန်က အဆင့် ၁ မှာ ၁၄မှတ်နဲ့ ဦးဆောင်နေပြီး လိဂ် တစ်ပွဲမှ မရှုံးသေးဘူး။\nဒါပေမယ့် အဝေးကွင်း ၃ပွဲမှာ ၁ပွဲသာ နိုင်ထားပြီး ၂ပွဲ သရေကျထားတယ်။\nဖရိုင်းဘတ်က အဆင့် ၃ မှာ ၁၃မှတ်နဲ့ ရှိနေပြီး အိမ်ကွင်း ၃ပွဲလုံး နိုင်ထားတယ်၊ ဂိုးသိပ်မပေးရဘူး။\nဘိုင်ယန်က ဒီယာ့ဇ်၊ ကင်မ်၊ ကင်မစ်ချ်၊ မူစီယာလာ၊ နူအာတို့ လွဲချော်မယ်၊ ဒါပေမယ့် ကိန်း ဦးဆောင်တဲ့ တိုက်စစ်က အသာစီးရစေမယ်။"
+  },
+  {
+   "away": "Juventus",
+   "confidence": "medium",
+   "date": "2026-10-25T23:30:00+06:30",
+   "en_reason": "Juventus are unbeaten in their last 12 meetings with Lecce, and unbeaten in six successive Serie A visits to the Via del Mare (four wins, two draws).\nLecce beat Udinese 3-0 last time out, but all three of their centre-forwards (Geubbels, Stulic, Esteban) are yet to score a league goal this season, and Coulibaly and Pierotti are injured.\nJuventus are hit hard too: Yildiz, Locatelli, Thuram, Conceicao, Celik and Nico Gonzalez are all out, and they are fatigued after Thursday's European game, having lost 3-0 at home to Lazio.\nEven so, Lecce have not scored more than one goal against Juventus in any of those last 12 meetings, so the visitors' quality tips this their way.",
+   "home": "Lecce",
+   "league": "Serie A",
+   "pick": "ဂျူဗင်တပ်စ် နိုင်မယ်",
+   "pick_en": "Juventus win",
+   "prob_away": 52,
+   "prob_draw": 27,
+   "prob_home": 21,
+   "reason_mm": "ဂျူဗင်တပ်စ်က လက်ချီနဲ့ နောက်ဆုံး ၁၂ ကြိမ်တွေ့ဆုံမှုမှာ တစ်ကြိမ်မှ မရှုံးသေးဘဲ ဗီယာဒယ်မာရီကွင်းမှာ နောက်ဆုံး ၆ ကြိမ် လာကစားရာမှာလည်း ၄ နိုင် ၂ သရေ ရထားတယ်။\nလက်ချီက ဥဒီနီဆီကို ၃-၀ နဲ့ နိုင်ထားပေမယ့် တိုက်စစ်မှူး သုံးယောက်လုံး (ဂူးဘဲလ်၊ စတူးလစ်၊ အက်စ်တီဘန်) လိဂ်မှာ တစ်ဂိုးမှ မသွင်းရသေးဘူး၊ ကူလီဘာလီနဲ့ ပီရော့တီတို့လည်း ဒဏ်ရာရနေတယ်။\nဂျူဗင်တပ်စ်ကလည်း ယီလ်ဒစ်ဇ်၊ လိုကာတယ်လီ၊ သူရမ်၊ ကွန်ဆေဆာအို၊ ဆယ်လစ်ခ်၊ နီကိုဂွန်ဇာလက်ဇ်တို့ ဒဏ်ရာရနေပြီး ကြာသပတေးနေ့ ဥရောပပွဲအပြီး ပင်ပန်းနေတယ်၊ လာဇီယိုကို ၀-၃ နဲ့ ရှုံးထားတယ်။\nဒါပေမယ့် လက်ချီက ဂျူဗင်တပ်စ်နဲ့ နောက်ဆုံး ၁၂ ကြိမ်မှာ တစ်ပွဲကို တစ်ဂိုးထက် ပိုမသွင်းနိုင်ခဲ့ဘူး၊ အရည်အချင်းကွာခြားချက်ကြောင့် ဧည့်သည်အသင်းကို ရွေးတယ်။"
+  },
+  {
+   "away": "AC Milan",
+   "confidence": "medium",
+   "date": "2026-10-26T02:15:00+06:30",
+   "en_reason": "Udinese are 16th on four points and have lost five straight league games, losing 3-0 to Lecce, 2-1 at Torino and 1-0 to Cagliari.\nThey have conceded 16 goals in seven games, the second-worst defence in Serie A, and failed to score in their last two home games.\nMilan are fourth on 15 points, unbeaten in the league with four wins and three draws, and beat Atalanta 3-2 in their last league game.\nMilan lost 3-0 at Bournemouth in the Europa League on Thursday and miss Saelemaekers, Gabbia, Chukwueze, Gila, Rabiot and Moreira, and have drawn three of four away league games, but they have won four of the last five meetings with Udinese.",
+   "home": "Udinese",
+   "league": "Serie A",
+   "pick": "အေစီမီလန် နိုင်မယ်",
+   "pick_en": "AC Milan win",
+   "prob_away": 48,
+   "prob_draw": 26,
+   "prob_home": 26,
+   "reason_mm": "ဥဒီနီဆီက အဆင့် ၁၆ မှာ ၄ မှတ်နဲ့ ရှိနေပြီး ၅ ပွဲဆက် ရှုံးထားတယ်၊ လက်ချီကို ၀-၃၊ တိုရီနိုကို ၁-၂၊ ကာဂလီယာရီကို ၀-၁ နဲ့ ရှုံးထားတယ်။\nဥဒီနီဆီက ၇ ပွဲမှာ ၁၆ ဂိုးပေးထားရပြီး လိဂ်ရဲ့ ဒုတိယအဆိုးဆုံး ခံစစ်ဖြစ်နေတယ်၊ အိမ်ကွင်း နောက်ဆုံး ၂ ပွဲမှာလည်း ဂိုးမသွင်းနိုင်ခဲ့ဘူး။\nမီလန်က လိဂ်မှာ ၄ နိုင် ၃ သရေနဲ့ တစ်ပွဲမှ မရှုံးသေးဘဲ အဆင့် ၄ မှာ ၁၅ မှတ်ရထားတယ်၊ အတ္တလန္တာကို ၃-၂ နဲ့ နိုင်ထားတယ်။\nမီလန်က ဘုန်းမောက်ကို ယူရိုပါလိဂ်မှာ ၀-၃ နဲ့ ရှုံးပြီး ဆယ်လီမေကာ၊ ဂါဘီယာ၊ ချူကဝူဇီ၊ ဂီလာ၊ ရာဘီယို၊ မိုရေးရားတို့ လွဲချော်မယ်၊ အဝေးကွင်း လိဂ် ၄ ပွဲမှာ ၁ နိုင် ၃ သရေသာ ရထားပေမယ့် နောက်ဆုံး ၅ ကြိမ်မှာ ၄ ကြိမ် နိုင်ထားတဲ့ ထိပ်တိုက်မှတ်တမ်းက မီလန်ဘက်မှာ ရှိတယ်။"
+  },
+  {
+   "away": "Real Madrid",
+   "confidence": "medium",
+   "date": "2026-10-26T02:30:00+06:30",
+   "en_reason": "Barcelona have won all nine league games, lead La Liga on 27 points, and have scored 39 goals.\nReal Madrid are third on 21 points, six behind, with Vinicius suspended and Rodrygo, Asencio and Mendy all injured.\nBarcelona also have defensive injuries, with Olmo, Christensen and Garcia out and Kounde a doubt, but Lamine Yamal has 10 goals and 10 assists in 12 appearances in all competitions.\nBarcelona have won four of the last five Clasicos and have home advantage at Camp Nou, so they are the lean, although Mbappe's nine goals in nine league games means Madrid can still hurt them.",
+   "home": "Barcelona",
+   "league": "La Liga",
+   "pick": "ဘာစီလိုနာ နိုင်မယ်",
+   "pick_en": "Barcelona win",
+   "prob_away": 25,
+   "prob_draw": 27,
+   "prob_home": 48,
+   "reason_mm": "ဘာစီလိုနာက လိဂ် ၉ ပွဲလုံး နိုင်ထားပြီး အဆင့် ၁ မှာ ၂၇ မှတ်နဲ့ ဦးဆောင်နေတယ်၊ ၃၉ ဂိုးသွင်းထားတယ်။\nရီးရဲလ်မက်ဒရစ်က အဆင့် ၃ မှာ ၂၁ မှတ်နဲ့ ၆ မှတ် နောက်ကျနေပြီး ဗီနီစီးယပ်စ် ပွဲပယ်ခံရသလို ရိုဒရီဂို၊ အဆန်စီယို၊ မန်ဒီတို့လည်း ဒဏ်ရာရနေတယ်။\nဘာစီလိုနာကလည်း အိုလ်မို၊ ခရစ္စတန်ဆန်၊ ဂါစီယာတို့ ဒဏ်ရာရနေပြီး ကွန်ဒေ ပါဝင်နိုင်မလား မသေချာဘူး၊ ဒါပေမယ့် ယာမယ်လ်က ၁၂ ပွဲမှာ ဂိုး ၁၀ ဂိုး၊ ဂိုးဖန်တီးမှု ၁၀ ကြိမ် လုပ်ထားတယ်။\nနောက်ဆုံး ၅ ကြိမ်တွေ့ဆုံမှုမှာ ဘာစီလိုနာက ၄ ကြိမ် နိုင်ထားပြီး ကမ့်နိုးမှာ အိမ်ကွင်းအားသာချက်ရှိလို့ ဘာစီလိုနာကို ရွေးတယ်၊ အမ်ဘာပေက လိဂ် ၉ ပွဲမှာ ၉ ဂိုးသွင်းထားလို့ ဂိုးတော့ ပေးရနိုင်တယ်။"
   }
  ],
  "source": "KZZ Football Analysis",
