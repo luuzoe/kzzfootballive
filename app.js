@@ -14,7 +14,7 @@ const LEAGUES = [
   { id: 'uefa.europa',   name: 'Europa League',    mm: 'ယူရိုပါလိဂ်',             icon: '🟠' },
 ];
 
-const APP_VERSION = 29; // bump on every deploy
+const APP_VERSION = 30; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -468,12 +468,12 @@ async function renderStandings() {
     allData.forEach(({ league, entries }) => {
       if (!entries.length) return;
       html += `<h3 style="margin:20px 0 8px;">${league.icon} ${esc(league.name)}</h3><table style="width:100%;border-collapse:collapse;">`;
-      html += `<tr style="background:#f0f0f0;"><th style="padding:6px;text-align:left;">#</th><th style="padding:6px;text-align:left;">အသင်း</th><th style="padding:6px;">ပွဲ</th><th style="padding:6px;">နိုင်</th><th style="padding:6px;">သရေ</th><th style="padding:6px;">ရှုံး</th><th style="padding:6px;">ရမှတ်</th></tr>`;
+      html += `<tr style="background:var(--card2);"><th style="padding:6px;text-align:left;">#</th><th style="padding:6px;text-align:left;">အသင်း</th><th style="padding:6px;">ပွဲ</th><th style="padding:6px;">နိုင်</th><th style="padding:6px;">သရေ</th><th style="padding:6px;">ရှုံး</th><th style="padding:6px;">ရမှတ်</th></tr>`;
       const stat = (en, n) => { const s = (en.stats || []).find(x => x.name === n); return s ? s.displayValue : '–'; };
       entries.slice(0, 5).forEach(en => {
         const tm = en.team || {};
         const mm = tm.id && TEAMS_MM[tm.id] && TEAMS_MM[tm.id].en ? esc(TEAMS_MM[tm.id].en) : esc(tm.shortDisplayName || tm.displayName || '');
-        html += `<tr style="border-bottom:1px solid #eee;"><td style="padding:6px;">${esc(stat(en,'rank'))}</td><td style="padding:6px;">${mm}</td><td style="padding:6px;text-align:center;">${esc(stat(en,'gamesPlayed'))}</td><td style="padding:6px;text-align:center;">${esc(stat(en,'wins'))}</td><td style="padding:6px;text-align:center;">${esc(stat(en,'ties'))}</td><td style="padding:6px;text-align:center;">${esc(stat(en,'losses'))}</td><td style="padding:6px;text-align:center;font-weight:bold;">${esc(stat(en,'points'))}</td></tr>`;
+        html += `<tr style="border-bottom:1px solid var(--line);"><td style="padding:6px;">${esc(stat(en,'rank'))}</td><td style="padding:6px;">${mm}</td><td style="padding:6px;text-align:center;">${esc(stat(en,'gamesPlayed'))}</td><td style="padding:6px;text-align:center;">${esc(stat(en,'wins'))}</td><td style="padding:6px;text-align:center;">${esc(stat(en,'ties'))}</td><td style="padding:6px;text-align:center;">${esc(stat(en,'losses'))}</td><td style="padding:6px;text-align:center;font-weight:bold;">${esc(stat(en,'points'))}</td></tr>`;
       });
       html += `</table>`;
     });
