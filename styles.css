@@ -333,7 +333,7 @@ table.standings { width: 100%; border-collapse: collapse; font-size: 14px; }
 
 /* ---------- lineups: two columns ---------- */
 .lu-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-@media (max-width: 520px) { .lu-cols { grid-template-columns: 1fr; } }
+@media (max-width: 520px) { .lu-cols { grid-template-columns: 1fr 1fr; gap: 8px; } .lu-row { font-size: 0.78rem; gap: 6px; padding: 3px 1px; } .lu-title { font-size: 0.82rem; } }
 
 /* ---------- head-to-head ---------- */
 .h2h-summary { text-align: center; font-weight: 700; font-size: 0.95rem; margin-bottom: 10px; color: #ffd76a; }

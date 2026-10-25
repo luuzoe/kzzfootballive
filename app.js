@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 44; // bump on every deploy
+const APP_VERSION = 45; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -1226,26 +1226,34 @@ function detailHtml(d) {
   });
   if (!statsHtml) statsHtml = '<div class="empty">စာရင်းအင်း မရှိသေးပါ။</div>';
 
-  // lineups
+  // lineups — always home side first, away side second (never one side only)
   const rosters = d.rosters || [];
-  const lineupHtml = rosters.map((r) => {
+  const homeId = hm && hm.team ? String(hm.team.id) : '';
+  const awayId = aw && aw.team ? String(aw.team.id) : '';
+  const homeR = rosters.find((r) => String((r.team || {}).id) === homeId);
+  const awayR = rosters.find((r) => String((r.team || {}).id) === awayId);
+  const otherR = rosters.filter((r) => r !== homeR && r !== awayR);
+  const ordered = [homeR, awayR].concat(otherR);
+  const pRow = (p) => {
+    const a = p.athlete || {};
+    const pos = p.position ? ` <span class="pos">${esc(p.position.abbreviation || '')}</span>` : '';
+    const pid = a.id || '';
+    const nm = esc(a.displayName || a.shortName || '');
+    const nmHtml = pid ? `<button class="player-link" onclick="event.stopPropagation();openPlayerDetail('${esc(pid)}')">${nm}</button>` : `<span>${nm}</span>`;
+    return `<div class="lu-row"><span class="lu-j">${esc(p.jersey != null ? p.jersey : '')}</span>${nmHtml}${pos}</div>`;
+  };
+  const teamBlock = (r, sideLabel, fallbackName) => {
+    if (!r) return `<div class="lu-team"><div class="lu-title">${sideLabel} ${esc(fallbackName)}</div><div class="empty">လူစာရင်း မထွက်သေးပါ။</div></div>`;
     const t = r.team || {};
     const rec = t.id && TEAMS_MM[t.id];
     const tnm = rec && rec.mm ? rec.mm : (t.shortDisplayName || t.displayName || '');
     const starters = (r.roster || []).filter((p) => p.starter);
     const subs = (r.roster || []).filter((p) => !p.starter);
-    const pRow = (p) => {
-      const a = p.athlete || {};
-      const pos = p.position ? ` <span class="pos">${esc(p.position.abbreviation || '')}</span>` : '';
-      const pid = a.id || '';
-      const nm = esc(a.displayName || a.shortName || '');
-      const nmHtml = pid ? `<button class="player-link" onclick="event.stopPropagation();openPlayerDetail('${esc(pid)}')">${nm}</button>` : `<span>${nm}</span>`;
-      return `<div class="lu-row"><span class="lu-j">${esc(p.jersey != null ? p.jersey : '')}</span>${nmHtml}${pos}</div>`;
-    };
-    return `<div class="lu-team"><div class="lu-title">${esc(tnm)}${r.formation ? ` <span class="form">(${esc(r.formation)})</span>` : ''}</div>
+    return `<div class="lu-team"><div class="lu-title">${sideLabel} ${esc(tnm)}${r.formation ? ` <span class="form">(${esc(r.formation)})</span>` : ''}</div>
       <div class="lu-sec">ပွဲထွက်လူစာရင်း</div>${starters.map(pRow).join('') || '<div class="empty">—</div>'}
       ${subs.length ? `<div class="lu-sec">အရံခုံ</div>${subs.map(pRow).join('')}` : ''}</div>`;
-  }).join('');
+  };
+  const lineupHtml = ordered.map((r, i) => teamBlock(r, i === 0 ? '🏠' : (i === 1 ? '✈️' : ''), i === 0 ? nm(hm) : (i === 1 ? nm(aw) : ''))).join('');
   const lineups = lineupHtml ? `<div class="lu-cols">${lineupHtml}</div>` : '<div class="empty">လူစာရင်း မရှိသေးပါ။</div>';
 
   // head-to-head from lastFiveGames
