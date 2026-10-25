@@ -875,7 +875,7 @@ async function renderHighlights() {
     { id: "yCyiGPu7ryU", title: "Chelsea 0-2 Tottenham | Premier League Match Highlights", channel: "VANTA", date: "Oct 24, 2026" },
     { id: "erUcubqphYM", title: "WOLTEMADE: GOAL & ASSIST! 💥 | JUVENTUS 2-2 RENNAIS | HIGHLIGHTS EUROPA LEAGUE", channel: "Juventus", date: "Oct 22, 2026" },
     { id: "NQqiEsVALss", title: "Jackson BRACE gives City first loss! 🟣 | Aston Villa 2-1 Manchester City | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
-    { id: "5B-ZfFEEYQE", title: "Napoli vs AS Roma 3-3 - All Goals & Extended Highlights - 2026 HD", channel: "jensm888", date: "Oct 24, 2026" },
+    { id: "pbdVNLFnrmg", title: "NAPOLI 3-3 ROMA | SERIE A HIGHLIGHTS 2026-27", channel: "AS Roma", date: "Oct 24, 2026" },
     { id: "vMNzBOLU9ns", title: "Joker Scores Winner! | BORUSSIA DORTMUND - EINTRACHT FRANKFURT | Highlights | Matchday 7 Bundesliga", channel: "Bundesliga", date: "Oct 24, 2026" },
     { id: "iYUD6EaBkcA", title: "Konsa and Gabriel send Gunners level at the top! | Arsenal 2-0 Everton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
     { id: "MxbQoZzqhMc", title: "Arsenal vs Everton Highlights 2-0 Premier League 2026/27", channel: "Footballia", date: "Oct 24, 2026" },
