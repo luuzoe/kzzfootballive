@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "5_VzTMIAGhk", title: "Bournemouth pile more misery on Carrick 🔥 | Man United 0-3 Bournemouth | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 25, 2026" },
     { id: "saJbrr4PHrA", title: "Liverpool vs Brighton 2-0 Highlights Premier League 2026/27 ISAK & WIRTZ Goals ⚽⚽", channel: "Footballia", date: "Oct 25, 2026" },
     { id: "msCTTUGLvjc", title: "Manchester United vs Bournemouth (0-3) HIGHLIGHTS | Rayan, Tavernier & Evanilson goal", channel: "SPORTS 4 REAL", date: "Oct 25, 2026" },
     { id: "UjDk5QxPVoc", title: "Liverpool vs Brighton 2-0 HIGHLIGHTS - Florian Wirtz & Alexander Isak Goals! - Premier League 2026", channel: "Dollar VFX", date: "Oct 25, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
     { id: "DceKecuCkKM", title: "Jackson Brace Shocks City 🔥 | Aston Villa 2-1 Manchester City | Premier League Highlights", channel: "Aston Villa Football Club", date: "Oct 24, 2026" },
     { id: "_LpzkLDdR6U", title: "HIGHLIGHTS | PSG 4 vs 2 FC BARCELONA | UEFA CHAMPIONS LEAGUE 26/27 🔵🔴", channel: "FC Barcelona", date: "Oct 21, 2026" },
     { id: "OgjmpRb_VOw", title: "Two penalties and STUNNING Adli free-kick to dominate AC Milan | AFC Bournemouth 3-0 AC Milan", channel: "AFC Bournemouth", date: "Oct 23, 2026" },
-    { id: "_pYxYapNPKM", title: "PSG vs Barcelona | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 21, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
