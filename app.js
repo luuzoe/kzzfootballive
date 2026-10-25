@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 50; // bump on every deploy
+const APP_VERSION = 51; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "DceKecuCkKM", title: "Jackson Brace Shocks City 🔥 | Aston Villa 2-1 Manchester City | Premier League Highlights", channel: "Aston Villa Football Club", date: "Oct 24, 2026" },
     { id: "VzRr1zWFl8U", title: "FC BARCELONA 1 - 2 REAL MADRID | HIGHLIGHTS LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 25, 2026" },
     { id: "TovUeAQkaFc", title: "Pulisic and Hutchinson Shine in Udine | UDINESE-MILAN | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 25, 2026" },
     { id: "YQ7q4mq6jow", title: "EL CLASICO 🔥 Barcelona vs. Real Madrid | LALIGA Highlights | ESPN FC", channel: "ESPN FC", date: "Oct 25, 2026" },
@@ -923,7 +924,6 @@ async function renderHighlights() {
     { id: "7siqpHSvBpA", title: "2–0 win at OFI Crete | Highlights | Hofmann's brace secures 3rd win in Europa League", channel: "Bayer 04 Leverkusen", date: "Oct 22, 2026" },
     { id: "_fn3LWD4KSU", title: "SIX-GOAL Blockbuster in Naples! | NAPOLI-ROMA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 24, 2026" },
     { id: "3Hma8i1EtO4", title: "Chelsea 0-2 Tottenham Hotspur | Premier League Highlights 2026/27", channel: "Stadium Astro", date: "Oct 24, 2026" },
-    { id: "erUcubqphYM", title: "WOLTEMADE: GOAL & ASSIST! 💥 | JUVENTUS 2-2 RENNAIS | HIGHLIGHTS EUROPA LEAGUE", channel: "Juventus", date: "Oct 22, 2026" },
     { id: "NQqiEsVALss", title: "Jackson BRACE gives City first loss! 🟣 | Aston Villa 2-1 Manchester City | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
     { id: "pbdVNLFnrmg", title: "NAPOLI 3-3 ROMA | SERIE A HIGHLIGHTS 2026-27", channel: "AS Roma", date: "Oct 24, 2026" },
     { id: "vMNzBOLU9ns", title: "Joker Scores Winner! | BORUSSIA DORTMUND - EINTRACHT FRANKFURT | Highlights | Matchday 7 Bundesliga", channel: "Bundesliga", date: "Oct 24, 2026" },
