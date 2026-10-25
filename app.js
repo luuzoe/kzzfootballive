@@ -14,7 +14,7 @@ const LEAGUES = [
   { id: 'uefa.europa',   name: 'Europa League',    mm: 'ယူရိုပါလိဂ်',             icon: '🟠' },
 ];
 
-const APP_VERSION = 30; // bump on every deploy
+const APP_VERSION = 31; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -866,9 +866,9 @@ async function renderScorersTab() {
     const players = leagues[key] || [];
     if (!players.length) continue;
     html += `<h3 style="margin:20px 0 10px;">${name}</h3><table style="width:100%;border-collapse:collapse;">`;
-    html += `<tr style="background:#f0f0f0;"><th style="padding:8px;text-align:left;">#</th><th style="padding:8px;text-align:left;">ကစားသမား</th><th style="padding:8px;text-align:left;">အသင်း</th><th style="padding:8px;text-align:right;">ဂိုး</th></tr>`;
+    html += `<tr style="background:var(--card2);"><th style="padding:8px;text-align:left;">#</th><th style="padding:8px;text-align:left;">ကစားသမား</th><th style="padding:8px;text-align:left;">အသင်း</th><th style="padding:8px;text-align:right;">ဂိုး</th></tr>`;
     players.slice(0, 10).forEach(p => {
-      html += `<tr style="border-bottom:1px solid #eee;"><td style="padding:8px;">${p.rank}</td><td style="padding:8px;">${esc(p.player)}</td><td style="padding:8px;">${esc(p.team)}</td><td style="padding:8px;text-align:right;font-weight:bold;">${p.goals}</td></tr>`;
+      html += `<tr style="border-bottom:1px solid var(--line);"><td style="padding:8px;">${p.rank}</td><td style="padding:8px;">${esc(p.player)}</td><td style="padding:8px;">${esc(p.team)}</td><td style="padding:8px;text-align:right;font-weight:bold;">${p.goals}</td></tr>`;
     });
     html += `</table>`;
   }
