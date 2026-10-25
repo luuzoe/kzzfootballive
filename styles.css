@@ -244,9 +244,25 @@ table.standings { width: 100%; border-collapse: collapse; font-size: 14px; }
 .ad-slot { max-width: 900px; margin: 12px auto; padding: 0 16px; text-align: center; min-height: 90px; }
 
 @media (max-width: 560px) {
-  .brand h1 { font-size: 20px; }
-  .team { font-size: 14px; }
-  .match-score { font-size: 20px; padding: 5px 10px; }
+  .brand h1 { font-size: 18px; }
+  .tagline { font-size: 12px; }
+  .league-chip { font-size: 13px; }
+  .tab { font-size: 13px; padding: 8px 10px; }
+  .section-title { font-size: 16px; }
+  .loading, .empty, .error { font-size: 14px; }
+  .team { font-size: 13px; }
+  .match-score { font-size: 18px; padding: 5px 10px; }
+  .goal-row { font-size: 13px; }
+  .date-group { font-size: 14px; }
+  table.standings { font-size: 13px; }
+  .pred-match { font-size: 15px; }
+  .pred-pick { font-size: 14px; }
+  .pred-reason { font-size: 13px; }
+  .news-title { font-size: 0.92rem; }
+  .news-text { font-size: 0.82rem; }
+  .analysis-title { font-size: 0.92rem; }
+  .analysis-text { font-size: 0.85rem; }
+  .doc { font-size: 14px; }
 }
 
 /* ---------- Burmese team names ---------- */
