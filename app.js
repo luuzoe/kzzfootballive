@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 42; // bump on every deploy
+const APP_VERSION = 43; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -640,7 +640,6 @@ async function renderPredictions() {
     let upd = data.updated;
     try { upd = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(data.updated)); } catch (e) {}
     html += `<div class="refresh-line">နောက်ဆုံးခန့်မှန်းချက်: ${esc(upd)}</div>`;
-  html += `<input type="search" id="pred-search" placeholder="🔍 ခန့်မှန်းချက် ရှာပါ..." oninput="filterPreds()" style="width:100%;padding:10px;margin:10px 0;border:1px solid #ddd;border-radius:8px;font-size:15px;">`;
   }
   if (!shown.length) {
     html += `<div class="empty">${preds.length ? 'ရွေးထားတဲ့ လိဂ်အတွက် ခန့်မှန်းချက် မရှိသေးပါ။' : 'ခန့်မှန်းချက်တွေ မကြာမီ လာမယ်။<br>KZZ Facebook page မှာ တင်ထားတဲ့ ပွဲကြိုခန့်မှန်းချက်တွေ ဒီမှာ ပေါ်လာမယ်။'}</div>`;
@@ -809,7 +808,6 @@ async function renderNews() {
   const items = (data && data.news) || [];
   const shown = state.league === 'all' ? items : items.filter((n) => { const ls = leaguesOfText((n.title || '') + ' ' + (n.body || '') + ' ' + (n.title_mm || '') + ' ' + (n.body_mm || '')); return ls.size === 0 || ls.has(state.league); });
   let html = `<h2 class="section-title">📰 ဘောလုံးသတင်းများ (${leagueName()})</h2>
-  <div class="search-row"><input type="text" id="news-search" placeholder="🔍 သတင်း ရှာမယ်..." oninput="filterNews(this.value)"></div>`;
   if (data && data.updated) {
     let upd = data.updated;
     try { upd = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(data.updated)); } catch (e) {}
@@ -993,7 +991,6 @@ async function renderAnalyses() {
     try { upd = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(data.updated)); } catch (e) {}
     html += `<div class="refresh-line">နောက်ဆုံးအပ်ဒိတ်: ${esc(upd)}</div>`;
   }
-  html += `<input type="search" id="analysis-search" placeholder="🔍 သုံးသပ်ချက် ရှာပါ..." oninput="filterAnalyses()" style="width:100%;padding:10px;margin:10px 0;border:1px solid #ddd;border-radius:8px;font-size:15px;">`;
   if (!shown.length) {
     html += `<div class="empty">${items.length ? 'ရွေးထားတဲ့ လိဂ်အတွက် သုံးသပ်ချက် မရှိသေးပါ။' : 'သုံးသပ်ချက်တွေ မကြာမီ လာမယ်။'}</div>`;
   } else {
