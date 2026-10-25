@@ -880,6 +880,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ <span style="font-size:13px;font-weight:400;opacity:.75">(ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ)</span></h2>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "SbGF1xglHh4", title: "HIGHLIGHTS | Real Madrid 4-1 RB Leipzig | Champions League", channel: "Real Madrid", date: "Oct 21, 2026" },
     { id: "dLMRZScxQb0", title: "Doppio McTominay-BALERDI nel match più bello: Napoli-Roma 3-3 | Serie A Enilive | DAZN Highlights", channel: "DAZN Italia", date: "Oct 24, 2026" },
     { id: "YD9G7iuZGjw", title: "Tel scores a BEAUTY at the Bridge! | Chelsea 0-2 Spurs | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 24, 2026" },
     { id: "NkqLjSFaKPQ", title: "HIGHLIGHTS | Aston Villa 2-1 Man City | The Blues left frustrated at Villa Park", channel: "Man City", date: "Oct 24, 2026" },
@@ -904,7 +905,6 @@ async function renderHighlights() {
     { id: "SRzLacf10p8", title: "Liverpool vs Villarreal | Key Moments | UEFA Champions League 2026", channel: "Sony LIV", date: "Oct 22, 2026" },
     { id: "eldQMooolQc", title: "Como vs Manchester United | Key Moments | UEFA Champions League 2026", channel: "Sony Sports Network", date: "Oct 22, 2026" },
     { id: "RMzcmGNA-_g", title: "Stuttgart 1-1 Atlético Madrid | Highlights | UCL 26/27", channel: "On Sports", date: "Oct 21, 2026" },
-    { id: "r92uvxmxKqs", title: "Spurs 3-1 Coventry City | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 20, 2026" },
     { id: "LaJkUmgUpb0", title: "VfB Stuttgart 1-1 Atlético de Madrid | Julián Alvarez | HIGHLIGHTS, UCL - MD3", channel: "Atlético de Madrid", date: "Oct 20, 2026" },
     { id: "jM_bVGPowhA", title: "Thrilling draw in a top-class clash | FC Bayern vs Arsenal FC | Champions League Highlights", channel: "FC Bayern München", date: "Oct 21, 2026" },
     { id: "RKdtcQYFBxE", title: "HIGHLIGHTS | Man City 5-1 AEK Athens | Foden hat-trick and Cherki magic in Champions League rout!", channel: "Man City", date: "Oct 21, 2026" },
