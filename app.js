@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 48; // bump on every deploy
+const APP_VERSION = 49; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -905,7 +905,7 @@ async function renderHighlights() {
     { id: "tkfO80xxSYU", title: "Matchwinner Gets RED CARD! | HOFFENHEIM - BAYER 04 LEVERKUSEN | Highlights | Matchday 7 – Bundesliga", channel: "Bundesliga", date: "Oct 25, 2026" },
     { id: "5_VzTMIAGhk", title: "Bournemouth pile more misery on Carrick 🔥 | Man United 0-3 Bournemouth | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 25, 2026" },
     { id: "saJbrr4PHrA", title: "Liverpool vs Brighton 2-0 Highlights Premier League 2026/27 ISAK & WIRTZ Goals ⚽⚽", channel: "Footballia", date: "Oct 25, 2026" },
-    { id: "msCTTUGLvjc", title: "Manchester United vs Bournemouth (0-3) HIGHLIGHTS | Rayan, Tavernier & Evanilson goal", channel: "SPORTS 4 REAL", date: "Oct 25, 2026" },
+    { id: "pQF14OXgR9I", title: "THREE goals at Old Trafford as Cherries run riot AGAIN | Man United 0-3 AFC Bournemouth", channel: "AFC Bournemouth", date: "Oct 25, 2026" },
     { id: "UjDk5QxPVoc", title: "Liverpool vs Brighton 2-0 HIGHLIGHTS - Florian Wirtz & Alexander Isak Goals! - Premier League 2026", channel: "Dollar VFX", date: "Oct 25, 2026" },
     { id: "RMlIZ8seURg", title: "Bournemouth vs Manchester United 3-0 Highlights Premier League 2026/27", channel: "Footballia", date: "Oct 25, 2026" },
     { id: "mqAA12-3hIA", title: "THURAM AND ZIELIŃSKI COMPLETE AN INCREDIBLE COMEBACK 🤯 | INTER 2-1 FIORENTINA | HIGHLIGHTS 🖤💙", channel: "Inter", date: "Oct 25, 2026" },
