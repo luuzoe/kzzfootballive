@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T04:23:06+06:30",
+ "updated": "2026-10-25T04:25:22+06:30",
  "summary": {
   "resolved": 33,
   "correct": 16,
@@ -340,6 +340,177 @@
    "pick_en": "Atlético Madrid win",
    "score": "1-0",
    "outcome": "correct"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Inter",
+   "away": "Fiorentina",
+   "league": "Serie A",
+   "pick_en": "Inter win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Athletic Bilbao",
+   "away": "Getafe",
+   "league": "La Liga",
+   "pick_en": "Athletic Bilbao win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Crystal Palace",
+   "away": "Newcastle United",
+   "league": "Premier League",
+   "pick_en": "Draw",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Hull City",
+   "away": "Brentford",
+   "league": "Premier League",
+   "pick_en": "Brentford win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Liverpool",
+   "away": "Brighton & Hove Albion",
+   "league": "Premier League",
+   "pick_en": "Brighton win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Manchester United",
+   "away": "Bournemouth",
+   "league": "Premier League",
+   "pick_en": "Draw",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Atalanta",
+   "away": "Frosinone",
+   "league": "Serie A",
+   "pick_en": "Atalanta win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Genoa",
+   "away": "Venezia",
+   "league": "Serie A",
+   "pick_en": "Genoa win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Monaco",
+   "away": "Lille",
+   "league": "Ligue 1",
+   "pick_en": "Monaco win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Celta Vigo",
+   "away": "Real Betis",
+   "league": "La Liga",
+   "pick_en": "Draw",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Hoffenheim",
+   "away": "Bayer Leverkusen",
+   "league": "Bundesliga",
+   "pick_en": "Bayer Leverkusen win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Auxerre",
+   "away": "Le Mans",
+   "league": "Ligue 1",
+   "pick_en": "Auxerre win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Angers",
+   "away": "Lorient",
+   "league": "Ligue 1",
+   "pick_en": "Lorient win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Marseille",
+   "away": "Le Havre",
+   "league": "Ligue 1",
+   "pick_en": "Marseille win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Rennes",
+   "away": "Strasbourg",
+   "league": "Ligue 1",
+   "pick_en": "Draw",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Toulouse",
+   "away": "Troyes",
+   "league": "Ligue 1",
+   "pick_en": "Toulouse win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Sunderland",
+   "away": "Leeds United",
+   "league": "Premier League",
+   "pick_en": "Leeds United win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Real Sociedad",
+   "away": "Levante",
+   "league": "La Liga",
+   "pick_en": "Real Sociedad win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "home": "Freiburg",
+   "away": "Bayern Munich",
+   "league": "Bundesliga",
+   "pick_en": "Bayern Munich win",
+   "score": null,
+   "outcome": "pending"
   }
  ]
 }
