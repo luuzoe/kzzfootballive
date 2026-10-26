@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 56; // bump on every deploy
+const APP_VERSION = 57; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,10 +900,11 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "aQeC87Tfig0", title: "Liverpool 2 - 0 Brighton | HIGHLIGHTS | Premier League 26/27 Matchweek 8", channel: "StarHub", date: "Oct 25, 2026" },
+    { id: "ic8swmaTL2c", title: "Man Utd 0 - 3 Bournemouth | HIGHLIGHTS | Premier League 26/27 Matchweek 8", channel: "StarHub", date: "Oct 25, 2026" },
     { id: "T5B3ZVTvrhM", title: "HIGHLIGHTS | FC Barcelona 1-2 Real Madrid | LaLiga", channel: "Real Madrid", date: "Oct 25, 2026" },
     { id: "mqAA12-3hIA", title: "THURAM AND ZIELIŃSKI COMPLETE AN INCREDIBLE COMEBACK 🤯 | INTER 2-1 FIORENTINA | HIGHLIGHTS 🖤💙", channel: "Inter", date: "Oct 25, 2026" },
     { id: "NkqLjSFaKPQ", title: "HIGHLIGHTS | Aston Villa 2-1 Man City | The Blues left frustrated at Villa Park", channel: "Man City", date: "Oct 24, 2026" },
-    { id: "NQqiEsVALss", title: "Jackson BRACE gives City first loss! 🟣 | Aston Villa 2-1 Manchester City | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
     { id: "pbdVNLFnrmg", title: "NAPOLI 3-3 ROMA | SERIE A HIGHLIGHTS 2026-27", channel: "AS Roma", date: "Oct 24, 2026" },
     { id: "YD9G7iuZGjw", title: "Tel scores a BEAUTY at the Bridge! | Chelsea 0-2 Tottenham | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 24, 2026" },
     { id: "hXNKrvJH2q8", title: "ATLÉTICO DE MADRID 1 - 0 RC DEPORTIVO | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 25, 2026" },
@@ -911,7 +912,6 @@ async function renderHighlights() {
     { id: "uzNpri15b4c", title: "Inter score 91st and 98th min goals to win it! | Inter 2-1 Fiorentina | Serie A Highlights", channel: "Sky Sports Football", date: "Oct 25, 2026" },
     { id: "H_S6QJQAuio", title: "McTominay scores twice in six-goal thriller! | Napoli 3-3 Roma | Serie A Highlights", channel: "Sky Sports Football", date: "Oct 24, 2026" },
     { id: "qSmpCizhtkw", title: "Chelsea 0-2 Spurs | HIGHLIGHTS - Extended | Premier League 2026/27", channel: "Chelsea FC", date: "Oct 24, 2026" },
-    { id: "_1fx7VA2ImE", title: "Arsenal vs Everton 2-0 Highlights | Konsa & Gabriel Fire Gunners Level at Top!", channel: "GOALSPORTS TV.", date: "Oct 24, 2026" },
     { id: "vMNzBOLU9ns", title: "Super-Sub Scores Winner! | BORUSSIA DORTMUND - EINTRACHT FRANKFURT | Highlights | MD 7 Bundesliga", channel: "Bundesliga", date: "Oct 24, 2026" },
     { id: "d1dwx-TEiwA", title: "Udinese vs AC Milan 0-2 HIGHLIGHTS - Pulisic & Hutchinson Goals! - Serie A 2026/27", channel: "Dollar VFX", date: "Oct 25, 2026" },
     { id: "RE5whmyDkRM", title: "Arsenal 2-0 Everton | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 24, 2026" },
