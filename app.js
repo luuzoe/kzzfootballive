@@ -900,6 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "ND36lZLmXlU", title: "ALL THE ACTION FROM LECCE-JUVENTUS | Extended Highlights Serie A | McKennie & Douglas Luiz Goals", channel: "Juventus", date: "Oct 26, 2026" },
+    { id: "0XtlTlbcWv4", title: "McKennie Strikes First of the Season | LECCE-JUVENTUS | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 25, 2026" },
     { id: "M5aYzSvorSE", title: "Olise Punishes Late Blunder! | SC FREIBURG - FC BAYERN | Highlights | MD 7 – Bundesliga 2026/27", channel: "Bundesliga", date: "Oct 25, 2026" },
     { id: "qDNTweAhMhA", title: "Upamecano’s Incredible Box-To-Box Solo | SC FREIBURG - FC BAYERN | Highlights | MD7 Bundesliga 26/27", channel: "Bundesliga", date: "Oct 25, 2026" },
     { id: "Lk6_SzsCvHQ", title: "Reds move into top four after home win 📈 | Liverpool 2-0 Brighton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 25, 2026" },
@@ -926,8 +928,6 @@ async function renderHighlights() {
     { id: "_Xx99EQa2sk", title: "McKENNIE & DOUGLAS LUIZ SEAL THE WIN! 🔥 | Lecce 0-2 Juventus Highlights | Serie A", channel: "Juventus", date: "Oct 25, 2026" },
     { id: "i4eXftEkNAc", title: "ARSENAL v EVERTON | Premier League highlights", channel: "Everton Football Club", date: "Oct 24, 2026" },
     { id: "DceKecuCkKM", title: "Jackson Brace Shocks City 🔥 | Aston Villa 2-1 Manchester City | Premier League Highlights", channel: "Aston Villa Football Club", date: "Oct 24, 2026" },
-    { id: "VzRr1zWFl8U", title: "FC BARCELONA 1 - 2 REAL MADRID | HIGHLIGHTS LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 25, 2026" },
-    { id: "TovUeAQkaFc", title: "Pulisic and Hutchinson Shine in Udine | UDINESE-MILAN | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 25, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
