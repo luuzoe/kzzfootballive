@@ -19,6 +19,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-27-putellas-ballon-dor.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-27-yamal-kopa.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-27-manutd-training-carrick.html</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>daily</changefreq>
@@ -122,18 +134,6 @@
   </url>
   <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-25-courtois-clasico.html</loc>
-    <lastmod>2026-10-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-25-ballon-dor-england.html</loc>
-    <lastmod>2026-10-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-25-manutd-wsl-turnaround.html</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
