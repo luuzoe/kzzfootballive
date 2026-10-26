@@ -900,11 +900,11 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "dOFXQHN6mgs", title: "Mayulu et Godts OFFRENT la VICTOIRE au PSG contre l'OL | 8ème journée - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Oct 26, 2026" },
     { id: "V8Q5cQuuOso", title: "Highlights: Liverpool 2-0 Brighton", channel: "Liverpool FC", date: "Oct 26, 2026" },
     { id: "QIGNqxmBcIQ", title: "FC BARCELONA 1 vs 2 REAL MADRID | LALIGA 2026/27 MD10 🔵🔴", channel: "FC Barcelona", date: "Oct 26, 2026" },
     { id: "SVet7Qh28xI", title: "Extended Highlights: Rayan stars as Cherries record third 3-0 victory at Man United in four seasons", channel: "AFC Bournemouth", date: "Oct 26, 2026" },
     { id: "LjbC_fKeUmE", title: "Kramarić Strikes As Super-Sub! | HOFFENHEIM - BAYER 04 LEVERKUSEN | Highlights | MD 7 – Bundesliga", channel: "Bundesliga", date: "Oct 25, 2026" },
-    { id: "2DcrlDh3kJw", title: "PSG vs LYON 2-0 Highlight | All Goals & Highlights", channel: "Worldfootball90HQ", date: "Oct 26, 2026" },
     { id: "vXmIkwyInwo", title: "PSG vs Lyon 2-0 • RÉSUMÉ • But de Godts & Mayulu • Ligue 1 2026/27", channel: "Dollar VFX", date: "Oct 26, 2026" },
     { id: "T5B3ZVTvrhM", title: "HIGHLIGHTS | FC Barcelona 1-2 Real Madrid | LaLiga", channel: "Real Madrid", date: "Oct 26, 2026" },
     { id: "pbdVNLFnrmg", title: "NAPOLI 3-3 ROMA | SERIE A HIGHLIGHTS 2026-27", channel: "AS Roma", date: "Oct 26, 2026" },
