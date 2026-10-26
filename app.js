@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 61; // bump on every deploy
+const APP_VERSION = 62; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,6 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "-CorEPR-y1o", title: "Chelsea 0-2 Tottenham | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 26, 2026" },
+    { id: "xac6qY6d9pI", title: "EXTENDED HIGHLIGHTS | Aston Villa 2-1 Man City | A first league setback for the Blues", channel: "Man City", date: "Oct 26, 2026" },
     { id: "j5WVWXRVZec", title: "Udinese 0-2 Milan | Extended Highlights 2026/27 | Pulisic segna, primo gol di Hutchinson!", channel: "AC Milan", date: "Oct 26, 2026" },
     { id: "_fn3LWD4KSU", title: "SIX-GOAL Blockbuster in Naples! | NAPOLI-ROMA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 26, 2026" },
     { id: "qSmpCizhtkw", title: "Chelsea 0-2 Spurs | HIGHLIGHTS - Extended | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 26, 2026" },
@@ -926,8 +928,6 @@ async function renderHighlights() {
     { id: "T5B3ZVTvrhM", title: "HIGHLIGHTS | FC Barcelona 1-2 Real Madrid | LaLiga", channel: "Real Madrid", date: "Oct 25, 2026" },
     { id: "mqAA12-3hIA", title: "THURAM AND ZIELIŃSKI COMPLETE AN INCREDIBLE COMEBACK 🤯 | INTER 2-1 FIORENTINA | HIGHLIGHTS 🖤💙", channel: "Inter", date: "Oct 25, 2026" },
     { id: "pbdVNLFnrmg", title: "NAPOLI 3-3 ROMA | SERIE A HIGHLIGHTS 2026-27", channel: "AS Roma", date: "Oct 24, 2026" },
-    { id: "hXNKrvJH2q8", title: "ATLÉTICO DE MADRID 1 - 0 RC DEPORTIVO | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 25, 2026" },
-    { id: "RE5whmyDkRM", title: "Arsenal 2-0 Everton | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 24, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
