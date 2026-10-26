@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "T5B3ZVTvrhM", title: "HIGHLIGHTS | FC Barcelona 1-2 Real Madrid | LaLiga", channel: "Real Madrid", date: "Oct 25, 2026" },
     { id: "mqAA12-3hIA", title: "THURAM AND ZIELIŃSKI COMPLETE AN INCREDIBLE COMEBACK 🤯 | INTER 2-1 FIORENTINA | HIGHLIGHTS 🖤💙", channel: "Inter", date: "Oct 25, 2026" },
     { id: "NkqLjSFaKPQ", title: "HIGHLIGHTS | Aston Villa 2-1 Man City | The Blues left frustrated at Villa Park", channel: "Man City", date: "Oct 24, 2026" },
     { id: "NQqiEsVALss", title: "Jackson BRACE gives City first loss! 🟣 | Aston Villa 2-1 Manchester City | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
@@ -914,7 +915,6 @@ async function renderHighlights() {
     { id: "vMNzBOLU9ns", title: "Super-Sub Scores Winner! | BORUSSIA DORTMUND - EINTRACHT FRANKFURT | Highlights | MD 7 Bundesliga", channel: "Bundesliga", date: "Oct 24, 2026" },
     { id: "d1dwx-TEiwA", title: "Udinese vs AC Milan 0-2 HIGHLIGHTS - Pulisic & Hutchinson Goals! - Serie A 2026/27", channel: "Dollar VFX", date: "Oct 25, 2026" },
     { id: "RE5whmyDkRM", title: "Arsenal 2-0 Everton | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 24, 2026" },
-    { id: "6vbjSDFCmYY", title: "REAL MADRID vs BARCELONA 2-1 | GOLES y RESUMEN del PARTIDO | LA LIGA 2026", channel: "PlanetaSportTV", date: "Oct 25, 2026" },
     { id: "_Xx99EQa2sk", title: "McKENNIE & DOUGLAS LUIZ SEAL THE WIN! 🔥 | Lecce 0-2 Juventus Highlights | Serie A", channel: "Juventus", date: "Oct 25, 2026" },
     { id: "i4eXftEkNAc", title: "ARSENAL v EVERTON | Premier League highlights", channel: "Everton Football Club", date: "Oct 24, 2026" },
     { id: "DceKecuCkKM", title: "Jackson Brace Shocks City 🔥 | Aston Villa 2-1 Manchester City | Premier League Highlights", channel: "Aston Villa Football Club", date: "Oct 24, 2026" },
