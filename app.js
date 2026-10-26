@@ -900,10 +900,10 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "LjbC_fKeUmE", title: "Kramarić Strikes As Super-Sub! | HOFFENHEIM - BAYER 04 LEVERKUSEN | Highlights | MD 7 – Bundesliga", channel: "Bundesliga", date: "Oct 25, 2026" },
     { id: "2DcrlDh3kJw", title: "PSG vs LYON 2-0 Highlight | All Goals & Highlights", channel: "Worldfootball90HQ", date: "Oct 26, 2026" },
     { id: "vXmIkwyInwo", title: "PSG vs Lyon 2-0 • RÉSUMÉ • But de Godts & Mayulu • Ligue 1 2026/27", channel: "Dollar VFX", date: "Oct 26, 2026" },
     { id: "T5B3ZVTvrhM", title: "HIGHLIGHTS | FC Barcelona 1-2 Real Madrid | LaLiga", channel: "Real Madrid", date: "Oct 26, 2026" },
-    { id: "i4eXftEkNAc", title: "ARSENAL v EVERTON | Premier League highlights", channel: "Everton Football Club", date: "Oct 24, 2026" },
     { id: "pbdVNLFnrmg", title: "NAPOLI 3-3 ROMA | SERIE A HIGHLIGHTS 2026-27", channel: "AS Roma", date: "Oct 26, 2026" },
     { id: "jE0OlCyHgHY", title: "7 MINUTI. THURAM. ZIELINSKI. 3 PUNTI. 👏 | INTER 2-1 FIORENTINA | EXTENDED HIGHLIGHTS 📹🖤💙", channel: "Inter", date: "Oct 26, 2026" },
     { id: "acj8Nqr1JZ0", title: "Jack of all trades! 🃏 | Aston Villa 2-1 Manchester City| Premier League Extended Highlights", channel: "Aston Villa Football Club", date: "Oct 26, 2026" },
