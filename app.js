@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "W7uPt3FJD0k", title: "Pulisic e Hutchinson a segno! | Udinese 0-2 Milan | Highlights | Serie A 2026/27", channel: "AC Milan", date: "Oct 25, 2026" },
     { id: "aQeC87Tfig0", title: "Liverpool 2 - 0 Brighton | HIGHLIGHTS | Premier League 26/27 Matchweek 8", channel: "StarHub", date: "Oct 25, 2026" },
     { id: "ic8swmaTL2c", title: "Man Utd 0 - 3 Bournemouth | HIGHLIGHTS | Premier League 26/27 Matchweek 8", channel: "StarHub", date: "Oct 25, 2026" },
     { id: "T5B3ZVTvrhM", title: "HIGHLIGHTS | FC Barcelona 1-2 Real Madrid | LaLiga", channel: "Real Madrid", date: "Oct 25, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
     { id: "tkfO80xxSYU", title: "Matchwinner Gets RED CARD! | HOFFENHEIM - BAYER 04 LEVERKUSEN | Highlights | Matchday 7 – Bundesliga", channel: "Bundesliga", date: "Oct 25, 2026" },
     { id: "5_VzTMIAGhk", title: "Bournemouth pile more misery on Carrick 🔥 | Man United 0-3 Bournemouth | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 25, 2026" },
     { id: "saJbrr4PHrA", title: "Liverpool vs Brighton 2-0 Highlights Premier League 2026/27 ISAK & WIRTZ Goals ⚽⚽", channel: "Footballia", date: "Oct 25, 2026" },
-    { id: "pQF14OXgR9I", title: "THREE goals at Old Trafford as Cherries run riot AGAIN | Man United 0-3 AFC Bournemouth", channel: "AFC Bournemouth", date: "Oct 25, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
@@ -939,7 +939,8 @@ async function renderHighlights() {
     { id: "Pq_i5yzIZa0", title: "SERGIO AGUERO | RAINING GOALS | EVERY PREMIER LEAGUE GOAL SCORED | MAN CITY", channel: "Man City", date: "Classic" },
     { id: "DlceSLFU7co", title: "Every Steven Gerrard Goal | Cup Final screamers, Istanbul", channel: "Liverpool FC", date: "Classic" },
     { id: "i1p5PAgNvR0", title: "All 200 Mo Salah Goals For Liverpool", channel: "Liverpool FC", date: "Classic" },
-    { id: "t5PtlOA0Ksc", title: "ALL 57 Mo Salah Goals and Assist from 2024/25", channel: "Liverpool FC", date: "Classic" },];
+    { id: "t5PtlOA0Ksc", title: "ALL 57 Mo Salah Goals and Assist from 2024/25", channel: "Liverpool FC", date: "Classic" },
+  ];
   html += videos.map(v => `
     <div class="highlight-card" onclick="openHighlight('${v.id}', '${esc(v.title).replace(/'/g, "&#39;")}')">
       <div class="hl-thumb">
