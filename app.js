@@ -900,6 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "LjbC_fKeUmE", title: "Kramarić Strikes As Super-Sub! | HOFFENHEIM - BAYER 04 LEVERKUSEN | Highlights | MD 7 – Bundesliga", channel: "Bundesliga", date: "Oct 25, 2026" },
+    { id: "KO_V5F24ns8", title: "Manchester United vs Bournemouth 0-3 HIGHLIGHTS - Evanilson & Tavernier Goals! - Premier League 2026", channel: "Dollar VFX", date: "Oct 25, 2026" },
     { id: "Ta0T7_H2jWk", title: "Mbappe bags LATE El Clasico winner! | Barcelona 1-2 Real Madrid | LA Liga", channel: "Sky Sports Football", date: "Oct 25, 2026" },
     { id: "M4cFytVHg4E", title: "Inter Pull Off Crazy Late Comeback! | INTER-FIORENTINA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 25, 2026" },
     { id: "-CorEPR-y1o", title: "Chelsea 0-2 Tottenham | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 24, 2026" },
@@ -915,8 +917,6 @@ async function renderHighlights() {
     { id: "YD9G7iuZGjw", title: "Tel scores a BEAUTY at the Bridge! | Chelsea 0-2 Tottenham | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 24, 2026" },
     { id: "hXNKrvJH2q8", title: "ATLÉTICO DE MADRID 1 - 0 RC DEPORTIVO | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 25, 2026" },
     { id: "_fn3LWD4KSU", title: "SIX-GOAL Blockbuster in Naples! | NAPOLI-ROMA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 24, 2026" },
-    { id: "uzNpri15b4c", title: "Inter score 91st and 98th min goals to win it! | Inter 2-1 Fiorentina | Serie A Highlights", channel: "Sky Sports Football", date: "Oct 25, 2026" },
-    { id: "H_S6QJQAuio", title: "McTominay scores twice in six-goal thriller! | Napoli 3-3 Roma | Serie A Highlights", channel: "Sky Sports Football", date: "Oct 24, 2026" },
     { id: "qSmpCizhtkw", title: "Chelsea 0-2 Spurs | HIGHLIGHTS - Extended | Premier League 2026/27", channel: "Chelsea FC", date: "Oct 24, 2026" },
     { id: "vMNzBOLU9ns", title: "Super-Sub Scores Winner! | BORUSSIA DORTMUND - EINTRACHT FRANKFURT | Highlights | MD 7 Bundesliga", channel: "Bundesliga", date: "Oct 24, 2026" },
     { id: "d1dwx-TEiwA", title: "Udinese vs AC Milan 0-2 HIGHLIGHTS - Pulisic & Hutchinson Goals! - Serie A 2026/27", channel: "Dollar VFX", date: "Oct 25, 2026" },
