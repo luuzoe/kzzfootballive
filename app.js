@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "pbdVNLFnrmg", title: "NAPOLI 3-3 ROMA | SERIE A HIGHLIGHTS 2026-27", channel: "AS Roma", date: "Oct 24, 2026" },
     { id: "YD9G7iuZGjw", title: "Tel scores a BEAUTY at the Bridge! | Chelsea 0-2 Tottenham | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 24, 2026" },
     { id: "hXNKrvJH2q8", title: "ATLÉTICO DE MADRID 1 - 0 RC DEPORTIVO | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 25, 2026" },
     { id: "_fn3LWD4KSU", title: "SIX-GOAL Blockbuster in Naples! | NAPOLI-ROMA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 24, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
     { id: "UjDk5QxPVoc", title: "Liverpool vs Brighton 2-0 HIGHLIGHTS - Florian Wirtz & Alexander Isak Goals! - Premier League 2026", channel: "Dollar VFX", date: "Oct 25, 2026" },
     { id: "RMlIZ8seURg", title: "Bournemouth vs Manchester United 3-0 Highlights Premier League 2026/27", channel: "Footballia", date: "Oct 25, 2026" },
     { id: "mqAA12-3hIA", title: "THURAM AND ZIELIŃSKI COMPLETE AN INCREDIBLE COMEBACK 🤯 | INTER 2-1 FIORENTINA | HIGHLIGHTS 🖤💙", channel: "Inter", date: "Oct 25, 2026" },
-    { id: "TPKlbCGbDP8", title: "Chelsea 0-2 Spurs | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea FC", date: "Oct 24, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
