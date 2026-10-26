@@ -1,8 +1,8 @@
 /* KZZ Football Live service worker — offline shell, fresh data.
    Same-origin GETs: stale-while-revalidate (assets + JSON). Navigation: network-first.
    ESPN API calls go straight to the network (cross-origin, untouched). */
-const CACHE = 'kzz-v313';
-const STATICS = ['./', './index.html', './app.js?v=311', './styles.css?v=295', './manifest.json',
+const CACHE = 'kzz-v314';
+const STATICS = ['./', './index.html', './app.js?v=312', './styles.css?v=296', './manifest.json',
   './icon-192.png', './icon-512.png', './og-image.png', './analyses.json',
   './favicon.ico', './prediction_results.json'];
 
