@@ -1,6 +1,17 @@
 {
   "news": [
     {
+      "id": "2026-10-26-ancelotti-lille",
+      "title": "Davide Ancelotti's Lille flying in Ligue 1 but winless in Europe",
+      "body": "Davide Ancelotti is starting to make his own name at Lille, but the picture is split in two. The son of Carlo Ancelotti took over from Bruno Genesio as Lille manager in the summer, after 14 years working alongside his father and a brief 33-game spell in charge of Botafogo. On Sunday Lille drew 1-1 at Monaco, with Ethan Mbappe giving them the lead at the Stade Louis II before Edan Diop equalised with 15 minutes left, after Tanguy Nianzou had been sent off. That point took Lille to 15 points from eight games, just one point behind Ligue 1 leaders Rennes, their best domestic start since their title-winning 2020-21 season. In the Champions League, though, Lille have lost all three of their matches and sit second from bottom of the 36-team table. Ancelotti said before the European campaign that he hopes to be able to write his story, with his first name, too.",
+      "title_mm": "အန်ဆယ်လော့တီသား ဦးဆောင်တဲ့ လိုင်း လီဂူးဝမ်းမှာ ထိပ်နားရောက်၊ ချန်ပီယံလိဂ်မှာတော့ နိုင်ပွဲမရှိ",
+      "body_mm": "ကာလို အန်ဆယ်လော့တီရဲ့သား ဒေးဗစ် အန်ဆယ်လော့တီဟာ လိုင်းအသင်းမှာ သူ့ကိုယ်ပိုင်သမိုင်းကို စတင်ရေးနေပြီဖြစ်ပေမယ့် ပုံရိပ်က နှစ်ခြမ်းကွဲနေပါတယ်။ ဒေးဗစ်ဟာ ဖခင်နဲ့အတူ ၁၄ နှစ်ကြာ လက်တွဲလုပ်ကိုင်ခဲ့ပြီးနောက် ဘိုတာဖိုဂိုအသင်းမှာ ၃၃ ပွဲ နည်းပြခဲ့ဖူးပြီး ဒီနွေရာသီမှာ ဘရူနို ဂျီနေစီယိုနေရာကို ဆက်ခံခဲ့တာပါ။ တနင်္ဂနွေနေ့က မိုနာကိုကွင်းမှာ လိုင်းက ၁-၁ သရေကျခဲ့ပါတယ်။ အီသန် အမ်ဘာပေက ဦးဆောင်ဂိုး သွင်းပေးခဲ့ပေမယ့် တာန်ဂီ နီယန်ဇူ အနီကတ်ပြခံရပြီးနောက် အီဒန် ဒီယော့က ၁၅ မိနစ်အလိုမှာ ချေပဂိုး သွင်းခဲ့တာပါ။ ဒီတစ်မှတ်ကြောင့် လိုင်းဟာ ၈ ပွဲကစားပြီး ၁၅ မှတ်နဲ့ လီဂူးဝမ်း ဦးဆောင်သူ ရန်းနက်စ်နောက် တစ်မှတ်အကွာကို ရောက်သွားပြီး ၂၀၂၀-၂၁ ချန်ပီယံရာသီနောက်ပိုင်း အကောင်းဆုံး ရာသီအစကို ပိုင်ဆိုင်ခဲ့ပါတယ်။ ဒါပေမယ့် ချန်ပီယံလိဂ်မှာတော့ လိုင်းက ၃ ပွဲလုံး ရှုံးထားပြီး ၃၆ သင်းပါတဲ့ ဇယားမှာ အောက်ဆုံးမှ ဒုတိယနေရာမှာ ရပ်နေပါတယ်။ ဒေးဗစ်ကတော့ သူ့ရဲ့ ရှေ့နာမည်နဲ့လည်း သူ့ဇာတ်လမ်းကို ရေးနိုင်ဖို့ မျှော်လင့်တယ်လို့ ပြောခဲ့ဖူးပါတယ်။",
+      "image": "news-2026-10-26-ancelotti-lille.jpg",
+      "source": "The Guardian",
+      "published": "2026-10-26T21:24:00+06:30",
+      "fb_url": ""
+    },
+    {
       "id": "2026-10-26-bayern-freiburg",
       "title": "Bayern stay unbeaten with 3-1 win at Freiburg in Kompany's absence",
       "body": "Bayern Munich beat Freiburg 3-1 to return to the top of the Bundesliga in their first game without head coach Vincent Kompany, who is recovering in hospital after collapsing at training on Friday. Assistant coach Aaron Danks took charge from the touchline. Dayot Upamecano opened the scoring in the 16th minute with a counter-attack he started near his own penalty area, and Serge Gnabry made it 2-0 in the 42nd minute with his 100th Bundesliga goal. Freiburg pulled one back through a Tom Bischof own goal in the 82nd minute, but Michael Olise sealed the win in the fifth minute of stoppage time. The win kept Bayern's unbeaten start to the league season going.",
@@ -207,17 +218,6 @@
       "image": "news-2026-10-25-sacking-season.jpg",
       "source": "BBC Sport",
       "published": "2026-10-25T12:47:00+06:30",
-      "fb_url": ""
-    },
-    {
-      "id": "2026-10-25-palmer-red",
-      "title": "Should Palmer have been sent off earlier than he was?",
-      "body": "Match of the Day pundit Martin Keown has backed the decision to send off Cole Palmer during Chelsea's 2-0 defeat to Tottenham at Stamford Bridge. Palmer was dismissed for a second bookable offence after a stamp on Conor Gallagher, and Keown suggested the Chelsea star was lucky not to receive a straight red card for an earlier incident in the match.",
-      "title_mm": "ပါးမားကို အစောကြီး အနီကတ်ပြသင့်သလား",
-      "body_mm": "ချဲလ်ဆီးက စတန်းဖို့ဒ်ဘရစ်ချ်မှာ တော့တင်ဟမ်ကို ၂-၀ နဲ့ ရှုံးတဲ့ပွဲမှာ ကိုးလ် ပါးမား အနီကတ်ထိခဲ့တာနဲ့ ပတ်သက်ပြီး Match of the Day သုံးသပ်သူ မာတင် ကီအောင်က ဒိုင်လူကြီးရဲ့ ဆုံးဖြတ်ချက်ကို ထောက်ခံခဲ့ပါတယ်။ ပါးမားက ကော်နာ ဂယ်လာဂါကို နင်းမိတဲ့အတွက် ဒုတိယ အဝါကတ်နဲ့ အနီကတ် ထိခဲ့တာဖြစ်ပြီး ပွဲအစပိုင်းက ဖြစ်ရပ်တစ်ခုအတွက်လည်း တိုက်ရိုက် အနီကတ် မထိခဲ့တာက ကံကောင်းတာလို့ ကီအောင်က ဆိုခဲ့ပါတယ်။",
-      "image": "news-2026-10-25-palmer-red.jpg",
-      "source": "BBC Sport",
-      "published": "2026-10-25T07:25:26+06:30",
       "fb_url": ""
     }
   ]
