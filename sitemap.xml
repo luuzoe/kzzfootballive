@@ -19,6 +19,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-26-bayern-freiburg.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-26-napoli-roma.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-26-women-ballon.html</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>daily</changefreq>
@@ -122,18 +134,6 @@
   </url>
   <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-25-palmer-red.html</loc>
-    <lastmod>2026-10-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-25-jackson-analysis.html</loc>
-    <lastmod>2026-10-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-10-25-brighton-westham.html</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
