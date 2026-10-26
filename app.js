@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "UjDk5QxPVoc", title: "Liverpool vs Brighton 2-0 HIGHLIGHTS - Florian Wirtz & Alexander Isak Goals! - Premier League 2026", channel: "Dollar VFX", date: "Oct 25, 2026" },
     { id: "xac6qY6d9pI", title: "EXTENDED HIGHLIGHTS | Aston Villa 2-1 Man City | A first league setback for the Blues", channel: "Man City", date: "Oct 24, 2026" },
     { id: "W7uPt3FJD0k", title: "Pulisic e Hutchinson a segno! | Udinese 0-2 Milan | Highlights | Serie A 2026/27", channel: "AC Milan", date: "Oct 25, 2026" },
     { id: "aQeC87Tfig0", title: "Liverpool 2 - 0 Brighton | HIGHLIGHTS | Premier League 26/27 Matchweek 8", channel: "StarHub", date: "Oct 25, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
     { id: "M5aYzSvorSE", title: "Olise Punishes Late Blunder! | SC FREIBURG - FC BAYERN | Highlights | MD 7 – Bundesliga 2026/27", channel: "Bundesliga", date: "Oct 25, 2026" },
     { id: "Lk6_SzsCvHQ", title: "Reds move into top four after home win 📈 | Liverpool 2-0 Brighton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 25, 2026" },
     { id: "tkfO80xxSYU", title: "Matchwinner Gets RED CARD! | HOFFENHEIM - BAYER 04 LEVERKUSEN | Highlights | Matchday 7 – Bundesliga", channel: "Bundesliga", date: "Oct 25, 2026" },
-    { id: "5_VzTMIAGhk", title: "Bournemouth pile more misery on Carrick 🔥 | Man United 0-3 Bournemouth | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 25, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
