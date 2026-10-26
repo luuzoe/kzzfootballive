@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "Ta0T7_H2jWk", title: "Mbappe bags LATE El Clasico winner! | Barcelona 1-2 Real Madrid | LA Liga", channel: "Sky Sports Football", date: "Oct 25, 2026" },
     { id: "M4cFytVHg4E", title: "Inter Pull Off Crazy Late Comeback! | INTER-FIORENTINA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 25, 2026" },
     { id: "-CorEPR-y1o", title: "Chelsea 0-2 Tottenham | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Oct 24, 2026" },
     { id: "UjDk5QxPVoc", title: "Liverpool vs Brighton 2-0 HIGHLIGHTS - Florian Wirtz & Alexander Isak Goals! - Premier League 2026", channel: "Dollar VFX", date: "Oct 25, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
     { id: "TovUeAQkaFc", title: "Pulisic and Hutchinson Shine in Udine | UDINESE-MILAN | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 25, 2026" },
     { id: "0XtlTlbcWv4", title: "McKennie Strikes First of the Season | LECCE-JUVENTUS | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 25, 2026" },
     { id: "M5aYzSvorSE", title: "Olise Punishes Late Blunder! | SC FREIBURG - FC BAYERN | Highlights | MD 7 – Bundesliga 2026/27", channel: "Bundesliga", date: "Oct 25, 2026" },
-    { id: "tkfO80xxSYU", title: "Matchwinner Gets RED CARD! | HOFFENHEIM - BAYER 04 LEVERKUSEN | Highlights | Matchday 7 – Bundesliga", channel: "Bundesliga", date: "Oct 25, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
