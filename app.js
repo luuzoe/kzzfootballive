@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 70; // bump on every deploy
+const APP_VERSION = 71; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "hXNKrvJH2q8", title: "ATLÉTICO DE MADRID 1 - 0 RC DEPORTIVO | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 25, 2026" },
     { id: "xac6qY6d9pI", title: "EXTENDED HIGHLIGHTS | Aston Villa 2-1 Man City | A first league setback for the Blues", channel: "Man City", date: "Oct 26, 2026" },
     { id: "j5WVWXRVZec", title: "Udinese 0-2 Milan | Extended Highlights 2026/27 | Pulisic Scores, Hutchinson Nets His First!", channel: "AC Milan", date: "Oct 26, 2026" },
     { id: "H_S6QJQAuio", title: "McTominay scores twice in six-goal thriller! | Napoli 3-3 Roma | Serie A Highlights", channel: "Sky Sports Football", date: "Oct 26, 2026" },
