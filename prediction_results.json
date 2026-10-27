@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-26T08:52:50+06:30",
+ "updated": "2026-10-27T08:53:47+06:30",
  "summary": {
-  "resolved": 53,
-  "correct": 24,
+  "resolved": 55,
+  "correct": 26,
   "wrong": 29,
-  "accuracy_pct": 45.3,
+  "accuracy_pct": 47.3,
   "not_found": 2
  },
  "results": [
@@ -519,6 +519,24 @@
    "league": "Serie A",
    "pick_en": "Juventus win",
    "score": "0-2",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-26",
+   "home": "Paris Saint-Germain",
+   "away": "Lyon",
+   "league": "Ligue 1",
+   "pick_en": "Paris Saint-Germain win",
+   "score": "2-0",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-26",
+   "home": "Sevilla",
+   "away": "Osasuna",
+   "league": "La Liga",
+   "pick_en": "Sevilla win",
+   "score": "2-0",
    "outcome": "correct"
   }
  ]
