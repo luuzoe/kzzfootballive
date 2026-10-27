@@ -1,6 +1,17 @@
 {
   "news": [
     {
+      "id": "2026-10-28-fleetwood-drone",
+      "title": "Fleetwood-Arsenal halted for eight minutes because of drone",
+      "body": "Arsenal's Carabao Cup last-16 match against Fleetwood Town was delayed for more than eight minutes after a drone was spotted above the stadium during the match. The fourth-round tie at Fleetwood's Highbury Stadium was paused while the drone was above the ground, before play was able to resume.",
+      "title_mm": "ဒရုန်းကြောင့် ဖလီးဝုဒ်-အာဆင်နယ်ပွဲ ၈ မိနစ်ကျော် ရပ်ဆိုင်းခဲ့ရ",
+      "body_mm": "အာဆင်နယ်အသင်းရဲ့ ကာရာဘောင်ဖလား ၁၆ သင်းအဆင့်ပွဲဖြစ်တဲ့ ဖလီးဝုဒ်တောင်းအသင်းနဲ့ပွဲကို ကွင်းအထက်မှာ ဒရုန်းတစ်စင်း တွေ့ရှိခဲ့တာကြောင့် ၈ မိနစ်ကျော်ကြာ ရပ်ဆိုင်းခဲ့ရသည်။ ဖလီးဝုဒ်ရဲ့ ဟိုင်းဘူရီကွင်းမှာ ကစားနေတဲ့ပွဲမှာ ဒရုန်းကွင်းအထက်မှာ ရှိနေစဉ် ပွဲကို ခဏရပ်ထားခဲ့ပြီး နောက်ပိုင်းမှ ပြန်လည်ကစားနိုင်ခဲ့သည်။",
+      "image": "news-2026-10-28-fleetwood-drone.jpg",
+      "source": "BBC Sport",
+      "published": "2026-10-28T02:56:00+06:30",
+      "fb_url": ""
+    },
+    {
       "id": "2026-10-27-milan-derby-bbc",
       "title": "Milan derby to be shown live on BBC Two on Saturday",
       "body": "The first Milan derby of the season will be shown live on BBC Two. Inter and AC Milan meet on Saturday, 31 October, with the game broadcast live by the BBC. The derby is one of Serie A's biggest fixtures, with both Milan clubs among the teams chasing the title picture in Italy.",
@@ -207,17 +218,6 @@
       "image": "news-2026-10-26-bayern-freiburg.jpg",
       "source": "BBC Sport",
       "published": "2026-10-26T18:05:00+06:30",
-      "fb_url": ""
-    },
-    {
-      "id": "2026-10-26-napoli-roma",
-      "title": "McTominay brace in vain as Roma fight back for 3-3 draw at Napoli",
-      "body": "Napoli twice led Roma but had to settle for a 3-3 draw in Serie A at the Stadio Diego Armando Maradona on Saturday. Andre-Frank Zambo Anguissa opened the scoring with an overhead kick in the 28th minute, and Scott McTominay doubled the lead in the 48th minute. Matias Soule pulled one back for Roma in the 69th minute and Leonardo Balerdi levelled in the 74th. McTominay struck again in the 83rd minute, only for Balerdi to head an 89th-minute equaliser. Napoli coach Massimiliano Allegri was sent off for dissent after protesting the late goal.",
-      "title_mm": "မက်တော်မီနေ ၂ ဂိုးသွင်းပေမယ့် ရိုးမား ပြန်လာပြီး နာပိုလီနဲ့ ၃-၃ သရေ",
-      "body_mm": "နာပိုလီအသင်းဟာ စနေနေ့က စတက်ဒီယို ဒီယေဂို အာမန်ဒို မာရာဒိုနာကွင်းမှာ ရိုးမားနဲ့ ၃-၃ သရေကျခဲ့ပြီး နှစ်ကြိမ်တိုင် ဦးဆောင်ခဲ့ပေမယ့် နိုင်ပွဲကို လက်လွှတ်ခဲ့ရပါတယ်။ အန်ဒရေ-ဖရန့် ဇမ်ဘို အန်ဂွီဆာက ၂၈ မိနစ်မှာ ခြေထောက်ပေါ် ကန်ချက်နဲ့ ပထမဂိုး သွင်းခဲ့ပြီး စကော့ မက်တော်မီနေက ၄၈ မိနစ်မှာ ဒုတိယဂိုး သွင်းခဲ့ပါတယ်။ ရိုးမားဘက်က မာတီးယာစ် ဆူလေးက ၆၉ မိနစ်မှာ တစ်ဂိုး ပြန်သွင်းခဲ့ပြီး လီယိုနာဒို ဘာလားဒီက ၇၄ မိနစ်မှာ ချေပဂိုး သွင်းခဲ့ပါတယ်။ မက်တော်မီနေက ၈၃ မိနစ်မှာ ထပ်သွင်းခဲ့ပေမယ့် ဘာလားဒီက ၈၉ မိနစ်မှာ ခေါင်းတိုက်ဂိုးနဲ့ ချေပခဲ့ပါတယ်။ နာပိုလီ နည်းပြ မက်ဆီမီလီယာနို အယ်လီဂရီကတော့ နောက်ကျဂိုးကို ကန့်ကွက်ရာကနေ ပွဲပယ်ခံခဲ့ရပါတယ်။",
-      "image": "news-2026-10-26-napoli-roma.jpg",
-      "source": "The Guardian",
-      "published": "2026-10-26T17:51:00+06:30",
       "fb_url": ""
     }
   ]
