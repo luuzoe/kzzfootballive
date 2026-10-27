@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 65; // bump on every deploy
+const APP_VERSION = 66; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,6 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "VzRr1zWFl8U", title: "FC BARCELONA 1 - 2 REAL MADRID | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 26, 2026" },
+    { id: "RE5whmyDkRM", title: "Arsenal 2-0 Everton | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 24, 2026" },
     { id: "SPMb5AgVFik", title: "PARIS SAINT-GERMAIN - OLYMPIQUE LYONNAIS (2-0) | Week 8 - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Oct 26, 2026" },
     { id: "M4cFytVHg4E", title: "Inter Pull Off Crazy Late Comeback! | INTER-FIORENTINA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 26, 2026" },
     { id: "ZFFIIAH77VM", title: "Beier Scores a Stunning Goal for the Win | Highlights | BVB vs. Eintracht Frankfurt 1-0", channel: "Borussia Dortmund", date: "Oct 25, 2026" },
@@ -928,7 +930,6 @@ async function renderHighlights() {
     { id: "TovUeAQkaFc", title: "Pulisic and Hutchinson Shine in Udine | UDINESE-MILAN | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 26, 2026" },
     { id: "WU4t8oyhm3E", title: "Spurs win at the Bridge for first time since 2018! 🤯 | Chelsea 0-2 Spurs | Premier League highlights", channel: "Sky Sports Premier League", date: "Oct 26, 2026" },
     { id: "NQqiEsVALss", title: "Jackson BRACE gives City first loss! 🟣 | Aston Villa 2-1 Manchester City | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 26, 2026" },
-    { id: "0up5K8qB8MI", title: "Kylian Mbappé Brace Secures A Thrilling 2-1 Win For Real Madrid in ELCLÁSICO | Highlights", channel: "FanCode", date: "Oct 26, 2026" },
     { id: "oC5SKRAGozg", title: "NAPOLI-ROMA 3-3 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 26, 2026" },
     { id: "ND36lZLmXlU", title: "ALL THE ACTION FROM LECCE-JUVENTUS | Extended Highlights Serie A | McKennie & Douglas Luiz Goals", channel: "Juventus", date: "Oct 26, 2026" },
     { id: "0XtlTlbcWv4", title: "McKennie Strikes First of the Season | LECCE-JUVENTUS | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 25, 2026" },
