@@ -104,17 +104,17 @@
    },
    {
     "rank": 5,
-    "player": "Sergio Camello",
-    "team": "ရာယိုဗယ်လီကာနို",
-    "goals": 7,
-    "pid": "276652"
-   },
-   {
-    "rank": 6,
     "player": "Ante Budimir",
     "team": "အိုဆာဆူနာ",
     "goals": 7,
     "pid": "207288"
+   },
+   {
+    "rank": 6,
+    "player": "Sergio Camello",
+    "team": "ရာယိုဗယ်လီကာနို",
+    "goals": 7,
+    "pid": "276652"
    },
    {
     "rank": 7,
@@ -436,38 +436,38 @@
   "por.1": [
    {
     "rank": 1,
+    "player": "Vangelis Pavlidis",
+    "team": "ဘန်ဖီကာ",
+    "goals": 9,
+    "pid": "220819"
+   },
+   {
+    "rank": 2,
     "player": "Luis Suárez",
     "team": "စပေါ်တင်း",
     "goals": 8,
     "pid": "272722"
    },
    {
-    "rank": 2,
-    "player": "Vangelis Pavlidis",
+    "rank": 3,
+    "player": "Gianluca Prestianni",
     "team": "ဘန်ဖီကာ",
-    "goals": 8,
-    "pid": "220819"
+    "goals": 6,
+    "pid": "339191"
    },
    {
-    "rank": 3,
+    "rank": 4,
     "player": "Georgios Koutsias",
     "team": "ဖာမလီကောင်",
     "goals": 5,
     "pid": "304317"
    },
    {
-    "rank": 4,
+    "rank": 5,
     "player": "Ivan Martínez",
     "team": "အာရူကာ",
     "goals": 5,
     "pid": "178579"
-   },
-   {
-    "rank": 5,
-    "player": "Gianluca Prestianni",
-    "team": "ဘန်ဖီကာ",
-    "goals": 5,
-    "pid": "339191"
    },
    {
     "rank": 6,
@@ -963,24 +963,24 @@
    },
    {
     "rank": 4,
+    "player": "Zachary Athekame",
+    "team": "လိုင်ယွန်",
+    "assists": 3,
+    "pid": "370758"
+   },
+   {
+    "rank": 5,
     "player": "Emerson",
     "team": "မာဆေး",
     "assists": 3,
     "pid": "159051"
    },
    {
-    "rank": 5,
+    "rank": 6,
     "player": "Aleksandr Golovin",
     "team": "မိုနာကို",
     "assists": 3,
     "pid": "195501"
-   },
-   {
-    "rank": 6,
-    "player": "Zachary Athekame",
-    "team": "လိုင်ယွန်",
-    "assists": 3,
-    "pid": "370758"
    },
    {
     "rank": 7,
@@ -1100,59 +1100,59 @@
    },
    {
     "rank": 3,
+    "player": "Gianluca Prestianni",
+    "team": "ဘန်ဖီကာ",
+    "assists": 4,
+    "pid": "339191"
+   },
+   {
+    "rank": 4,
     "player": "Cihan Kahraman",
     "team": "ဗီဆူး",
     "assists": 4,
     "pid": "233987"
    },
    {
-    "rank": 4,
+    "rank": 5,
     "player": "Geny Catamo",
     "team": "စပေါ်တင်း",
     "assists": 4,
     "pid": "296969"
    },
    {
-    "rank": 5,
+    "rank": 6,
     "player": "Mathias de Amorim",
     "team": "ဖာမလီကောင်",
     "assists": 3,
     "pid": "368008"
    },
    {
-    "rank": 6,
+    "rank": 7,
     "player": "Eddy Doué",
     "team": "အက်စ်ထရီလာ",
     "assists": 3,
     "pid": "418107"
    },
    {
-    "rank": 7,
+    "rank": 8,
+    "player": "Vangelis Pavlidis",
+    "team": "ဘန်ဖီကာ",
+    "assists": 3,
+    "pid": "220819"
+   },
+   {
+    "rank": 9,
     "player": "Diogo Bezerra",
     "team": "ရီယိုအဲဗီ",
     "assists": 3,
     "pid": "335153"
    },
    {
-    "rank": 8,
+    "rank": 10,
     "player": "Gabri Veiga",
     "team": "ပေါ်တို",
     "assists": 3,
     "pid": "307381"
-   },
-   {
-    "rank": 9,
-    "player": "Gianluca Prestianni",
-    "team": "ဘန်ဖီကာ",
-    "assists": 3,
-    "pid": "339191"
-   },
-   {
-    "rank": 10,
-    "player": "Vangelis Pavlidis",
-    "team": "ဘန်ဖီကာ",
-    "assists": 3,
-    "pid": "220819"
    }
   ],
   "uefa.champions": [
