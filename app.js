@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 72; // bump on every deploy
+const APP_VERSION = 73; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "9AO98_Z4Zok", title: "Fleetwood Town vs Arsenal 1-1 (PEN 5-3) HIGHLIGHTS & Penalties - EFL Carabao Cup 2026/27", channel: "Dollar VFX", date: "Oct 28, 2026" },
     { id: "S2J_DtpYgRs", title: "Fleetwood DUMP Arsenal out of Carabao Cup! | Fleetwood 1-1 Arsenal | Carabao Cup Highlights", channel: "Sky Sports Football", date: "Oct 28, 2026" },
     { id: "r7f2Hvt0tF0", title: "Arsenal KNOCKED OUT by Fleetwood! Fleetwood Town 1-1 Arsenal Highlights", channel: "The Football Terrace", date: "Oct 28, 2026" },
     { id: "hXNKrvJH2q8", title: "ATLÉTICO DE MADRID 1 - 0 RC DEPORTIVO | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 25, 2026" },
@@ -939,8 +940,6 @@ async function renderHighlights() {
     { id: "pbdVNLFnrmg", title: "NAPOLI 3-3 ROMA | SERIE A HIGHLIGHTS 2026-27", channel: "AS Roma", date: "Oct 26, 2026" },
     { id: "jE0OlCyHgHY", title: "7 MINUTI. THURAM. ZIELINSKI. 3 PUNTI. 👏 | INTER 2-1 FIORENTINA | EXTENDED HIGHLIGHTS 📹🖤💙", channel: "Inter", date: "Oct 26, 2026" },
     { id: "acj8Nqr1JZ0", title: "Jack of all trades! 🃏 | Aston Villa 2-1 Manchester City| Premier League Extended Highlights", channel: "Aston Villa Football Club", date: "Oct 26, 2026" },
-    { id: "0VAo-N6PlKo", title: "Manchester United 0-3 Bournemouth | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 26, 2026" },
-    { id: "3BTHiTqZYlw", title: "Beier Strike Wins It! | BORUSSIA DORTMUND - EINTRACHT FRANKFURT | Highlights | Matchday 7 Bundesliga", channel: "Bundesliga", date: "Oct 25, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
