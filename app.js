@@ -900,6 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "KO_V5F24ns8", title: "Manchester United vs Bournemouth 0-3 HIGHLIGHTS - Evanilson & Tavernier Goals! - Premier League 2026", channel: "Dollar VFX", date: "Oct 25, 2026" },
+    { id: "M-8CaEzbs_Q", title: "SC Freiburg vs FC Bayern Munich 1-3 HIGHLIGHTS • Micahel Olise GOAL! • Bundesliga 2026", channel: "Dollar VFX", date: "Oct 25, 2026" },
     { id: "VzRr1zWFl8U", title: "FC BARCELONA 1 - 2 REAL MADRID | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 26, 2026" },
     { id: "RE5whmyDkRM", title: "Arsenal 2-0 Everton | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 24, 2026" },
     { id: "SPMb5AgVFik", title: "PARIS SAINT-GERMAIN - OLYMPIQUE LYONNAIS (2-0) | Week 8 - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Oct 26, 2026" },
