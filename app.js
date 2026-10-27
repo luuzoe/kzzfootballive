@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "oQ801H0LOT8", title: "Extended Highlights: Liverpool 2-0 Brighton | Premier League Win At Anfield", channel: "Liverpool FC", date: "Oct 26, 2026" },
     { id: "Lk6_SzsCvHQ", title: "Reds move into top four after home win 📈 | Liverpool 2-0 Brighton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 26, 2026" },
     { id: "dOFXQHN6mgs", title: "Mayulu et Godts OFFRENT la VICTOIRE au PSG contre l'OL | 8ème journée - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Oct 26, 2026" },
     { id: "V8Q5cQuuOso", title: "Highlights: Liverpool 2-0 Brighton", channel: "Liverpool FC", date: "Oct 26, 2026" },
