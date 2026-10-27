@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 64; // bump on every deploy
+const APP_VERSION = 65; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,6 +900,9 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "SPMb5AgVFik", title: "PARIS SAINT-GERMAIN - OLYMPIQUE LYONNAIS (2-0) | Week 8 - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Oct 26, 2026" },
+    { id: "M4cFytVHg4E", title: "Inter Pull Off Crazy Late Comeback! | INTER-FIORENTINA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 26, 2026" },
+    { id: "ZFFIIAH77VM", title: "Beier Scores a Stunning Goal for the Win | Highlights | BVB vs. Eintracht Frankfurt 1-0", channel: "Borussia Dortmund", date: "Oct 25, 2026" },
     { id: "oQ801H0LOT8", title: "Extended Highlights: Liverpool 2-0 Brighton | Premier League Win At Anfield", channel: "Liverpool FC", date: "Oct 26, 2026" },
     { id: "Lk6_SzsCvHQ", title: "Reds move into top four after home win 📈 | Liverpool 2-0 Brighton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 26, 2026" },
     { id: "dOFXQHN6mgs", title: "Mayulu et Godts OFFRENT la VICTOIRE au PSG contre l'OL | 8ème journée - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Oct 26, 2026" },
