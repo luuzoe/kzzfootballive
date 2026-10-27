@@ -900,7 +900,6 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-    { id: "qjgYBmvZuW4", title: "Arsenal 2-0 Everton | Premier League Highlights | Konsa & Gabriel Score", channel: "Futbol Bruh!", date: "Oct 26, 2026" },
     { id: "9AO98_Z4Zok", title: "Fleetwood Town vs Arsenal 1-1 (PEN 5-3) HIGHLIGHTS & Penalties - EFL Carabao Cup 2026/27", channel: "Dollar VFX", date: "Oct 28, 2026" },
     { id: "S2J_DtpYgRs", title: "Fleetwood DUMP Arsenal out of Carabao Cup! | Fleetwood 1-1 Arsenal | Carabao Cup Highlights", channel: "Sky Sports Football", date: "Oct 28, 2026" },
     { id: "r7f2Hvt0tF0", title: "Arsenal KNOCKED OUT by Fleetwood! Fleetwood Town 1-1 Arsenal Highlights", channel: "The Football Terrace", date: "Oct 28, 2026" },
