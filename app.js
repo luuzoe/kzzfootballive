@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "tkfO80xxSYU", title: "Matchwinner Gets RED CARD! | HOFFENHEIM - BAYER 04 LEVERKUSEN | Highlights | Matchday 7 – Bundesliga", channel: "Bundesliga", date: "Oct 25, 2026" },
     { id: "qCPHmHTEBJM", title: "Arsenal FC vs. Everton FC | PREMIER LEAGUE HIGHLIGHTS | Week 8 | Fubo Canada", channel: "Fubo", date: "Oct 24, 2026" },
     { id: "KO_V5F24ns8", title: "Manchester United vs Bournemouth 0-3 HIGHLIGHTS - Evanilson & Tavernier Goals! - Premier League 2026", channel: "Dollar VFX", date: "Oct 25, 2026" },
     { id: "M-8CaEzbs_Q", title: "SC Freiburg vs FC Bayern Munich 1-3 HIGHLIGHTS • Micahel Olise GOAL! • Bundesliga 2026", channel: "Dollar VFX", date: "Oct 25, 2026" },
