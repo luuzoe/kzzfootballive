@@ -900,6 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "3jBqg4s6xbk", title: "Olise and Saibari cooking in 7 goals show 🏆⚽ FC Bayern vs. 1. FC Magdeburg| DFB-Pokal Highlights", channel: "FC Bayern München", date: "Oct 28, 2026" },
+    { id: "nvdB39ia44Q", title: "Bayer Leverkusen - Nürnberg | 5-2 | Highlights | DFB-Pokal 2026-27 | leverkusen nurnberg", channel: "Sponitor", date: "Oct 28, 2026" },
     { id: "oeb9r95oO88", title: "Liverpool 1-1 Chelsea (6-5 on pens*) | 26/27 | Carabao Cup - Game highlights | SportyTV", channel: "SportyTV", date: "Oct 28, 2026" },
     { id: "9xbIkz7ALQE", title: "Rulli the hero saves TWO as City win on pens! | Man City 2-2 (4-3) Brighton | Carabao Cup Highlights", channel: "Sky Sports Football", date: "Oct 28, 2026" },
     { id: "yOoZ9xBaWIY", title: "Napoli Dominant at the Brianteo | MONZA-NAPOLI | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
@@ -925,8 +927,6 @@ async function renderHighlights() {
     { id: "H_S6QJQAuio", title: "McTominay scores twice in six-goal thriller! | Napoli 3-3 Roma | Serie A Highlights", channel: "Sky Sports Football", date: "Oct 26, 2026" },
     { id: "qSmpCizhtkw", title: "Chelsea 0-2 Spurs | HIGHLIGHTS - Extended | Premier League 2026/27", channel: "Chelsea FC", date: "Oct 26, 2026" },
     { id: "JAjW2u5u4DE", title: "INTER-FIORENTINA 2-1 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 26, 2026" },
-    { id: "yCyiGPu7ryU", title: "Chelsea 0-2 Tottenham | Premier League Match Highlights", channel: "VANTA", date: "Oct 26, 2026" },
-    { id: "W7uPt3FJD0k", title: "Pulisic e Hutchinson a segno! | Udinese 0-2 Milan | Highlights | Serie A 2026/27", channel: "AC Milan", date: "Oct 26, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
