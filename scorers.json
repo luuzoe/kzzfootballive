@@ -155,24 +155,24 @@
    },
    {
     "rank": 2,
+    "player": "Donyell Malen",
+    "team": "ရိုးမား",
+    "goals": 7,
+    "pid": "259481"
+   },
+   {
+    "rank": 3,
     "player": "Gustavo Varela",
     "team": "မွန်ဇာ",
     "goals": 7,
     "pid": "384482"
    },
    {
-    "rank": 3,
+    "rank": 4,
     "player": "Nikola Krstovic",
     "team": "အတ္တလန္တာ",
     "goals": 6,
     "pid": "258158"
-   },
-   {
-    "rank": 4,
-    "player": "Donyell Malen",
-    "team": "ရိုးမား",
-    "goals": 6,
-    "pid": "259481"
    },
    {
     "rank": 5,
@@ -183,38 +183,38 @@
    },
    {
     "rank": 6,
+    "player": "Daniel Maldini",
+    "team": "ကာဂလီယာရီ",
+    "goals": 5,
+    "pid": "290545"
+   },
+   {
+    "rank": 7,
     "player": "Marcus Thuram",
     "team": "အင်တာ",
     "goals": 5,
     "pid": "217331"
    },
    {
-    "rank": 7,
-    "player": "Daniel Maldini",
-    "team": "ကာဂလီယာရီ",
+    "rank": 8,
+    "player": "Tijjani Noslin",
+    "team": "လာဇီယို",
     "goals": 4,
-    "pid": "290545"
+    "pid": "323113"
    },
    {
-    "rank": 8,
+    "rank": 9,
+    "player": "Ché Adams",
+    "team": "တိုရီနို",
+    "goals": 4,
+    "pid": "213725"
+   },
+   {
+    "rank": 10,
     "player": "Adrien Rabiot",
     "team": "အေစီမီလန်",
     "goals": 4,
     "pid": "176203"
-   },
-   {
-    "rank": 9,
-    "player": "Lautaro Martínez",
-    "team": "အင်တာ",
-    "goals": 4,
-    "pid": "219713"
-   },
-   {
-    "rank": 10,
-    "player": "Jurgen Ekkelenkamp",
-    "team": "အူဒီနီဆီ",
-    "goals": 3,
-    "pid": "270817"
    }
   ],
   "ger.1": [
@@ -798,59 +798,59 @@
   "ita.1": [
    {
     "rank": 1,
+    "player": "Mattia Zaccagni",
+    "team": "လာဇီယို",
+    "assists": 5,
+    "pid": "204669"
+   },
+   {
+    "rank": 2,
     "player": "Andy Diouf",
     "team": "အင်တာ",
     "assists": 4,
     "pid": "319167"
    },
    {
-    "rank": 2,
+    "rank": 3,
     "player": "Paulo Dybala",
     "team": "ရိုးမား",
     "assists": 4,
     "pid": "164839"
    },
    {
-    "rank": 3,
-    "player": "Mattia Zaccagni",
-    "team": "လာဇီယို",
-    "assists": 3,
-    "pid": "204669"
-   },
-   {
     "rank": 4,
-    "player": "Romano Schmid",
-    "team": "ဖရိုစီနိုနီ",
-    "assists": 3,
-    "pid": "238296"
-   },
-   {
-    "rank": 5,
     "player": "Nuno Tavares",
     "team": "လာဇီယို",
     "assists": 3,
     "pid": "288901"
    },
    {
+    "rank": 5,
+    "player": "Nico Paz",
+    "team": "ကိုမို",
+    "assists": 3,
+    "pid": "337970"
+   },
+   {
     "rank": 6,
+    "player": "Romano Schmid",
+    "team": "ဖရိုစီနိုနီ",
+    "assists": 3,
+    "pid": "238296"
+   },
+   {
+    "rank": 7,
     "player": "Juan Miranda",
     "team": "ဘိုလော့နာ",
     "assists": 3,
     "pid": "261616"
    },
    {
-    "rank": 7,
+    "rank": 8,
     "player": "Adrien Rabiot",
     "team": "အေစီမီလန်",
     "assists": 3,
     "pid": "176203"
-   },
-   {
-    "rank": 8,
-    "player": "Farès Ghedjemis",
-    "team": "ဖရိုစီနိုနီ",
-    "assists": 3,
-    "pid": "356536"
    },
    {
     "rank": 9,
@@ -861,10 +861,10 @@
    },
    {
     "rank": 10,
-    "player": "Danilo Veiga",
-    "team": "လက်ချီ",
-    "assists": 2,
-    "pid": "344844"
+    "player": "Farès Ghedjemis",
+    "team": "ဖရိုစီနိုနီ",
+    "assists": 3,
+    "pid": "356536"
    }
   ],
   "ger.1": [
