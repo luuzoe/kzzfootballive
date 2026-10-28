@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "6nRHxAXVYv4", title: "Fleetwood Town Knock Arsenal Out of the Carabao Cup to Reach The Quarter-Finals | Highlights", channel: "FanCode", date: "Oct 28, 2026" },
     { id: "NQqiEsVALss", title: "Jackson BRACE gives City first loss! 🟣 | Aston Villa 2-1 Manchester City | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 26, 2026" },
     { id: "Bi2Tiuj5kHw", title: "HIGHLIGHTS - PSG Dedicate Win to Kvaratskhelia | PSG v Lyon | Ligue 1 x ITV Sport", channel: "ITV Sport", date: "Oct 26, 2026" },
     { id: "mqAA12-3hIA", title: "THURAM AND ZIELIŃSKI COMPLETE AN INCREDIBLE COMEBACK 🤯 | INTER 2-1 FIORENTINA | HIGHLIGHTS 🖤💙", channel: "Inter", date: "Oct 26, 2026" },
@@ -908,7 +909,6 @@ async function renderHighlights() {
     { id: "iYUD6EaBkcA", title: "Konsa and Gabriel send Gunners level at the top! | Arsenal 2-0 Everton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
     { id: "jxZMe_lCTfU", title: "Borussia Dortmund vs Werder Bremen | Highlights | DFB Pokal", channel: "Borussia Dortmund", date: "Oct 28, 2026" },
     { id: "e_OWBXesX0w", title: "Borussia Dortmund vs Werder Bremen 3-2 HIGHLIGHTS • Marcel Sabitzer GOAL! - DFB-Pokal 2026/27", channel: "Dollar VFX", date: "Oct 28, 2026" },
-    { id: "9AO98_Z4Zok", title: "Fleetwood Town vs Arsenal 1-1 (PEN 5-3) HIGHLIGHTS & Penalties - EFL Carabao Cup 2026/27", channel: "Dollar VFX", date: "Oct 28, 2026" },
     { id: "S2J_DtpYgRs", title: "Fleetwood DUMP Arsenal out of Carabao Cup! | Fleetwood 1-1 Arsenal | Carabao Cup Highlights", channel: "Sky Sports Football", date: "Oct 28, 2026" },
     { id: "TNnLdOwJwVk", title: "BIGGEST UPSET EVER?! | Fleetwood Town v Arsenal Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
     { id: "hXNKrvJH2q8", title: "ATLÉTICO DE MADRID 1 - 0 RC DEPORTIVO | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 25, 2026" },
