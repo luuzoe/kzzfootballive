@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "UhTAEyBt8_g", title: "Liverpool vs Chelsea 1-1 (6-5 Pens) Extended Highlights & Goals 2026", channel: "88th Footy", date: "Oct 28, 2026" },
     { id: "3jBqg4s6xbk", title: "Olise and Saibari cooking in 7 goals show 🏆⚽ FC Bayern vs. 1. FC Magdeburg| DFB-Pokal Highlights", channel: "FC Bayern München", date: "Oct 28, 2026" },
     { id: "nvdB39ia44Q", title: "Bayer Leverkusen - Nürnberg | 5-2 | Highlights | DFB-Pokal 2026-27 | leverkusen nurnberg", channel: "Sponitor", date: "Oct 28, 2026" },
     { id: "oeb9r95oO88", title: "Liverpool 1-1 Chelsea (6-5 on pens*) | 26/27 | Carabao Cup - Game highlights | SportyTV", channel: "SportyTV", date: "Oct 28, 2026" },
