@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-27T08:53:47+06:30",
+ "updated": "2026-10-28T08:53:53+06:30",
  "summary": {
-  "resolved": 55,
-  "correct": 26,
+  "resolved": 58,
+  "correct": 29,
   "wrong": 29,
-  "accuracy_pct": 47.3,
+  "accuracy_pct": 50.0,
   "not_found": 2
  },
  "results": [
@@ -537,6 +537,33 @@
    "league": "La Liga",
    "pick_en": "Sevilla win",
    "score": "2-0",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-27",
+   "home": "Sassuolo",
+   "away": "Lazio",
+   "league": "Serie A",
+   "pick_en": "Lazio win",
+   "score": "2-6",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-27",
+   "home": "Roma",
+   "away": "Cagliari",
+   "league": "Serie A",
+   "pick_en": "Roma win",
+   "score": "4-2",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-27",
+   "home": "Torino",
+   "away": "Como",
+   "league": "Serie A",
+   "pick_en": "Como win",
+   "score": "1-3",
    "outcome": "correct"
   }
  ]
