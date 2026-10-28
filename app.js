@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "mqAA12-3hIA", title: "THURAM AND ZIELIŃSKI COMPLETE AN INCREDIBLE COMEBACK 🤯 | INTER 2-1 FIORENTINA | HIGHLIGHTS 🖤💙", channel: "Inter", date: "Oct 26, 2026" },
     { id: "YD9G7iuZGjw", title: "Tel scores a BEAUTY at the Bridge! | Chelsea 0-2 Tottenham | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 26, 2026" },
     { id: "5_VzTMIAGhk", title: "Bournemouth pile more misery on Carrick! | Man United 0-3 Bournemouth | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 26, 2026" },
     { id: "iYUD6EaBkcA", title: "Konsa and Gabriel send Gunners level at the top! | Arsenal 2-0 Everton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
