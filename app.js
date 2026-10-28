@@ -900,6 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "YD9G7iuZGjw", title: "Tel scores a BEAUTY at the Bridge! | Chelsea 0-2 Tottenham | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 26, 2026" },
+    { id: "5_VzTMIAGhk", title: "Bournemouth pile more misery on Carrick! | Man United 0-3 Bournemouth | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 26, 2026" },
     { id: "iYUD6EaBkcA", title: "Konsa and Gabriel send Gunners level at the top! | Arsenal 2-0 Everton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
     { id: "jxZMe_lCTfU", title: "Borussia Dortmund vs Werder Bremen | Highlights | DFB Pokal", channel: "Borussia Dortmund", date: "Oct 28, 2026" },
     { id: "e_OWBXesX0w", title: "Borussia Dortmund vs Werder Bremen 3-2 HIGHLIGHTS • Marcel Sabitzer GOAL! - DFB-Pokal 2026/27", channel: "Dollar VFX", date: "Oct 28, 2026" },
@@ -923,7 +925,6 @@ async function renderHighlights() {
     { id: "vMNzBOLU9ns", title: "Super-Sub Scores Winner! | BORUSSIA DORTMUND - EINTRACHT FRANKFURT | Highlights | MD 7 Bundesliga", channel: "Bundesliga", date: "Oct 25, 2026" },
     { id: "qDNTweAhMhA", title: "Upamecano's Incredible Box-To-Box Solo | SC FREIBURG - FC BAYERN | Highlights | MD7 Bundesliga 26/27", channel: "Bundesliga", date: "Oct 25, 2026" },
     { id: "_Xx99EQa2sk", title: "McKENNIE & DOUGLAS LUIZ SEAL THE WIN! 🔥 | Lecce 0-2 Juventus Highlights | Serie A", channel: "Juventus", date: "Oct 26, 2026" },
-    { id: "d1dwx-TEiwA", title: "Udinese vs AC Milan 0-2 HIGHLIGHTS - Pulisic & Hutchinson Goals! - Serie A 2026/27", channel: "Dollar VFX", date: "Oct 26, 2026" },
     { id: "tkfO80xxSYU", title: "Matchwinner Gets RED CARD! | HOFFENHEIM - BAYER 04 LEVERKUSEN | Highlights | Matchday 7 – Bundesliga", channel: "Bundesliga", date: "Oct 25, 2026" },
     { id: "KO_V5F24ns8", title: "Manchester United vs Bournemouth 0-3 HIGHLIGHTS - Evanilson & Tavernier Goals! - Premier League 2026", channel: "Dollar VFX", date: "Oct 25, 2026" },
     { id: "M-8CaEzbs_Q", title: "SC Freiburg vs FC Bayern Munich 1-3 HIGHLIGHTS • Micahel Olise GOAL! • Bundesliga 2026", channel: "Dollar VFX", date: "Oct 25, 2026" },
@@ -938,7 +939,6 @@ async function renderHighlights() {
     { id: "QIGNqxmBcIQ", title: "FC BARCELONA 1 vs 2 REAL MADRID | LALIGA 2026/27 MD10 🔵🔴", channel: "FC Barcelona", date: "Oct 26, 2026" },
     { id: "SVet7Qh28xI", title: "Extended Highlights: Rayan stars as Cherries record third 3-0 victory at Man United in four seasons", channel: "AFC Bournemouth", date: "Oct 26, 2026" },
     { id: "LjbC_fKeUmE", title: "Kramarić Strikes As Super-Sub! | HOFFENHEIM - BAYER 04 LEVERKUSEN | Highlights | MD 7 – Bundesliga", channel: "Bundesliga", date: "Oct 25, 2026" },
-    { id: "vXmIkwyInwo", title: "PSG vs Lyon 2-0 • RÉSUMÉ • But de Godts & Mayulu • Ligue 1 2026/27", channel: "Dollar VFX", date: "Oct 26, 2026" },
     { id: "T5B3ZVTvrhM", title: "HIGHLIGHTS | FC Barcelona 1-2 Real Madrid | LaLiga", channel: "Real Madrid", date: "Oct 26, 2026" },
     { id: "pbdVNLFnrmg", title: "NAPOLI 3-3 ROMA | SERIE A HIGHLIGHTS 2026-27", channel: "AS Roma", date: "Oct 26, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
