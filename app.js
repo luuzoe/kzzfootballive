@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "iYUD6EaBkcA", title: "Konsa and Gabriel send Gunners level at the top! | Arsenal 2-0 Everton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
     { id: "jxZMe_lCTfU", title: "Borussia Dortmund vs Werder Bremen | Highlights | DFB Pokal", channel: "Borussia Dortmund", date: "Oct 28, 2026" },
     { id: "e_OWBXesX0w", title: "Borussia Dortmund vs Werder Bremen 3-2 HIGHLIGHTS • Marcel Sabitzer GOAL! - DFB-Pokal 2026/27", channel: "Dollar VFX", date: "Oct 28, 2026" },
     { id: "9AO98_Z4Zok", title: "Fleetwood Town vs Arsenal 1-1 (PEN 5-3) HIGHLIGHTS & Penalties - EFL Carabao Cup 2026/27", channel: "Dollar VFX", date: "Oct 28, 2026" },
