@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "Goxa4KQJup4", title: "First Half Goals Bring Unexpected Outcome | GENOA-JUVENTUS | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
     { id: "h1kj0vUm9jM", title: "Venezia Fall with Two Own Goals | VENEZIA-INTER | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
     { id: "QIGNqxmBcIQ", title: "FC BARCELONA 1 vs 2 REAL MADRID | LALIGA 2026/27 MD10 🔵🔴", channel: "FC Barcelona", date: "Oct 25, 2026" },
     { id: "ZlvpQ5cVrn0", title: "Mbangula's Hat-trick Stuns San Siro! | MILAN-BOLOGNA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
@@ -911,7 +912,6 @@ async function renderHighlights() {
     { id: "mqAA12-3hIA", title: "THURAM AND ZIELIŃSKI COMPLETE AN INCREDIBLE COMEBACK 🤯 | INTER 2-1 FIORENTINA | HIGHLIGHTS 🖤💙", channel: "Inter", date: "Oct 26, 2026" },
     { id: "YD9G7iuZGjw", title: "Tel scores a BEAUTY at the Bridge! | Chelsea 0-2 Tottenham | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 26, 2026" },
     { id: "5_VzTMIAGhk", title: "Bournemouth pile more misery on Carrick! | Man United 0-3 Bournemouth | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 26, 2026" },
-    { id: "iYUD6EaBkcA", title: "Konsa and Gabriel send Gunners level at the top! | Arsenal 2-0 Everton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 24, 2026" },
     { id: "jxZMe_lCTfU", title: "Borussia Dortmund vs Werder Bremen | Highlights | DFB Pokal", channel: "Borussia Dortmund", date: "Oct 28, 2026" },
     { id: "e_OWBXesX0w", title: "Borussia Dortmund vs Werder Bremen 3-2 HIGHLIGHTS • Marcel Sabitzer GOAL! - DFB-Pokal 2026/27", channel: "Dollar VFX", date: "Oct 28, 2026" },
     { id: "S2J_DtpYgRs", title: "Fleetwood DUMP Arsenal out of Carabao Cup! | Fleetwood 1-1 Arsenal | Carabao Cup Highlights", channel: "Sky Sports Football", date: "Oct 28, 2026" },
