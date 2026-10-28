@@ -900,7 +900,6 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-    { id: "tJPhiMgJyQo", title: "Liverpool vs Chelsea 1-1 (PEN 6-5) HIGHLIGHTS & Penalties - EFL Carabao Cup 2026/27", channel: "Dollar VFX", date: "Oct 28, 2026" },
     { id: "oeb9r95oO88", title: "Liverpool 1-1 Chelsea (6-5 on pens*) | 26/27 | Carabao Cup - Game highlights | SportyTV", channel: "SportyTV", date: "Oct 28, 2026" },
     { id: "9xbIkz7ALQE", title: "Rulli the hero saves TWO as City win on pens! | Man City 2-2 (4-3) Brighton | Carabao Cup Highlights", channel: "Sky Sports Football", date: "Oct 28, 2026" },
     { id: "yOoZ9xBaWIY", title: "Napoli Dominant at the Brianteo | MONZA-NAPOLI | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
