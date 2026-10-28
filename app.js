@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 74; // bump on every deploy
+const APP_VERSION = 75; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,6 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "h1kj0vUm9jM", title: "Venezia Fall with Two Own Goals | VENEZIA-INTER | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
+    { id: "QIGNqxmBcIQ", title: "FC BARCELONA 1 vs 2 REAL MADRID | LALIGA 2026/27 MD10 🔵🔴", channel: "FC Barcelona", date: "Oct 25, 2026" },
     { id: "ZlvpQ5cVrn0", title: "Mbangula's Hat-trick Stuns San Siro! | MILAN-BOLOGNA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
     { id: "TXmXNm_eMQ8", title: "Inter Milan vs Venezia 2-0 - All Goals & Extended Highlights 2026", channel: "Uddokta Kotha", date: "Oct 28, 2026" },
     { id: "TovUeAQkaFc", title: "Pulisic and Hutchinson Shine in Udine | UDINESE-MILAN | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 26, 2026" },
@@ -926,8 +928,6 @@ async function renderHighlights() {
     { id: "NkqLjSFaKPQ", title: "HIGHLIGHTS | Aston Villa 2-1 Man City | The Blues left frustrated at Villa Park", channel: "Man City", date: "Oct 25, 2026" },
     { id: "ND36lZLmXlU", title: "ALL THE ACTION FROM LECCE-JUVENTUS | Extended Highlights Serie A | McKennie & Douglas Luiz Goals", channel: "Juventus", date: "Oct 26, 2026" },
     { id: "M5aYzSvorSE", title: "Olise Punishes Late Blunder! | SC FREIBURG - FC BAYERN | Highlights | MD 7 – Bundesliga 2026/27", channel: "Bundesliga", date: "Oct 25, 2026" },
-    { id: "0XtlTlbcWv4", title: "McKennie Strikes First of the Season | LECCE-JUVENTUS | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 26, 2026" },
-    { id: "yNLAdQ3BguU", title: "Resumen del Atlético de Madrid 1 - 0 RC Deportivo", channel: "RC Deportivo", date: "Oct 25, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
