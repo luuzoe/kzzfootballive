@@ -902,7 +902,7 @@ async function renderHighlights() {
   const videos = [
     { id: "9AO98_Z4Zok", title: "Fleetwood Town vs Arsenal 1-1 (PEN 5-3) HIGHLIGHTS & Penalties - EFL Carabao Cup 2026/27", channel: "Dollar VFX", date: "Oct 28, 2026" },
     { id: "S2J_DtpYgRs", title: "Fleetwood DUMP Arsenal out of Carabao Cup! | Fleetwood 1-1 Arsenal | Carabao Cup Highlights", channel: "Sky Sports Football", date: "Oct 28, 2026" },
-    { id: "r7f2Hvt0tF0", title: "Arsenal KNOCKED OUT by Fleetwood! Fleetwood Town 1-1 Arsenal Highlights", channel: "The Football Terrace", date: "Oct 28, 2026" },
+    { id: "TNnLdOwJwVk", title: "BIGGEST UPSET EVER?! | Fleetwood Town v Arsenal Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
     { id: "hXNKrvJH2q8", title: "ATLÉTICO DE MADRID 1 - 0 RC DEPORTIVO | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 25, 2026" },
     { id: "xac6qY6d9pI", title: "EXTENDED HIGHLIGHTS | Aston Villa 2-1 Man City | A first league setback for the Blues", channel: "Man City", date: "Oct 26, 2026" },
     { id: "j5WVWXRVZec", title: "Udinese 0-2 Milan | Extended Highlights 2026/27 | Pulisic Scores, Hutchinson Nets His First!", channel: "AC Milan", date: "Oct 26, 2026" },
