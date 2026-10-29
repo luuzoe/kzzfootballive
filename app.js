@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "RAOvzCyJ_zU", title: "Extended Highlights: Town (5) 1-1 (3) Arsenal", channel: "Fleetwood Town FC", date: "Oct 28, 2026" },
 { id: "eBLnW0Y3K24", title: "MILAN-BOLOGNA 2-4 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 29, 2026" },
 { id: "PG3mi1ly6HM", title: "TRE PUNTI IN DUE MINUTI! 🔥 | VENEZIA 0-2 INTER | EXTENDED HIGHLIGHTS 📹🖤💙", channel: "Inter", date: "Oct 29, 2026" },
 { id: "SPMb5AgVFik", title: "PARIS SAINT-GERMAIN - OLYMPIQUE LYONNAIS (2-0) | Week 8 - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Oct 26, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
 { id: "ZlvpQ5cVrn0", title: "Mbangula's Hat-trick Stuns San Siro! | MILAN-BOLOGNA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
 { id: "6nRHxAXVYv4", title: "Fleetwood Town Knock Arsenal Out of the Carabao Cup to Reach The Quarter-Finals | Highlights", channel: "FanCode", date: "Oct 28, 2026" },
 { id: "YD9G7iuZGjw", title: "Tel scores a BEAUTY at the Bridge! | Chelsea 0-2 Tottenham | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 26, 2026" },
-{ id: "jxZMe_lCTfU", title: "Borussia Dortmund vs Werder Bremen | Highlights | DFB Pokal", channel: "Borussia Dortmund", date: "Oct 28, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
