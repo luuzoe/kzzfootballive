@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "tj6jb3BqUMw", title: "MONZA-NAPOLI 1-4 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 29, 2026" },
 { id: "jxZMe_lCTfU", title: "Borussia Dortmund vs Werder Bremen | Highlights | DFB Pokal", channel: "Borussia Dortmund", date: "Oct 27, 2026" },
 { id: "c1efUzzL5zE", title: "Al Nassr vs Al-Kholood 5-3 All Goals & Extended Highlights | Cristiano Ronaldo hat trick", channel: "Premium Match", date: "Oct 29, 2026" },
 { id: "RAOvzCyJ_zU", title: "Extended Highlights: Town (5) 1-1 (3) Arsenal", channel: "Fleetwood Town FC", date: "Oct 28, 2026" },
@@ -916,7 +917,6 @@ async function renderHighlights() {
 { id: "TNnLdOwJwVk", title: "BIGGEST UPSET EVER?! | Fleetwood Town v Arsenal Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
 { id: "T5B3ZVTvrhM", title: "HIGHLIGHTS | FC Barcelona 1-2 Real Madrid | LaLiga", channel: "Real Madrid", date: "Oct 26, 2026" },
 { id: "OKSe5Kyx5vE", title: "Genoa vs Juventus 2-0 All Goals & Football Highlights 2026", channel: "UzbekMc", date: "Oct 28, 2026" },
-{ id: "HeLlGiGbrt0", title: "Napoli vs Monza 4-1 All Goals & Extended Highlights 2026", channel: "Uddokta Kotha", date: "Oct 28, 2026" },
 { id: "6Pn5qnuCVg8", title: "Highlights: Liverpool 1-1 Chelsea | Reds win on penalties!", channel: "Liverpool FC", date: "Oct 28, 2026" },
 { id: "e9T4cngiGaw", title: "HOLDERS TAKEN TO PENALTIES | Manchester City v Brighton and Hove Albion Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
 { id: "jcZO-UP5e-E", title: "VENICE CONQUERED: THE 3 POINTS ARE OURS ✅ | VENEZIA 0-2 INTER | HIGHLIGHTS 🖤💙", channel: "Inter", date: "Oct 28, 2026" },
