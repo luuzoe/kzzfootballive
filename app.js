@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 76; // bump on every deploy
+const APP_VERSION = 77; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "eBLnW0Y3K24", title: "MILAN-BOLOGNA 2-4 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 29, 2026" },
 { id: "PG3mi1ly6HM", title: "TRE PUNTI IN DUE MINUTI! 🔥 | VENEZIA 0-2 INTER | EXTENDED HIGHLIGHTS 📹🖤💙", channel: "Inter", date: "Oct 29, 2026" },
 { id: "SPMb5AgVFik", title: "PARIS SAINT-GERMAIN - OLYMPIQUE LYONNAIS (2-0) | Week 8 - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Oct 26, 2026" },
 { id: "rhKdukpxrv4", title: "GENOA-JUVENTUS Highlights | Serie A", channel: "Juventus", date: "Oct 28, 2026" },
@@ -911,7 +912,6 @@ async function renderHighlights() {
 { id: "69_H-DLwg1A", title: "DRAMATIC SHOOTOUT! | Liverpool v Chelsea Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
 { id: "_e74c-a1r1o", title: "Liverpool 1-1 Chelsea (6-5 pens) | HIGHLIGHTS | Carabao Cup 2026/27", channel: "Chelsea Football Club", date: "Oct 28, 2026" },
 { id: "TNnLdOwJwVk", title: "BIGGEST UPSET EVER?! | Fleetwood Town v Arsenal Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
-{ id: "8k20nJCgwEI", title: "AC Milan vs Bologna 2-4 Dramatic Highlights & All Goals 2026", channel: "UzbekMc", date: "Oct 28, 2026" },
 { id: "T5B3ZVTvrhM", title: "HIGHLIGHTS | FC Barcelona 1-2 Real Madrid | LaLiga", channel: "Real Madrid", date: "Oct 26, 2026" },
 { id: "OKSe5Kyx5vE", title: "Genoa vs Juventus 2-0 All Goals & Football Highlights 2026", channel: "UzbekMc", date: "Oct 28, 2026" },
 { id: "HeLlGiGbrt0", title: "Napoli vs Monza 4-1 All Goals & Extended Highlights 2026", channel: "Uddokta Kotha", date: "Oct 28, 2026" },
