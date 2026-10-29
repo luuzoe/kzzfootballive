@@ -900,6 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "rhKdukpxrv4", title: "GENOA-JUVENTUS Highlights | Serie A", channel: "Juventus", date: "Oct 28, 2026" },
+{ id: "yOwp-HfhC_4", title: "Highlights Serie A | Non basta la doppietta di Cisse, sconfitta a San Siro | Milan-Bologna 2-4", channel: "AC Milan", date: "Oct 28, 2026" },
 { id: "mYFGBj8xHF0", title: "Manchester City 2-2 Brighton (4-3 pens) | Highlights | Carabao Cup 2026/27", channel: "SCTV Thể Thao Official", date: "Oct 28, 2026" },
 { id: "Y_xtRG-YUj0", title: "MONZA 1 - 4 NAPOLI | HIGHLIGHTS SERIE A ENILIVE", channel: "AC Monza", date: "Oct 28, 2026" },
 { id: "BeSlJb_BwEM", title: "Bayern Munich vs Magdeburg 6-1 HIGHLIGHTS - DFB-Pokal 2026/27", channel: "Dollar VFX", date: "Oct 28, 2026" },
@@ -923,8 +925,6 @@ async function renderHighlights() {
 { id: "ZlvpQ5cVrn0", title: "Mbangula's Hat-trick Stuns San Siro! | MILAN-BOLOGNA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
 { id: "TXmXNm_eMQ8", title: "Inter Milan vs Venezia 2-0 - All Goals & Extended Highlights 2026", channel: "Uddokta Kotha", date: "Oct 28, 2026" },
 { id: "6nRHxAXVYv4", title: "Fleetwood Town Knock Arsenal Out of the Carabao Cup to Reach The Quarter-Finals | Highlights", channel: "FanCode", date: "Oct 28, 2026" },
-{ id: "NQqiEsVALss", title: "Jackson BRACE gives City first loss! 🟣 | Aston Villa 2-1 Manchester City | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 26, 2026" },
-{ id: "Bi2Tiuj5kHw", title: "HIGHLIGHTS - PSG Dedicate Win to Kvaratskhelia | PSG v Lyon | Ligue 1 x ITV Sport", channel: "ITV Sport", date: "Oct 26, 2026" },
 { id: "mqAA12-3hIA", title: "THURAM AND ZIELIŃSKI COMPLETE AN INCREDIBLE COMEBACK 🤯 | INTER 2-1 FIORENTINA | HIGHLIGHTS 🖤💙", channel: "Inter", date: "Oct 26, 2026" },
 { id: "YD9G7iuZGjw", title: "Tel scores a BEAUTY at the Bridge! | Chelsea 0-2 Tottenham | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 26, 2026" },
 { id: "jxZMe_lCTfU", title: "Borussia Dortmund vs Werder Bremen | Highlights | DFB Pokal", channel: "Borussia Dortmund", date: "Oct 28, 2026" },
