@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "TNnLdOwJwVk", title: "BIGGEST UPSET EVER?! | Fleetwood Town v Arsenal Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
     { id: "8k20nJCgwEI", title: "AC Milan vs Bologna 2-4 Dramatic Highlights & All Goals 2026", channel: "UzbekMc", date: "Oct 28, 2026" },
     { id: "T5B3ZVTvrhM", title: "HIGHLIGHTS | FC Barcelona 1-2 Real Madrid | LaLiga", channel: "Real Madrid", date: "Oct 26, 2026" },
     { id: "QIGNqxmBcIQ", title: "FC BARCELONA 1 vs 2 REAL MADRID | LALIGA 2026/27 MD10 🔵🔴", channel: "FC Barcelona", date: "Oct 25, 2026" },
@@ -918,7 +919,6 @@ async function renderHighlights() {
     { id: "h1kj0vUm9jM", title: "Venezia Fall with Two Own Goals | VENEZIA-INTER | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
     { id: "ZlvpQ5cVrn0", title: "Mbangula's Hat-trick Stuns San Siro! | MILAN-BOLOGNA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
     { id: "TXmXNm_eMQ8", title: "Inter Milan vs Venezia 2-0 - All Goals & Extended Highlights 2026", channel: "Uddokta Kotha", date: "Oct 28, 2026" },
-    { id: "TovUeAQkaFc", title: "Pulisic and Hutchinson Shine in Udine | UDINESE-MILAN | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 26, 2026" },
     { id: "6nRHxAXVYv4", title: "Fleetwood Town Knock Arsenal Out of the Carabao Cup to Reach The Quarter-Finals | Highlights", channel: "FanCode", date: "Oct 28, 2026" },
     { id: "NQqiEsVALss", title: "Jackson BRACE gives City first loss! 🟣 | Aston Villa 2-1 Manchester City | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 26, 2026" },
     { id: "Bi2Tiuj5kHw", title: "HIGHLIGHTS - PSG Dedicate Win to Kvaratskhelia | PSG v Lyon | Ligue 1 x ITV Sport", channel: "ITV Sport", date: "Oct 26, 2026" },
