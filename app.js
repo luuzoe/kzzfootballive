@@ -900,7 +900,6 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-    { id: "sfkKtN8U_8I", title: "AC Milan vs Bologna 2-4 All Goals & Extended Highlights 2026", channel: "Uddokta Kotha", date: "Oct 28, 2026" },
     { id: "T5B3ZVTvrhM", title: "HIGHLIGHTS | FC Barcelona 1-2 Real Madrid | LaLiga", channel: "Real Madrid", date: "Oct 26, 2026" },
     { id: "QIGNqxmBcIQ", title: "FC BARCELONA 1 vs 2 REAL MADRID | LALIGA 2026/27 MD10 🔵🔴", channel: "FC Barcelona", date: "Oct 25, 2026" },
     { id: "OKSe5Kyx5vE", title: "Genoa vs Juventus 2-0 All Goals & Football Highlights 2026", channel: "UzbekMc", date: "Oct 28, 2026" },
