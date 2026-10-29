@@ -900,6 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "6Pn5qnuCVg8", title: "Highlights: Liverpool 1-1 Chelsea | Reds win on penalties!", channel: "Liverpool FC", date: "Oct 28, 2026" },
+    { id: "e9T4cngiGaw", title: "HOLDERS TAKEN TO PENALTIES | Manchester City v Brighton and Hove Albion Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
     { id: "jcZO-UP5e-E", title: "VENICE CONQUERED: THE 3 POINTS ARE OURS ✅ | VENEZIA 0-2 INTER | HIGHLIGHTS 🖤💙", channel: "Inter", date: "Oct 28, 2026" },
     { id: "UhTAEyBt8_g", title: "Liverpool vs Chelsea 1-1 (6-5 Pens) Extended Highlights & Goals 2026", channel: "88th Footy", date: "Oct 28, 2026" },
     { id: "3jBqg4s6xbk", title: "Olise and Saibari cooking in 7 goals show 🏆⚽ FC Bayern vs. 1. FC Magdeburg| DFB-Pokal Highlights", channel: "FC Bayern München", date: "Oct 28, 2026" },
@@ -909,7 +911,6 @@ async function renderHighlights() {
     { id: "yOoZ9xBaWIY", title: "Napoli Dominant at the Brianteo | MONZA-NAPOLI | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
     { id: "Goxa4KQJup4", title: "First Half Goals Bring Unexpected Outcome | GENOA-JUVENTUS | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
     { id: "h1kj0vUm9jM", title: "Venezia Fall with Two Own Goals | VENEZIA-INTER | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
-    { id: "QIGNqxmBcIQ", title: "FC BARCELONA 1 vs 2 REAL MADRID | LALIGA 2026/27 MD10 🔵🔴", channel: "FC Barcelona", date: "Oct 25, 2026" },
     { id: "ZlvpQ5cVrn0", title: "Mbangula's Hat-trick Stuns San Siro! | MILAN-BOLOGNA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
     { id: "TXmXNm_eMQ8", title: "Inter Milan vs Venezia 2-0 - All Goals & Extended Highlights 2026", channel: "Uddokta Kotha", date: "Oct 28, 2026" },
     { id: "TovUeAQkaFc", title: "Pulisic and Hutchinson Shine in Udine | UDINESE-MILAN | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 26, 2026" },
@@ -923,7 +924,6 @@ async function renderHighlights() {
     { id: "e_OWBXesX0w", title: "Borussia Dortmund vs Werder Bremen 3-2 HIGHLIGHTS • Marcel Sabitzer GOAL! - DFB-Pokal 2026/27", channel: "Dollar VFX", date: "Oct 28, 2026" },
     { id: "S2J_DtpYgRs", title: "Fleetwood DUMP Arsenal out of Carabao Cup! | Fleetwood 1-1 Arsenal | Carabao Cup Highlights", channel: "Sky Sports Football", date: "Oct 28, 2026" },
     { id: "TNnLdOwJwVk", title: "BIGGEST UPSET EVER?! | Fleetwood Town v Arsenal Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
-    { id: "hXNKrvJH2q8", title: "ATLÉTICO DE MADRID 1 - 0 RC DEPORTIVO | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 25, 2026" },
     { id: "xac6qY6d9pI", title: "EXTENDED HIGHLIGHTS | Aston Villa 2-1 Man City | A first league setback for the Blues", channel: "Man City", date: "Oct 26, 2026" },
     { id: "j5WVWXRVZec", title: "Udinese 0-2 Milan | Extended Highlights 2026/27 | Pulisic Scores, Hutchinson Nets His First!", channel: "AC Milan", date: "Oct 26, 2026" },
     { id: "H_S6QJQAuio", title: "McTominay scores twice in six-goal thriller! | Napoli 3-3 Roma | Serie A Highlights", channel: "Sky Sports Football", date: "Oct 26, 2026" },
