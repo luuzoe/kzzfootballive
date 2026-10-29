@@ -900,11 +900,11 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "jxZMe_lCTfU", title: "Borussia Dortmund vs Werder Bremen | Highlights | DFB Pokal", channel: "Borussia Dortmund", date: "Oct 27, 2026" },
 { id: "c1efUzzL5zE", title: "Al Nassr vs Al-Kholood 5-3 All Goals & Extended Highlights | Cristiano Ronaldo hat trick", channel: "Premium Match", date: "Oct 29, 2026" },
 { id: "RAOvzCyJ_zU", title: "Extended Highlights: Town (5) 1-1 (3) Arsenal", channel: "Fleetwood Town FC", date: "Oct 28, 2026" },
 { id: "eBLnW0Y3K24", title: "MILAN-BOLOGNA 2-4 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 29, 2026" },
 { id: "PG3mi1ly6HM", title: "TRE PUNTI IN DUE MINUTI! 🔥 | VENEZIA 0-2 INTER | EXTENDED HIGHLIGHTS 📹🖤💙", channel: "Inter", date: "Oct 29, 2026" },
-{ id: "SPMb5AgVFik", title: "PARIS SAINT-GERMAIN - OLYMPIQUE LYONNAIS (2-0) | Week 8 - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Oct 26, 2026" },
 { id: "rhKdukpxrv4", title: "GENOA-JUVENTUS Highlights | Serie A", channel: "Juventus", date: "Oct 28, 2026" },
 { id: "yOwp-HfhC_4", title: "Highlights Serie A | Non basta la doppietta di Cisse, sconfitta a San Siro | Milan-Bologna 2-4", channel: "AC Milan", date: "Oct 28, 2026" },
 { id: "mYFGBj8xHF0", title: "Manchester City 2-2 Brighton (4-3 pens) | Highlights | Carabao Cup 2026/27", channel: "SCTV Thể Thao Official", date: "Oct 28, 2026" },
