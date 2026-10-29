@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 75; // bump on every deploy
+const APP_VERSION = 76; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "HeLlGiGbrt0", title: "Napoli vs Monza 4-1 All Goals & Extended Highlights 2026", channel: "Uddokta Kotha", date: "Oct 28, 2026" },
     { id: "6Pn5qnuCVg8", title: "Highlights: Liverpool 1-1 Chelsea | Reds win on penalties!", channel: "Liverpool FC", date: "Oct 28, 2026" },
     { id: "e9T4cngiGaw", title: "HOLDERS TAKEN TO PENALTIES | Manchester City v Brighton and Hove Albion Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
     { id: "jcZO-UP5e-E", title: "VENICE CONQUERED: THE 3 POINTS ARE OURS ✅ | VENEZIA 0-2 INTER | HIGHLIGHTS 🖤💙", channel: "Inter", date: "Oct 28, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
     { id: "xac6qY6d9pI", title: "EXTENDED HIGHLIGHTS | Aston Villa 2-1 Man City | A first league setback for the Blues", channel: "Man City", date: "Oct 26, 2026" },
     { id: "j5WVWXRVZec", title: "Udinese 0-2 Milan | Extended Highlights 2026/27 | Pulisic Scores, Hutchinson Nets His First!", channel: "AC Milan", date: "Oct 26, 2026" },
     { id: "H_S6QJQAuio", title: "McTominay scores twice in six-goal thriller! | Napoli 3-3 Roma | Serie A Highlights", channel: "Sky Sports Football", date: "Oct 26, 2026" },
-    { id: "qSmpCizhtkw", title: "Chelsea 0-2 Spurs | HIGHLIGHTS - Extended | Premier League 2026/27", channel: "Chelsea FC", date: "Oct 26, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
