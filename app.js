@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "mYFGBj8xHF0", title: "Manchester City 2-2 Brighton (4-3 pens) | Highlights | Carabao Cup 2026/27", channel: "SCTV Thể Thao Official", date: "Oct 28, 2026" },
 { id: "Y_xtRG-YUj0", title: "MONZA 1 - 4 NAPOLI | HIGHLIGHTS SERIE A ENILIVE", channel: "AC Monza", date: "Oct 28, 2026" },
 { id: "BeSlJb_BwEM", title: "Bayern Munich vs Magdeburg 6-1 HIGHLIGHTS - DFB-Pokal 2026/27", channel: "Dollar VFX", date: "Oct 28, 2026" },
 { id: "v_lm38XO8yo", title: "5-2 win against Nürnberg in DFB Pokal: Goals by Tapsoba, Schick, Hofmann & Vazquez | Highlights", channel: "Bayer 04 Leverkusen", date: "Oct 28, 2026" },
@@ -926,7 +927,6 @@ async function renderHighlights() {
 { id: "Bi2Tiuj5kHw", title: "HIGHLIGHTS - PSG Dedicate Win to Kvaratskhelia | PSG v Lyon | Ligue 1 x ITV Sport", channel: "ITV Sport", date: "Oct 26, 2026" },
 { id: "mqAA12-3hIA", title: "THURAM AND ZIELIŃSKI COMPLETE AN INCREDIBLE COMEBACK 🤯 | INTER 2-1 FIORENTINA | HIGHLIGHTS 🖤💙", channel: "Inter", date: "Oct 26, 2026" },
 { id: "YD9G7iuZGjw", title: "Tel scores a BEAUTY at the Bridge! | Chelsea 0-2 Tottenham | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 26, 2026" },
-{ id: "5_VzTMIAGhk", title: "Bournemouth pile more misery on Carrick! | Man United 0-3 Bournemouth | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 26, 2026" },
 { id: "jxZMe_lCTfU", title: "Borussia Dortmund vs Werder Bremen | Highlights | DFB Pokal", channel: "Borussia Dortmund", date: "Oct 28, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
