@@ -148,24 +148,24 @@
   "ita.1": [
    {
     "rank": 1,
+    "player": "Gustavo Varela",
+    "team": "မွန်ဇာ",
+    "goals": 8,
+    "pid": "384482"
+   },
+   {
+    "rank": 2,
     "player": "Antonio Raimondo",
     "team": "ဖရိုစီနိုနီ",
     "goals": 7,
     "pid": "319265"
    },
    {
-    "rank": 2,
+    "rank": 3,
     "player": "Donyell Malen",
     "team": "ရိုးမား",
     "goals": 7,
     "pid": "259481"
-   },
-   {
-    "rank": 3,
-    "player": "Gustavo Varela",
-    "team": "မွန်ဇာ",
-    "goals": 7,
-    "pid": "384482"
    },
    {
     "rank": 4,
@@ -197,24 +197,24 @@
    },
    {
     "rank": 8,
+    "player": "Kevin De Bruyne",
+    "team": "နာပိုလီ",
+    "goals": 4,
+    "pid": "134947"
+   },
+   {
+    "rank": 9,
     "player": "Tijjani Noslin",
     "team": "လာဇီယို",
     "goals": 4,
     "pid": "323113"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Ché Adams",
     "team": "တိုရီနို",
     "goals": 4,
     "pid": "213725"
-   },
-   {
-    "rank": 10,
-    "player": "Adrien Rabiot",
-    "team": "အေစီမီလန်",
-    "goals": 4,
-    "pid": "176203"
    }
   ],
   "ger.1": [
@@ -812,59 +812,59 @@
    },
    {
     "rank": 3,
+    "player": "Juan Miranda",
+    "team": "ဘိုလော့နာ",
+    "assists": 4,
+    "pid": "261616"
+   },
+   {
+    "rank": 4,
     "player": "Paulo Dybala",
     "team": "ရိုးမား",
     "assists": 4,
     "pid": "164839"
    },
    {
-    "rank": 4,
+    "rank": 5,
     "player": "Nuno Tavares",
     "team": "လာဇီယို",
     "assists": 3,
     "pid": "288901"
    },
    {
-    "rank": 5,
+    "rank": 6,
+    "player": "Matteo Politano",
+    "team": "နာပိုလီ",
+    "assists": 3,
+    "pid": "188306"
+   },
+   {
+    "rank": 7,
     "player": "Nico Paz",
     "team": "ကိုမို",
     "assists": 3,
     "pid": "337970"
    },
    {
-    "rank": 6,
+    "rank": 8,
     "player": "Romano Schmid",
     "team": "ဖရိုစီနိုနီ",
     "assists": 3,
     "pid": "238296"
    },
    {
-    "rank": 7,
-    "player": "Juan Miranda",
-    "team": "ဘိုလော့နာ",
-    "assists": 3,
-    "pid": "261616"
-   },
-   {
-    "rank": 8,
+    "rank": 9,
     "player": "Adrien Rabiot",
     "team": "အေစီမီလန်",
     "assists": 3,
     "pid": "176203"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Rafik Belghali",
     "team": "တိုရီနို",
     "assists": 3,
     "pid": "364590"
-   },
-   {
-    "rank": 10,
-    "player": "Farès Ghedjemis",
-    "team": "ဖရိုစီနိုနီ",
-    "assists": 3,
-    "pid": "356536"
    }
   ],
   "ger.1": [
