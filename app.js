@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "_e74c-a1r1o", title: "Liverpool 1-1 Chelsea (6-5 pens) | HIGHLIGHTS | Carabao Cup 2026/27", channel: "Chelsea Football Club", date: "Oct 28, 2026" },
     { id: "TNnLdOwJwVk", title: "BIGGEST UPSET EVER?! | Fleetwood Town v Arsenal Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
     { id: "8k20nJCgwEI", title: "AC Milan vs Bologna 2-4 Dramatic Highlights & All Goals 2026", channel: "UzbekMc", date: "Oct 28, 2026" },
     { id: "T5B3ZVTvrhM", title: "HIGHLIGHTS | FC Barcelona 1-2 Real Madrid | LaLiga", channel: "Real Madrid", date: "Oct 26, 2026" },
@@ -912,7 +913,6 @@ async function renderHighlights() {
     { id: "UhTAEyBt8_g", title: "Liverpool vs Chelsea 1-1 (6-5 Pens) Extended Highlights & Goals 2026", channel: "88th Footy", date: "Oct 28, 2026" },
     { id: "3jBqg4s6xbk", title: "Olise and Saibari cooking in 7 goals show 🏆⚽ FC Bayern vs. 1. FC Magdeburg| DFB-Pokal Highlights", channel: "FC Bayern München", date: "Oct 28, 2026" },
     { id: "nvdB39ia44Q", title: "Bayer Leverkusen - Nürnberg | 5-2 | Highlights | DFB-Pokal 2026-27 | leverkusen nurnberg", channel: "Sponitor", date: "Oct 28, 2026" },
-    { id: "oeb9r95oO88", title: "Liverpool 1-1 Chelsea (6-5 on pens*) | 26/27 | Carabao Cup - Game highlights | SportyTV", channel: "SportyTV", date: "Oct 28, 2026" },
     { id: "9xbIkz7ALQE", title: "Rulli the hero saves TWO as City win on pens! | Man City 2-2 (4-3) Brighton | Carabao Cup Highlights", channel: "Sky Sports Football", date: "Oct 28, 2026" },
     { id: "yOoZ9xBaWIY", title: "Napoli Dominant at the Brianteo | MONZA-NAPOLI | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
     { id: "Goxa4KQJup4", title: "First Half Goals Bring Unexpected Outcome | GENOA-JUVENTUS | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
