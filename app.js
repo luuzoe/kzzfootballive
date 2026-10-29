@@ -900,12 +900,12 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+    { id: "v_lm38XO8yo", title: "5-2 win against Nürnberg in DFB Pokal: Goals by Tapsoba, Schick, Hofmann & Vazquez | Highlights", channel: "Bayer 04 Leverkusen", date: "Oct 28, 2026" },
     { id: "69_H-DLwg1A", title: "DRAMATIC SHOOTOUT! | Liverpool v Chelsea Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
     { id: "_e74c-a1r1o", title: "Liverpool 1-1 Chelsea (6-5 pens) | HIGHLIGHTS | Carabao Cup 2026/27", channel: "Chelsea Football Club", date: "Oct 28, 2026" },
     { id: "TNnLdOwJwVk", title: "BIGGEST UPSET EVER?! | Fleetwood Town v Arsenal Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
     { id: "8k20nJCgwEI", title: "AC Milan vs Bologna 2-4 Dramatic Highlights & All Goals 2026", channel: "UzbekMc", date: "Oct 28, 2026" },
     { id: "T5B3ZVTvrhM", title: "HIGHLIGHTS | FC Barcelona 1-2 Real Madrid | LaLiga", channel: "Real Madrid", date: "Oct 26, 2026" },
-    { id: "QIGNqxmBcIQ", title: "FC BARCELONA 1 vs 2 REAL MADRID | LALIGA 2026/27 MD10 🔵🔴", channel: "FC Barcelona", date: "Oct 25, 2026" },
     { id: "OKSe5Kyx5vE", title: "Genoa vs Juventus 2-0 All Goals & Football Highlights 2026", channel: "UzbekMc", date: "Oct 28, 2026" },
     { id: "HeLlGiGbrt0", title: "Napoli vs Monza 4-1 All Goals & Extended Highlights 2026", channel: "Uddokta Kotha", date: "Oct 28, 2026" },
     { id: "6Pn5qnuCVg8", title: "Highlights: Liverpool 1-1 Chelsea | Reds win on penalties!", channel: "Liverpool FC", date: "Oct 28, 2026" },
