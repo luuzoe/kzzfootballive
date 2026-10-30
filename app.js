@@ -900,10 +900,10 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "iim5yGYF39o", title: "Hakimi bags hat-trick as PSG extend winning streak to six! | Le Havre 1-5 PSG | Ligue 1 Highlights", channel: "Sky Sports Football", date: "Oct 30, 2026" },
 { id: "kJK5b2QFoeA", title: "LE HAVRE 1–5 PSG : le résumé en moins de 4 min ! Triplé exceptionnel d'Hakimi 🔥", channel: "Ceka", date: "Oct 30, 2026" },
 { id: "9xbIkz7ALQE", title: "Rulli the hero saves TWO as City win on pens! | Man City 2-2 (4-3) Brighton | Carabao Cup Highlights", channel: "Sky Sports Football", date: "Oct 28, 2026" },
 { id: "4fhGSL7RMHo", title: "Le Havre - PSG 1:5 | LIGUE 1 Highlights Round 9", channel: "Arena Sport TV", date: "Oct 30, 2026" },
-{ id: "B-st-Jk7-kg", title: "Le Havre vs PSG 1-5 Highlights | Ligue 1 2026/27 | All Goals & Match Highlights", channel: "Cric7 Cool", date: "Oct 30, 2026" },
 { id: "Goxa4KQJup4", title: "First Half Goals Bring Unexpected Outcome | GENOA-JUVENTUS | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
 { id: "h1kj0vUm9jM", title: "Venezia Fall with Two Own Goals | VENEZIA-INTER | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
 { id: "xLA56NuoHok", title: "MILAN-BOLOGNA | HIGHLIGHTS", channel: "Bologna FC 1909", date: "Oct 29, 2026" },
