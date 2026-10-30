@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "Goxa4KQJup4", title: "First Half Goals Bring Unexpected Outcome | GENOA-JUVENTUS | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
 { id: "h1kj0vUm9jM", title: "Venezia Fall with Two Own Goals | VENEZIA-INTER | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
 { id: "xLA56NuoHok", title: "MILAN-BOLOGNA | HIGHLIGHTS", channel: "Bologna FC 1909", date: "Oct 29, 2026" },
 { id: "S2J_DtpYgRs", title: "Fleetwood DUMP Arsenal out of Carabao Cup! | Fleetwood 1-1 Arsenal | Carabao Cup Highlights", channel: "Sky Sports Football", date: "Oct 30, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
 { id: "3jBqg4s6xbk", title: "Olise and Saibari cooking in 7 goals show 🏆⚽ FC Bayern vs. 1. FC Magdeburg| DFB-Pokal Highlights", channel: "FC Bayern München", date: "Oct 28, 2026" },
 { id: "nvdB39ia44Q", title: "Bayer Leverkusen - Nürnberg | 5-2 | Highlights | DFB-Pokal 2026-27 | leverkusen nurnberg", channel: "Sponitor", date: "Oct 28, 2026" },
 { id: "9xbIkz7ALQE", title: "Rulli the hero saves TWO as City win on pens! | Man City 2-2 (4-3) Brighton | Carabao Cup Highlights", channel: "Sky Sports Football", date: "Oct 28, 2026" },
-{ id: "yOoZ9xBaWIY", title: "Napoli Dominant at the Brianteo | MONZA-NAPOLI | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
