@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 78; // bump on every deploy
+const APP_VERSION = 79; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "4fhGSL7RMHo", title: "Le Havre - PSG 1:5 | LIGUE 1 Highlights Round 9", channel: "Arena Sport TV", date: "Oct 30, 2026" },
 { id: "B-st-Jk7-kg", title: "Le Havre vs PSG 1-5 Highlights | Ligue 1 2026/27 | All Goals & Match Highlights", channel: "Cric7 Cool", date: "Oct 30, 2026" },
 { id: "Goxa4KQJup4", title: "First Half Goals Bring Unexpected Outcome | GENOA-JUVENTUS | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
 { id: "h1kj0vUm9jM", title: "Venezia Fall with Two Own Goals | VENEZIA-INTER | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
 { id: "e9T4cngiGaw", title: "HOLDERS TAKEN TO PENALTIES | Manchester City v Brighton and Hove Albion Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
 { id: "jcZO-UP5e-E", title: "VENICE CONQUERED: THE 3 POINTS ARE OURS ✅ | VENEZIA 0-2 INTER | HIGHLIGHTS 🖤💙", channel: "Inter", date: "Oct 28, 2026" },
 { id: "3jBqg4s6xbk", title: "Olise and Saibari cooking in 7 goals show 🏆⚽ FC Bayern vs. 1. FC Magdeburg| DFB-Pokal Highlights", channel: "FC Bayern München", date: "Oct 28, 2026" },
-{ id: "nvdB39ia44Q", title: "Bayer Leverkusen - Nürnberg | 5-2 | Highlights | DFB-Pokal 2026-27 | leverkusen nurnberg", channel: "Sponitor", date: "Oct 28, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
