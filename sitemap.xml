@@ -139,6 +139,24 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/predictions/2026-10-31-bundesliga.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/predictions/2026-10-31-la-liga.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/predictions/2026-10-31-ligue-1.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-10-28-manchester-city-brighton.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>

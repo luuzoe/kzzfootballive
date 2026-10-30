@@ -1,5 +1,76 @@
 {
   "updated": "2026-10-30",
   "source": "KZZ Football Analysis",
-  "predictions": []
+  "predictions": [
+    {
+      "league": "Ligue 1",
+      "home": "Le Havre",
+      "away": "Paris Saint-Germain",
+      "date": "2026-10-31T00:30:00+06:30",
+      "pick": "ပီအက်စ်ဂျီ အနိုင်ရ",
+      "pick_en": "Paris Saint-Germain win",
+      "confidence": "high",
+      "prob_home": 10,
+      "prob_draw": 20,
+      "prob_away": 70,
+      "reason_mm": "လေဟာဗာက ဒီရာသီ လိဂ်ပွဲ ၈ ပွဲမှာ နိုင်ပွဲမရှိသေးဘဲ အောက်ဆုံးမှာ ရပ်နေပြီး နောက်ဆုံး ၄ ပွဲဆက် ရှုံးထားသည်။ မာဆေးလ်ကို ၄-၃ ဖြင့် ရှုံးခဲ့သော်လည်း အိမ်ကွင်းမှာ ဒီရာသီ ၂ ဂိုးသာ သွင်းနိုင်သေးသည်။ ပီအက်စ်ဂျီက ပြိုင်ပွဲစုံ ၈ ပွဲဆက် နိုင်ထားပြီး လိဂ်မှာ လိုင်ယွန် ၂-၀ ဖြင့် အနိုင်ရကာ ချန်ပီယံလိဂ်မှာ မန်စီးတီးနဲ့ ဘာစီလိုနာတို့ကို ၄-၂ စီဖြင့် အနိုင်ရထားသည်။ နှစ်သင်းတွေ့ဆုံမှု နောက် ၁၂ ကြိမ်မှာ ပီအက်စ်ဂျီ ၁၁ ကြိမ်နိုင်ထားပြီး လေဟာဗာက ၁၉၉၉ နောက်ပိုင်း တစ်ခါမှ မနိုင်ဖူးပါ။ ဒမ်ဘီလီ၊ မာကွင်ဟို့စ်၊ ခဗာတ်စကီးလီယာတို့ ဒဏ်ရာရနေသော်လည်း အင်အားကွာခြားမှုက အလွန်ကြီးမားသည်။ ဤခန့်မှန်းချက်သည် အာမခံချက်မဟုတ်ပါ။",
+      "en_reason": "Le Havre are still winless after eight league games, sit bottom of Ligue 1 and have lost four in a row, scoring only twice at home all season despite a spirited 4-3 defeat at Marseille last time out. PSG have won eight straight in all competitions, beat Lyon 2-0 to go top, and beat Manchester City and Barcelona 4-2 each in the Champions League. PSG have won 11 of the last 12 meetings and Le Havre have not beaten them since 1999. Injuries to Dembele, Marquinhos and Kvaratskhelia hurt PSG, but the gulf in quality is huge. This is a lean, not a guarantee."
+    },
+    {
+      "league": "Ligue 1",
+      "home": "Nice",
+      "away": "Rennes",
+      "date": "2026-10-31T00:30:00+06:30",
+      "pick": "နိုက်စ် အနိုင်ရ",
+      "pick_en": "Nice win",
+      "confidence": "medium",
+      "prob_home": 40,
+      "prob_draw": 30,
+      "prob_away": 30,
+      "reason_mm": "နိုက်စ်က နောက်ဆုံး လိဂ် ၄ ပွဲမှာ ၃ ပွဲနိုင်ထားပြီး ဘရက်စ်ကို ၂-၁ ဖြင့် အနိုင်ရကာ အဆင့် ၁၀ ကို တက်လာသည်။ အိမ်ကွင်းမှာ ဒီရာသီ ရှုံးပွဲမရှိသေးဘဲ (၂ နိုင်း၊ ၂ သရေ)၊ အိမ်ကွင်းတွေ့ဆုံမှု နောက် ၄ ကြိမ်မှာ ရန်းစ်ကို ၃ ကြိမ်နိုင်ထားသည်။ ရန်းစ်က အဆင့် ၂ မှာ ရှိနေပြီး ၈ ပွဲမှာ ၁၈ ဂိုးသွင်းထားသော်လည်း အဝေးကွင်း နောက် ၄-၅ ပွဲမှာ နိုင်ပွဲမရှိဘဲ အဝေးကွင်း တစ်ပွဲလျှင် ပျမ်းမျှ ၃ ဂိုးပေးနေရသည်။ ဂိုးသွင်းအများဆုံး လေပေါလ် (၇ ဂိုး) ဒဏ်ရာကြောင့် လွဲချော်ဖွယ်ရှိခြင်းကလည်း ဧည့်သည်တို့ကို ထိခိုက်စေသည်။ မတ်လတုန်းက နိုက်စ်အိမ်ကွင်းမှာ ရန်းစ် ၄-၀ ဖြင့် နိုင်ခဲ့ဖူးသည်ကို သတိထားရမည်။ ဤခန့်မှန်းချက်သည် အာမခံချက်မဟုတ်ပါ။",
+      "en_reason": "Nice have won three of their last four league games, including a 2-1 win at Brest, and are unbeaten at home this season (two wins, two draws), winning three of the last four home meetings with Rennes. Rennes sit second and have scored 18 goals in eight games, but they are winless in their last four or five away matches and concede around three goals per away game. Top scorer Esteban Lepaul (seven goals) is expected to miss out injured. Rennes did win 4-0 at Nice in March, so this is a lean, not a guarantee."
+    },
+    {
+      "league": "Bundesliga",
+      "home": "Elversberg",
+      "away": "Mainz",
+      "date": "2026-10-31T02:00:00+06:30",
+      "pick": "မိန့်ဇ် အနိုင်ရ",
+      "pick_en": "Mainz win",
+      "confidence": "medium",
+      "prob_home": 30,
+      "prob_draw": 30,
+      "prob_away": 40,
+      "reason_mm": "နှစ်သင်းစလုံး ၇ ပွဲကစားပြီး ၁၀ မှတ်စီဖြင့် အဆင့် ၇ နှင့် ၈ မှာ ရပ်နေသည်။ အယ်လ်ဗာ့စ်ဘတ်က လိုက်ပ်ဇစ်ကို ၄-၀ ဖြင့် ရှုံးပြီး ဖလားပွဲမှာ ဒါးမ်စတက်ကို ၂-၀ ဖြင့် ရှုံးထားသော်လည်း အိမ်ကွင်း နောက် ၁၀ ပွဲဆက် ဂိုးသွင်းနိုင်ထားသည်။ မိန့်ဇ်က အဝေးကွင်း လိဂ် ၃ ပွဲစလုံး နိုင်ထားပြီး ထိုပွဲများမှာ ၁၀ ဂိုးသွင်းကာ ဘရီမင်ကို ၃-၂ ဖြင့် ရှုံးခဲ့သော်လည်း တိုက်စစ်အားကောင်းသည်။ နှစ်သင်းတွေ့ဆုံမှု ဖလားပွဲ ၂ ကြိမ်စလုံးမှာ မိန့်ဇ် မရှုံးဖူးပါ။ ကပ္ပတိန် အမီရီ ဒဏ်ရာအခြေအနေ မသေချာခြင်းက မိန့်ဇ်အတွက် စိုးရိမ်စရာဖြစ်သော်လည်း အဝေးကွင်းခြေစွမ်းက ပိုသာသည်။ ဤခန့်မှန်းချက်သည် အာမခံချက်မဟုတ်ပါ။",
+      "en_reason": "Both sides have 10 points from seven games, sitting seventh and eighth. Elversberg lost 4-0 at RB Leipzig and 2-0 to Darmstadt in the cup, but have scored in each of their last 10 home games. Mainz have won all three away league games, scoring 10 goals in them, and their attack has produced 16 league goals to Elversberg's 12. Mainz have never lost to Elversberg, winning both previous cup meetings. Captain Nadiem Amiri is a doubt with a knee problem, but Mainz's away form gives them the edge. This is a lean, not a guarantee."
+    },
+    {
+      "league": "La Liga",
+      "home": "Villarreal",
+      "away": "Espanyol",
+      "date": "2026-10-31T02:30:00+06:30",
+      "pick": "ဗီလာရီးရဲလ် အနိုင်ရ",
+      "pick_en": "Villarreal win",
+      "confidence": "high",
+      "prob_home": 60,
+      "prob_draw": 25,
+      "prob_away": 15,
+      "reason_mm": "ဗီလာရီးရဲလ်က ဗလန်စီယာကို ၂-၁ ဖြင့် အနိုင်ရပြီးနောက် ဖလားပွဲမှာ မနာကော်ကို ၅-၀ ဖြင့် အနိုင်ရကာ ပြည်တွင်းပွဲ ၂ ပွဲဆက် နိုင်ထားသည်။ အက်စ်ပန်ညိုနဲ့ တွေ့ဆုံမှု နောက် ၇ ကြိမ်စလုံး နိုင်ထားပြီး ၂၀၂၀ ဇန်နဝါရီ နောက်ပိုင်း တစ်ခါမှ မရှုံးဖူးပါ။ အက်စ်ပန်ညိုက အဆင့် ၁၈ မှာ ၁၀ ပွဲမှာ ၈ မှတ်သာရပြီး နောက် ၆ ပွဲမှာ ၅ ပွဲ ရှုံးထားသည်။ စတုတ္ထတန်းအသင်း ဆပ်စတိုအိုကို ဖလားပွဲမှာ ၄-၃ ဖြင့် ရှုံးပြီးနောက် နည်းပြ မာနိုလို ဂွန်ဇာလက်ဇ် ထုတ်ပယ်ခံရကာ နည်းပြသစ် မရှိသေးဘဲ ဤပွဲကို ရင်ဆိုင်ရမည်။ ဂေးရီ ပယ်ခံထားရခြင်းက အိမ်ရှင်တို့ကို ထိခိုက်စေသော်လည်း ဧည့်သည်တို့၏ အကျပ်အတည်းက ပိုကြီးသည်။ ဤခန့်မှန်းချက်သည် အာမခံချက်မဟုတ်ပါ။",
+      "en_reason": "Villarreal have won back-to-back domestic games, beating Valencia 2-1 in the league and Manacor 5-0 in the Copa del Rey, and have won their last seven meetings with Espanyol, unbeaten against them since January 2020. Espanyol are 18th with eight points from 10 games, have lost five of their last six, and sacked coach Manolo Gonzalez after a 4-3 cup defeat to fourth-tier Sestao, so they face this game without a permanent coach. Pape Gueye's suspension hurts Villarreal, but the visitors' crisis is bigger. This is a lean, not a guarantee."
+    },
+    {
+      "league": "Ligue 1",
+      "home": "Lille",
+      "away": "Lens",
+      "date": "2026-10-31T02:35:00+06:30",
+      "pick": "လိုင်း အနိုင်ရ",
+      "pick_en": "Lille win",
+      "confidence": "medium",
+      "prob_home": 45,
+      "prob_draw": 30,
+      "prob_away": 25,
+      "reason_mm": "လိုင်း (လီလ်) က အဆင့် ၃ မှာ ရှိနေပြီး နိုင်လျှင် ယာယီ ထိပ်ဆုံးသို့ တက်နိုင်သည်။ မိုနာကိုနဲ့ ၁-၁ သရေကျခဲ့သော်လည်း လိဂ်အိမ်ကွင်းမှာ ရှုံးပွဲမရှိသေးဘဲ လန်းစ်နဲ့ အိမ်ကွင်းတွေ့ဆုံမှု နောက် ၄ ကြိမ်စလုံး နိုင်ထားကာ နောက်ဆုံးတွေ့ဆုံမှုမှာ ၃-၀ ဖြင့် နိုင်ခဲ့သည်။ လန်းစ်က လိဂ် ၃ ပွဲဆက် နိုင်ထားပြီး (လိုင်ယွန်၊ ထရိုအာ၊ ပဲရစ်အက်ဖ်စီ) တော်ဗင် ခြေစွမ်းကောင်းနေသော်လည်း အဝေးကွင်းတိုင်း ဂိုးပေးနေရသည်။ လိုင်း၏ တိုက်စစ်မှူး အူအဲဒါ ဒဏ်ရာရနေပြီး နောက်ခံလူ နီယန်ဇူး အနီကတ်ကြောင့် ပွဲပယ်ခံရခြင်းက အိမ်ရှင်တို့ကို ထိခိုက်စေနိုင်သည်။ ဒါဘီပွဲ၏ တင်းမာမှုကြောင့် အနီးကပ်ပွဲ ဖြစ်ဖွယ်ရှိသည်။ ဤခန့်မှန်းချက်သည် အာမခံချက်မဟုတ်ပါ။",
+      "en_reason": "Lille are third and can go provisionally top with a win, are unbeaten at home in the league, and have won their last four home meetings with Lens, including 3-0 last time. Lens arrive with three straight league wins over Lyon, Troyes and Paris FC, with Florian Thauvin in good form, but they have conceded in every away game this season. Lille are hurt by Ayase Ueda's foot injury and Tanguy Nianzou's suspension after his red card at Monaco, where they drew 1-1. A tight derby is likely. This is a lean, not a guarantee."
+    }
+  ]
 }
