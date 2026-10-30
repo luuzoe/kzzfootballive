@@ -1,34 +1,5 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "source": "KZZ Football Analysis",
-  "predictions": [
-    {
-      "league": "Serie A",
-      "home": "Frosinone",
-      "away": "Lecce",
-      "date": "2026-10-30T00:00:00+06:30",
-      "pick": "ဖရိုစီနိုနီ အနိုင်",
-      "pick_en": "Frosinone win",
-      "confidence": "medium",
-      "prob_home": 50,
-      "prob_draw": 25,
-      "prob_away": 25,
-      "reason_mm": "ဖရိုစီနိုနီက ၈ ပွဲမှာ ၁၄ မှတ်နဲ့ အဆင့် ၆ မှာ ရှိနေပြီး အိမ်ကွင်းမှာ ၃ ပွဲဆက် အနိုင်ရထားတယ်၊ ကိုမိုကို ၂-၀၊ ဆာဆူအိုလိုကို ၄-၂ နဲ့ နိုင်ခဲ့သလို အတ္တလန္တာနဲ့လည်း ၄-၄ သရေကျထားတယ်။\nလက်ချီက ၈ ပွဲမှာ ၉ မှတ်နဲ့ အဆင့် ၁၂ မှာ ရှိနေပြီး နောက် ၅ ပွဲမှာ ၃ ပွဲ ရှုံးထားတယ်၊ နောက်ဆုံးပွဲမှာ ဂျူဗင်တပ်ကို ၀-၂ နဲ့ ရှုံးထားတယ်။\nဒဏ်ရာပြဿနာက လက်ချီဘက်ကို ပိုထိခိုက်တယ်၊ ဂတ်စ်ပါ အနီကတ်ကြောင့် ပယ်ခံရပြီး အီလစ်၊ ကူလီဘာလီ၊ ပီယေရိုတီတို့ ဒဏ်ရာနဲ့ လွဲမယ်၊ တီယာဂို ဂါဘရီရယ်လည်း သံသယဖြစ်နေတယ်၊ ဖရိုစီနိုနီဘက်က ဂရီးလစ်တစ်ဦးသာ လွဲမယ်။\nထိပ်တိုက်မှာ လက်ချီက နောက် ၆ ပွဲမှာ မရှုံးသေးဘူး (၃ ပွဲနိုင်၊ ၃ ပွဲသရေ) ဆိုပေမယ့် ဒီရာသီ အိမ်ကွင်းပုံစံနဲ့ လက်ချီရဲ့ လူအင်အားချို့တဲ့မှုကြောင့် အိမ်ရှင်ဘက် အလေးသာတယ်လို့ ခန့်မှန်းပါတယ်၊ အာမခံချက် မဟုတ်ပါ။",
-      "en_reason": "Frosinone sit sixth on 14 points from eight games and have won three straight at home, beating Como 2-0 and Sassuolo 4-2, and drawing 4-4 at Atalanta last weekend.\nLecce sit 12th on nine points from eight games, have lost three of their last five, and were beaten 2-0 at home by Juventus last time out.\nLecce's injury crisis is the bigger problem: Gaspar is suspended after his red card, Ilic, Coulibaly and Pierotti are out injured and Tiago Gabriel is doubtful, while Frosinone miss only Grillitsch.\nHead-to-head tempers this: Lecce are unbeaten in the last six meetings (three wins, three draws), but this season's home form and Lecce's depleted squad make the hosts a lean, not a guarantee."
-    },
-    {
-      "league": "Serie A",
-      "home": "Fiorentina",
-      "away": "Atalanta",
-      "date": "2026-10-30T02:15:00+06:30",
-      "pick": "သရေ",
-      "pick_en": "Draw",
-      "confidence": "low",
-      "prob_home": 35,
-      "prob_draw": 35,
-      "prob_away": 30,
-      "reason_mm": "ဖီအိုရင်တီးနားက ၈ ပွဲမှာ ၄ မှတ်သာ ရပြီး အဆင့် ၁၈ တန်းဆင်းဇုန်မှာ ရှိနေတယ်၊ ၁ ပွဲနိုင်၊ ၁ ပွဲသရေ၊ ၆ ပွဲ ရှုံးထားပြီး နောက် ၃ ပွဲဆက် ရှုံးထားတယ် (အင်တာကို ၁-၂၊ ကိုမိုကို ၁-၃၊ ဂျီနိုအာကို ၁-၂)၊ အိမ်ကွင်းမှာ နိုင်ပွဲမရှိသေးဘူး။\nအတ္တလန္တာက ၈ ပွဲမှာ ၁၀ မှတ်နဲ့ အဆင့် ၁၁ မှာ ရှိနေပေမယ့် အဝေးကွင်း ၃ ပွဲလုံး ရှုံးထားတယ်၊ မီလန်ကို ၂-၃ နဲ့ ရှုံးထားပြီး နောက်ဆုံးပွဲမှာ ဖရိုစီနိုနီနဲ့ ၄-၄ သရေကျထားတယ်။\nနှစ်သင်းလုံး ခံစစ်အားနည်းတယ်၊ အတ္တလန္တာက နောက် ၅ ပွဲလုံး ဂိုးပေးထားရပြီး ခရစ္စတိုဗစ်က ၆ ဂိုး သွင်းထားပေမယ့် ဟီးယန်၊ ကိုဆူနူ၊ ကိုလာဆီနက်၊ ဘယ်လာနိုဗာတို့ ဒဏ်ရာနဲ့ လွဲမယ်။\nဖီအိုရင်တီးနားဘက်ကလည်း ပါရီဆီ၊ အတ်တာ၊ ပေါင်ဂရာဆစ်တို့ လွဲမယ်၊ နောက်ဆုံးတွေ့ဆုံမှုမှာ ၁-၁ သရေကျထားတာကြောင့် နှစ်သင်းလုံး အနိုင်ရဖို့ ခက်ပြီး သရေကျဖို့ အလားအလာ အများဆုံးလို့ ခန့်မှန်းပါတယ်၊ အာမခံချက် မဟုတ်ပါ။",
-      "en_reason": "Fiorentina sit 18th in the relegation zone with just four points from eight games, one win, one draw and six defeats, having lost their last three in a row (2-1 at Inter, 3-1 at home to Como, 2-1 at Genoa) and still without a home win.\nAtalanta sit 11th on ten points from eight games but have lost all three away league games, including 3-2 at Milan, and drew 4-4 at home to Frosinone last weekend.\nBoth defences leak goals: Atalanta have conceded in all of their last five games, and although Krstovic has six league goals, Hien, Kossounou, Kolasinac and Bellanova are all out injured.\nFiorentina also miss Parisi, Atta and Pongracic, and with the last meeting between these sides ending 1-1 in May 2026, a draw looks the most likely outcome, not a guarantee."
-    }
-  ]
+  "predictions": []
 }

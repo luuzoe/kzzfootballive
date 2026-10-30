@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-29T08:52:55+06:30",
+ "updated": "2026-10-30T02:53:41+06:30",
  "summary": {
-  "resolved": 68,
-  "correct": 35,
-  "wrong": 33,
-  "accuracy_pct": 51.5,
+  "resolved": 65,
+  "correct": 34,
+  "wrong": 31,
+  "accuracy_pct": 52.3,
   "not_found": 2
  },
  "results": [
@@ -612,48 +612,21 @@
    "outcome": "correct"
   },
   {
-   "date": "2026-10-28",
-   "home": "Venezia",
-   "away": "Inter",
+   "date": "2026-10-29",
+   "home": "Frosinone",
+   "away": "Lecce",
    "league": "Serie A",
-   "pick_en": "Inter win",
-   "score": "0-2",
+   "pick_en": "Frosinone win",
+   "score": "5-1",
    "outcome": "correct"
   },
   {
-   "date": "2026-10-28",
-   "home": "AC Milan",
-   "away": "Bologna",
-   "league": "Serie A",
-   "pick_en": "AC Milan win",
-   "score": "2-4",
-   "outcome": "wrong"
-  },
-  {
-   "date": "2026-10-28",
-   "home": "Parma",
-   "away": "Udinese",
+   "date": "2026-10-29",
+   "home": "Fiorentina",
+   "away": "Atalanta",
    "league": "Serie A",
    "pick_en": "Draw",
-   "score": "0-0",
-   "outcome": "correct"
-  },
-  {
-   "date": "2026-10-28",
-   "home": "Genoa",
-   "away": "Juventus",
-   "league": "Serie A",
-   "pick_en": "Juventus win",
-   "score": "2-0",
-   "outcome": "wrong"
-  },
-  {
-   "date": "2026-10-28",
-   "home": "Monza",
-   "away": "Napoli",
-   "league": "Serie A",
-   "pick_en": "Napoli win",
-   "score": "1-4",
+   "score": "2-2",
    "outcome": "correct"
   }
  ]
