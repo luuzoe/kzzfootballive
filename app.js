@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 80; // bump on every deploy
+const APP_VERSION = 81; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "OdEXrIkZ00U", title: "Chelsea -  Manchester United 2:0 | PREMIER LEAGUE (9. kolo) | 31. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 31, 2026" },
 { id: "7jnH4zkMCUU", title: "Chelesa vs Manchester United 2-0 HIGHLIGHTS • Cole Palmer & Morgan Rogers Goals! • Premier League 26", channel: "Dollar VFX", date: "Oct 31, 2026" },
 { id: "065tdlyL2M4", title: "Chelsea vs Manchester United 2-0 Highlights  Premier League 2026/27", channel: "Footballia", date: "Oct 31, 2026" },
 { id: "yOoZ9xBaWIY", title: "Napoli Dominant at the Brianteo | MONZA-NAPOLI | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 29, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
 { id: "_e74c-a1r1o", title: "Liverpool 1-1 Chelsea (6-5 pens) | HIGHLIGHTS | Carabao Cup 2026/27", channel: "Chelsea Football Club", date: "Oct 28, 2026" },
 { id: "TNnLdOwJwVk", title: "BIGGEST UPSET EVER?! | Fleetwood Town v Arsenal Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
 { id: "OKSe5Kyx5vE", title: "Genoa vs Juventus 2-0 All Goals & Football Highlights 2026", channel: "UzbekMc", date: "Oct 28, 2026" },
-{ id: "6Pn5qnuCVg8", title: "Highlights: Liverpool 1-1 Chelsea | Reds win on penalties!", channel: "Liverpool FC", date: "Oct 28, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
