@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "oJmCz8vTgP0", title: "AC Milan vs Inter Milan 3-1 || All Goals & Extended Highlights || Serie A 2026/27", channel: "Mahmoud Shaker", date: "Oct 31, 2026" },
 { id: "RGq_64G28mE", title: "Milan - Inter Milan | 3-1 | Highlights | Serie A 2026-27 | milan inter", channel: "Sponitor", date: "Oct 31, 2026" },
 { id: "uZI7lKdU4kI", title: "Spurs win three in a row! ✅ | Spurs 2-0 Crystal Palace | Premier League highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "qK32EAZLRDs", title: "Penalty Miss And DRAMA! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
 { id: "RAOvzCyJ_zU", title: "Extended Highlights: Town (5) 1-1 (3) Arsenal", channel: "Fleetwood Town FC", date: "Oct 28, 2026" },
 { id: "eBLnW0Y3K24", title: "MILAN-BOLOGNA 2-4 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 29, 2026" },
 { id: "PG3mi1ly6HM", title: "TRE PUNTI IN DUE MINUTI! 🔥 | VENEZIA 0-2 INTER | EXTENDED HIGHLIGHTS 📹🖤💙", channel: "Inter", date: "Oct 29, 2026" },
-{ id: "rhKdukpxrv4", title: "GENOA-JUVENTUS Highlights | Serie A", channel: "Juventus", date: "Oct 28, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
