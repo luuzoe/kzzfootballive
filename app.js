@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 82; // bump on every deploy
+const APP_VERSION = 83; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "4cQVJ6asUQA", title: "Bayern Munich 2-2 Borussia Dortmund | Der Klassiker Highlights | Bundesliga 2026/27", channel: "Footballia", date: "Oct 31, 2026" },
 { id: "8NoVQEkZotE", title: "Rogers & Palmer pile more misery on Red Devils! | Chelsea 2-0 Man United | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "Dejb2VkJlPc", title: "Ayari hands City BACK-TO-BACK losses! | Manchester City 0-1 Brighton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "nBdMdjSuXN4", title: "Demirović Scores Twice! | BAYER 04 LEVERKUSEN - VFB STUTTGART | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
 { id: "yOwp-HfhC_4", title: "Highlights Serie A | Non basta la doppietta di Cisse, sconfitta a San Siro | Milan-Bologna 2-4", channel: "AC Milan", date: "Oct 28, 2026" },
 { id: "mYFGBj8xHF0", title: "Manchester City 2-2 Brighton (4-3 pens) | Highlights | Carabao Cup 2026/27", channel: "SCTV Thể Thao Official", date: "Oct 28, 2026" },
 { id: "Y_xtRG-YUj0", title: "MONZA 1 - 4 NAPOLI | HIGHLIGHTS SERIE A ENILIVE", channel: "AC Monza", date: "Oct 28, 2026" },
-{ id: "BeSlJb_BwEM", title: "Bayern Munich vs Magdeburg 6-1 HIGHLIGHTS - DFB-Pokal 2026/27", channel: "Dollar VFX", date: "Oct 28, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
