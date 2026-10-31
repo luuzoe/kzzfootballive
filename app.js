@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 81; // bump on every deploy
+const APP_VERSION = 82; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "8NoVQEkZotE", title: "Rogers & Palmer pile more misery on Red Devils! | Chelsea 2-0 Man United | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "Dejb2VkJlPc", title: "Ayari hands City BACK-TO-BACK losses! | Manchester City 0-1 Brighton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "nBdMdjSuXN4", title: "Demirović Scores Twice! | BAYER 04 LEVERKUSEN - VFB STUTTGART | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
 { id: "qj5jFjsN8GQ", title: "Manchester City 0-1 Brighton | 26/27 | Premier League - Game highlights | SportyTV", channel: "SportyTV", date: "Oct 31, 2026" },
@@ -907,7 +908,6 @@ async function renderHighlights() {
 { id: "c3Ct099QZ-8", title: "LEVANTE UD 0 - 2 ATLÉTICO DE MADRID | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 31, 2026" },
 { id: "OdEXrIkZ00U", title: "Chelsea -  Manchester United 2:0 | PREMIER LEAGUE (9. kolo) | 31. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 31, 2026" },
 { id: "7jnH4zkMCUU", title: "Chelesa vs Manchester United 2-0 HIGHLIGHTS • Cole Palmer & Morgan Rogers Goals! • Premier League 26", channel: "Dollar VFX", date: "Oct 31, 2026" },
-{ id: "065tdlyL2M4", title: "Chelsea vs Manchester United 2-0 Highlights  Premier League 2026/27", channel: "Footballia", date: "Oct 31, 2026" },
 { id: "yOoZ9xBaWIY", title: "Napoli Dominant at the Brianteo | MONZA-NAPOLI | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 29, 2026" },
 { id: "iim5yGYF39o", title: "Hakimi bags hat-trick as PSG extend winning streak to six! | Le Havre 1-5 PSG | Ligue 1 Highlights", channel: "Sky Sports Football", date: "Oct 30, 2026" },
 { id: "kJK5b2QFoeA", title: "LE HAVRE 1–5 PSG : le résumé en moins de 4 min ! Triplé exceptionnel d'Hakimi 🔥", channel: "Ceka", date: "Oct 30, 2026" },
