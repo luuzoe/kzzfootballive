@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-31T02:57:52+06:30",
+ "updated": "2026-10-31T02:59:33+06:30",
  "summary": {
-  "resolved": 65,
-  "correct": 34,
-  "wrong": 31,
-  "accuracy_pct": 52.3,
+  "resolved": 70,
+  "correct": 37,
+  "wrong": 33,
+  "accuracy_pct": 52.9,
   "not_found": 4
  },
  "results": [
@@ -627,6 +627,51 @@
    "league": "Serie A",
    "pick_en": "Draw",
    "score": "2-2",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-30",
+   "home": "Le Havre",
+   "away": "Paris Saint-Germain",
+   "league": "Ligue 1",
+   "pick_en": "Paris Saint-Germain win",
+   "score": "1-5",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-30",
+   "home": "Nice",
+   "away": "Rennes",
+   "league": "Ligue 1",
+   "pick_en": "Nice win",
+   "score": "5-2",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-10-30",
+   "home": "Elversberg",
+   "away": "Mainz",
+   "league": "Bundesliga",
+   "pick_en": "Mainz win",
+   "score": "4-1",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-30",
+   "home": "Villarreal",
+   "away": "Espanyol",
+   "league": "La Liga",
+   "pick_en": "Villarreal win",
+   "score": "0-1",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-10-30",
+   "home": "Lille",
+   "away": "Lens",
+   "league": "Ligue 1",
+   "pick_en": "Lille win",
+   "score": "1-0",
    "outcome": "correct"
   },
   {
