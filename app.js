@@ -900,6 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "dlviQKRx7zg", title: "IL DERBY È ROSSONERO | Pulisic, Rabiot, Moreira | Milan-Inter 3-1 | Highlights Serie A", channel: "AC Milan", date: "Oct 31, 2026" },
+{ id: "zm9kftTvCOQ", title: "Dortmund Deny Wizard Olise! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
 { id: "UJpuIXIJAHM", title: "FC BARCELONA 6 vs 1 ALAVÉS | LALIGA 2026/27 MD11 🔵🔴", channel: "FC Barcelona", date: "Oct 31, 2026" },
 { id: "kcW6d6RozWs", title: "Barcelona vs Alavés 6-1 🔥 | HIGHLIGHTS & ALL GOALS | LaLiga 2026", channel: "Passion Sports", date: "Oct 31, 2026" },
 { id: "-HLgn5JpE6Y", title: "Spurs win three in a row | Tottenham 2-0 Crystal Palace | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 31, 2026" },
@@ -926,8 +928,6 @@ async function renderHighlights() {
 { id: "xLA56NuoHok", title: "MILAN-BOLOGNA | HIGHLIGHTS", channel: "Bologna FC 1909", date: "Oct 29, 2026" },
 { id: "S2J_DtpYgRs", title: "Fleetwood DUMP Arsenal out of Carabao Cup! | Fleetwood 1-1 Arsenal | Carabao Cup Highlights", channel: "Sky Sports Football", date: "Oct 30, 2026" },
 { id: "Doiq12y4078", title: "Ronaldo hits a HAT-TRICK to reach 985 | Al Nassr 5-3 Al Kholood | SPL Highlights", channel: "Saudi Pro League", date: "Oct 29, 2026" },
-{ id: "tj6jb3BqUMw", title: "MONZA-NAPOLI 1-4 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 29, 2026" },
-{ id: "c1efUzzL5zE", title: "Al Nassr vs Al-Kholood 5-3 All Goals & Extended Highlights | Cristiano Ronaldo hat trick", channel: "Premium Match", date: "Oct 29, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
