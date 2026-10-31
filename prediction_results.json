@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T02:59:33+06:30",
+ "updated": "2026-10-31T08:55:08+06:30",
  "summary": {
   "resolved": 70,
   "correct": 37,
@@ -797,6 +797,15 @@
    "away": "Celta Vigo",
    "league": "La Liga",
    "pick_en": "Draw",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-10-31",
+   "home": "Udinese",
+   "away": "Roma",
+   "league": "Serie A",
+   "pick_en": "Roma win",
    "score": null,
    "outcome": "pending"
   }
