@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "uZI7lKdU4kI", title: "Spurs win three in a row! ✅ | Spurs 2-0 Crystal Palace | Premier League highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "qK32EAZLRDs", title: "Penalty Miss And DRAMA! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
 { id: "4cQVJ6asUQA", title: "Bayern Munich 2-2 Borussia Dortmund | Der Klassiker Highlights | Bundesliga 2026/27", channel: "Footballia", date: "Oct 31, 2026" },
 { id: "8NoVQEkZotE", title: "Rogers & Palmer pile more misery on Red Devils! | Chelsea 2-0 Man United | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
 { id: "PG3mi1ly6HM", title: "TRE PUNTI IN DUE MINUTI! 🔥 | VENEZIA 0-2 INTER | EXTENDED HIGHLIGHTS 📹🖤💙", channel: "Inter", date: "Oct 29, 2026" },
 { id: "rhKdukpxrv4", title: "GENOA-JUVENTUS Highlights | Serie A", channel: "Juventus", date: "Oct 28, 2026" },
 { id: "yOwp-HfhC_4", title: "Highlights Serie A | Non basta la doppietta di Cisse, sconfitta a San Siro | Milan-Bologna 2-4", channel: "AC Milan", date: "Oct 28, 2026" },
-{ id: "mYFGBj8xHF0", title: "Manchester City 2-2 Brighton (4-3 pens) | Highlights | Carabao Cup 2026/27", channel: "SCTV Thể Thao Official", date: "Oct 28, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
