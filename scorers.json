@@ -255,38 +255,38 @@
    },
    {
     "rank": 6,
+    "player": "Maurice Krattenmacher",
+    "team": "အဲလ်ဗားစ်ဘတ်",
+    "goals": 4,
+    "pid": "358496"
+   },
+   {
+    "rank": 7,
     "player": "Harry Kane",
     "team": "ဘိုင်ယန်",
     "goals": 4,
     "pid": "142200"
    },
    {
-    "rank": 7,
+    "rank": 8,
     "player": "Michael Gregoritsch",
     "team": "အော့စ်ဘတ်",
     "goals": 4,
     "pid": "146804"
    },
    {
-    "rank": 8,
+    "rank": 9,
     "player": "Yuito Suzuki",
     "team": "ဖရိုင်းဘတ်",
     "goals": 4,
     "pid": "303031"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Luis Díaz",
     "team": "ဘိုင်ယန်",
     "goals": 4,
     "pid": "257390"
-   },
-   {
-    "rank": 10,
-    "player": "Christopher Nkunku",
-    "team": "လိုက်ပ်ဇစ်",
-    "goals": 4,
-    "pid": "222176"
    }
   ],
   "fra.1": [
@@ -306,59 +306,59 @@
    },
    {
     "rank": 3,
+    "player": "Elye Wahi",
+    "team": "နိစ်",
+    "goals": 6,
+    "pid": "311118"
+   },
+   {
+    "rank": 4,
     "player": "Amine Gouiri",
     "team": "မာဆေး",
     "goals": 5,
     "pid": "259743"
    },
    {
-    "rank": 4,
+    "rank": 5,
     "player": "Cameron Archer",
     "team": "အောက်ဆဲ",
     "goals": 5,
     "pid": "293347"
    },
    {
-    "rank": 5,
+    "rank": 6,
     "player": "Casper Tengstedt",
     "team": "တူးလူး",
     "goals": 5,
     "pid": "306664"
    },
    {
-    "rank": 6,
+    "rank": 7,
     "player": "Florian Thauvin",
     "team": "လန့်စ်",
     "goals": 4,
     "pid": "156898"
    },
    {
-    "rank": 7,
-    "player": "Louis Mafouta",
-    "team": "လမန်း",
-    "goals": 4,
-    "pid": "268720"
-   },
-   {
     "rank": 8,
-    "player": "Kamory Doumbia",
-    "team": "ဘရက်စ်",
-    "goals": 4,
-    "pid": "330412"
-   },
-   {
-    "rank": 9,
     "player": "Ferran Torres",
     "team": "ပီအက်စ်ဂျီ",
     "goals": 4,
     "pid": "265869"
    },
    {
-    "rank": 10,
-    "player": "Paris Brunner",
-    "team": "မိုနာကို",
+    "rank": 9,
+    "player": "Josh Maja",
+    "team": "လဟာဗေး",
     "goals": 4,
-    "pid": "365789"
+    "pid": "243514"
+   },
+   {
+    "rank": 10,
+    "player": "Louis Mafouta",
+    "team": "လမန်း",
+    "goals": 4,
+    "pid": "268720"
    }
   ],
   "ned.1": [
@@ -726,17 +726,17 @@
   "esp.1": [
    {
     "rank": 1,
-    "player": "Lamine Yamal",
-    "team": "ဘာစီလိုနာ",
-    "assists": 6,
-    "pid": "362150"
-   },
-   {
-    "rank": 2,
     "player": "Javi Hernandez",
     "team": "အက်စ်ပန်ညောလ်",
     "assists": 6,
     "pid": "367946"
+   },
+   {
+    "rank": 2,
+    "player": "Lamine Yamal",
+    "team": "ဘာစီလိုနာ",
+    "assists": 6,
+    "pid": "362150"
    },
    {
     "rank": 3,
@@ -891,45 +891,45 @@
    },
    {
     "rank": 4,
-    "player": "Fabian Rieder",
-    "team": "အော့စ်ဘတ်",
-    "assists": 4,
-    "pid": "308908"
-   },
-   {
-    "rank": 5,
     "player": "Sheraldo Becker",
     "team": "မိန့်ဇ်",
     "assists": 4,
     "pid": "195027"
    },
    {
+    "rank": 5,
+    "player": "Fabian Rieder",
+    "team": "အော့စ်ဘတ်",
+    "assists": 4,
+    "pid": "308908"
+   },
+   {
     "rank": 6,
+    "player": "Anthony Caci",
+    "team": "မိန့်ဇ်",
+    "assists": 3,
+    "pid": "241297"
+   },
+   {
+    "rank": 7,
     "player": "Matthias Ginter",
     "team": "ဖရိုင်းဘတ်",
     "assists": 3,
     "pid": "170209"
    },
    {
-    "rank": 7,
+    "rank": 8,
     "player": "Miguel Gutiérrez",
     "team": "လီဗာကူဆင်",
     "assists": 3,
     "pid": "290044"
    },
    {
-    "rank": 8,
+    "rank": 9,
     "player": "Michael Olise",
     "team": "ဘိုင်ယန်",
     "assists": 3,
     "pid": "286831"
-   },
-   {
-    "rank": 9,
-    "player": "Anthony Caci",
-    "team": "မိန့်ဇ်",
-    "assists": 3,
-    "pid": "241297"
    },
    {
     "rank": 10,
@@ -963,52 +963,52 @@
    },
    {
     "rank": 4,
+    "player": "Sofiane Diop",
+    "team": "နိစ်",
+    "assists": 3,
+    "pid": "276995"
+   },
+   {
+    "rank": 5,
     "player": "Zachary Athekame",
     "team": "လိုင်ယွန်",
     "assists": 3,
     "pid": "370758"
    },
    {
-    "rank": 5,
+    "rank": 6,
     "player": "Emerson",
     "team": "မာဆေး",
     "assists": 3,
     "pid": "159051"
    },
    {
-    "rank": 6,
+    "rank": 7,
     "player": "Aleksandr Golovin",
     "team": "မိုနာကို",
     "assists": 3,
     "pid": "195501"
    },
    {
-    "rank": 7,
+    "rank": 8,
     "player": "Pavel Sulc",
     "team": "လိုင်ယွန်",
     "assists": 3,
     "pid": "305545"
    },
    {
-    "rank": 8,
+    "rank": 9,
     "player": "Panos Katseris",
     "team": "လိုရီယန့်",
     "assists": 3,
     "pid": "364754"
    },
    {
-    "rank": 9,
-    "player": "Joris Chotard",
-    "team": "ဘရက်စ်",
-    "assists": 2,
-    "pid": "291850"
-   },
-   {
     "rank": 10,
-    "player": "Amine Gouiri",
-    "team": "မာဆေး",
+    "player": "Gauthier Hein",
+    "team": "နိစ်",
     "assists": 2,
-    "pid": "259743"
+    "pid": "239905"
    }
   ],
   "ned.1": [
@@ -1093,66 +1093,66 @@
    },
    {
     "rank": 2,
-    "player": "Pepê",
-    "team": "ပေါ်တို",
+    "player": "Iván Fresneda",
+    "team": "စပေါ်တင်း",
     "assists": 4,
-    "pid": "256909"
+    "pid": "333209"
    },
    {
     "rank": 3,
-    "player": "Gianluca Prestianni",
-    "team": "ဘန်ဖီကာ",
-    "assists": 4,
-    "pid": "339191"
-   },
-   {
-    "rank": 4,
-    "player": "Cihan Kahraman",
-    "team": "ဗီဆူး",
-    "assists": 4,
-    "pid": "233987"
-   },
-   {
-    "rank": 5,
     "player": "Geny Catamo",
     "team": "စပေါ်တင်း",
     "assists": 4,
     "pid": "296969"
    },
    {
+    "rank": 4,
+    "player": "Pepê",
+    "team": "ပေါ်တို",
+    "assists": 4,
+    "pid": "256909"
+   },
+   {
+    "rank": 5,
+    "player": "Gianluca Prestianni",
+    "team": "ဘန်ဖီကာ",
+    "assists": 4,
+    "pid": "339191"
+   },
+   {
     "rank": 6,
+    "player": "Cihan Kahraman",
+    "team": "ဗီဆူး",
+    "assists": 4,
+    "pid": "233987"
+   },
+   {
+    "rank": 7,
     "player": "Mathias De Amorim",
     "team": "ဖာမလီကောင်",
     "assists": 3,
     "pid": "368008"
    },
    {
-    "rank": 7,
+    "rank": 8,
     "player": "Eddy Doué",
     "team": "အက်စ်ထရီလာ",
     "assists": 3,
     "pid": "418107"
    },
    {
-    "rank": 8,
+    "rank": 9,
     "player": "Vangelis Pavlidis",
     "team": "ဘန်ဖီကာ",
     "assists": 3,
     "pid": "220819"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Diogo Bezerra",
     "team": "ရီယိုအဲဗီ",
     "assists": 3,
     "pid": "335153"
-   },
-   {
-    "rank": 10,
-    "player": "Gabri Veiga",
-    "team": "ပေါ်တို",
-    "assists": 3,
-    "pid": "307381"
    }
   ],
   "uefa.champions": [
