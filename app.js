@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "-HLgn5JpE6Y", title: "Spurs win three in a row | Tottenham 2-0 Crystal Palace | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 31, 2026" },
 { id: "oJmCz8vTgP0", title: "AC Milan vs Inter Milan 3-1 || All Goals & Extended Highlights || Serie A 2026/27", channel: "Mahmoud Shaker", date: "Oct 31, 2026" },
 { id: "RGq_64G28mE", title: "Milan - Inter Milan | 3-1 | Highlights | Serie A 2026-27 | milan inter", channel: "Sponitor", date: "Oct 31, 2026" },
 { id: "uZI7lKdU4kI", title: "Spurs win three in a row! ✅ | Spurs 2-0 Crystal Palace | Premier League highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
@@ -912,7 +913,7 @@ async function renderHighlights() {
 { id: "u-h8fyclSgs", title: "Manchester City 0-1 Brighton | Highlights & Goal | Ayari 11' Winner | Premier League", channel: "Dima Hanya", date: "Oct 31, 2026" },
 { id: "c3Ct099QZ-8", title: "LEVANTE UD 0 - 2 ATLÉTICO DE MADRID | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 31, 2026" },
 { id: "OdEXrIkZ00U", title: "Chelsea -  Manchester United 2:0 | PREMIER LEAGUE (9. kolo) | 31. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 31, 2026" },
-{ id: "7jnH4zkMCUU", title: "Chelesa vs Manchester United 2-0 HIGHLIGHTS • Cole Palmer & Morgan Rogers Goals! • Premier League 26", channel: "Dollar VFX", date: "Oct 31, 2026" },
+{ id: "OI58_-4ezU8", title: "Chelsea 2-0 Man Utd | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 31, 2026" },
 { id: "yOoZ9xBaWIY", title: "Napoli Dominant at the Brianteo | MONZA-NAPOLI | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 29, 2026" },
 { id: "iim5yGYF39o", title: "Hakimi bags hat-trick as PSG extend winning streak to six! | Le Havre 1-5 PSG | Ligue 1 Highlights", channel: "Sky Sports Football", date: "Oct 30, 2026" },
 { id: "kJK5b2QFoeA", title: "LE HAVRE 1–5 PSG : le résumé en moins de 4 min ! Triplé exceptionnel d'Hakimi 🔥", channel: "Ceka", date: "Oct 30, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
 { id: "c1efUzzL5zE", title: "Al Nassr vs Al-Kholood 5-3 All Goals & Extended Highlights | Cristiano Ronaldo hat trick", channel: "Premium Match", date: "Oct 29, 2026" },
 { id: "RAOvzCyJ_zU", title: "Extended Highlights: Town (5) 1-1 (3) Arsenal", channel: "Fleetwood Town FC", date: "Oct 28, 2026" },
 { id: "eBLnW0Y3K24", title: "MILAN-BOLOGNA 2-4 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 29, 2026" },
-{ id: "PG3mi1ly6HM", title: "TRE PUNTI IN DUE MINUTI! 🔥 | VENEZIA 0-2 INTER | EXTENDED HIGHLIGHTS 📹🖤💙", channel: "Inter", date: "Oct 29, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
