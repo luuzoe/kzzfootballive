@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "u-h8fyclSgs", title: "Manchester City 0-1 Brighton | Highlights & Goal | Ayari 11' Winner | Premier League", channel: "Dima Hanya", date: "Oct 31, 2026" },
 { id: "c3Ct099QZ-8", title: "LEVANTE UD 0 - 2 ATLÉTICO DE MADRID | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 31, 2026" },
 { id: "OdEXrIkZ00U", title: "Chelsea -  Manchester United 2:0 | PREMIER LEAGUE (9. kolo) | 31. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 31, 2026" },
 { id: "7jnH4zkMCUU", title: "Chelesa vs Manchester United 2-0 HIGHLIGHTS • Cole Palmer & Morgan Rogers Goals! • Premier League 26", channel: "Dollar VFX", date: "Oct 31, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
 { id: "v_lm38XO8yo", title: "5-2 win against Nürnberg in DFB Pokal: Goals by Tapsoba, Schick, Hofmann & Vazquez | Highlights", channel: "Bayer 04 Leverkusen", date: "Oct 28, 2026" },
 { id: "69_H-DLwg1A", title: "DRAMATIC SHOOTOUT! | Liverpool v Chelsea Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
 { id: "_e74c-a1r1o", title: "Liverpool 1-1 Chelsea (6-5 pens) | HIGHLIGHTS | Carabao Cup 2026/27", channel: "Chelsea Football Club", date: "Oct 28, 2026" },
-{ id: "TNnLdOwJwVk", title: "BIGGEST UPSET EVER?! | Fleetwood Town v Arsenal Extended Highlights", channel: "EFL", date: "Oct 28, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
