@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "Dejb2VkJlPc", title: "Ayari hands City BACK-TO-BACK losses! | Manchester City 0-1 Brighton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "nBdMdjSuXN4", title: "Demirović Scores Twice! | BAYER 04 LEVERKUSEN - VFB STUTTGART | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
 { id: "qj5jFjsN8GQ", title: "Manchester City 0-1 Brighton | 26/27 | Premier League - Game highlights | SportyTV", channel: "SportyTV", date: "Oct 31, 2026" },
 { id: "u-h8fyclSgs", title: "Manchester City 0-1 Brighton | Highlights & Goal | Ayari 11' Winner | Premier League", channel: "Dima Hanya", date: "Oct 31, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
 { id: "mYFGBj8xHF0", title: "Manchester City 2-2 Brighton (4-3 pens) | Highlights | Carabao Cup 2026/27", channel: "SCTV Thể Thao Official", date: "Oct 28, 2026" },
 { id: "Y_xtRG-YUj0", title: "MONZA 1 - 4 NAPOLI | HIGHLIGHTS SERIE A ENILIVE", channel: "AC Monza", date: "Oct 28, 2026" },
 { id: "BeSlJb_BwEM", title: "Bayern Munich vs Magdeburg 6-1 HIGHLIGHTS - DFB-Pokal 2026/27", channel: "Dollar VFX", date: "Oct 28, 2026" },
-{ id: "v_lm38XO8yo", title: "5-2 win against Nürnberg in DFB Pokal: Goals by Tapsoba, Schick, Hofmann & Vazquez | Highlights", channel: "Bayer 04 Leverkusen", date: "Oct 28, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
