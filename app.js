@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 84; // bump on every deploy
+const APP_VERSION = 85; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,13 +900,13 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "hMqZMLqkoWI", title: "Moreira the Star of the Derby! | MILAN-INTER | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 31, 2026" },
 { id: "dlviQKRx7zg", title: "IL DERBY È ROSSONERO | Pulisic, Rabiot, Moreira | Milan-Inter 3-1 | Highlights Serie A", channel: "AC Milan", date: "Oct 31, 2026" },
 { id: "zm9kftTvCOQ", title: "Dortmund Deny Wizard Olise! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
 { id: "UJpuIXIJAHM", title: "FC BARCELONA 6 vs 1 ALAVÉS | LALIGA 2026/27 MD11 🔵🔴", channel: "FC Barcelona", date: "Oct 31, 2026" },
 { id: "kcW6d6RozWs", title: "Barcelona vs Alavés 6-1 🔥 | HIGHLIGHTS & ALL GOALS | LaLiga 2026", channel: "Passion Sports", date: "Oct 31, 2026" },
 { id: "-HLgn5JpE6Y", title: "Spurs win three in a row | Tottenham 2-0 Crystal Palace | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 31, 2026" },
 { id: "oJmCz8vTgP0", title: "AC Milan vs Inter Milan 3-1 || All Goals & Extended Highlights || Serie A 2026/27", channel: "Mahmoud Shaker", date: "Oct 31, 2026" },
-{ id: "RGq_64G28mE", title: "Milan - Inter Milan | 3-1 | Highlights | Serie A 2026-27 | milan inter", channel: "Sponitor", date: "Oct 31, 2026" },
 { id: "uZI7lKdU4kI", title: "Spurs win three in a row! ✅ | Spurs 2-0 Crystal Palace | Premier League highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "qK32EAZLRDs", title: "Penalty Miss And DRAMA! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
 { id: "4cQVJ6asUQA", title: "Bayern Munich 2-2 Borussia Dortmund | Der Klassiker Highlights | Bundesliga 2026/27", channel: "Footballia", date: "Oct 31, 2026" },
