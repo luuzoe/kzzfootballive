@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "Q3vyo0myETY", title: "Extended Highlights 2026/27 | Milan-Inter 3-1 | Pulisic, Rabiot e Moreira firmano il Derby", channel: "AC Milan", date: "Oct 31, 2026" },
 { id: "m9a7XJOHmKE", title: "Levante vs. Atletico Madrid | LALIGA Highlights | ESPN FC", channel: "ESPN FC", date: "Oct 31, 2026" },
 { id: "tj6jb3BqUMw", title: "MONZA-NAPOLI 1-4 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 29, 2026" },
 { id: "f0Qo1Dssk-I", title: "Levante 0-2 Atlético de Madrid | Grimaldo & Giuliano | HIGHLIGHTS, LaLiga - MD11", channel: "Atlético de Madrid", date: "Oct 31, 2026" },
@@ -912,7 +913,6 @@ async function renderHighlights() {
 { id: "UJpuIXIJAHM", title: "FC BARCELONA 6 vs 1 ALAVÉS | LALIGA 2026/27 MD11 🔵🔴", channel: "FC Barcelona", date: "Oct 31, 2026" },
 { id: "kcW6d6RozWs", title: "Barcelona vs Alavés 6-1 🔥 | HIGHLIGHTS & ALL GOALS | LaLiga 2026", channel: "Passion Sports", date: "Oct 31, 2026" },
 { id: "-HLgn5JpE6Y", title: "Spurs win three in a row | Tottenham 2-0 Crystal Palace | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 31, 2026" },
-{ id: "oJmCz8vTgP0", title: "AC Milan vs Inter Milan 3-1 || All Goals & Extended Highlights || Serie A 2026/27", channel: "Mahmoud Shaker", date: "Oct 31, 2026" },
 { id: "uZI7lKdU4kI", title: "Spurs win three in a row! ✅ | Spurs 2-0 Crystal Palace | Premier League highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "qK32EAZLRDs", title: "Penalty Miss And DRAMA! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
 { id: "b2iUBcFDfk8", title: "Bayern Munich vs Borussia Dortmund | Matchday 8 | 2026-27 Bundesliga Highlights", channel: "DAZN Football", date: "Oct 31, 2026" },
