@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 85; // bump on every deploy
+const APP_VERSION = 86; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,7 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "iim5yGYF39o", title: "Hakimi bags hat-trick as PSG extend winning streak to six! | Le Havre 1-5 PSG | Ligue 1 Highlights", channel: "Sky Sports Football", date: "Oct 30, 2026" },
+{ id: "y32UMH-Uhsw", title: "Liverpool vs Arsenal 0-1 HIGHLIGHTS - Kai Havertz GOAL! - Premier League 2026/27", channel: "Dollar VFX", date: "Nov 1, 2026" },
+{ id: "WDzE1TwKang", title: "Manchester City 0-1 Brighton & Hove Albion | Premier League Highlights 2026/27", channel: "Stadium Astro", date: "Oct 31, 2026" },
 { id: "RoX_MFDQn58", title: "Havertz gets Gunners BIG Anfield win! 😤 | Liverpool 0-1 Arsenal | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 1, 2026" },
 { id: "1T7o8eMfscA", title: "Kai Havertz Goal - Liverpool vs Arsenal 0-1 | All Goals & Highlights | Premier League 2026", channel: "🔱 بوده كوته 🔱", date: "Nov 1, 2026" },
 { id: "YC1qQFGS4lY", title: "REAL MADRID GOLEA AL RACING SANTANDER | RESUMEN COMPLETO", channel: "Passion Sports", date: "Nov 1, 2026" },
@@ -908,7 +909,6 @@ async function renderHighlights() {
 { id: "Z6xa12JB48k", title: "REAL MADRID vs RACING DE SANTANDER 3-0 | GOLES y RESUMEN del PARTIDO | LA LIGA 2026", channel: "Futbol TOTAL", date: "Nov 1, 2026" },
 { id: "Q3vyo0myETY", title: "Extended Highlights 2026/27 | Milan-Inter 3-1 | Pulisic, Rabiot e Moreira firmano il Derby", channel: "AC Milan", date: "Oct 31, 2026" },
 { id: "m9a7XJOHmKE", title: "Levante vs. Atletico Madrid | LALIGA Highlights | ESPN FC", channel: "ESPN FC", date: "Oct 31, 2026" },
-{ id: "tj6jb3BqUMw", title: "MONZA-NAPOLI 1-4 | EXTENDED HIGHLIGHTS | SERIE A 2026/27", channel: "Serie A", date: "Oct 29, 2026" },
 { id: "f0Qo1Dssk-I", title: "Levante 0-2 Atlético de Madrid | Grimaldo & Giuliano | HIGHLIGHTS, LaLiga - MD11", channel: "Atlético de Madrid", date: "Oct 31, 2026" },
 { id: "kfkJYSDWNLA", title: "HIGHLIGHTS | Man City 0-1 Brighton | City unable to finish their chances at the Etihad!", channel: "Man City", date: "Oct 31, 2026" },
 { id: "VqM4DR1bNiE", title: "Tottenham Hotspur v Crystal Palace | Highlights | Premier League 2026/27", channel: "Stan Sport Football", date: "Oct 31, 2026" },
