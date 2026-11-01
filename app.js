@@ -928,7 +928,6 @@ async function renderHighlights() {
 { id: "h1kj0vUm9jM", title: "Venezia Fall with Two Own Goals | VENEZIA-INTER | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
 { id: "xLA56NuoHok", title: "MILAN-BOLOGNA | HIGHLIGHTS", channel: "Bologna FC 1909", date: "Oct 29, 2026" },
 { id: "S2J_DtpYgRs", title: "Fleetwood DUMP Arsenal out of Carabao Cup! | Fleetwood 1-1 Arsenal | Carabao Cup Highlights", channel: "Sky Sports Football", date: "Oct 30, 2026" },
-{ id: "Doiq12y4078", title: "Ronaldo hits a HAT-TRICK to reach 985 | Al Nassr 5-3 Al Kholood | SPL Highlights", channel: "Saudi Pro League", date: "Oct 29, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
