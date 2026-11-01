@@ -900,6 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "YC1qQFGS4lY", title: "REAL MADRID GOLEA AL RACING SANTANDER | RESUMEN COMPLETO", channel: "Passion Sports", date: "Nov 1, 2026" },
+{ id: "DSM84vNyeGE", title: "Real Madrid vs Racing Santander 3-0 - All Goals & Highlights - 2026", channel: "qorsan", date: "Nov 1, 2026" },
 { id: "Z6xa12JB48k", title: "REAL MADRID vs RACING DE SANTANDER 3-0 | GOLES y RESUMEN del PARTIDO | LA LIGA 2026", channel: "Futbol TOTAL", date: "Nov 1, 2026" },
 { id: "Q3vyo0myETY", title: "Extended Highlights 2026/27 | Milan-Inter 3-1 | Pulisic, Rabiot e Moreira firmano il Derby", channel: "AC Milan", date: "Oct 31, 2026" },
 { id: "m9a7XJOHmKE", title: "Levante vs. Atletico Madrid | LALIGA Highlights | ESPN FC", channel: "ESPN FC", date: "Oct 31, 2026" },
@@ -926,8 +928,6 @@ async function renderHighlights() {
 { id: "OI58_-4ezU8", title: "Chelsea 2-0 Man Utd | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 31, 2026" },
 { id: "yOoZ9xBaWIY", title: "Napoli Dominant at the Brianteo | MONZA-NAPOLI | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 29, 2026" },
 { id: "iim5yGYF39o", title: "Hakimi bags hat-trick as PSG extend winning streak to six! | Le Havre 1-5 PSG | Ligue 1 Highlights", channel: "Sky Sports Football", date: "Oct 30, 2026" },
-{ id: "kJK5b2QFoeA", title: "LE HAVRE 1–5 PSG : le résumé en moins de 4 min ! Triplé exceptionnel d'Hakimi 🔥", channel: "Ceka", date: "Oct 30, 2026" },
-{ id: "9xbIkz7ALQE", title: "Rulli the hero saves TWO as City win on pens! | Man City 2-2 (4-3) Brighton | Carabao Cup Highlights", channel: "Sky Sports Football", date: "Oct 28, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
