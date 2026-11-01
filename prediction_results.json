@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T02:59:27+06:30",
+ "updated": "2026-11-01T08:54:19+06:30",
  "summary": {
   "resolved": 70,
   "correct": 37,
@@ -907,6 +907,15 @@
    "pick_en": "Eintracht Frankfurt win",
    "score": null,
    "outcome": "not_found"
+  },
+  {
+   "date": "2026-11-01",
+   "home": "Lecce",
+   "away": "Genoa",
+   "league": "Serie A",
+   "pick_en": "Genoa win",
+   "score": null,
+   "outcome": "pending"
   }
  ]
 }
