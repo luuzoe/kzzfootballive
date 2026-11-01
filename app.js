@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "nBdMdjSuXN4", title: "Demirović Scores Twice! | BAYER 04 LEVERKUSEN - VFB STUTTGART | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
 { id: "iqciggyhLvM", title: "Alajbegovic Strikes Stunning First Goal! | JUVENTUS-NAPOLI | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 1, 2026" },
 { id: "jfgefvACgbw", title: "Juventus vs Napoli 2-0 - Highlights & All Goals - Serie A 2026/27", channel: "Dollar VFX", date: "Nov 1, 2026" },
 { id: "6zxbfAGBIoU", title: "Juventus - Napoli | 2-0 | Highlights | Serie A 2026-27 | juventus napoli", channel: "Sponitor", date: "Nov 1, 2026" },
@@ -909,10 +910,10 @@ async function renderHighlights() {
 { id: "y32UMH-Uhsw", title: "Liverpool vs Arsenal 0-1 HIGHLIGHTS - Kai Havertz GOAL! - Premier League 2026/27", channel: "Dollar VFX", date: "Nov 1, 2026" },
 { id: "WDzE1TwKang", title: "Manchester City 0-1 Brighton & Hove Albion | Premier League Highlights 2026/27", channel: "Stadium Astro", date: "Oct 31, 2026" },
 { id: "RoX_MFDQn58", title: "Havertz gets Gunners BIG Anfield win! 😤 | Liverpool 0-1 Arsenal | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 1, 2026" },
-{ id: "1T7o8eMfscA", title: "Kai Havertz Goal - Liverpool vs Arsenal 0-1 | All Goals & Highlights | Premier League 2026", channel: "🔱 بوده كوته 🔱", date: "Nov 1, 2026" },
+{ id: "Zt1VugPdwFw", title: "HAVERTZ GOAL EARNS VITAL WIN IN THE TITLE RACE | HIGHLIGHTS | Liverpool vs Arsenal (0-1) l PL", channel: "Arsenal", date: "Nov 1, 2026" },
 { id: "YC1qQFGS4lY", title: "REAL MADRID GOLEA AL RACING SANTANDER | RESUMEN COMPLETO", channel: "Passion Sports", date: "Nov 1, 2026" },
 { id: "DSM84vNyeGE", title: "Real Madrid vs Racing Santander 3-0 - All Goals & Highlights - 2026", channel: "qorsan", date: "Nov 1, 2026" },
-{ id: "Z6xa12JB48k", title: "REAL MADRID vs RACING DE SANTANDER 3-0 | GOLES y RESUMEN del PARTIDO | LA LIGA 2026", channel: "Futbol TOTAL", date: "Nov 1, 2026" },
+{ id: "ep38QN4lEjM", title: "HIGHLIGHTS | Racing de Santander 0-3 Real Madrid | LaLiga", channel: "Real Madrid", date: "Nov 1, 2026" },
 { id: "Q3vyo0myETY", title: "Extended Highlights 2026/27 | Milan-Inter 3-1 | Pulisic, Rabiot e Moreira firmano il Derby", channel: "AC Milan", date: "Oct 31, 2026" },
 { id: "m9a7XJOHmKE", title: "Levante vs. Atletico Madrid | LALIGA Highlights | ESPN FC", channel: "ESPN FC", date: "Oct 31, 2026" },
 { id: "f0Qo1Dssk-I", title: "Levante 0-2 Atlético de Madrid | Grimaldo & Giuliano | HIGHLIGHTS, LaLiga - MD11", channel: "Atlético de Madrid", date: "Oct 31, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
 { id: "-HLgn5JpE6Y", title: "Spurs win three in a row | Tottenham 2-0 Crystal Palace | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 31, 2026" },
 { id: "uZI7lKdU4kI", title: "Spurs win three in a row! ✅ | Spurs 2-0 Crystal Palace | Premier League highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "qK32EAZLRDs", title: "Penalty Miss And DRAMA! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
-{ id: "b2iUBcFDfk8", title: "Bayern Munich vs Borussia Dortmund | Matchday 8 | 2026-27 Bundesliga Highlights", channel: "DAZN Football", date: "Oct 31, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
