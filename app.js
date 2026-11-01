@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "kfkJYSDWNLA", title: "HIGHLIGHTS | Man City 0-1 Brighton | City unable to finish their chances at the Etihad!", channel: "Man City", date: "Oct 31, 2026" },
 { id: "VqM4DR1bNiE", title: "Tottenham Hotspur v Crystal Palace | Highlights | Premier League 2026/27", channel: "Stan Sport Football", date: "Oct 31, 2026" },
 { id: "H3KClYYb2AM", title: "FC BARCELONA 6 - 1 DEPORTIVO ALAVÉS | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 31, 2026" },
 { id: "hMqZMLqkoWI", title: "Moreira the Star of the Derby! | MILAN-INTER | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 31, 2026" },
@@ -916,7 +917,6 @@ async function renderHighlights() {
 { id: "Dejb2VkJlPc", title: "Ayari hands City BACK-TO-BACK losses! | Manchester City 0-1 Brighton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "nBdMdjSuXN4", title: "Demirović Scores Twice! | BAYER 04 LEVERKUSEN - VFB STUTTGART | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
 { id: "qj5jFjsN8GQ", title: "Manchester City 0-1 Brighton | 26/27 | Premier League - Game highlights | SportyTV", channel: "SportyTV", date: "Oct 31, 2026" },
-{ id: "u-h8fyclSgs", title: "Manchester City 0-1 Brighton | Highlights & Goal | Ayari 11' Winner | Premier League", channel: "Dima Hanya", date: "Oct 31, 2026" },
 { id: "c3Ct099QZ-8", title: "LEVANTE UD 0 - 2 ATLÉTICO DE MADRID | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 31, 2026" },
 { id: "OdEXrIkZ00U", title: "Chelsea -  Manchester United 2:0 | PREMIER LEAGUE (9. kolo) | 31. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 31, 2026" },
 { id: "OI58_-4ezU8", title: "Chelsea 2-0 Man Utd | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 31, 2026" },
