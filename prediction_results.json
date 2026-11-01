@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-01T08:54:19+06:30",
+ "updated": "2026-11-01T20:53:25+06:30",
  "summary": {
-  "resolved": 70,
-  "correct": 37,
-  "wrong": 33,
-  "accuracy_pct": 52.9,
+  "resolved": 80,
+  "correct": 44,
+  "wrong": 36,
+  "accuracy_pct": 55.0,
   "not_found": 6
  },
  "results": [
@@ -815,8 +815,8 @@
    "away": "Venezia",
    "league": "Serie A",
    "pick_en": "Como win",
-   "score": null,
-   "outcome": "pending"
+   "score": "1-0",
+   "outcome": "correct"
   },
   {
    "date": "2026-11-01",
@@ -824,8 +824,8 @@
    "away": "Sevilla",
    "league": "La Liga",
    "pick_en": "Sevilla win",
-   "score": null,
-   "outcome": "pending"
+   "score": "3-1",
+   "outcome": "wrong"
   },
   {
    "date": "2026-11-01",
@@ -833,8 +833,8 @@
    "away": "Torino",
    "league": "Serie A",
    "pick_en": "Frosinone win",
-   "score": null,
-   "outcome": "pending"
+   "score": "2-0",
+   "outcome": "correct"
   },
   {
    "date": "2026-11-01",
@@ -842,8 +842,8 @@
    "away": "Cagliari",
    "league": "Serie A",
    "pick_en": "Lazio win",
-   "score": null,
-   "outcome": "pending"
+   "score": "2-1",
+   "outcome": "correct"
   },
   {
    "date": "2026-11-01",
@@ -851,8 +851,8 @@
    "away": "Auxerre",
    "league": "Ligue 1",
    "pick_en": "Strasbourg win",
-   "score": null,
-   "outcome": "pending"
+   "score": "5-1",
+   "outcome": "correct"
   },
   {
    "date": "2026-11-01",
@@ -869,8 +869,8 @@
    "away": "Real Madrid",
    "league": "La Liga",
    "pick_en": "Real Madrid win",
-   "score": null,
-   "outcome": "pending"
+   "score": "0-3",
+   "outcome": "correct"
   },
   {
    "date": "2026-11-01",
@@ -878,8 +878,8 @@
    "away": "Angers",
    "league": "Ligue 1",
    "pick_en": "Lyon win",
-   "score": null,
-   "outcome": "pending"
+   "score": "2-0",
+   "outcome": "correct"
   },
   {
    "date": "2026-11-01",
@@ -887,8 +887,8 @@
    "away": "Monaco",
    "league": "Ligue 1",
    "pick_en": "Monaco win",
-   "score": null,
-   "outcome": "pending"
+   "score": "3-1",
+   "outcome": "wrong"
   },
   {
    "date": "2026-11-01",
@@ -896,8 +896,8 @@
    "away": "Arsenal",
    "league": "Premier League",
    "pick_en": "Draw",
-   "score": null,
-   "outcome": "pending"
+   "score": "0-1",
+   "outcome": "wrong"
   },
   {
    "date": "2026-11-01",
@@ -914,8 +914,8 @@
    "away": "Genoa",
    "league": "Serie A",
    "pick_en": "Genoa win",
-   "score": null,
-   "outcome": "pending"
+   "score": "1-2",
+   "outcome": "correct"
   }
  ]
 }
