@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "H3KClYYb2AM", title: "FC BARCELONA 6 - 1 DEPORTIVO ALAVÉS | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 31, 2026" },
 { id: "hMqZMLqkoWI", title: "Moreira the Star of the Derby! | MILAN-INTER | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 31, 2026" },
 { id: "dlviQKRx7zg", title: "IL DERBY È ROSSONERO | Pulisic, Rabiot, Moreira | Milan-Inter 3-1 | Highlights Serie A", channel: "AC Milan", date: "Oct 31, 2026" },
 { id: "zm9kftTvCOQ", title: "Dortmund Deny Wizard Olise! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
