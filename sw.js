@@ -2,7 +2,7 @@
    Same-origin GETs: stale-while-revalidate (assets + JSON). Navigation: network-first.
    ESPN API calls go straight to the network (cross-origin, untouched). */
 const CACHE = 'kzz-v444';
-const STATICS = ['./', './index.html', './app.js?v=440', './styles.css?v=420', './manifest.json',
+const STATICS = ['./', './index.html', './app.js?v=441', './styles.css?v=421', './manifest.json',
   './icon-192.png', './icon-512.png', './og-image.png', './analyses.json',
   './favicon.ico', './prediction_results.json'];
 
