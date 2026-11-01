@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "OI58_-4ezU8", title: "Chelsea 2-0 Man Utd | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 31, 2026" },
 { id: "B-st-Jk7-kg", title: "Le Havre vs PSG 1-5 Highlights | Ligue 1 2026/27 | All Goals & Match Highlights", channel: "Cric7 Cool", date: "Oct 30, 2026" },
 { id: "_rr24qVGgik", title: "Le Havre - PSG | 1-5 | Highlights | Ligue 1 2026-27", channel: "Sponitor", date: "Oct 30, 2026" },
 { id: "y32UMH-Uhsw", title: "Liverpool vs Arsenal 0-1 HIGHLIGHTS - Kai Havertz GOAL! - Premier League 2026/27", channel: "Dollar VFX", date: "Nov 1, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
 { id: "8NoVQEkZotE", title: "Rogers & Palmer pile more misery on Red Devils! | Chelsea 2-0 Man United | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "Dejb2VkJlPc", title: "Ayari hands City BACK-TO-BACK losses! | Manchester City 0-1 Brighton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "nBdMdjSuXN4", title: "Demirović Scores Twice! | BAYER 04 LEVERKUSEN - VFB STUTTGART | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
-{ id: "c3Ct099QZ-8", title: "LEVANTE UD 0 - 2 ATLÉTICO DE MADRID | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 31, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
