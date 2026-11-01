@@ -18,59 +18,59 @@
    },
    {
     "rank": 3,
+    "player": "Morgan Rogers",
+    "team": "အက်စတွန်ဗီလာ",
+    "goals": 5,
+    "pid": "265653"
+   },
+   {
+    "rank": 4,
     "player": "Marcus Tavernier",
     "team": "ဘုန်းမောက်",
     "goals": 5,
     "pid": "243364"
    },
    {
-    "rank": 4,
+    "rank": 5,
+    "player": "Nicolas Jackson",
+    "team": "အက်စတွန်ဗီလာ",
+    "goals": 5,
+    "pid": "308524"
+   },
+   {
+    "rank": 6,
     "player": "João Pedro",
     "team": "ချယ်လ်ဆီး",
     "goals": 5,
     "pid": "284960"
    },
    {
-    "rank": 5,
+    "rank": 7,
     "player": "Bryan Mbeumo",
     "team": "မန်ယူ",
     "goals": 4,
     "pid": "271170"
    },
    {
-    "rank": 6,
-    "player": "Morgan Rogers",
-    "team": "အက်စတွန်ဗီလာ",
-    "goals": 4,
-    "pid": "265653"
-   },
-   {
-    "rank": 7,
-    "player": "Nicolas Jackson",
-    "team": "အက်စတွန်ဗီလာ",
-    "goals": 4,
-    "pid": "308524"
-   },
-   {
     "rank": 8,
+    "player": "Evanilson",
+    "team": "ဘုန်းမောက်",
+    "goals": 4,
+    "pid": "102368"
+   },
+   {
+    "rank": 9,
     "player": "Rayan Cherki",
     "team": "မန်စီးတီး",
     "goals": 4,
     "pid": "298008"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Pascal Gross",
     "team": "ဘရိုက်တန်",
     "goals": 3,
     "pid": "132659"
-   },
-   {
-    "rank": 10,
-    "player": "Dominic Calvert-Lewin",
-    "team": "လိဒ်စ်ယူနိုက်တက်",
-    "goals": 3,
-    "pid": "197717"
    }
   ],
   "esp.1": [
@@ -78,7 +78,7 @@
     "rank": 1,
     "player": "Raphinha",
     "team": "ဘာစီလိုနာ",
-    "goals": 13,
+    "goals": 15,
     "pid": "231050"
    },
    {
@@ -92,7 +92,7 @@
     "rank": 3,
     "player": "Lamine Yamal",
     "team": "ဘာစီလိုနာ",
-    "goals": 8,
+    "goals": 10,
     "pid": "362150"
    },
    {
@@ -104,17 +104,17 @@
    },
    {
     "rank": 5,
-    "player": "Ante Budimir",
-    "team": "အိုဆာဆူနာ",
-    "goals": 7,
-    "pid": "207288"
-   },
-   {
-    "rank": 6,
     "player": "Sergio Camello",
     "team": "ရာယိုဗယ်လီကာနို",
     "goals": 7,
     "pid": "276652"
+   },
+   {
+    "rank": 6,
+    "player": "Ante Budimir",
+    "team": "အိုဆာဆူနာ",
+    "goals": 7,
+    "pid": "207288"
    },
    {
     "rank": 7,
@@ -689,68 +689,68 @@
    },
    {
     "rank": 6,
+    "player": "Maxim De Cuyper",
+    "team": "ဘရိုက်တန်",
+    "assists": 3,
+    "pid": "301327"
+   },
+   {
+    "rank": 7,
     "player": "John McGinn",
     "team": "အက်စတွန်ဗီလာ",
     "assists": 3,
     "pid": "162843"
    },
    {
-    "rank": 7,
+    "rank": 8,
     "player": "Josko Gvardiol",
     "team": "မန်စီးတီး",
     "assists": 3,
     "pid": "299910"
    },
    {
-    "rank": 8,
+    "rank": 9,
+    "player": "Mohammed Kudus",
+    "team": "စပါး",
+    "assists": 3,
+    "pid": "266599"
+   },
+   {
+    "rank": 10,
     "player": "Antoine Semenyo",
     "team": "မန်စီးတီး",
     "assists": 3,
     "pid": "273292"
-   },
-   {
-    "rank": 9,
-    "player": "Ben White",
-    "team": "အာဆင်နယ်",
-    "assists": 3,
-    "pid": "241077"
-   },
-   {
-    "rank": 10,
-    "player": "João Pedro",
-    "team": "ချယ်လ်ဆီး",
-    "assists": 3,
-    "pid": "284960"
    }
   ],
   "esp.1": [
    {
     "rank": 1,
+    "player": "Lamine Yamal",
+    "team": "ဘာစီလိုနာ",
+    "assists": 7,
+    "pid": "362150"
+   },
+   {
+    "rank": 2,
     "player": "Javi Hernandez",
     "team": "အက်စ်ပန်ညောလ်",
     "assists": 6,
     "pid": "367946"
    },
    {
-    "rank": 2,
-    "player": "Lamine Yamal",
+    "rank": 3,
+    "player": "Fermín López",
     "team": "ဘာစီလိုနာ",
-    "assists": 6,
-    "pid": "362150"
+    "assists": 5,
+    "pid": "354334"
    },
    {
-    "rank": 3,
+    "rank": 4,
     "player": "Alberto Moleiro",
     "team": "ဗီလာရီးရဲလ်",
     "assists": 4,
     "pid": "307390"
-   },
-   {
-    "rank": 4,
-    "player": "Álex Berenguer",
-    "team": "အက်သလတစ်ဘီလ်ဘာအို",
-    "assists": 4,
-    "pid": "209579"
    },
    {
     "rank": 5,
@@ -768,31 +768,31 @@
    },
    {
     "rank": 7,
-    "player": "Iñigo Vicente",
-    "team": "ရေးစင်းဆန်တန်ဒါး",
-    "assists": 3,
-    "pid": "284699"
+    "player": "Álex Berenguer",
+    "team": "အက်သလတစ်ဘီလ်ဘာအို",
+    "assists": 4,
+    "pid": "209579"
    },
    {
     "rank": 8,
-    "player": "Jude Bellingham",
-    "team": "ရီးယဲလ်",
-    "assists": 3,
-    "pid": "291281"
-   },
-   {
-    "rank": 9,
     "player": "Unai López",
     "team": "ရာယိုဗယ်လီကာနို",
     "assists": 3,
     "pid": "203711"
    },
    {
-    "rank": 10,
-    "player": "José Antonio Morente",
-    "team": "အဲလ်ချီ",
+    "rank": 9,
+    "player": "Álex Baena",
+    "team": "အက်သလက်တီကိုမက်ဒရစ်",
     "assists": 3,
-    "pid": "259916"
+    "pid": "297373"
+   },
+   {
+    "rank": 10,
+    "player": "Iñigo Vicente",
+    "team": "ရေးစင်းဆန်တန်ဒါး",
+    "assists": 3,
+    "pid": "284699"
    }
   ],
   "ita.1": [
