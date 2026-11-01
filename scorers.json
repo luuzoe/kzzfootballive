@@ -341,24 +341,24 @@
    },
    {
     "rank": 8,
+    "player": "Louis Mafouta",
+    "team": "လမန်း",
+    "goals": 4,
+    "pid": "268720"
+   },
+   {
+    "rank": 9,
     "player": "Ferran Torres",
     "team": "ပီအက်စ်ဂျီ",
     "goals": 4,
     "pid": "265869"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Josh Maja",
     "team": "လဟာဗေး",
     "goals": 4,
     "pid": "243514"
-   },
-   {
-    "rank": 10,
-    "player": "Louis Mafouta",
-    "team": "လမန်း",
-    "goals": 4,
-    "pid": "268720"
    }
   ],
   "ned.1": [
