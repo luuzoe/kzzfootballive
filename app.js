@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "f0Qo1Dssk-I", title: "Levante 0-2 Atlético de Madrid | Grimaldo & Giuliano | HIGHLIGHTS, LaLiga - MD11", channel: "Atlético de Madrid", date: "Oct 31, 2026" },
 { id: "kfkJYSDWNLA", title: "HIGHLIGHTS | Man City 0-1 Brighton | City unable to finish their chances at the Etihad!", channel: "Man City", date: "Oct 31, 2026" },
 { id: "VqM4DR1bNiE", title: "Tottenham Hotspur v Crystal Palace | Highlights | Premier League 2026/27", channel: "Stan Sport Football", date: "Oct 31, 2026" },
 { id: "H3KClYYb2AM", title: "FC BARCELONA 6 - 1 DEPORTIVO ALAVÉS | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 31, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
 { id: "4fhGSL7RMHo", title: "Le Havre - PSG 1:5 | LIGUE 1 Highlights Round 9", channel: "Arena Sport TV", date: "Oct 30, 2026" },
 { id: "Goxa4KQJup4", title: "First Half Goals Bring Unexpected Outcome | GENOA-JUVENTUS | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
 { id: "h1kj0vUm9jM", title: "Venezia Fall with Two Own Goals | VENEZIA-INTER | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 28, 2026" },
-{ id: "xLA56NuoHok", title: "MILAN-BOLOGNA | HIGHLIGHTS", channel: "Bologna FC 1909", date: "Oct 29, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
