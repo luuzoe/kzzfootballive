@@ -915,7 +915,7 @@ async function renderHighlights() {
 { id: "oJmCz8vTgP0", title: "AC Milan vs Inter Milan 3-1 || All Goals & Extended Highlights || Serie A 2026/27", channel: "Mahmoud Shaker", date: "Oct 31, 2026" },
 { id: "uZI7lKdU4kI", title: "Spurs win three in a row! ✅ | Spurs 2-0 Crystal Palace | Premier League highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "qK32EAZLRDs", title: "Penalty Miss And DRAMA! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
-{ id: "4cQVJ6asUQA", title: "Bayern Munich 2-2 Borussia Dortmund | Der Klassiker Highlights | Bundesliga 2026/27", channel: "Footballia", date: "Oct 31, 2026" },
+{ id: "b2iUBcFDfk8", title: "Bayern Munich vs Borussia Dortmund | Matchday 8 | 2026-27 Bundesliga Highlights", channel: "DAZN Football", date: "Oct 31, 2026" },
 { id: "8NoVQEkZotE", title: "Rogers & Palmer pile more misery on Red Devils! | Chelsea 2-0 Man United | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "Dejb2VkJlPc", title: "Ayari hands City BACK-TO-BACK losses! | Manchester City 0-1 Brighton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "nBdMdjSuXN4", title: "Demirović Scores Twice! | BAYER 04 LEVERKUSEN - VFB STUTTGART | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
