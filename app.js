@@ -900,13 +900,13 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "sjpjQmQyEYw", title: "Chaos! Woodwork And Pen Miss! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Nov 1, 2026" },
 { id: "nBdMdjSuXN4", title: "Demirović Scores Twice! | BAYER 04 LEVERKUSEN - VFB STUTTGART | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
 { id: "iqciggyhLvM", title: "Alajbegovic Strikes Stunning First Goal! | JUVENTUS-NAPOLI | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 1, 2026" },
 { id: "jfgefvACgbw", title: "Juventus vs Napoli 2-0 - Highlights & All Goals - Serie A 2026/27", channel: "Dollar VFX", date: "Nov 1, 2026" },
 { id: "6zxbfAGBIoU", title: "Juventus - Napoli | 2-0 | Highlights | Serie A 2026-27 | juventus napoli", channel: "Sponitor", date: "Nov 1, 2026" },
 { id: "OI58_-4ezU8", title: "Chelsea 2-0 Man Utd | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 31, 2026" },
 { id: "B-st-Jk7-kg", title: "Le Havre vs PSG 1-5 Highlights | Ligue 1 2026/27 | All Goals & Match Highlights", channel: "Cric7 Cool", date: "Oct 30, 2026" },
-{ id: "_rr24qVGgik", title: "Le Havre - PSG | 1-5 | Highlights | Ligue 1 2026-27", channel: "Sponitor", date: "Oct 30, 2026" },
 { id: "y32UMH-Uhsw", title: "Liverpool vs Arsenal 0-1 HIGHLIGHTS - Kai Havertz GOAL! - Premier League 2026/27", channel: "Dollar VFX", date: "Nov 1, 2026" },
 { id: "WDzE1TwKang", title: "Manchester City 0-1 Brighton & Hove Albion | Premier League Highlights 2026/27", channel: "Stadium Astro", date: "Oct 31, 2026" },
 { id: "RoX_MFDQn58", title: "Havertz gets Gunners BIG Anfield win! 😤 | Liverpool 0-1 Arsenal | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 1, 2026" },
