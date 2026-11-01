@@ -592,3 +592,13 @@ body {
 /* phone highlights: single column (must come AFTER the 860px 2-col rule or it loses) */
 @media (max-width: 560px) { .highlights-grid { grid-template-columns: 1fr; } }
 .highlight-card { min-width: 0; }
+
+/* ---------- design polish 2026-11-01: audit fixes (appended last so they win) ---------- */
+/* 1. Sections strip: keep every tab on one line so button heights stay even */
+.tab { white-space: nowrap; }
+/* 2. Bigger touch targets: favorites clear button + reminder bell */
+.fav-bar button { min-width: 32px; min-height: 32px; display: inline-flex; align-items: center; justify-content: center; padding: 4px; }
+.remind-btn { min-width: 32px; min-height: 32px; display: inline-flex; align-items: center; justify-content: center; padding: 4px; }
+/* 3. Hide always-visible scrollbars on the horizontal strips (scrolling still works) */
+.tab-bar, .league-bar { scrollbar-width: none; -ms-overflow-style: none; }
+.tab-bar::-webkit-scrollbar, .league-bar::-webkit-scrollbar { display: none; }
