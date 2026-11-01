@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "iim5yGYF39o", title: "Hakimi bags hat-trick as PSG extend winning streak to six! | Le Havre 1-5 PSG | Ligue 1 Highlights", channel: "Sky Sports Football", date: "Oct 30, 2026" },
 { id: "RoX_MFDQn58", title: "Havertz gets Gunners BIG Anfield win! 😤 | Liverpool 0-1 Arsenal | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 1, 2026" },
 { id: "1T7o8eMfscA", title: "Kai Havertz Goal - Liverpool vs Arsenal 0-1 | All Goals & Highlights | Premier League 2026", channel: "🔱 بوده كوته 🔱", date: "Nov 1, 2026" },
 { id: "YC1qQFGS4lY", title: "REAL MADRID GOLEA AL RACING SANTANDER | RESUMEN COMPLETO", channel: "Passion Sports", date: "Nov 1, 2026" },
@@ -924,7 +925,6 @@ async function renderHighlights() {
 { id: "8NoVQEkZotE", title: "Rogers & Palmer pile more misery on Red Devils! | Chelsea 2-0 Man United | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "Dejb2VkJlPc", title: "Ayari hands City BACK-TO-BACK losses! | Manchester City 0-1 Brighton | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "nBdMdjSuXN4", title: "Demirović Scores Twice! | BAYER 04 LEVERKUSEN - VFB STUTTGART | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
-{ id: "qj5jFjsN8GQ", title: "Manchester City 0-1 Brighton | 26/27 | Premier League - Game highlights | SportyTV", channel: "SportyTV", date: "Oct 31, 2026" },
 { id: "c3Ct099QZ-8", title: "LEVANTE UD 0 - 2 ATLÉTICO DE MADRID | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 31, 2026" },
 { id: "OdEXrIkZ00U", title: "Chelsea -  Manchester United 2:0 | PREMIER LEAGUE (9. kolo) | 31. oktobar 2026.", channel: "Arena Sport TV", date: "Oct 31, 2026" },
 { id: "OI58_-4ezU8", title: "Chelsea 2-0 Man Utd | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 31, 2026" },
