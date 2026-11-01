@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-31T08:55:08+06:30",
+ "updated": "2026-11-01T02:59:27+06:30",
  "summary": {
   "resolved": 70,
   "correct": 37,
   "wrong": 33,
   "accuracy_pct": 52.9,
-  "not_found": 4
+  "not_found": 6
  },
  "results": [
   {
@@ -808,6 +808,105 @@
    "pick_en": "Roma win",
    "score": null,
    "outcome": "pending"
+  },
+  {
+   "date": "2026-11-01",
+   "home": "Como",
+   "away": "Venezia",
+   "league": "Serie A",
+   "pick_en": "Como win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-01",
+   "home": "Getafe",
+   "away": "Sevilla",
+   "league": "La Liga",
+   "pick_en": "Sevilla win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-01",
+   "home": "Frosinone",
+   "away": "Torino",
+   "league": "Serie A",
+   "pick_en": "Frosinone win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-01",
+   "home": "Lazio",
+   "away": "Cagliari",
+   "league": "Serie A",
+   "pick_en": "Lazio win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-01",
+   "home": "Strasbourg",
+   "away": "Auxerre",
+   "league": "Ligue 1",
+   "pick_en": "Strasbourg win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-01",
+   "home": "Union Berlin",
+   "away": "1. FC Koln",
+   "league": "Bundesliga",
+   "pick_en": "Draw",
+   "score": null,
+   "outcome": "not_found"
+  },
+  {
+   "date": "2026-11-01",
+   "home": "Racing Santander",
+   "away": "Real Madrid",
+   "league": "La Liga",
+   "pick_en": "Real Madrid win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-01",
+   "home": "Lyon",
+   "away": "Angers",
+   "league": "Ligue 1",
+   "pick_en": "Lyon win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-01",
+   "home": "Paris FC",
+   "away": "Monaco",
+   "league": "Ligue 1",
+   "pick_en": "Monaco win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-01",
+   "home": "Liverpool",
+   "away": "Arsenal",
+   "league": "Premier League",
+   "pick_en": "Draw",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-01",
+   "home": "Eintracht Frankfurt",
+   "away": "Hamburger SV",
+   "league": "Bundesliga",
+   "pick_en": "Eintracht Frankfurt win",
+   "score": null,
+   "outcome": "not_found"
   }
  ]
 }
