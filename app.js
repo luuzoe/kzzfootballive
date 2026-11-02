@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "7vM2tuPCR-M", title: "Tottenham 2-0 Crystal Palace | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Nov 1, 2026" },
 { id: "CU7BZWJGe-0", title: "Chelsea 2 - 0 Manchester United | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 31, 2026" },
 { id: "iDlzer63X64", title: "Bayern Munich 2-2 Dortmund | Bundesliga Match Highlights", channel: "VANTA", date: "Nov 1, 2026" },
 { id: "8NoVQEkZotE", title: "Rogers & Palmer pile more misery on Red Devils! | Chelsea 2-0 Man United | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
@@ -910,7 +911,6 @@ async function renderHighlights() {
 { id: "pZoVtVfxL14", title: "ALAJBEGOVI\u0106 & BOGA SEAL THE WIN! \ud83d\udd25 | Juventus 2-0 Napoli Highlights | Serie A", channel: "Juventus", date: "Nov 1, 2026" },
 { id: "6zxbfAGBIoU", title: "Juventus - Napoli | 2-0 | Highlights | Serie A 2026-27 | juventus napoli", channel: "Sponitor", date: "Nov 1, 2026" },
 { id: "OI58_-4ezU8", title: "Chelsea 2-0 Man Utd | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 31, 2026" },
-{ id: "B-st-Jk7-kg", title: "Le Havre vs PSG 1-5 Highlights | Ligue 1 2026/27 | All Goals & Match Highlights", channel: "Cric7 Cool", date: "Oct 30, 2026" },
 { id: "ZEW27igKsWI", title: "Liverpool v Arsenal | Highlights | Premier League 2026/27", channel: "Stan Sport Football", date: "Nov 1, 2026" },
 { id: "WDzE1TwKang", title: "Manchester City 0-1 Brighton & Hove Albion | Premier League Highlights 2026/27", channel: "Stadium Astro", date: "Oct 31, 2026" },
 { id: "RoX_MFDQn58", title: "Havertz gets Gunners BIG Anfield win! 😤 | Liverpool 0-1 Arsenal | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 1, 2026" },
