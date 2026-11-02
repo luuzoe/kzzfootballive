@@ -900,6 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "CU7BZWJGe-0", title: "Chelsea 2 - 0 Manchester United | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 31, 2026" },
+{ id: "iDlzer63X64", title: "Bayern Munich 2-2 Dortmund | Bundesliga Match Highlights", channel: "VANTA", date: "Nov 1, 2026" },
 { id: "8NoVQEkZotE", title: "Rogers & Palmer pile more misery on Red Devils! | Chelsea 2-0 Man United | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
 { id: "iim5yGYF39o", title: "Hakimi bags hat-trick as PSG extend winning streak to six! | Le Havre 1-5 PSG | Ligue 1 Highlights", channel: "Sky Sports Football", date: "Oct 30, 2026" },
 { id: "sjpjQmQyEYw", title: "Chaos! Woodwork And Pen Miss! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Nov 1, 2026" },
@@ -909,7 +911,7 @@ async function renderHighlights() {
 { id: "6zxbfAGBIoU", title: "Juventus - Napoli | 2-0 | Highlights | Serie A 2026-27 | juventus napoli", channel: "Sponitor", date: "Nov 1, 2026" },
 { id: "OI58_-4ezU8", title: "Chelsea 2-0 Man Utd | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 31, 2026" },
 { id: "B-st-Jk7-kg", title: "Le Havre vs PSG 1-5 Highlights | Ligue 1 2026/27 | All Goals & Match Highlights", channel: "Cric7 Cool", date: "Oct 30, 2026" },
-{ id: "y32UMH-Uhsw", title: "Liverpool vs Arsenal 0-1 HIGHLIGHTS - Kai Havertz GOAL! - Premier League 2026/27", channel: "Dollar VFX", date: "Nov 1, 2026" },
+{ id: "ZEW27igKsWI", title: "Liverpool v Arsenal | Highlights | Premier League 2026/27", channel: "Stan Sport Football", date: "Nov 1, 2026" },
 { id: "WDzE1TwKang", title: "Manchester City 0-1 Brighton & Hove Albion | Premier League Highlights 2026/27", channel: "Stadium Astro", date: "Oct 31, 2026" },
 { id: "RoX_MFDQn58", title: "Havertz gets Gunners BIG Anfield win! 😤 | Liverpool 0-1 Arsenal | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 1, 2026" },
 { id: "Zt1VugPdwFw", title: "HAVERTZ GOAL EARNS VITAL WIN IN THE TITLE RACE | HIGHLIGHTS | Liverpool vs Arsenal (0-1) l PL", channel: "Arsenal", date: "Nov 1, 2026" },
@@ -926,8 +928,6 @@ async function renderHighlights() {
 { id: "dlviQKRx7zg", title: "IL DERBY È ROSSONERO | Pulisic, Rabiot, Moreira | Milan-Inter 3-1 | Highlights Serie A", channel: "AC Milan", date: "Oct 31, 2026" },
 { id: "zm9kftTvCOQ", title: "Dortmund Deny Wizard Olise! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
 { id: "UJpuIXIJAHM", title: "FC BARCELONA 6 vs 1 ALAVÉS | LALIGA 2026/27 MD11 🔵🔴", channel: "FC Barcelona", date: "Oct 31, 2026" },
-{ id: "kcW6d6RozWs", title: "Barcelona vs Alavés 6-1 🔥 | HIGHLIGHTS & ALL GOALS | LaLiga 2026", channel: "Passion Sports", date: "Oct 31, 2026" },
-{ id: "-HLgn5JpE6Y", title: "Spurs win three in a row | Tottenham 2-0 Crystal Palace | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 31, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
