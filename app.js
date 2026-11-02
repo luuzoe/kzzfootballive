@@ -900,10 +900,12 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "8NoVQEkZotE", title: "Rogers & Palmer pile more misery on Red Devils! | Chelsea 2-0 Man United | Premier League Highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
+{ id: "iim5yGYF39o", title: "Hakimi bags hat-trick as PSG extend winning streak to six! | Le Havre 1-5 PSG | Ligue 1 Highlights", channel: "Sky Sports Football", date: "Oct 30, 2026" },
 { id: "sjpjQmQyEYw", title: "Chaos! Woodwork And Pen Miss! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Nov 1, 2026" },
 { id: "nBdMdjSuXN4", title: "Demirović Scores Twice! | BAYER 04 LEVERKUSEN - VFB STUTTGART | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
 { id: "iqciggyhLvM", title: "Alajbegovic Strikes Stunning First Goal! | JUVENTUS-NAPOLI | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 1, 2026" },
-{ id: "jfgefvACgbw", title: "Juventus vs Napoli 2-0 - Highlights & All Goals - Serie A 2026/27", channel: "Dollar VFX", date: "Nov 1, 2026" },
+{ id: "pZoVtVfxL14", title: "ALAJBEGOVI\u0106 & BOGA SEAL THE WIN! \ud83d\udd25 | Juventus 2-0 Napoli Highlights | Serie A", channel: "Juventus", date: "Nov 1, 2026" },
 { id: "6zxbfAGBIoU", title: "Juventus - Napoli | 2-0 | Highlights | Serie A 2026-27 | juventus napoli", channel: "Sponitor", date: "Nov 1, 2026" },
 { id: "OI58_-4ezU8", title: "Chelsea 2-0 Man Utd | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 31, 2026" },
 { id: "B-st-Jk7-kg", title: "Le Havre vs PSG 1-5 Highlights | Ligue 1 2026/27 | All Goals & Match Highlights", channel: "Cric7 Cool", date: "Oct 30, 2026" },
@@ -926,8 +928,6 @@ async function renderHighlights() {
 { id: "UJpuIXIJAHM", title: "FC BARCELONA 6 vs 1 ALAVÉS | LALIGA 2026/27 MD11 🔵🔴", channel: "FC Barcelona", date: "Oct 31, 2026" },
 { id: "kcW6d6RozWs", title: "Barcelona vs Alavés 6-1 🔥 | HIGHLIGHTS & ALL GOALS | LaLiga 2026", channel: "Passion Sports", date: "Oct 31, 2026" },
 { id: "-HLgn5JpE6Y", title: "Spurs win three in a row | Tottenham 2-0 Crystal Palace | Premier League Highlights", channel: "Tottenham Hotspur", date: "Oct 31, 2026" },
-{ id: "uZI7lKdU4kI", title: "Spurs win three in a row! ✅ | Spurs 2-0 Crystal Palace | Premier League highlights", channel: "Sky Sports Premier League", date: "Oct 31, 2026" },
-{ id: "qK32EAZLRDs", title: "Penalty Miss And DRAMA! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
