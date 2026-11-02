@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "boUuYkuN6mc", title: "LE HAVRE AC - PARIS SAINT-GERMAIN (1-5) | Week 9 - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Oct 30, 2026" },
 { id: "7vM2tuPCR-M", title: "Tottenham 2-0 Crystal Palace | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Nov 1, 2026" },
 { id: "CU7BZWJGe-0", title: "Chelsea 2 - 0 Manchester United | Premier League Highlights 2026/27 | #MaxisFreeLiveSports", channel: "Stadium Astro", date: "Oct 31, 2026" },
 { id: "iDlzer63X64", title: "Bayern Munich 2-2 Dortmund | Bundesliga Match Highlights", channel: "VANTA", date: "Nov 1, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
 { id: "hMqZMLqkoWI", title: "Moreira the Star of the Derby! | MILAN-INTER | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Oct 31, 2026" },
 { id: "dlviQKRx7zg", title: "IL DERBY È ROSSONERO | Pulisic, Rabiot, Moreira | Milan-Inter 3-1 | Highlights Serie A", channel: "AC Milan", date: "Oct 31, 2026" },
 { id: "zm9kftTvCOQ", title: "Dortmund Deny Wizard Olise! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Oct 31, 2026" },
-{ id: "UJpuIXIJAHM", title: "FC BARCELONA 6 vs 1 ALAVÉS | LALIGA 2026/27 MD11 🔵🔴", channel: "FC Barcelona", date: "Oct 31, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
     { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
     { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
