@@ -654,24 +654,24 @@
   "eng.1": [
    {
     "rank": 1,
+    "player": "Declan Rice",
+    "team": "အာဆင်နယ်",
+    "assists": 5,
+    "pid": "238262"
+   },
+   {
+    "rank": 2,
     "player": "Pascal Gross",
     "team": "ဘရိုက်တန်",
     "assists": 4,
     "pid": "132659"
    },
    {
-    "rank": 2,
+    "rank": 3,
     "player": "Evanilson",
     "team": "ဘုန်းမောက်",
     "assists": 4,
     "pid": "102368"
-   },
-   {
-    "rank": 3,
-    "player": "Declan Rice",
-    "team": "အာဆင်နယ်",
-    "assists": 4,
-    "pid": "238262"
    },
    {
     "rank": 4,
