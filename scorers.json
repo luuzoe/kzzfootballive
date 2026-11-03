@@ -53,24 +53,24 @@
    },
    {
     "rank": 8,
+    "player": "Thierno Barry",
+    "team": "အဲဗာတန်",
+    "goals": 4,
+    "pid": "301166"
+   },
+   {
+    "rank": 9,
     "player": "Evanilson",
     "team": "ဘုန်းမောက်",
     "goals": 4,
     "pid": "102368"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Rayan Cherki",
     "team": "မန်စီးတီး",
     "goals": 4,
     "pid": "298008"
-   },
-   {
-    "rank": 10,
-    "player": "Pascal Gross",
-    "team": "ဘရိုက်တန်",
-    "goals": 3,
-    "pid": "132659"
    }
   ],
   "esp.1": [
@@ -97,24 +97,24 @@
    },
    {
     "rank": 4,
+    "player": "Ante Budimir",
+    "team": "အိုဆာဆူနာ",
+    "goals": 8,
+    "pid": "207288"
+   },
+   {
+    "rank": 5,
     "player": "Yassir Zabiri",
     "team": "ရေးစင်းဆန်တန်ဒါး",
     "goals": 8,
     "pid": "390389"
    },
    {
-    "rank": 5,
+    "rank": 6,
     "player": "Sergio Camello",
     "team": "ရာယိုဗယ်လီကာနို",
     "goals": 7,
     "pid": "276652"
-   },
-   {
-    "rank": 6,
-    "player": "Ante Budimir",
-    "team": "အိုဆာဆူနာ",
-    "goals": 7,
-    "pid": "207288"
    },
    {
     "rank": 7,
@@ -438,7 +438,7 @@
     "rank": 1,
     "player": "Vangelis Pavlidis",
     "team": "ဘန်ဖီကာ",
-    "goals": 9,
+    "goals": 10,
     "pid": "220819"
    },
    {
@@ -1100,38 +1100,38 @@
    },
    {
     "rank": 3,
+    "player": "Gianluca Prestianni",
+    "team": "ဘန်ဖီကာ",
+    "assists": 4,
+    "pid": "339191"
+   },
+   {
+    "rank": 4,
     "player": "Iván Fresneda",
     "team": "စပေါ်တင်း",
     "assists": 4,
     "pid": "333209"
    },
    {
-    "rank": 4,
+    "rank": 5,
     "player": "Cihan Kahraman",
     "team": "ဗီဆူး",
     "assists": 4,
     "pid": "233987"
    },
    {
-    "rank": 5,
+    "rank": 6,
     "player": "Geny Catamo",
     "team": "စပေါ်တင်း",
     "assists": 4,
     "pid": "296969"
    },
    {
-    "rank": 6,
+    "rank": 7,
     "player": "Gabri Veiga",
     "team": "ပေါ်တို",
     "assists": 4,
     "pid": "307381"
-   },
-   {
-    "rank": 7,
-    "player": "Gianluca Prestianni",
-    "team": "ဘန်ဖီကာ",
-    "assists": 4,
-    "pid": "339191"
    },
    {
     "rank": 8,
@@ -1142,17 +1142,17 @@
    },
    {
     "rank": 9,
+    "player": "Vangelis Pavlidis",
+    "team": "ဘန်ဖီကာ",
+    "assists": 3,
+    "pid": "220819"
+   },
+   {
+    "rank": 10,
     "player": "Diogo Bezerra",
     "team": "ရီယိုအဲဗီ",
     "assists": 3,
     "pid": "335153"
-   },
-   {
-    "rank": 10,
-    "player": "Eddy Doué",
-    "team": "အက်စ်ထရီလာ",
-    "assists": 3,
-    "pid": "418107"
    }
   ],
   "uefa.champions": [
