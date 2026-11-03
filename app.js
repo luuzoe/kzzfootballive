@@ -900,6 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "yeG32LqKfoU", title: "CUNHA STUNNER COMPLETE EPIC COMEBACK! Manchester United 3-2 Roma Highlights", channel: "The Football Terrace", date: "Nov 3, 2026" },
+{ id: "BWPRt7q61qc", title: "Atlético Madrid vs Bayern Munich 0-2 HIGHLIGHTS - UEFA Champions League 2026/27", channel: "Dollar VFX", date: "Nov 3, 2026" },
 { id: "boUuYkuN6mc", title: "LE HAVRE AC - PARIS SAINT-GERMAIN (1-5) | Week 9 - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Oct 30, 2026" },
 { id: "7vM2tuPCR-M", title: "Tottenham 2-0 Crystal Palace | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Nov 1, 2026" },
 { id: "sjpjQmQyEYw", title: "Chaos! Woodwork And Pen Miss! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Nov 1, 2026" },
