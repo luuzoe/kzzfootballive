@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 86; // bump on every deploy
+const APP_VERSION = 87; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -904,7 +904,7 @@ async function renderHighlights() {
 { id: "gGTpCgsImUg", title: "FC Barcelona vs Aston Villa 3 0 Resumen Y Goles Hoy Champions League 2026", channel: "ESPN Media", date: "Nov 3, 2026" },
 { id: "-WiGrR_d-x4", title: "PSG 6-0 Villarreal | 4 GOALS THRILLER & All Highlights Today | Paris Destroys Villarreal!", channel: "Goal Rush TV", date: "Nov 3, 2026" },
 { id: "yeG32LqKfoU", title: "CUNHA STUNNER COMPLETE EPIC COMEBACK! Manchester United 3-2 Roma Highlights", channel: "The Football Terrace", date: "Nov 3, 2026" },
-{ id: "BWPRt7q61qc", title: "Atlético Madrid vs Bayern Munich 0-2 HIGHLIGHTS - UEFA Champions League 2026/27", channel: "Dollar VFX", date: "Nov 3, 2026" },
+{ id: "b-CuMCD-eGs", title: "Amazing TEAM performance in Madrid 💪❤️ Atlético vs. FC Bayern 0-2 | Champions League Highlights", channel: "FC Bayern München", date: "Nov 3, 2026" },
 { id: "boUuYkuN6mc", title: "LE HAVRE AC - PARIS SAINT-GERMAIN (1-5) | Week 9 - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Oct 30, 2026" },
 { id: "7vM2tuPCR-M", title: "Tottenham 2-0 Crystal Palace | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Nov 1, 2026" },
 { id: "sjpjQmQyEYw", title: "Chaos! Woodwork And Pen Miss! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Nov 1, 2026" },
