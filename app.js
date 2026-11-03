@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "gGTpCgsImUg", title: "FC Barcelona vs Aston Villa 3 0 Resumen Y Goles Hoy Champions League 2026", channel: "ESPN Media", date: "Nov 3, 2026" },
 { id: "-WiGrR_d-x4", title: "PSG 6-0 Villarreal | 4 GOALS THRILLER & All Highlights Today | Paris Destroys Villarreal!", channel: "Goal Rush TV", date: "Nov 3, 2026" },
 { id: "yeG32LqKfoU", title: "CUNHA STUNNER COMPLETE EPIC COMEBACK! Manchester United 3-2 Roma Highlights", channel: "The Football Terrace", date: "Nov 3, 2026" },
 { id: "BWPRt7q61qc", title: "Atlético Madrid vs Bayern Munich 0-2 HIGHLIGHTS - UEFA Champions League 2026/27", channel: "Dollar VFX", date: "Nov 3, 2026" },
