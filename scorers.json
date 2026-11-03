@@ -211,10 +211,10 @@
    },
    {
     "rank": 10,
-    "player": "Gustav Isaksen",
-    "team": "လာဇီယို",
+    "player": "Franco Mastantuono",
+    "team": "ဖီအိုရင်တီးနား",
     "goals": 4,
-    "pid": "291550"
+    "pid": "376473"
    }
   ],
   "ger.1": [
@@ -334,31 +334,31 @@
    },
    {
     "rank": 7,
+    "player": "Ludovic Ajorque",
+    "team": "ဘရက်စ်",
+    "goals": 4,
+    "pid": "192015"
+   },
+   {
+    "rank": 8,
     "player": "Florian Thauvin",
     "team": "လန့်စ်",
     "goals": 4,
     "pid": "156898"
    },
    {
-    "rank": 8,
+    "rank": 9,
     "player": "Gessime Yassine",
     "team": "စထရာ့စ်ဘတ်",
     "goals": 4,
     "pid": "379012"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Louis Mafouta",
     "team": "လမန်း",
     "goals": 4,
     "pid": "268720"
-   },
-   {
-    "rank": 10,
-    "player": "Ferran Torres",
-    "team": "ပီအက်စ်ဂျီ",
-    "goals": 4,
-    "pid": "265869"
    }
   ],
   "ned.1": [
@@ -847,24 +847,24 @@
    },
    {
     "rank": 8,
+    "player": "Charles De Ketelaere",
+    "team": "အတ္တလန္တာ",
+    "assists": 3,
+    "pid": "296319"
+   },
+   {
+    "rank": 9,
     "player": "Nuno Tavares",
     "team": "လာဇီယို",
     "assists": 3,
     "pid": "288901"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Matìas Soulè",
     "team": "ရိုးမား",
     "assists": 3,
     "pid": "323974"
-   },
-   {
-    "rank": 10,
-    "player": "Matteo Politano",
-    "team": "နာပိုလီ",
-    "assists": 3,
-    "pid": "188306"
    }
   ],
   "ger.1": [
