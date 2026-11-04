@@ -19,6 +19,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-04-rodri-atletico-injury.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-04-gabriel-real-madrid.html</loc>
     <lastmod>2026-11-04</lastmod>
     <changefreq>daily</changefreq>
@@ -26,6 +32,12 @@
   </url>
   <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-04-nadal-real-madrid-board.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-04-fonseca-sporting.html</loc>
     <lastmod>2026-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -109,12 +121,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-03-mctominay-scotland-return.html</loc>
-    <lastmod>2026-11-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-03-spl-matchweek13-postponed.html</loc>
     <lastmod>2026-11-04</lastmod>
     <changefreq>daily</changefreq>
@@ -128,12 +134,6 @@
   </url>
   <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-03-carrick-martinez-commitment.html</loc>
-    <lastmod>2026-11-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-03-westham-sack-nuno.html</loc>
     <lastmod>2026-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
