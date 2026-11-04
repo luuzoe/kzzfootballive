@@ -901,11 +901,11 @@ async function renderHighlights() {
   html += `<div class="highlights-grid">`;
   const videos = [
 { id: "B8WGOMkczk8", title: "Arsenal vs Slavia Prague 2-1 HIGHLIGHTS - Gyökeres & Madueke Goals! - Champions League 2026/27", channel: "Dollar VFX", date: "Nov 4, 2026" },
-{ id: "OOzZ1gnuFZU", title: "Manchester City vs RB Leipzig 3-2 EXTENDED HIGHLIGHTS 😱🔥 UEFA Champions League 2026/27", channel: "Footballia", date: "Nov 4, 2026" },
+{ id: "ZN_MZC8gry0", title: "RB Leipzig - Manchester City 2:3 | UEFA CHAMPIONS LEAGUE (4. kolo) | 04. novembar 2026.", channel: "Arena Sport TV", date: "Nov 4, 2026" },
 { id: "UvLdQpMAcOA", title: "Borussia Dortmund vs Real Betis 2-1 HIGHLIGHTS - UEFA Champions League 2026/27", channel: "Dollar VFX", date: "Nov 4, 2026" },
 { id: "HTUnZsYHCVo", title: "FC Porto - Napoli | 4-1 | Highlights | Champions League 2026-27 | porto napoli", channel: "Sponitor", date: "Nov 4, 2026" },
-{ id: "ljJ74rq5670", title: "FENERBAHÇE 3-2 LIVERPOOL | Champions League Highlights | INCREDIBLE COMEBACK!", channel: "Sportalystics", date: "Nov 4, 2026" },
-{ id: "KuYS2bu7CBQ", title: "AEK Athens vs Real Madrid 2-3 HIGHLIGHTS - Bellingham, Mbappe & Valverde Goals! Champions League 26", channel: "Dollar VFX", date: "Nov 4, 2026" },
+{ id: "06QcwUGWx9A", title: "Fenerbahce - Liverpool 3:2 | UEFA CHAMPIONS LEAGUE (4. kolo) | 04. novembar 2026.", channel: "Arena Sport TV", date: "Nov 4, 2026" },
+{ id: "Opj2fCIQvOI", title: "AEK Athens - Real Madrid 2:3 | UEFA CHAMPIONS LEAGUE (4. kolo) | 04. novembar 2026.", channel: "Arena Sport TV", date: "Nov 4, 2026" },
 { id: "CnUf99pIzIc", title: "BISSECK, ESPOSITO E ZIELINSKI: TRIS EUROPEO 🖤💙 | FEYENOORD 0-3 INTER | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Nov 3, 2026" },
 { id: "pxudQtJO5lg", title: "Barcelona vs Aston Villa | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 3, 2026" },
 { id: "o982crQjMIA", title: "Villareal vs PSG | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 3, 2026" },
