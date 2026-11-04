@@ -901,9 +901,9 @@ async function renderHighlights() {
   html += `<div class="highlights-grid">`;
   const videos = [
 { id: "CnUf99pIzIc", title: "BISSECK, ESPOSITO E ZIELINSKI: TRIS EUROPEO 🖤💙 | FEYENOORD 0-3 INTER | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Nov 3, 2026" },
-{ id: "gGTpCgsImUg", title: "FC Barcelona vs Aston Villa 3 0 Resumen Y Goles Hoy Champions League 2026", channel: "ESPN Media", date: "Nov 3, 2026" },
-{ id: "-WiGrR_d-x4", title: "PSG 6-0 Villarreal | 4 GOALS THRILLER & All Highlights Today | Paris Destroys Villarreal!", channel: "Goal Rush TV", date: "Nov 3, 2026" },
-{ id: "yeG32LqKfoU", title: "CUNHA STUNNER COMPLETE EPIC COMEBACK! Manchester United 3-2 Roma Highlights", channel: "The Football Terrace", date: "Nov 3, 2026" },
+{ id: "pxudQtJO5lg", title: "Barcelona vs Aston Villa | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 3, 2026" },
+{ id: "o982crQjMIA", title: "Villareal vs PSG | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 3, 2026" },
+{ id: "6GpVM7cuvM0", title: "Manchester United vs AS Roma | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 3, 2026" },
 { id: "b-CuMCD-eGs", title: "Amazing TEAM performance in Madrid 💪❤️ Atlético vs. FC Bayern 0-2 | Champions League Highlights", channel: "FC Bayern München", date: "Nov 3, 2026" },
 { id: "boUuYkuN6mc", title: "LE HAVRE AC - PARIS SAINT-GERMAIN (1-5) | Week 9 - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Oct 30, 2026" },
 { id: "7vM2tuPCR-M", title: "Tottenham 2-0 Crystal Palace | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Nov 1, 2026" },
