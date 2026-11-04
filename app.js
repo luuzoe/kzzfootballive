@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "KuYS2bu7CBQ", title: "AEK Athens vs Real Madrid 2-3 HIGHLIGHTS - Bellingham, Mbappe & Valverde Goals! Champions League 26", channel: "Dollar VFX", date: "Nov 4, 2026" },
 { id: "CnUf99pIzIc", title: "BISSECK, ESPOSITO E ZIELINSKI: TRIS EUROPEO 🖤💙 | FEYENOORD 0-3 INTER | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Nov 3, 2026" },
 { id: "pxudQtJO5lg", title: "Barcelona vs Aston Villa | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 3, 2026" },
 { id: "o982crQjMIA", title: "Villareal vs PSG | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 3, 2026" },
