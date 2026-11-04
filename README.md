@@ -52,3 +52,5 @@
 - `styles.css` — ဒီဇိုင်း
 - `app.js` — လုပ်ဆောင်ချက် (ESPN API ခေါ်တာ)
 - `predictions.json` — ခန့်မှန်းချက်များ
+
+<!-- pages build retry 2026-11-05 01:21 run -->
