@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 87; // bump on every deploy
+const APP_VERSION = 88; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,9 +900,9 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "dgydT57_t2Y", title: "AZ Alkmaar vs Juventus 1-2 HIGHLIGHTS - Kolo Muani & Koopmeiners Goals! UEFA Europa League 2026/27", channel: "Dollar VFX", date: "Nov 5, 2026" },
+{ id: "3t9hzXVY_d8", title: "KOOP & KOLO COOKED! 💥 | AZ ALKMAAR - JUVENTUS | HIGHLIGHTS EUROPA LEAGUE", channel: "Juventus", date: "Nov 5, 2026" },
 { id: "y0io1XZU1Cc", title: "Bayer Leverkusen - Marseille | 0-1 | Highlights | Europa League 2026-27", channel: "Sponitor", date: "Nov 5, 2026" },
-{ id: "gwDZA3UHLYU", title: "AC Milan vs Ferencvárosi 0-2 HIGHLIGHTS - UEFA Europa League 2026/27", channel: "Dollar VFX", date: "Nov 5, 2026" },
+{ id: "C58JvvWbc_4", title: "Highlights Europa League | Una serata difficile a San Siro | Milan 0-2 Ferencváros", channel: "AC Milan", date: "Nov 5, 2026" },
 { id: "hFU_vO-jZfc", title: "GYOKERES & MADUEKE GOALS EARN THREE POINTS | HIGHLIGHTS | Slavia Prague vs Arsenal (1-2) l UCL", channel: "Arsenal", date: "Nov 4, 2026" },
 { id: "sQ3_E1mCxI0", title: "RB Leipzig - Manchester City | Highlights | UEFA Champions League", channel: "RB Leipzig", date: "Nov 4, 2026" },
 { id: "zVQZC8mOgsY", title: "Dortmund vs Real Betis | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 4, 2026" },
