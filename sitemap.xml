@@ -145,6 +145,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-05-az-alkmaar-juventus.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-05-bayer-leverkusen-marseille.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-05-ac-milan-ferencvaros.html</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -308,18 +320,6 @@
   </url>
   <url>
     <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-10-28-liverpool-chelsea.html</loc>
-    <lastmod>2026-11-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-10-28-genoa-juventus.html</loc>
-    <lastmod>2026-11-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-10-28-monza-napoli.html</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
