@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 88; // bump on every deploy
+const APP_VERSION = 89; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -907,7 +907,7 @@ async function renderHighlights() {
 { id: "sQ3_E1mCxI0", title: "RB Leipzig - Manchester City | Highlights | UEFA Champions League", channel: "RB Leipzig", date: "Nov 4, 2026" },
 { id: "zVQZC8mOgsY", title: "Dortmund vs Real Betis | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 4, 2026" },
 { id: "8_4nnKYSxEM", title: "FC Porto – Napoli 4:1 | UEFA CHAMPIONS LEAGUE (4. kolo) | 04. novembar 2026.", channel: "Arena Sport TV", date: "Nov 4, 2026" },
-{ id: "06QcwUGWx9A", title: "Fenerbahce - Liverpool 3:2 | UEFA CHAMPIONS LEAGUE (4. kolo) | 04. novembar 2026.", channel: "Arena Sport TV", date: "Nov 4, 2026" },
+{ id: "05geh16Zu-Y", title: "Highlights: Fenerbahce 3-2 Liverpool | Trey Nyoni's first Liverpool Goal | Champions League", channel: "Liverpool FC", date: "Nov 4, 2026" },
 { id: "69IQ8q-g1q0", title: "HIGHLIGHTS | AEK Athens 2-3 Real Madrid | Champions League", channel: "Real Madrid", date: "Nov 4, 2026" },
 { id: "CnUf99pIzIc", title: "BISSECK, ESPOSITO E ZIELINSKI: TRIS EUROPEO 🖤💙 | FEYENOORD 0-3 INTER | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Nov 3, 2026" },
 { id: "CXk8Er7Yf9w", title: "HIGHLIGHTS | FC BARCELONA 3 vs 0 ASTON VILLA | UEFA CHAMPIONS LEAGUE 🔵🔴", channel: "FC Barcelona", date: "Nov 3, 2026" },
