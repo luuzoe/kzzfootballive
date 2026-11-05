@@ -900,14 +900,6 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "DGMIUHewL2c", title: "HIGHLIGHTS! Man City 4-1 Borussia Dortmund | Foden-inspired City ease past Dortmund!", channel: "Man City", date: "Nov 5, 2026" },
-{ id: "Lbxx_hGXCdU", title: "Qarabağ 2-2 Chelsea | HIGHLIGHTS | Champions League 2025/26", channel: "Chelsea Football Club", date: "Nov 5, 2026" },
-{ id: "ieycS12haz8", title: "THE CAPTAIN STARTS THE PARTY AND CARLOS JOINS IN | INTER 2–1 KAIRAT | UCL 25/26 HIGHLIGHTS ⚫🔵", channel: "Inter", date: "Nov 5, 2026" },
-{ id: "F_PwYjNCJW8", title: "HIGHLIGHTS | CLUB BRUGGE 3 vs 3 FC BARCELONA | UEFA CHAMPIONS LEAGUE 🔵🔴", channel: "FC Barcelona", date: "Nov 5, 2026" },
-{ id: "wLUVcfQSe9U", title: "Champions League highlights: Victory at Benfica thanks to Schick goal", channel: "Bayer 04 Leverkusen", date: "Nov 5, 2026" },
-{ id: "cE5RmOQfDIk", title: "Atlético de Madrid 3-1 Union Saint-Gilloise | ⚽ Julián Alvarez, Gallagher & Llorente | HIGHLIGHTS", channel: "Atlético de Madrid", date: "Nov 4, 2026" },
-{ id: "ODlMM1HO96Q", title: "HIGHLIGHTS UEFA Champions League | Juventus 1-1 Sporting CP", channel: "Juventus", date: "Nov 4, 2026" },
-{ id: "h_stLgq5Rps", title: "Micky van de Ven scores WONDER GOAL! | Spurs 4-0 Copenhagen | Champions League Highlights", channel: "Tottenham Hotspur", date: "Nov 4, 2026" },
 { id: "hFU_vO-jZfc", title: "GYOKERES & MADUEKE GOALS EARN THREE POINTS | HIGHLIGHTS | Slavia Prague vs Arsenal (1-2) l UCL", channel: "Arsenal", date: "Nov 4, 2026" },
 { id: "sQ3_E1mCxI0", title: "RB Leipzig - Manchester City | Highlights | UEFA Champions League", channel: "RB Leipzig", date: "Nov 4, 2026" },
 { id: "zVQZC8mOgsY", title: "Dortmund vs Real Betis | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 4, 2026" },
@@ -928,6 +920,9 @@ async function renderHighlights() {
 { id: "Zt1VugPdwFw", title: "HAVERTZ GOAL EARNS VITAL WIN IN THE TITLE RACE | HIGHLIGHTS | Liverpool vs Arsenal (0-1) l PL", channel: "Arsenal", date: "Nov 1, 2026" },
 { id: "ep38QN4lEjM", title: "HIGHLIGHTS | Racing de Santander 0-3 Real Madrid | LaLiga", channel: "Real Madrid", date: "Nov 1, 2026" },
 { id: "Q3vyo0myETY", title: "Extended Highlights 2026/27 | Milan-Inter 3-1 | Pulisic, Rabiot e Moreira firmano il Derby", channel: "AC Milan", date: "Oct 31, 2026" },
+{ id: "f0Qo1Dssk-I", title: "Levante 0-2 Atlético de Madrid | Grimaldo & Giuliano | HIGHLIGHTS, LaLiga - MD11", channel: "Atlético de Madrid", date: "Oct 31, 2026" },
+{ id: "kfkJYSDWNLA", title: "HIGHLIGHTS | Man City 0-1 Brighton | City unable to finish their chances at the Etihad!", channel: "Man City", date: "Oct 31, 2026" },
+{ id: "H3KClYYb2AM", title: "FC BARCELONA 6 - 1 DEPORTIVO ALAVÉS | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 31, 2026" },
 { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
