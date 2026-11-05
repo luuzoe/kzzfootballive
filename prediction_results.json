@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-05T08:55:45+06:30",
+ "updated": "2026-11-05T20:55:46+06:30",
  "summary": {
-  "resolved": 89,
-  "correct": 51,
-  "wrong": 38,
-  "accuracy_pct": 57.3,
+  "resolved": 102,
+  "correct": 57,
+  "wrong": 45,
+  "accuracy_pct": 55.9,
   "not_found": 7
  },
  "results": [
@@ -680,8 +680,8 @@
    "away": "Manchester United",
    "league": "Premier League",
    "pick_en": "Chelsea win",
-   "score": null,
-   "outcome": "pending"
+   "score": "2-0",
+   "outcome": "correct"
   },
   {
    "date": "2026-10-31",
@@ -698,8 +698,8 @@
    "away": "Monza",
    "league": "Serie A",
    "pick_en": "Bologna win",
-   "score": null,
-   "outcome": "pending"
+   "score": "2-1",
+   "outcome": "correct"
   },
   {
    "date": "2026-10-31",
@@ -707,8 +707,8 @@
    "away": "Stuttgart",
    "league": "Bundesliga",
    "pick_en": "Bayer Leverkusen win",
-   "score": null,
-   "outcome": "pending"
+   "score": "2-4",
+   "outcome": "wrong"
   },
   {
    "date": "2026-10-31",
@@ -725,8 +725,8 @@
    "away": "Freiburg",
    "league": "Bundesliga",
    "pick_en": "Freiburg win",
-   "score": null,
-   "outcome": "pending"
+   "score": "1-2",
+   "outcome": "correct"
   },
   {
    "date": "2026-10-31",
@@ -734,8 +734,8 @@
    "away": "RB Leipzig",
    "league": "Bundesliga",
    "pick_en": "RB Leipzig win",
-   "score": null,
-   "outcome": "pending"
+   "score": "0-2",
+   "outcome": "correct"
   },
   {
    "date": "2026-10-31",
@@ -743,8 +743,8 @@
    "away": "Hoffenheim",
    "league": "Bundesliga",
    "pick_en": "Draw",
-   "score": null,
-   "outcome": "pending"
+   "score": "2-0",
+   "outcome": "wrong"
   },
   {
    "date": "2026-10-31",
@@ -752,8 +752,8 @@
    "away": "Leeds United",
    "league": "Premier League",
    "pick_en": "Bournemouth win",
-   "score": null,
-   "outcome": "pending"
+   "score": "2-0",
+   "outcome": "correct"
   },
   {
    "date": "2026-10-31",
@@ -761,8 +761,8 @@
    "away": "Nottingham Forest",
    "league": "Premier League",
    "pick_en": "Draw",
-   "score": null,
-   "outcome": "pending"
+   "score": "2-0",
+   "outcome": "wrong"
   },
   {
    "date": "2026-10-31",
@@ -770,8 +770,8 @@
    "away": "Sunderland",
    "league": "Premier League",
    "pick_en": "Sunderland win",
-   "score": null,
-   "outcome": "pending"
+   "score": "3-1",
+   "outcome": "wrong"
   },
   {
    "date": "2026-10-31",
@@ -779,8 +779,8 @@
    "away": "Ipswich Town",
    "league": "Premier League",
    "pick_en": "Hull City win",
-   "score": null,
-   "outcome": "pending"
+   "score": "2-2",
+   "outcome": "wrong"
   },
   {
    "date": "2026-10-31",
@@ -788,8 +788,8 @@
    "away": "Brighton",
    "league": "Premier League",
    "pick_en": "Manchester City win",
-   "score": null,
-   "outcome": "pending"
+   "score": "0-1",
+   "outcome": "wrong"
   },
   {
    "date": "2026-10-31",
@@ -797,8 +797,8 @@
    "away": "Celta Vigo",
    "league": "La Liga",
    "pick_en": "Draw",
-   "score": null,
-   "outcome": "pending"
+   "score": "3-0",
+   "outcome": "wrong"
   },
   {
    "date": "2026-10-31",
@@ -806,8 +806,8 @@
    "away": "Roma",
    "league": "Serie A",
    "pick_en": "Roma win",
-   "score": null,
-   "outcome": "pending"
+   "score": "2-5",
+   "outcome": "correct"
   },
   {
    "date": "2026-11-01",
