@@ -900,12 +900,12 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "B8WGOMkczk8", title: "Arsenal vs Slavia Prague 2-1 HIGHLIGHTS - Gyökeres & Madueke Goals! - Champions League 2026/27", channel: "Dollar VFX", date: "Nov 4, 2026" },
-{ id: "ZN_MZC8gry0", title: "RB Leipzig - Manchester City 2:3 | UEFA CHAMPIONS LEAGUE (4. kolo) | 04. novembar 2026.", channel: "Arena Sport TV", date: "Nov 4, 2026" },
+{ id: "hFU_vO-jZfc", title: "GYOKERES & MADUEKE GOALS EARN THREE POINTS | HIGHLIGHTS | Slavia Prague vs Arsenal (1-2) l UCL", channel: "Arsenal", date: "Nov 4, 2026" },
+{ id: "sQ3_E1mCxI0", title: "RB Leipzig - Manchester City | Highlights | UEFA Champions League", channel: "RB Leipzig", date: "Nov 4, 2026" },
 { id: "UvLdQpMAcOA", title: "Borussia Dortmund vs Real Betis 2-1 HIGHLIGHTS - UEFA Champions League 2026/27", channel: "Dollar VFX", date: "Nov 4, 2026" },
 { id: "HTUnZsYHCVo", title: "FC Porto - Napoli | 4-1 | Highlights | Champions League 2026-27 | porto napoli", channel: "Sponitor", date: "Nov 4, 2026" },
 { id: "06QcwUGWx9A", title: "Fenerbahce - Liverpool 3:2 | UEFA CHAMPIONS LEAGUE (4. kolo) | 04. novembar 2026.", channel: "Arena Sport TV", date: "Nov 4, 2026" },
-{ id: "Opj2fCIQvOI", title: "AEK Athens - Real Madrid 2:3 | UEFA CHAMPIONS LEAGUE (4. kolo) | 04. novembar 2026.", channel: "Arena Sport TV", date: "Nov 4, 2026" },
+{ id: "69IQ8q-g1q0", title: "HIGHLIGHTS | AEK Athens 2-3 Real Madrid | Champions League", channel: "Real Madrid", date: "Nov 4, 2026" },
 { id: "CnUf99pIzIc", title: "BISSECK, ESPOSITO E ZIELINSKI: TRIS EUROPEO 🖤💙 | FEYENOORD 0-3 INTER | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Nov 3, 2026" },
 { id: "pxudQtJO5lg", title: "Barcelona vs Aston Villa | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 3, 2026" },
 { id: "o982crQjMIA", title: "Villareal vs PSG | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 3, 2026" },
