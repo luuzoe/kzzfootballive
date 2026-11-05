@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-04T08:54:22+06:30",
+ "updated": "2026-11-05T02:52:51+06:30",
  "summary": {
-  "resolved": 80,
-  "correct": 44,
-  "wrong": 36,
-  "accuracy_pct": 55.0,
+  "resolved": 89,
+  "correct": 51,
+  "wrong": 38,
+  "accuracy_pct": 57.3,
   "not_found": 7
  },
  "results": [
@@ -925,6 +925,87 @@
    "pick_en": "Rennes win",
    "score": null,
    "outcome": "not_found"
+  },
+  {
+   "date": "2026-11-04",
+   "home": "AEK Athens",
+   "away": "Real Madrid",
+   "league": "Champions League",
+   "pick_en": "Real Madrid win",
+   "score": "2-3",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-04",
+   "home": "Fenerbahce",
+   "away": "Liverpool",
+   "league": "Champions League",
+   "pick_en": "Liverpool win",
+   "score": "3-2",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-11-04",
+   "home": "Borussia Dortmund",
+   "away": "Real Betis",
+   "league": "Champions League",
+   "pick_en": "Borussia Dortmund win",
+   "score": "2-1",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-04",
+   "home": "FC Porto",
+   "away": "Napoli",
+   "league": "Champions League",
+   "pick_en": "FC Porto win",
+   "score": "4-1",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-04",
+   "home": "PSV Eindhoven",
+   "away": "Club Brugge",
+   "league": "Champions League",
+   "pick_en": "PSV Eindhoven win",
+   "score": "1-2",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-11-04",
+   "home": "RB Leipzig",
+   "away": "Manchester City",
+   "league": "Champions League",
+   "pick_en": "Manchester City win",
+   "score": "2-3",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-04",
+   "home": "Lens",
+   "away": "Como",
+   "league": "Champions League",
+   "pick_en": "Como win",
+   "score": "1-9",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-04",
+   "home": "Slavia Prague",
+   "away": "Arsenal",
+   "league": "Champions League",
+   "pick_en": "Arsenal win",
+   "score": "1-2",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-04",
+   "home": "Viking",
+   "away": "Sabah",
+   "league": "Champions League",
+   "pick_en": "Viking win",
+   "score": "4-1",
+   "outcome": "correct"
   }
  ]
 }
