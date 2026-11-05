@@ -508,73 +508,73 @@
   "uefa.champions": [
    {
     "rank": 1,
+    "player": "Tasos Douvikas",
+    "team": "ကိုမို",
+    "goals": 6,
+    "pid": "262071"
+   },
+   {
+    "rank": 2,
+    "player": "Nicolo Tresoldi",
+    "team": "ကလပ်ဘရုဂေး",
+    "goals": 5,
+    "pid": "335201"
+   },
+   {
+    "rank": 3,
+    "player": "Erling Haaland",
+    "team": "မန်စီးတီး",
+    "goals": 5,
+    "pid": "253989"
+   },
+   {
+    "rank": 4,
     "player": "Harry Kane",
     "team": "ဘိုင်ယန်",
     "goals": 4,
     "pid": "142200"
    },
    {
-    "rank": 2,
+    "rank": 5,
+    "player": "Kylian Mbappé",
+    "team": "ရီးယဲလ်",
+    "goals": 4,
+    "pid": "231388"
+   },
+   {
+    "rank": 6,
     "player": "Fabián Ruiz",
     "team": "ပီအက်စ်ဂျီ",
     "goals": 4,
     "pid": "214596"
    },
    {
-    "rank": 3,
+    "rank": 7,
     "player": "Luis Suárez",
     "team": "စပေါ်တင်း",
     "goals": 4,
     "pid": "272722"
    },
    {
-    "rank": 4,
+    "rank": 8,
     "player": "Donyell Malen",
     "team": "ရိုးမား",
     "goals": 4,
     "pid": "259481"
    },
    {
-    "rank": 5,
+    "rank": 9,
     "player": "Alexey Batrakov",
     "team": "ဂါလာတာဆာရေး",
     "goals": 4,
     "pid": "355113"
    },
    {
-    "rank": 6,
-    "player": "Ermedin Demirovic",
-    "team": "စတုဂတ်",
-    "goals": 4,
-    "pid": "269136"
-   },
-   {
-    "rank": 7,
-    "player": "Nicolo Tresoldi",
-    "team": "ကလပ်ဘရုဂေး",
-    "goals": 4,
-    "pid": "335201"
-   },
-   {
-    "rank": 8,
+    "rank": 10,
     "player": "Serhou Guirassy",
     "team": "ဒေါ့မန်",
     "goals": 4,
     "pid": "186381"
-   },
-   {
-    "rank": 9,
-    "player": "Raphinha",
-    "team": "ဘာစီလိုနာ",
-    "goals": 4,
-    "pid": "231050"
-   },
-   {
-    "rank": 10,
-    "player": "Erling Haaland",
-    "team": "မန်စီးတီး",
-    "goals": 4,
-    "pid": "253989"
    }
   ],
   "uefa.europa": [
@@ -622,31 +622,31 @@
    },
    {
     "rank": 7,
+    "player": "Armando González",
+    "team": "အိုလံပီယာကို့စ်",
+    "goals": 2,
+    "pid": "376110"
+   },
+   {
+    "rank": 8,
     "player": "Tobias Guddal",
     "team": "စပါတာပရက်",
     "goals": 2,
     "pid": "382244"
    },
    {
-    "rank": 8,
+    "rank": 9,
     "player": "Javi Rodríguez",
     "team": "ဆယ်လ်တာဗီဂို",
     "goals": 2,
     "pid": "376147"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Tjaronn Chery",
     "team": "နိုင်မီဂန်",
     "goals": 2,
     "pid": "116893"
-   },
-   {
-    "rank": 10,
-    "player": "Bryan Linssen",
-    "team": "နိုင်မီဂန်",
-    "goals": 2,
-    "pid": "122954"
    }
   ]
  },
@@ -1158,73 +1158,73 @@
   "uefa.champions": [
    {
     "rank": 1,
+    "player": "Nico Paz",
+    "team": "ကိုမို",
+    "assists": 5,
+    "pid": "337970"
+   },
+   {
+    "rank": 2,
     "player": "Lamine Yamal",
     "team": "ဘာစီလိုနာ",
     "assists": 4,
     "pid": "362150"
    },
    {
-    "rank": 2,
+    "rank": 3,
     "player": "Harry Kane",
     "team": "ဘိုင်ယန်",
     "assists": 3,
     "pid": "142200"
    },
    {
-    "rank": 3,
-    "player": "Maghnes Akliouche",
-    "team": "ပီအက်စ်ဂျီ",
-    "assists": 3,
-    "pid": "329690"
-   },
-   {
     "rank": 4,
-    "player": "Yvan Dibango",
-    "team": "လင့်ဇ်",
+    "player": "Zlatko Tripic",
+    "team": "ဗိုက်ကင်းအက်ဖ်ကေ",
     "assists": 3,
-    "pid": "365165"
+    "pid": "164279"
    },
    {
     "rank": 5,
-    "player": "Nico Paz",
-    "team": "ကိုမို",
-    "assists": 3,
-    "pid": "337970"
-   },
-   {
-    "rank": 6,
     "player": "Kostas Tsimikas",
     "team": "လီဗာပူး",
     "assists": 3,
     "pid": "226177"
    },
    {
+    "rank": 6,
+    "player": "Maghnes Akliouche",
+    "team": "ပီအက်စ်ဂျီ",
+    "assists": 3,
+    "pid": "329690"
+   },
+   {
     "rank": 7,
+    "player": "Yvan Dibango",
+    "team": "လင့်ဇ်",
+    "assists": 3,
+    "pid": "365165"
+   },
+   {
+    "rank": 8,
     "player": "Ousmane Dembélé",
     "team": "ပီအက်စ်ဂျီ",
     "assists": 3,
     "pid": "229744"
    },
    {
-    "rank": 8,
-    "player": "Pau Torres",
-    "team": "အက်စတွန်ဗီလာ",
-    "assists": 2,
-    "pid": "251100"
-   },
-   {
     "rank": 9,
-    "player": "João Cancelo",
-    "team": "ဘာစီလိုနာ",
-    "assists": 2,
-    "pid": "176399"
+    "player": "Brahim Díaz",
+    "team": "ရီးယဲလ်",
+    "assists": 3,
+    "pid": "246532"
    },
    {
     "rank": 10,
-    "player": "Deniz Undav",
-    "team": "စတုဂတ်",
+    "player": "Jacobo Ramón",
+    "team": "ကိုမို",
     "assists": 2,
-    "pid": "273300"
+    "pid": "380318"
    }
   ],
   "uefa.europa": [
