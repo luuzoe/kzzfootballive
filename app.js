@@ -911,7 +911,7 @@ async function renderHighlights() {
 { id: "69IQ8q-g1q0", title: "HIGHLIGHTS | AEK Athens 2-3 Real Madrid | Champions League", channel: "Real Madrid", date: "Nov 4, 2026" },
 { id: "CnUf99pIzIc", title: "BISSECK, ESPOSITO E ZIELINSKI: TRIS EUROPEO 🖤💙 | FEYENOORD 0-3 INTER | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Nov 3, 2026" },
 { id: "CXk8Er7Yf9w", title: "HIGHLIGHTS | FC BARCELONA 3 vs 0 ASTON VILLA | UEFA CHAMPIONS LEAGUE 🔵🔴", channel: "FC Barcelona", date: "Nov 3, 2026" },
-{ id: "o982crQjMIA", title: "Villareal vs PSG | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 3, 2026" },
+{ id: "RvEablTAe2I", title: "HIGHLIGHTS | VILLARREAL 0-6 PSG | CHAMPIONS LEAGUE", channel: "Villarreal CF", date: "Nov 3, 2026" },
 { id: "6GpVM7cuvM0", title: "Manchester United vs AS Roma | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 3, 2026" },
 { id: "b-CuMCD-eGs", title: "Amazing TEAM performance in Madrid 💪❤️ Atlético vs. FC Bayern 0-2 | Champions League Highlights", channel: "FC Bayern München", date: "Nov 3, 2026" },
 { id: "boUuYkuN6mc", title: "LE HAVRE AC - PARIS SAINT-GERMAIN (1-5) | Week 9 - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Oct 30, 2026" },
