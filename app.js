@@ -902,7 +902,7 @@ async function renderHighlights() {
   const videos = [
 { id: "hFU_vO-jZfc", title: "GYOKERES & MADUEKE GOALS EARN THREE POINTS | HIGHLIGHTS | Slavia Prague vs Arsenal (1-2) l UCL", channel: "Arsenal", date: "Nov 4, 2026" },
 { id: "sQ3_E1mCxI0", title: "RB Leipzig - Manchester City | Highlights | UEFA Champions League", channel: "RB Leipzig", date: "Nov 4, 2026" },
-{ id: "UvLdQpMAcOA", title: "Borussia Dortmund vs Real Betis 2-1 HIGHLIGHTS - UEFA Champions League 2026/27", channel: "Dollar VFX", date: "Nov 4, 2026" },
+{ id: "zVQZC8mOgsY", title: "Dortmund vs Real Betis | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 4, 2026" },
 { id: "8_4nnKYSxEM", title: "FC Porto – Napoli 4:1 | UEFA CHAMPIONS LEAGUE (4. kolo) | 04. novembar 2026.", channel: "Arena Sport TV", date: "Nov 4, 2026" },
 { id: "06QcwUGWx9A", title: "Fenerbahce - Liverpool 3:2 | UEFA CHAMPIONS LEAGUE (4. kolo) | 04. novembar 2026.", channel: "Arena Sport TV", date: "Nov 4, 2026" },
 { id: "69IQ8q-g1q0", title: "HIGHLIGHTS | AEK Athens 2-3 Real Madrid | Champions League", channel: "Real Madrid", date: "Nov 4, 2026" },
