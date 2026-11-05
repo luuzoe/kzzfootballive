@@ -900,9 +900,6 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "h_stLgq5Rps", title: "Micky van de Ven scores WONDER GOAL! | Spurs 4-0 Copenhagen | Champions League Highlights", channel: "Tottenham Hotspur", date: "Nov 4, 2026" },
-{ id: "ODlMM1HO96Q", title: "HIGHLIGHTS UEFA Champions League | Juventus 1-1 Sporting CP", channel: "Juventus", date: "Nov 4, 2026" },
-{ id: "cE5RmOQfDIk", title: "Atlético de Madrid 3-1 Union Saint-Gilloise | ⚽ Julián Alvarez, Gallagher & Llorente | HIGHLIGHTS", channel: "Atlético de Madrid", date: "Nov 4, 2026" },
 { id: "hFU_vO-jZfc", title: "GYOKERES & MADUEKE GOALS EARN THREE POINTS | HIGHLIGHTS | Slavia Prague vs Arsenal (1-2) l UCL", channel: "Arsenal", date: "Nov 4, 2026" },
 { id: "sQ3_E1mCxI0", title: "RB Leipzig - Manchester City | Highlights | UEFA Champions League", channel: "RB Leipzig", date: "Nov 4, 2026" },
 { id: "UvLdQpMAcOA", title: "Borussia Dortmund vs Real Betis 2-1 HIGHLIGHTS - UEFA Champions League 2026/27", channel: "Dollar VFX", date: "Nov 4, 2026" },
