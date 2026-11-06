@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-06T02:56:21+06:30",
+ "updated": "2026-11-06T02:58:02+06:30",
  "summary": {
-  "resolved": 131,
-  "correct": 69,
-  "wrong": 62,
-  "accuracy_pct": 52.7,
+  "resolved": 119,
+  "correct": 64,
+  "wrong": 55,
+  "accuracy_pct": 53.8,
   "not_found": 7
  },
  "results": [
@@ -1158,114 +1158,6 @@
    "league": "Europa League",
    "pick_en": "Union Saint-Gilloise win",
    "score": "1-2",
-   "outcome": "correct"
-  },
-  {
-   "date": "2026-11-05",
-   "home": "Real Sociedad",
-   "away": "Lyon",
-   "league": "Europa League",
-   "pick_en": "Real Sociedad win",
-   "score": "1-1",
-   "outcome": "wrong"
-  },
-  {
-   "date": "2026-11-05",
-   "home": "Sparta Prague",
-   "away": "Bournemouth",
-   "league": "Europa League",
-   "pick_en": "Bournemouth win",
-   "score": "1-3",
-   "outcome": "correct"
-  },
-  {
-   "date": "2026-11-05",
-   "home": "Crystal Palace",
-   "away": "Hoffenheim",
-   "league": "Europa League",
-   "pick_en": "Crystal Palace win",
-   "score": "1-1",
-   "outcome": "wrong"
-  },
-  {
-   "date": "2026-11-05",
-   "home": "Levski Sofia",
-   "away": "Jagiellonia Białystok",
-   "league": "Europa League",
-   "pick_en": "Levski Sofia win",
-   "score": "1-0",
-   "outcome": "correct"
-  },
-  {
-   "date": "2026-11-05",
-   "home": "NEC Nijmegen",
-   "away": "Omonia Nicosia",
-   "league": "Europa League",
-   "pick_en": "NEC Nijmegen win",
-   "score": "3-1",
-   "outcome": "correct"
-  },
-  {
-   "date": "2026-11-05",
-   "home": "AZ Alkmaar",
-   "away": "Juventus",
-   "league": "Europa League",
-   "pick_en": "Draw",
-   "score": "1-2",
-   "outcome": "wrong"
-  },
-  {
-   "date": "2026-11-05",
-   "home": "Bayer Leverkusen",
-   "away": "Marseille",
-   "league": "Europa League",
-   "pick_en": "Bayer Leverkusen win",
-   "score": "0-1",
-   "outcome": "wrong"
-  },
-  {
-   "date": "2026-11-05",
-   "home": "Benfica",
-   "away": "Lech Poznań",
-   "league": "Europa League",
-   "pick_en": "Benfica win",
-   "score": "3-1",
-   "outcome": "correct"
-  },
-  {
-   "date": "2026-11-05",
-   "home": "Sunderland",
-   "away": "Dinamo Zagreb",
-   "league": "Europa League",
-   "pick_en": "Sunderland win",
-   "score": "0-2",
-   "outcome": "wrong"
-  },
-  {
-   "date": "2026-11-05",
-   "home": "Hapoel Be'er Sheva",
-   "away": "OFI Crete",
-   "league": "Europa League",
-   "pick_en": "Hapoel Be'er Sheva win",
-   "score": "0-2",
-   "outcome": "wrong"
-  },
-  {
-   "date": "2026-11-05",
-   "home": "Sturm Graz",
-   "away": "Celje",
-   "league": "Europa League",
-   "pick_en": "Sturm Graz win",
-   "score": "2-3",
-   "outcome": "wrong"
-  },
-  {
-   "date": "2026-11-05",
-   "home": "Torreense",
-   "away": "Ararat-Armenia",
-   "league": "Europa League",
-   "pick_en": "Torreense win",
-   "score": "3-2",
    "outcome": "correct"
   }
  ]
