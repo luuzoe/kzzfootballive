@@ -902,7 +902,7 @@ async function renderHighlights() {
   const videos = [
 { id: "3GBKVXK88vg", title: "Arsenal vs Hull City 1-0 EXTENDED HIGHLIGHTS 😱🔥 Premier League 2026/27", channel: "Footballia", date: "Nov 7, 2026" },
 { id: "LqgAGl3u87s", title: "NMECHA-BRACE! | BORUSSIA DORTMUND - SV ELVERSBERG | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
-{ id: "qisCSSlRrPw", title: "Mainz - Bayern Munich 1:2 | BUNDESLIGA (9. kolo) | 07. novembar 2026.", channel: "Arena Sport TV", date: "Nov 7, 2026" },
+{ id: "7trwWayUYFY", title: "Karl Scores Again! | MAINZ 05 - FC BAYERN | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
 { id: "5Ju1zCeCJLA", title: "Leeds - Tottenham Hotspur 1:0 | PREMIER LEAGUE (10. kolo) | 07. novembar 2026.", channel: "Arena Sport TV", date: "Nov 7, 2026" },
 { id: "3t9hzXVY_d8", title: "KOOP & KOLO COOKED! 💥 | AZ ALKMAAR - JUVENTUS | HIGHLIGHTS EUROPA LEAGUE", channel: "Juventus", date: "Nov 5, 2026" },
 { id: "zas7zC_hP8Q", title: "OM 1-0 Leverkusen : La RÉVOLTE marseillaise ! Un OM convaincant lance enfin sa saison en C3", channel: "L'Équipe", date: "Nov 5, 2026" },
