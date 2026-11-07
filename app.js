@@ -900,7 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "3GBKVXK88vg", title: "Arsenal vs Hull City 1-0 EXTENDED HIGHLIGHTS 😱🔥 Premier League 2026/27", channel: "Footballia", date: "Nov 7, 2026" },
+{ id: "UJDBmL6kAd4", title: "Arsenal 1-0 Hull City | Premier League Highlights 2026/27", channel: "Stadium Astro", date: "Nov 7, 2026" },
 { id: "LqgAGl3u87s", title: "NMECHA-BRACE! | BORUSSIA DORTMUND - SV ELVERSBERG | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
 { id: "7trwWayUYFY", title: "Karl Scores Again! | MAINZ 05 - FC BAYERN | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
 { id: "5Ju1zCeCJLA", title: "Leeds - Tottenham Hotspur 1:0 | PREMIER LEAGUE (10. kolo) | 07. novembar 2026.", channel: "Arena Sport TV", date: "Nov 7, 2026" },
