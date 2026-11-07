@@ -906,7 +906,7 @@ async function renderHighlights() {
 { id: "UJDBmL6kAd4", title: "Arsenal 1-0 Hull City | Premier League Highlights 2026/27", channel: "Stadium Astro", date: "Nov 7, 2026" },
 { id: "o4oK69PLoTE", title: "Borussia Dortmund vs SV Elversberg 2-1 HIGHLIGHTS - Felix Nmecha Brace! Bundesliga 2026/27", channel: "Dollar VFX", date: "Nov 7, 2026" },
 { id: "7trwWayUYFY", title: "Karl Scores Again! | MAINZ 05 - FC BAYERN | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
-{ id: "5Ju1zCeCJLA", title: "Leeds - Tottenham Hotspur 1:0 | PREMIER LEAGUE (10. kolo) | 07. novembar 2026.", channel: "Arena Sport TV", date: "Nov 7, 2026" },
+{ id: "7c1KI9a_67g", title: "Leeds United 1-0 Tottenham | Premier League Highlights", channel: "Tottenham Hotspur", date: "Nov 7, 2026" },
 { id: "3t9hzXVY_d8", title: "KOOP & KOLO COOKED! 💥 | AZ ALKMAAR - JUVENTUS | HIGHLIGHTS EUROPA LEAGUE", channel: "Juventus", date: "Nov 5, 2026" },
 { id: "zas7zC_hP8Q", title: "OM 1-0 Leverkusen : La RÉVOLTE marseillaise ! Un OM convaincant lance enfin sa saison en C3", channel: "L'Équipe", date: "Nov 5, 2026" },
 { id: "C58JvvWbc_4", title: "Highlights Europa League | Una serata difficile a San Siro | Milan 0-2 Ferencváros", channel: "AC Milan", date: "Nov 5, 2026" },
