@@ -912,31 +912,31 @@
    },
    {
     "rank": 7,
+    "player": "Albert Grønbaek",
+    "team": "ဟမ်းဘတ်",
+    "assists": 4,
+    "pid": "297750"
+   },
+   {
+    "rank": 8,
     "player": "Matthias Ginter",
     "team": "ဖရိုင်းဘတ်",
     "assists": 3,
     "pid": "170209"
    },
    {
-    "rank": 8,
+    "rank": 9,
     "player": "Michael Olise",
     "team": "ဘိုင်ယန်",
     "assists": 3,
     "pid": "286831"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Anthony Caci",
     "team": "မိန့်ဇ်",
     "assists": 3,
     "pid": "241297"
-   },
-   {
-    "rank": 10,
-    "player": "Joshua Kimmich",
-    "team": "ဘိုင်ယန်",
-    "assists": 3,
-    "pid": "190161"
    }
   ],
   "fra.1": [
