@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 91; // bump on every deploy
+const APP_VERSION = 92; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,6 +900,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "vxuYXwog_fc", title: "Valencia vs Real Madrid 0-3 Highlights | LaLiga 2026/27", channel: "DMX Football", date: "Nov 7, 2026" },
+{ id: "J4QTjDpQQ8E", title: "PSG vs Troyes 1-0 Highlights | Ligue 1 2026/27", channel: "DMX Football", date: "Nov 7, 2026" },
 { id: "uWC7msp4_wc", title: "Double delight for Delap as Forest win! | Nottingham Forest 3-1 Man City | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 7, 2026" },
 { id: "UJDBmL6kAd4", title: "Arsenal 1-0 Hull City | Premier League Highlights 2026/27", channel: "Stadium Astro", date: "Nov 7, 2026" },
 { id: "LqgAGl3u87s", title: "NMECHA-BRACE! | BORUSSIA DORTMUND - SV ELVERSBERG | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
@@ -926,8 +928,6 @@ async function renderHighlights() {
 { id: "OI58_-4ezU8", title: "Chelsea 2-0 Man Utd | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 31, 2026" },
 { id: "Zt1VugPdwFw", title: "HAVERTZ GOAL EARNS VITAL WIN IN THE TITLE RACE | HIGHLIGHTS | Liverpool vs Arsenal (0-1) l PL", channel: "Arsenal", date: "Nov 1, 2026" },
 { id: "ep38QN4lEjM", title: "HIGHLIGHTS | Racing de Santander 0-3 Real Madrid | LaLiga", channel: "Real Madrid", date: "Nov 1, 2026" },
-{ id: "Q3vyo0myETY", title: "Extended Highlights 2026/27 | Milan-Inter 3-1 | Pulisic, Rabiot e Moreira firmano il Derby", channel: "AC Milan", date: "Oct 31, 2026" },
-{ id: "f0Qo1Dssk-I", title: "Levante 0-2 Atlético de Madrid | Grimaldo & Giuliano | HIGHLIGHTS, LaLiga - MD11", channel: "Atlético de Madrid", date: "Oct 31, 2026" },
 { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
