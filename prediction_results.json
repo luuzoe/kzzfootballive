@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T02:57:21+06:30",
+ "updated": "2026-11-07T08:59:01+06:30",
  "summary": {
   "resolved": 125,
   "correct": 68,
@@ -1222,6 +1222,186 @@
    "pick_en": "Hamburger SV win",
    "score": null,
    "outcome": "not_found"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Leeds United",
+   "away": "Tottenham Hotspur",
+   "league": "Premier League",
+   "pick_en": "Draw",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Málaga",
+   "away": "Racing Santander",
+   "league": "La Liga",
+   "pick_en": "Draw",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Cagliari",
+   "away": "Frosinone",
+   "league": "Serie A",
+   "pick_en": "Frosinone win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Torino",
+   "away": "Lecce",
+   "league": "Serie A",
+   "pick_en": "Torino win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Borussia Dortmund",
+   "away": "SV Elversberg",
+   "league": "Bundesliga",
+   "pick_en": "Borussia Dortmund win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "FSV Mainz 05",
+   "away": "Bayern Munich",
+   "league": "Bundesliga",
+   "pick_en": "Bayern Munich win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "RB Leipzig",
+   "away": "FC Augsburg",
+   "league": "Bundesliga",
+   "pick_en": "RB Leipzig win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "SC Paderborn 07",
+   "away": "Eintracht Frankfurt",
+   "league": "Bundesliga",
+   "pick_en": "Eintracht Frankfurt win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Arsenal",
+   "away": "Hull City",
+   "league": "Premier League",
+   "pick_en": "Arsenal win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Fulham",
+   "away": "Newcastle United",
+   "league": "Premier League",
+   "pick_en": "Fulham win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Luton Town",
+   "away": "Forest Green Rovers",
+   "league": "FA Cup",
+   "pick_en": "Luton Town win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Plymouth Argyle",
+   "away": "Alvechurch",
+   "league": "FA Cup",
+   "pick_en": "Plymouth Argyle win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Bradford City",
+   "away": "Marine",
+   "league": "FA Cup",
+   "pick_en": "Bradford City win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Boreham Wood",
+   "away": "Wigan Athletic",
+   "league": "FA Cup",
+   "pick_en": "Boreham Wood win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Huddersfield Town",
+   "away": "Exeter City",
+   "league": "FA Cup",
+   "pick_en": "Huddersfield Town win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Barnsley",
+   "away": "Aldershot Town",
+   "league": "FA Cup",
+   "pick_en": "Barnsley win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Oxford United",
+   "away": "Stevenage",
+   "league": "FA Cup",
+   "pick_en": "Oxford United win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Milton Keynes Dons",
+   "away": "Swindon Town",
+   "league": "FA Cup",
+   "pick_en": "Milton Keynes Dons win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Espanyol",
+   "away": "Deportivo La Coruña",
+   "league": "La Liga",
+   "pick_en": "Draw",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Parma",
+   "away": "Bologna",
+   "league": "Serie A",
+   "pick_en": "Bologna win",
+   "score": null,
+   "outcome": "pending"
   }
  ]
 }
