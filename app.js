@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 90; // bump on every deploy
+const APP_VERSION = 91; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "CQ7S0wykarg", title: "Nottingham Forest vs Manchester City 3-1 Highlights | Premier League 2026/27", channel: "DMX Football", date: "Nov 7, 2026" },
 { id: "UJDBmL6kAd4", title: "Arsenal 1-0 Hull City | Premier League Highlights 2026/27", channel: "Stadium Astro", date: "Nov 7, 2026" },
 { id: "LqgAGl3u87s", title: "NMECHA-BRACE! | BORUSSIA DORTMUND - SV ELVERSBERG | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
 { id: "7trwWayUYFY", title: "Karl Scores Again! | MAINZ 05 - FC BAYERN | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
 { id: "ep38QN4lEjM", title: "HIGHLIGHTS | Racing de Santander 0-3 Real Madrid | LaLiga", channel: "Real Madrid", date: "Nov 1, 2026" },
 { id: "Q3vyo0myETY", title: "Extended Highlights 2026/27 | Milan-Inter 3-1 | Pulisic, Rabiot e Moreira firmano il Derby", channel: "AC Milan", date: "Oct 31, 2026" },
 { id: "f0Qo1Dssk-I", title: "Levante 0-2 Atlético de Madrid | Grimaldo & Giuliano | HIGHLIGHTS, LaLiga - MD11", channel: "Atlético de Madrid", date: "Oct 31, 2026" },
-{ id: "kfkJYSDWNLA", title: "HIGHLIGHTS | Man City 0-1 Brighton | City unable to finish their chances at the Etihad!", channel: "Man City", date: "Oct 31, 2026" },
 { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
