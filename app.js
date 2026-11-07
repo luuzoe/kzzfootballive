@@ -900,6 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "3GBKVXK88vg", title: "Arsenal vs Hull City 1-0 EXTENDED HIGHLIGHTS 😱🔥 Premier League 2026/27", channel: "Footballia", date: "Nov 7, 2026" },
 { id: "LqgAGl3u87s", title: "NMECHA-BRACE! | BORUSSIA DORTMUND - SV ELVERSBERG | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
 { id: "qisCSSlRrPw", title: "Mainz - Bayern Munich 1:2 | BUNDESLIGA (9. kolo) | 07. novembar 2026.", channel: "Arena Sport TV", date: "Nov 7, 2026" },
 { id: "5Ju1zCeCJLA", title: "Leeds - Tottenham Hotspur 1:0 | PREMIER LEAGUE (10. kolo) | 07. novembar 2026.", channel: "Arena Sport TV", date: "Nov 7, 2026" },
@@ -927,7 +928,6 @@ async function renderHighlights() {
 { id: "Q3vyo0myETY", title: "Extended Highlights 2026/27 | Milan-Inter 3-1 | Pulisic, Rabiot e Moreira firmano il Derby", channel: "AC Milan", date: "Oct 31, 2026" },
 { id: "f0Qo1Dssk-I", title: "Levante 0-2 Atlético de Madrid | Grimaldo & Giuliano | HIGHLIGHTS, LaLiga - MD11", channel: "Atlético de Madrid", date: "Oct 31, 2026" },
 { id: "kfkJYSDWNLA", title: "HIGHLIGHTS | Man City 0-1 Brighton | City unable to finish their chances at the Etihad!", channel: "Man City", date: "Oct 31, 2026" },
-{ id: "H3KClYYb2AM", title: "FC BARCELONA 6 - 1 DEPORTIVO ALAVÉS | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Oct 31, 2026" },
 { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
