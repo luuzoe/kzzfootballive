@@ -900,9 +900,9 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "vxuYXwog_fc", title: "Valencia vs Real Madrid 0-3 Highlights | LaLiga 2026/27", channel: "DMX Football", date: "Nov 7, 2026" },
+{ id: "6UAAqizm2r8", title: "VALENCIA CF 0 - 3 REAL MADRID | RESUMEN LALIGA EA SPORTS", channel: "LaLiga", date: "Nov 7, 2026" },
 { id: "J4QTjDpQQ8E", title: "PSG vs Troyes 1-0 Highlights | Ligue 1 2026/27", channel: "DMX Football", date: "Nov 7, 2026" },
-{ id: "uWC7msp4_wc", title: "Double delight for Delap as Forest win! | Nottingham Forest 3-1 Man City | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 7, 2026" },
+{ id: "jGW0vt6rMLM", title: "HIGHLIGHTS | Nottingham Forest 3-1 Man City | Defeat on the road for the Blues.", channel: "Man City", date: "Nov 7, 2026" },
 { id: "UJDBmL6kAd4", title: "Arsenal 1-0 Hull City | Premier League Highlights 2026/27", channel: "Stadium Astro", date: "Nov 7, 2026" },
 { id: "o4oK69PLoTE", title: "Borussia Dortmund vs SV Elversberg 2-1 HIGHLIGHTS - Felix Nmecha Brace! Bundesliga 2026/27", channel: "Dollar VFX", date: "Nov 7, 2026" },
 { id: "7trwWayUYFY", title: "Karl Scores Again! | MAINZ 05 - FC BAYERN | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
