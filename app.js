@@ -901,7 +901,7 @@ async function renderHighlights() {
   html += `<div class="highlights-grid">`;
   const videos = [
 { id: "3t9hzXVY_d8", title: "KOOP & KOLO COOKED! 💥 | AZ ALKMAAR - JUVENTUS | HIGHLIGHTS EUROPA LEAGUE", channel: "Juventus", date: "Nov 5, 2026" },
-{ id: "y0io1XZU1Cc", title: "Bayer Leverkusen - Marseille | 0-1 | Highlights | Europa League 2026-27", channel: "Sponitor", date: "Nov 5, 2026" },
+{ id: "zas7zC_hP8Q", title: "OM 1-0 Leverkusen : La RÉVOLTE marseillaise ! Un OM convaincant lance enfin sa saison en C3", channel: "L'Équipe", date: "Nov 5, 2026" },
 { id: "C58JvvWbc_4", title: "Highlights Europa League | Una serata difficile a San Siro | Milan 0-2 Ferencváros", channel: "AC Milan", date: "Nov 5, 2026" },
 { id: "hFU_vO-jZfc", title: "GYOKERES & MADUEKE GOALS EARN THREE POINTS | HIGHLIGHTS | Slavia Prague vs Arsenal (1-2) l UCL", channel: "Arsenal", date: "Nov 4, 2026" },
 { id: "sQ3_E1mCxI0", title: "RB Leipzig - Manchester City | Highlights | UEFA Champions League", channel: "RB Leipzig", date: "Nov 4, 2026" },
