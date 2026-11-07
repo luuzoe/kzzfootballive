@@ -11,52 +11,52 @@
    },
    {
     "rank": 2,
+    "player": "Thierno Barry",
+    "team": "အဲဗာတန်",
+    "goals": 6,
+    "pid": "301166"
+   },
+   {
+    "rank": 3,
     "player": "Alexander Isak",
     "team": "လီဗာပူး",
     "goals": 6,
     "pid": "235662"
    },
    {
-    "rank": 3,
+    "rank": 4,
     "player": "Morgan Rogers",
     "team": "အက်စတွန်ဗီလာ",
     "goals": 5,
     "pid": "265653"
    },
    {
-    "rank": 4,
+    "rank": 5,
     "player": "Marcus Tavernier",
     "team": "ဘုန်းမောက်",
     "goals": 5,
     "pid": "243364"
    },
    {
-    "rank": 5,
+    "rank": 6,
     "player": "Nicolas Jackson",
     "team": "အက်စတွန်ဗီလာ",
     "goals": 5,
     "pid": "308524"
    },
    {
-    "rank": 6,
+    "rank": 7,
     "player": "João Pedro",
     "team": "ချယ်လ်ဆီး",
     "goals": 5,
     "pid": "284960"
    },
    {
-    "rank": 7,
+    "rank": 8,
     "player": "Bryan Mbeumo",
     "team": "မန်ယူ",
     "goals": 4,
     "pid": "271170"
-   },
-   {
-    "rank": 8,
-    "player": "Thierno Barry",
-    "team": "အဲဗာတန်",
-    "goals": 4,
-    "pid": "301166"
    },
    {
     "rank": 9,
@@ -132,17 +132,17 @@
    },
    {
     "rank": 9,
+    "player": "Lucas Boyé",
+    "team": "အလာဗတ်စ်",
+    "goals": 5,
+    "pid": "207236"
+   },
+   {
+    "rank": 10,
     "player": "Álex Baena",
     "team": "အက်သလက်တီကိုမက်ဒရစ်",
     "goals": 5,
     "pid": "297373"
-   },
-   {
-    "rank": 10,
-    "player": "Roger Brugué",
-    "team": "လီဗန်တေး",
-    "goals": 5,
-    "pid": "267591"
    }
   ],
   "ita.1": [
@@ -747,24 +747,24 @@
    },
    {
     "rank": 4,
+    "player": "Mariano Díaz",
+    "team": "အလာဗတ်စ်",
+    "assists": 4,
+    "pid": "198832"
+   },
+   {
+    "rank": 5,
     "player": "Alberto Moleiro",
     "team": "ဗီလာရီးရဲလ်",
     "assists": 4,
     "pid": "307390"
    },
    {
-    "rank": 5,
+    "rank": 6,
     "player": "Álex Berenguer",
     "team": "အက်သလတစ်ဘီလ်ဘာအို",
     "assists": 4,
     "pid": "209579"
-   },
-   {
-    "rank": 6,
-    "player": "Mariano Díaz",
-    "team": "အလာဗတ်စ်",
-    "assists": 4,
-    "pid": "198832"
    },
    {
     "rank": 7,
