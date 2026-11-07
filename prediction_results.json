@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T20:53:24+06:30",
+ "updated": "2026-11-07T02:57:21+06:30",
  "summary": {
-  "resolved": 119,
-  "correct": 64,
-  "wrong": 55,
-  "accuracy_pct": 53.8,
-  "not_found": 7
+  "resolved": 125,
+  "correct": 68,
+  "wrong": 57,
+  "accuracy_pct": 54.4,
+  "not_found": 8
  },
  "results": [
   {
@@ -1159,6 +1159,69 @@
    "pick_en": "Union Saint-Gilloise win",
    "score": "1-2",
    "outcome": "correct"
+  },
+  {
+   "date": "2026-11-06",
+   "home": "Sevilla",
+   "away": "Alavés",
+   "league": "La Liga",
+   "pick_en": "Sevilla win",
+   "score": "0-0",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-11-06",
+   "home": "Venezia",
+   "away": "Udinese",
+   "league": "Serie A",
+   "pick_en": "Venezia win",
+   "score": "2-1",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-06",
+   "home": "Toulouse",
+   "away": "Strasbourg",
+   "league": "Ligue 1",
+   "pick_en": "Toulouse win",
+   "score": "3-1",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-06",
+   "home": "Everton",
+   "away": "Coventry City",
+   "league": "Premier League",
+   "pick_en": "Everton win",
+   "score": "3-1",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-06",
+   "home": "Oxford City",
+   "away": "Leicester City",
+   "league": "FA Cup",
+   "pick_en": "Leicester City win",
+   "score": "2-4",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-06",
+   "home": "Bristol Rovers",
+   "away": "Cambridge United",
+   "league": "FA Cup",
+   "pick_en": "Cambridge United win",
+   "score": "2-0",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Hamburger SV",
+   "away": "Borussia Mönchengladbach",
+   "league": "Bundesliga",
+   "pick_en": "Hamburger SV win",
+   "score": null,
+   "outcome": "not_found"
   }
  ]
 }
