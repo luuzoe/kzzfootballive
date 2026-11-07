@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 89; // bump on every deploy
+const APP_VERSION = 90; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -901,8 +901,8 @@ async function renderHighlights() {
   html += `<div class="highlights-grid">`;
   const videos = [
 { id: "LqgAGl3u87s", title: "NMECHA-BRACE! | BORUSSIA DORTMUND - SV ELVERSBERG | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
-{ id: "r-XSZzyC3h8", title: "Mainz - Bayern Munich | 1-2 | Highlights | Bundesliga 2026/27 | bayern mainz", channel: "CHEFON FF", date: "Nov 7, 2026" },
-{ id: "9J_zsMqsWpU", title: "Leeds United - Tottenham | 1-0 | Highlights | Premier League 2026/27 | tottenham leeds", channel: "CHEFON FF", date: "Nov 7, 2026" },
+{ id: "qisCSSlRrPw", title: "Mainz - Bayern Munich 1:2 | BUNDESLIGA (9. kolo) | 07. novembar 2026.", channel: "Arena Sport TV", date: "Nov 7, 2026" },
+{ id: "5Ju1zCeCJLA", title: "Leeds - Tottenham Hotspur 1:0 | PREMIER LEAGUE (10. kolo) | 07. novembar 2026.", channel: "Arena Sport TV", date: "Nov 7, 2026" },
 { id: "3t9hzXVY_d8", title: "KOOP & KOLO COOKED! 💥 | AZ ALKMAAR - JUVENTUS | HIGHLIGHTS EUROPA LEAGUE", channel: "Juventus", date: "Nov 5, 2026" },
 { id: "zas7zC_hP8Q", title: "OM 1-0 Leverkusen : La RÉVOLTE marseillaise ! Un OM convaincant lance enfin sa saison en C3", channel: "L'Équipe", date: "Nov 5, 2026" },
 { id: "C58JvvWbc_4", title: "Highlights Europa League | Una serata difficile a San Siro | Milan 0-2 Ferencváros", channel: "AC Milan", date: "Nov 5, 2026" },
