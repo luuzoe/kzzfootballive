@@ -901,7 +901,7 @@ async function renderHighlights() {
   html += `<div class="highlights-grid">`;
   const videos = [
 { id: "50LZL-1eXlU", title: "HIGHLIGHTS | Valencia CF 0-3 Real Madrid | LaLiga", channel: "Real Madrid", date: "Nov 7, 2026" },
-{ id: "J4QTjDpQQ8E", title: "PSG vs Troyes 1-0 Highlights | Ligue 1 2026/27", channel: "DMX Football", date: "Nov 7, 2026" },
+{ id: "skbFwYJZdTg", title: "PSG v Troyes | Match Highlights | French Ligue 1", channel: "SuperSport", date: "Nov 7, 2026" },
 { id: "jGW0vt6rMLM", title: "HIGHLIGHTS | Nottingham Forest 3-1 Man City | Defeat on the road for the Blues.", channel: "Man City", date: "Nov 7, 2026" },
 { id: "UJDBmL6kAd4", title: "Arsenal 1-0 Hull City | Premier League Highlights 2026/27", channel: "Stadium Astro", date: "Nov 7, 2026" },
 { id: "o4oK69PLoTE", title: "Borussia Dortmund vs SV Elversberg 2-1 HIGHLIGHTS - Felix Nmecha Brace! Bundesliga 2026/27", channel: "Dollar VFX", date: "Nov 7, 2026" },
