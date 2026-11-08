@@ -917,7 +917,7 @@ async function renderHighlights() {
   const videos = [
 { id: "6DEh00JjkmE", title: "Crazy Freekick Opens Score! | 1. FC KÖLN - BAYER 04 LEVERKUSEN | Highlights | Matchday 9 Bundesliga", channel: "Bundesliga", date: "Nov 8, 2026" },
 { id: "-jHyLC3wCyg", title: "Wirtz STARS as Reds dominate in London! 🔴 | Crystal Palace 1-3 Liverpool | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 8, 2026" },
-{ id: "okJ0_uMCGWA", title: "Sunderland vs Chelsea 1-0 HIGHLIGHTS - Enzo Le Fee GOAL! - Premier League 2026/27", channel: "Dollar VFX", date: "Nov 8, 2026" },
+{ id: "U447zuMBiFg", title: "Black Cats move off bottom of table! 💥 | Sunderland 1-0 Chelsea | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 8, 2026" },
 { id: "uYtOT5EUDMc", title: "Pulisic On Target Again | GENOA-MILAN | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 8, 2026" },
 { id: "06di7zU4Km4", title: "Points Shared at the Maradona | NAPOLI-LAZIO | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 8, 2026" },
 { id: "50LZL-1eXlU", title: "HIGHLIGHTS | Valencia CF 0-3 Real Madrid | LaLiga", channel: "Real Madrid", date: "Nov 7, 2026" },
