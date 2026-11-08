@@ -629,10 +629,25 @@ async function renderPredictions() {
   const recMap = {};
   try {
     const rec = await getJSON('prediction_results.json');
-    if (rec && rec.summary && rec.summary.resolved) {
-      const s = rec.summary;
-      recHtml = `<div class="pred-record">📊 ခန့်မှန်းမှတ်တမ်း: <b>${s.correct} မှန် / ${s.resolved} ပွဲ (${s.accuracy_pct}%)</b>${s.not_found ? ` • ရှာမတွေ့တာ ${s.not_found} ပွဲ` : ''} — အရင်ခန့်မှန်းချက်တွေကို တကယ့်ရလဒ်နဲ့ တိုက်စစ်ထားတာပါ</div>`;
-      (rec.results || []).forEach(r => { recMap[r.home + '|' + r.away] = r; });
+    (rec.results || []).forEach(r => { recMap[r.home + '|' + r.away] = r; });
+    // Zaw 2026-11-08: show ONE day only, not the all-time total — latest day with resolved results
+    const byDay = {};
+    (rec.results || []).forEach(r => {
+      if (r.outcome !== 'correct' && r.outcome !== 'wrong') return;
+      const d = String(r.date || '').slice(0, 10);
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) return;
+      byDay[d] = byDay[d] || { resolved: 0, correct: 0 };
+      byDay[d].resolved++;
+      if (r.outcome === 'correct') byDay[d].correct++;
+    });
+    const days = Object.keys(byDay).sort();
+    if (days.length) {
+      const d = days[days.length - 1];
+      const s = byDay[d];
+      const pct = ((s.correct / s.resolved) * 100).toFixed(1);
+      let dLabel = d;
+      try { dLabel = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Yangon', day: 'numeric', month: 'short' }).format(new Date(d + 'T12:00:00+06:30')); } catch (e) {}
+      recHtml = `<div class="pred-record">📊 ခန့်မှန်းမှတ်တမ်း (${dLabel}): <b>${s.correct} မှန် / ${s.resolved} ပွဲ (${pct}%)</b> — တစ်ရက်စာပဲ ပြထားတာပါ</div>`;
     }
   } catch (e) {}
   let html = `<h2 class="section-title">🔮 ပွဲကြို ခန့်မှန်း သုံးသပ်ချက် — KZZ Football Analysis (${leagueName()})</h2>${recHtml}`;
