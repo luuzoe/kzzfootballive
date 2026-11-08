@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 96; // bump on every deploy
+const APP_VERSION = 97; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -916,16 +916,16 @@ async function renderHighlights() {
   html += `<div class="highlights-grid">`;
   const videos = [
 { id: "5b4BaFzojaI", title: "Highlights: Fiorentina - Juventus 2 - 2", channel: "ACF Fiorentina", date: "Nov 8, 2026" },
-{ id: "4GSYwHjU2sE", title: "ATLÉTICO DE MADRID 1 - 2 FC BARCELONA | RESUMEN LALIGA EA SPORTS", channel: "LaLiga", date: "Nov 8, 2026" },
+{ id: "CvcyMWt58sA", title: "ATLÉTICO MADRID 1 vs 2 FC BARCELONA | LALIGA 2026/27 MD12 🔵🔴", channel: "FC Barcelona", date: "Nov 8, 2026" },
 { id: "iIy7T7apNeY", title: "ESPOSITO & THURAM SEAL THE WIN! ⚽ | INTER 2-0 COMO | HIGHLIGHTS", channel: "Inter", date: "Nov 8, 2026" },
 { id: "PEFrt_xyb2M", title: "Dorgu salvages DRAMATIC late point 😱 | Man Utd 4-4 Aston Villa | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 8, 2026" },
 { id: "6DEh00JjkmE", title: "Crazy Freekick Opens Score! | 1. FC KÖLN - BAYER 04 LEVERKUSEN | Highlights | Matchday 9 Bundesliga", channel: "Bundesliga", date: "Nov 8, 2026" },
 { id: "-jHyLC3wCyg", title: "Wirtz STARS as Reds dominate in London! 🔴 | Crystal Palace 1-3 Liverpool | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 8, 2026" },
 { id: "U447zuMBiFg", title: "Black Cats move off bottom of table! 💥 | Sunderland 1-0 Chelsea | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 8, 2026" },
-{ id: "uYtOT5EUDMc", title: "Pulisic On Target Again | GENOA-MILAN | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 8, 2026" },
+{ id: "IwFtdoY5q9E", title: "CISSE e PULISIC decidono a Marassi | Genoa-Milan 1-2 | Highlights Serie A", channel: "AC Milan", date: "Nov 8, 2026" },
 { id: "06di7zU4Km4", title: "Points Shared at the Maradona | NAPOLI-LAZIO | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 8, 2026" },
 { id: "50LZL-1eXlU", title: "HIGHLIGHTS | Valencia CF 0-3 Real Madrid | LaLiga", channel: "Real Madrid", date: "Nov 7, 2026" },
-{ id: "skbFwYJZdTg", title: "PSG v Troyes | Match Highlights | French Ligue 1", channel: "SuperSport", date: "Nov 7, 2026" },
+{ id: "R6mRSJzpZ2g", title: "PARIS SAINT-GERMAIN - ESTAC TROYES (1-0) | Week 10 - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Nov 7, 2026" },
 { id: "jGW0vt6rMLM", title: "HIGHLIGHTS | Nottingham Forest 3-1 Man City | Defeat on the road for the Blues.", channel: "Man City", date: "Nov 7, 2026" },
 { id: "UJDBmL6kAd4", title: "Arsenal 1-0 Hull City | Premier League Highlights 2026/27", channel: "Stadium Astro", date: "Nov 7, 2026" },
 { id: "o4oK69PLoTE", title: "Borussia Dortmund vs SV Elversberg 2-1 HIGHLIGHTS - Felix Nmecha Brace! Bundesliga 2026/27", channel: "Dollar VFX", date: "Nov 7, 2026" },
