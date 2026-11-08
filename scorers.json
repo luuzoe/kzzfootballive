@@ -366,7 +366,7 @@
     "rank": 1,
     "player": "Sören Tengstedt",
     "team": "ဂိုးအဟက်အီးဂဲလ်",
-    "goals": 8,
+    "goals": 9,
     "pid": "289301"
    },
    {
@@ -385,24 +385,24 @@
    },
    {
     "rank": 4,
+    "player": "Milan Zonneveld",
+    "team": "စပါတာရော့တာဒမ်",
+    "goals": 7,
+    "pid": "324585"
+   },
+   {
+    "rank": 5,
     "player": "Thom Van Bergen",
     "team": "ဂရိုနင်ဂန်",
     "goals": 7,
     "pid": "351290"
    },
    {
-    "rank": 5,
+    "rank": 6,
     "player": "Guus Til",
     "team": "ပီအက်စ်ဗီ",
     "goals": 7,
     "pid": "240965"
-   },
-   {
-    "rank": 6,
-    "player": "Milan Zonneveld",
-    "team": "စပါတာရော့တာဒမ်",
-    "goals": 7,
-    "pid": "324585"
    },
    {
     "rank": 7,
@@ -1028,38 +1028,38 @@
    },
    {
     "rank": 3,
-    "player": "Givairo Read",
-    "team": "ဖီယင်နော့",
-    "assists": 5,
-    "pid": "337084"
-   },
-   {
-    "rank": 4,
     "player": "Evan Rottier",
     "team": "ဒန်ဟက်",
     "assists": 5,
     "pid": "304576"
    },
    {
+    "rank": 4,
+    "player": "Givairo Read",
+    "team": "ဖီယင်နော့",
+    "assists": 5,
+    "pid": "337084"
+   },
+   {
     "rank": 5,
+    "player": "Mathis Suray",
+    "team": "ဂိုးအဟက်အီးဂဲလ်",
+    "assists": 4,
+    "pid": "308091"
+   },
+   {
+    "rank": 6,
     "player": "Dylan Mbayo",
     "team": "ဇဝူးလီ",
     "assists": 4,
     "pid": "286854"
    },
    {
-    "rank": 6,
+    "rank": 7,
     "player": "Gjivai Zechiël",
     "team": "ဖီယင်နော့",
     "assists": 4,
     "pid": "365021"
-   },
-   {
-    "rank": 7,
-    "player": "Oscar Gloukh",
-    "team": "အေဂျက်စ်",
-    "assists": 4,
-    "pid": "325609"
    },
    {
     "rank": 8,
@@ -1070,17 +1070,17 @@
    },
    {
     "rank": 9,
+    "player": "Oscar Gloukh",
+    "team": "အေဂျက်စ်",
+    "assists": 4,
+    "pid": "325609"
+   },
+   {
+    "rank": 10,
     "player": "Levi Smans",
     "team": "ဟီရန်ဗိန်း",
     "assists": 4,
     "pid": "324739"
-   },
-   {
-    "rank": 10,
-    "player": "Bas Kuipers",
-    "team": "စပါတာရော့တာဒမ်",
-    "assists": 3,
-    "pid": "188458"
    }
   ],
   "por.1": [
