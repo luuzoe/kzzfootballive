@@ -294,7 +294,7 @@
     "rank": 1,
     "player": "Lassine Sinayoko",
     "team": "ပဲရစ်အက်ဖ်စီ",
-    "goals": 8,
+    "goals": 9,
     "pid": "271137"
    },
    {
@@ -313,17 +313,17 @@
    },
    {
     "rank": 4,
-    "player": "Elye Wahi",
-    "team": "နိစ်",
-    "goals": 6,
-    "pid": "311118"
-   },
-   {
-    "rank": 5,
     "player": "Cameron Archer",
     "team": "အောက်ဆဲ",
     "goals": 6,
     "pid": "293347"
+   },
+   {
+    "rank": 5,
+    "player": "Elye Wahi",
+    "team": "နိစ်",
+    "goals": 6,
+    "pid": "311118"
    },
    {
     "rank": 6,
@@ -341,24 +341,24 @@
    },
    {
     "rank": 8,
+    "player": "Ferran Torres",
+    "team": "ပီအက်စ်ဂျီ",
+    "goals": 4,
+    "pid": "265869"
+   },
+   {
+    "rank": 9,
     "player": "Ludovic Ajorque",
     "team": "ဘရက်စ်",
     "goals": 4,
     "pid": "192015"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Florian Thauvin",
     "team": "လန့်စ်",
     "goals": 4,
     "pid": "156898"
-   },
-   {
-    "rank": 10,
-    "player": "Louis Mafouta",
-    "team": "လမန်း",
-    "goals": 4,
-    "pid": "268720"
    }
   ],
   "ned.1": [
@@ -970,45 +970,45 @@
    },
    {
     "rank": 5,
+    "player": "Romain Faivre",
+    "team": "အောက်ဆဲ",
+    "assists": 3,
+    "pid": "268591"
+   },
+   {
+    "rank": 6,
     "player": "Zachary Athekame",
     "team": "လိုင်ယွန်",
     "assists": 3,
     "pid": "370758"
    },
    {
-    "rank": 6,
+    "rank": 7,
     "player": "Aleksandr Golovin",
     "team": "မိုနာကို",
     "assists": 3,
     "pid": "195501"
    },
    {
-    "rank": 7,
+    "rank": 8,
     "player": "Amine Gouiri",
     "team": "မာဆေး",
     "assists": 3,
     "pid": "259743"
    },
    {
-    "rank": 8,
+    "rank": 9,
     "player": "Emerson",
     "team": "မာဆေး",
     "assists": 3,
     "pid": "159051"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Corentin Tolisso",
     "team": "လိုင်ယွန်",
     "assists": 3,
     "pid": "192060"
-   },
-   {
-    "rank": 10,
-    "player": "Romain Faivre",
-    "team": "အောက်ဆဲ",
-    "assists": 3,
-    "pid": "268591"
    }
   ],
   "ned.1": [
