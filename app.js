@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 92; // bump on every deploy
+const APP_VERSION = 93; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -900,7 +900,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "6UAAqizm2r8", title: "VALENCIA CF 0 - 3 REAL MADRID | RESUMEN LALIGA EA SPORTS", channel: "LaLiga", date: "Nov 7, 2026" },
+{ id: "50LZL-1eXlU", title: "HIGHLIGHTS | Valencia CF 0-3 Real Madrid | LaLiga", channel: "Real Madrid", date: "Nov 7, 2026" },
 { id: "J4QTjDpQQ8E", title: "PSG vs Troyes 1-0 Highlights | Ligue 1 2026/27", channel: "DMX Football", date: "Nov 7, 2026" },
 { id: "jGW0vt6rMLM", title: "HIGHLIGHTS | Nottingham Forest 3-1 Man City | Defeat on the road for the Blues.", channel: "Man City", date: "Nov 7, 2026" },
 { id: "UJDBmL6kAd4", title: "Arsenal 1-0 Hull City | Premier League Highlights 2026/27", channel: "Stadium Astro", date: "Nov 7, 2026" },
