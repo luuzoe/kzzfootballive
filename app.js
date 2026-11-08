@@ -915,7 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "61_kr-XDfBY", title: "Inter Milan vs Como 2-0 HIGHLIGHTS - Marcus Thuram & Pio Esposito Goals! Serie A 2026/27", channel: "Dollar VFX", date: "Nov 8, 2026" },
+{ id: "iIy7T7apNeY", title: "ESPOSITO & THURAM SEAL THE WIN! ⚽ | INTER 2-0 COMO | HIGHLIGHTS", channel: "Inter", date: "Nov 8, 2026" },
 { id: "PEFrt_xyb2M", title: "Dorgu salvages DRAMATIC late point 😱 | Man Utd 4-4 Aston Villa | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 8, 2026" },
 { id: "6DEh00JjkmE", title: "Crazy Freekick Opens Score! | 1. FC KÖLN - BAYER 04 LEVERKUSEN | Highlights | Matchday 9 Bundesliga", channel: "Bundesliga", date: "Nov 8, 2026" },
 { id: "-jHyLC3wCyg", title: "Wirtz STARS as Reds dominate in London! 🔴 | Crystal Palace 1-3 Liverpool | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 8, 2026" },
