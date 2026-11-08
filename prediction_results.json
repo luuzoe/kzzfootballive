@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T02:57:25+06:30",
+ "updated": "2026-11-08T08:59:19+06:30",
  "summary": {
   "resolved": 145,
   "correct": 79,
@@ -1562,6 +1562,24 @@
    "away": "Union Berlin",
    "league": "Bundesliga",
    "pick_en": "Freiburg win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-08",
+   "home": "Inter",
+   "away": "Como",
+   "league": "Serie A",
+   "pick_en": "Inter win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-08",
+   "home": "Oldham Athletic",
+   "away": "Sheffield Wednesday",
+   "league": "FA Cup",
+   "pick_en": "Sheffield Wednesday win",
    "score": null,
    "outcome": "pending"
   }
