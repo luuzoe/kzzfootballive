@@ -915,6 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "jr6VcG6wX2A", title: "SALIBA & TIMBER GOALS EARN ALL THREE POINTS | HIGHLIGHTS | Arsenal vs Chelsea (2-1) l Premier League", channel: "Arsenal", date: "Nov 8, 2026" },
 { id: "61_kr-XDfBY", title: "Inter Milan vs Como 2-0 HIGHLIGHTS - Marcus Thuram & Pio Esposito Goals! Serie A 2026/27", channel: "Dollar VFX", date: "Nov 8, 2026" },
 { id: "PEFrt_xyb2M", title: "Dorgu salvages DRAMATIC late point 😱 | Man Utd 4-4 Aston Villa | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 8, 2026" },
 { id: "6DEh00JjkmE", title: "Crazy Freekick Opens Score! | 1. FC KÖLN - BAYER 04 LEVERKUSEN | Highlights | Matchday 9 Bundesliga", channel: "Bundesliga", date: "Nov 8, 2026" },
@@ -942,7 +943,6 @@ async function renderHighlights() {
 { id: "CXk8Er7Yf9w", title: "HIGHLIGHTS | FC BARCELONA 3 vs 0 ASTON VILLA | UEFA CHAMPIONS LEAGUE 🔵🔴", channel: "FC Barcelona", date: "Nov 3, 2026" },
 { id: "RvEablTAe2I", title: "HIGHLIGHTS | VILLARREAL 0-6 PSG | CHAMPIONS LEAGUE", channel: "Villarreal CF", date: "Nov 3, 2026" },
 { id: "6GpVM7cuvM0", title: "Manchester United vs AS Roma | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 3, 2026" },
-{ id: "b-CuMCD-eGs", title: "Amazing TEAM performance in Madrid 💪❤️ Atlético vs. FC Bayern 0-2 | Champions League Highlights", channel: "FC Bayern München", date: "Nov 3, 2026" },
 { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
