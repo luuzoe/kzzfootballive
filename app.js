@@ -915,9 +915,9 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "cuvmIn_r-Co", title: "Crystal Palace vs Liverpool 1-3 Highlights | Premier League 2026/27", channel: "DMX Football", date: "Nov 8, 2026" },
+{ id: "-jHyLC3wCyg", title: "Wirtz STARS as Reds dominate in London! 🔴 | Crystal Palace 1-3 Liverpool | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 8, 2026" },
 { id: "okJ0_uMCGWA", title: "Sunderland vs Chelsea 1-0 HIGHLIGHTS - Enzo Le Fee GOAL! - Premier League 2026/27", channel: "Dollar VFX", date: "Nov 8, 2026" },
-{ id: "mthu8YofgUA", title: "Genoa vs AC Milan 1-2 HIGHLIGHTS - Cisse & Pulisic Goals! - Serie A 2026/27", channel: "Dollar VFX", date: "Nov 8, 2026" },
+{ id: "uYtOT5EUDMc", title: "Pulisic On Target Again | GENOA-MILAN | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 8, 2026" },
 { id: "06di7zU4Km4", title: "Points Shared at the Maradona | NAPOLI-LAZIO | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 8, 2026" },
 { id: "50LZL-1eXlU", title: "HIGHLIGHTS | Valencia CF 0-3 Real Madrid | LaLiga", channel: "Real Madrid", date: "Nov 7, 2026" },
 { id: "skbFwYJZdTg", title: "PSG v Troyes | Match Highlights | French Ligue 1", channel: "SuperSport", date: "Nov 7, 2026" },
