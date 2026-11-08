@@ -915,6 +915,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "61_kr-XDfBY", title: "Inter Milan vs Como 2-0 HIGHLIGHTS - Marcus Thuram & Pio Esposito Goals! Serie A 2026/27", channel: "Dollar VFX", date: "Nov 8, 2026" },
+{ id: "YyQ-qulMNyI", title: "Man United vs Aston Villa 4-4 HIGHLIGHTS - Patrick Dorgu 90+6 GOAL - Premier League 2026/27", channel: "Dollar VFX", date: "Nov 8, 2026" },
 { id: "6DEh00JjkmE", title: "Crazy Freekick Opens Score! | 1. FC KÖLN - BAYER 04 LEVERKUSEN | Highlights | Matchday 9 Bundesliga", channel: "Bundesliga", date: "Nov 8, 2026" },
 { id: "-jHyLC3wCyg", title: "Wirtz STARS as Reds dominate in London! 🔴 | Crystal Palace 1-3 Liverpool | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 8, 2026" },
 { id: "U447zuMBiFg", title: "Black Cats move off bottom of table! 💥 | Sunderland 1-0 Chelsea | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 8, 2026" },
@@ -941,8 +943,6 @@ async function renderHighlights() {
 { id: "RvEablTAe2I", title: "HIGHLIGHTS | VILLARREAL 0-6 PSG | CHAMPIONS LEAGUE", channel: "Villarreal CF", date: "Nov 3, 2026" },
 { id: "6GpVM7cuvM0", title: "Manchester United vs AS Roma | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 3, 2026" },
 { id: "b-CuMCD-eGs", title: "Amazing TEAM performance in Madrid 💪❤️ Atlético vs. FC Bayern 0-2 | Champions League Highlights", channel: "FC Bayern München", date: "Nov 3, 2026" },
-{ id: "7vM2tuPCR-M", title: "Tottenham 2-0 Crystal Palace | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Nov 1, 2026" },
-{ id: "sjpjQmQyEYw", title: "Chaos! Woodwork And Pen Miss! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Nov 1, 2026" },
 { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
