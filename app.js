@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 94; // bump on every deploy
+const APP_VERSION = 95; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -915,6 +915,9 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "cuvmIn_r-Co", title: "Crystal Palace vs Liverpool 1-3 Highlights | Premier League 2026/27", channel: "DMX Football", date: "Nov 8, 2026" },
+{ id: "okJ0_uMCGWA", title: "Sunderland vs Chelsea 1-0 HIGHLIGHTS - Enzo Le Fee GOAL! - Premier League 2026/27", channel: "Dollar VFX", date: "Nov 8, 2026" },
+{ id: "mthu8YofgUA", title: "Genoa vs AC Milan 1-2 HIGHLIGHTS - Cisse & Pulisic Goals! - Serie A 2026/27", channel: "Dollar VFX", date: "Nov 8, 2026" },
 { id: "06di7zU4Km4", title: "Points Shared at the Maradona | NAPOLI-LAZIO | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 8, 2026" },
 { id: "50LZL-1eXlU", title: "HIGHLIGHTS | Valencia CF 0-3 Real Madrid | LaLiga", channel: "Real Madrid", date: "Nov 7, 2026" },
 { id: "skbFwYJZdTg", title: "PSG v Troyes | Match Highlights | French Ligue 1", channel: "SuperSport", date: "Nov 7, 2026" },
@@ -940,9 +943,6 @@ async function renderHighlights() {
 { id: "7vM2tuPCR-M", title: "Tottenham 2-0 Crystal Palace | Premier League Extended Highlights", channel: "Tottenham Hotspur", date: "Nov 1, 2026" },
 { id: "sjpjQmQyEYw", title: "Chaos! Woodwork And Pen Miss! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga", channel: "Bundesliga", date: "Nov 1, 2026" },
 { id: "pZoVtVfxL14", title: "ALAJBEGOVIĆ & BOGA SEAL THE WIN! 🔥 | Juventus 2-0 Napoli Highlights | Serie A", channel: "Juventus", date: "Nov 1, 2026" },
-{ id: "OI58_-4ezU8", title: "Chelsea 2-0 Man Utd | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea Football Club", date: "Oct 31, 2026" },
-{ id: "Zt1VugPdwFw", title: "HAVERTZ GOAL EARNS VITAL WIN IN THE TITLE RACE | HIGHLIGHTS | Liverpool vs Arsenal (0-1) l PL", channel: "Arsenal", date: "Nov 1, 2026" },
-{ id: "ep38QN4lEjM", title: "HIGHLIGHTS | Racing de Santander 0-3 Real Madrid | LaLiga", channel: "Real Madrid", date: "Nov 1, 2026" },
 { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
