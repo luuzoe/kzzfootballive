@@ -11,66 +11,66 @@
    },
    {
     "rank": 2,
+    "player": "Alexander Isak",
+    "team": "လီဗာပူး",
+    "goals": 7,
+    "pid": "235662"
+   },
+   {
+    "rank": 3,
     "player": "Thierno Barry",
     "team": "အဲဗာတန်",
     "goals": 6,
     "pid": "301166"
    },
    {
-    "rank": 3,
-    "player": "Alexander Isak",
-    "team": "လီဗာပူး",
+    "rank": 4,
+    "player": "Nicolas Jackson",
+    "team": "အက်စတွန်ဗီလာ",
     "goals": 6,
-    "pid": "235662"
+    "pid": "308524"
    },
    {
-    "rank": 4,
+    "rank": 5,
     "player": "Morgan Rogers",
     "team": "အက်စတွန်ဗီလာ",
     "goals": 5,
     "pid": "265653"
    },
    {
-    "rank": 5,
+    "rank": 6,
     "player": "Marcus Tavernier",
     "team": "ဘုန်းမောက်",
     "goals": 5,
     "pid": "243364"
    },
    {
-    "rank": 6,
+    "rank": 7,
+    "player": "Evanilson",
+    "team": "ဘုန်းမောက်",
+    "goals": 5,
+    "pid": "102368"
+   },
+   {
+    "rank": 8,
     "player": "Rayan Cherki",
     "team": "မန်စီးတီး",
     "goals": 5,
     "pid": "298008"
    },
    {
-    "rank": 7,
-    "player": "Nicolas Jackson",
-    "team": "အက်စတွန်ဗီလာ",
-    "goals": 5,
-    "pid": "308524"
-   },
-   {
-    "rank": 8,
+    "rank": 9,
     "player": "João Pedro",
     "team": "ချယ်လ်ဆီး",
     "goals": 5,
     "pid": "284960"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Bryan Mbeumo",
     "team": "မန်ယူ",
     "goals": 4,
     "pid": "271170"
-   },
-   {
-    "rank": 10,
-    "player": "Evanilson",
-    "team": "ဘုန်းမောက်",
-    "goals": 4,
-    "pid": "102368"
    }
   ],
   "esp.1": [
@@ -229,7 +229,7 @@
     "rank": 2,
     "player": "Patrik Schick",
     "team": "လီဗာကူဆင်",
-    "goals": 7,
+    "goals": 8,
     "pid": "212330"
    },
    {
@@ -269,24 +269,24 @@
    },
    {
     "rank": 8,
+    "player": "Yuito Suzuki",
+    "team": "ဖရိုင်းဘတ်",
+    "goals": 5,
+    "pid": "303031"
+   },
+   {
+    "rank": 9,
     "player": "Michael Gregoritsch",
     "team": "အော့စ်ဘတ်",
     "goals": 5,
     "pid": "146804"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Christopher Nkunku",
     "team": "လိုက်ပ်ဇစ်",
     "goals": 5,
     "pid": "222176"
-   },
-   {
-    "rank": 10,
-    "player": "Rômulo",
-    "team": "လိုက်ပ်ဇစ်",
-    "goals": 5,
-    "pid": "324766"
    }
   ],
   "fra.1": [
@@ -438,7 +438,7 @@
     "rank": 1,
     "player": "Vangelis Pavlidis",
     "team": "ဘန်ဖီကာ",
-    "goals": 10,
+    "goals": 11,
     "pid": "220819"
    },
    {
@@ -452,57 +452,57 @@
     "rank": 3,
     "player": "Gianluca Prestianni",
     "team": "ဘန်ဖီကာ",
-    "goals": 6,
+    "goals": 7,
     "pid": "339191"
    },
    {
     "rank": 4,
-    "player": "Georgios Koutsias",
-    "team": "ဖာမလီကောင်",
-    "goals": 5,
-    "pid": "304317"
+    "player": "Borja Sainz",
+    "team": "ပေါ်တို",
+    "goals": 6,
+    "pid": "292268"
    },
    {
     "rank": 5,
+    "player": "Leandro Antonetti",
+    "team": "အက်စ်ထရီလာ",
+    "goals": 5,
+    "pid": "332252"
+   },
+   {
+    "rank": 6,
     "player": "André Clóvis",
     "team": "ဗီဆူး",
     "goals": 5,
     "pid": "270648"
    },
    {
-    "rank": 6,
-    "player": "Iván Martínez",
-    "team": "အာရူကာ",
+    "rank": 7,
+    "player": "Georgios Koutsias",
+    "team": "ဖာမလီကောင်",
     "goals": 5,
-    "pid": "178579"
+    "pid": "304317"
    },
    {
-    "rank": 7,
+    "rank": 8,
     "player": "Pau Víctor",
     "team": "ဘရာဂါ",
     "goals": 5,
     "pid": "303808"
    },
    {
-    "rank": 8,
+    "rank": 9,
+    "player": "Iván Martínez",
+    "team": "အာရူကာ",
+    "goals": 5,
+    "pid": "178579"
+   },
+   {
+    "rank": 10,
     "player": "Gabri Veiga",
     "team": "ပေါ်တို",
     "goals": 5,
     "pid": "307381"
-   },
-   {
-    "rank": 9,
-    "player": "Borja Sainz",
-    "team": "ပေါ်တို",
-    "goals": 5,
-    "pid": "292268"
-   },
-   {
-    "rank": 10,
-    "player": "Gonçalo Paciência",
-    "team": "ဆန်တာကလာရာ",
-    "goals": 5,
-    "pid": "215726"
    }
   ],
   "uefa.champions": [
@@ -675,52 +675,52 @@
    },
    {
     "rank": 4,
-    "player": "Josko Gvardiol",
-    "team": "မန်စီးတီး",
-    "assists": 3,
-    "pid": "299910"
+    "player": "John McGinn",
+    "team": "အက်စတွန်ဗီလာ",
+    "assists": 4,
+    "pid": "162843"
    },
    {
     "rank": 5,
-    "player": "Morgan Gibbs-White",
-    "team": "နော်တင်ဟမ်ဖောရက်စ်",
-    "assists": 3,
-    "pid": "243396"
-   },
-   {
-    "rank": 6,
     "player": "Daichi Kamada",
     "team": "ခရစ္စတယ်ပဲလေ့စ်",
     "assists": 3,
     "pid": "219362"
    },
    {
-    "rank": 7,
+    "rank": 6,
     "player": "Cole Palmer",
     "team": "ချယ်လ်ဆီး",
     "assists": 3,
     "pid": "296395"
    },
    {
-    "rank": 8,
+    "rank": 7,
     "player": "Maxim De Cuyper",
     "team": "ဘရိုက်တန်",
     "assists": 3,
     "pid": "301327"
    },
    {
-    "rank": 9,
-    "player": "John McGinn",
-    "team": "အက်စတွန်ဗီလာ",
+    "rank": 8,
+    "player": "Florian Wirtz",
+    "team": "လီဗာပူး",
     "assists": 3,
-    "pid": "162843"
+    "pid": "303748"
+   },
+   {
+    "rank": 9,
+    "player": "Josko Gvardiol",
+    "team": "မန်စီးတီး",
+    "assists": 3,
+    "pid": "299910"
    },
    {
     "rank": 10,
-    "player": "Mohammed Kudus",
-    "team": "စပါး",
+    "player": "Morgan Gibbs-White",
+    "team": "နော်တင်ဟမ်ဖောရက်စ်",
     "assists": 3,
-    "pid": "266599"
+    "pid": "243396"
    }
   ],
   "esp.1": [
@@ -898,17 +898,17 @@
    },
    {
     "rank": 5,
-    "player": "Sheraldo Becker",
-    "team": "မိန့်ဇ်",
-    "assists": 4,
-    "pid": "195027"
-   },
-   {
-    "rank": 6,
     "player": "Miguel Gutiérrez",
     "team": "လီဗာကူဆင်",
     "assists": 4,
     "pid": "290044"
+   },
+   {
+    "rank": 6,
+    "player": "Sheraldo Becker",
+    "team": "မိန့်ဇ်",
+    "assists": 4,
+    "pid": "195027"
    },
    {
     "rank": 7,
@@ -926,17 +926,17 @@
    },
    {
     "rank": 9,
-    "player": "Michael Olise",
-    "team": "ဘိုင်ယန်",
+    "player": "Matthias Ginter",
+    "team": "ဖရိုင်းဘတ်",
     "assists": 3,
-    "pid": "286831"
+    "pid": "170209"
    },
    {
     "rank": 10,
-    "player": "Anthony Caci",
-    "team": "မိန့်ဇ်",
+    "player": "Ibrahim Maza",
+    "team": "လီဗာကူဆင်",
     "assists": 3,
-    "pid": "241297"
+    "pid": "361212"
    }
   ],
   "fra.1": [
@@ -1086,52 +1086,52 @@
   "por.1": [
    {
     "rank": 1,
+    "player": "Pepê",
+    "team": "ပေါ်တို",
+    "assists": 6,
+    "pid": "256909"
+   },
+   {
+    "rank": 2,
     "player": "Näis Djouahra",
     "team": "အာရူကာ",
     "assists": 6,
     "pid": "281113"
    },
    {
-    "rank": 2,
-    "player": "Pepê",
-    "team": "ပေါ်တို",
-    "assists": 5,
-    "pid": "256909"
-   },
-   {
     "rank": 3,
-    "player": "Iván Fresneda",
-    "team": "စပေါ်တင်း",
-    "assists": 4,
-    "pid": "333209"
-   },
-   {
-    "rank": 4,
-    "player": "Cihan Kahraman",
-    "team": "ဗီဆူး",
-    "assists": 4,
-    "pid": "233987"
-   },
-   {
-    "rank": 5,
-    "player": "Geny Catamo",
-    "team": "စပေါ်တင်း",
-    "assists": 4,
-    "pid": "296969"
-   },
-   {
-    "rank": 6,
     "player": "Gianluca Prestianni",
     "team": "ဘန်ဖီကာ",
     "assists": 4,
     "pid": "339191"
    },
    {
-    "rank": 7,
+    "rank": 4,
+    "player": "Iván Fresneda",
+    "team": "စပေါ်တင်း",
+    "assists": 4,
+    "pid": "333209"
+   },
+   {
+    "rank": 5,
+    "player": "Cihan Kahraman",
+    "team": "ဗီဆူး",
+    "assists": 4,
+    "pid": "233987"
+   },
+   {
+    "rank": 6,
     "player": "Gabri Veiga",
     "team": "ပေါ်တို",
     "assists": 4,
     "pid": "307381"
+   },
+   {
+    "rank": 7,
+    "player": "Geny Catamo",
+    "team": "စပေါ်တင်း",
+    "assists": 4,
+    "pid": "296969"
    },
    {
     "rank": 8,
