@@ -928,7 +928,7 @@ async function renderHighlights() {
 { id: "R6mRSJzpZ2g", title: "PARIS SAINT-GERMAIN - ESTAC TROYES (1-0) | Week 10 - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Nov 7, 2026" },
 { id: "jGW0vt6rMLM", title: "HIGHLIGHTS | Nottingham Forest 3-1 Man City | Defeat on the road for the Blues.", channel: "Man City", date: "Nov 7, 2026" },
 { id: "UJDBmL6kAd4", title: "Arsenal 1-0 Hull City | Premier League Highlights 2026/27", channel: "Stadium Astro", date: "Nov 7, 2026" },
-{ id: "o4oK69PLoTE", title: "Borussia Dortmund vs SV Elversberg 2-1 HIGHLIGHTS - Felix Nmecha Brace! Bundesliga 2026/27", channel: "Dollar VFX", date: "Nov 7, 2026" },
+{ id: "HYxfJfIbSvY", title: "Nmecha-BRACE! | BORUSSIA DORTMUND - SV ELVERSBERG | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
 { id: "7trwWayUYFY", title: "Karl Scores Again! | MAINZ 05 - FC BAYERN | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
 { id: "7c1KI9a_67g", title: "Leeds United 1-0 Tottenham | Premier League Highlights", channel: "Tottenham Hotspur", date: "Nov 7, 2026" },
 { id: "3t9hzXVY_d8", title: "KOOP & KOLO COOKED! 💥 | AZ ALKMAAR - JUVENTUS | HIGHLIGHTS EUROPA LEAGUE", channel: "Juventus", date: "Nov 5, 2026" },
