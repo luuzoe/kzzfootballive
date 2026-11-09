@@ -915,9 +915,9 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "y0io1XZU1Cc", title: "Bayer Leverkusen - Marseille | 0-1 | Highlights | Europa League 2026-27", channel: "Sponitor", date: "Nov 5, 2026" },
+{ id: "C58JvvWbc_4", title: "Highlights Europa League | Una serata difficile a San Siro | Milan 0-2 Ferencváros", channel: "AC Milan", date: "Nov 5, 2026" },
 { id: "hFU_vO-jZfc", title: "GYOKERES & MADUEKE GOALS EARN THREE POINTS | HIGHLIGHTS | Slavia Prague vs Arsenal (1-2) | UCL", channel: "Arsenal", date: "Nov 4, 2026" },
-{ id: "CXk8Er7Yf9w", title: "HIGHLIGHTS | FC BARCELONA 3 vs 0 ASTON VILLA | UEFA CHAMPIONS LEAGUE 🔵🔴", channel: "FC Barcelona", date: "Nov 3, 2026" },
-{ id: "l75FfzSX0x4", title: "QUEL MATCH ! 6 buts face à Villarreal ! 👏❤️💙", channel: "PSG - Paris Saint-Germain", date: "Nov 3, 2026" },
 { id: "N73dxbD3ooo", title: "HIGHLIGHTS | RB Leipzig 2-3 Man City | City edge Champions League classic on the road!", channel: "Man City", date: "Nov 4, 2026" },
 { id: "zVQZC8mOgsY", title: "Dortmund vs Real Betis | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 4, 2026" },
 { id: "05geh16Zu-Y", title: "Highlights: Fenerbahce 3-2 Liverpool | Trey Nyoni's first Liverpool Goal | Champions League", channel: "Liverpool FC", date: "Nov 4, 2026" },
