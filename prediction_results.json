@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-08T20:55:36+06:30",
+ "updated": "2026-11-09T08:54:41+06:30",
  "summary": {
-  "resolved": 165,
-  "correct": 91,
-  "wrong": 74,
-  "accuracy_pct": 55.2,
+  "resolved": 170,
+  "correct": 94,
+  "wrong": 76,
+  "accuracy_pct": 55.3,
   "not_found": 8
  },
  "results": [
@@ -1580,6 +1580,51 @@
    "away": "Bayer Leverkusen",
    "league": "Bundesliga",
    "pick_en": "Bayer Leverkusen win",
+   "score": "1-2",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-08",
+   "home": "Villarreal",
+   "away": "Getafe",
+   "league": "La Liga",
+   "pick_en": "Villarreal win",
+   "score": "2-0",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-08",
+   "home": "Hoffenheim",
+   "away": "Schalke 04",
+   "league": "Bundesliga",
+   "pick_en": "Hoffenheim win",
+   "score": "2-1",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-08",
+   "home": "Fiorentina",
+   "away": "Juventus",
+   "league": "Serie A",
+   "pick_en": "Juventus win",
+   "score": "2-2",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-11-08",
+   "home": "Lens",
+   "away": "Marseille",
+   "league": "Ligue 1",
+   "pick_en": "Lens win",
+   "score": "1-2",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-11-08",
+   "home": "Atletico Madrid",
+   "away": "Barcelona",
+   "league": "La Liga",
+   "pick_en": "Barcelona win",
    "score": "1-2",
    "outcome": "correct"
   }

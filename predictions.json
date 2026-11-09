@@ -1,76 +1,20 @@
 {
-  "updated": "2026-11-09",
-  "source": "KZZ Football Analysis",
   "predictions": [
     {
-      "league": "La Liga",
-      "home": "Villarreal",
-      "away": "Getafe",
-      "date": "2026-11-09T00:00:00+06:30",
-      "pick": "ဗီလာရီးရဲလ် အနိုင်",
-      "pick_en": "Villarreal win",
-      "confidence": "medium",
-      "prob_home": 50,
+      "away": "Berkhamsted",
+      "confidence": "low",
+      "date": "2026-11-10T02:00:00+06:30",
+      "en_reason": "Plymouth Parkway sit fourth in the Southern League Premier Division South, eight places above Berkhamsted (12th), and both seventh-tier sides are reaching the FA Cup first round for the first time. Parkway have won all five home games at Bolitho Park this season and beat Berkhamsted 2-0 in their last meeting in February. Rocky Neal has scored 13 goals this season, including one in the 3-1 win over Uxbridge last week. Berkhamsted cannot be written off after stunning National League side Southend 2-1 away in qualifying, but Parkway's home record and league position give them the edge.",
+      "home": "Plymouth Parkway",
+      "league": "FA Cup",
+      "pick": "ပလင်းမတ် ပါ့ခ်ဝေး အနိုင်",
+      "pick_en": "Plymouth Parkway win",
+      "prob_away": 27,
       "prob_draw": 28,
-      "prob_away": 22,
-      "reason_mm": "ဗီလာရီးရဲလ်နဲ့ ဂီတာဖီ နှစ်သင်းလုံး အမှတ် ၁၂ စီနဲ့ အလယ်တန်း ရုန်းကန်နေရပေမယ့် တိုက်စစ်အားက ကွာခြားတယ်။ ဗီလာရီးရဲလ်က ၁၁ ပွဲမှာ ၁၅ ဂိုးသွင်းထားပြီး ဂီတာဖီက ၈ ဂိုးသာ သွင်းထားကာ လိဂ်ရဲ့ ဒုတိယ အဆိုးဆုံး တိုက်စစ်ဖြစ်တယ်။ ဗီလာရီးရဲလ်က အက်စ်ပန်ညိုကို အိမ်ကွင်းမှာ ရှုံးပြီး ပီအက်စ်ဂျီကို ၆-၀ ရှုံးထားပေမယ့် ဂီတာဖီနဲ့ အိမ်ကွင်း လိဂ် ၆ ပွဲဆက် မရှုံးထားဘူး။ ဂီတာဖီက အဝေးကွင်း ၁၂ ပွဲမှာ ၁၀ ပွဲ နိုင်ပွဲမရှိဘူး။ မိုရီနို ဒဏ်ရာရနေပေမယ့် မီကာအုတ်ဇီနဲ့ ပက်ပီတို့ တိုက်စစ်က ဂီတာဖီ ခံစစ်ကို ဖောက်နိုင်လိမ့်မယ်။",
-      "en_reason": "Both sides sit on 12 points, but the attacking gap is wide: Villarreal have scored 15 league goals to Getafe's eight, the second-worst attack in La Liga. Villarreal lost 1-0 at home to Espanyol and 6-0 to PSG in Europe, yet they are unbeaten in their last six home league meetings with Getafe. Getafe lost 1-0 to Brighton in the Conference League and have failed to win in 10 of their last 12 away games. Moreno is out for Villarreal, but Mikautadze and Pepe should trouble a Getafe defence that has kept one clean sheet in five."
-    },
-    {
-      "league": "Bundesliga",
-      "home": "Hoffenheim",
-      "away": "Schalke 04",
-      "date": "2026-11-09T01:00:00+06:30",
-      "pick": "ဟော့ဖန်ဟိမ်း အနိုင်",
-      "pick_en": "Hoffenheim win",
-      "confidence": "medium",
-      "prob_home": 50,
-      "prob_draw": 25,
-      "prob_away": 25,
-      "reason_mm": "ဟော့ဖန်ဟိမ်းက အမှတ် ၉ နဲ့ အဆင့် ၁၂ မှာ ရှိနေပြီး အိမ်ကွင်းမှာ လေဗာကူဆင်ကို ၃-၀ နဲ့ နိုင်ထားကာ ခရာမာရစ်တို့ တိုက်စစ်အားကောင်းတယ်။ ရှော်ကေးက အမှတ် ၆ သာရှိပြီး အဆင့် ၁၇ မှာ တန်းဆင်းဇုန်ထဲ ရောက်နေကာ ၈ ပွဲမှာ ၄ ဂိုးသာ သွင်းထားတယ်၊ ၅ ပွဲဆက် နိုင်ပွဲမရှိဘူး။ တွေ့ဆုံမှု မှတ်တမ်းမှာ ဟော့ဖန်ဟိမ်းက အိမ်ကွင်း ၅ ပွဲမှာ ၄ ပွဲနိုင်ထားပြီး နောက်ဆုံး တွေ့ဆုံမှုမှာ ၂-၀ နိုင်ထားတယ်။ ရှော်ကေးမှာ ဒဏ်ရာရသူ အများကြီးရှိပြီး ဂိုးသွင်းအား နည်းပါးတယ်။ ဟော့ဖန်ဟိမ်းက ယူရိုပါလိဂ်မှာ ပဲလေ့စ်နဲ့ သရေကျထားပေမယ့် အိမ်ကွင်းအားက ပိုသာတယ်။",
-      "en_reason": "Hoffenheim sit 12th on nine points and beat Bayer Leverkusen 3-0 at home, with Kramaric leading an attack that averages 1.83 goals a game. Schalke are 17th on six points, have scored only four goals in eight league games and are winless in five. Hoffenheim have won four of their last five home games against Schalke, including 2-0 in the most recent meeting in April 2023. Schalke carry a long injury list and offer little goal threat. Hoffenheim drew at Crystal Palace in Europe on Thursday, but home advantage should be decisive."
-    },
-    {
-      "league": "Serie A",
-      "home": "Fiorentina",
-      "away": "Juventus",
-      "date": "2026-11-09T02:15:00+06:30",
-      "pick": "ဂျူဗင်တပ် အနိုင်",
-      "pick_en": "Juventus win",
-      "confidence": "low",
-      "prob_home": 30,
-      "prob_draw": 30,
-      "prob_away": 40,
-      "reason_mm": "ဖီအိုရင်တီးနားက အဆင့် ၁၆၊ အမှတ် ၈ သာရှိပြီး ၁၀ ပွဲမှာ ၂၃ ဂိုးပေးထားကာ ၉ ပွဲမှာ အနည်းဆုံး ၂ ဂိုးစီ ပေးထားရတယ်၊ အိမ်ကွင်းမှာ ဒီရာသီ နိုင်ပွဲမရှိသေးဘူး။ ဒါပေမယ့် နောက်ဆုံး ၂ ပွဲမှာ ၄ မှတ်ရထားပြီး ဂျူဗင်တပ်နဲ့ လိဂ် ၄ ပွဲဆက် မရှုံးထားဘူး။ ဂျူဗင်တပ်က အဆင့် ၇၊ အမှတ် ၁၇ နဲ့ လိဂ် ၅ ပွဲနိုင်တိုင်း clean sheet ရထားကာ နောက်ဆုံးပွဲမှာ နာပိုလီကို ၂-၀ နိုင်ထားတယ်။ ဂျူဗင်တပ်မှာ ယီဒီးဇ်၊ လိုကတယ်လီ၊ သူရမ် ဒဏ်ရာရနေပြီး ဖလောရန့်ဇ် လာရောက်ကစားတဲ့ ၇ ပွဲမှာ ၁ ပွဲသာ နိုင်ထားတယ်။ ဂျူဗင်တပ်ရဲ့ ခံစစ်ခိုင်မာမှုက ဖီအိုရင်တီးနားရဲ့ ခံစစ်အားနည်းချက်ထက် သာတယ်။",
-      "en_reason": "Fiorentina are 16th on eight points, have conceded 23 goals in 10 games, at least two in nine of them, and are winless at home this season. But they have taken four points from their last two games and are unbeaten in four straight league meetings with Juventus. Juventus are seventh on 17 points, have kept a clean sheet in all five league wins and beat Napoli 2-0 last time out. Juve are hit by injuries to Yildiz, Locatelli and Thuram and have won only once in their last seven visits to the Franchi. Juventus' defensive solidity should edge a leaky Fiorentina defence."
-    },
-    {
-      "league": "Ligue 1",
-      "home": "Lens",
-      "away": "Marseille",
-      "date": "2026-11-09T02:15:00+06:30",
-      "pick": "လန်းစ် အနိုင်",
-      "pick_en": "Lens win",
-      "confidence": "low",
-      "prob_home": 40,
-      "prob_draw": 30,
-      "prob_away": 30,
-      "reason_mm": "လန်းစ်က အဆင့် ၉၊ အမှတ် ၁၃ နဲ့ မာဆေးလ်က အဆင့် ၆၊ အမှတ် ၁၅ မှာ ရှိနေပြီး ၂ မှတ်သာ ကွာတယ်။ လန်းစ်က ချန်ပီယံလိဂ်မှာ ကိုမိုကို အိမ်ကွင်းမှာ ၉-၁ နဲ့ ရှုံးထားတဲ့ ဒဏ်ရာနဲ့ ဒီပွဲကို ဝင်လာပေမယ့် လိဂ်မှာ နောက်ဆုံး ၄ ပွဲမှာ ၃ ပွဲနိုင်ထားပြီး အိမ်ကွင်းမှာ ၃ ပွဲနိုင် ၁ ပွဲရှုံးသာ ရှိတယ်။ မာဆေးလ်က လိဂ် ၄ ပွဲဆက် နိုင်ထားပြီး ယူရိုပါလိဂ်မှာ လေဗာကူဆင်ကို ၁-၀ နိုင်ထားကာ ဂူရီ ၆ ဂိုးသွင်းထားတယ်။ လန်းစ်က လိဂ် ၉ ပွဲလုံး ဂိုးပေးထားရပြီး မာဆေးလ်လည်း တစ်ပွဲပျမ်းမျှ ၁.၉၃ xG ပေးထားရတယ်။ တွေ့ဆုံမှု ၈ ပွဲမှာ လန်းစ် ၅ ပွဲနိုင်ထားပြီး အိမ်ကွင်းအားက လန်းစ်ဘက်မှာ ရှိတယ်။",
-      "en_reason": "Lens are ninth on 13 points and Marseille sixth on 15, just two points apart. Lens arrive wounded from a 9-1 home Champions League defeat to Como, but they have won three of their last four league games and are W3 L1 at home, with Thauvin on five goals and nine assists. Marseille have won four straight league games and beat Bayer Leverkusen 1-0 in Europe, with Gouiri on six goals. Lens have conceded in all nine league games and Marseille allow 1.93 xG per game, so goals look likely. Lens have won five of the last eight meetings, and Bollaert should lift them."
-    },
-    {
-      "league": "La Liga",
-      "home": "Atletico Madrid",
-      "away": "Barcelona",
-      "date": "2026-11-09T02:30:00+06:30",
-      "pick": "ဘာစီလိုနာ အနိုင်",
-      "pick_en": "Barcelona win",
-      "confidence": "medium",
-      "prob_home": 30,
-      "prob_draw": 25,
-      "prob_away": 45,
-      "reason_mm": "ဘာစီလိုနာက အမှတ် ၃၀ နဲ့ လာလီဂါ ဇယားထိပ်ဆုံးမှာ ရှိနေပြီး ၁၁ ပွဲမှာ ၄၆ ဂိုးသွင်းထားကာ ရာဖင်ညာ ၁၅ ဂိုးနဲ့ ဂိုးသွင်းဇယားကို ဦးဆောင်နေတယ်။ အက်သလက်တီကိုက အမှတ် ၂၈ နဲ့ အဆင့် ၂ မှာ ရှိနေပြီး လိဂ် ၇ ပွဲဆက် နိုင်ထားကာ အိမ်ကွင်းမှာ မရှုံးသေးဘူး၊ လိဂ်မှာ အကောင်းဆုံး ခံစစ် ၆ ပွဲ clean sheet ရထားတယ်။ အက်သလက်တီကိုက ချန်ပီယံလိဂ်မှာ ဘိုင်ယန်ကို အိမ်ကွင်းမှာ ၀-၂ ရှုံးထားပြီး ဘာစီလိုနာက အက်စတွန် ဗီလာကို ၃-၀ နိုင်ထားတယ်။ ဘာစီလိုနာက မက်ထရိုပိုလီတာနိုမှာ လိဂ် ၄ ပွဲဆက် နိုင်ထားပေမယ့် ရိုဒရီ၊ ကွန်ဒီ၊ အိုလ်မို ဒဏ်ရာရနေတယ်။ ဘာစီလိုနာရဲ့ တိုက်စစ်အားက အက်သလက်တီကိုရဲ့ ခံစစ်ကို ဖောက်နိုင်လိမ့်မယ်။",
-      "en_reason": "Barcelona lead La Liga on 30 points and have scored 46 goals in 11 games, with Raphinha leading the scoring charts on 15. Atletico are second on 28 points, on a seven-game league winning streak, unbeaten at home and with six clean sheets, the best defensive record in the league. Atletico lost 0-2 at home to Bayern in the Champions League in midweek while Barcelona beat Aston Villa 3-0. Barcelona have won their last four league trips to the Metropolitano, though Rodri, Kounde and Olmo are out injured. Barcelona's attack should find a way through Atletico's defence."
+      "prob_home": 45,
+      "reason_mm": "ပလင်းမတ် ပါ့ခ်ဝေးက ဆောက်သန်း လိဂ် ပရီးမီးယား တောင်ပိုင်းမှာ အဆင့် ၄ နဲ့ ဘားခမ်းစတက်က အဆင့် ၁၂ မှာ ရှိနေပြီး နှစ်သင်းလုံး FA ဖလား ပထမအဆင့်ကို ပထမဆုံး တက်ရောက်လာတာ ဖြစ်တယ်။ ပါ့ခ်ဝေးက ဘိုလီသို ပါ့ခ်မှာ အိမ်ကွင်း ၅ ပွဲလုံး နိုင်ထားပြီး နောက်ဆုံး တွေ့ဆုံမှု ဖေဖော်ဝါရီလမှာလည်း ၂-၀ နဲ့ နိုင်ထားတယ်။ ရော့ကီ နီးလ်က ဒီရာသီ ၁၃ ဂိုးသွင်းထားပြီး အက်စ်ဘရစ်ျ်ကို ၃-၁ နဲ့ နိုင်တဲ့ ပွဲမှာ ဂိုးသွင်းထားတယ်။ ဘားခမ်းစတက်က ကွာလီဖိုင်း နောက်ဆုံးအဆင့်မှာ နေရှင်နယ် လိဂ် ဆောက်သန့်ကို အဝေးကွင်းမှာ ၂-၁ နဲ့ အနိုင်ယူခဲ့တာမို့ လျှော့တွက်လို့ မရပေမယ့် အိမ်ကွင်းအားနဲ့ လိဂ် အဆင့်ကွာခြားချက်က ပါ့ခ်ဝေးဘက်မှာ ရှိတယ်။"
     }
-  ]
+  ],
+  "source": "KZZ Football Analysis",
+  "updated": "2026-11-09"
 }
