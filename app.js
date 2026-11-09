@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 97; // bump on every deploy
+const APP_VERSION = 98; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -924,7 +924,7 @@ async function renderHighlights() {
 { id: "5b4BaFzojaI", title: "Highlights: Fiorentina - Juventus 2 - 2", channel: "ACF Fiorentina", date: "Nov 8, 2026" },
 { id: "CvcyMWt58sA", title: "ATLÉTICO MADRID 1 vs 2 FC BARCELONA | LALIGA 2026/27 MD12 🔵🔴", channel: "FC Barcelona", date: "Nov 8, 2026" },
 { id: "iIy7T7apNeY", title: "ESPOSITO & THURAM SEAL THE WIN! ⚽ | INTER 2-0 COMO | HIGHLIGHTS", channel: "Inter", date: "Nov 8, 2026" },
-{ id: "PEFrt_xyb2M", title: "Dorgu salvages DRAMATIC late point 😱 | Man Utd 4-4 Aston Villa | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 8, 2026" },
+{ id: "wOLZ_jiQLdw", title: "Man Utd 4-4 Aston Villa | HIGHLIGHTS", channel: "Aston Villa Football Club", date: "Nov 8, 2026" },
 { id: "6DEh00JjkmE", title: "Crazy Freekick Opens Score! | 1. FC KÖLN - BAYER 04 LEVERKUSEN | Highlights | Matchday 9 Bundesliga", channel: "Bundesliga", date: "Nov 8, 2026" },
 { id: "RdejiWAqcBQ", title: "Match Highlights | Crystal Palace 1-3 Liverpool | Premier League", channel: "Crystal Palace FC", date: "Nov 8, 2026" },
 { id: "RU0oJGCgOjQ", title: "Sunderland 1-0 Chelsea | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea Football Club", date: "Nov 8, 2026" },
