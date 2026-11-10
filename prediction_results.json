@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-09T08:54:41+06:30",
+ "updated": "2026-11-10T02:53:24+06:30",
  "summary": {
-  "resolved": 170,
-  "correct": 94,
+  "resolved": 171,
+  "correct": 95,
   "wrong": 76,
-  "accuracy_pct": 55.3,
+  "accuracy_pct": 55.6,
   "not_found": 8
  },
  "results": [
@@ -1626,6 +1626,15 @@
    "league": "La Liga",
    "pick_en": "Barcelona win",
    "score": "1-2",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-09",
+   "home": "Plymouth Parkway",
+   "away": "Berkhamsted",
+   "league": "FA Cup",
+   "pick_en": "Plymouth Parkway win",
+   "score": "2-1",
    "outcome": "correct"
   }
  ]
