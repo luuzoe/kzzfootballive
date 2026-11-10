@@ -915,6 +915,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "RvEablTAe2I", title: "HIGHLIGHTS | VILLARREAL 0-6 PSG | CHAMPIONS LEAGUE", channel: "Villarreal CF", date: "Nov 3, 2026" },
+{ id: "CXk8Er7Yf9w", title: "HIGHLIGHTS | FC BARCELONA 3 vs 0 ASTON VILLA | UEFA CHAMPIONS LEAGUE 🔵🔴", channel: "FC Barcelona", date: "Nov 3, 2026" },
 { id: "zas7zC_hP8Q", title: "OM 1-0 Leverkusen : La RÉVOLTE marseillaise ! Un OM convaincant lance enfin sa saison en C3", channel: "L'Équipe", date: "Nov 5, 2026" },
 { id: "C58JvvWbc_4", title: "Highlights Europa League | Una serata difficile a San Siro | Milan 0-2 Ferencváros", channel: "AC Milan", date: "Nov 5, 2026" },
 { id: "hFU_vO-jZfc", title: "GYOKERES & MADUEKE GOALS EARN THREE POINTS | HIGHLIGHTS | Slavia Prague vs Arsenal (1-2) | UCL", channel: "Arsenal", date: "Nov 4, 2026" },
@@ -922,10 +924,8 @@ async function renderHighlights() {
 { id: "zVQZC8mOgsY", title: "Dortmund vs Real Betis | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 4, 2026" },
 { id: "05geh16Zu-Y", title: "Highlights: Fenerbahce 3-2 Liverpool | Trey Nyoni's first Liverpool Goal | Champions League", channel: "Liverpool FC", date: "Nov 4, 2026" },
 { id: "afHtoh8NzK8", title: "Porto vs Napoli | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 4, 2026" },
-{ id: "b-CuMCD-eGs", title: "Amazing TEAM performance in Madrid 💪❤️ Atlético vs. FC Bayern 0-2 | UCL Highlights", channel: "FC Bayern München", date: "Nov 3, 2026" },
 { id: "a5RMHsvLh2k", title: "MATHEUS CUNHA SENDS OLD TRAFFORD INTO MELTDOWN 🤯 Manchester United overturn deficit to beat Roma", channel: "Stan Sport Football", date: "Nov 3, 2026" },
 { id: "69IQ8q-g1q0", title: "HIGHLIGHTS | AEK Athens 2-3 Real Madrid | Champions League", channel: "Real Madrid", date: "Nov 4, 2026" },
-{ id: "QhJjS1i0iT8", title: "BISSECK, ESPOSITO AND ZIELIŃSKI: A BIG EUROPEAN WIN 🖤💙| FEYENOORD 0-3 INTER | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Nov 3, 2026" },
 { id: "5b4BaFzojaI", title: "Highlights: Fiorentina - Juventus 2 - 2", channel: "ACF Fiorentina", date: "Nov 8, 2026" },
 { id: "CvcyMWt58sA", title: "ATLÉTICO MADRID 1 vs 2 FC BARCELONA | LALIGA 2026/27 MD12 🔵🔴", channel: "FC Barcelona", date: "Nov 8, 2026" },
 { id: "iIy7T7apNeY", title: "ESPOSITO & THURAM SEAL THE WIN! ⚽ | INTER 2-0 COMO | HIGHLIGHTS", channel: "Inter", date: "Nov 8, 2026" },
