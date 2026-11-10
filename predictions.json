@@ -1,20 +1,5 @@
 {
-  "predictions": [
-    {
-      "away": "Berkhamsted",
-      "confidence": "low",
-      "date": "2026-11-10T02:00:00+06:30",
-      "en_reason": "Plymouth Parkway sit fourth in the Southern League Premier Division South, eight places above Berkhamsted (12th), and both seventh-tier sides are reaching the FA Cup first round for the first time. Parkway have won all five home games at Bolitho Park this season and beat Berkhamsted 2-0 in their last meeting in February. Rocky Neal has scored 13 goals this season, including one in the 3-1 win over Uxbridge last week. Berkhamsted cannot be written off after stunning National League side Southend 2-1 away in qualifying, but Parkway's home record and league position give them the edge.",
-      "home": "Plymouth Parkway",
-      "league": "FA Cup",
-      "pick": "ပလင်းမတ် ပါ့ခ်ဝေး အနိုင်",
-      "pick_en": "Plymouth Parkway win",
-      "prob_away": 27,
-      "prob_draw": 28,
-      "prob_home": 45,
-      "reason_mm": "ပလင်းမတ် ပါ့ခ်ဝေးက ဆောက်သန်း လိဂ် ပရီးမီးယား တောင်ပိုင်းမှာ အဆင့် ၄ နဲ့ ဘားခမ်းစတက်က အဆင့် ၁၂ မှာ ရှိနေပြီး နှစ်သင်းလုံး FA ဖလား ပထမအဆင့်ကို ပထမဆုံး တက်ရောက်လာတာ ဖြစ်တယ်။ ပါ့ခ်ဝေးက ဘိုလီသို ပါ့ခ်မှာ အိမ်ကွင်း ၅ ပွဲလုံး နိုင်ထားပြီး နောက်ဆုံး တွေ့ဆုံမှု ဖေဖော်ဝါရီလမှာလည်း ၂-၀ နဲ့ နိုင်ထားတယ်။ ရော့ကီ နီးလ်က ဒီရာသီ ၁၃ ဂိုးသွင်းထားပြီး အက်စ်ဘရစ်ျ်ကို ၃-၁ နဲ့ နိုင်တဲ့ ပွဲမှာ ဂိုးသွင်းထားတယ်။ ဘားခမ်းစတက်က ကွာလီဖိုင်း နောက်ဆုံးအဆင့်မှာ နေရှင်နယ် လိဂ် ဆောက်သန့်ကို အဝေးကွင်းမှာ ၂-၁ နဲ့ အနိုင်ယူခဲ့တာမို့ လျှော့တွက်လို့ မရပေမယ့် အိမ်ကွင်းအားနဲ့ လိဂ် အဆင့်ကွာခြားချက်က ပါ့ခ်ဝေးဘက်မှာ ရှိတယ်။"
-    }
-  ],
+  "predictions": [],
   "source": "KZZ Football Analysis",
-  "updated": "2026-11-09"
+  "updated": "2026-11-11"
 }
