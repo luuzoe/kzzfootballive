@@ -934,7 +934,7 @@ async function renderHighlights() {
 { id: "RdejiWAqcBQ", title: "Match Highlights | Crystal Palace 1-3 Liverpool | Premier League", channel: "Crystal Palace FC", date: "Nov 8, 2026" },
 { id: "RU0oJGCgOjQ", title: "Sunderland 1-0 Chelsea | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea Football Club", date: "Nov 8, 2026" },
 { id: "IwFtdoY5q9E", title: "CISSE e PULISIC decidono a Marassi | Genoa-Milan 1-2 | Highlights Serie A", channel: "AC Milan", date: "Nov 8, 2026" },
-{ id: "06di7zU4Km4", title: "Points Shared at the Maradona | NAPOLI-LAZIO | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 8, 2026" },
+{ id: "T3ItnuMwGjc", title: "📽️ HIGHLIGHTS | SERIE A ENILIVE, NAPOLI-LAZIO 1-1", channel: "S.S. Lazio", date: "Nov 8, 2026" },
 { id: "50LZL-1eXlU", title: "HIGHLIGHTS | Valencia CF 0-3 Real Madrid | LaLiga", channel: "Real Madrid", date: "Nov 7, 2026" },
 { id: "R6mRSJzpZ2g", title: "PARIS SAINT-GERMAIN - ESTAC TROYES (1-0) | Week 10 - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Nov 7, 2026" },
 { id: "jGW0vt6rMLM", title: "HIGHLIGHTS | Nottingham Forest 3-1 Man City | Defeat on the road for the Blues.", channel: "Man City", date: "Nov 7, 2026" },
