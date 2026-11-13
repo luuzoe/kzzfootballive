@@ -915,7 +915,6 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "_4jqA-mz_Ig", title: "EXTENDED HIGHLIGHTS | City 3-0 Liverpool | Doku stars as City beat Liverpool!", channel: "Man City", date: "Nov 9, 2026" },
 { id: "xgcG0s8R7Os", title: "Rocket From Kimmich! | MAINZ 05 - FC BAYERN | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
 { id: "QhJjS1i0iT8", title: "BISSECK, ESPOSITO AND ZIELIŃSKI: A BIG EUROPEAN WIN 🖤💙| FEYENOORD 0-3 INTER | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Nov 3, 2026" },
 { id: "RvEablTAe2I", title: "HIGHLIGHTS | VILLARREAL 0-6 PSG | CHAMPIONS LEAGUE", channel: "Villarreal CF", date: "Nov 3, 2026" },
@@ -927,6 +926,7 @@ async function renderHighlights() {
 { id: "zVQZC8mOgsY", title: "Dortmund vs Real Betis | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 4, 2026" },
 { id: "05geh16Zu-Y", title: "Highlights: Fenerbahce 3-2 Liverpool | Trey Nyoni's first Liverpool Goal | Champions League", channel: "Liverpool FC", date: "Nov 4, 2026" },
 { id: "afHtoh8NzK8", title: "Porto vs Napoli | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 4, 2026" },
+{ id: "a5RMHsvLh2k", title: "MATHEUS CUNHA SENDS OLD TRAFFORD INTO MELTDOWN 🤯 Manchester United overturn deficit to beat Roma", channel: "Stan Sport Football", date: "Nov 3, 2026" },
 { id: "69IQ8q-g1q0", title: "HIGHLIGHTS | AEK Athens 2-3 Real Madrid | Champions League", channel: "Real Madrid", date: "Nov 4, 2026" },
 { id: "5b4BaFzojaI", title: "Highlights: Fiorentina - Juventus 2 - 2", channel: "ACF Fiorentina", date: "Nov 8, 2026" },
 { id: "CvcyMWt58sA", title: "ATLÉTICO MADRID 1 vs 2 FC BARCELONA | LALIGA 2026/27 MD12 🔵🔴", channel: "FC Barcelona", date: "Nov 8, 2026" },
