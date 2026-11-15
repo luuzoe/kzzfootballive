@@ -1,0 +1,16 @@
+KZZ highlights auto-update run — Sun 2026-11-15 21:53 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break).
+- Searched YouTube/web for new big-team highlights (Nov 9–15):
+  * Arsenal 7-2 Chelsea (xKXcNJ_pliY) — FABRICATED, do-not-re-add — skipped.
+  * El Clasico Oct 25 re-upload (QGbkaOusm2s) — do-not-re-add — skipped.
+  * Liverpool 0-1 Arsenal copies (Nov 1) — 14 days old, out of 2-3 day window; PL official copy is banned channel — skipped.
+  * Man City 3-1 Arsenal blogspot — fabricated result, no such fixture — skipped.
+  * beIN Real-Inter 2-1 (EBv3-fQRABM / iQjyCkkeHbE) — banned channel + 68 days old — skipped.
+  * AllFootballApp "Nov 14-15" items — re-published ARCHIVE (2021 Clasico Benzema/Kroos, 2020 Inter-Real, Apr 2026 Copa final) — skipped.
+  * UEFA.com Real-Inter / Inter-Bayern / Bayern-Inter pages — archive UCL content, not YouTube — skipped.
+  * TRP PL Review GW9 (talk), MW9 roundup (compilation), WSL Liverpool-Arsenal (women) — out of scope — skipped.
+  * No big-team men's club match played Nov 9-15 (FIFA international window; leagues resume Nov 20-22).
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
