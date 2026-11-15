@@ -19,6 +19,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-15-england-trio-spain.html</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-15-wenger-no-fifa-challenge.html</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-15-washington-spirit-nwsl-final.html</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>daily</changefreq>
@@ -26,6 +38,12 @@
   </url>
   <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-15-ronaldo-day1s-tv-series.html</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-15-spain-squad-england.html</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -116,12 +134,6 @@
   </url>
   <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-14-ronaldo-no7-jersey.html</loc>
-    <lastmod>2026-11-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-14-chelsea-man-city-wsl.html</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
