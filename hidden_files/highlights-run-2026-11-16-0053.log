@@ -1,0 +1,14 @@
+KZZ highlights auto-update run — Mon 2026-11-16 00:53 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). No change since 2026-11-16 00:08 run.
+- Searched web for new big-team highlights (Nov 9-15):
+  * Search results were all Nov 1-2 (MW9) content already covered or out of window: Liverpool 0-1 Arsenal (Nov 1), Sunderland 1-0 Chelsea (already in array, Nov 8), league roundups — skipped.
+  * Arsenal vs Chelsea 7-2 (xKXcNJ_pliY) — FABRICATED, already in highlights-do-not-readd.json (Pochettino-era description, no such fixture) — skipped.
+  * Arsenal vs Man City 3-2 (OOVayShlKu0) — FABRICATED, already in highlights-do-not-readd.json (no such fixture; Arsenal beat Hull Nov 7, City lost at Forest Nov 7) — skipped.
+  * Liverpool v Arsenal PL official (ZEW27igKsWI) — banned channel (Premier League official, geo-blocked) + 14 days old — skipped.
+  * NBC Sports roundup — banned channel + roundup, not a single-match highlight — skipped.
+  * LIVERPOOL 0-1 ARSENAL fan REACTION (Q6fYDT5T9oc) — reaction video, rule 5b — skipped.
+- Fixture check: Nov 14-15 was UEFA Nations League MD5/6 (Norway 3-1 Wales, Portugal 1-4 Denmark, England 2-1 Croatia, Spain vs England Nov 15) — internationals, not big-team club matches; no club football Nov 9-17 (FIFA window; leagues resume Nov 20-22).
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
