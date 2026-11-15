@@ -1,0 +1,16 @@
+KZZ highlights auto-update run — Mon 2026-11-16 05:38 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break).
+- Searched YouTube/web for new big-team highlights (Nov 9-16):
+  * All Nov 7-8 matches already in array (Man Utd 4-4 Villa, Forest 3-1 Man City, Arsenal 1-0 Hull, Palace 1-3 Liverpool, Sunderland 1-0 Chelsea, Genoa 1-2 Milan, Inter 2-0 Como, Fiorentina 2-2 Juventus, Napoli 1-1 Lazio, Valencia 0-3 Real Madrid, Atletico 1-2 Barcelona, PSG 1-0 Troyes, Mainz 1-2 Bayern, Dortmund 2-1 Elversberg, Koln 1-2 Leverkusen, Leeds 1-0 Spurs). No Nov 9 club matches played (livescores/sportradar confirm; Bundesliga next fixture Nov 20).
+  * PL-official copies of Forest-Man City (xh_9U1reBro) and Palace-Liverpool (HLd2V94Ahsg) surfaced — banned channel, and matches already covered by club-official copies — skipped.
+  * Fan copies of Man Utd 4-4 Villa (fZVFMWFf7vU, zmS9D0F4yNg) — match already covered by Aston Villa official copy — skipped (1-per-match).
+  * Chelsea extended copy of Sunderland 1-0 (9v4YjymHBoU) — same match already covered by Chelsea official copy — skipped.
+  * Arsenal Women vs Barcelona UWCL (Nov 14) — women's match, out of scope — skipped.
+  * Arsenal 3-0 Real Madrid (Rice free kicks) and Liverpool 2-2 Arsenal — old 2025 content re-surfaced — skipped.
+  * Liverpool 0-1 Arsenal (Nov 1) fan/reaction copies — 15 days old, out of 2-3 day window — skipped.
+  * Nov 4 UCL recaps (Real 3-2 AEK, Liverpool 2-3 Fenerbahce, City 3-2 Leipzig, Arsenal 2-1 Slavia) — all already in array.
+  * No big-team men's club match played Nov 9-15 (FIFA international window; leagues resume Nov 20-22).
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
