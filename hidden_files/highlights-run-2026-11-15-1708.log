@@ -1,0 +1,12 @@
+KZZ highlights auto-update run — Sun 2026-11-15 17:08 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: newest entries dated Nov 8, 2026 (last league weekend before international break); 28 match entries + 12 Classics (40 total).
+- Searched YouTube for new big-team highlights (Nov 9–15):
+  * Liverpool 0-1 Arsenal (Nov 1) copies — real match but 14 days old, out of window; fan copies + NBC (banned channel) — skipped.
+  * Real Madrid 1-2 Barcelona / El Clásico re-uploads (QGbkaOusm2s, GUba8SM8mTQ) — Oct 25, 2026 match, out of window — skipped (already in do-not-re-add traps).
+  * Barcelona 3-2 Real Madrid Copa final — played Apr 2026, re-dated by AllFootball — skipped.
+  * Real Madrid vs Bayern UCL ties (2-2 agg, 2-1, 1-2) — old-season UEFA pages, no current fixture — skipped.
+  * No big-team club match played Nov 9–15 (FIFA international window; leagues resume Nov 20–22).
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues encountered.
