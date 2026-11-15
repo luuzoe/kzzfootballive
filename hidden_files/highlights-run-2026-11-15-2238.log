@@ -1,0 +1,14 @@
+KZZ highlights auto-update run — Sun 2026-11-15 22:38 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break).
+- Searched YouTube/web for new big-team highlights (Nov 9-15):
+  * Chelsea Women 1-0 Man City (WSL, Nov 14) — women's match; array scope is men's club matches, never contained WSL — skipped, consistent with prior runs.
+  * Arsenal vs Chelsea 7-2 (xKXcNJ_pliY) — fabricated (Pochettino-era details, no such fixture) — skipped.
+  * Liverpool 0-1 Arsenal copies (Nov 1) — 14 days old, out of 2-3 day window; PL official copy is a banned channel — skipped.
+  * El Clasico Oct 25 re-upload (QGbkaOusm2s) — already in do-not-re-add — skipped.
+  * Inter 0-2 Real Madrid (Zidane/Hazard), Sampdoria 0-2 Juventus (Chiesa/Ramsey), Real Madrid 2-1 Barcelona (Benzema/Kroos, Di Stefano), Barcelona 3-2 Real Madrid Copa final (Kounde 116'), Real Madrid 3-2 Leganes, Barca 0-0 Madrid (Bale) — all old/re-dated content — skipped.
+  * Real Madrid 2-1 Inter (EBv3-fQRABM, 68 days old) — beIN SPORTS, banned channel — skipped.
+  * No big-team men's club match played Nov 9-15 (FIFA international window; leagues resume Nov 20-22).
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
