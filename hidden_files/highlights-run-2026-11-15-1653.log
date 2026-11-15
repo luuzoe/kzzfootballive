@@ -1,0 +1,10 @@
+KZZ highlights auto-update run — Sun 2026-11-15 16:53 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: newest entries dated Nov 8, 2026 (last league weekend before international break); 28 match entries + 12 Classics.
+- Searched YouTube/news for new big-team highlights (Nov 9–15):
+  * "Extended Highlights" surfacing for Man Utd 4-4 Aston Villa, Crystal Palace 1-3 Liverpool, Sunderland 1-0 Chelsea are re-posts of Nov 8 matches already in the array (1-per-match rule) — skipped.
+  * Preston 0-3 Arsenal Carabao Cup item (All Football, dated 2026-11-15) is a RECYCLED Oct 30, 2024 tie (livesoccertv/onefootball confirm 2024-10-30; Nwaneri described as 17) — NOT a new match, not added.
+  * Nov 14–15 fixtures: internationals only (Nations League, friendlies), League One/Two, WSL (Chelsea 1-0 Man City Women — women's football, out of scope). No big-team club match played. Leagues resume Nov 20–22 (e.g. Newcastle host Arsenal Nov 21).
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues encountered.
