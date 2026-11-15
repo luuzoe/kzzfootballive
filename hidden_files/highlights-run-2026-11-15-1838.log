@@ -1,0 +1,15 @@
+KZZ highlights auto-update run — Sun 2026-11-15 18:38 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: newest entries dated Nov 8, 2026 (last league weekend before international break); 28 match entries + 12 Classics (40 total).
+- Searched YouTube/web for new big-team highlights (Nov 9–15):
+  * "Arsenal vs Chelsea 7-2 Highlights" (xKXcNJ_pliY, 2 days old) — FAKE/archived fan video: describes Pochettino as Chelsea manager, Havertz hat-trick, Ødegaard double; no such match played Nov 13–14 — skipped.
+  * Arsenal vs Man City 3-2 fan video (7 days old) — stale, outside 2–3 day window — skipped.
+  * Liverpool 0-1 Arsenal (Nov 1, 14 days old) + fan reaction copy — stale; reaction also fails rule 5b(a) — skipped.
+  * Chelsea Women 1-0 Man City (WSL, Nov 14) — women's football, out of scope (men's club competitions only) — skipped.
+  * AllFootballApp hits dated Nov 14–15 are re-published ARCHIVE articles (Sampdoria-Juve with Chiesa/Ramsey, Roma-Juve with Ronaldo, Real-Leganés Mar 2025, PSG 4-0 Real Madrid CWC Jul 2025, Bayern-PSG Nov 2024, El Clásico 0-0 Dec 2019, PSG-Barça Apr 2024) — not real Nov 2026 matches — skipped.
+  * UWCL Round 4 (Barcelona-Arsenal 1-1, Real Madrid-Paris FC 3-0, etc.) — women's, out of scope — skipped.
+  * Internationals Nov 15 (Norway 3-1 Wales, Portugal 1-4 Denmark, England/Spain) — national teams, out of scope — skipped.
+  * No big-team men's club match played Nov 9–15 (FIFA international window; leagues resume Nov 20–22).
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues encountered.
