@@ -1,0 +1,20 @@
+KZZ highlights auto-update run — Sun 2026-11-15 22:23 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break).
+- Searched YouTube/web for new big-team highlights (Nov 9–15):
+  * Liverpool 0-1 Arsenal copies (Nov 1) — 14 days old, out of 2-3 day window; PL official copy is banned channel — skipped.
+  * Man City 3-1 Arsenal blogspot — fabricated result, no such fixture (already flagged 21:53 run) — skipped.
+  * Real Madrid 2-1 Barcelona (Benzema/Kroos, Di Stefano) — 2021 re-date — skipped.
+  * Madrid 2-2 PSG (Hazard injured) — 2019 UCL re-date — skipped.
+  * Bayern 1-0 PSG (Kim, Dembele red) — Nov 2024 UCL re-date — skipped.
+  * PSG 2-3 Barcelona (Raphinha brace) — Apr 2024 UCL QF re-date — skipped.
+  * El Clasico Oct 25 re-upload (QGbkaOusm2s) — do-not-re-add — skipped.
+  * Barcelona 3-2 Real Madrid Copa final (Kounde 116') — Apr 2026, already flagged — skipped.
+  * Barcelona vs PSG extended (LRlY31UlP3U) + PSG 4-2 Barcelona (_LpzkLDdR6U) — UCL MD2 Oct 2026, 25-26 days old, out of window — skipped.
+  * Mbappe double Real stun Barcelona (a-sports) — mentions Mourinho's Real = old/fabricated re-date — skipped.
+  * Barcelona 1-4 PSG (Mbappe hat-trick, Messi pen) — Feb 2021 re-date — skipped.
+  * PSG vs Bayern 5-4 (1O8HDHTO3_8 / RifwEvA5vpE) — fabricated 9-goal thriller, already in do-not-re-add — skipped.
+  * No big-team men's club match played Nov 9-15 (FIFA international window; leagues resume Nov 20-22).
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
