@@ -1,0 +1,17 @@
+KZZ highlights auto-update run — Sun 2026-11-15 22:53 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break).
+- Searched YouTube/web for new big-team highlights (Nov 9–15):
+  * Nov 5 UCL MD4 items (Real 3-2 AEK, Liverpool 2-3 Fenerbahce, City 3-2 Leipzig, Arsenal 2-1 Slavia) — already in array (Nov 4 entries) — skipped.
+  * Liverpool 0-1 Arsenal copies (Nov 1) — 13-14 days old, out of 2-3 day window; PL official copy is a banned channel; one copy is a fan REACTION video (reject per 5b) — skipped.
+  * Arsenal 1-0 Hull City (Of5tSXUT9wY) — already in array (Nov 7) — skipped.
+  * Liverpool 2-2 Arsenal (Gakpo/Diaz/Martinelli/Merino) + Arsenal 1-1 Liverpool (Lacazette/Milner, Klopp era) — old-season archive re-dates — skipped.
+  * Barcelona vs PSG 2-4 / extended (LRlY31UlP3U) — UCL MD2 Oct 2026, 26 days old, out of window — skipped.
+  * PSG 2-3 Barcelona (Raphinha brace) — Apr 2024 UCL QF archive — skipped.
+  * Juventus 2-0 Inter (AllFootball, "published" 2026-11-13) — no such fixture in Nov 2026: MD11 (Nov 7-8) was Inter-Como and Fiorentina-Juventus; archive re-date via yoursoccerdose — skipped.
+  * Barcelona 4-1 Copenhagen (AllFootball, "published" 2026-11-15) — describes UCL last-16 qualification, impossible in Nov league phase; archive re-date, no YouTube ID — skipped.
+  * UEFA.com pages (Barcelona 3-3 Inter, Barcelona 4-1 Bayern, Barcelona 0-3 Juventus, Inter 1-0 Barcelona) — archive UCL content, not YouTube — skipped.
+  * No big-team men's club match played Nov 9-15 (FIFA international window; leagues resume Nov 20-22).
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
