@@ -1,0 +1,13 @@
+KZZ highlights auto-update run — Mon 2026-11-16 00:08 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). No change since 2026-11-15 23:53 run.
+- Searched web for new big-team highlights (Nov 9-15):
+  * EPL MW10 roundup (Nov 6-8) confirms all 6 big-team matches already in array: Arsenal-Hull, Forest-Man City, Palace-Liverpool, Sunderland-Chelsea, Man Utd-Villa 4-4, Leeds-Spurs.
+  * Real Madrid 1-2 Barcelona fan video (QGbkaOusm2s) — title/description contradict each other (1-2 vs 2-1); El Clasico was Oct 25, 3 weeks old, out of 2-3 day window; ID already in highlights-do-not-readd.json — skipped.
+  * beIN Real Madrid 2-1 Inter (EBv3-fQRABM / iQjyCkkeHbE) — banned channel (beIN), 68 days old — skipped.
+  * UEFA.com highlight pages (Inter 0-2 Bayern, Juve 2-2 Bayern, Real 2-2 Bayern, Bayern 2-0 Barca, Barca 0-3 Juve, Real 3-2 Inter) — undated archive, not YouTube embeds — skipped.
+  * AllFootball re-dates: Real 2-1 Barca (Apr 2021, Benzema/Kroos), Barca 0-3 Bayern (Oct 2022, Mane/Choupo-Moting) — archive — skipped.
+  * No big-team men's club match played Nov 9-15 (FIFA international window; leagues resume Nov 20-22).
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
