@@ -1,0 +1,13 @@
+KZZ Highlights auto-update run — Mon 2026-11-16 13:08 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). No change since 12:53 run.
+- Searched web for new big-team highlights (Nov 9-16):
+  * Liverpool 0-1 Arsenal Nov 1 copies — 15 days old, outside 2-3 day window; already flagged. Rossi the Gunner "Masterclass Deep Dive" — analysis/reaction, not highlights (rule 5b). 442oons — comedy cartoon, not highlights. Liverpool 1-0 Real Madrid (livesoccertv) — Nov 4, 2025 year-trap (Mac Allister 61', 2025-26 UCL MD4), not a current fixture.
+  * Bayern-Aston Villa 2-1 "Friendly 2026" (DX1whUT6F-M, bwsnsports aggregator): oEmbed returns "Not Found", thumbnail hqdefault.jpg 404 — dead video, fails rule 5. Match itself was the Aug 7, 2026 Audi Football Summit pre-season friendly in Hong Kong (fcbayern.com official), 3+ months old, re-dated to Nov 14 by the aggregator. Skip; also add to stale-traps list if it resurfaces.
+  * UEFA.com "2026/27" highlight pages (Bayern 3-1 Tottenham, Bayern 2-0/4-0/3-2 Barcelona, Bayern 3-1 Chelsea, Tottenham-Bayern 2-7) — old matches mislabelled; no such fixtures in 2026-27 UCL MD4 (Nov 3-4). Tottenham-Bayern 2-7 was Oct 2019. Skip.
+  * Tottenham x Chelsea WSL — women's, out of scope. Lineker article — 2020 re-date, not a video.
+- No new men's club fixtures Nov 9-16: FIFA November international window; leagues resume Nov 21-22, UCL MD5 Nov 24-25.
+- No oEmbed checks needed beyond the dead DX1whUT6F-M. No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 12:53 run today and all runs since Nov 15.
