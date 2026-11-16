@@ -1,0 +1,15 @@
+KZZ highlights auto-update run — Mon 2026-11-16 23:38 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). Unchanged since the 22:53 run.
+- Searched YouTube/web for new big-team highlights (Nov 9-16):
+  * Arsenal vs Chelsea 7-2 (xKXcNJ_pliY) — FABRICATED score, already in do-not-re-add — skipped.
+  * Liverpool 0-1 Arsenal (8Ybx4NS_8vw / FIQNH1_1yds) — Nov 1 match, 15 days old, out of window — skipped.
+  * Man City vs Arsenal 3-1 (footballkehighlights blog) — contradicts verified record (Arsenal beat Liverpool 1-0 Nov 1; Man City lost 1-0 Brighton) — fabricated, skipped.
+  * El Clasico Oct 25 re-uploads (QGbkaOusm2s, GUba8SM8mTQ, 20lZnaMcB6E) — do-not-re-add — skipped.
+  * allfootballapp/a-sports.tv "published Nov 15-16" items — re-dated OLD matches (Real Madrid 0-1 Barcelona Las Vegas pre-season friendly; Bayern 1-2 Real Madrid 2018 Kiev semi; Barcelona 4-0 Real Madrid Oct 2024) — skipped.
+  * UEFA.com Barcelona 0-3 Bayern / Real Madrid 1-2 Bayern — stale/re-dated UCL content, no such Nov 2026 fixtures (UCL MD5 is Nov 24-25) — skipped.
+- Confirmed: FIFA international window Nov 9-17, 2026; no PL/La Liga/Serie A/Bundesliga/Ligue 1 fixtures Nov 14-16. Only Nations League internationals — national teams, out of club scope. Leagues resume Nov 20-22.
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 22:53 run and all runs since Nov 9; nothing changed since.
