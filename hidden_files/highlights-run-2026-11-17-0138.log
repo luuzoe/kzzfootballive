@@ -1,0 +1,13 @@
+KZZ highlights auto-update run — Tue 2026-11-17 01:38 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). Unchanged since the 2026-11-17 01:08 run.
+- Searched YouTube/web for new big-team highlights (Nov 14-17), three searches (EPL / La Liga-Serie A-Bundesliga / PSG-Juve-Napoli-Dortmund-Spurs):
+  * EPL: Arsenal-Chelsea 7-2 (xKXcNJ_pliY — FABRICATED, already in do-not-readd); Community Shield Aug 2026 (out of window); Arsenal-Man City 3-2 (OOVayShlKu0 — FABRICATED, already in do-not-readd); Liverpool 0-1 Arsenal Nov 1 (15 days old, out of window); fan REACTION video (reject per rule 5b); AllFootball "Chelsea 1-1 Arsenal" re-date trap (Nov 30, 2025 match, already logged 01:08 run, no video ID).
+  * La Liga/Serie A/Bundesliga: AllFootball re-dated old articles only (Supercopa Jan 2026, Bayern-Real 2018, El Clasico Oct 25 2026, Barca-Inter 2025 UCL semi, Barca-Bayern 2022, Las Vegas friendly 2022, Giroud FIFA 20); El Clasico re-upload QGbkaOusm2s (Oct 25 match, out of window, already in do-not-readd); beIN Real Madrid 2-1 Inter (banned channel + 69 days old).
+  * PSG/Juve/Napoli/Dortmund/Spurs: zero YouTube results — all AllFootball re-dated old articles (Napoli-PSG 2018, Napoli-Juve 2023-era, Spurs-Dortmund 2019, Spurs-Sheff Utd 2023, Dortmund-Ulsan CWC Jun 2025, Juve-Bologna 2018, Udinese-Juve 2020, Wolfsburg-Dortmund old, Dortmund-Bayern old Klassiker).
+  * NEW TRAP caught: AllFootball "Juventus 3-0 Napoli (Yildiz, David & Kostic)" published 2026-11-16 — NOT a Nov 2026 fixture: real 2026-27 meeting was Juventus 2-0 Napoli on Nov 1, 2026; both teams played Nov 8 (Juventus 2-2 Fiorentina, Napoli 1-1 Lazio, both already in array). No YouTube video ID attached. Added to highlights-do-not-readd.json stale_traps list (now 54 entries).
+- Confirmed: FIFA international window Nov 9-17, 2026; no PL/La Liga/Serie A/Bundesliga/Ligue 1 fixtures Nov 14-16. Leagues resume Nov 20-22.
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 2026-11-17 01:08 run and all runs since Nov 9; nothing changed since.
