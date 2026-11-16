@@ -1,0 +1,15 @@
+KZZ highlights auto-update run — Tue 2026-11-17 03:53 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). Unchanged since the 2026-11-17 03:38 run (15 min earlier).
+- Searched YouTube/web for new big-team highlights (Nov 16-17):
+  * Arsenal vs Chelsea 7-2 (xKXcNJ_pliY) — FABRICATED score, already in do-not-re-add — skipped.
+  * Liverpool 3-1 Arsenal (Robertson/Mane/Jota, Lacazette) — Sep 2020 re-date by AllFootball — skipped.
+  * Liverpool v Arsenal PL highlights (ZEW27igKsWI) + Liverpool 0-1 Arsenal (Q6fYDT5T9oc) — Nov 1 match, 16 days old, out of window — skipped.
+  * WSL: Brighton 0-3 Liverpool, Arsenal 3-1 Chelsea (UWCL), Barcelona 2-1 Arsenal (UWCL), Liverpool 3-2 Tottenham, Everton 0-0 Arsenal, Chelsea 1-0 Man City analysis — women's football, out of site scope — skipped.
+  * UCL MD4 recap (hot.asoypocoyo.workers.dev) — covers Nov 4-5 matches already in array — skipped.
+  * Weekend roundup/talk video (jXhgZ3HUHDw) — covers Nov 7-8 matches already in array; talk/recap format, skip per rule 1.
+- Confirmed: FIFA international window Nov 9-17, 2026; no PL/La Liga/Serie A/Bundesliga/Ligue 1 fixtures Nov 14-16. Leagues resume Nov 20-22.
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 2026-11-17 03:38 run and all runs since Nov 9; nothing changed since.
