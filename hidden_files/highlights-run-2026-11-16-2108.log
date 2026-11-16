@@ -1,0 +1,26 @@
+KZZ highlights auto-update run — Mon 2026-11-16 21:08 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). Unchanged since the 19:23 run.
+- Searched YouTube/web for new big-team highlights (Nov 9-16):
+  * Arsenal vs Chelsea 7-2 (xKXcNJ_pliY) — FABRICATED score, already in do-not-re-add — skipped.
+  * Arsenal vs Man City 3-2 (OOVayShlKu0) — FABRICATED score, already in do-not-re-add — skipped.
+  * Real Madrid 1-2 Barcelona El Clasico fan re-upload (QGbkaOusm2s) — Oct 25 match, out of window, already in do-not-re-add — skipped.
+  * Real Madrid official El Clasico (y9EUeY-EqG4) — Oct 25 match, out of window, already flagged — skipped.
+  * AEK Athens 2-3 Real Madrid (G0AVcHt5b4E) — Nov 4 match, already in array as Real Madrid official 69IQ8q-g1q0 — duplicate, skipped.
+  * Atletico 0-2 Bayern Shorts (4d0os_ha49A) + fan copy (mkgPxtgGaJM) — Nov 3 match, out of window; do-not-re-add forbids adding a fan copy of this match — skipped.
+  * Como 9-1 Lens UCL MD4 recap (Pd9UTqJjDC4) — fabricated/roundup, already in do-not-re-add — skipped.
+  * Mainz 1-2 Bayern — already in array as Bundesliga official xgcG0s8R7Os — duplicate, skipped.
+  * LaLiga MD12 roundup video (Yo9qec5daN4) — compilation; its big matches (Valencia 0-3 Real, Atletico 1-2 Barca) already in array — skipped.
+  * AZ Alkmaar 1-2 Juventus (Nov 5) — 11 days old, out of window; Juventus official copy AdoOw_vhmhI already removed as out-of-window and in do-not-re-add — skipped.
+  * Real Madrid 3-2 Inter UEFA.com video — flagged in do-not-re-add (no such fixture, surfaced 15:08 run) — skipped.
+  * Barcelona 3-3 Inter — re-date of Apr 2025 UCL semi, no fixture — skipped.
+  * Liverpool vs Arsenal 0-1 (cu5WgorN9-s) — Nov 1, 15 days old, out of window — skipped.
+  * Chelsea 2-2 Arsenal (allfootballapp) — re-dated old match, no YouTube ID — skipped.
+  * WSL / Women's UCL results (Arsenal Women 1-1 London City, Chelsea Women 1-0 Man City, Juventus Women 0-6 Lyon) — women's football, out of scope — skipped.
+  * Arsenal Shorts tackle clip (NPehs0EtShw) — Shorts, not a match highlight — skipped.
+  * Community Shield Arsenal 3-0 Man City (pZ-xsyDyTeU) — Aug 2026, out of window — skipped.
+- Confirmed: FIFA international window Nov 9-17, 2026; no PL/La Liga/Serie A/Bundesliga/Ligue 1 fixtures Nov 14-16. Only Nations League internationals — national teams, out of club scope. Leagues resume Nov 20-22.
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 19:23 run earlier today and all runs since Nov 9; nothing changed since.
