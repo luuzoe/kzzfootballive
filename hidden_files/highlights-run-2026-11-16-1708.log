@@ -1,0 +1,13 @@
+KZZ highlights auto-update run — Mon 2026-11-16 17:08 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). No change since 16:53 run.
+- Searched web for new big-team highlights (Nov 9-16):
+  * EPL search: Liverpool 0-1 Arsenal Nov 1 (15 days old, out of window); fabricated "Arsenal 7-2 Chelsea" (xKXcNJ_pliY, already in do-not-re-add) — oEmbed now returns "Not Found" (video gone/dead); WSL women's Liverpool-Arsenal (out of scope); fan reaction videos — all skipped.
+  * La Liga/Serie A/Bundesliga/Ligue 1 search: weekly roundup confirms men's PL, La Liga, Serie A, Bundesliga, Ligue 1 played NO regular league fixtures Nov 9-15 (FIFA international window; only Nations League/internationals + UWCL). Bayern 1-2 Real Madrid / Union Berlin 2-3 Real Madrid allfootballapp items are old re-dates (2018 / Dec 2023). UEFA.com "Real Madrid 2-2 Bayern (4-3 agg)" already in do-not-re-add traps (knockout aggregate, no such 2026-27 fixture).
+  * "Bayern Munich vs Aston Villa 2-1 Extended Highlights - Friendly 2026" (DX1whUT6F-M, bwsnsports bot-aggregated page): oEmbed returns "Not Found" — dead/unavailable video; also no real Bayern-Villa friendly exists during the international break (both squads on international duty). Skipped.
+  * "Juventus 4-0 Lecce - Highlights" (allfootballapp, 'published' Nov 15): verified re-date — that scoreline is June 26, 2020 (Dybala/Ronaldo era); real 2026-27 meeting was Lecce 0-2 Juventus Oct 25, 2026. No YouTube ID attached. Skipped.
+- No big-team men's club match played Nov 9-16 (FIFA international window; leagues resume Nov 20-22, UCL MD5 Nov 24-25).
+- oEmbed checks run on the two candidate IDs above: both "Not Found" — no valid candidate videos. No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 16:53 run 15 minutes earlier and all runs since Nov 15.
