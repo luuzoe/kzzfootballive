@@ -1,0 +1,11 @@
+KZZ Highlights auto-update run — Mon 2026-11-16 12:53 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). No change since 12:23 run.
+- Searched web for new big-team highlights (Nov 9-16):
+  * EPL search: Liverpool 0-1 Arsenal Nov 1 copies — 15 days old, outside 2-3 day window, already in do-not-re-add traps list; skip. Arsenal 1-0 Hull Nov 7 — already in array (Of5tSXUT9wY). WSL Liverpool-Arsenal — women's, out of scope. NBC Forest-Man City — banned channel, match already in array (Man City copy). Blogspot "Man City 3-1 Arsenal" — fabricated/spam, no such fixture.
+  * Nov 15-16 search: all stale re-dates — PSG 1-0 Real Madrid (Feb 2022 UCL), Mbappe double Clasico (2012), Lewandowski 4-0 Clasico (Oct 2024), PSG 4-0 Real Madrid CWC (Jul 2025), PSG 0-1 Bayern (Aug 2020 UCL final), Union Berlin 2-3 Real Madrid (Dec 2023), Real 3-2 Barca Supercopa (Jan 2022), PSG 5-4 Bayern fabricated (already flagged). No Nov 15-16, 2026 men's club match.
+- No new men's club fixtures Nov 9-16: FIFA November international window; leagues resume Nov 21-22, UCL MD5 Nov 24-25.
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 12:23 run today and all runs since Nov 15.
