@@ -1,0 +1,13 @@
+KZZ highlights auto-update run — Mon 2026-11-16 07:08 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break).
+- Searched web for new big-team highlights (Nov 9-16):
+  * Only fresh matches found were WSL women's fixtures (Chelsea Women 1-0 Man City, Nov 14; Arsenal Women 1-1 London City) — out of scope, consistent with prior runs (men's club matches only).
+  * "Arsenal vs Chelsea 7-2 Highlights" (xKXcNJ_pliY) — fabricated: no such result ever happened (Pochettino-era description, recycled); not a candidate.
+  * NBC Sports Matchweek 9 roundup — banned channel, and its matches are the Nov 7-8 fixtures already in the array.
+  * EA/sports.ea.rw re-dated Nov 14-15 pages for Man Utd 4-4 Aston Villa and Crystal Palace 1-3 Liverpool — same Nov 8 matches already in array with club-official copies (wOLZ_jiQLdw, RdejiWAqcBQ); 1-per-match satisfied, no upgrade needed.
+  * International matches Nov 14-15 (Portugal-Denmark 1-4, England-Spain 3-2, USMNT-Haiti 6-0, Jamaica-Mexico 3-2) are national teams — out of scope.
+- Consistent with the 06:23 run 45 min earlier: FIFA November international window, no big-team men's club match Nov 9-15; leagues resume Nov 21-22, UCL/UEL Nov 24-26.
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues.
