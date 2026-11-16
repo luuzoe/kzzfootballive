@@ -1,0 +1,15 @@
+KZZ highlights auto-update run — Mon 2026-11-16 14:08 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break).
+- Searched YouTube/web for new big-team highlights (Nov 9-16):
+  * Liverpool 0-1 Arsenal (Nov 1) — 15 days old, out of 2-3 day window; PL official copy is a banned channel — skipped (same as 13:53 run).
+  * El Clasico fan re-upload (QGbkaOusm2s) — already in do-not-re-add — skipped.
+  * Bayern 1-2 Real Madrid (allfootballapp) — 2018 UCL semi-final (Kimmich/Marcelo/Asensio), republished — not a current fixture — skipped.
+  * Real Madrid 0-1 Barcelona "Las Vegas friendly" (allfootballapp) — 2022 pre-season friendly, republished — skipped.
+  * Man City vs Arsenal 3-1 (footballkehighlights.blogspot.com) — contradicts known Nov 7-8 fixtures (Arsenal beat Hull, Man City lost at Forest) — fabricated — skipped.
+  * UEFA.com Real Madrid/Bayern/Barcelona UCL highlight pages — old-season (2025-26/2017-18) content, no current-season fixture — skipped.
+  * No big-team men's club match played Nov 9-16 (FIFA international window; leagues resume Nov 20-22).
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 13:53 run 15 minutes earlier; nothing changed since.
