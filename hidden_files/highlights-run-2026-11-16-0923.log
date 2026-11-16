@@ -1,0 +1,17 @@
+KZZ Highlights auto-update run — Mon 2026-11-16 09:23 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break).
+- Verified all Nov 7-8 big-team matches already in array with club/league-official copies (Bayern-Mainz, Real-Valencia, PSG-Troyes, Forest-Man City, Arsenal-Hull, Dortmund-Elversberg, Leeds-Spurs, Fiorentina-Juve, Atletico-Barca, Inter-Como, Man Utd-Villa, Koln-Leverkusen, Palace-Liverpool, Sunderland-Chelsea, Genoa-Milan, Napoli-Lazio, plus all Nov 3-5 UCL/UEL entries). 1-per-match satisfied; nothing to upgrade or replace.
+- Searched web for new big-team highlights (Nov 9-16):
+  * "Real Madrid 1-2 Barcelona" (QGbkaOusm2s) — El Clasico Oct 25 re-upload, already in do-not-readd — skipped.
+  * "Arsenal 3-2 Man City" (OOVayShlKu0) — fabricated score, already in do-not-readd — skipped.
+  * Community Shield Arsenal 3-0 Man City (Aug 2026, 92 days old) — out of window.
+  * City 3-0 Arsenal AllFootball — recycled Jun 2020 restart match — not a candidate.
+  * UWCL Barcelona 1-1 Arsenal + Arsenal women highlights — women's fixtures, out of scope.
+  * "BARCELONA EARLY SCARES IN LALIGA..." — roundup/talk video about Nov 7-8 weekend, already covered; compilation/talk — skipped.
+  * Arsenal 5-1 Man City — Feb 2025 match, old.
+  * No new men's club fixtures Nov 9-16: FIFA November international window; leagues resume Nov 21-22, UCL MD5 Nov 24-25.
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 08:53 run today and all runs since Nov 15.
