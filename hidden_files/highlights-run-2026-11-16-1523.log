@@ -1,0 +1,18 @@
+KZZ highlights auto-update run — Mon 2026-11-16 15:23 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break).
+- Searched YouTube/web for new big-team highlights (Nov 9-16):
+  * Chelsea Women 1-0 Man City (WSL, Nov 14) — women's match; array scope is men's club matches — skipped.
+  * Arsenal vs Chelsea 7-2 (xKXcNJ_pliY) — fabricated (Pochettino-era details, no such fixture) — skipped, already flagged in prior runs.
+  * Liverpool 0-1 Arsenal copies (Nov 1) — 15 days old, out of 2-3 day window; PL official copy is a banned channel — skipped (same as 13:53/14:08 runs).
+  * El Clasico fan re-upload (QGbkaOusm2s) — already in do-not-re-add — skipped.
+  * Real Madrid 0-1 Barcelona "Las Vegas friendly" — 2022 pre-season friendly, republished — skipped.
+  * Bayern 1-2 Real Madrid (allfootballapp) — 2018 UCL semi-final, republished — not a current fixture — skipped.
+  * Barcelona 1-2 Real Madrid fan re-upload (QGbkaOusm2s / GUba8SM8mTQ) — Oct 25 El Clasico, 3 weeks old, out of window — skipped.
+  * Bayern vs Aston Villa 2-1 "Friendly 2026" (DX1whUT6F-M) — friendly, not a competitive big-team fixture in scope; no verified current date — skipped.
+  * UEFA.com Real Madrid/Bayern/Barcelona UCL highlight pages — old-season content, no current-season fixture — skipped.
+  * No big-team men's club match played Nov 9-16 (FIFA international window; leagues resume Nov 20-22).
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 13:53 and 14:08 runs earlier today; nothing changed since.
