@@ -1,0 +1,14 @@
+KZZ highlights auto-update run — Tue 2026-11-17 00:08 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). Unchanged since the 2026-11-16 23:53 run.
+- Searched YouTube/web for new big-team highlights (Nov 14-17):
+  * Only Nov 7-8 club matches surfaced (Chelsea-Man Utd, Liverpool-Arsenal, Forest-Man City, Man Utd-Aston Villa, etc.) — all already in the array.
+  * "Arsenal vs Chelsea 7-2 Highlights" (xKXcNJ_pliY) — FABRICATED: no such 2026/27 fixture; description cites Pochettino as Chelsea manager (outdated). Never add.
+  * AllFootball results for Nov 15-16 are recycled old articles (Bayern-Real 2018 UCL semi, Barcelona-Real Supercopa 2023/2024, Union Berlin-Real Dec 2023) republished with fresh dates — not new matches.
+  * UEFA.com "Real Madrid 3-2 Inter" UCL highlights — no such fixture in Nov 2026 (MD4: Real-AEK, Inter-Feyenoord; MD5 is Nov 25-26); old-match page recrawl, not a new highlight. Skipped.
+  * Nov 14-16 items are Nations League internationals (Spain 2-3 England, Belgium 4-1 Italy, France 2-1 Türkiye, etc.) — national teams, out of club scope. WSL (Arsenal Women 1-1 London City) — out of scope. Roundup/talk videos — not single-match highlights.
+- Confirmed: FIFA international window Nov 9-17, 2026; no PL/La Liga/Serie A/Bundesliga/Ligue 1 fixtures Nov 14-16. Leagues resume Nov 20-22.
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues.
+- Consistent with the 2026-11-16 23:53 run and all runs since Nov 9; nothing changed since.
