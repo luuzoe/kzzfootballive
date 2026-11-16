@@ -1,0 +1,23 @@
+KZZ highlights auto-update run — Tue 2026-11-17 03:38 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). Unchanged since the 22:53 run on Nov 16.
+- Searched YouTube/web for new big-team highlights (Nov 9-16):
+  * Arsenal vs Chelsea 7-2 (xKXcNJ_pliY) — FABRICATED score, already in do-not-re-add — skipped.
+  * Liverpool 0-1 Arsenal copies (8Ybx4NS_8vw / FIQNH1_1yds / uHz3L3eq8yI / G3Q4WUytngo / ZEW27igKsWI) — Nov 1 match, 16 days old, out of window — skipped.
+  * Liverpool 1-1 Chelsea REACTION videos (jG5ZsJ-rwBU / vEUWdOD37Uo) — reaction, not highlights, rule 5b(a) — skipped.
+  * Liverpool vs Arsenal WSL women (l-1GSKH9FGY) — women's football, out of scope — skipped.
+  * Arsenal Shorts tackle clip (newsburst, NPehs0EtShw) — Short clip, not match highlights — skipped.
+  * DU Football Show matchweek 10 recap — talk/recap, not highlights; covers already-added Nov 7-8 matches — skipped.
+  * Real Madrid 1-2 Barcelona fan re-upload (QGbkaOusm2s) — El Clasico Oct 25 re-upload, do-not-re-add — skipped.
+  * El Clasico Oct 25 official copy (y9EUeY-EqG4) — do-not-re-add, old — skipped.
+  * Atletico 0-2 Bayern fan copy (mkgPxtgGaJM) + Short (4d0os_ha49A) — Nov 3 match, 14 days old, out of window — skipped.
+  * Mainz-Bayern (7trwWayUYFY) — same Nov 7 match already in array as Bundesliga official (xgcG0s8R7Os); 1-per-match rule — skipped.
+  * UCL MD4 roundup (jkdwCMSQ8Ig) — league roundup/compilation — skipped per rule 1.
+  * beIN Sports El Clasico page — banned channel (beIN) — skipped regardless.
+  * LaLiga MD12 roundup confirms all fixtures played Nov 6-8, already in array.
+  * allfootballapp re-dated old Clasicos (Supercopa Jan 2026, pre-season friendly) — no such Nov 2026 fixtures — skipped.
+- Confirmed: FIFA international window Nov 9-17, 2026; no PL/La Liga/Serie A/Bundesliga/Ligue 1 fixtures Nov 14-16. Only Nations League internationals — national teams, out of club scope. Leagues resume Nov 20-22.
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 22:53 run on Nov 16 and all runs since Nov 9; nothing changed since.
