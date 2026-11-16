@@ -1230,73 +1230,73 @@
   "uefa.europa": [
    {
     "rank": 1,
-    "player": "–",
+    "player": "Javier Vazquez",
     "team": "တိုရေးရင်ဆီ",
     "assists": 3,
-    "pid": ""
+    "pid": "266780"
    },
    {
     "rank": 2,
-    "player": "–",
+    "player": "Kristoffer Zachariassen",
     "team": "ဖီရန်စဗာရို့စ်",
     "assists": 3,
-    "pid": ""
+    "pid": "253991"
    },
    {
     "rank": 3,
-    "player": "–",
+    "player": "Mikel Oyarzabal",
     "team": "ရီးရဲလ်ဆိုစီဒက်",
     "assists": 3,
-    "pid": ""
+    "pid": "229018"
    },
    {
     "rank": 4,
-    "player": "–",
+    "player": "Junior Olaitan",
     "team": "ဘီရှစ်တပ်စ်",
     "assists": 3,
-    "pid": ""
+    "pid": "319985"
    },
    {
     "rank": 5,
-    "player": "–",
+    "player": "Nicolaos Athanasiou",
     "team": "အိုအက်ဖ်အိုင်ခရီးတ်",
     "assists": 2,
-    "pid": ""
+    "pid": "312967"
    },
    {
     "rank": 6,
-    "player": "–",
+    "player": "Adam Wharton",
     "team": "ခရစ္စတယ်ပဲလေ့စ်",
     "assists": 2,
-    "pid": ""
+    "pid": "333419"
    },
    {
     "rank": 7,
-    "player": "–",
+    "player": "Nick Woltemade",
     "team": "ဂျူဗင်တပ်စ်",
     "assists": 2,
-    "pid": ""
+    "pid": "298349"
    },
    {
     "rank": 8,
-    "player": "–",
+    "player": "Keito Nakamura",
     "team": "လိုင်ယွန်",
     "assists": 2,
-    "pid": ""
+    "pid": "265953"
    },
    {
     "rank": 9,
-    "player": "–",
+    "player": "Andrej Kramaric",
     "team": "ဟော့ဖန်ဟိမ်း",
     "assists": 2,
-    "pid": ""
+    "pid": "139520"
    },
    {
     "rank": 10,
-    "player": "–",
+    "player": "Tim Lemperle",
     "team": "ဟော့ဖန်ဟိမ်း",
     "assists": 2,
-    "pid": ""
+    "pid": "303792"
    }
   ]
  }
