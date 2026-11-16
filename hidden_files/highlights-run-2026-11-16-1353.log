@@ -1,0 +1,21 @@
+KZZ highlights auto-update run — Mon 2026-11-16 13:53 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break).
+- Searched YouTube/web for new big-team highlights (Nov 9-16):
+  * Chelsea Women 1-0 Man City (WSL, Nov 14) — women's match; array scope is men's club matches, never contained WSL — skipped, consistent with prior runs.
+  * Arsenal vs Chelsea 7-2 (xKXcNJ_pliY) — fabricated (Pochettino-era details, no such fixture) — skipped, already flagged in prior runs.
+  * Arsenal vs Man City 3-2 (OOVayShlKu0) — 8 days old and contradicts known Nov 7-8 fixtures (Arsenal beat Hull, Man City lost at Forest) — fabricated/misdated — skipped.
+  * Liverpool 0-1 Arsenal copies (Nov 1) — 15 days old, out of 2-3 day window; PL official copy is a banned channel — skipped.
+  * El Clasico re-upload (QGbkaOusm2s) — already in do-not-re-add — skipped.
+  * Atletico 0-2 Bayern fan copy (BWPRt7q61qc) — Nov 3, 13 days old, out of window — skipped.
+  * AEK Athens 2-3 Real Madrid (G0AVcHt5b4E) — Nov 4; match already in array via Real Madrid official (69IQ8q-g1q0) — duplicate — skipped.
+  * Barcelona 3-0 Aston Villa extended fan copy (-KiBkRCLn54) — Nov 3; match already in array via FC Barcelona official (CXk8Er7Yf9w) — duplicate — skipped.
+  * Mainz 1-2 Bayern official (xgcG0s8R7Os) — already in array — skipped.
+  * beIN El Clasico + LaLiga official El Clasico (y9EUeY-EqG4) — Oct 25, out of window; beIN is a banned channel — skipped.
+  * Real Madrid 3-2 Inter (uefa.com) — no such 2026/27 fixture (Inter played Feyenoord Nov 4); old/re-dated — skipped.
+  * UCL MD4 roundup (GSCP) — compilation/roundup video — skipped per rule 1.
+  * Juventus Women 0-6 Lyon (UWCL) — women's match — skipped.
+  * No big-team men's club match played Nov 9-16 (FIFA international window; leagues resume Nov 20-22).
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
