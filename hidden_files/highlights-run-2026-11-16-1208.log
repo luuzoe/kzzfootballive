@@ -1,0 +1,12 @@
+KZZ Highlights auto-update run — Mon 2026-11-16 12:08 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). No change since 11:23 run.
+- Searched web for new big-team highlights (Nov 9-16):
+  * EPL search: Liverpool 0-1 Arsenal Nov 1 fan/official copies — 15 days old, outside 2-3 day window, skip. "Arsenal 7-2 Chelsea" (xKXcNJ_pliY) — fabricated (no such fixture; Pochettino not Chelsea manager), already in do-not-re-add.
+  * Fixtures search: Nov 14-15 all internationals (Nations League, WC qualifiers, AFCON qualifiers, friendlies) — England 3-2 Spain, Portugal 1-4 Denmark, etc. No club matches.
+  * Real/Barca/Bayern search: El Clasico Oct 25 re-upload (QGbkaOusm2s — already in do-not-re-add), Oct 25 fan copies (20lZnaMcB6E, GUba8SM8mTQ — 21-22 days old), pre-season friendly article (old Las Vegas Clasico, not a new match), UEFA.com archived UCL highlights (not YouTube, old season), UWCL Bayern-Real women (out of scope), Spanish Super Cup Jan 2026 (old).
+- No new men's club fixtures Nov 9-16: FIFA November international window; leagues resume Nov 21-22, UCL MD5 Nov 24-25.
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 11:23 run today and all runs since Nov 15.
