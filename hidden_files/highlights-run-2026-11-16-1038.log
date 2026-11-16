@@ -1,0 +1,14 @@
+KZZ Highlights auto-update run — Mon 2026-11-16 10:38 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break).
+- Verified via ESPN scoreboard API: 0 events for eng.1, esp.1, ita.1, ger.1, fra.1, uefa.champions on Nov 13, 14, 15 (and eng.1 on Nov 16). No men's club fixtures — FIFA November international window; leagues resume Nov 21-22, UCL MD5 Nov 24-25.
+- Searched web for new big-team highlights (Nov 9-16):
+  * "Chelsea 2-2 Arsenal" (Mudryk), "Arsenal 2-2 Liverpool" (Salah), "Liverpool 2-1 Chelsea", "Liverpool 4-1 Newcastle" — recycled old matches (2023/Oct 2024) republished with fresh dates by allfootballapp; not Nov 2026 fixtures — skipped.
+  * "Real Madrid 1-2 Barcelona" (QGbkaOusm2s) — El Clasico Oct 25 re-upload, already in do-not-readd — skipped.
+  * Atletico 0-2 Bayern (Nov 3 UCL): official Bayern copy b-CuMCD-eGs is in do-not-readd; fan copies (Shorts 4d0os_ha49A, mkgPxtgGaJM) are 13 days old, outside the 2-3 day window — skipped.
+  * Bayern-Mainz Nov 7 (xgcG0s8R7Os) and AEK-Real Madrid Nov 4 (69IQ8q-g1q0) — already in array.
+  * Women's matches (UWCL Juventus-Lyon, WSL) — out of scope.
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 09:23 and 09:53 runs today and all runs since Nov 15.
