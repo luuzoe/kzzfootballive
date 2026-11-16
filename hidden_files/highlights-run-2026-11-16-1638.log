@@ -1,0 +1,16 @@
+KZZ highlights auto-update run — Mon 2026-11-16 16:38 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break).
+- Searched YouTube/web for new big-team highlights (Nov 9-16):
+  * El Clasico fan re-upload QGbkaOusm2s — Oct 25, 2026 match, out of window, already in do-not-readd — skipped.
+  * Real Madrid 2-1 Inter (EBv3-fQRABM / iQjyCkkeHbE) — beIN SPORTS, banned channel; 69 days old — skipped.
+  * PSG 5-4 Bayern 9-goal thriller (RifwEvA5vpE) — FABRICATED, already in do-not-readd — skipped.
+  * Arsenal vs Chelsea 7-2 (xKXcNJ_pliY) — FABRICATED, already in do-not-readd — skipped.
+  * Liverpool 0-1 Arsenal copies (Nov 1) — 15 days old, out of window; PL official copy is a banned channel — skipped.
+  * PSG vs Barcelona "highlights" (ySQqTgzabDM) — eFootball GAMEPLAY, reject per rule 5b(a) — skipped.
+  * UEFA.com Real Madrid 3-2 Inter / Barcelona 0-3 Juventus / Real Madrid 2-2 Bayern — no matching Nov 2026 UCL fixtures (MD4 was Nov 3-4); stale/recycled content — skipped.
+  * No big-team men's club match played Nov 9-16 (FIFA international window; leagues resume Nov 20-22).
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 15:53 run 45 minutes earlier; nothing changed since.
