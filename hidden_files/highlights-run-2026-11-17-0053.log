@@ -1,0 +1,11 @@
+KZZ highlights auto-update run — Tue 2026-11-17 00:53 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). Unchanged since the 2026-11-17 00:08 run.
+- Searched YouTube/web for new big-team highlights (Nov 14-17):
+  * EPL search: only WSL (Chelsea Women 1-0 Man City — women's, out of scope), Liverpool 0-1 Arsenal Nov 1 (15 days old, out of window, do-not-re-add), Arsenal-Chelsea 7-2 (xKXcNJ_pliY — FABRICATED, do-not-re-add), Arsenal-Man City 3-2 (OOVayShlKu0 — FABRICATED, do-not-re-add), Community Shield Aug (out of window), reaction/analysis Shorts (not highlights).
+  * La Liga/Serie A/Bundesliga search: El Clasico re-upload QGbkaOusm2s (Oct 25 match, out of window, do-not-re-add); Como 9-1 Lens recap (fabricated/roundup, do-not-re-add); Atletico 0-2 Bayern Nov 3 — 13 days old, out of window, and the match is under do-not-re-add (b-CuMCD-eGs + no fan copy either) — skipped; AEK 2-3 Real Madrid Nov 4 already in array (69IQ8q-g1q0); AZ-Juventus Nov 5 (AdoOw_vhmhI, do-not-re-add, out of window); UEFA "Real Madrid 3-2 Inter" (no such Nov 2026 fixture, do-not-re-add); Barcelona 3-2 Real Madrid Supercopa (AllFootball re-date of Jan 2026 final, do-not-re-add); Juventus Women 0-6 Lyon UWCL (women's, out of scope); beIN Clasico link (banned channel anyway).
+- Confirmed: FIFA international window Nov 9-17, 2026; no PL/La Liga/Serie A/Bundesliga/Ligue 1 fixtures Nov 14-16. Leagues resume Nov 20-22.
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 2026-11-17 00:08 run and all runs since Nov 9; nothing changed since.
