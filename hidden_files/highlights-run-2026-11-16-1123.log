@@ -1,0 +1,11 @@
+KZZ Highlights auto-update run — Mon 2026-11-16 11:23 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). No change since 10:53 run.
+- Searched web for new big-team highlights (Nov 9-16):
+  * EPL search: Liverpool 0-1 Arsenal Nov 1 fan/official copies (8Ybx4NS_8vw, 5RjQhIbmE4A, 6pq9OqBoYeE, FIQNH1_1yds, ZEW27igKsWI, G3Q4WUytngo, cu5WgorN9-s) — 15 days old, outside 2-3 day window, skip. WSL Liverpool-Arsenal (l-1GSKH9FGY) — women's, out of scope. Crystal Palace 1-3 Liverpool — already in array (RdejiWAqcBQ). "Arsenal 7-2 Chelsea" (xKXcNJ_pliY) — fabricated, already in do-not-re-add. "Arsenal Masterclass Deep Dive" Shorts — analysis/talk, reject per 5b.
+  * La Liga/Serie A/Bundesliga search: El Clasico Oct 25 re-upload (QGbkaOusm2s — already in do-not-re-add), beIN El Clasico page (banned channel), Real Madrid 2-1 Inter (69 days old, beIN — banned + old), UWCL Juventus 0-6 Lyon / Inter 1-4 Man City (women, out of scope), Barcelona 3-3 Inter + Real Madrid 0-1 Barcelona friendly + Juventus 2-0 Inter + SuperCup items (old/archived, no Nov 2026 fixture), weekend talk roundup (TXvQmvJqLSs — covers already-listed Nov 7-8 matches, not a single-match highlight).
+- No new men's club fixtures Nov 9-16: FIFA November international window; leagues resume Nov 21-22, UCL MD5 Nov 24-25.
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 10:53 run today and all runs since Nov 15.
