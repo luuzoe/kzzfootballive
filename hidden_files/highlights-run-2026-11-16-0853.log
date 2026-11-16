@@ -1,0 +1,21 @@
+KZZ highlights auto-update run — Mon 2026-11-16 08:53 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break).
+- Searched web for new big-team highlights (Nov 9-16):
+  * "Arsenal vs Chelsea 7-2 Highlights" (xKXcNJ_pliY) — already in do-not-readd.json (fabricated, Pochettino-era description); not a candidate. Same as 07:08/07:23 runs.
+  * "Arsenal vs Manchester City 3-2 Highlights" (OOVayShlKu0) — already in do-not-readd.json (fabricated score, no such fixture); not a candidate.
+  * "City 3-0 Arsenal" AllFootball — recycled Jun 2020 restart match (Sterling/De Bruyne/Foden, Luiz sent off, Arteta Covid test); not a candidate.
+  * "Chelsea 2-2 Arsenal" AllFootball — recycled Oct 2023 match (Mudryk, Trossard); not a candidate.
+  * "Arsenal 3-0 Man City | Highlights Community Shield" — Aug 2026, 92 days old, out of window.
+  * Liverpool 0-1 Arsenal (Nov 1, 2026) copies (Stan Sport / Stadium Astro) — 15 days old, out of the 2-3 day window; already flagged in do-not-readd notes.
+  * "Arsenal Masterclass Deep Dive" Short — reaction/analysis format, not highlights; same Nov 1 match anyway.
+  * AllFootball Nov 15 re-dates: PSG 4-0 Real Madrid (Jul 2025 CWC semi), Ronaldo bicycle kick vs Juventus (Apr 2018), Real Madrid 3-2 Leganes (Mar 2025), Union Berlin 2-3 Real Madrid (Dec 2023), Liverpool 2-2 Man City / Bayern 1-2 Frankfurt / Inter 1-0 Barcelona (Oct 2022) / Real Madrid 2-1 Getafe (Sep 2023) — all old matches, none new.
+  * "PSG Beat Bayern Munich 2-0" (visiondesk.in, Nov 14) — recycled Jul 2025 CWC QF, same as 07:23 run.
+  * "PSG sets up Champions League final against Arsenal after beating Bayern" — fabricated/future (final is May 30, 2027); not a candidate.
+  * WSL women's highlights (Chelsea Women 1-0 Man City) and UWCL (Bayern beat PSG, Chelsea held by Häcken) — women's fixtures, out of scope (men's club matches only).
+  * No new men's club fixtures Nov 9-16: FIFA November international window; leagues resume Nov 21-22, UCL MD5 Nov 24-25.
+- All Nov 7-8 matches already in array with club/league-official copies — nothing to upgrade or replace (1-per-match satisfied).
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues.
+- Consistent with the 06:23, 07:08 and 07:23 runs today.
