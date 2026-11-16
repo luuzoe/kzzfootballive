@@ -1,0 +1,16 @@
+KZZ highlights auto-update run — Mon 2026-11-16 07:23 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break).
+- Searched web for new big-team highlights (Nov 9-16):
+  * "Arsenal vs Chelsea 7-2 Highlights" (xKXcNJ_pliY) — fabricated: no such result ever happened (Pochettino-era description, recycled); not a candidate. Same as 07:08 run.
+  * "Napoli 4-3 Bodo/Glimt" All Football article dated Nov 15 — VERIFIED recycled: match played 20 Oct 2026 (UCL MD3) per Sportradar, Sky Sports, LaLiga, terrikon. 27 days old, outside 2-3 day window; not a candidate. (Napoli's next UCL match is at Man City, Nov 24.)
+  * "Union Berlin 2-3 Bayern" DFB-Pokal All Football articles dated Nov 12/15 — VERIFIED recycled: match played 3 Dec 2025 (2025-26 season) per fcbayern.com and fbref. In 2026-27, Bayern's DFB-Pokal R16 tie is Dec 1, 2026 vs Hertha BSC; no Bayern cup match this week. Not a candidate.
+  * "PSG Beat Bayern 2-0" (visiondesk.in, Nov 14) — recycled July 2025 Club World Cup QF (Dembele 52', Hakimi red, Barcola 88'); not a new match.
+  * "PSG 2-0 Lille" All Football (Nov 15) — re-dated old report; no Ligue 1 fixtures during international window.
+  * Real Madrid Women 3-3 Badalona (Nov 14) and Arsenal Women full-match replay vs Barcelona (Nov 14) — women's fixtures, out of scope (men's club matches only).
+  * International matches Nov 14-15 (Portugal-Denmark 1-4, England-Spain 3-2, USMNT-Haiti 6-0, Jamaica-Mexico 3-2) are national teams — out of scope.
+- Consistent with the 06:23 and 07:08 runs today: FIFA November international window, no big-team men's club match Nov 9-15; leagues resume Nov 21-22, UCL MD5 Nov 24-25.
+- All Nov 7-8 matches already in array with club/league-official copies — nothing to upgrade or replace (1-per-match satisfied).
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues.
