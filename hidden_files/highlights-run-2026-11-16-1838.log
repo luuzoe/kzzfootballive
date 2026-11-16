@@ -1,0 +1,12 @@
+KZZ highlights auto-update run — Mon 2026-11-16 18:38 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). app.js mtime Nov 14 23:42 — unchanged since the 17:23 run.
+- Searched web for new big-team highlights (Nov 9-16):
+  * EPL search: only Nov 1 Liverpool 0-1 Arsenal (out of window) and fabricated "Arsenal 7-2 Chelsea" (xKXcNJ_pliY, already in do-not-re-add) — skipped. WSL women's match out of scope.
+  * Real Madrid/Barcelona search: all El Clasico videos are Oct 25-26, 2026 (21+ days old, outside 2-3 day window); no new Clasico played.
+  * Inter/Juve/Napoli/Bayern/Dortmund/PSG search: allfootballapp items are re-dates of old matches (Napoli 1-1 PSG = 2018 UCL; Juventus 3-0 Napoli, Dortmund 0-1 Bayern, Napoli 0-0 Juve pens — no YouTube IDs, old fixtures); Juventus Women 3-2 Inter (Nov 15) is women's football, out of scope. Weekly roundup confirms: men's PL, La Liga, Serie A, Bundesliga, Ligue 1 played NO regular league fixtures during 9-15 November; Nov 14-15 were internationals (Spain 2-3 England, Belgium 4-1 Italy).
+- No big-team men's club match played Nov 9-16 (FIFA international window; leagues resume Nov 20-22, UCL MD5 Nov 24-25).
+- No candidate videos found, so no oEmbed checks needed. No banned-channel or do-not-re-add issues.
+- Consistent with the 17:23 run 15 minutes earlier and all runs since Nov 15.
