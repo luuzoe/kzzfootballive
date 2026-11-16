@@ -1,0 +1,10 @@
+KZZ highlights auto-update run — Tue 2026-11-17 05:08 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). Unchanged since the 2026-11-17 03:53 run (1h15m earlier).
+- Searched YouTube/web for new big-team highlights (Nov 14-17), two searches:
+  * Big-team highlights search: only Nov 1-8 material surfaced — Liverpool 0-1 Arsenal Nov 1 (16 days old, out of 2-3 day window; fan/talk channels only); Arsenal Masterclass analysis Short (talk/analysis, rule 5b(a) — skip); roundup video (Boca/Arsenal/Liverpool/Real Madrid — compilation, skip per rule 1); allfootballapp re-dated old Liverpool-Arsenal reports (Sep 2020, 2023-era — recycled, skip).
+  * Nov 14-16 results search: confirmed FIFA international window Nov 9-17 — men's PL/La Liga/Serie A/Bundesliga/Ligue 1 played no fixtures Nov 14-16 ("did not play regular league fixtures during 9–15 November"). Only Nations League internationals (Spain 2-3 England, France 2-1 Türkiye, Belgium 4-1 Italy — national teams, out of club scope), WSL women's matches (Chelsea 1-0 Man City Women, Arsenal 1-1 London City — women's football, out of site scope), and lower leagues. Leagues resume Nov 20-22.
+- No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 2026-11-17 03:53 run and all runs since Nov 9; nothing changed since.
