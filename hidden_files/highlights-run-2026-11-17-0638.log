@@ -1,0 +1,10 @@
+KZZ highlights auto-update run — Tue 2026-11-17 06:38 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). Unchanged since the 2026-11-17 05:38 run (1h earlier).
+- Searched YouTube/web for new big-team highlights (Nov 14-17), two searches:
+  * EPL search: only Nov 1-8 material — Liverpool 0-1 Arsenal Nov 1 (16 days old, out of 2-3 day window); WSL Liverpool-Arsenal (women's, out of scope); "Arsenal vs Chelsea 7-2" (xKXcNJ_pliY) — known fabricated video already in do-not-re-add stale traps — skipped; "Man City 3-1 Arsenal" blogspot item — known fabricated, already flagged 2026-11-16 21:38 run — skipped; Matchweek 10 roundup (NBC) — compilation + banned channel, skip.
+  * La Liga/Serie A/Bundesliga/Ligue 1 search: every AllFootball item is a recycled old report re-dated Nov 16 — Bayern 1-2 Real Madrid (2018 UCL semi, Kiev final), Barcelona 3-2 Real Madrid Supercopa (Jan 2026), Kessie 92' Clasico (2023), PSG-Barcelona (2024), Benzema hat-trick vs PSG (2022), Barca-Inter 3-3 (2025), Freiburg-Bayern (2023, Tuchel era), Bayern-Gladbach (2023), Real Madrid-Real Sociedad (2023, Joselu). No YouTube IDs for any genuinely new club match.
+- No big-team men's club match played Nov 14-16 (FIFA international window; leagues resume Nov 20-22). No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 2026-11-17 05:38 run and all runs since Nov 9; nothing changed since.
