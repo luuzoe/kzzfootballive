@@ -1,0 +1,8 @@
+Run: 2026-11-17 20:53 Yangon (kzz-highlights-auto-update)
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics), newest match entries dated Nov 8, 2026. Unchanged since the 2026-11-17 20:38 run.
+- Search 1 (EPL highlights Nov 2026): only Nov 6-8 MW10 matches, all already in the array (Crystal Palace-Liverpool, Leeds-Spurs, Forest-Man City, Sunderland-Chelsea, Arsenal-Hull). NBC Sports copies are banned per rule 3. Man Utd 4-4 Aston Villa fan video BHw9fwP7fl8 — match already covered by Aston Villa official entry wOLZ_jiQLdw (1 per match, rule 8).
+- Search 2 (UCL/UEL highlights Nov 15-17): only stale republished old articles (Bayern-Chelsea Giroud era, Hoffenheim-Lyon, Sevilla 2014-era round-ups), UCL MD4 round-up videos from Nov 5 (TNT Sports — banned; roundups skipped), and a fabricated fan video "Real Madrid 4-1 RB Leipzig" 5bI_Ggl2kVY (no such fixture; Real's MD4 match was AEK Athens 2-3 Real Madrid, already in array). Women's CAF final — out of scope.
+- FIFA international window Nov 9-17, 2026; no men's club matches since Nov 8/9. Leagues resume Nov 20-22; UCL MD5 Nov 25-26.
+- No candidate videos, so no oEmbed checks needed. No banned-channel or do-not-re-add issues beyond already-logged traps.
+Result: NO new videos. No deploy (rule 9). Stayed silent per rule 12.
