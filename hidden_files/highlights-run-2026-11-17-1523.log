@@ -1,0 +1,6 @@
+Run: 2026-11-17 15:23 Yangon (kzz-highlights-auto-update)
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026. Unchanged since the 2026-11-17 15:08 run (15 min earlier).
+- Search (big-team highlights): only old matches surfaced. UCL MD4 all-goals roundups (c7CaqsfbSyc, anf6YEhDD7E) are compilations — skipped per rule 1. Liverpool 0-1 Arsenal Nov 1 fan copies (8Ybx4NS_8vw, 5RjQhIbmE4A) are 16 days old, outside the 2-3 day window, already evaluated/skipped by prior runs. Women's WSL/UWCL videos (l-1GSKH9FGY, arsenal.com Camp Nou replay) are out of scope. "BARCELONA EARLY SCARES..." (jXhgZ3HUHDw) is a talk/roundup video — skipped per rule 5b(a). GoalClip confirms UCL MD4 fixtures Nov 3-5 — all already in array. No match dated Nov 9-17 surfaced.
+- International break: no big-team club match played since Nov 8; Premier League returns Sat Nov 21; UCL MD5 Nov 25-26. No candidate videos, so no oEmbed checks needed. No banned-channel or do-not-re-add issues. Do-not-readd list checked (highlights-do-not-readd.json) — nothing surfaced from it.
+Result: NO new videos. No deploy (rule 9). Stayed silent per rule 12.
