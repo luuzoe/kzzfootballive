@@ -1,0 +1,7 @@
+Run: 2026-11-17 15:53 Yangon (kzz-highlights-auto-update)
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026. Unchanged since the 2026-11-17 15:23 run (30 min earlier).
+- Search 1 (fixtures Nov 14-17): international break confirmed — UEFA Nations League only (Spain 2-3 England, Belgium 4-1 Italy, Portugal 1-4 Denmark, etc.); no men's Premier League / La Liga / Serie A / Bundesliga / Ligue 1 fixtures Nov 9-15. FC Barcelona international diary confirms club football on break. Premier League returns Sat Nov 21; UCL MD5 Nov 25-26.
+- Search 2 (YouTube big-team highlights): only old matches surfaced. UCL MD4 all-goals roundup (anf6YEhDD7E) is a compilation — skipped per rule 1. Liverpool 0-1 Arsenal Nov 1 fan copies (5RjQhIbmE4A, 8Ybx4NS_8vw) are 16 days old, outside the 2-3 day window, already evaluated/skipped by prior runs. WSL Liverpool-Arsenal (l-1GSKH9FGY) out of scope. Talk/roundup videos (4VcB8Q_TOKw) skipped per rule 5b(a). GoalClip confirms UCL MD4 fixtures Nov 3-5 — all already in array. No match dated Nov 9-17 surfaced.
+- No candidate videos, so no oEmbed checks needed. No banned-channel or do-not-re-add issues.
+Result: NO new videos. No deploy (rule 9). Stayed silent per rule 12.
