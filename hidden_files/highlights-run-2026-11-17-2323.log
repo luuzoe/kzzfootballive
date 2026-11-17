@@ -1,0 +1,7 @@
+KZZ Highlights auto-update — run 2026-11-17 23:23 Yangon
+- Current array: 40 videos (28 match highlights + 12 Classics), newest match date Nov 8, 2026.
+- Search 1 (EPL big teams Nov 2026): only Liverpool 0-1 Arsenal Nov 1-2 (15 days old, out of 2-3 day window; already in do-not-readd as out-of-window) and women's WSL (out of scope). Fabricated "Arsenal vs Chelsea 7-2" video xKXcNJ_pliY resurfaced — already in do-not-readd, NOT added. No new candidate IDs.
+- Search 2 (Real Madrid/Barcelona/Bayern/Inter/Juventus/PSG Nov 16-17): all AllFootball re-dates of old matches (2018–2025), no YouTube IDs — same set as the 23:08 run (Juventus 3-1 Real old friendly, Real 2-2 Bayern 2018, Inter 0-2 Bayern Sep 2022, Real 1-0 Juventus Oct 2025 UCL MD3, Bayern 2-0 Inter 2022, etc.). No new candidate IDs.
+- FIFA international window Nov 9-17, 2026; no men's club matches since Nov 8/9 (Man Utd 4-4 Aston Villa Nov 9 already in array via Aston Villa official entry wOLZ_jiQLdw). Leagues resume Nov 20-22; UCL MD5 Nov 25-26.
+- No candidate videos, so no oEmbed checks needed. No banned-channel or do-not-re-add issues.
+Result: NO new videos. No deploy (rule 9). Stayed silent per rule 12.
