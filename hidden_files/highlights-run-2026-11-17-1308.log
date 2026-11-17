@@ -1,0 +1,8 @@
+KZZ highlights auto-update run — Tue 2026-11-17 13:08 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). Unchanged since the 2026-11-17 12:53 run (15 min earlier).
+- Searched web for new big-team highlights Nov 16-17: hits are old matches republished (Arsenal 1-4 Man City 2020 Carabao Cup, Liverpool 4-3 Man City 2018, Liverpool 3-1 Arsenal 2020, etc.), the Nov 3-4 UCL MD4 roundup already covered, and a Nov 7-8 weekend talk/breakdown roundup (not a single-match highlight; matches already covered individually). No new big-team men's club match played since Nov 8.
+- No candidate videos, so no oEmbed checks needed. No banned-channel or do-not-re-add issues. Year-trap note from 12:53 run still stands (no "City 3-0 Liverpool Nov 9" fixture exists).
+- Leagues resume Nov 20-22; next expected new highlights then. Consistent with all runs since Nov 9.
