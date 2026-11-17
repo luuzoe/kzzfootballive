@@ -1,0 +1,6 @@
+KZZ Highlights auto-update — run 2026-11-17 23:38 Yangon
+- Current array: 40 videos (28 match highlights + 12 Classics), newest match date Nov 8, 2026.
+- Search 1 (fixtures Nov 9-17): FIFA international window Nov 9–17, 2026 confirmed; last men's club matches Nov 8, all already in array. Next club matches resume Nov 20–22; UCL MD5 Nov 25–26.
+- Search 2 (big-team highlights Nov 16-17): all hits were old re-dated matches (Arsenal 1-4 Man City 2020, Arsenal 5-1 Man City Feb 2025, Man City 4-1 Liverpool Apr 2023, Inter 1-1 Juventus old), women's WSL/UWCL (out of scope), or a Medium blog on UCL MD4 (already covered). Only YouTube hit was the UWCL Matchday 4 compilation — women's + roundup, both excluded by rule 1.
+- No candidate videos, so no oEmbed checks needed. No banned-channel or do-not-re-add issues.
+Result: NO new videos. No deploy (rule 9). Stayed silent per rule 12.
