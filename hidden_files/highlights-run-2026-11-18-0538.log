@@ -1,0 +1,9 @@
+KZZ Highlights auto-update — run 2026-11-18 05:38 Yangon
+- Current array: 40 videos (28 match highlights + 12 Classics), newest match date Nov 8, 2026.
+- Search (two queries):
+  * Big-team query: only AllFootball re-dates of old matches (Arsenal 1-4 Man City Dec 2020 Carabao Cup; Liverpool 4-3 Man City Jan 2018; Arsenal 5-1 Man City Feb 2025; Man City 3-2 Liverpool Dec 2022 Carabao Cup; Man City 4-1 Liverpool Apr 2023; Man City 2-1 Dortmund Apr 2022 UCL QF; WSL matches — women's, out of scope). No YouTube video IDs surfaced; no new club fixture.
+  * Nov 16-17 internationals query: all national-team fixtures only — Nations League (Estonia-Bulgaria, Faroe-Moldova, Lithuania-Liechtenstein, Denmark-Norway 2-3, Bosnia-Romania 2-1, Germany-Netherlands, Greece-Serbia), AFCON qualifiers, CONCACAF Nations League. National teams are NOT big-team clubs (rule 1), so none qualify.
+- International break Nov 9-19 confirmed again — no club fixtures; leagues resume Nov 20-22, UCL MD5 Nov 25-26.
+- Cross-checked prior run log 05:23 (same conclusion, no new candidates) and do-not-readd list (no re-add risk this run).
+- No candidate videos, so no oEmbed checks needed. No banned-channel or do-not-re-add issues.
+Result: NO new videos. No deploy (rule 9). Stayed silent per rule 12.
