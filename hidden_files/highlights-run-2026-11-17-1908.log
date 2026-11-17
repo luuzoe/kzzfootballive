@@ -1,0 +1,9 @@
+Run: 2026-11-17 19:08 Yangon (kzz-highlights-auto-update)
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics), newest match entries dated Nov 8, 2026. No duplicates. Unchanged since the 2026-11-17 18:08 run.
+- Search 1 (big-team highlights Nov 15-16): only women's WSL (Chelsea Women 1-0 Man City, Nov 14-15 — out of scope) and the fabricated Arsenal vs Chelsea 7-2 fan video xKXcNJ_pliY (already in do-not-readd.json; Pochettino-era description, no such fixture).
+- Search 2 (Real Madrid/Barcelona highlights): only El Clasico Oct 25, 2026 fan re-uploads (QGbkaOusm2s etc., 23 days old, out of window; already logged as a trap) plus old 2023-era clips.
+- Search 3 (Serie A/Bundesliga/Ligue 1 highlights Nov 16-17): only AllFootball re-dates of old matches (Cagliari-Sassuolo 2020-21, Sampdoria-Roma 2020-21, Juventus-Sassuolo 2021 Ronaldo/Ramsey, Dortmund-Kiel May 2025, Dortmund-Leipzig 2023 Reus/Can, Leverkusen-Stuttgart 2023-24). No YouTube video IDs attached to any.
+- FIFA international window Nov 9-17, 2026; no men's club matches since Nov 8. Leagues resume Nov 20-22; UCL MD5 Nov 25-26.
+- No candidate videos, so no oEmbed checks needed. No banned-channel or do-not-re-add issues beyond already-logged traps.
+Result: NO new videos. No deploy (rule 9). Stayed silent per rule 12.
