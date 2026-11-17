@@ -1,0 +1,9 @@
+Run: 2026-11-17 18:08 Yangon (kzz-highlights-auto-update)
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026. Unchanged since the 2026-11-17 16:23 run (~1h45m earlier).
+- Search 1 (big-team highlights): only old matches surfaced. Liverpool 0-1 Arsenal Nov 1 fan copies (5RjQhIbmE4A, 8Ybx4NS_8vw, 0zgLj3IuDyA) are 16 days old, already evaluated/skipped by prior runs; WSL Liverpool-Arsenal (Nov 8) out of scope.
+- Search 2 (Real/Barca/Bayern Nov 14-16): only old El Clasico articles (2018-2024 era, republished Nov 16-17) — no new fixtures, no YouTube results.
+- Search 3 (YouTube highlights Nov 14-16): NFL/CFL highlights + Scottish Championship (Partick Thistle 3-2 ICTFC) only — no big-team football matches.
+- FIFA international window Nov 9-17, 2026; no club matches since Nov 8. Premier League returns Sat Nov 21; UCL MD5 Nov 25-26.
+- No candidate videos, so no oEmbed checks needed. No banned-channel or do-not-re-add issues.
+Result: NO new videos. No deploy (rule 9). Stayed silent per rule 12.
