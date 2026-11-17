@@ -1,0 +1,10 @@
+KZZ highlights auto-update run — Tue 2026-11-17 08:23 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). Unchanged since the 2026-11-17 08:08 run (15 min earlier).
+- Searched YouTube/web for new big-team highlights (Nov 14-17), two searches:
+  * EPL search: only Nov 1-2 material — Liverpool 0-1 Arsenal Nov 1 (15 days old, out of 2-3 day window); WSL women's matches (out of scope); "Man City vs Arsenal 3-1" blogspot — fabricated score, no such match — skipped.
+  * Real/Barca/Inter/Juve search: El Clasico fan video (QGbkaOusm2s, Oct 26) — out of window, do-not-re-add — skipped; Milan-Inter 3-1 extended (XJLOcce0IAs, ~Nov 2) — out of window — skipped; AEK-Real Madrid fan copy (G0AVcHt5b4E, Nov 4) — match already covered by official Real Madrid entry 69IQ8q-g1q0, one per match — skipped; Barcelona 3-2 Real Madrid Supercopa (SpDOweouMAQ) — Jan 2026, recycled/re-dated — skipped; Inter-Juventus Women 2-3 (bbMfG8rCv6o) — women's, out of scope — skipped; beIN page — banned channel — skipped. LaLiga MD12 confirmed played Nov 6-8 — all already in the array.
+- No big-team men's club match played Nov 9-16 (FIFA international window; leagues resume Nov 20-22). No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 2026-11-17 08:08 run and all runs since Nov 9; nothing changed since.
