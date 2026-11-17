@@ -1,0 +1,11 @@
+KZZ highlights auto-update run — Tue 2026-11-17 09:53 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). Unchanged since the 2026-11-17 09:23 run (30 min earlier).
+- Searched YouTube/web for new big-team highlights (Nov 14-17), three searches:
+  * EPL search: only Nov 1-8 material already in the array (Liverpool-Arsenal Nov 1, Crystal Palace-Liverpool / Forest-Man City / Arsenal-Hull Nov 8); fan/reaction videos of Liverpool-Arsenal; "Man City vs Arsenal 3-1" blogspot — fabricated score, no such match — skipped.
+  * Real/Barca/Bayern search: El Clasico fan re-uploads (QGbkaOusm2s, Oct 25) — out of window, do-not-re-add — skipped; beIN page (banned channel) — skipped; AllFootball items are re-dates of old matches — Bayern 1-2 Real Madrid (Apr 2018 UCL semi), Barca 0-3 Bayern (2022), Barca 3-2 Real Madrid Supercopa (Jan 2026), UEFA Real 2-1 Bayern semi — none are Nov 2026 fixtures; women's Bayern-Real 2-2 — out of scope.
+  * Inter/Juve/Napoli/PSG/Dortmund/Leverkusen search: women's matches only (Inter-Juventus Women 2-3, full match + highlights — out of scope); Dortmund-Elversberg Nov 7 (already in array as HYxfJfIbSvY); Juventus-Napoli 2-0 Nov 1 (16 days old, outside 2-3 day window) + "HIGHLIGHTS BRUTTI" parody compilation of two matches — skipped; "Dortmund 1-0 Leverkusen: Marco Reus" AllFootball (published Nov 17, recycled old report — Reus left Dortmund in 2024) — no video, skipped; Juventus 3-0 Leverkusen UCL MD2 (Sep/Oct) — old, skipped.
+- No big-team men's club match played Nov 9-16 (FIFA international window; leagues resume Nov 20-22). No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 2026-11-17 09:23 run and all runs since Nov 9; nothing changed since.
