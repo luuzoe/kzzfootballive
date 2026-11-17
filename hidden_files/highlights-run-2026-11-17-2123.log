@@ -1,0 +1,8 @@
+Run: 2026-11-17 21:23 Yangon (kzz-highlights-auto-update)
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics), newest match entries dated Nov 8, 2026. Unchanged since the 2026-11-17 20:53 run.
+- Search 1 (EPL big teams Nov 2026): only Liverpool 0-1 Arsenal Nov 1-2 (16 days old, outside 2-3 day window), fabricated Man City 3-1 Arsenal blogspot (already in do-not-readd.json), women's WSL (out of scope). No new candidate IDs.
+- Search 2 (Real Madrid/Barcelona/Bayern/PSG/Inter/Juventus Nov 16-17): only AllFootball re-dates of old matches — Juventus 3-1 Real Madrid (old friendly, already in do-not-readd.json), Inter 0-2 Bayern Sep 2022 (already logged 18:23 run), Real 2-2 Bayern 2018 semi (already logged 18:23 run), Real Madrid 1-0 Juventus Oct 2025 UCL MD3 (already logged 18:23 run), women's UWCL (out of scope), Real Madrid 3-2 Leganes / El Clasico 3-1 (old 2025). No YouTube video IDs surfaced, no new men's club fixture.
+- FIFA international window Nov 9-17, 2026; no men's club matches since Nov 8/9. Leagues resume Nov 20-22; UCL MD5 Nov 25-26.
+- No candidate videos, so no oEmbed checks needed. No banned-channel or do-not-re-add issues beyond already-logged traps.
+Result: NO new videos. No deploy (rule 9). Stayed silent per rule 12.
