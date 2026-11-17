@@ -1,0 +1,8 @@
+Run: 2026-11-17 14:08 Yangon (kzz-highlights-auto-update)
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026. Unchanged since the 2026-11-17 13:53 run (15 min earlier).
+- Searched web for big-team club highlights Nov 9-17. Search 1+2 confirmed last club fixtures were Nov 7-9 (MW10 EPL, LaLiga MD12, Serie A, Bundesliga MD9, Ligue 1) — all already in array. Premier League returns after international break Sat Nov 21; no new big-team men's club match played since Nov 8.
+- Search 3 surfaced Liverpool 0-1 Arsenal (Nov 1, MW9) videos: NBC copy (SpFyFlWYs1E) = banned channel; Stan Sport copy (ZEW27igKsWI) already evaluated and skipped by the 2026-11-15 runs (banned-channel verdict + 16 days old, outside the 2-3 day window); fan/full-game copies skipped. Atletico-Barcelona fan copy (xujSyG5TMdI) duplicates the FC Barcelona official copy already in array (1 per match). None added.
+- Today's Nov 16-17 news items (Germany-Netherlands 5-0, Switzerland-Scotland 4-0) are international fixtures — out of scope (club big teams only).
+- No candidate videos, so no oEmbed checks needed. No banned-channel or do-not-re-add issues.
+Result: NO new videos. No deploy (rule 9). Stayed silent per rule 12.
