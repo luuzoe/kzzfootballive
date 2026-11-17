@@ -1,0 +1,7 @@
+Run: 2026-11-17 13:53 Yangon (kzz-highlights-auto-update)
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026. Unchanged since the 2026-11-17 13:38 run (15 min earlier).
+- Searched web for big-team club highlights Nov 9-17. Search 1 surfaced only Nov 7-9 fixtures (already in array) plus a suspect "Arsenal vs Chelsea 7-2" video (names Pochettino as Chelsea manager; no such fixture - fabricated, NOT added) and WSL women's matches (out of scope).
+- Search 2 surfaced only recycled old-season reports republished Nov 16-17 (Bayern 1-2 Real Madrid 2018 UCL semi, Barca 2-1 Real Madrid 2023, Real Madrid 1-0 Juventus 2025 CWC, Inter-Barcelona 2025 UCL semi, Bayern-Galatasaray 2023) - year-trap content, NOT new Nov 2026 matches. No candidate videos.
+- International break Nov 9-17; leagues resume Nov 20-22 (PL MW11 Nov 21, LaLiga MD13 Nov 20-22). No new big-team men's club match played since Nov 8, so no oEmbed checks needed. No banned-channel or do-not-re-add issues.
+Result: NO new videos. No deploy (rule 9). Stayed silent per rule 12.
