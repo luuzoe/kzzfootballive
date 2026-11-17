@@ -1,0 +1,10 @@
+KZZ highlights auto-update run — Tue 2026-11-17 11:23 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). Unchanged since the 2026-11-17 10:38 run (45 min earlier).
+- Searched web for new big-team highlights (Nov 14-17), two searches:
+  * EPL search: latest real results are Nov 1-2 (Liverpool 0-1 Arsenal, Nov 1 — 16 days old, outside 2-3 day window; fan/talk channels only, no official copy surfaced) and Nov 7-8 Matchweek 10, all already in the array. PL returns Nov 21, Liverpool-Man Utd Nov 22.
+  * Real/Barca/Bayern/Inter/Juve/PSG search: all re-dated old matches — Juventus 3-1 Real (Kean/Vlahovic), Bayern 1-2 Real (2018 UCL semi, Asensio/Marcelo), Barca 2-1 Real (Kessie 92', Mar 2023), Bayern 2-0 Inter (Pavard/Choupo-Moting, 2022), Real 0-1 Barca (Militao OG, Mar 2023 Copa del Rey), PSG 4-0 Real (2025 CWC). None are Nov 2026 fixtures.
+- No big-team men's club match played Nov 9-16 (FIFA international window; leagues resume Nov 20-22). No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Consistent with the 2026-11-17 10:38 run and all runs since Nov 9; nothing changed since.
