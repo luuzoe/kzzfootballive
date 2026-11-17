@@ -1,0 +1,6 @@
+KZZ Highlights auto-update — run 2026-11-18 00:23 Yangon
+- Current array: 40 videos (28 match highlights + 12 Classics), newest match date Nov 8, 2026.
+- Search (big-team highlights Nov 17, 2026): only Nov 7-8 weekend videos already in array (Man Utd 4-4 Villa, Forest 3-1 Man City, Arsenal 1-0 Hull, etc.), Liverpool 0-1 Arsenal Nov 1 (outside 2-3 day window), and El Clasico fan re-uploads (contradictory scorelines, ~6 days old). No new candidate IDs.
+- FIFA international window Nov 9-17: no men's club matches since Nov 8. Leagues resume Nov 20-22; UCL MD5 Nov 25-26.
+- No candidate videos, so no oEmbed checks needed. No banned-channel or do-not-re-add issues.
+Result: NO new videos. No deploy (rule 9). Stayed silent per rule 12.
