@@ -1,0 +1,9 @@
+Run: 2026-11-17 20:38 Yangon (kzz-highlights-auto-update)
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics), newest match entries dated Nov 8, 2026. Unchanged since the 2026-11-17 19:23 run.
+- Search 1 (EPL big teams Nov 2026): only women's WSL (Chelsea Women 1-0 Man City — out of scope), fabricated Arsenal vs Chelsea 7-2 fan video xKXcNJ_pliY (already in do-not-readd.json), Liverpool 0-1 Arsenal Nov 1-2 (15 days old, outside 2-3 day window).
+- Search 2 (Real Madrid/Barcelona Nov 2026): only El Clasico Oct 25 fan re-uploads (22-23 days old, out of window).
+- Search 3 (Inter/Juve/Napoli/Bayern/Dortmund/PSG Nov 15-17): only women's Serie A (Inter Women vs Juventus Women Nov 15 — out of scope) and stale republished old-season articles (Bayern 2-0 Inter 2022, Dortmund 1-2 Juventus Hummels farewell friendly, Napoli 1-1 Inter with Billing/Dimarco — old). No new men's club match.
+- FIFA international window Nov 9-17, 2026; no men's club matches since Nov 8/9 (Man Utd 4-4 Aston Villa already in array). Leagues resume Nov 20-22; UCL MD5 Nov 25-26.
+- No candidate videos, so no oEmbed checks needed. No banned-channel or do-not-re-add issues beyond already-logged traps.
+Result: NO new videos. No deploy (rule 9). Stayed silent per rule 12.
