@@ -1,0 +1,8 @@
+KZZ Highlights auto-update — run 2026-11-18 00:53 Yangon
+- Current array: 40 videos (28 match highlights + 12 Classics), newest match date Nov 8, 2026.
+- Search 1 (Arsenal highlights): newest real match Arsenal 1-0 Hull City Nov 7 (already in array as Hull City copy Of5tSXUT9wY); Arsenal official extended highlights (5jq0WWOQr-U / mIbzTgakXHU) are embedding-disabled (401) per do-not-readd file — no swap. Liverpool 0-1 Arsenal Nov 1 out of window; El Clasico Oct 25 out of window.
+- Search 2 (Real Madrid/Barcelona): El Clasico Barcelona 1-2 Real Madrid was Oct 25, 2026 — out of 2-3 day window; fan re-upload QGbkaOusm2s already in do-not-readd stale traps. No new candidate.
+- Search 3 (Liverpool/City/Chelsea Nov 15-17): all hits are AllFootball re-dates of old matches (Liverpool 4-3 City Jan 2018, City 3-2 Liverpool Dec 2022 Carabao Cup, Liverpool 1-1 City Mar 2024, City 4-1 Liverpool Apr 2023) or WSL fixtures (Chelsea 1-0 Man City Nov 15, women's — out of scope). No men's club fixture exists Nov 9-17 (FIFA international window).
+- Checked do-not-readd file before adding (none of its IDs surfaced as candidates this run). No banned-channel or duplicate issues.
+- Leagues resume Nov 20-22; UCL MD5 Nov 25-26.
+Result: NO new videos. No deploy (rule 9). Stayed silent per rule 12.
