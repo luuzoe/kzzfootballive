@@ -1,0 +1,11 @@
+KZZ Highlights auto-update — run 2026-11-18 05:23 Yangon
+- Current array: 40 videos (28 match highlights + 12 Classics), newest match date Nov 8, 2026.
+- Search (three queries):
+  * General highlights search: only Nov 7-8 weekend roundups (all already in array); women's and stale re-dates otherwise.
+  * AZ Alkmaar 1-2 Juventus (Europa League MD4, played Nov 5, 2026): real big-team match NOT in the array — Juventus official highlight exists (3t9hzXVY_d8, "KOOP & KOLO COOKED!"). BUT match/video is 12-13 days old, outside the 2-3 day window (rule 6) — NOT added. (Likely missed by Nov 5-6 runs; out of window now, so it stays out. Not a do-not-re-add case, just stale.)
+  * Nov 17 fixtures: UEFA Nations League internationals only (Wales-Portugal, Denmark-Norway, etc.), lower leagues, U21s, women's — no big-team club match played. Bournemouth 3-1 Fulham AllFootball item is a pre-break re-date and neither side is a big team anyway.
+  * No YouTube highlight IDs from Nov 9-17 for any big-team club match within the window.
+- International break Nov 9-19 confirmed again — no club fixtures; leagues resume Nov 20-22, UCL MD5 Nov 25-26.
+- Cross-checked prior run logs 04:08, 04:23, 04:38 (same conclusion, no new candidates).
+- No candidate videos, so no oEmbed checks needed. No banned-channel or do-not-re-add issues.
+Result: NO new videos. No deploy (rule 9). Stayed silent per rule 12.
