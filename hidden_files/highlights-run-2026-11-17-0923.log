@@ -1,0 +1,11 @@
+KZZ highlights auto-update run — Tue 2026-11-17 09:23 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). Unchanged since the 2026-11-17 08:23 run (1 hour earlier).
+- Searched YouTube/web for new big-team highlights (Nov 14-17), two searches:
+  * EPL search: only Nov 1-8 material already in the array; WSL women's matches (out of scope); "Arsenal vs Chelsea 7-2" (xKXcNJ_pliY) — fabricated score, already in do-not-re-add.
+  * Real/Barca/Inter/Juve/Bayern search: all AllFootball items are re-dates of old matches — Barcelona 3-2 Real Madrid Supercopa (Jan 2026), Bayern 1-2 Real Madrid (Apr 2018 UCL semi), Barca 2-1 Real Madrid Kessie 92' (Mar 2023), Juventus 3-1 Real Madrid (old), Inter 3-3 Barcelona UCL semi (2025), Juventus 2-0 Inter (old) — none are Nov 2026 fixtures. YouTube items: QGbkaOusm2s (Oct 25 Clásico fan re-upload, already in do-not-re-add), RI848tY3Kfo (Inter-Juventus Women, out of scope), EBv3-fQRABM (Real 2-1 Inter, 70 days old, beIN keywords — banned channel anyway). UEFA.com items (Inter 0-2 Bayern, Real 3-2 Inter) are old/mislabelled — no such 2026-27 fixtures.
+- No big-team men's club match played Nov 9-16 (FIFA international window; leagues resume Nov 20-22). No oEmbed checks needed (no candidate videos). No banned-channel or do-not-re-add issues beyond those already flagged.
+- Added 7 new re-date traps to highlights-do-not-readd.json (63 traps total).
+- Consistent with the 2026-11-17 08:23 run and all runs since Nov 9; nothing changed since.
