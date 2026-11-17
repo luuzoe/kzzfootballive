@@ -1,0 +1,8 @@
+KZZ highlights auto-update run — Tue 2026-11-17 13:23 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026. Unchanged since the 2026-11-17 13:08 run (15 min earlier).
+- Searched web for big-team club results Nov 14-17: only LaLiga 2 / lower-league fixtures and internationals (Spain-England 2-3, Belgium-Italy 4-1, France-Turkey 2-1, Germany-Netherlands 5-0) — national-team matches, out of scope. LaLiga recent-results list ends Nov 8; weekend recap confirms international break, next PL Matchweek 11 on Nov 21, LaLiga MD13 Nov 20-22.
+- No new big-team men's club match played since Nov 8, so no candidate videos; no oEmbed checks needed. No banned-channel or do-not-re-add issues.
+- Leagues resume Nov 20-22; next expected new highlights then. Consistent with all runs since Nov 9.
