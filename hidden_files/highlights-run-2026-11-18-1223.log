@@ -1,0 +1,15 @@
+KZZ highlights auto-update run — Wed 2026-11-18 12:23 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break).
+- International break Nov 9-17, 2026: no Premier League / LaLiga / Serie A / Bundesliga / Ligue 1 / UCL club matches since Nov 8; leagues resume Nov 20-21. Nov 9-17 fixtures were internationals only (national teams out of scope). Serie A Lazio-Parma 2-2 and Bologna-Udinese 0-0 (Mon Nov 16) involve no big team — skipped.
+- Search surfaced only stale items, all outside the 2-3 day window or already in the array:
+  * Liverpool 0-1 Arsenal (Nov 1) fan videos — 17 days old, already assessed and skipped by earlier runs.
+  * Real Madrid 1-2 Barcelona El Clásico fan video (QGbkaOusm2s, Oct 25 match) — 7 days old, outside window.
+  * UCL Matchday 4 roundup (anf6YEhDD7E) — compilation video, rule 1 skip; its matches (Nov 3-5) already in the array individually.
+  * Liverpool-Arsenal WSL (women's) — out of scope.
+  * 2022 UCL final full-match replay — not a current highlight.
+- All Nov 7-8 big-team matches already in the array (verified: Liverpool-Crystal Palace, Sunderland-Chelsea, Man Utd-Aston Villa, Forest-Man City, Arsenal-Hull, Leeds-Spurs, Atlético-Barcelona, Valencia-Real Madrid, Fiorentina-Juventus, Inter-Como, Genoa-Milan, Napoli-Lazio, Mainz-Bayern, Köln-Leverkusen, Dortmund-Elversberg, PSG-Troyes, plus Nov 3-5 UCL/Europa entries).
+- Do-not-re-add list respected (highlights-do-not-readd.json in goal hidden_files; no re-adds attempted).
+- No deploy (rule 9). Stayed silent per rule 12.
