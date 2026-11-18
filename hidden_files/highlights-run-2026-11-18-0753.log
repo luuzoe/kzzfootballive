@@ -1,0 +1,16 @@
+KZZ Highlights auto-update run — 2026-11-18 07:53 Yangon
+- Read app.js renderHighlights array: 28 match highlights (latest Nov 8, 2026) + 12 Classics = 40 total. No change since last runs.
+- Searches (5 queries: EPL, La Liga, Serie A, Bundesliga/Ligue 1): only Nov 1-8 matches (already in array or out of the 2-3 day window) and known stale/fabricated traps:
+  * Man City 3-0 Liverpool _4jqA-mz_Ig — in do-not-readd (recycled Nov 9, 2025 match). NOT added.
+  * El Clasico Oct 25 fan copies incl. QGbkaOusm2s — in do-not-readd. NOT added.
+  * PSG 5-4 Bayern fabricated 9-goal thriller (FFR4q3YyF10, 1O8HDHTO3_8, RifwEvA5vpE) — in do-not-readd. NOT added.
+  * HIGHLIGHTS BRUTTI EWQjT2R9G2I (Milan-Inter 3-1 / Juve-Napoli 2-0) — parody channel, in do-not-readd. NOT added.
+  * Leverkusen 2-7 PSG (Oct 21, 2025) — in do-not-readd. NOT added.
+  * AllFootball re-dates with no YouTube ID: Liverpool 1-2 Man City (Feb 2026 match), Milan 0-1 Napoli, Inter 1-0 Juventus (Feb 4, 2024, Gatti OG), Bayern 0-1 Leverkusen (Dec 2024 DFB-Pokal, Neuer sent off, Tella header). No club fixtures exist in the Nov 9-17 FIFA window — NOT added.
+  * Juventus 2-0 Napoli (Nov 1, Serie A official iqciggyhLvM) and Bayern 2-2 Dortmund (Nov 1, Bundesliga official YSToP57dISM) — real but 17 days old, out of window. NOT added.
+  * NBC Sports Arsenal-Hull copy — banned channel (rule 3). Same match already covered by Hull City official copy Of5tSXUT9wY. NOT added.
+  * Women's results only (WSL/UWCL) — out of scope.
+- No candidate videos, so no oEmbed checks needed. No banned-channel or do-not-re-add issues beyond the traps above (all correctly skipped).
+- FIFA international break Nov 9-17, 2026: no new big-team club matches; only internationals — national teams, out of scope. Leagues resume Nov 20-22.
+- Prior run log 07:23 reached the same conclusion.
+Result: NO new videos. No deploy (rule 9). Stayed silent per rule 12.
