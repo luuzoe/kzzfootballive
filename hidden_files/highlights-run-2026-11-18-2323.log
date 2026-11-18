@@ -1,0 +1,14 @@
+KZZ highlights auto-update run — Wed 2026-11-18 23:23 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026. md5 1d1f856bfeea9084d9f96a7f89b4b5dd — identical to the 23:08 run (and 20:38/21:38/21:53 runs); array unchanged.
+- International break (Nov 9-18): no Premier League / LaLiga / Serie A / Bundesliga / Ligue 1 / UCL club matches since Nov 8 (Man Utd 4-4 Aston Villa, Nov 9, already in the array as wOLZ_jiQLdw). Leagues resume Nov 20-22; UCL MD5 Nov 24-25.
+- Fresh searches this run surfaced only excluded items:
+  * Fake "Arsenal vs Chelsea 7-2 Highlights" (xKXcNJ_pliY) — DO-NOT-ADD per AGENTS.md (fabricated score, fixture not played; Pochettino cited as Chelsea boss) — skipped again.
+  * Liverpool 0-1 Arsenal Nov 1 copies (8Ybx4NS_8vw, FIQNH1_1yds) — 17 days old, out of 2-3 day window.
+  * WSL women's highlights (Chelsea Women 1-0 Man City, Liverpool-Arsenal WSL, UWCL) — women's football, out of scope.
+  * League roundup/compilation (ueS29Uzde28, Matchweek 9) — compilation, skip per rule 1.
+  * AllFootball re-dates of old matches (Real 2-1 Bayern 2024 semi, Real 2-2 Bayern 2018, Bayern 3-1 Dortmund 2022, Real 2-5 Barca Supercup Jan 2025, Dortmund 0-2 Inter 2025-26, Juventus 2-0 Inter) — no YouTube IDs attached, no current fixtures; Real 2-2 Bayern already in do-not-readd (06:53 run).
+- No candidate passed rules 1/3/5/6, so no oEmbed checks were needed and no array change was made.
+- No deploy (rule 9). Stayed silent per rule 12.
