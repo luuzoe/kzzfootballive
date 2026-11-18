@@ -1,0 +1,20 @@
+KZZ highlights auto-update run — Wed 2026-11-18 20:38 Yangon
+Result: NO new videos. No site change, no deploy.
+
+Checks performed:
+- Read app.js renderHighlights array: 40 total (28 match entries + 12 Classics); newest match entries dated Nov 8, 2026 (last league weekend before international break). Array unchanged since the 16:53 run (md5 1d1f856bfeea9084d9f96a7f89b4b5dd).
+- International break confirmed (Nov 9-18): no Premier League / LaLiga / Serie A / Bundesliga / Ligue 1 / UCL club matches since Nov 8; leagues resume Nov 20-22. Nov 9-18 fixtures were internationals only (national teams out of scope).
+- Two fresh searches this run surfaced only excluded items:
+  * Fake "Arsenal vs Chelsea 7-2 Highlights" (xKXcNJ_pliY) — DO-NOT-ADD per AGENTS.md (fabricated score, fixture not played; cites Pochettino as Chelsea boss) — skipped again.
+  * El Clasico re-uploads (QGbkaOusm2s, y9EUeY-EqG4) — Oct 25 match, already in highlights-do-not-readd.json, out of 2-3 day window — skipped.
+  * Fabricated "PSG vs Bayern 5-4, 9-goal thriller" (1O8HDHTO3_8) — no such fixture — skipped (already flagged in earlier runs).
+  * GSCP UCL MD4 roundup (Pd9UTqJjDC4) and "Champions League Highlights - Matchday 4" (RwB09qzaNdU) — compilations — skipped per rule 1.
+  * Juventus-Napoli cinematic highlights (rZ4GM52uHlg) — Nov 1 match, 17 days old, out of window; "cinematic" angles, not full highlights — skipped.
+  * beIN SPORTS El Clasico page — banned channel — skipped.
+  * WSL women's highlights (Chelsea Women 1-0 Man City, Liverpool vs Arsenal WSL, Nov 8; Juventus Women 0-6 UWCL) — outside the established men's first-team scope of the array — skipped.
+  * Liverpool 0-1 Arsenal (Nov 1) copies — 17 days old, out of 2-3 day window — skipped (incl. Cytavision FIQNH1_1yds and 8Ybx4NS_8vw).
+  * PSG-Villarreal alternate copies (FcbcWHHRFHk, g9teY6ok6Dk) — same match already covered by Villarreal CF official copy RvEablTAe2I; no swap per do-not-readd guard — skipped.
+  * Atletico-Bayern alternate copy (Q93OGgz5vRA) — barred by the b-CuMCD-eGs guard — skipped.
+  * UCL MD4 Nov 3-5 matches (AEK-Real, Feyenoord-Inter, Barca-Villa, Atletico-Bayern, Villarreal-PSG) — already in array.
+- Do-not-re-add list respected (checked ~/workspace/goals/monetize-goal-myanmar-youtube-channel/hidden_files/highlights-do-not-readd.json); verified none of the flagged IDs (xKXcNJ_pliY, 1O8HDHTO3_8, QGbkaOusm2s, y9EUeY-EqG4, FcbcWHHRFHk, Q93OGgz5vRA) are in app.js.
+- No deploy (rule 9). Stayed silent per rule 12.
