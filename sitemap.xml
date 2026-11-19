@@ -19,6 +19,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-19-bbc-footballer-of-the-year.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-19-arena-usmnt-search.html</loc>
     <lastmod>2026-11-19</lastmod>
     <changefreq>daily</changefreq>
@@ -128,12 +134,6 @@
   </url>
   <url>
     <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-18-pochettino-arrives-carrington.html</loc>
-    <lastmod>2026-11-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-18-hallgrimsson-israel-defining-moment.html</loc>
     <lastmod>2026-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
