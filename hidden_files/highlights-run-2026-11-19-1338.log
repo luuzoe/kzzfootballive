@@ -1,0 +1,6 @@
+Run: 2026-11-19 13:38 Yangon (kzz-highlights-auto-update)
+- Array: 28 match highlights (newest Nov 8) + 12 Classics = 40 total. No change.
+- Searches: EPL big-team highlights; Real Madrid/Barcelona/Inter/Juventus/Bayern/PSG highlights Nov 17-19.
+- Findings: FIFA international window continues — no big-team men's CLUB matches played Nov 9-19, so nothing qualifies under rule 1. Only Women's UCL (Nov 18: Real Madrid 3-1 Inter, Chelsea 1-0 PSG, Man City 2-0 Hacken, Juventus 2-0 OH Leuven) and internationals; women's matches are outside the array's established men's scope. Leagues resume Nov 20-22 (PL Nov 21; UCL MD5 Nov 24-25).
+- Traps surfaced and skipped: fake "Arsenal vs Chelsea 7-2 Highlights" (xKXcNJ_pliY) again — already in highlights-do-not-readd.json (verified via grep of run logs; guard list present); "Inter 1-1 Juventus" via allfootballapp (no such fixture); "BBC Mirror" pages (bbcinsight.pages.dev) recycling 2025 UCL quarter-finals/semi-finals as Nov 2026; old Liverpool 0-1 Arsenal Nov 1-2 copies (out of 2-3 day window); WSL women's highlights (out of scope).
+- Result: NO new videos. No deploy, stayed silent per rule 9.
