@@ -1,0 +1,9 @@
+KZZ highlights run 2026-11-20 04:23 Yangon
+- Array checked: 40 entries (28 match videos Nov 3-8 + 12 Classics). Unchanged.
+- International break: no men's big-team club fixtures Nov 9-19 (confirmed again by 2026-11-19 22:23 run, 6h ago). Leagues resume Nov 20-22; Friday fixtures (e.g. Bayern-Cologne) kick off this evening, none played yet at 04:23.
+- Web search (3 queries): no new YouTube highlight IDs in the last 2-3 days.
+  * Arsenal 1-0 Hull (Of5tSXUT9wY) and Man Utd 4-4 Aston Villa (wOLZ_jiQLdw) already in array.
+  * El Clasico clips are Oct 25, 2026 re-uploads (24-25 days old, out of window).
+  * Serie A results are re-dated old matches (Higuain/CR7-era scores, no new IDs).
+  * Juventus 2-0 Napoli video rZ4GM52uHlg ("JUVE STEAL THE SHOW", ~Nov 5, Juventus channel) NOT added: Juventus played Fiorentina and Napoli played Lazio on Nov 8 (both already in array), so no Juventus-Napoli fixture exists in the Nov 3-8 window; "both teams on 14 points" framing does not fit current season — treated as re-dated/out-of-window, same class as prior Serie A traps. Not in do-not-readd.json yet; noted here if it resurfaces.
+- Result: NO new videos. No deploy, per rules 9/12.
