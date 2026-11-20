@@ -1,0 +1,13 @@
+KZZ highlights run 2026-11-20 13:53 Yangon
+- Array checked: 40 entries (28 match videos Nov 3-8 + 12 Classics). Unchanged.
+- International break continues: no men's big-team club match played Nov 9-20 yet.
+  Club football resumes tonight Fri Nov 20: Bayern vs Koln 19:30 UTC / 20:30 CET (= 01:00 Yangon Sat Nov 21) — not yet played (confirmed via ScoreBat/Flashscore/fcbayern.com preview).
+  Sat Nov 21: Man City-Fulham, Chelsea-Leeds, Newcastle-Arsenal, Napoli-Torino, Real Madrid-Celta, Nice-PSG, Leverkusen-Paderborn, Gladbach-Dortmund.
+  Sun Nov 22: Liverpool-Man Utd, Barcelona-Villarreal, Atalanta-Inter, Getafe-Atletico.
+- Web search (3 queries): no new YouTube highlight IDs in the last 2-3 days.
+  * Newest highlights found are all Nov 7-8 matches already in the array.
+  * UEFA.com UCL highlight pages surfaced (Inter 0-1 Real Madrid, Barcelona 0-3 Juventus, etc.) are undated archive pages — no such men's UCL fixtures played Nov 18-20 (MD5 is Nov 25-26); no YouTube IDs attached, nothing to oEmbed-check.
+  * allfootballapp "Bellingham dominates El Clasico" re-dated to Nov 20 — El Clasico was Oct 25; treated as re-dated/fabricated, no video ID attached.
+  * Out of scope, skipped: Women's UCL MD5 Nov 18-19 (Real Madrid W 3-1 Inter W, Chelsea W 1-0 PSG W, Juventus W 2-0 Leuven, Arsenal W 0-2 Lyon, Barcelona W 6-0 Servette) — men's club matches only.
+  * Fake "Arsenal vs Chelsea 7-2" (xKXcNJ_pliY) not seen this run.
+- Result: NO new videos. No deploy, per rules 9/12.
