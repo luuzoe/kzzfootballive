@@ -1,0 +1,10 @@
+KZZ highlights run 2026-11-20 17:08 Yangon
+- Array checked: 40 entries (28 match videos Nov 3-8 + 12 Classics). Unchanged.
+- International break continues: no men's big-team club match played Nov 9-20 yet.
+  Club football resumes tonight Fri Nov 20: Bayern vs Koln 19:30 CET (= 01:00 Yangon Sat Nov 21) — not yet played.
+  Sat Nov 21: Man City-Fulham, Chelsea-Leeds, Spurs-Ipswich, Newcastle-Arsenal, Real Madrid-Celta, Barcelona-Villarreal, Napoli-Torino, Juventus-Venezia, AC Milan-Frosinone, Atalanta-Inter, Getafe-Atletico.
+- Web search (2 queries): no new YouTube highlight IDs in the last 2-3 days.
+  * Q1 (Arsenal/Liverpool/City/Chelsea): only Nov 1-8 videos, all already in array or outside window.
+  * Q2 (Nov 18-19 results): only Women's Champions League MD5 matches involving big clubs (Chelsea 1-0 PSG, Real Madrid 3-1 Inter, Man City 2-0 Hacken, Juventus 2-0 Leuven, Arsenal 0-2 Lyon, Barcelona 6-0 Servette, Bayern 4-0 Austria Wien). Women's matches are outside this highlights scope (array is men's matches only; no prior run has added women's highlights) — NOT added.
+- Do-not-readd list checked (highlights-do-not-readd.json): no candidate matched it this run; fake "Arsenal vs Chelsea 7-2" (xKXcNJ_pliY) did not resurface.
+- Result: NO new videos. No deploy, per rules 9/12.
