@@ -1,0 +1,29 @@
+KZZ highlights run 2026-11-20 18:08 Yangon
+- Array checked: 40 entries (28 match videos Nov 3-8 + 12 Classics). Unchanged.
+- International break continues: no men's big-team club match finished Nov 9-20.
+  Tonight Fri Nov 20 (kick off after this run): Bayern-Koln 19:30 UTC (= 02:00 Yangon Sat),
+  Troyes-Le Havre 19:45 UTC, Athletic-Espanyol 20:00 UTC. None finished yet.
+  Sat Nov 21 resumption: Man City-Fulham, Chelsea-Leeds, Spurs-Ipswich, Newcastle-Arsenal,
+  Real Madrid-Celta, Barcelona-Villarreal, Napoli-Torino, Juventus-Venezia, AC Milan-Frosinone,
+  Atalanta-Inter, Getafe-Atletico.
+- Web search (4 queries): no new YouTube highlight IDs in the last 2-3 days.
+  * Q1 (Arsenal): only Nov 1-8 videos, all already in array or out of window.
+  * Q2 (Real/Barca): El Clasico Oct 25 only; nothing new.
+  * Q3 (Juve/Napoli/Inter/Bayern/PSG): surfaced fabricated/re-dated items, all rejected:
+    - AllFootball "Juventus 2-0 Napoli" (pub Nov 19) — no such fixture (FIFA window; Juve play
+      Venezia, Napoli play Torino Nov 21); "Allegri's side" is wrong (Allegri coaches Milan).
+      No YouTube ID. NOT added.
+    - BBC-mirror "Napoli 2-1 Juventus" (Lukaku pen) — old 2024-25 match (Motta as Juve coach),
+      re-dated. NOT added.
+    - AllFootball "McTominay brace, Napoli draw at Inter" (pub Nov 20) — contradicts Nov 21
+      fixtures (Inter-Atalanta, Napoli-Torino); no YouTube ID. NOT added.
+    - UEFA.com video pages (Bayern 2-0 Inter, Milan 1-0 Napoli "1st leg", Juve 2-2 Bayern,
+      Inter 0-2 Bayern, Paris 2-1 Juve) — undated re-crawls of old knockout ties; UCL MD5 is
+      Nov 25-26; not YouTube embeds anyway. NOT added.
+  * Q4 (City/Liverpool/Chelsea/Spurs): GoalClip confirms latest men's PL match is Man Utd 4-4
+    Aston Villa Nov 8/9 — already in array (wOLZ_jiQLdw). Rest are Nov 7-8 (in array), WSL
+    women's (out of scope), NBC (banned), or re-dated AllFootball "Man City 4-1 Liverpool"
+    (Apr 2023 match, pub Nov 17). NOT added.
+- Do-not-readd list checked: no candidate matched it this run; fake "Arsenal vs Chelsea 7-2"
+  (xKXcNJ_pliY) did not resurface in these queries.
+- Result: NO new videos. No deploy, per rules 9/12.
