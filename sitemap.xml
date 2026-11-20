@@ -139,6 +139,24 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/predictions/2026-11-21-bundesliga.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/predictions/2026-11-21-la-liga.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/predictions/2026-11-21-ligue-1.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-08-atletico-madrid-barcelona.html</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
