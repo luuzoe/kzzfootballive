@@ -1,0 +1,55 @@
+KZZ highlights auto-update run — Sat 2026-11-21 04:08 Yangon
+Result: 1 NEW video added + deployed (commit 9cb2c6c). Live-verified.
+
+New match (first club match after international break):
+- Bayern Munich 1-1 FC Köln, Bundesliga MD10, Fri Nov 20, 2026, Allianz Arena.
+  Verified real via ESPN scoreboard (FT 1-1), TNT Sports live, Bavarian Football Works,
+  VAVEL (goals: Mikey Moore 12' Köln, Nathaniel Brown 37' Bayern; Kane injured 18').
+  Cross-checked vs fixture list — NOT a re-date: the Jan 14, 2026 Cologne 1-3 Bayern
+  (Gnabry/Kim/Karl, at RheinEnergieSTADION) was already flagged as a re-date trap in
+  the 2026-11-20 19:53 run; tonight's match is at Allianz Arena, 1-1.
+
+Video added (top of array):
+- 5uAVF6Mj1-Y — "FC Bayern Munich - Köln 1-1 Highlights Bundesliga 2026/27",
+  channel Footballia, date Nov 20, 2026.
+  Checks: oEmbed 200, 200x113 (16:9), embedding enabled; channel not banned;
+  title is a real highlight (no reaction/review/preview/gameplay words);
+  thumbnail inspected (hidden_files/thumb-check/thumb_5uAV.jpg): both badges +
+  correct 1-1 score in right order + real match footage + HIGHLIGHTS text;
+  not on highlights-do-not-readd.json; match not already in array.
+
+Rejected candidate for same match:
+- xzth9vTj2YA — Dollar VFX, "Bayern Munich vs FC Köln 1-1 HIGHLIGHTS - Nathaniel
+  Brown & Harry Kane Injury!" — oEmbed OK, thumbnail correct this time, but
+  Dollar VFX has a prior wrong-score thumbnail (7-6 vs real 6-5 pens, removed
+  2026-10-29 per AGENTS.md) and only 1 copy per match is allowed — Footballia
+  copy chosen. NOTE: Bundesliga official highlight was not yet published at
+  04:15 Yangon (FT ~21:30 UTC, ~15 min before this run); a later run should
+  REPLACE this fan copy with the Bundesliga/FC Bayern official copy when it
+  appears (rule 8, official replaces fan).
+
+Cap trim (array was at 40):
+- Dropped a5RMHsvLh2k — Man Utd vs Roma, Nov 3, Stan Sport Football (broadcaster).
+  Oldest date group in array was Nov 3 (4 entries); dropped the lowest-priority
+  channel tier among them, preserving the 3 club-official Nov 3 copies.
+- Array now 40 total (28 match + 12 Classics, all Classics intact), no dupes,
+  node --check passed, APP_VERSION 100 -> 101.
+
+Other matches checked Nov 19-20 (ESPN scoreboards):
+- Athletic Club vs Espanyol (in progress at check) and Troyes vs Le Havre — no
+  big team, skipped. No other big-team club match played Nov 19-20.
+- Re-dated/fake items ignored again: AllFootball "Man City 2-1 Arsenal"
+  (Cherki/Haaland) and "Chelsea 0-3 Man City" — no such fixtures in Nov 2026
+  schedule; "Arsenal vs Chelsea 7-2" (xKXcNJ_pliY) fake, do-not-add.
+
+Deploy:
+- app.js?v=549 -> v550, styles.css?v=527 -> v528, sw.js CACHE kzz-v552 -> kzz-v553.
+- gh-pages-deploy.py: "5 file(s) changed, pushed commit 9cb2c6c".
+- Live verification (luuzoe.github.io/kzzfootballive/app.js?v=550): new ID present,
+  dropped ID absent, 40 videos, newest = 5uAVF6Mj1-Y, APP_VERSION 101.
+  (raw.githubusercontent.com/gh-pages returned 404 — branch-name artifact in
+  that URL, not a phantom deploy; the live site serves the new content.)
+
+Next expected: Sat Nov 21 matches (Man City-Fulham, Newcastle-Arsenal,
+Chelsea-Leeds, Spurs-Ipswich, Napoli-Torino, Real Madrid-Celta, PSG-Nice) —
+later runs today should pick up their highlights.
