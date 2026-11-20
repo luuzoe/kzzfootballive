@@ -1,0 +1,16 @@
+KZZ Highlights auto-update run — Fri 2026-11-20 19:08 Yangon
+Result: NO NEW VIDEOS — no deploy, no array change (rule 9/12: stay silent).
+
+Checks performed:
+- Current array: 40 entries (28 match highlights + 12 Classics), latest date Nov 8, 2026.
+- Bundesliga Matchday 10 (bundesliga.com official): Fri Nov 20 Bayern vs Köln kicks off 19:30 UTC = 02:00 Yangon Nov 21 — NOT yet played. Sat Nov 21: Gladbach-Dortmund, Leverkusen-Paderborn. Sun Nov 22: rest. No Bundesliga match finished today.
+- La Liga / Serie A / Ligue 1 Friday fixtures also kick off tonight (CET evening) — none finished by 19:08 Yangon.
+- International break Nov 9-19: no big-team club matches; UCL MD5 is Nov 25-26, UEL MD5 Nov 27.
+- Search traps AVOIDED:
+  * "Hamburg 2-2 Bayern" (allfootballapp, 'Published 2026-11-20') — actually played 31 Jan 2026 (talkSPORT live-updates URL /2026-01-31/). Stale re-published content, NOT a new match. Not added.
+  * "Leverkusen 4-3 Dortmund" (Hummels/Bender/Bailey) and "Bayern 1-0 Union Berlin" (Tuchel/Trippier) — 2023/2024-era content misdated 2026-11-20. Not added.
+  * PL MW9 (Nov 1-2: Liverpool 0-1 Arsenal, Chelsea 2-0 Man Utd, Man City 0-1 Brighton) — 18 days old, outside 2-3 day window; array already at 40 cap. Not added (would displace newer Nov 8 entries).
+  * Man Utd vs Aston Villa Nov 9 (goalclip) — already in array as wOLZ_jiQLdw (Aston Villa, Nov 8). 1-per-match rule satisfied.
+  * WSL women's highlights surfaced — out of scope (men's big-team matches only, per past practice).
+- Do-not-re-add list checked (highlights-do-not-readd.json) — no candidate ID matched it.
+- No deploy. Next expected new highlights: after Bayern-Köln finishes ~04:00 Yangon Nov 21, and Sat Nov 21 matches.
