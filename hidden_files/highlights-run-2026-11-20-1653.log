@@ -1,0 +1,11 @@
+KZZ highlights run 2026-11-20 16:53 Yangon
+- Array checked: 40 entries (28 match videos Nov 3-8 + 12 Classics). Unchanged.
+- International break continues: no men's big-team club match played Nov 9-20 yet.
+  Club football resumes tonight Fri Nov 20: Bayern vs Koln 19:30 CET (= 01:00 Yangon Sat Nov 21) — not yet played.
+  Sat Nov 21: Man City-Fulham, Chelsea-Leeds, Spurs-Ipswich, Newcastle-Arsenal, Real Madrid-Celta, Barcelona-Villarreal, Napoli-Torino, Juventus-Venezia, AC Milan-Frosinone, Atalanta-Inter, Getafe-Atletico.
+- Web search (3 queries): no new YouTube highlight IDs in the last 2-3 days.
+  * Q1 (Arsenal): only Nov 1-8 videos, all already in array (incl. Hull City fan copies — match already covered by Hull City official Of5tSXUT9wY, 1-per-match rule).
+  * Q2 (Real/Barca): El Clasico Oct 25 content only (Real Madrid official y9EUeY-EqG4 already in array? No — that match is NOT in the array; it is Oct 25, outside the 2-3 day window and the array is capped at 40 with Nov 3-8 matches; not added). BBC Mirror items are re-dated old content — ignored.
+  * Q3 (Nov 20 fixtures): Kickoff Lens confirms "No matches finished in the last 7 days." Today's 3 fixtures all upcoming.
+- Do-not-readd list checked (highlights-do-not-readd.json): no candidate matched it this run; fake "Arsenal vs Chelsea 7-2" (xKXcNJ_pliY) did not resurface in this run's results.
+- Result: NO new videos. No deploy, per rules 9/12.
