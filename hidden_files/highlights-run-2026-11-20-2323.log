@@ -1,0 +1,11 @@
+KZZ highlights run 2026-11-20 23:23 Yangon
+- Array checked: 40 entries (28 match videos Nov 3-8 + 12 Classics). Unchanged.
+- International break continues: no men's big-team club match played Nov 9-20 yet.
+  Club football resumes tonight Fri Nov 20: Bayern vs Koln 19:30 UTC (= 02:00 Yangon Sat Nov 21) — not yet played (now 16:53 UTC). Athletic-Espanyol and Troyes-Le Havre (no big team) also tonight, not yet played.
+  Sat Nov 21: Man City-Fulham, Chelsea-Leeds, Tottenham-Ipswich, Newcastle-Arsenal, Napoli-Torino, Real Madrid-Celta, PSG-Nice — all tomorrow.
+- Web search (6 queries): no new YouTube highlight IDs in the last 2-3 days.
+  * Latest real big-team matches still Nov 7-8 (all already in array).
+  * AllFootball "Man City 2-1 Arsenal" (published Nov 20, Cherki/Haaland) is re-dated old content — no such fixture in Nov 2026 schedule (Arsenal next play Newcastle Nov 21; City play Fulham Nov 21). Same re-date trap class flagged in 19:53/22:08 runs. NOT added.
+  * YouTube "HIGHLIGHTS BRUTTI" compilation EWQjT2R9G2I (Milan 3-1 Inter + Juventus 2-0 Napoli, Nov 1-2) — compilation video, outside 2-3 day window; Milan 3-1 Inter is do-not-re-add per AGENTS.md. NOT added.
+  * Other results are re-dated old PL reports / fake BBC-mirror pages (bbcinsight.pages.dev) — no new matches, no new video IDs.
+- Result: NO new videos. No deploy, per rules 9/12.
