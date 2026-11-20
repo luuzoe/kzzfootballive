@@ -1,0 +1,37 @@
+KZZ highlights auto-update run — Sat 2026-11-21 04:23 Yangon
+Result: 1 video REPLACED (fan -> official) + deployed (commit a063be0). Live-verified.
+
+Replacement (rule 8, official replaces fan — as flagged by the 04:08 run):
+- OUT: 5uAVF6Mj1-Y — "FC Bayern Munich - Köln 1-1 Highlights Bundesliga 2026/27",
+  channel Footballia (fan copy, added 04:08 when no official existed yet).
+- IN: uBw8eTgql9I — "Bayern Lose Kane & Olise – And Top Spot? | FC BAYERN - 1. FC KÖLN |
+  Highlights | MD 10 – Bundesliga", channel Bundesliga (league official), date Nov 20, 2026.
+  Match: Bayern Munich 1-1 FC Köln, Bundesliga MD10, Fri Nov 20, 2026, Allianz Arena
+  (verified FT 1-1 via Sportradar/TNT/VAVEL: Moore 12', Brown 37').
+  Checks: oEmbed 200, 200x113 (16:9), embedding enabled; channel not banned;
+  title is a real highlight (no reaction/review/preview/gameplay words);
+  thumbnail inspected (hidden_files/thumb-check/thumb_uBw8eTgql9I.jpg): both badges +
+  correct 1-1 score in right order + HIGHLIGHTS + MATCHDAY 10 + real match photo;
+  not on highlights-do-not-readd.json; no FC Bayern club-channel copy found in search
+  (only the Bundesliga official) — league official is the best available copy.
+  Still 1 video for this match; array stays 40 total (28 match + 12 Classics, all intact),
+  node --check passed, APP_VERSION 101 -> 102.
+
+Also fixed: sw.js STATICS still listed app.js?v=549 / styles.css?v=527 (one behind
+index.html since the 04:08 run); updated to v551/v529 with CACHE kzz-v553 -> kzz-v554.
+
+Other matches checked: none. Sat Nov 21 fixtures (Man City-Fulham, Newcastle-Arsenal,
+Leeds-Chelsea, Leverkusen-Paderborn, Gladbach-Dortmund, Real Madrid-Celta, Nice-PSG)
+all kick off later today (evening Yangon) — later runs should pick up their highlights.
+No new Nov 19-20 big-team matches beyond Bayern-Köln (already covered).
+
+Deploy:
+- app.js?v=550 -> v551, styles.css?v=528 -> v529, sw.js CACHE kzz-v553 -> kzz-v554.
+- gh-pages-deploy.py: "3 file(s) changed, pushed commit a063be0".
+- Live verification (luuzoe.github.io/kzzfootballive/app.js): first fetch served stale
+  cached copy (APP_VERSION 101, size 118840); re-fetch ~20s later shows new content
+  (APP_VERSION 102, size 118886 = local, newest = uBw8eTgql9I, old fan ID absent,
+  40 videos, 12 Classics). Deploy landed; the stale first read was CDN/proxy cache,
+  not a phantom deploy. Site index HTTP 200.
+
+Next expected: Sat Nov 21 evening matches' highlights, from ~19:00 Yangon onward.
