@@ -915,10 +915,10 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "_GiJRDpz_BI", title: "Chelsea vs Leeds 1-4 Highlights Premier league 2026/27", channel: "Footballia", date: "Nov 21, 2026" },
 { id: "ALLKeVg6qCg", title: "Manchester City vs Fulham 1-1 Highlights (Premier League) Man City Fulham", channel: "Imran News Network", date: "Nov 21, 2026" },
 { id: "uBw8eTgql9I", title: "Bayern Lose Kane & Olise – And Top Spot? | FC BAYERN - 1. FC KÖLN | Highlights | MD 10 – Bundesliga", channel: "Bundesliga", date: "Nov 20, 2026" },
 { id: "xgcG0s8R7Os", title: "Rocket From Kimmich! | MAINZ 05 - FC BAYERN | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
-{ id: "QhJjS1i0iT8", title: "BISSECK, ESPOSITO AND ZIELIŃSKI: A BIG EUROPEAN WIN 🖤💙| FEYENOORD 0-3 INTER | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Nov 3, 2026" },
 { id: "RvEablTAe2I", title: "HIGHLIGHTS | VILLARREAL 0-6 PSG | CHAMPIONS LEAGUE", channel: "Villarreal CF", date: "Nov 3, 2026" },
 { id: "CXk8Er7Yf9w", title: "HIGHLIGHTS | FC BARCELONA 3 vs 0 ASTON VILLA | UEFA CHAMPIONS LEAGUE 🔵🔴", channel: "FC Barcelona", date: "Nov 3, 2026" },
 { id: "zas7zC_hP8Q", title: "OM 1-0 Leverkusen : La RÉVOLTE marseillaise ! Un OM convaincant lance enfin sa saison en C3", channel: "L'Équipe", date: "Nov 5, 2026" },
