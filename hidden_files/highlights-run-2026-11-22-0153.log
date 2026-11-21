@@ -1,0 +1,18 @@
+KZZ Highlights run — Sun 2026-11-22 01:53 Yangon
+RESULT: No new videos added. No deploy. (Rule 9 — stay silent.)
+
+Matches checked (big-team, Nov 21):
+- Nice 2-3 PSG (Ligue 1, FT 16:15 UTC): REAL (Reuters/Flashscore). Candidates found:
+  * bvgz--fCDis "TWO GOALS IN ONE MINUTE!" — oEmbed author beIN SPORTS USA → BANNED channel (rule 3). SKIP.
+  * lwNM3aT3lCU MEGOGO Sport Short — single-goal Short, not a full highlight. SKIP.
+  * Ligue 1 McDonald's Shorts (ghNp1n52jx4 etc.) — goal clips only. SKIP.
+  No PSG-official or Ligue 1-official full highlight published yet (~1h15m post-FT). Later run to catch.
+- Bayer Leverkusen 4-0 Paderborn (Bundesliga MD10, FT): REAL (bundesliga.com/Flashscore).
+  Only YouTube copy: KhiZwP-V9_c (Venom Sports) — oEmbed 200x150 = 4:3, FAILS rule 5b(b); already in highlights-do-not-readd.json (01:23 run). Await Bundesliga official copy.
+- Newcastle 2-2 Arsenal (EPL MD11, FT ~19:30 UTC): REAL (The Times live blog: Eze 33', Barnes 49', Thiaw 62', Madueke 78').
+  Match ended ~02:00 Yangon, minutes before this run. No YouTube highlight copy surfaced yet. Later run to catch.
+  NOTE: bbcinsight.pages.dev "Newcastle 1-2 Arsenal Gabriel 96' winner" is FABRICATED (already in do-not-readd list); do not trust that domain.
+- Liverpool vs Man Utd: NOT played — scheduled Sun Nov 22 16:30 UTC. "Liverpool 2-2 Man Utd / Amad Diallo" headline (bbcinsight) is FABRICATED. No highlight exists.
+- Real Madrid vs Celta Vigo (20:00 UTC) and Napoli vs Torino (19:45 UTC): NOT yet kicked off at run time. Later runs.
+
+Array state: 40 total (28 match + 12 Classic) — at cap. Any future add must drop oldest non-Classic (Nov 3 UCL entries first).
