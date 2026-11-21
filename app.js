@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 102; // bump on every deploy
+const APP_VERSION = 103; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -915,6 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "ALLKeVg6qCg", title: "Manchester City vs Fulham 1-1 Highlights (Premier League) Man City Fulham", channel: "Imran News Network", date: "Nov 21, 2026" },
 { id: "uBw8eTgql9I", title: "Bayern Lose Kane & Olise – And Top Spot? | FC BAYERN - 1. FC KÖLN | Highlights | MD 10 – Bundesliga", channel: "Bundesliga", date: "Nov 20, 2026" },
 { id: "xgcG0s8R7Os", title: "Rocket From Kimmich! | MAINZ 05 - FC BAYERN | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
 { id: "QhJjS1i0iT8", title: "BISSECK, ESPOSITO AND ZIELIŃSKI: A BIG EUROPEAN WIN 🖤💙| FEYENOORD 0-3 INTER | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Nov 3, 2026" },
@@ -942,7 +943,6 @@ async function renderHighlights() {
 { id: "jGW0vt6rMLM", title: "HIGHLIGHTS | Nottingham Forest 3-1 Man City | Defeat on the road for the Blues.", channel: "Man City", date: "Nov 7, 2026" },
 { id: "Of5tSXUT9wY", title: "Narrow Defeat At The Champions | Arsenal 1-0 Hull City", channel: "Hull City", date: "Nov 7, 2026" },
 { id: "HYxfJfIbSvY", title: "Nmecha-BRACE! | BORUSSIA DORTMUND - SV ELVERSBERG | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
-{ id: "7c1KI9a_67g", title: "Leeds United 1-0 Tottenham | Premier League Highlights", channel: "Tottenham Hotspur", date: "Nov 7, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
