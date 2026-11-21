@@ -917,7 +917,7 @@ async function renderHighlights() {
   const videos = [
 { id: "I9zCBwd5ywU", title: "(N)MATCHWINNER NMECHA! | BORUSSIA M'GLADBACH - BORUSSIA DORTMUND | Highlights | MD 10 – Bundesliga", channel: "Bundesliga", date: "Nov 21, 2026" },
 { id: "A-X4nYFfQAs", title: "Williams-Barnett makes Spurs history! 🌟 | Tottenham 2-0 Ipswich | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 21, 2026" },
-{ id: "_GiJRDpz_BI", title: "Chelsea vs Leeds 1-4 Highlights Premier league 2026/27", channel: "Footballia", date: "Nov 21, 2026" },
+{ id: "NII-I8np-XU", title: "Leeds secure first PL Stamford Bridge win since 1999 | Chelsea 1-4 Leeds | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 21, 2026" },
 { id: "ALLKeVg6qCg", title: "Manchester City vs Fulham 1-1 Highlights (Premier League) Man City Fulham", channel: "Imran News Network", date: "Nov 21, 2026" },
 { id: "uBw8eTgql9I", title: "Bayern Lose Kane & Olise – And Top Spot? | FC BAYERN - 1. FC KÖLN | Highlights | MD 10 – Bundesliga", channel: "Bundesliga", date: "Nov 20, 2026" },
 { id: "xgcG0s8R7Os", title: "Rocket From Kimmich! | MAINZ 05 - FC BAYERN | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
