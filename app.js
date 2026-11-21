@@ -915,6 +915,9 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "cc0rEZu4Idk", title: "Newcastle United vs Arsenal 2-2 HIGHLIGHTS ⚫⚪🔴 Premier League 2026/27 (1080p)", channel: "Wigans", date: "Nov 21, 2026" },
+{ id: "FlCJZU401fw", title: "Nice - PSG | 2-3 | Highlights | Ligue 1 2026-27", channel: "Sponitor", date: "Nov 21, 2026" },
+{ id: "7EhagOYCX4w", title: "Bayer Leverkusen vs. Paderborn | Highlights Bundesliga | Jornada 10 | Telemundo Deportes", channel: "Telemundo Deportes", date: "Nov 21, 2026" },
 { id: "I9zCBwd5ywU", title: "(N)MATCHWINNER NMECHA! | BORUSSIA M'GLADBACH - BORUSSIA DORTMUND | Highlights | MD 10 – Bundesliga", channel: "Bundesliga", date: "Nov 21, 2026" },
 { id: "A-X4nYFfQAs", title: "Williams-Barnett makes Spurs history! 🌟 | Tottenham 2-0 Ipswich | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 21, 2026" },
 { id: "NII-I8np-XU", title: "Leeds secure first PL Stamford Bridge win since 1999 | Chelsea 1-4 Leeds | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 21, 2026" },
@@ -940,9 +943,6 @@ async function renderHighlights() {
 { id: "RU0oJGCgOjQ", title: "Sunderland 1-0 Chelsea | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea Football Club", date: "Nov 8, 2026" },
 { id: "IwFtdoY5q9E", title: "CISSE e PULISIC decidono a Marassi | Genoa-Milan 1-2 | Highlights Serie A", channel: "AC Milan", date: "Nov 8, 2026" },
 { id: "T3ItnuMwGjc", title: "📽️ HIGHLIGHTS | SERIE A ENILIVE, NAPOLI-LAZIO 1-1", channel: "S.S. Lazio", date: "Nov 8, 2026" },
-{ id: "50LZL-1eXlU", title: "HIGHLIGHTS | Valencia CF 0-3 Real Madrid | LaLiga", channel: "Real Madrid", date: "Nov 7, 2026" },
-{ id: "R6mRSJzpZ2g", title: "PARIS SAINT-GERMAIN - ESTAC TROYES (1-0) | Week 10 - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Nov 7, 2026" },
-{ id: "jGW0vt6rMLM", title: "HIGHLIGHTS | Nottingham Forest 3-1 Man City | Defeat on the road for the Blues.", channel: "Man City", date: "Nov 7, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
