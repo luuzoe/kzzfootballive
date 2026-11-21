@@ -915,6 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "A-X4nYFfQAs", title: "Williams-Barnett makes Spurs history! 🌟 | Tottenham 2-0 Ipswich | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 21, 2026" },
 { id: "_GiJRDpz_BI", title: "Chelsea vs Leeds 1-4 Highlights Premier league 2026/27", channel: "Footballia", date: "Nov 21, 2026" },
 { id: "ALLKeVg6qCg", title: "Manchester City vs Fulham 1-1 Highlights (Premier League) Man City Fulham", channel: "Imran News Network", date: "Nov 21, 2026" },
 { id: "uBw8eTgql9I", title: "Bayern Lose Kane & Olise – And Top Spot? | FC BAYERN - 1. FC KÖLN | Highlights | MD 10 – Bundesliga", channel: "Bundesliga", date: "Nov 20, 2026" },
@@ -942,7 +943,6 @@ async function renderHighlights() {
 { id: "R6mRSJzpZ2g", title: "PARIS SAINT-GERMAIN - ESTAC TROYES (1-0) | Week 10 - Ligue 1 McDonald's 26/27", channel: "Ligue 1 McDonald's", date: "Nov 7, 2026" },
 { id: "jGW0vt6rMLM", title: "HIGHLIGHTS | Nottingham Forest 3-1 Man City | Defeat on the road for the Blues.", channel: "Man City", date: "Nov 7, 2026" },
 { id: "Of5tSXUT9wY", title: "Narrow Defeat At The Champions | Arsenal 1-0 Hull City", channel: "Hull City", date: "Nov 7, 2026" },
-{ id: "HYxfJfIbSvY", title: "Nmecha-BRACE! | BORUSSIA DORTMUND - SV ELVERSBERG | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
