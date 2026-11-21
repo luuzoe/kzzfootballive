@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T02:55:28+06:30",
+ "updated": "2026-11-21T03:02:54+06:30",
  "summary": {
   "resolved": 174,
   "correct": 96,
@@ -1663,6 +1663,150 @@
    "pick_en": "Athletic Club win",
    "score": "0-1",
    "outcome": "wrong"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "Manchester City",
+   "away": "Fulham",
+   "league": "Premier League",
+   "pick_en": "Manchester City win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "Deportivo Alavés",
+   "away": "Deportivo La Coruña",
+   "league": "La Liga",
+   "pick_en": "Draw",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "Como",
+   "away": "Cagliari",
+   "league": "Serie A",
+   "pick_en": "Como win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "Lazio",
+   "away": "Lecce",
+   "league": "Serie A",
+   "pick_en": "Lazio win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "Bayer Leverkusen",
+   "away": "SC Paderborn",
+   "league": "Bundesliga",
+   "pick_en": "Bayer Leverkusen win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "Borussia Mönchengladbach",
+   "away": "Borussia Dortmund",
+   "league": "Bundesliga",
+   "pick_en": "Borussia Dortmund win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "Eintracht Frankfurt",
+   "away": "TSG Hoffenheim",
+   "league": "Bundesliga",
+   "pick_en": "Eintracht Frankfurt win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "SV Elversberg",
+   "away": "SC Freiburg",
+   "league": "Bundesliga",
+   "pick_en": "SC Freiburg win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "Union Berlin",
+   "away": "RB Leipzig",
+   "league": "Bundesliga",
+   "pick_en": "RB Leipzig win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "Aston Villa",
+   "away": "Sunderland",
+   "league": "Premier League",
+   "pick_en": "Aston Villa win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "Bournemouth",
+   "away": "Nottingham Forest",
+   "league": "Premier League",
+   "pick_en": "Bournemouth win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "Chelsea",
+   "away": "Leeds United",
+   "league": "Premier League",
+   "pick_en": "Chelsea win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "Coventry City",
+   "away": "Crystal Palace",
+   "league": "Premier League",
+   "pick_en": "Coventry City win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "Tottenham Hotspur",
+   "away": "Ipswich Town",
+   "league": "Premier League",
+   "pick_en": "Tottenham Hotspur win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "Rayo Vallecano",
+   "away": "Valencia",
+   "league": "La Liga",
+   "pick_en": "Rayo Vallecano win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "Nice",
+   "away": "Paris Saint-Germain",
+   "league": "Ligue 1",
+   "pick_en": "Paris Saint-Germain win",
+   "score": null,
+   "outcome": "pending"
   }
  ]
 }
