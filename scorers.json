@@ -111,24 +111,24 @@
    },
    {
     "rank": 6,
+    "player": "Roberto Fernández",
+    "team": "အက်စ်ပန်ညောလ်",
+    "goals": 7,
+    "pid": "318773"
+   },
+   {
+    "rank": 7,
     "player": "Sergio Camello",
     "team": "ရာယိုဗယ်လီကာနို",
     "goals": 7,
     "pid": "276652"
    },
    {
-    "rank": 7,
+    "rank": 8,
     "player": "Fermín López",
     "team": "ဘာစီလိုနာ",
     "goals": 7,
     "pid": "354334"
-   },
-   {
-    "rank": 8,
-    "player": "Roberto Fernández",
-    "team": "အက်စ်ပန်ညောလ်",
-    "goals": 6,
-    "pid": "318773"
    },
    {
     "rank": 9,
@@ -327,38 +327,38 @@
    },
    {
     "rank": 6,
+    "player": "Josh Maja",
+    "team": "လဟာဗေး",
+    "goals": 5,
+    "pid": "243514"
+   },
+   {
+    "rank": 7,
     "player": "Ludovic Ajorque",
     "team": "ဘရက်စ်",
     "goals": 5,
     "pid": "192015"
    },
    {
-    "rank": 7,
+    "rank": 8,
     "player": "Florian Thauvin",
     "team": "လန့်စ်",
     "goals": 5,
     "pid": "156898"
    },
    {
-    "rank": 8,
+    "rank": 9,
     "player": "Casper Tengstedt",
     "team": "တူးလူး",
     "goals": 5,
     "pid": "306664"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Boulaye Dia",
     "team": "ရန်းစ်",
     "goals": 5,
     "pid": "282381"
-   },
-   {
-    "rank": 10,
-    "player": "Gessime Yassine",
-    "team": "စထရာ့စ်ဘတ်",
-    "goals": 4,
-    "pid": "379012"
    }
   ],
   "ned.1": [
@@ -926,17 +926,17 @@
    },
    {
     "rank": 9,
+    "player": "Michael Olise",
+    "team": "ဘိုင်ယန်",
+    "assists": 3,
+    "pid": "286831"
+   },
+   {
+    "rank": 10,
     "player": "Matthias Ginter",
     "team": "ဖရိုင်းဘတ်",
     "assists": 3,
     "pid": "170209"
-   },
-   {
-    "rank": 10,
-    "player": "Ibrahim Maza",
-    "team": "လီဗာကူဆင်",
-    "assists": 3,
-    "pid": "361212"
    }
   ],
   "fra.1": [
