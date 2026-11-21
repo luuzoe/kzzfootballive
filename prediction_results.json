@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T03:02:54+06:30",
+ "updated": "2026-11-21T08:55:58+06:30",
  "summary": {
   "resolved": 174,
   "correct": 96,
@@ -1805,6 +1805,15 @@
    "away": "Paris Saint-Germain",
    "league": "Ligue 1",
    "pick_en": "Paris Saint-Germain win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-21",
+   "home": "Parma",
+   "away": "AS Roma",
+   "league": "Serie A",
+   "pick_en": "AS Roma win",
    "score": null,
    "outcome": "pending"
   }
