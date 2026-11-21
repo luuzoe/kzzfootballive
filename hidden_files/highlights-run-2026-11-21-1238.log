@@ -1,0 +1,10 @@
+KZZ Highlights run — Sat 2026-11-21 12:38 Yangon
+Array checked: 40 videos (28 match + 12 Classics), newest uBw8eTgql9I (Bayern 1-1 Köln, Nov 20).
+- Bayern Munich 1-1 FC Köln (Bundesliga MD10, Fri Nov 20) — official Bundesliga copy uBw8eTgql9I ALREADY top of array.
+- Fri Nov 20 other matches (Athletic-Espanyol, Troyes-Le Havre) — no big team. Skip.
+- Sat Nov 21 fixtures NOT yet kicked off (sportscafe live scores, crawled ~1h ago: all NS — Man City-Fulham 12:30 UK / 19:00 Yangon first; Chelsea-Leeds, Tottenham-Ipswich 15:00 UK; Newcastle-Arsenal 17:30 UK). FB/IG "results" graphics for today are pre-match predictions (IG post dated Nov 19-20). No finished big-team match since the 11:38 run.
+- Liverpool 1-2 Man City "Extended Highlights" (VJHvtNFXZcU): oEmbed returns 401 Unauthorized = embedding DISABLED → SKIP per rule 5. Also the match report is the re-dated/fabricated class (claims "13 games remaining" in November; no such fixture Nov 9-20 per verified schedule). NOT added.
+- City 3-0 Liverpool "EXTENDED HIGHLIGHTS" (_4jqA-mz_Ig, Man City official, 16:9, oEmbed 200): REAL video of the Nov 8 Etihad match, but 13 days old — OUTSIDE the 2-3 day window (rule 6). NOT added.
+- Fake BBC-mirror pages again circulating (bbcinsight.pages.dev "Fulham 4-5 Man City", "Man City 2-1 Newcastle") — matches not yet played. Ignored.
+- Fake "Arsenal vs Chelsea 7-2" (xKXcNJ_pliY) still in search results — do-not-add per AGENTS.md. Ignored.
+Result: NO NEW VIDEOS. No deploy (rule 9).
