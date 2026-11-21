@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-20T08:53:04+06:30",
+ "updated": "2026-11-21T02:55:28+06:30",
  "summary": {
-  "resolved": 171,
-  "correct": 95,
-  "wrong": 76,
-  "accuracy_pct": 55.6,
+  "resolved": 174,
+  "correct": 96,
+  "wrong": 78,
+  "accuracy_pct": 55.2,
   "not_found": 8
  },
  "results": [
@@ -1636,6 +1636,33 @@
    "pick_en": "Plymouth Parkway win",
    "score": "2-1",
    "outcome": "correct"
+  },
+  {
+   "date": "2026-11-20",
+   "home": "Bayern Munich",
+   "away": "FC Köln",
+   "league": "Bundesliga",
+   "pick_en": "Bayern Munich win",
+   "score": "1-1",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-11-20",
+   "home": "Troyes",
+   "away": "Le Havre",
+   "league": "Ligue 1",
+   "pick_en": "Troyes win",
+   "score": "3-1",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-20",
+   "home": "Athletic Club",
+   "away": "Espanyol",
+   "league": "La Liga",
+   "pick_en": "Athletic Club win",
+   "score": "0-1",
+   "outcome": "wrong"
   }
  ]
 }
