@@ -916,7 +916,7 @@ async function renderHighlights() {
   html += `<div class="highlights-grid">`;
   const videos = [
 { id: "cc0rEZu4Idk", title: "Newcastle United vs Arsenal 2-2 HIGHLIGHTS ⚫⚪🔴 Premier League 2026/27 (1080p)", channel: "Wigans", date: "Nov 21, 2026" },
-{ id: "FlCJZU401fw", title: "Nice - PSG | 2-3 | Highlights | Ligue 1 2026-27", channel: "Sponitor", date: "Nov 21, 2026" },
+{ id: "2IrxtGU_leo", title: "PSG hold on in dramatic win! | Nice 2-3 PSG | Ligue 1 Highlights", channel: "Sky Sports Football", date: "Nov 21, 2026" },
 { id: "7EhagOYCX4w", title: "Bayer Leverkusen vs. Paderborn | Highlights Bundesliga | Jornada 10 | Telemundo Deportes", channel: "Telemundo Deportes", date: "Nov 21, 2026" },
 { id: "I9zCBwd5ywU", title: "(N)MATCHWINNER NMECHA! | BORUSSIA M'GLADBACH - BORUSSIA DORTMUND | Highlights | MD 10 – Bundesliga", channel: "Bundesliga", date: "Nov 21, 2026" },
 { id: "A-X4nYFfQAs", title: "Williams-Barnett makes Spurs history! 🌟 | Tottenham 2-0 Ipswich | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 21, 2026" },
