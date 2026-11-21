@@ -915,6 +915,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "bpoAyCJyYWE", title: "Real Madrid - Celta Vigo | 2-1 | Highlights | La Liga 2026-27", channel: "Sponitor", date: "Nov 21, 2026" },
+{ id: "QV_L87w0bc8", title: "Napoli vs. Torino | Highlights Serie A | Jornada 12 | Telemundo Deportes", channel: "Telemundo Deportes", date: "Nov 21, 2026" },
 { id: "I7ooFa4RCvQ", title: "Madueke rescues point for Arsenal! | Newcastle 2-2 Arsenal | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 21, 2026" },
 { id: "2IrxtGU_leo", title: "PSG hold on in dramatic win! | Nice 2-3 PSG | Ligue 1 Highlights", channel: "Sky Sports Football", date: "Nov 21, 2026" },
 { id: "7EhagOYCX4w", title: "Bayer Leverkusen vs. Paderborn | Highlights Bundesliga | Jornada 10 | Telemundo Deportes", channel: "Telemundo Deportes", date: "Nov 21, 2026" },
@@ -941,8 +943,6 @@ async function renderHighlights() {
 { id: "6DEh00JjkmE", title: "Crazy Freekick Opens Score! | 1. FC KÖLN - BAYER 04 LEVERKUSEN | Highlights | Matchday 9 Bundesliga", channel: "Bundesliga", date: "Nov 8, 2026" },
 { id: "RdejiWAqcBQ", title: "Match Highlights | Crystal Palace 1-3 Liverpool | Premier League", channel: "Crystal Palace FC", date: "Nov 8, 2026" },
 { id: "RU0oJGCgOjQ", title: "Sunderland 1-0 Chelsea | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea Football Club", date: "Nov 8, 2026" },
-{ id: "IwFtdoY5q9E", title: "CISSE e PULISIC decidono a Marassi | Genoa-Milan 1-2 | Highlights Serie A", channel: "AC Milan", date: "Nov 8, 2026" },
-{ id: "T3ItnuMwGjc", title: "📽️ HIGHLIGHTS | SERIE A ENILIVE, NAPOLI-LAZIO 1-1", channel: "S.S. Lazio", date: "Nov 8, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
