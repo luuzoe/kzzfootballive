@@ -1,0 +1,20 @@
+KZZ Highlights run — Sun 2026-11-22 10:08 Yangon
+RESULT: No new videos. No changes, no deploy. (Rule 9 — stay silent.)
+
+Checked (15 min after the 09:53 run; same state):
+- Array: 40 total (28 match + 12 Classic) — at cap. All Nov 20-21 big-team matches already covered:
+  Newcastle 2-2 Arsenal (Sky), Chelsea 1-4 Leeds (Leeds Utd Official), Man City 1-1 Fulham (Sky),
+  Tottenham 2-0 Ipswich (Spurs), Real Madrid 2-1 Celta (LALIGA), Napoli 1-0 Torino (Serie A),
+  Nice 2-3 PSG (Sky), Leverkusen-Paderborn (Telemundo), Gladbach-Dortmund (Bundesliga),
+  Bayern-Koln Nov 20 (Bundesliga). No fan copies in the array to replace with official ones.
+- Nov 22 fixtures not yet played: Liverpool-Man Utd 16:30 UTC (23:00 Yangon), Barcelona-Villarreal,
+  Atalanta-Inter, Juventus-Venezia, AC Milan-Frosinone, Getafe-Atletico. Next pickups from evening runs.
+- Candidates checked and REJECTED this run (oEmbed-verified):
+  * nlDemuXNRzs "Barcelona 3-0 Getafe [HIGHLIGHTS]" — author "Loork Football", title says
+    "Match Simulation/Recreation" — simulation, not real highlights (rule 5b). Already in
+    do-not-readd.json from the 06:38 run; no fixture (Barcelona play Villarreal today).
+  * n-4fDFlDwcI "INTER-JUVENTUS 3-2 | HIGHLIGHTS" (Serie A official, oEmbed 200x113 valid) —
+    LAST SEASON (Serie A 2025/26), not Nov 2026; no Inter-Juve fixture this weekend.
+    Added to highlights-do-not-readd.json stale_traps list this run.
+  * "Liverpool 2-2 Man Utd" BBC Mirror (bbcinsight.pages.dev) — fabricated, match not played;
+    same fake-mirror domain already in do-not-readd from 06:53 run.
