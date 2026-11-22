@@ -1,0 +1,17 @@
+KZZ Highlights run — Mon 2026-11-23 01:53 Yangon
+RESULT: Updated + deployed (commit a619232). Array still 40 (28 match + 12 Classic).
+
+Changes:
+1. ADDED AC Milan 5-1 Frosinone (Nov 22) — iB9ljgtzriM, channel "Dollar VFX" (fan).
+   - Verified real: 5-1 confirmed by besoccer/sempremilan/football-italia (Calvani OG 3', Ramos 18', Masini 24', Jashari 47', Cisse 59', Pulisic 67').
+   - oEmbed valid JSON, 200x113 (16:9). Thumbnail fetched and inspected directly: real match photo (two Milan players), BOTH badges (ACM 1899 + Frosinone Calcio), correct score 5-1, "HIGHLIGHTS" graphic — passes rule 5b(c).
+   - NOTE on channel history: Dollar VFX has a prior reversed-score thumbnail removal (tJPhiMgJyQo, 7-6 vs real 6-5 pens) and the 20:23/20:38 runs rejected its Juve-Venezia copy on that basis. This specific copy was thumbnail-verified correct this run, so added per rule 5b(c) per-video check. Not in highlights-do-not-readd.json. No official Serie A / AC Milan full-highlights copy found in search — replace with official if one publishes.
+2. REPLACED Liverpool-Man Utd fan copy Diskie House QiOW5046ntk with Sky Sports Premier League ArttthJA97s (broadcaster, tier 3 > fan). Title: "Liverpool condemn Pochettino to NIGHTMARE start! | Liverpool 4-0 Man Utd | Premier League Highlights". oEmbed valid, 200x113. Description lists all 4 goals (Szoboszlai, Wirtz, Ngumoha, Muñoz) — full-match, published after FT. do-not-readd.json entry for this match explicitly said to replace the fan copy with an official copy when one appears.
+   - REJECTED for this match: JGTW6dquto4 (fotbal Tefo, in do-not-readd.json — partial clip), eJShdUmAqMc (Dollar VFX, in do-not-readd.json — partial clip published mid-match), z-39ZW48VYE (same class).
+3. DROPPED oldest non-Classic to stay at cap 40: zas7zC_hP8Q (OM 1-0 Leverkusen, Nov 5, L'Équipe). All 12 Classics untouched.
+
+Not yet played / no highlights yet: Atalanta-Inter (KO 02:15 Yangon), Getafe-Atlético (KO 02:30 Yangon) — next runs.
+Already in array, no action: Barcelona 3-2 Villarreal (LaLiga official), Juventus-Venezia (Serie A official), Real Madrid 2-1 Celta, Napoli-Torino, Newcastle-Arsenal, Nice-PSG, Leverkusen-Paderborn, Gladbach-Dortmund, Spurs-Ipswich, Chelsea-Leeds, Man City-Fulham, Bayern-Köln.
+
+Deploy: app.js?v=569→570, styles.css?v=547→548, sw.js CACHE kzz-v572→v573. gh-pages-deploy.py pushed commit a619232 (branch main — note: this repo serves Pages from main, NOT gh-pages; raw check must use /main/).
+Live verification: raw.githubusercontent.com/luuzoe/kzzfootballive/main/app.js = 119102 bytes (matches local), contains iB9ljgtzriM + ArttthJA97s, old OM ID absent. Live site app.js?v=570 also 119102 bytes with new ID. (First fetch ~1 min after push still served old 119033-byte file — Pages CDN lag; re-checked after 45s, new file live.)
