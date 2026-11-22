@@ -919,7 +919,7 @@ async function renderHighlights() {
 { id: "NgCLwHexo5E", title: "Atalanta vs. Inter | Highlights Serie A | Jornada 12 | Telemundo Deportes", channel: "Telemundo Deportes", date: "Nov 22, 2026" },
 { id: "88S0aBcQ0Bc", title: "The Rossoneri Triumph At San Siro | MILAN-FROSINONE | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 22, 2026" },
 { id: "ArttthJA97s", title: "Liverpool condemn Pochettino to NIGHTMARE start! | Liverpool 4-0 Man Utd | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 22, 2026" },
-{ id: "Ngrd58fZSVA", title: "FC BARCELONA 3 - 2 VILLARREAL CF | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Nov 22, 2026" },
+{ id: "ldXZdhBLMKk", title: "FC BARCELONA 3 vs 2 VILLARREAL | LALIGA 2026/27 MD13 🔵🔴", channel: "FC Barcelona", date: "Nov 22, 2026" },
 { id: "OlFHgiP3JJY", title: "A GIANT VICTORY | JUVENTUS 4-0 VENEZIA | HIGHLIGHTS SERIE A | WOLTEMADE, KOOP, KOLO & CABAL GOALS", channel: "Juventus", date: "Nov 22, 2026" },
 { id: "W8InB9bFuNE", title: "HIGHLIGHTS | Real Madrid 2-1 Celta | LaLiga", channel: "Real Madrid", date: "Nov 21, 2026" },
 { id: "hIn0YqsC8Cg", title: "McTominay Does It For Napoli | NAPOLI-TORINO | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 21, 2026" },
