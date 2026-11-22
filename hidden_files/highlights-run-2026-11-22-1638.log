@@ -1,0 +1,30 @@
+KZZ Highlights run — Sun 2026-11-22 16:38 Yangon
+RESULT: No new videos. No changes, no deploy. (Rule 9 — stay silent.)
+
+Checked (5h15m after the 11:23 run; same state):
+- Array: 40 total (28 match + 12 Classic) — at cap. All Nov 20-21 big-team matches already covered:
+  Newcastle 2-2 Arsenal (Sky), Chelsea 1-4 Leeds (Leeds Utd Official), Man City 1-1 Fulham (Sky),
+  Tottenham 2-0 Ipswich (Spurs), Real Madrid 2-1 Celta (Real Madrid), Napoli 1-0 Torino (Serie A),
+  Nice 2-3 PSG (Sky), Leverkusen-Paderborn (Telemundo), Gladbach-Dortmund (Bundesliga),
+  Bayern-Koln Nov 20 (Bundesliga). No fan copies in the array to replace with official ones.
+- Nov 22 fixtures NOT yet played at 16:38 Yangon (10:08 UTC):
+  * Barcelona-Villarreal 13:00 UTC (19:30 Yangon) — not kicked off.
+  * Juventus-Venezia 12:30 CET (18:00 Yangon) — not kicked off.
+  * AC Milan-Frosinone 18:00 CET (23:30 Yangon); Atalanta-Inter 20:45 CET (02:15+1 Yangon).
+  * Liverpool-Man Utd 16:30 UTC (23:00 Yangon); Getafe-Atletico 20:00 UTC (02:30+1 Yangon).
+  * Hull-Brighton (no big team). Next pickups from evening runs.
+- Candidates seen and REJECTED (no action needed):
+  * Ux2eoCEgTvo "Yamal Hattrick -- Barcelona vs Villarreal 5-0" — fabricated, match not played;
+    already in do-not-readd.json from 11:23 run.
+  * Fake-BBC-mirror "Man Utd 3-2 Liverpool" / "Liverpool 2-2 Man Utd" (bbcbreakingnews/bbcinsight
+    .pages.dev) — fabricated, match not played; already in do-not-readd.
+  * yofyVyIAPdo "Man City Did NOT See This Coming!" — multi-match roundup/talk video; skip per
+    rule 1 (no roundups/compilations).
+  * NBC Sports extended highlights (Newcastle-Arsenal, Man City-Fulham) — BANNED channel rule 3.
+  * "Chelsea vs Leeds 1-4 [HIGHLIGHTS] ... Match Simulation/Prediction" — simulation, rule 5b.
+  * Club-official copies now visible for Man City-Fulham (Man City) and Newcastle-Arsenal (Arsenal)
+    vs existing Sky Sports (broadcaster) copies: NO swap — rule 8 replace exception covers FAN
+    copies only; broadcaster copies are not fan copies. Prior runs today kept the same state.
+- Note: a-sports.tv snippet claiming "Inter 2-1 Fiorentina / Juventus 2-0 Lecce on Sunday" is
+  STALE (previous matchday) — fixture tables confirm Nov 22 is Juventus-Venezia, Milan-Frosinone,
+  Atalanta-Inter, all still to come.
