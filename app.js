@@ -915,7 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "3WeFTf8JH_o", title: "Milan Frosinone | 5-1 | Gli Highlights | Serie A 2026/27 | frosinone milan", channel: "CHEFON FF", date: "Nov 22, 2026" },
+{ id: "88S0aBcQ0Bc", title: "The Rossoneri Triumph At San Siro | MILAN-FROSINONE | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 22, 2026" },
 { id: "ArttthJA97s", title: "Liverpool condemn Pochettino to NIGHTMARE start! | Liverpool 4-0 Man Utd | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 22, 2026" },
 { id: "Ngrd58fZSVA", title: "FC BARCELONA 3 - 2 VILLARREAL CF | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Nov 22, 2026" },
 { id: "OlFHgiP3JJY", title: "A GIANT VICTORY | JUVENTUS 4-0 VENEZIA | HIGHLIGHTS SERIE A | WOLTEMADE, KOOP, KOLO & CABAL GOALS", channel: "Juventus", date: "Nov 22, 2026" },
