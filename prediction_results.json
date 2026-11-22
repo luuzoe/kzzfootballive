@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T02:55:56+06:30",
+ "updated": "2026-11-22T08:55:05+06:30",
  "summary": {
   "resolved": 174,
   "correct": 96,
@@ -1915,6 +1915,15 @@
    "pick_en": "Werder Bremen win",
    "score": null,
    "outcome": "not_found"
+  },
+  {
+   "date": "2026-11-22",
+   "home": "AC Milan",
+   "away": "Frosinone",
+   "league": "Serie A",
+   "pick_en": "AC Milan win",
+   "score": null,
+   "outcome": "pending"
   }
  ]
 }
