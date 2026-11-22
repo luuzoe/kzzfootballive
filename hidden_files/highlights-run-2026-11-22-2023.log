@@ -1,0 +1,34 @@
+KZZ Highlights run — Sun 2026-11-22 20:23 Yangon
+RESULT: 1 new video added + deployed (commit ed2d87c, verified live).
+
+ADDED (top of array):
+- 4ztNwSc5K4E "JUVENTUS VENEZIA 4-0.  SERIE A 26/27", channel IL PROFESSORE DEL PALLONE (fan),
+  date Nov 22, 2026 — Juventus 4-0 Venezia, Serie A MD12 (Woltemade 53', Koopmeiners 59',
+  Cabal 65', Kolo Muani pen 71'; score verified vs Flashscore/GoalXA/Football Italia).
+  Checks: oEmbed valid JSON 200x113 (16:9); channel not banned; thumbnail inspected —
+  real match photo + correct "JUVENTUS 4 - 0 VENEZIA" graphic with both badges; ID not in
+  do-not-readd.json; not already in array. No Juventus/Serie A official full highlights
+  published yet (only a Juventus Short of the Kolo Muani goal) — fan copy per rule 2/3.
+  NOTE for later runs: REPLACE this fan copy with the Juventus or Serie A official copy
+  when one publishes (rule 8).
+
+DROPPED (cap trim, array was at 40):
+- CXk8Er7Yf9w — FC Barcelona 3-0 Aston Villa, Nov 3, FC Barcelona (club official).
+  Oldest date group in array was Nov 3 (2 entries, both club official); dropped the
+  later-inserted of the two per the 08:23 run's note ("Nov 3 UCL entries first").
+  Array now 40 total (28 match + 12 Classics, all Classics intact), no dupes,
+  node --check passed. Versions: app.js?v=565, styles.css?v=543, CACHE kzz-v568.
+
+DEPLOY: gh-pages-deploy.py pushed commit ed2d87c (3 files changed). Live verified:
+cache-busted fetch of app.js = 119002 bytes (matches local), contains 4ztNwSc5K4E,
+no CXk8Er7Yf9w; live index.html serves app.js?v=565 / styles.css?v=543; sw.js kzz-v568.
+(First plain fetch returned stale CDN-cached old app.js; cache-busted fetch confirmed.)
+
+STILL TO COME (no highlights yet — later runs):
+- Barcelona-Villarreal (KO 13:00 UTC) in progress; Liverpool-Man Utd (KO 16:30 UTC);
+  AC Milan-Frosinone (KO 17:00 UTC); Atalanta-Inter (KO 19:45 UTC); Getafe-Atletico (02:30+1).
+- REJECTED (no action): fabricated "Yamal Hattrick -- Barcelona vs Villarreal 5-0"
+  (Ux2eoCEgTvo, already in do-not-readd.json); fabricated Liverpool-Man Utd scorelines
+  (2KtCP781rA8, IrxSkNSCYGQ, JKNyg-WUpo8); live streams/watchalongs (6G1NtfB9XGU etc.);
+  Dollar VFX Juve-Venezia copy NOT used (channel has prior reversed-thumbnail removal;
+  the IL PROFESSORE copy was verified clean instead).
