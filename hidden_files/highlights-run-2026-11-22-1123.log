@@ -1,0 +1,23 @@
+KZZ Highlights run — Sun 2026-11-22 11:23 Yangon
+RESULT: No new videos. No changes, no deploy. (Rule 9 — stay silent.)
+
+Checked (75 min after the 10:08 run; same state):
+- Array: 40 total (28 match + 12 Classic) — at cap. All Nov 20-21 big-team matches already covered:
+  Newcastle 2-2 Arsenal (Sky), Chelsea 1-4 Leeds (Leeds Utd Official), Man City 1-1 Fulham (Sky),
+  Tottenham 2-0 Ipswich (Spurs), Real Madrid 2-1 Celta (LALIGA), Napoli 1-0 Torino (Serie A),
+  Nice 2-3 PSG (Sky), Leverkusen-Paderborn (Telemundo), Gladbach-Dortmund (Bundesliga),
+  Bayern-Koln Nov 20 (Bundesliga). No fan copies in the array to replace with official ones.
+- Nov 22 fixtures not yet played (11:23 Yangon = 04:53 UTC): Barcelona-Villarreal 13:00 UTC
+  (19:30 Yangon), Liverpool-Man Utd 16:30 UTC (23:00 Yangon), Atalanta-Inter, Juventus-Venezia,
+  AC Milan-Frosinone, Getafe-Atletico. Next pickups from evening runs.
+- Candidates checked and REJECTED this run:
+  * Ux2eoCEgTvo "Yamal Hattrick -- Barcelona vs Villarreal 5-0 All Goals & Highlights -- 2026"
+    (author "simo-trends", oEmbed 200x113 valid) — FABRICATED: match has not kicked off yet,
+    a 5-0 result cannot exist. Added to highlights-do-not-readd.json stale_traps list.
+  * 2KtCP781rA8 "Manchester United vs Liverpool 3-2" (author "3mr Eltmraya", oEmbed 200x113
+    valid) — FABRICATED, match not yet played. Already in do-not-readd.json from 09:53 run.
+  * IrxSkNSCYGQ "Liverpool vs Manchester United 5-1" — same fabricated class, already in
+    do-not-readd.json from 09:53 run.
+  * "Liverpool 2-2 Man Utd" BBC Mirror (bbcinsight.pages.dev) and "Man Utd 3-2 Liverpool"
+    (bbcbreakingnews.pages.dev) — fabricated fake-BBC-mirror articles, match not played.
+    Same fake-mirror domains already in do-not-readd.
