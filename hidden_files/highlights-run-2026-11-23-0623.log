@@ -1,0 +1,12 @@
+KZZ Highlights run — Mon 2026-11-23 06:23 Yangon
+RESULT: No new videos. No changes, no deploy.
+
+State checked:
+- app.js array: 40 total (28 match + 12 Classic), last updated by the 06:08 run (app.js?v=576, sw.js kzz-v579, mtime 23:39:58 UTC = 06:09:58 Yangon).
+- All Nov 22 big-team matches already covered: Liverpool-Man Utd 4-0 (Sky Sports), Barcelona-Villarreal 3-2 (FC Barcelona), Juventus-Venezia 4-0 (Juventus), AC Milan-Frosinone 5-1 (AC Milan official — replaced the Dollar VFX fan copy added 01:53), Atalanta-Inter (Serie A official), Getafe-Atlético (ESPN Deportes). Nov 21 matches all covered; Nov 20 Bayern-Köln covered.
+- Other Nov 22 fixtures had no big team (Hull-Brighton, Racing-Real Sociedad, Osasuna-Málaga, Levante-Elche, Bologna-Udinese, Sassuolo-Genoa, Parma-Roma, Augsburg-Mainz, Werder-Hamburg, Schalke-Stuttgart, Paris FC-Angers, Lorient-Rennes, Marseille-Le Mans, Lille-Lyon, Monaco-Auxerre, Strasbourg-Brest, Lens-Toulouse) — correctly skipped per rule 1.
+- No Nov 23 matches played yet (23:53 UTC Sunday); nothing new could exist since the 06:08 run.
+- Search results re-surfaced known do-not-re-add items for Liverpool-Man Utd (JGTW6dquto4 fotbal Tefo partial clip, eJShdUmAqMc Dollar VFX mid-match partial) — both ignored; match already has the Sky Sports copy and per rule 8 only fan copies are replaced by officials.
+- No fan copies remain among current entries that would qualify for official replacement; all top entries are club/league official or broadcaster.
+
+Note: no run log files exist for the 02:08–06:08 runs in hidden_files (newest before this run is 01:53), yet app.js mtime/version show the 06:08 run did update and deploy. Logging gap only — site state itself is current and verified consistent (v576 / kzz-v579).
