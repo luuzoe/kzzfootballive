@@ -915,7 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "pmjOx-ItOz4", title: "REAL MADRID 2 - 1 CELTA | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Nov 21, 2026" },
+{ id: "W8InB9bFuNE", title: "HIGHLIGHTS | Real Madrid 2-1 Celta | LaLiga", channel: "Real Madrid", date: "Nov 21, 2026" },
 { id: "hIn0YqsC8Cg", title: "McTominay Does It For Napoli | NAPOLI-TORINO | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 21, 2026" },
 { id: "I7ooFa4RCvQ", title: "Madueke rescues point for Arsenal! | Newcastle 2-2 Arsenal | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 21, 2026" },
 { id: "2IrxtGU_leo", title: "PSG hold on in dramatic win! | Nice 2-3 PSG | Ligue 1 Highlights", channel: "Sky Sports Football", date: "Nov 21, 2026" },
