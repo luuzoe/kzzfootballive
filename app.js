@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 105; // bump on every deploy
+const APP_VERSION = 106; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -915,6 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "3j5pOwLZ1P8", title: "¡TREMENDA REMONTADA de #BARCELONA ante #VILLARREAL! | Barcelona 3–2 Villarreal | Resumen", channel: "DSports", date: "Nov 22, 2026" },
 { id: "qSa3PFh2Q24", title: "Kolo Muani and Woltemade On Target | JUVENTUS-VENEZIA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 22, 2026" },
 { id: "W8InB9bFuNE", title: "HIGHLIGHTS | Real Madrid 2-1 Celta | LaLiga", channel: "Real Madrid", date: "Nov 21, 2026" },
 { id: "hIn0YqsC8Cg", title: "McTominay Does It For Napoli | NAPOLI-TORINO | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 21, 2026" },
@@ -942,7 +943,6 @@ async function renderHighlights() {
 { id: "wOLZ_jiQLdw", title: "Man Utd 4-4 Aston Villa | HIGHLIGHTS", channel: "Aston Villa Football Club", date: "Nov 8, 2026" },
 { id: "6DEh00JjkmE", title: "Crazy Freekick Opens Score! | 1. FC KÖLN - BAYER 04 LEVERKUSEN | Highlights | Matchday 9 Bundesliga", channel: "Bundesliga", date: "Nov 8, 2026" },
 { id: "RdejiWAqcBQ", title: "Match Highlights | Crystal Palace 1-3 Liverpool | Premier League", channel: "Crystal Palace FC", date: "Nov 8, 2026" },
-{ id: "RU0oJGCgOjQ", title: "Sunderland 1-0 Chelsea | HIGHLIGHTS | Premier League 2026/27", channel: "Chelsea Football Club", date: "Nov 8, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
