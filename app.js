@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 108; // bump on every deploy
+const APP_VERSION = 109; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -917,7 +917,7 @@ async function renderHighlights() {
   const videos = [
 { id: "i6pzTmX91cU", title: "ATLÉTICO DE MADRID GOLEÓ al GETAFE gracias a las asistencias de JULIÁN ÁLVAREZ | Resumen | La Liga", channel: "ESPN Deportes", date: "Nov 22, 2026" },
 { id: "91CeztXQwPM", title: "Eight Goals In A Crazy Game | ATALANTA-INTER | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 22, 2026" },
-{ id: "88S0aBcQ0Bc", title: "The Rossoneri Triumph At San Siro | MILAN-FROSINONE | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 22, 2026" },
+{ id: "WWmd2G4up14", title: "MILAN SHOW A SAN SIRO! 🔥 5 GOL E SPETTACOLO | Milan-Frosinone 5-1 | Highlights Serie A 2026/27", channel: "AC Milan", date: "Nov 22, 2026" },
 { id: "ArttthJA97s", title: "Liverpool condemn Pochettino to NIGHTMARE start! | Liverpool 4-0 Man Utd | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 22, 2026" },
 { id: "ldXZdhBLMKk", title: "FC BARCELONA 3 vs 2 VILLARREAL | LALIGA 2026/27 MD13 🔵🔴", channel: "FC Barcelona", date: "Nov 22, 2026" },
 { id: "OlFHgiP3JJY", title: "A GIANT VICTORY | JUVENTUS 4-0 VENEZIA | HIGHLIGHTS SERIE A | WOLTEMADE, KOOP, KOLO & CABAL GOALS", channel: "Juventus", date: "Nov 22, 2026" },
