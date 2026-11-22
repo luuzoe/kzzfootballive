@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-21T08:55:58+06:30",
+ "updated": "2026-11-22T02:55:56+06:30",
  "summary": {
   "resolved": 174,
   "correct": 96,
   "wrong": 78,
   "accuracy_pct": 55.2,
-  "not_found": 8
+  "not_found": 9
  },
  "results": [
   {
@@ -1816,6 +1816,105 @@
    "pick_en": "AS Roma win",
    "score": null,
    "outcome": "pending"
+  },
+  {
+   "date": "2026-11-22",
+   "home": "Juventus",
+   "away": "Venezia",
+   "league": "Serie A",
+   "pick_en": "Juventus win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-22",
+   "home": "Barcelona",
+   "away": "Villarreal",
+   "league": "La Liga",
+   "pick_en": "Barcelona win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-22",
+   "home": "Hull City",
+   "away": "Brighton",
+   "league": "Premier League",
+   "pick_en": "Brighton win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-22",
+   "home": "Bologna",
+   "away": "Udinese",
+   "league": "Serie A",
+   "pick_en": "Bologna win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-22",
+   "home": "Sassuolo",
+   "away": "Genoa",
+   "league": "Serie A",
+   "pick_en": "Genoa win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-22",
+   "home": "Paris FC",
+   "away": "Angers",
+   "league": "Ligue 1",
+   "pick_en": "Paris FC win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-22",
+   "home": "Augsburg",
+   "away": "Mainz",
+   "league": "Bundesliga",
+   "pick_en": "Mainz win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-22",
+   "home": "Racing Santander",
+   "away": "Real Sociedad",
+   "league": "La Liga",
+   "pick_en": "Real Sociedad win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-22",
+   "home": "Lorient",
+   "away": "Rennes",
+   "league": "Ligue 1",
+   "pick_en": "Lorient win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-22",
+   "home": "Liverpool",
+   "away": "Manchester United",
+   "league": "Premier League",
+   "pick_en": "Liverpool win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-22",
+   "home": "Werder Bremen",
+   "away": "Hamburger SV",
+   "league": "Bundesliga",
+   "pick_en": "Werder Bremen win",
+   "score": null,
+   "outcome": "not_found"
   }
  ]
 }
