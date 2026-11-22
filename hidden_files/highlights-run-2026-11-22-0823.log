@@ -1,0 +1,20 @@
+KZZ Highlights run — Sun 2026-11-22 08:23 Yangon
+RESULT: No new videos added. No deploy. (Rule 9 — stay silent.)
+
+State check:
+- Array: 40 total (28 match + 12 Classic) — at cap. Two late Nov 21 entries already in array and live-verified:
+  * pmjOx-ItOz4 Real Madrid 2-1 Celta (LALIGA EA SPORTS) — oEmbed re-checked this run: author "LALIGA EA SPORTS", 200x113 (16:9), valid.
+  * hIn0YqsC8Cg Napoli 1-0 Torino (Serie A) — oEmbed re-checked: author "Serie A", 200x113, valid. Real score 1-0 (McTominay 73'); the fabricated "Napoli 2-1 Torino FT" from the 22:53 run stays in do-not-readd.
+  * Live curl of luuzoe.github.io/kzzfootballive/app.js confirms both IDs present (1 occurrence each).
+- These two were added by a ~05:39 Yangon deploy (app.js mtime 2026-11-21 23:09 UTC) but NO run log file exists for that run (latest log in hidden_files is 03:23). Bookkeeping gap only — deploy itself verified live.
+
+Matches checked (big-team, Nov 21-22):
+- Real Madrid 2-1 Celta (La Liga, FT): already in array — LALIGA official pmjOx-ItOz4. Search also surfaced CElFG3lPIu0 ("LaLiga Highlights") and DAZN zzEaoZtFOW8 — same/lower tier than the existing league-official copy; 1-per-match rule, no swap.
+- Napoli 1-0 Torino (Serie A, FT): already in array — Serie A official hIn0YqsC8Cg. Fan copy lFKseOC1AsQ exists; official beats fan, no swap.
+- Bayer Leverkusen 4-0 Paderborn (Bundesliga MD10, FT): already in array — Telemundo Deportes 7EhagOYCX4w. Still no Bundesliga-official YouTube copy; only YouTube copy remains KhiZwP-V9_c (Venom Sports, 4:3, in do-not-readd). Bundesliga.com hosts its own highlights on-site only. No swap.
+- Newcastle 2-2 Arsenal, Man City 1-1 Fulham, Chelsea 1-4 Leeds, Spurs 2-0 Ipswich, Gladbach 0-1 Dortmund, Bayern 1-1 Köln (Nov 20): all already in array (EPL results confirmed via CNA/The Times/AsiaOne).
+- Nov 21 non-big matches (Bournemouth-Forest, Coventry-Palace, Villa-Sunderland): skipped per rule 1.
+- Liverpool vs Man Utd: NOT played — kicks off Sun Nov 22 16:30 UTC (23:00 Yangon). Fabricated pre-match "highlights" (IrxSkNSCYGQ, JKNyg-WUpo8, mVuYaNdOGPM, bbcinsight 2-2) already in do-not-readd from 06:53 run — do not add.
+- Barcelona vs Villarreal, Inter vs Pisa, Juventus vs Venezia: kick off later today (Nov 22) — no highlights can exist yet. Later runs to catch.
+
+Array state unchanged: 40 total (28 match + 12 Classic). Any future add must drop oldest non-Classic (Nov 3 UCL entries first).
