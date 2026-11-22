@@ -915,6 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "QiOW5046ntk", title: "Liverpool 4-0 Manchester United | All Goals & Highlights", channel: "Diskie House", date: "Nov 22, 2026" },
 { id: "Ngrd58fZSVA", title: "FC BARCELONA 3 - 2 VILLARREAL CF | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Nov 22, 2026" },
 { id: "qSa3PFh2Q24", title: "Kolo Muani and Woltemade On Target | JUVENTUS-VENEZIA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 22, 2026" },
 { id: "W8InB9bFuNE", title: "HIGHLIGHTS | Real Madrid 2-1 Celta | LaLiga", channel: "Real Madrid", date: "Nov 21, 2026" },
@@ -928,7 +929,6 @@ async function renderHighlights() {
 { id: "bMB52YNFKv4", title: "Anderson volley rescues point for City 💥 | Man City 1-1 Fulham | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 21, 2026" },
 { id: "uBw8eTgql9I", title: "Bayern Lose Kane & Olise – And Top Spot? | FC BAYERN - 1. FC KÖLN | Highlights | MD 10 – Bundesliga", channel: "Bundesliga", date: "Nov 20, 2026" },
 { id: "xgcG0s8R7Os", title: "Rocket From Kimmich! | MAINZ 05 - FC BAYERN | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
-{ id: "RvEablTAe2I", title: "HIGHLIGHTS | VILLARREAL 0-6 PSG | CHAMPIONS LEAGUE", channel: "Villarreal CF", date: "Nov 3, 2026" },
 { id: "zas7zC_hP8Q", title: "OM 1-0 Leverkusen : La RÉVOLTE marseillaise ! Un OM convaincant lance enfin sa saison en C3", channel: "L'Équipe", date: "Nov 5, 2026" },
 { id: "C58JvvWbc_4", title: "Highlights Europa League | Una serata difficile a San Siro | Milan 0-2 Ferencváros", channel: "AC Milan", date: "Nov 5, 2026" },
 { id: "hFU_vO-jZfc", title: "GYOKERES & MADUEKE GOALS EARN THREE POINTS | HIGHLIGHTS | Slavia Prague vs Arsenal (1-2) | UCL", channel: "Arsenal", date: "Nov 4, 2026" },
