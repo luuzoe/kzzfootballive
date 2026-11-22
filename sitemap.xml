@@ -139,12 +139,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/news/2026-11-21-bournemouth-forest-2-0.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/predictions/2026-11-22-bundesliga.html</loc>
     <lastmod>2026-11-22</lastmod>
     <changefreq>daily</changefreq>
@@ -191,6 +185,12 @@
     <lastmod>2026-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-22-ac-milan-frosinone.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-22-liverpool-manchester-united.html</loc>
@@ -362,12 +362,6 @@
   </url>
   <url>
     <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-07-leeds-united-tottenham-hotspur.html</loc>
-    <lastmod>2026-11-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-05-az-alkmaar-juventus.html</loc>
     <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
