@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 107; // bump on every deploy
+const APP_VERSION = 108; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -915,6 +915,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "i6pzTmX91cU", title: "ATLÉTICO DE MADRID GOLEÓ al GETAFE gracias a las asistencias de JULIÁN ÁLVAREZ | Resumen | La Liga", channel: "ESPN Deportes", date: "Nov 22, 2026" },
+{ id: "NgCLwHexo5E", title: "Atalanta vs. Inter | Highlights Serie A | Jornada 12 | Telemundo Deportes", channel: "Telemundo Deportes", date: "Nov 22, 2026" },
 { id: "88S0aBcQ0Bc", title: "The Rossoneri Triumph At San Siro | MILAN-FROSINONE | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 22, 2026" },
 { id: "ArttthJA97s", title: "Liverpool condemn Pochettino to NIGHTMARE start! | Liverpool 4-0 Man Utd | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 22, 2026" },
 { id: "Ngrd58fZSVA", title: "FC BARCELONA 3 - 2 VILLARREAL CF | RESUMEN LALIGA EA SPORTS", channel: "LALIGA EA SPORTS", date: "Nov 22, 2026" },
@@ -933,9 +935,7 @@ async function renderHighlights() {
 { id: "C58JvvWbc_4", title: "Highlights Europa League | Una serata difficile a San Siro | Milan 0-2 Ferencváros", channel: "AC Milan", date: "Nov 5, 2026" },
 { id: "hFU_vO-jZfc", title: "GYOKERES & MADUEKE GOALS EARN THREE POINTS | HIGHLIGHTS | Slavia Prague vs Arsenal (1-2) | UCL", channel: "Arsenal", date: "Nov 4, 2026" },
 { id: "N73dxbD3ooo", title: "HIGHLIGHTS | RB Leipzig 2-3 Man City | City edge Champions League classic on the road!", channel: "Man City", date: "Nov 4, 2026" },
-{ id: "zVQZC8mOgsY", title: "Dortmund vs Real Betis | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 4, 2026" },
 { id: "05geh16Zu-Y", title: "Highlights: Fenerbahce 3-2 Liverpool | Trey Nyoni's first Liverpool Goal | Champions League", channel: "Liverpool FC", date: "Nov 4, 2026" },
-{ id: "afHtoh8NzK8", title: "Porto vs Napoli | UEFA Champions League Highlights | Matchday 4 | 2026-2027", channel: "DAZN Football", date: "Nov 4, 2026" },
 { id: "69IQ8q-g1q0", title: "HIGHLIGHTS | AEK Athens 2-3 Real Madrid | Champions League", channel: "Real Madrid", date: "Nov 4, 2026" },
 { id: "5b4BaFzojaI", title: "Highlights: Fiorentina - Juventus 2 - 2", channel: "ACF Fiorentina", date: "Nov 8, 2026" },
 { id: "CvcyMWt58sA", title: "ATLÉTICO MADRID 1 vs 2 FC BARCELONA | LALIGA 2026/27 MD12 🔵🔴", channel: "FC Barcelona", date: "Nov 8, 2026" },
