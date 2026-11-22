@@ -916,7 +916,7 @@ async function renderHighlights() {
   html += `<div class="highlights-grid">`;
   const videos = [
 { id: "i6pzTmX91cU", title: "ATLÉTICO DE MADRID GOLEÓ al GETAFE gracias a las asistencias de JULIÁN ÁLVAREZ | Resumen | La Liga", channel: "ESPN Deportes", date: "Nov 22, 2026" },
-{ id: "NgCLwHexo5E", title: "Atalanta vs. Inter | Highlights Serie A | Jornada 12 | Telemundo Deportes", channel: "Telemundo Deportes", date: "Nov 22, 2026" },
+{ id: "91CeztXQwPM", title: "Eight Goals In A Crazy Game | ATALANTA-INTER | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 22, 2026" },
 { id: "88S0aBcQ0Bc", title: "The Rossoneri Triumph At San Siro | MILAN-FROSINONE | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 22, 2026" },
 { id: "ArttthJA97s", title: "Liverpool condemn Pochettino to NIGHTMARE start! | Liverpool 4-0 Man Utd | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 22, 2026" },
 { id: "ldXZdhBLMKk", title: "FC BARCELONA 3 vs 2 VILLARREAL | LALIGA 2026/27 MD13 🔵🔴", channel: "FC Barcelona", date: "Nov 22, 2026" },
