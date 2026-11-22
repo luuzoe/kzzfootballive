@@ -1,0 +1,20 @@
+KZZ highlights run — 2026-11-23 00:23 Yangon
+================================================
+RESULT: 1 swap deployed (commit 18a21a0, live-verified).
+
+SWAP (rule 8 preference order — league official outranks broadcaster):
+- OUT: 3j5pOwLZ1P8 — "¡TREMENDA REMONTADA de #BARCELONA ante #VILLARREAL! | Barcelona 3–2 Villarreal | Resumen", DSports (broadcaster)
+- IN:  Ngrd58fZSVA — "FC BARCELONA 3 - 2 VILLARREAL CF | RESUMEN LALIGA EA SPORTS", LALIGA EA SPORTS (league official), date Nov 22, 2026
+- Verified: oEmbed 200, author_name "LALIGA EA SPORTS", 200x113 (16:9); fulltime.zone lists it as the official highlights (3:14) for the real match Barcelona 3-2 Villarreal, Nov 22, 2026. Not in highlights-do-not-readd.json. Real fixture/score cross-checked (Buchanan 5', Oluwaseyi 7', Gerard Martin, Fermin, Pau Navarro OG).
+- qonZrvYnnGc ("Del 0-2 al 3-2 en DIEZ MINUTOS") checked: author is 2010MisterChip (fan/analyst), NOT FC Barcelona official — not used.
+
+ARRAY STATE AFTER EDIT: 40 entries, 12 Classics intact, no duplicate IDs, 1 copy per match.
+VERSIONS: index.html app.js?v=568, styles.css?v=546; sw.js CACHE kzz-v571 (statics synced to v568/v546).
+DEPLOY: gh-pages-deploy.py → 3 files changed, commit 18a21a0.
+LIVE VERIFY: raw.githubusercontent.com/luuzoe/kzzfootballive/main/app.js contains Ngrd58fZSVA x1, 3j5pOwLZ1P8 x0; GitHub API HEAD = 18a21a0 "Update highlights to latest videos". (Note: repo has only a main branch; earlier gh-pages raw fetch 404'd — verify against main, not gh-pages.)
+
+NO OTHER NEW HIGHLIGHTS:
+- Finished Nov 22 big-team matches already in array: Juventus 4-0 Venezia (Serie A official qSa3PFh2Q24; no Juventus club-official full highlights found — only a Short + reactions), Barcelona 3-2 Villarreal (swapped above).
+- Liverpool vs Man Utd (Nov 22, KO 16:30 UTC): still in progress at run time — Liverpool 2-0 at ~83' (Szoboszlai 10', Wirtz 13', Yoro red 8'). Highlights not yet on YouTube; next runs should pick it up. Fabricated pre-match videos IrxSkNSCYGQ ("5-1") and 2KtCP781rA8 ("3-2") already in do-not-readd — do NOT add.
+- AC Milan vs Frosinone (KO 17:00 UTC): in progress (~53' at run time). Atalanta vs Inter (19:45 UTC) and Getafe vs Atletico Madrid (20:00 UTC) not yet started.
+- Bologna-Udinese 1-1, Sassuolo-Genoa 0-2, Racing Santander-Real Sociedad 3-2, Osasuna-Malaga: no big team, skipped.
