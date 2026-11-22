@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 104; // bump on every deploy
+const APP_VERSION = 105; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -915,7 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "4ztNwSc5K4E", title: "JUVENTUS VENEZIA 4-0.  SERIE A 26/27", channel: "IL PROFESSORE DEL PALLONE", date: "Nov 22, 2026" },
+{ id: "qSa3PFh2Q24", title: "Kolo Muani and Woltemade On Target | JUVENTUS-VENEZIA | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 22, 2026" },
 { id: "W8InB9bFuNE", title: "HIGHLIGHTS | Real Madrid 2-1 Celta | LaLiga", channel: "Real Madrid", date: "Nov 21, 2026" },
 { id: "hIn0YqsC8Cg", title: "McTominay Does It For Napoli | NAPOLI-TORINO | HIGHLIGHTS | Serie A 2026/27", channel: "Serie A", date: "Nov 21, 2026" },
 { id: "I7ooFa4RCvQ", title: "Madueke rescues point for Arsenal! | Newcastle 2-2 Arsenal | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 21, 2026" },
