@@ -1,0 +1,26 @@
+KZZ Highlights run — Sun 2026-11-22 22:23 Yangon
+RESULT: No new videos. No changes, no deploy. (Rule 9 — stay silent.)
+
+Checked:
+- Array: 40 total (28 match + 12 Classic) — at cap. All Nov 20-21 big-team matches covered.
+- NOTE: local app.js (mtime 15:30 UTC = 22:00 Yangon) is NEWER than the 20:38 run log and
+  already contains the two updates the 20:23 run anticipated, but NO highlights-run log
+  exists for the ~22:00 run (logs stop at 2038). State found in app.js:
+  * ADDED 3j5pOwLZ1P8 "Barcelona 3–2 Villarreal" (DSports, Nov 22) — top of array.
+  * REPLACED Juve fan copy 4ztNwSc5K4E with Serie A official qSa3PFh2Q24
+    "Kolo Muani and Woltemade On Target | JUVENTUS-VENEZIA | HIGHLIGHTS" (Nov 22) — per rule 8.
+  Versions now app.js?v=567, styles.css?v=545, CACHE kzz-v570.
+- Verified both new IDs this run via oEmbed: valid JSON, 200x113 (16:9), channels DSports /
+  Serie A (neither banned), titles genuine highlights. Live site verified: cache-busted
+  fetch = 119050 bytes (matches local exactly), contains both IDs, no 4ztNwSc5K4E;
+  live index.html serves app.js?v=567. The ~22:00 update is live and correct.
+- STILL TO COME (no highlights yet — later runs):
+  * Liverpool-Man Utd KO 23:00 Yangon (16:30 GMT) — not kicked off at 22:23.
+  * AC Milan-Frosinone KO 23:30 Yangon; Atalanta-Inter KO ~01:15 Nov 23; Getafe-Atletico
+    KO ~02:30 Nov 23 — all not kicked off.
+- REJECTED / NOT IN WINDOW (no action):
+  * Man Utd 0-1 Everton — played Mon Nov 16 (Gueye red, Dewsbury-Hall winner), 6 days old,
+    outside 2-3 day window. Do not add.
+  * Liverpool 2-2 Nottingham Forest — that result is Aug 29, 2026 (MW2), NOT Nov 21;
+    stale search results misled earlier; no Liverpool-Forest match this weekend.
+  * Fake/fabricated IDs from earlier runs stay in do-not-readd (Ux2eoCEgTvo etc.).
