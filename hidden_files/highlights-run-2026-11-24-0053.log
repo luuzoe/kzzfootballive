@@ -1,0 +1,8 @@
+KZZ Highlights run — Tue 2026-11-24 00:53 Yangon
+RESULT: No new videos. No changes, no deploy.
+
+State checked:
+- app.js array: 40 total (28 match + 12 Classic), unchanged (app.js?v=576, sw.js kzz-v579).
+- All Nov 20-22 big-team matches already covered: Liverpool-Man Utd 4-0 (Sky Sports), Barcelona-Villarreal 3-2 (FC Barcelona), Juventus-Venezia 4-0 (Juventus), AC Milan-Frosinone 5-1 (AC Milan), Atalanta-Inter 4-4 (Inter), Getafe-Atlético 0-3 (Atlético), Real Madrid-Celta 2-1 (Real Madrid), Napoli-Torino 1-0 (Torino FC), Newcastle-Arsenal 2-2 (Sky Sports), Nice-PSG 2-3 (PSG), Leverkusen-Paderborn 4-0 (Leverkusen), Gladbach-Dortmund 0-1 (Dortmund), Spurs-Ipswich 2-0 (Tottenham), Chelsea-Leeds 1-4 (Leeds), Man City-Fulham 1-1 (Sky Sports), Bayern-Köln 1-1 (FC Bayern).
+- Search surfaced only extra copies of already-covered matches: Liverpool-Man Utd 9bLh_lq4SrI (Liverpool FC) and DjkYwmCSWGg, Newcastle-Arsenal R_680r02Lio, Chelsea-Leeds bWihJfnDjZg. 9bLh_lq4SrI and R_680r02Lio are in highlights-do-not-readd.json (9bLh_lq4SrI oEmbed 401, embedding disabled). DjkYwmCSWGg/bWihJfnDjZg skipped per rule 8 (matches already have broadcaster/club-official copies; 1 per match).
+- No Nov 23 big-team matches: Monday fixtures are Monza-Fiorentina, Brentford-Everton, Levante-Elche — none involve a big team, and they kick off 02:15/02:30 Yangon Nov 24 (after this run). Next big-team fixtures: UCL Tue Nov 24 (incl. Arsenal vs Borussia Dortmund).
