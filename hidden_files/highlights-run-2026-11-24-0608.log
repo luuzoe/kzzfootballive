@@ -1,0 +1,10 @@
+KZZ Highlights run — Tue 2026-11-24 06:08 Yangon
+RESULT: No new videos. No changes, no deploy.
+
+State checked:
+- app.js array: 40 total (28 match + 12 Classic), unchanged (app.js?v=576, sw.js kzz-v579).
+- All Nov 20-22 big-team matches already covered (same 16 as 03:38 run).
+- Liverpool-Man Utd: fresh oEmbed check on 9bLh_lq4SrI (Liverpool FC official) again returns 401 Unauthorized — embedding disabled, do-not-readd stands. Existing Sky Sports entry ArttthJA97s re-verified via oEmbed: valid JSON, 200x113 (16:9), author "Sky Sports Premier League". No swap: existing entry is a broadcaster, not a fan copy (rule 8; settled practice 02:53/03:08/03:38 runs).
+- Other Liverpool-Man Utd copies surfaced are the same skipped fan videos (jWTW7gwuXxQ, CDXrbVtZzHs, sSeNI9JGaHs with the Barcola-assist error, eJShdUmAqMc) plus analysis video 4gnjBLq6khs (reject per rule 5b) and Shorts — none added.
+- Newcastle-Arsenal extended highlights R_680r02Lio surfaced (club-official style) for the already-covered Nov 21 match; existing entry is Sky Sports broadcaster — no swap per rule 8, same as Arsenal official ssrF69WCu5g at 03:08.
+- No Nov 23 big-team matches: Monday fixtures Monza-Fiorentina, Brentford-Everton, Levante-Elche — none involve a big team. Next big-team fixtures: UCL Tue Nov 24 evening (incl. Arsenal vs Borussia Dortmund, Man City vs AC Milan).
