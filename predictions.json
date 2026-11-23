@@ -1,230 +1,293 @@
 {
   "predictions": [
     {
-      "away": "Venezia",
-      "confidence": "high",
-      "date": "2026-11-22T18:00:00+06:30",
-      "en_reason": "Juventus sit 7th on 18 points and have won three of five at home, while Venezia are 19th on six points and have lost all five away league games (3 scored, 10 conceded). Juventus have never lost to Venezia in 10 Serie A meetings (7W 3D). Yildiz, Thuram and Locatelli are out injured for Juve, but Venezia's dreadful away record and lack of firepower should still see the hosts through.",
-      "home": "Juventus",
-      "league": "Serie A",
-      "pick": "ဂျူဗင်တပ်စ် နိုင်မယ်",
-      "pick_en": "Juventus win",
-      "prob_away": 15,
-      "prob_draw": 20,
-      "prob_home": 65,
-      "reason_mm": "ဂျူဗင်တပ်စ်က အဆင့် ၇ မှာ ၁၈ မှတ်နဲ့ ရှိနေပြီး အိမ်ကွင်း ၅ ပွဲမှာ ၃ ပွဲနိုင် ၁ ပွဲသရေ ရထားတယ်။ ဗင်နီးဇီးယားက အဆင့် ၁၉ မှာ ၆ မှတ်သာ ရှိနေပြီး အဝေးကွင်း ၅ ပွဲလုံး ရှုံးထားတယ် (၃ ဂိုးသွင်း ၁၀ ဂိုးပေး)။ ထိပ်တိုက်တွေ့ဆုံမှု စီးရီးအေ ၁၀ ပွဲမှာ ဂျူဗင်တပ်စ် တခါမှ မရှုံးခဲ့ဘူး (၇ ပွဲနိုင် ၃ ပွဲသရေ)။ ဂျူဗင်တပ်စ်မှာ ယီဒီးဇ်၊ သူရမ်၊ လိုကာတယ်လီ တို့ ဒဏ်ရာရနေပေမယ့် ဗင်နီးဇီးယားရဲ့ အဝေးကွင်း အားနည်းချက်က အနိုင်ရဖို့ လုံလောက်တယ်။"
+      "away": "Hapoel Be'er Sheva",
+      "date": "2026-10-22T23:15:00+06:30",
+      "home": "Union Saint-Gilloise",
+      "league": "Europa League",
+      "pick_en": "Union Saint-Gilloise win"
     },
     {
-      "away": "Villarreal",
-      "confidence": "high",
-      "date": "2026-11-22T19:30:00+06:30",
-      "en_reason": "Barcelona top La Liga on 33 points with 11 wins from 12, and have won three straight including a 2-1 comeback at Atletico Madrid. Raphinha and Lamine Yamal are in prolific form. Villarreal sit 8th on 15 points and were thrashed 6-0 by PSG in the Champions League. Barcelona have won 12 of the last 14 meetings, though Villarreal have won three of their last five visits to Camp Nou, so the hosts are not a banker.",
-      "home": "Barcelona",
+      "away": "Red Bull Salzburg",
+      "date": "2026-10-23T01:30:00+06:30",
+      "home": "Celje",
+      "league": "Europa League",
+      "pick_en": "Red Bull Salzburg win"
+    },
+    {
+      "away": "Atletico Madrid",
+      "date": "2026-10-31T00:00:00+06:30",
+      "home": "Levante",
       "league": "La Liga",
-      "pick": "ဘာစီလိုနာ နိုင်မယ်",
-      "pick_en": "Barcelona win",
-      "prob_away": 15,
-      "prob_draw": 20,
-      "prob_home": 65,
-      "reason_mm": "ဘာစီလိုနာက ၃၃ မှတ်နဲ့ ဇယားထိပ်မှာ ရှိနေပြီး လိဂ် ၁၂ ပွဲမှာ ၁၁ ပွဲနိုင်ထားတယ်။ အက်သလက်တီကိုကို ၂-၁ နဲ့ နိုင်ခဲ့ပြီး နောက်ဆုံး ၃ ပွဲဆက် နိုင်ထားတယ်။ ရာဖင်ညာနဲ့ လာမင်း ယာမဲလ် တို့ ဂိုးသွင်းအားကောင်းနေတယ်။ ဗီလာရီးရဲလ်က အဆင့် ၈ မှာ ၁၅ မှတ်သာ ရှိနေပြီး ချန်ပီယံလိဂ်မှာ ပီအက်စ်ဂျီကို ၆-၀ နဲ့ ရှုံးခဲ့တယ်။ ထိပ်တိုက်တွေ့ဆုံမှု နောက်ဆုံး ၁၄ ပွဲမှာ ဘာစီလိုနာ ၁၂ ပွဲနိုင်ထားပေမယ့် ဗီလာရီးရဲလ်က ကမ့်နိုးမှာ နောက်ဆုံး ၅ ကြိမ်လာကစားရာမှာ ၃ ပွဲနိုင်ထားတယ်။"
+      "pick_en": "Atletico Madrid win"
     },
     {
-      "away": "Brighton",
-      "confidence": "high",
-      "date": "2026-11-22T20:30:00+06:30",
-      "en_reason": "Brighton sit 2nd on 22 points with 26 goals in 10 league games, have won three straight, and kept clean sheets in six of their last seven league matches — including wins over Arsenal and Manchester City. Hull are 14th on 11 points and winless in nine. The hosts are unbeaten at home (1W 4D) and hard to beat, but they have scored only 11 goals in 10 games and Brighton have too much quality.",
-      "home": "Hull City",
-      "league": "Premier League",
-      "pick": "ဘရိုက်တန် နိုင်မယ်",
-      "pick_en": "Brighton win",
-      "prob_away": 60,
-      "prob_draw": 22,
-      "prob_home": 18,
-      "reason_mm": "ဘရိုက်တန်က အဆင့် ၂ မှာ ၂၂ မှတ်နဲ့ ရှိနေပြီး လိဂ် ၁၀ ပွဲမှာ ၂၆ ဂိုးသွင်းထားတယ်။ နောက်ဆုံး ၃ ပွဲဆက် နိုင်ထားပြီး နောက်ဆုံး လိဂ် ၇ ပွဲမှာ ၆ ပွဲ ပေးဂိုးမရှိ ခဲ့ဘူး။ အာဆင်နယ်နဲ့ မန်စီးတီး တို့ကိုပါ နိုင်ခဲ့တယ်။ ဟားလ်က အဆင့် ၁၄ မှာ ၁၁ မှတ်သာ ရှိနေပြီး ၉ ပွဲဆက် နိုင်ပွဲမရှိ ဖြစ်နေတယ်။ အိမ်ကွင်းမှာ ရှုံးပွဲမရှိ (၁ ပွဲနိုင် ၄ ပွဲသရေ) ပေမယ့် ဂိုးသွင်းအား နည်းပါးတယ် (၁၀ ပွဲမှာ ၁၁ ဂိုး)။"
-    },
-    {
-      "away": "Udinese",
-      "confidence": "high",
-      "date": "2026-11-22T20:30:00+06:30",
-      "en_reason": "Bologna sit 8th on 17 points and have won four straight, including a 4-2 win at Milan and a 2-1 win at Parma. Udinese are bottom on five points, winless in nine, and have taken just one point from their last nine league games. New coach Paolo Zanetti lost his first game 2-1 at Venezia. Bologna won both meetings last season (3-0, 1-0) and lead the last eight head-to-heads 4-1.",
-      "home": "Bologna",
-      "league": "Serie A",
-      "pick": "ဘိုလော့ဂ်နာ နိုင်မယ်",
-      "pick_en": "Bologna win",
-      "prob_away": 15,
-      "prob_draw": 25,
-      "prob_home": 60,
-      "reason_mm": "ဘိုလော့ဂ်နာက အဆင့် ၈ မှာ ၁၇ မှတ်နဲ့ ရှိနေပြီး နောက်ဆုံး ၄ ပွဲဆက် နိုင်ထားတယ်။ မီလန်ကို အဝေးကွင်းမှာ ၄-၂ နဲ့ နိုင်ခဲ့ပြီး ပါမာကိုလည်း ၂-၁ နဲ့ နိုင်ခဲ့တယ်။ အူဒီနီးဆီက ဇယားအောက်ဆုံးမှာ ၅ မှတ်သာ ရှိနေပြီး ၉ ပွဲဆက် နိုင်ပွဲမရှိ ဖြစ်နေတယ်။ နောက်ဆုံး လိဂ် ၉ ပွဲမှာ ၁ မှတ်သာ ရထားတယ်။ ထိပ်တိုက်တွေ့ဆုံမှု နောက်ဆုံး ၈ ပွဲမှာ ဘိုလော့ဂ်နာ ၄ ပွဲနိုင်ထားပြီး ပြီးခဲ့တဲ့ ရာသီ နှစ်ပွဲလုံး နိုင်ခဲ့တယ်။"
-    },
-    {
-      "away": "Genoa",
-      "confidence": "medium",
-      "date": "2026-11-22T20:30:00+06:30",
-      "en_reason": "Sassuolo sit 17th on eight points, have lost five straight and are winless in seven, with the league's worst defence (29 conceded). New coach Roberto D'Aversa takes charge for the first time. Genoa are 13th on 13 points and have won four of their last six, including victories over Juventus, Lecce and Venezia. Genoa have won the last four meetings, all 2-1, though they have won only once away this season.",
-      "home": "Sassuolo",
-      "league": "Serie A",
-      "pick": "ဂျီနိုအာ နိုင်မယ်",
-      "pick_en": "Genoa win",
-      "prob_away": 42,
-      "prob_draw": 28,
-      "prob_home": 30,
-      "reason_mm": "ဆက်ဆူအိုလိုက အဆင့် ၁၇ မှာ ၈ မှတ်သာ ရှိနေပြီး ၅ ပွဲဆက် ရှုံးထားတယ်။ ၇ ပွဲဆက် နိုင်ပွဲမရှိ ဖြစ်နေပြီး လိဂ်မှာ ပေးဂိုး အများဆုံး (၂၉ ဂိုး) ဖြစ်တယ်။ နည်းပြသစ် ရောဘတ်တို ဒါဗာဆာ ပထမဆုံးပွဲ ကိုင်တွယ်မှာဖြစ်တယ်။ ဂျီနိုအာက အဆင့် ၁၃ မှာ ၁၃ မှတ်နဲ့ ရှိနေပြီး နောက်ဆုံး ၆ ပွဲမှာ ၄ ပွဲနိုင်ထားတယ် (ဂျူဗင်တပ်စ်၊ လက်ချီ၊ ဗင်နီးဇီးယား တို့ကို နိုင်)။ ထိပ်တိုက်တွေ့ဆုံမှု နောက်ဆုံး ၄ ပွဲလုံး ဂျီနိုအာက ၂-၁ နဲ့ နိုင်ထားတယ်။"
-    },
-    {
-      "away": "Angers",
-      "confidence": "high",
-      "date": "2026-11-22T20:30:00+06:30",
-      "en_reason": "Paris FC sit 3rd on 20 points and are unbeaten in seven home league games (4W 1D this season), including a 3-1 win over Monaco. Angers are 17th on eight points, winless in five, scoreless in their last three, and have conceded 14 goals in their last five. Paris FC's Lassine Sinayoko is the league's top scorer, and the gap in form and firepower is huge.",
-      "home": "Paris FC",
-      "league": "Ligue 1",
-      "pick": "ပါရီ အက်ဖ်စီ နိုင်မယ်",
-      "pick_en": "Paris FC win",
-      "prob_away": 16,
-      "prob_draw": 22,
-      "prob_home": 62,
-      "reason_mm": "ပါရီ အက်ဖ်စီက အဆင့် ၃ မှာ ၂၀ မှတ်နဲ့ ရှိနေပြီး အိမ်ကွင်း ၅ ပွဲမှာ ၄ ပွဲနိုင် ၁ ပွဲသရေ ရထားတယ်။ လိဂ် အိမ်ကွင်း ၇ ပွဲဆက် ရှုံးပွဲမရှိ ဖြစ်နေပြီး မိုနာကိုကို ၃-၁ နဲ့ နိုင်ခဲ့တယ်။ အန်ဂါက အဆင့် ၁၇ မှာ ၈ မှတ်သာ ရှိနေပြီး ၅ ပွဲဆက် နိုင်ပွဲမရှိ ဖြစ်နေတယ်။ နောက်ဆုံး ၃ ပွဲမှာ ဂိုးလုံးဝ မသွင်းနိုင်ခဲ့ဘဲ နောက်ဆုံး ၅ ပွဲမှာ ၁၄ ဂိုး ပေးထားရတယ်။ ပါရီရဲ့ ဆီနာယိုကိုက လိဂ် ဂိုးသွင်းအများဆုံး ကစားသမား ဖြစ်နေတယ်။"
-    },
-    {
-      "away": "Mainz",
-      "confidence": "medium",
-      "date": "2026-11-22T21:00:00+06:30",
-      "en_reason": "Augsburg sit 15th on nine points and are winless in seven, conceding heavily in a 5-2 defeat at Leipzig. Mainz are 12th on 10 points and have lost four straight, but they have won three of four away league games this season. Mainz have won four of the last five meetings (2-0 and 4-1 most recently) and Augsburg have not beaten them since September 2023. Augsburg also carry eight absentees including Matsima and Massengo.",
-      "home": "Augsburg",
+      "away": "Paderborn",
+      "date": "2026-10-31T00:00:00+06:30",
+      "home": "Borussia Monchengladbach",
       "league": "Bundesliga",
-      "pick": "မိန့်ဇ် နိုင်မယ်",
-      "pick_en": "Mainz win",
-      "prob_away": 42,
-      "prob_draw": 28,
-      "prob_home": 30,
-      "reason_mm": "အော့စ်ဘတ်က အဆင့် ၁၅ မှာ ၉ မှတ်သာ ရှိနေပြီး ၇ ပွဲဆက် နိုင်ပွဲမရှိ ဖြစ်နေတယ်။ လိုက်ပ်ဇစ်ကို ၅-၂ နဲ့ ရှုံးခဲ့ပြီး ခံစစ် အားနည်းတယ်။ မိန့်ဇ်က အဆင့် ၁၂ မှာ ၁၀ မှတ်နဲ့ ရှိနေပြီး နောက်ဆုံး ၄ ပွဲဆက် ရှုံးထားပေမယ့် အဝေးကွင်း ၄ ပွဲမှာ ၃ ပွဲနိုင်ထားတယ်။ ထိပ်တိုက်တွေ့ဆုံမှု နောက်ဆုံး ၅ ပွဲမှာ မိန့်ဇ် ၄ ပွဲနိုင်ထားပြီး အော့စ်ဘတ်က ၂၀၂၃ စက်တင်ဘာနောက်ပိုင်း မိန့်ဇ်ကို တခါမှ မနိုင်ခဲ့ဘူး။ အော့စ်ဘတ်မှာ ဒဏ်ရာရ ၈ ဦး ရှိနေတယ်။"
+      "pick_en": "Borussia Monchengladbach win"
     },
     {
-      "away": "Real Sociedad",
-      "confidence": "medium",
-      "date": "2026-11-22T21:45:00+06:30",
-      "en_reason": "Real Sociedad sit 5th on 22 points, have won five of their last six league games and taken 12 points from the last 15, including a 5-2 win at Malaga. Racing are 10th on 14 points but have the worst defence in La Liga (30 conceded in 12) and have not kept a clean sheet all season. Sociedad have won the last three meetings and Racing have not beaten them since March 2011, though Racing are strong at home (11 points from six) and Zabiri has nine goals.",
-      "home": "Racing Santander",
-      "league": "La Liga",
-      "pick": "ရီးရဲလ် ဆိုစီဒက် နိုင်မယ်",
-      "pick_en": "Real Sociedad win",
-      "prob_away": 43,
-      "prob_draw": 27,
-      "prob_home": 30,
-      "reason_mm": "ရီးရဲလ် ဆိုစီဒက်က အဆင့် ၅ မှာ ၂၂ မှတ်နဲ့ ရှိနေပြီး နောက်ဆုံး လိဂ် ၆ ပွဲမှာ ၅ ပွဲနိုင်ထားတယ်။ နောက်ဆုံး ၁၅ မှတ်အနက် ၁၂ မှတ် ရထားပြီး အဝေးကွင်းမှာ မာလာဂါကို ၅-၂ နဲ့ နိုင်ခဲ့တယ်။ ရေးဆင်းက အဆင့် ၁၀ မှာ ၁၄ မှတ်နဲ့ ရှိနေပြီး လိဂ်မှာ ပေးဂိုး အများဆုံး (၁၂ ပွဲမှာ ၃၀ ဂိုး) ဖြစ်တယ်။ ရာသီမှာ ပေးဂိုးမရှိ ပွဲ တပွဲမှ မရှိခဲ့ဘူး။ ထိပ်တိုက်တွေ့ဆုံမှု နောက်ဆုံး ၃ ပွဲလုံး ဆိုစီဒက် နိုင်ထားပြီး ရေးဆင်းက ၂၀၁၁ နောက်ပိုင်း ဆိုစီဒက်ကို တခါမှ မနိုင်ခဲ့ဘူး။"
-    },
-    {
-      "away": "Rennes",
-      "confidence": "medium",
-      "date": "2026-11-22T22:45:00+06:30",
-      "en_reason": "Lorient sit 10th on 15 points with the league's second-best defence (eight conceded in 10, a division-high six clean sheets), and beat PSG and Monaco 1-0 at home in October. They have won six straight Ligue 1 meetings with Rennes. Rennes are 8th on 16 points but have lost five of their last six away league games, conceding 13 in their last three on the road, and top scorer Esteban Lepaul (seven goals in seven) is out with an ankle injury.",
-      "home": "Lorient",
-      "league": "Ligue 1",
-      "pick": "လိုရီယန့် နိုင်မယ်",
-      "pick_en": "Lorient win",
-      "prob_away": 30,
-      "prob_draw": 28,
-      "prob_home": 42,
-      "reason_mm": "လိုရီယန့်က အဆင့် ၁၀ မှာ ၁၅ မှတ်နဲ့ ရှိနေပြီး လိဂ်မှာ ခံစစ် အကောင်းဆုံး အသင်းတွေထဲက တသင်းဖြစ်တယ် (၁၀ ပွဲမှာ ၈ ဂိုးသာ ပေး၊ ပေးဂိုးမရှိ ၆ ပွဲ)။ အိမ်ကွင်းမှာ ပီအက်စ်ဂျီနဲ့ မိုနာကို တို့ကို ၁-၀ နဲ့ နိုင်ခဲ့တယ်။ ရန်းစ်နဲ့ တွေ့ဆုံမှု နောက်ဆုံး ၆ ပွဲလုံး လိုရီယန့် နိုင်ထားတယ်။ ရန်းစ်က အဆင့် ၈ မှာ ၁၆ မှတ်နဲ့ ရှိနေပေမယ့် အဝေးကွင်း နောက်ဆုံး ၆ ပွဲမှာ ၅ ပွဲ ရှုံးထားပြီး နောက်ဆုံး အဝေးကွင်း ၃ ပွဲမှာ ၁၃ ဂိုး ပေးထားရတယ်။ ဂိုးသွင်းအများဆုံး လီပေါလ် (၇ ပွဲ ၇ ဂိုး) ဒဏ်ရာရနေတယ်။"
-    },
-    {
-      "away": "Manchester United",
-      "confidence": "medium",
-      "date": "2026-11-22T23:00:00+06:30",
-      "en_reason": "Liverpool sit 4th and returned to winning ways with a 3-1 win at Crystal Palace, though their home form is poor — one win in five at Anfield, the lowest home win rate in the league. Manchester United are 18th on eight points, winless in eight Premier League games, without a clean sheet all season, and have conceded 15 goals in their last five. Mauricio Pochettino takes charge for the first time with just four days to prepare. United have won the last two meetings, including 2-1 at Anfield last October, so this is no banker.",
-      "home": "Liverpool",
-      "league": "Premier League",
-      "pick": "လီဗာပူးလ် နိုင်မယ်",
-      "pick_en": "Liverpool win",
-      "prob_away": 20,
-      "prob_draw": 25,
-      "prob_home": 55,
-      "reason_mm": "လီဗာပူးလ်က အဆင့် ၄ မှာ ရှိနေပြီး ပဲလေ့စ်ကို ၃-၁ နဲ့ နိုင်ကာ နိုင်ပွဲပြန်ရခဲ့တယ်။ အဝေးကွင်းမှာ လိဂ် အကောင်းဆုံး (၁၃ မှတ်) ဖြစ်ပေမယ့် အိမ်ကွင်းမှာ ၅ ပွဲမှာ ၁ ပွဲသာ နိုင်ထားတယ်။ မန်ယူနိုက်တက်က အဆင့် ၁၈ တန်းဆင်းဇုန်မှာ ၈ မှတ်သာ ရှိနေပြီး ပရီးမီးယားလိဂ် ၈ ပွဲဆက် နိုင်ပွဲမရှိ ဖြစ်နေတယ်။ ဒီရာသီ ပေးဂိုးမရှိ ပွဲ တပွဲမှ မရှိခဲ့ဘဲ နောက်ဆုံး ၅ ပွဲမှာ ၁၅ ဂိုး ပေးထားရတယ်။ ပိုချက်တီနို ပထမဆုံးပွဲ ကိုင်တွယ်မှာဖြစ်ပြီး ပြင်ဆင်ချိန် ၄ ရက်သာ ရခဲ့တယ်။"
+      "away": "1. FC Koln",
+      "date": "2026-11-01T00:00:00+06:30",
+      "home": "Union Berlin",
+      "league": "Bundesliga",
+      "pick_en": "Draw"
     },
     {
       "away": "Hamburger SV",
-      "confidence": "medium",
-      "date": "2026-11-22T23:00:00+06:30",
-      "en_reason": "Werder Bremen sit 6th on 15 points and are unbeaten at home (10 points from four games, scoring two or more in all four). Niclas Fullkrug has nine goals in nine league games, six of them from set pieces — Werder lead the league in set-piece goals. Hamburg are 11th on 12 points, have lost four of five away, and have conceded 20 goals in nine games. Last season each side won the home meeting, but Werder's home form and Hamburg's leaky away defence give the hosts the edge.",
+      "date": "2026-11-01T00:00:00+06:30",
+      "home": "Eintracht Frankfurt",
+      "league": "Bundesliga",
+      "pick_en": "Eintracht Frankfurt win"
+    },
+    {
+      "away": "Olympiakos",
+      "date": "2026-11-04T00:00:00+06:30",
+      "home": "Rennes",
+      "league": "Europa League",
+      "pick_en": "Rennes win"
+    },
+    {
+      "away": "Borussia Mönchengladbach",
+      "date": "2026-11-07T00:00:00+06:30",
+      "home": "Hamburger SV",
+      "league": "Bundesliga",
+      "pick_en": "Hamburger SV win"
+    },
+    {
+      "away": "Fulham",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "Manchester City",
+      "league": "Premier League",
+      "pick_en": "Manchester City win"
+    },
+    {
+      "away": "Deportivo La Coruña",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "Deportivo Alavés",
+      "league": "La Liga",
+      "pick_en": "Draw"
+    },
+    {
+      "away": "Cagliari",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "Como",
+      "league": "Serie A",
+      "pick_en": "Como win"
+    },
+    {
+      "away": "Lecce",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "Lazio",
+      "league": "Serie A",
+      "pick_en": "Lazio win"
+    },
+    {
+      "away": "SC Paderborn",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "Bayer Leverkusen",
+      "league": "Bundesliga",
+      "pick_en": "Bayer Leverkusen win"
+    },
+    {
+      "away": "Borussia Dortmund",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "Borussia Mönchengladbach",
+      "league": "Bundesliga",
+      "pick_en": "Borussia Dortmund win"
+    },
+    {
+      "away": "TSG Hoffenheim",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "Eintracht Frankfurt",
+      "league": "Bundesliga",
+      "pick_en": "Eintracht Frankfurt win"
+    },
+    {
+      "away": "SC Freiburg",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "SV Elversberg",
+      "league": "Bundesliga",
+      "pick_en": "SC Freiburg win"
+    },
+    {
+      "away": "RB Leipzig",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "Union Berlin",
+      "league": "Bundesliga",
+      "pick_en": "RB Leipzig win"
+    },
+    {
+      "away": "Sunderland",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "Aston Villa",
+      "league": "Premier League",
+      "pick_en": "Aston Villa win"
+    },
+    {
+      "away": "Nottingham Forest",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "Bournemouth",
+      "league": "Premier League",
+      "pick_en": "Bournemouth win"
+    },
+    {
+      "away": "Leeds United",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "Chelsea",
+      "league": "Premier League",
+      "pick_en": "Chelsea win"
+    },
+    {
+      "away": "Crystal Palace",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "Coventry City",
+      "league": "Premier League",
+      "pick_en": "Coventry City win"
+    },
+    {
+      "away": "Ipswich Town",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "Tottenham Hotspur",
+      "league": "Premier League",
+      "pick_en": "Tottenham Hotspur win"
+    },
+    {
+      "away": "Valencia",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "Rayo Vallecano",
+      "league": "La Liga",
+      "pick_en": "Rayo Vallecano win"
+    },
+    {
+      "away": "Paris Saint-Germain",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "Nice",
+      "league": "Ligue 1",
+      "pick_en": "Paris Saint-Germain win"
+    },
+    {
+      "away": "AS Roma",
+      "date": "2026-11-21T00:00:00+06:30",
+      "home": "Parma",
+      "league": "Serie A",
+      "pick_en": "AS Roma win"
+    },
+    {
+      "away": "Venezia",
+      "date": "2026-11-22T00:00:00+06:30",
+      "home": "Juventus",
+      "league": "Serie A",
+      "pick_en": "Juventus win"
+    },
+    {
+      "away": "Villarreal",
+      "date": "2026-11-22T00:00:00+06:30",
+      "home": "Barcelona",
+      "league": "La Liga",
+      "pick_en": "Barcelona win"
+    },
+    {
+      "away": "Brighton",
+      "date": "2026-11-22T00:00:00+06:30",
+      "home": "Hull City",
+      "league": "Premier League",
+      "pick_en": "Brighton win"
+    },
+    {
+      "away": "Udinese",
+      "date": "2026-11-22T00:00:00+06:30",
+      "home": "Bologna",
+      "league": "Serie A",
+      "pick_en": "Bologna win"
+    },
+    {
+      "away": "Genoa",
+      "date": "2026-11-22T00:00:00+06:30",
+      "home": "Sassuolo",
+      "league": "Serie A",
+      "pick_en": "Genoa win"
+    },
+    {
+      "away": "Angers",
+      "date": "2026-11-22T00:00:00+06:30",
+      "home": "Paris FC",
+      "league": "Ligue 1",
+      "pick_en": "Paris FC win"
+    },
+    {
+      "away": "Mainz",
+      "date": "2026-11-22T00:00:00+06:30",
+      "home": "Augsburg",
+      "league": "Bundesliga",
+      "pick_en": "Mainz win"
+    },
+    {
+      "away": "Real Sociedad",
+      "date": "2026-11-22T00:00:00+06:30",
+      "home": "Racing Santander",
+      "league": "La Liga",
+      "pick_en": "Real Sociedad win"
+    },
+    {
+      "away": "Rennes",
+      "date": "2026-11-22T00:00:00+06:30",
+      "home": "Lorient",
+      "league": "Ligue 1",
+      "pick_en": "Lorient win"
+    },
+    {
+      "away": "Manchester United",
+      "date": "2026-11-22T00:00:00+06:30",
+      "home": "Liverpool",
+      "league": "Premier League",
+      "pick_en": "Liverpool win"
+    },
+    {
+      "away": "Hamburger SV",
+      "date": "2026-11-22T00:00:00+06:30",
       "home": "Werder Bremen",
       "league": "Bundesliga",
-      "pick": "ဝါဒါ ဘရီမင် နိုင်မယ်",
-      "pick_en": "Werder Bremen win",
-      "prob_away": 26,
-      "prob_draw": 26,
-      "prob_home": 48,
-      "reason_mm": "ဝါဒါ ဘရီမင်က အဆင့် ၆ မှာ ၁၅ မှတ်နဲ့ ရှိနေပြီး အိမ်ကွင်းမှာ ရှုံးပွဲမရှိ ဖြစ်နေတယ် (၄ ပွဲမှာ ၁၀ မှတ်)။ အိမ်ကွင်း ၄ ပွဲလုံးမှာ ၂ ဂိုးအထက် သွင်းထားတယ်။ ဖူးလ်ခရွတ်က ၉ ပွဲမှာ ၉ ဂိုးသွင်းထားပြီး ၆ ဂိုးက စက်ပိုင်းဂိုးတွေဖြစ်တယ်။ ဟမ်းဘတ်က အဆင့် ၁၁ မှာ ၁၂ မှတ်နဲ့ ရှိနေပြီး အဝေးကွင်း ၅ ပွဲမှာ ၄ ပွဲ ရှုံးထားတယ်။ ၉ ပွဲမှာ ၂၀ ဂိုး ပေးထားရတယ်။ ပြီးခဲ့တဲ့ ရာသီ အိမ်ကွင်း နှစ်သင်းလုံး ကိုယ့်ကွင်းမှာ နိုင်ခဲ့တယ်။"
+      "pick_en": "Werder Bremen win"
     },
     {
-      "league": "Serie A",
-      "home": "AC Milan",
       "away": "Frosinone",
-      "date": "2026-11-22T23:30:00+06:30",
-      "pick": "အေစီ မီလန် နိုင်မယ်",
-      "pick_en": "AC Milan win",
-      "confidence": "medium",
-      "prob_home": 55,
-      "prob_draw": 24,
-      "prob_away": 21,
-      "reason_mm": "အေစီ မီလန်က အဆင့် ၄ မှာ ၂၄ မှတ်နဲ့ ရှိနေပြီး နောက်ဆုံး လိဂ် ၅ ပွဲမှာ ၄ ပွဲနိုင်ထားတယ်။ အင်တာကို ဒါဘီမှာ ၃-၁ နဲ့ နိုင်ခဲ့တယ်။ ဖရိုဆီနိုနီနဲ့ နောက်ဆုံး တွေ့ဆုံမှု ၂ ပွဲလုံး မီလန် နိုင်ထားတယ် (၃-၁၊ ၃-၂)။ ဖရိုဆီနိုနီက အဆင့် ၆ မှာ ၂၀ မှတ်နဲ့ အံ့အားသင့်စရာ ခြေစွမ်းပြနေပေမယ့် ဂိုးသွင်းအများဆုံး ရိုင်းမွန်ဒို (၈ ဂိုး) ဒဏ်ရာရနေတယ်။ ကာဂလီယာရီကို ၁-၀ နဲ့ ရှုံးခဲ့ပြီး အခွင့်အရေး ၂၉ ကြိမ် ရခဲ့ပေမယ့် ဂိုးမသွင်းနိုင်ခဲ့ဘူး။ မီလန်မှာ တိုမိုရီ၊ ဂါဘီယာ၊ လော့ဖ်တပ်စ်-ချီခ် တို့ မပါနိုင်ပေမယ့် မိုင်ညန် ပြန်ပါလာပြီး ဆန်စီရိုမှာ မီလန် အနိုင်ရဖို့ လုံလောက်တယ်။",
-      "en_reason": "Milan are fourth on 24 points, have won four of their last five league games, including a 3-1 derby win over Inter, and have won both recent meetings with Frosinone (3-1, 3-2). Frosinone are the surprise package in sixth on 20 points, but their top scorer Antonio Raimondo (eight goals) is out injured and they lost 1-0 at Cagliari despite 29 shots. Milan are without Tomori, Gabbia and Loftus-Cheek, and their home form has been patchy - a 4-2 defeat to Bologna - so this is no banker, but Maignan is fit and Milan's quality at San Siro should edge it."
+      "date": "2026-11-22T00:00:00+06:30",
+      "home": "AC Milan",
+      "league": "Serie A",
+      "pick_en": "AC Milan win"
     },
     {
-      "league": "La Liga",
-      "home": "Osasuna",
       "away": "Malaga",
       "date": "2026-11-23T00:00:00+06:30",
-      "pick": "အိုဆာဆူနာ နိုင်မယ်",
-      "pick_en": "Osasuna win",
-      "confidence": "medium",
-      "prob_home": 55,
-      "prob_draw": 25,
-      "prob_away": 20,
-      "reason_mm": "အိုဆာဆူနာက အဆင့် ၁၆ မှာ ၁၂ မှတ်နဲ့ ရှိနေပေမယ့် အိမ်ကွင်းမှာ တပွဲသာ ရှုံးထားပြီး အိမ်ကွင်း ၆ ပွဲမှာ ၄ ဂိုးသာ ပေးထားတယ် (ပေးဂိုးမရှိ ၃ ပွဲ)။ ဘူဒီမီးယားက အသင်းရဲ့ လိဂ် ၁၂ ဂိုးအနက် ၈ ဂိုးကို သွင်းထားတယ်။ မာလာဂါက ဇယားအောက်ဆုံးမှာ ၅ မှတ်သာ ရှိနေပြီး ၁၂ ပွဲလုံးမှာ နိုင်ပွဲမရှိ သေးဘူး။ အဝေးကွင်း ၆ ပွဲမှာ ၃ ဂိုးသာ သွင်းထားတယ်။ ၂၀၁၉ မှာ နောက်ဆုံး တွေ့ဆုံတုန်းက အိုဆာဆူနာ ၂-၁ နဲ့ နိုင်ခဲ့တယ်။ မာလာဂါမှာ အက်ဇ်နို ပွဲပယ်ခံထားရပြီး ဒဏ်ရာရ ၃ ဦး ရှိနေတယ်။ အိုဆာဆူနာ နောက်ဆုံး ၃ ပွဲဆက် နိုင်ပွဲမရှိ ပေမယ့် ဒီလို အိမ်ကွင်းပွဲကို နိုင်ဖို့ လိုအပ်တယ်။",
-      "en_reason": "Osasuna are 16th on 12 points but have lost only once at home all season, conceding just four goals in six home games with three clean sheets, and Ante Budimir has scored eight of their 12 league goals. Malaga are bottom on five points and still winless after 12 games, with only three goals in six away matches and two points on the road. The sides last met in 2019, when Osasuna won 2-1 away, and Malaga are without suspended Adam Aznou plus three injured players. Osasuna's recent form is poor - winless in three - but this is the kind of home fixture they must win."
+      "home": "Osasuna",
+      "league": "La Liga",
+      "pick_en": "Osasuna win"
     },
     {
-      "league": "Serie A",
-      "home": "Atalanta",
       "away": "Inter",
       "date": "2026-11-23T02:15:00+06:30",
-      "pick": "အင်တာ မီလန် နိုင်မယ်",
-      "pick_en": "Inter win",
-      "confidence": "medium",
-      "prob_home": 20,
-      "prob_draw": 25,
-      "prob_away": 55,
-      "reason_mm": "အင်တာက အဆင့် ၃ မှာ ၂၈ မှတ်နဲ့ ရှိနေပြီး ၁၁ ပွဲမှာ ၉ ပွဲနိုင်ထားတယ်။ နောက်ဆုံး ၅ ပွဲမှာ ၄ ပွဲနိုင်ထားပြီး ဖီယင်နို့ဒ်ကို ၃-၀၊ ကိုမိုကို ၂-၀ နဲ့ နိုင်ကာ ပေးဂိုးမရှိ ခဲ့ဘူး။ အတ္တလန်တာက အဆင့် ၁၁ မှာ ၁၄ မှတ်သာ ရှိနေပြီး ၂၀၁၈ နိုဝင်ဘာနောက်ပိုင်း အင်တာကို တခါမှ မနိုင်ခဲ့ဘူး (၁၅ ပွဲဆက် နိုင်ပွဲမရှိ)။ နောက်ဆုံး ၅ ကြိမ် တွေ့ဆုံမှုမှာ အင်တာ ၄ ပွဲနိုင်ထားတယ်။ အတ္တလန်တာက မွန်ဇာကို ၁-၀ နဲ့ နိုင်ခဲ့ပေမယ့် ပါမာကို အိမ်ကွင်းမှာ ၃-၀ နဲ့ ရှုံးခဲ့ပြီး ဖရိုဆီနိုနီနဲ့ ၄-၄ သရေကျခဲ့တယ်။ အင်တာမှာ ဘွန်နီ မပါနိုင်ပေမယ့် တိုက်စစ်က လိဂ်မှာ အကောင်းဆုံး (တစ်ပွဲ ၂.၆၅ xG) ဖြစ်နေတယ်။",
-      "en_reason": "Inter are third on 28 points with nine wins from 11, have won four of their last five, and kept clean sheets in 3-0 wins over Feyenoord and 2-0 over Como. Atalanta are 11th on 14 points and have not beaten Inter since November 2018 - 15 meetings without a win, with Inter winning four of the last five. Atalanta did beat Monza 1-0 last time out, but they lost 3-0 at home to Parma and drew 4-4 with Frosinone. Inter are without Bonny and have doubts over Zielinski and Lautaro, while Atalanta miss Hien, but Inter's attack - 2.65 xG per game, best in the league - should prove too much in Bergamo."
+      "home": "Atalanta",
+      "league": "Serie A",
+      "pick_en": "Inter win"
     },
     {
-      "league": "Ligue 1",
-      "home": "Marseille",
       "away": "Le Mans",
       "date": "2026-11-23T02:15:00+06:30",
-      "pick": "မာဆေး နိုင်မယ်",
-      "pick_en": "Marseille win",
-      "confidence": "high",
-      "prob_home": 62,
-      "prob_draw": 22,
-      "prob_away": 16,
-      "reason_mm": "မာဆေးက အောက်တိုဘာနောက်ပိုင်း လိဂ် ၅ ပွဲဆက် နိုင်ထားပြီး အဆင့် ၄ မှာ ၁၈ မှတ်နဲ့ ရှိနေတယ်။ အဲဒီ ၅ ပွဲလုံးမှာ ၂ ဂိုးအထက် သွင်းထားပြီး ဂူအီရီက အိမ်ကွင်း နောက်ဆုံး ၅ ပွဲမှာ ၅ ဂိုးသွင်းထားတယ်။ လီမန်းက အဆင့် ၁၅ မှာ ၈ မှတ်သာ ရှိနေပြီး တရာသီလုံးမှာ ၁ ပွဲသာ နိုင်ထားတယ်။ ၅ ပွဲဆက် နိုင်ပွဲမရှိ ဖြစ်နေပြီး လိဂ် ၁၀ ပွဲလုံးမှာ ဂိုးပေးထားရတယ်။ လီမန်းက ဗီလိုဒရုမ်းမှာ ၆ ကြိမ် လာကစားရာမှာ တခါမှ မနိုင်ခဲ့ဘူး (၄ ပွဲရှုံး ၂ ပွဲသရေ)။ မာဆေးမှာ အီမာဆန်နဲ့ ကော်နီးလီးယက်စ် မပါနိုင်ပေမယ့် လီမန်းမှာလည်း ဘူရာဘားနဲ့ ဆီဒီဘေး မပါနိုင်ဘူး။ အိမ်ရှင် အနိုင်ရဖို့ လုံလောက်တယ်။",
-      "en_reason": "Marseille have won five straight Ligue 1 matches since October, climbing to fourth on 18 points, and have scored at least twice in each of those five games, with Amine Gouiri scoring five in his last five home league games. Le Mans are 15th on eight points with just one win all season, winless in five, and have conceded in all 10 league matches. Le Mans have never won at the Velodrome in six visits (four defeats, two draws) and have not beaten Marseille since 2007. Marseille are without Emerson and Cornelius, but Le Mans miss top creator Bourabaa and Sidibe, so the hosts should win comfortably."
+      "home": "Marseille",
+      "league": "Ligue 1",
+      "pick_en": "Marseille win"
     },
     {
-      "league": "La Liga",
-      "home": "Getafe",
       "away": "Atletico Madrid",
       "date": "2026-11-23T02:30:00+06:30",
-      "pick": "အက်သလက်တီကို မက်ဒရစ် နိုင်မယ်",
-      "pick_en": "Atletico Madrid win",
-      "confidence": "medium",
-      "prob_home": 25,
-      "prob_draw": 28,
-      "prob_away": 47,
-      "reason_mm": "အက်သလက်တီကိုက အဆင့် ၃ မှာ ၂၈ မှတ်နဲ့ ရှိနေပြီး ဇယားထိပ်က ဘာစီလိုနာနဲ့ ၅ မှတ်သာ ကွာတယ်။ အဝေးကွင်း လိဂ် ၆ ပွဲမှာ ၅ ပွဲနိုင်ထားပြီး နောက်ဆုံး အဝေးကွင်း ၄ ပွဲမှာ ၁ ဂိုးသာ ပေးထားရတယ်။ ဂီတာဖေးက အဆင့် ၁၅ မှာ ၁၂ မှတ်နဲ့ ရှိနေပြီး လိဂ်မှာ ဂိုးသွင်းအား အညံ့ဆုံး (၁၂ ပွဲမှာ ၈ ဂိုး) ဖြစ်တယ်။ ဒါပေမယ့် အိမ်ကွင်း ၆ ပွဲဆက် ရှုံးပွဲမရှိ ဖြစ်နေပြီး ရမှတ် ၁၂ မှတ်လုံး အိမ်ကွင်းမှာ ရထားတယ်။ ထိပ်တိုက်တွေ့ဆုံမှု ၄၇ ပွဲမှာ အက်သလက်တီကို ၃၂ ပွဲနိုင်ထားပြီး နောက်ဆုံး ၂ ပွဲလုံး ၁-၀ နဲ့ နိုင်ခဲ့တယ်။ ဂီတာဖေးက ၁၅ နှစ်အတွင်း အက်သလက်တီကိုကို ၁ ပွဲသာ နိုင်ခဲ့တယ်။ အက်သလက်တီကိုမှာ ရိုမီရို၊ ပူဘီးလ်၊ လုခ်မန်း တို့ ဒဏ်ရာရနေပြီး နောက်ဆုံး ၂ ပွဲဆက် ရှုံးထားပေမယ့် အရည်အချင်းအရ အနိုင်ရဖို့ လုံလောက်တယ်။",
-      "en_reason": "Atletico are third on 28 points, five behind leaders Barcelona, and have won five of six away league games, conceding just once in their last four on the road. Getafe are 15th on 12 points and have the league's worst attack (eight goals in 12), though they are unbeaten in six at home and all 12 of their points have come at the Coliseum. Atletico have won 32 of 47 meetings with Getafe, including the last two 1-0, and Getafe have beaten them only once in 15 years. Atletico are depleted at the back - Romero, Pubill and Lookman all out - and arrive on two straight defeats, so Getafe's home resilience makes this closer than the table suggests, but Atletico's quality should edge a tight game."
+      "home": "Getafe",
+      "league": "La Liga",
+      "pick_en": "Atletico Madrid win"
     }
   ],
   "source": "KZZ Football Analysis",
-  "updated": "2026-11-22"
+  "updated": "2026-11-23"
 }
