@@ -5,7 +5,7 @@
   "correct": 119,
   "wrong": 92,
   "accuracy_pct": 56.4,
-  "not_found": 6
+  "not_found": 4
  },
  "results": [
   {
@@ -169,24 +169,6 @@
    "pick_en": "Red Bull Salzburg win",
    "score": "2-2",
    "outcome": "wrong"
-  },
-  {
-   "date": "2026-10-22T23:15:00+06:30",
-   "home": "Union Saint-Gilloise",
-   "away": "Hapoel Be'er Sheva",
-   "league": "Europa League",
-   "pick_en": "Union Saint-Gilloise win",
-   "score": null,
-   "outcome": "not_found"
-  },
-  {
-   "date": "2026-10-23T01:30:00+06:30",
-   "home": "Celje",
-   "away": "Red Bull Salzburg",
-   "league": "Europa League",
-   "pick_en": "Red Bull Salzburg win",
-   "score": null,
-   "outcome": "not_found"
   },
   {
    "date": "2026-10-24",

@@ -1,291 +1,46 @@
 {
   "predictions": [
     {
-      "away": "Hapoel Be'er Sheva",
-      "date": "2026-10-22T23:15:00+06:30",
-      "home": "Union Saint-Gilloise",
-      "league": "Europa League",
-      "pick_en": "Union Saint-Gilloise win"
+      "away": "Fiorentina",
+      "confidence": "medium",
+      "date": "2026-11-24T02:15:00+06:30",
+      "en_reason": "Monza sit 18th in the relegation zone on seven points and have lost four straight, including a 1-0 home defeat to Atalanta, plus losses to Bologna, Napoli and Torino. Coach Ivan Juric is suspended, so assistant Matteo Paro takes charge, and Michael Folorunsho is out injured, though top scorer Gustavo Varela (nine goals in 10 league games) still leads the line. Fiorentina are 15th on nine points but unbeaten in three, drawing 2-2 with Juventus and winning 4-2 away at Sassuolo, and they have scored in 10 straight matches. The last six meetings are dead even (two wins each, two draws), but Fiorentina's improving form and greater firepower should edge a tight game at the U-Power Stadium.",
+      "home": "Monza",
+      "league": "Serie A",
+      "pick": "ဖီအိုရင်တီးနား နိုင်မယ်",
+      "pick_en": "Fiorentina win",
+      "prob_away": 48,
+      "prob_draw": 25,
+      "prob_home": 27,
+      "reason_mm": "မွန်ဇာက အဆင့် ၁၈ တန်းဆင်းဇုန်မှာ ၇ မှတ်သာ ရှိနေပြီး နောက်ဆုံး ၄ ပွဲဆက် ရှုံးထားတယ် (အတ္တလန်တာကို အိမ်ကွင်းမှာ ၀-၁၊ ဘိုလော့ဂ်နာ၊ နာပိုလီ၊ တိုရီနို တို့ကို ရှုံး)။ နည်းပြ ယူရစ်ချ် ပွဲပယ်ခံထားရလို့ လက်ထောက်နည်းပြ ပါရို ကိုင်တွယ်ရမှာဖြစ်ပြီး ဖိုလိုရွန်ရှို ဒဏ်ရာရနေတယ်။ ဂိုးသွင်းအများဆုံး ဗာရဲလား (၁၀ ပွဲမှာ ၉ ဂိုး) ရှိနေပေမယ့် ဖီအိုရင်တီးနားက နောက်ဆုံး ၃ ပွဲဆက် ရှုံးပွဲမရှိ (ဂျူဗင်တပ်စ်နဲ့ ၂-၂ သရေ၊ ဆက်ဆူအိုလိုကို အဝေးကွင်းမှာ ၄-၂ နဲ့ နိုင်) ဖြစ်နေပြီး ၁၀ ပွဲဆက် ဂိုးသွင်းထားတယ်။ ထိပ်တိုက်တွေ့ဆုံမှု နောက်ဆုံး ၆ ပွဲမှာ ၂ ပွဲစီနိုင်ထားပေမယ့် ဖီအိုရင်တီးနားရဲ့ မာစတန်တူနိုနဲ့ ပယ်လီဂရီနို (တဦးစီ ၄ ဂိုး) တို့က အနိုင်ရဖို့ လုံလောက်တယ်။"
     },
     {
-      "away": "Red Bull Salzburg",
-      "date": "2026-10-23T01:30:00+06:30",
-      "home": "Celje",
-      "league": "Europa League",
-      "pick_en": "Red Bull Salzburg win"
+      "away": "Everton",
+      "confidence": "low",
+      "date": "2026-11-24T02:30:00+06:30",
+      "en_reason": "Brentford are 10th on 14 points and their home form has been their strength: 10 of those points came at the Gtech, where all three home wins were to nil against Tottenham, Chelsea and Nottingham Forest, and they have scored in every home match. But top scorer Igor Thiago is suspended for three games after his red card at Brighton, and defenders Nathan Collins and Aaron Hickey are out injured. Everton are seventh on 16 points and arrive on three straight wins, including a 1-0 victory at Newcastle, with a fully fit squad and Jack Grealish back in contention. Everton are unbeaten in their last four visits to Brentford (one win, three draws) and have drawn three of five away, so this is tight — but Brentford's home defensive record just gives them the edge.",
+      "home": "Brentford",
+      "league": "Premier League",
+      "pick": "ဘရန့်ဖို့ဒ် နိုင်မယ်",
+      "pick_en": "Brentford win",
+      "prob_away": 30,
+      "prob_draw": 30,
+      "prob_home": 40,
+      "reason_mm": "ဘရန့်ဖို့ဒ်က ၁၄ မှတ်နဲ့ အဆင့် ၁၀ မှာ ရှိနေပြီး အိမ်ကွင်းမှာ အားကောင်းတယ် — အိမ်ကွင်း ၅ ပွဲမှာ ၃ ပွဲနိုင်ထားပြီး ၃ ပွဲလုံး ပေးဂိုးမရှိ နိုင်ခဲ့တယ် (တော့တင်ဟမ်၊ ချဲလ်ဆီး၊ ဖောရက်စ် တို့ကို နိုင်)၊ အိမ်ကွင်း ပွဲတိုင်းမှာ ဂိုးသွင်းထားတယ်။ ဒါပေမယ့် တိုက်စစ်မှူး အီဂေါ သီယာဂို ပွဲပယ် ၃ ပွဲ ခံထားရပြီး နာသန် ကောလင်းစ်၊ အာရွန် ဟစ်ကီ တို့ ဒဏ်ရာရနေတယ်။ အဲဗာတန်က ၁၆ မှတ်နဲ့ အဆင့် ၇ မှာ ရှိနေပြီး နောက်ဆုံး ၃ ပွဲဆက် နိုင်ထားတယ် (ကိုဗင်ထရီကို ၃-၁၊ နယူးကာဆယ်ကို အဝေးကွင်းမှာ ၁-၀)၊ ဒဏ်ရာရ ကစားသမား မရှိဘဲ ဂရီးလစ်ရှ် ပြန်ပါလာတယ်။ ထိပ်တိုက်တွေ့ဆုံမှု နောက်ဆုံး ၄ ကြိမ် ဘရန့်ဖို့ဒ် အိမ်ကွင်းမှာ အဲဗာတန် ရှုံးပွဲမရှိ (၁ ပွဲနိုင် ၃ ပွဲသရေ) ဖြစ်နေပေမယ့် ဘရန့်ဖို့ဒ်ရဲ့ အိမ်ကွင်း ခံစစ်အားက အနိုင်ရဖို့ လုံလောက်တယ်။"
     },
     {
-      "away": "Atletico Madrid",
-      "date": "2026-10-31T00:00:00+06:30",
+      "away": "Elche",
+      "confidence": "low",
+      "date": "2026-11-24T02:30:00+06:30",
+      "en_reason": "Levante are 17th on 11 points and Elche 18th on 10, so both sides desperately need a win to climb out of the relegation zone. Levante have taken just six points from their last six league games and have conceded in five straight home matches, but they beat Athletic Club 3-1 at home in October and won the last meeting 3-2 in January. Elche are on a five-match unbeaten run away from home with two straight away wins, but they have lost their last two league games (0-2 to Betis, 0-1 to Valencia) and are without injured midfielder Marc Aguado. Levante lead the head-to-head 22 wins to 13 across 54 meetings, and their home scoring (1.6 goals per game) should just edge a scrappy relegation six-pointer.",
       "home": "Levante",
       "league": "La Liga",
-      "pick_en": "Atletico Madrid win"
-    },
-    {
-      "away": "Paderborn",
-      "date": "2026-10-31T00:00:00+06:30",
-      "home": "Borussia Monchengladbach",
-      "league": "Bundesliga",
-      "pick_en": "Borussia Monchengladbach win"
-    },
-    {
-      "away": "1. FC Koln",
-      "date": "2026-11-01T00:00:00+06:30",
-      "home": "Union Berlin",
-      "league": "Bundesliga",
-      "pick_en": "Draw"
-    },
-    {
-      "away": "Hamburger SV",
-      "date": "2026-11-01T00:00:00+06:30",
-      "home": "Eintracht Frankfurt",
-      "league": "Bundesliga",
-      "pick_en": "Eintracht Frankfurt win"
-    },
-    {
-      "away": "Olympiakos",
-      "date": "2026-11-04T00:00:00+06:30",
-      "home": "Rennes",
-      "league": "Europa League",
-      "pick_en": "Rennes win"
-    },
-    {
-      "away": "Borussia Mönchengladbach",
-      "date": "2026-11-07T00:00:00+06:30",
-      "home": "Hamburger SV",
-      "league": "Bundesliga",
-      "pick_en": "Hamburger SV win"
-    },
-    {
-      "away": "Fulham",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "Manchester City",
-      "league": "Premier League",
-      "pick_en": "Manchester City win"
-    },
-    {
-      "away": "Deportivo La Coruña",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "Deportivo Alavés",
-      "league": "La Liga",
-      "pick_en": "Draw"
-    },
-    {
-      "away": "Cagliari",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "Como",
-      "league": "Serie A",
-      "pick_en": "Como win"
-    },
-    {
-      "away": "Lecce",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "Lazio",
-      "league": "Serie A",
-      "pick_en": "Lazio win"
-    },
-    {
-      "away": "SC Paderborn",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "Bayer Leverkusen",
-      "league": "Bundesliga",
-      "pick_en": "Bayer Leverkusen win"
-    },
-    {
-      "away": "Borussia Dortmund",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "Borussia Mönchengladbach",
-      "league": "Bundesliga",
-      "pick_en": "Borussia Dortmund win"
-    },
-    {
-      "away": "TSG Hoffenheim",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "Eintracht Frankfurt",
-      "league": "Bundesliga",
-      "pick_en": "Eintracht Frankfurt win"
-    },
-    {
-      "away": "SC Freiburg",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "SV Elversberg",
-      "league": "Bundesliga",
-      "pick_en": "SC Freiburg win"
-    },
-    {
-      "away": "RB Leipzig",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "Union Berlin",
-      "league": "Bundesliga",
-      "pick_en": "RB Leipzig win"
-    },
-    {
-      "away": "Sunderland",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "Aston Villa",
-      "league": "Premier League",
-      "pick_en": "Aston Villa win"
-    },
-    {
-      "away": "Nottingham Forest",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "Bournemouth",
-      "league": "Premier League",
-      "pick_en": "Bournemouth win"
-    },
-    {
-      "away": "Leeds United",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "Chelsea",
-      "league": "Premier League",
-      "pick_en": "Chelsea win"
-    },
-    {
-      "away": "Crystal Palace",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "Coventry City",
-      "league": "Premier League",
-      "pick_en": "Coventry City win"
-    },
-    {
-      "away": "Ipswich Town",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "Tottenham Hotspur",
-      "league": "Premier League",
-      "pick_en": "Tottenham Hotspur win"
-    },
-    {
-      "away": "Valencia",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "Rayo Vallecano",
-      "league": "La Liga",
-      "pick_en": "Rayo Vallecano win"
-    },
-    {
-      "away": "Paris Saint-Germain",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "Nice",
-      "league": "Ligue 1",
-      "pick_en": "Paris Saint-Germain win"
-    },
-    {
-      "away": "AS Roma",
-      "date": "2026-11-21T00:00:00+06:30",
-      "home": "Parma",
-      "league": "Serie A",
-      "pick_en": "AS Roma win"
-    },
-    {
-      "away": "Venezia",
-      "date": "2026-11-22T00:00:00+06:30",
-      "home": "Juventus",
-      "league": "Serie A",
-      "pick_en": "Juventus win"
-    },
-    {
-      "away": "Villarreal",
-      "date": "2026-11-22T00:00:00+06:30",
-      "home": "Barcelona",
-      "league": "La Liga",
-      "pick_en": "Barcelona win"
-    },
-    {
-      "away": "Brighton",
-      "date": "2026-11-22T00:00:00+06:30",
-      "home": "Hull City",
-      "league": "Premier League",
-      "pick_en": "Brighton win"
-    },
-    {
-      "away": "Udinese",
-      "date": "2026-11-22T00:00:00+06:30",
-      "home": "Bologna",
-      "league": "Serie A",
-      "pick_en": "Bologna win"
-    },
-    {
-      "away": "Genoa",
-      "date": "2026-11-22T00:00:00+06:30",
-      "home": "Sassuolo",
-      "league": "Serie A",
-      "pick_en": "Genoa win"
-    },
-    {
-      "away": "Angers",
-      "date": "2026-11-22T00:00:00+06:30",
-      "home": "Paris FC",
-      "league": "Ligue 1",
-      "pick_en": "Paris FC win"
-    },
-    {
-      "away": "Mainz",
-      "date": "2026-11-22T00:00:00+06:30",
-      "home": "Augsburg",
-      "league": "Bundesliga",
-      "pick_en": "Mainz win"
-    },
-    {
-      "away": "Real Sociedad",
-      "date": "2026-11-22T00:00:00+06:30",
-      "home": "Racing Santander",
-      "league": "La Liga",
-      "pick_en": "Real Sociedad win"
-    },
-    {
-      "away": "Rennes",
-      "date": "2026-11-22T00:00:00+06:30",
-      "home": "Lorient",
-      "league": "Ligue 1",
-      "pick_en": "Lorient win"
-    },
-    {
-      "away": "Manchester United",
-      "date": "2026-11-22T00:00:00+06:30",
-      "home": "Liverpool",
-      "league": "Premier League",
-      "pick_en": "Liverpool win"
-    },
-    {
-      "away": "Hamburger SV",
-      "date": "2026-11-22T00:00:00+06:30",
-      "home": "Werder Bremen",
-      "league": "Bundesliga",
-      "pick_en": "Werder Bremen win"
-    },
-    {
-      "away": "Frosinone",
-      "date": "2026-11-22T00:00:00+06:30",
-      "home": "AC Milan",
-      "league": "Serie A",
-      "pick_en": "AC Milan win"
-    },
-    {
-      "away": "Malaga",
-      "date": "2026-11-23T00:00:00+06:30",
-      "home": "Osasuna",
-      "league": "La Liga",
-      "pick_en": "Osasuna win"
-    },
-    {
-      "away": "Inter",
-      "date": "2026-11-23T02:15:00+06:30",
-      "home": "Atalanta",
-      "league": "Serie A",
-      "pick_en": "Inter win"
-    },
-    {
-      "away": "Le Mans",
-      "date": "2026-11-23T02:15:00+06:30",
-      "home": "Marseille",
-      "league": "Ligue 1",
-      "pick_en": "Marseille win"
-    },
-    {
-      "away": "Atletico Madrid",
-      "date": "2026-11-23T02:30:00+06:30",
-      "home": "Getafe",
-      "league": "La Liga",
-      "pick_en": "Atletico Madrid win"
+      "pick": "လီဗန်တေး နိုင်မယ်",
+      "pick_en": "Levante win",
+      "prob_away": 30,
+      "prob_draw": 28,
+      "prob_home": 42,
+      "reason_mm": "လီဗန်တေးက အဆင့် ၁၇ မှာ ၁၁ မှတ်နဲ့ ရှိနေပြီး အဲလ်ချီက အဆင့် ၁၈ မှာ ၁၀ မှတ်နဲ့ ရှိနေတယ် — တန်းဆင်းဇုန်က လွတ်ဖို့ နှစ်သင်းလုံး နိုင်ပွဲ လိုအပ်နေတယ်။ လီဗန်တေးက နောက်ဆုံး လိဂ် ၆ ပွဲမှာ ၆ မှတ်သာ ရထားပြီး အိမ်ကွင်း ၅ ပွဲဆက် ဂိုးပေးထားရတယ်။ အဲလ်ချီက အဝေးကွင်း ၅ ပွဲဆက် ရှုံးပွဲမရှိ (၂ ပွဲဆက် နိုင်) ဖြစ်နေပေမယ့် နောက်ဆုံး ၂ ပွဲဆက် ရှုံးထားတယ် (ဘက်တစ်ကို ၀-၂၊ ဗလင်စီယာကို ၀-၁)။ ထိပ်တိုက်တွေ့ဆုံမှု ၅၄ ပွဲမှာ လီဗန်တေး ၂၂ ပွဲနိုင်ထားပြီး နောက်ဆုံး တွေ့ဆုံမှုမှာ ၃-၂ နဲ့ နိုင်ခဲ့တယ်။ အဲလ်ချီမှာ အဂွါဒို ဒဏ်ရာရနေပြီး လီဗန်တေးရဲ့ အိမ်ကွင်း ဂိုးသွင်းအား (တစ်ပွဲ ၁.၆ ဂိုး) က အနိုင်ရဖို့ လုံလောက်တယ်။"
     }
   ],
   "source": "KZZ Football Analysis",
