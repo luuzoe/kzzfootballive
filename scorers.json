@@ -371,24 +371,24 @@
    },
    {
     "rank": 2,
-    "player": "Brynjólfur Willumsson",
-    "team": "ဂရိုနင်ဂန်",
-    "goals": 9,
-    "pid": "289883"
-   },
-   {
-    "rank": 3,
     "player": "Wout Weghorst",
     "team": "ထွမ်တေး",
     "goals": 9,
     "pid": "177042"
    },
    {
-    "rank": 4,
+    "rank": 3,
     "player": "Sören Tengstedt",
     "team": "ဂိုးအဟက်အီးဂဲလ်",
     "goals": 9,
     "pid": "289301"
+   },
+   {
+    "rank": 4,
+    "player": "Brynjólfur Willumsson",
+    "team": "ဂရိုနင်ဂန်",
+    "goals": 9,
+    "pid": "289883"
    },
    {
     "rank": 5,
@@ -413,17 +413,17 @@
    },
    {
     "rank": 8,
-    "player": "Anis Hadj Moussa",
-    "team": "ဖီယင်နော့",
-    "goals": 7,
-    "pid": "341711"
-   },
-   {
-    "rank": 9,
     "player": "Tolu Arokodare",
     "team": "အေဂျက်စ်",
     "goals": 7,
     "pid": "305372"
+   },
+   {
+    "rank": 9,
+    "player": "Anis Hadj Moussa",
+    "team": "ဖီယင်နော့",
+    "goals": 7,
+    "pid": "341711"
    },
    {
     "rank": 10,
@@ -1014,17 +1014,17 @@
   "ned.1": [
    {
     "rank": 1,
+    "player": "Oscar Gloukh",
+    "team": "အေဂျက်စ်",
+    "assists": 7,
+    "pid": "325609"
+   },
+   {
+    "rank": 2,
     "player": "Sondre Ørjasaeter",
     "team": "ထွမ်တေး",
     "assists": 7,
     "pid": "379956"
-   },
-   {
-    "rank": 2,
-    "player": "Oscar Gloukh",
-    "team": "အေဂျက်စ်",
-    "assists": 6,
-    "pid": "325609"
    },
    {
     "rank": 3,
@@ -1049,38 +1049,38 @@
    },
    {
     "rank": 6,
+    "player": "Mateo Chávez",
+    "team": "အဲဇက်အယ်လ်ခ်မား",
+    "assists": 5,
+    "pid": "379193"
+   },
+   {
+    "rank": 7,
     "player": "Esmir Bajraktarevic",
     "team": "ပီအက်စ်ဗီ",
     "assists": 5,
     "pid": "325410"
    },
    {
-    "rank": 7,
+    "rank": 8,
     "player": "Jacob Trenskow",
     "team": "ဟီရန်ဗိန်း",
     "assists": 4,
     "pid": "308051"
    },
    {
-    "rank": 8,
+    "rank": 9,
     "player": "Rafik El Arguioui",
     "team": "ကမ်ဘူး",
     "assists": 4,
     "pid": "337056"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Gjivai Zechiël",
     "team": "ဖီယင်နော့",
     "assists": 4,
     "pid": "365021"
-   },
-   {
-    "rank": 10,
-    "player": "Dylan Mbayo",
-    "team": "ဇဝူးလီ",
-    "assists": 4,
-    "pid": "286854"
    }
   ],
   "por.1": [
