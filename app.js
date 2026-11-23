@@ -915,7 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "i6pzTmX91cU", title: "ATLÉTICO DE MADRID GOLEÓ al GETAFE gracias a las asistencias de JULIÁN ÁLVAREZ | Resumen | La Liga", channel: "ESPN Deportes", date: "Nov 22, 2026" },
+{ id: "UexQBOWojsU", title: "Getafe 0-3 Atlético de Madrid | ⚽ Álex Baena, Johnny & Grimaldo | HIGHLIGHTS, 2026/27 LaLiga - MD13", channel: "Atlético de Madrid", date: "Nov 22, 2026" },
 { id: "REm065WrEL8", title: "INTER DENIED VICTORY IN THE 90TH MINUTE ⚽ | ATALANTA 4-4 INTER | HIGHLIGHTS", channel: "Inter", date: "Nov 22, 2026" },
 { id: "WWmd2G4up14", title: "MILAN SHOW A SAN SIRO! 🔥 5 GOL E SPETTACOLO | Milan-Frosinone 5-1 | Highlights Serie A 2026/27", channel: "AC Milan", date: "Nov 22, 2026" },
 { id: "ArttthJA97s", title: "Liverpool condemn Pochettino to NIGHTMARE start! | Liverpool 4-0 Man Utd | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 22, 2026" },
