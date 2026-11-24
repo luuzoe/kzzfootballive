@@ -1,0 +1,10 @@
+KZZ Highlights run — Wed 2026-11-25 02:53 Yangon
+RESULT: No new videos. No changes, no deploy.
+
+State checked:
+- app.js array: 40 total (28 match + 12 Classic), unchanged (app.js?v=580, sw.js kzz-v583).
+- All Nov 21-22 big-team matches already covered with club-official or broadcaster copies. No fan-copy entry exists, so no official-over-fan replacement is due.
+- UCL MD5 tonight (Arsenal vs Borussia Dortmund, Man City vs Napoli, Real Madrid vs PSV) kicked off 20:00 GMT = 02:30 Nov 25 Yangon - matches still IN PROGRESS at this run (Arsenal 1-0 via Gyokeres, Man City 0-0 at ~8'). No full-time highlights exist yet; real highlight videos expected after ~04:30 Yangon.
+- Items surfaced and correctly skipped: Facebook reel "Arsenal vs Dortmund HIGHLIGHTS" using EA Sports FC PS5 gameplay (fake/gameplay, rule 5b); YouTube Shorts preview "DUELO DE GIGANTES! Arsenal recebe o Borussia Dortmund" (TNT Sports Brasil, pre-match preview, not highlights).
+- Fake-result guard intact: "Arsenal vs Dortmund 3-1" (3EErPwTOyac, NOor ChaNnel) remains in the do-not-readd list (~/workspace/goals/monetize-goal-myanmar-youtube-channel/hidden_files/highlights-do-not-readd.json) - do NOT add.
+- No banned-channel or fake-result re-adds attempted this run. Do-not-readd list checked.
