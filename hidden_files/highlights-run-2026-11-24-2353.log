@@ -1,0 +1,11 @@
+KZZ Highlights run — Tue 2026-11-24 23:53 Yangon
+RESULT: No new videos. No changes, no deploy.
+
+State checked:
+- app.js array: 40 total (28 match + 12 Classic), unchanged (app.js?v=580, sw.js kzz-v583).
+- All Nov 21-22 big-team matches already covered with club-official or broadcaster copies. No fan-copy entry exists, so no official-over-fan replacement is due.
+- Nov 23 fixtures: Brentford 4-0 Everton, Levante 1-1 Elche, Monza 3-0 Fiorentina - no big team involved, correctly skipped. WSL Liverpool 0-0 Chelsea is women's football, out of scope.
+- UCL MD5 tonight (Arsenal vs Borussia Dortmund, Man City vs Napoli, Real Madrid vs PSV) kicks off 20:00 GMT = 02:30 Nov 25 Yangon - not yet played at this run, so no real highlights exist yet.
+- FAKE-RESULT TRAP re-surfaced and correctly skipped: "Arsenal vs Dortmund 3-1 | All Goals & Highlights | 2026" (3EErPwTOyac, NOor ChaNnel) claims a score for a match that has not kicked off. Already in the do-not-readd list (added by the 21:38 run, entry 67) - do NOT add.
+- Chelsea FC's own extended copy of Chelsea 1-4 Leeds (Nov 21) exists but the match is already covered by the Leeds United Official copy; max-1-per-match, same tier, no replacement.
+- No banned-channel or fake-result re-adds attempted this run. Do-not-readd list checked.
