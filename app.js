@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 109; // bump on every deploy
+const APP_VERSION = 110; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -918,7 +918,7 @@ async function renderHighlights() {
 { id: "UexQBOWojsU", title: "Getafe 0-3 Atlético de Madrid | ⚽ Álex Baena, Johnny & Grimaldo | HIGHLIGHTS, 2026/27 LaLiga - MD13", channel: "Atlético de Madrid", date: "Nov 22, 2026" },
 { id: "REm065WrEL8", title: "INTER DENIED VICTORY IN THE 90TH MINUTE ⚽ | ATALANTA 4-4 INTER | HIGHLIGHTS", channel: "Inter", date: "Nov 22, 2026" },
 { id: "WWmd2G4up14", title: "MILAN SHOW A SAN SIRO! 🔥 5 GOL E SPETTACOLO | Milan-Frosinone 5-1 | Highlights Serie A 2026/27", channel: "AC Milan", date: "Nov 22, 2026" },
-{ id: "ArttthJA97s", title: "Liverpool condemn Pochettino to NIGHTMARE start! | Liverpool 4-0 Man Utd | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 22, 2026" },
+{ id: "SC-a4uZlt70", title: "Extended Highlights: Liverpool 4-0 Man Utd | BIG Win in the Premier League!", channel: "Liverpool FC", date: "Nov 22, 2026" },
 { id: "ldXZdhBLMKk", title: "FC BARCELONA 3 vs 2 VILLARREAL | LALIGA 2026/27 MD13 🔵🔴", channel: "FC Barcelona", date: "Nov 22, 2026" },
 { id: "OlFHgiP3JJY", title: "A GIANT VICTORY | JUVENTUS 4-0 VENEZIA | HIGHLIGHTS SERIE A | WOLTEMADE, KOOP, KOLO & CABAL GOALS", channel: "Juventus", date: "Nov 22, 2026" },
 { id: "W8InB9bFuNE", title: "HIGHLIGHTS | Real Madrid 2-1 Celta | LaLiga", channel: "Real Madrid", date: "Nov 21, 2026" },
