@@ -1,0 +1,9 @@
+KZZ Highlights run — Tue 2026-11-24 10:23 Yangon
+RESULT: No new videos. No changes, no deploy.
+
+State checked:
+- app.js array: 40 total (28 match + 12 Classic), unchanged (app.js?v=576, sw.js kzz-v579).
+- Search re-check: Liverpool 4-0 Man Utd Nov 22 — all new hits are 2nd copies of the already-covered match (Sky Sports 9bLh_lq4SrI / ArttthJA97s, fan copies CDXrbVtZzHs, Q2tNpRhWHgk, eJShdUmAqMc, JGTW6dquto4, jWTW7gwuXxQ); existing entry is Liverpool FC official (SC-a4uZlt70), which outranks broadcaster/fan per rule 8 — no replacement. Analysis video 4gnjBLq6khs rejected per rule 5b (already flagged 09:38 run).
+- No new big-team match since Nov 22. Nov 23 fixtures (Brentford 4-0 Everton etc.) involve no big team.
+- Traps seen again, NOT added: meleleh.pages.dev "BBC mirror" re-dating 2025 UCL QF results (Real Madrid 1-2 Arsenal, Bayern 4-3 Real Madrid, Inter 2-2 Bayern) as current; AllFootball Kick Off same re-date.
+- Next big-team fixtures: UCL Tue Nov 24 evening, 20:00 UTC kickoff (Arsenal vs Borussia Dortmund, Man City vs AC Milan) — not yet played; highlights land in later runs.
