@@ -1,0 +1,26 @@
+KZZ Highlights run — Wed 2026-11-25 05:38 Yangon
+RESULT: Updated + deployed (commit aabdf09). 2 changes to the highlights array.
+
+Added (top of array):
+- jpwQWiTEngM — "HIGHLIGHTS - Arsenal vs Borussia Dortmund | UEFA Champions League - Matchday 5 League Phase 2026-27", TUDN USA, Nov 24, 2026. NEW match (Arsenal 1-1 Dortmund, UCL MD5, Gyokeres 10', Beier 55'). oEmbed valid, author "TUDN USA", 200x113 (16:9). Broadcaster tier — best available; no Arsenal/Dortmund club-official copy surfaced yet (Arsenal channel's latest is still the Aug Emirates Cup video). The 04:53 run found no qualifying full highlights yet; TUDN posted since.
+- Replaced fan copy VjPovbaMmCI (لقـطة Tv, Real Madrid 5-1 PSV) with WbXWfXY28xQ — "SUPER EXTENDED HIGHLIGHTS - Real Madrid 5-1 PSV | UEFA Champions League - Matchday 5 2026-27", TUDN USA, Nov 24, 2026. oEmbed valid, author "TUDN USA", 200x113. Per rule 8: broadcaster replaces fan copy, still 1 per match.
+
+Dropped (cap 40): 69IQ8q-g1q0 — AEK Athens 2-3 Real Madrid, Nov 4, 2026 (oldest non-Classic). Array now 40 total (28 match + 12 Classic), no dup IDs, JS syntax OK.
+
+Kept: rVtjaBljRgE (Man City 2-2 Napoli, لقـطة Tv fan copy) — no broadcaster/club-official copy surfaced (only banned CBS + fan copies); oEmbed re-verified valid 200x113.
+
+Skipped (correctly):
+- bMZQg5aNuPA / shSau4ZXUtU / gGs3UBkOV0Q — CBS Sports Golazo extended highlights (Arsenal-Dortmund, Real-PSV, City-Napoli) — BANNED channel, rule 3.
+- 3EErPwTOyac "Arsenal vs Dortmund 3-1" — FABRICATED score (real 1-1); in highlights-do-not-readd.json. Do NOT add.
+- Cd70g9L7yTU — TUDN single-goal clip (Gyokeres goal only), not full highlights; per 04:53 run note.
+- kUty5WPgQJM / XgzIKxfL2G4 — Dollar VFX fan copies (reversed-score thumbnail history per AGENTS.md); TUDN broadcaster preferred.
+- _2hznXd9lpo (Arsenal Fans Assemble fan copy) — valid fallback, not needed; TUDN broadcaster outranks fan.
+- _r4FYLR8lIs (لقـطة Tv Arsenal-Dortmund) — valid, not needed; TUDN preferred.
+- All other Nov 24 UCL matches (Bodø/LASK, Galatasaray/Villa, Como/AEK, Feyenoord/Porto, Leipzig/Lens, Slovan/Betis) — no big team, skipped. Wed Nov 25 UCL matches (incl. Barcelona) not yet played at run time.
+- Do-not-readd list checked (highlights-do-not-readd.json): neither new ID is listed.
+
+Versions: app.js?v=581→582, styles.css?v=559→560, sw.js kzz-v584→v585 (STATICS updated too).
+
+Deploy: gh-pages-deploy.py, 3 files changed, commit aabdf09 "Update highlights to latest videos".
+Live verification: https://luuzoe.github.io/kzzfootballive/ — index shows app.js?v=582; live app.js contains jpwQWiTEngM + WbXWfXY28xQ, 40 videos, 12 Classics, VjPovbaMmCI + 69IQ8q-g1q0 gone; remote HEAD on main = aabdf09; live sw.js kzz-v585.
+NOTE for future runs: this repo's Pages branch is `main`, NOT `gh-pages` — raw.githubusercontent.com/.../gh-pages/... 404s and api /commits/gh-pages 422s. Verify via the live site + /commits/main instead.
