@@ -915,7 +915,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "VjPovbaMmCI", title: "Real Madrid vs PSV 5-1 Highlights | All Goals & Extended Highlights | Champions League 2026", channel: "لقـطة Tv", date: "Nov 24, 2026" },
+{ id: "jpwQWiTEngM", title: "HIGHLIGHTS - Arsenal vs Borussia Dortmund | UEFA Champions League - Matchday 5 League Phase 2026-27", channel: "TUDN USA", date: "Nov 24, 2026" },
+{ id: "WbXWfXY28xQ", title: "SUPER EXTENDED HIGHLIGHTS - Real Madrid 5-1 PSV | UEFA Champions League - Matchday 5 2026-27", channel: "TUDN USA", date: "Nov 24, 2026" },
 { id: "rVtjaBljRgE", title: "Manchester City vs Napoli 2-2 Highlights | All Goals & Extended Highlights | Champions League 2026", channel: "لقـطة Tv", date: "Nov 24, 2026" },
 { id: "UexQBOWojsU", title: "Getafe 0-3 Atlético de Madrid | ⚽ Álex Baena, Johnny & Grimaldo | HIGHLIGHTS, 2026/27 LaLiga - MD13", channel: "Atlético de Madrid", date: "Nov 22, 2026" },
 { id: "REm065WrEL8", title: "INTER DENIED VICTORY IN THE 90TH MINUTE ⚽ | ATALANTA 4-4 INTER | HIGHLIGHTS", channel: "Inter", date: "Nov 22, 2026" },
@@ -936,7 +937,6 @@ async function renderHighlights() {
 { id: "xgcG0s8R7Os", title: "Rocket From Kimmich! | MAINZ 05 - FC BAYERN | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
 { id: "C58JvvWbc_4", title: "Highlights Europa League | Una serata difficile a San Siro | Milan 0-2 Ferencváros", channel: "AC Milan", date: "Nov 5, 2026" },
 { id: "05geh16Zu-Y", title: "Highlights: Fenerbahce 3-2 Liverpool | Trey Nyoni's first Liverpool Goal | Champions League", channel: "Liverpool FC", date: "Nov 4, 2026" },
-{ id: "69IQ8q-g1q0", title: "HIGHLIGHTS | AEK Athens 2-3 Real Madrid | Champions League", channel: "Real Madrid", date: "Nov 4, 2026" },
 { id: "5b4BaFzojaI", title: "Highlights: Fiorentina - Juventus 2 - 2", channel: "ACF Fiorentina", date: "Nov 8, 2026" },
 { id: "CvcyMWt58sA", title: "ATLÉTICO MADRID 1 vs 2 FC BARCELONA | LALIGA 2026/27 MD12 🔵🔴", channel: "FC Barcelona", date: "Nov 8, 2026" },
 { id: "iIy7T7apNeY", title: "ESPOSITO & THURAM SEAL THE WIN! ⚽ | INTER 2-0 COMO | HIGHLIGHTS", channel: "Inter", date: "Nov 8, 2026" },
