@@ -1,0 +1,13 @@
+KZZ Highlights run — Wed 2026-11-25 06:23 Yangon
+RESULT: No new videos — no change, no deploy (rule 9/12).
+
+State checked: array still 40 videos (28 match + 12 Classic), top 3 are the Nov 24 UCL MD5 matches added by the 05:38 run (commit aabdf09, app.js?v=582, live verified).
+
+Checked since 06:08 run (15 min ago):
+- Arsenal 1-1 Dortmund: no Arsenal/Dortmund club-official FULL highlights surfaced. Arsenal channel's only video remains the 2:00 Gyokeres-goal clip ("VIKTOR GYOKERES SCORES A STUNNER"), not full highlights (fulltime.zone confirms). RSWwOhhA1Hc = TNT Sports Football — BANNED, rule 3, skipped. hIZvyxj9JqY = Arteta post-match interview, not highlights. Kept: TUDN USA jpwQWiTEngM (broadcaster).
+- Real Madrid 5-1 PSV: no Real Madrid club-official full highlights surfaced. gujxcmzeYwo = TNT Sports Football — BANNED, skipped. XTJw5HxGcR8 Dollar VFX fan, vKNp6Ucgd70 Footballia fan, 5Shedey5Z0I Wigans fan, lnyT954j_Uk Arabic fan, X6NEf5pGCaQ French fan — none outrank TUDN broadcaster. Kept: TUDN USA WbXWfXY28xQ.
+- Man City 2-2 Napoli: no Man City/Napoli club-official full highlights surfaced. yIusVukm_Go = beIN SPORTS Asia — BANNED, skipped. -jwQLY1zs8Y = Man City MATCHDAY LIVE REACTION — reaction, rule 5b(a), skipped. 1N6zYodOw6M = Maresca press conference, not highlights. Kept: fan copy rVtjaBljRgE (لقـطة Tv) — already in array.
+- All other Nov 24 UCL matches (Bodø/LASK, Galatasaray/Villa, Como/AEK, Feyenoord/Porto, Leipzig/Lens, Slovan/Betis) — no big team, skipped. UEFA.com confirms this as the full Tue Nov 24 MD5 slate.
+- Wed Nov 25 UCL matches (Sabah vs Barcelona, Club Brugge vs Liverpool, Inter vs Stuttgart, Lille vs Bayern, PSG vs Roma, Sporting vs Man Utd, Atlético vs Viking) not yet played — kick off 18:45 CET = 00:15 Yangon Nov 26.
+
+Do-not-readd list checked: no candidate ID is listed. No fabricated items newly surfaced this run.
