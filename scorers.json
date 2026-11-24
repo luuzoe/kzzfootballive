@@ -132,17 +132,17 @@
    },
    {
     "rank": 9,
+    "player": "Fer Niño",
+    "team": "အဲလ်ချီ",
+    "goals": 6,
+    "pid": "301684"
+   },
+   {
+    "rank": 10,
     "player": "Álex Baena",
     "team": "အက်သလက်တီကိုမက်ဒရစ်",
     "goals": 6,
     "pid": "297373"
-   },
-   {
-    "rank": 10,
-    "player": "Lucas Boyé",
-    "team": "အလာဗတ်စ်",
-    "goals": 6,
-    "pid": "207236"
    }
   ],
   "ita.1": [
@@ -157,7 +157,7 @@
     "rank": 2,
     "player": "Gustavo Varela",
     "team": "မွန်ဇာ",
-    "goals": 9,
+    "goals": 11,
     "pid": "384482"
    },
    {
@@ -689,38 +689,38 @@
    },
    {
     "rank": 6,
+    "player": "Jaidon Anthony",
+    "team": "ဘရန့်ဖို့ဒ်",
+    "assists": 4,
+    "pid": "307657"
+   },
+   {
+    "rank": 7,
     "player": "Bradley Barcola",
     "team": "လီဗာပူး",
     "assists": 4,
     "pid": "328238"
    },
    {
-    "rank": 7,
+    "rank": 8,
     "player": "Daichi Kamada",
     "team": "ခရစ္စတယ်ပဲလေ့စ်",
     "assists": 3,
     "pid": "219362"
    },
    {
-    "rank": 8,
+    "rank": 9,
     "player": "Cole Palmer",
     "team": "ချယ်လ်ဆီး",
     "assists": 3,
     "pid": "296395"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Maxim De Cuyper",
     "team": "ဘရိုက်တန်",
     "assists": 3,
     "pid": "301327"
-   },
-   {
-    "rank": 10,
-    "player": "Josko Gvardiol",
-    "team": "မန်စီးတီး",
-    "assists": 3,
-    "pid": "299910"
    }
   ],
   "esp.1": [
