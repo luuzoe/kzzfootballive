@@ -1,0 +1,16 @@
+KZZ Highlights run — Wed 2026-11-25 04:53 Yangon
+RESULT: No new videos. No changes, no deploy.
+
+State checked:
+- app.js array: 40 total (28 match + 12 Classic), app.js?v=581, sw.js kzz-v584. The two Nov 24 UCL fan copies (Real Madrid 5-1 PSV, VjPovbaMmCI; Man City 2-2 Napoli, rVtjaBljRgE; both "لقـطة Tv") were already added by an earlier ~04:23/04:38 run (app.js mtime 2026-11-25 04:29:50 Yangon) — that run left NO log file; state verified directly from app.js/index.html/sw.js instead.
+- UCL MD5 Tue Nov 24 full results verified (UEFA): Bodø/Glimt 1-0 LASK, Galatasaray 1-0 Aston Villa, Arsenal 1-1 Borussia Dortmund, Como 1-0 AEK, Feyenoord 0-1 Porto, Man City 2-2 Napoli, Leipzig 3-1 Lens, Real Madrid 5-1 PSV, Slovan Bratislava 0-2 Real Betis. Only Arsenal-Dortmund is a big-team match not yet in the array (Real-PSV and City-Napoli already covered). All other Nov 24 matches have no big team — correctly skipped. Wed Nov 25 UCL matches (e.g. Barcelona) not yet played.
+- Arsenal 1-1 Dortmund (FT: Gyokeres 10', Beier 55') — NO qualifying full-highlights video on YouTube yet (match ended ~04:30 Yangon; club/fan full copies not yet indexed). Next runs should catch it.
+
+Candidates surfaced and correctly skipped:
+- Cd70g9L7yTU "¡BOMBAZO Y ADENTRO! | Arsenal vs Borussia Dortmund" (TUDN USA, oEmbed valid 200x113) — SINGLE-GOAL clip (Gyokeres goal only, per description), not a full highlights video. Not added; a one-goal clip would misrepresent the 1-1 match as the site's sole entry.
+- 3EErPwTOyac "Arsenal vs Dortmund 3-1 | All Goals & Highlights | 2026" (NOor ChaNnel) — FABRICATED score (real result 1-1). Already in highlights-do-not-readd.json (flagged 2026-11-24 21:38 run). Do NOT add.
+- dwQGKaHTv7E — Arsenal 2-3 Dortmund, Emirates Cup Aug 9, 2026 — WRONG match (preseason), not the Nov 24 UCL game. Do NOT add.
+- TNT Sports highlights — banned channel (rule 3). Facebook/Instagram reels — not YouTube embeds, out of scope.
+
+- No banned-channel or fake-result re-adds attempted this run. Do-not-readd list checked (66 entries).
+- No official-over-fan replacement due: the two Nov 24 fan copies have no club-official copy surfaced yet; if Arsenal/Dortmund/Real/City officials appear later, replace per rule 8.
