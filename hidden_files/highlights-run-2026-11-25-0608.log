@@ -1,0 +1,11 @@
+KZZ Highlights run — Wed 2026-11-25 06:08 Yangon
+RESULT: No new videos — no change, no deploy (rule 9/12).
+
+State checked: array still 40 videos (28 match + 12 Classic), top 3 are the Nov 24 UCL MD5 matches added by the 05:38 run (commit aabdf09, app.js?v=582).
+
+Checked since 05:53 run (15 min ago):
+- Arsenal 1-1 Dortmund: no Arsenal/Dortmund club-official FULL highlights surfaced. Arsenal channel's only video is the 2:00 Gyokeres-goal clip ("VIKTOR GYOKERES SCORES A STUNNER"), not full highlights. RSWwOhhA1Hc = TNT Sports Football — BANNED, rule 3, skipped. hIZvyxj9JqY = Arteta post-match interview, not highlights. Kept: TUDN USA jpwQWiTEngM (broadcaster).
+- Real Madrid 5-1 PSV: no Real Madrid club-official full highlights surfaced. gujxcmzeYwo = TNT Sports Football — BANNED, skipped. QaA-33UdKsY = beIN SPORTS Asia — BANNED, skipped. XTJw5HxGcR8 Dollar VFX fan (do-not-add history), vKNp6Ucgd70 Footballia fan, 5Shedey5Z0I Wigans fan — none outrank TUDN broadcaster. Kept: TUDN USA WbXWfXY28xQ.
+- Man City 2-2 Napoli: yIusVukm_Go = beIN SPORTS Asia — BANNED, skipped. 1N6zYodOw6M = Maresca press conference, not highlights. No Man City official full highlights surfaced. Kept: fan copy rVtjaBljRgE (لقـطة Tv) — already in array.
+- Wed Nov 25 UCL matches (Sabah vs Barcelona, Club Brugge vs Liverpool, Inter vs Stuttgart, Lille vs Bayern, PSG vs Roma, Sporting vs Man Utd, Atlético vs Viking) not yet played — kick off 18:45 CET = 00:15 Yangon Nov 26.
+- Note: search results again mixed in 2025-26 MD5 scores (Chelsea 3-0 Barcelona, Man City 0-2 Leverkusen, Dortmund 4-0 Villarreal, Liverpool 1-4 PSV) — last season's Nov 25-26, 2025 fixtures, NOT this season. Ignored per fixture cross-check (UEFA MD5 2026-27 slate).
