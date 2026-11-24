@@ -1,0 +1,20 @@
+KZZ highlights run — Wed 2026-11-25 03:23 Yangon
+Outcome: NO NEW VIDEOS — no change, no deploy (rule 9).
+
+State checked:
+- app.js highlights array: 40 entries (28 match + 12 Classic), latest date Nov 22, 2026.
+- Nov 23, 2026: no big-team fixtures (Brentford-Everton, Levante-Elche, Monza-Fiorentina — none qualify).
+- Nov 24 UCL MD5 (kickoff 02:30 Yangon Nov 25) STILL IN PROGRESS at run time:
+  * Arsenal 1-0 Borussia Dortmund (~35', Gyokeres 10')
+  * Real Madrid 0-1 PSV (HT, Perisic pen 32')
+  * Man City 0-0 Napoli (early)
+  * Galatasaray 1-0 Aston Villa (FT, early KO) — Villa not a big team, skip.
+  No post-match highlight videos exist yet; official copies typically appear 30-60 min after FT (~05:00+ Yangon). Next runs should catch them.
+
+Rejected / not added:
+- 3EErPwTOyac "Arsenal vs Dortmund 3-1 | All Goals & Highlights | 2026" — FABRICATED (claimed 3-1 before kickoff; match 1-0 at ~35'). Already in highlights-do-not-readd.json (flagged 2026-11-24 21:38 run). oEmbed fetch this run returned empty/invalid JSON — fails rule 5 anyway. Do NOT add.
+- ZZKaYBZcTpI "LIVE: ARSENAL 1-0 BORUSSIA DORTMUND" — reaction/analysis live stream, fails rule 5b(a). Do NOT add.
+- UNsh4k_DfSk PES simulation — gameplay, fails rule 5b(a). Do NOT add.
+- _beV-_CXSQI — Shorts preview, not full highlights. Do NOT add.
+
+No array edit, no deploy, no live verification needed.
