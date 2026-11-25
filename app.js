@@ -915,6 +915,12 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "3PHpPBfrNLk", title: "Liverpool vs Club Brugge 3-0 EXTENDED HIGHLIGHTS 😱🔥 Champions League 2026/27", channel: "Footballia", date: "Nov 25, 2026" },
+{ id: "9lLARr-mR8Y", title: "Inter - Stuttgart | 2-0 | Highlights | UEFA Champions League 2026/27", channel: "CHEFON FF", date: "Nov 25, 2026" },
+{ id: "QArtBNsd_78", title: "Lille - Bayern Munich | 2-1 | Highlights | UEFA Champions League 2026/27", channel: "CHEFON FF", date: "Nov 25, 2026" },
+{ id: "EOsHvBJ1GbE", title: "PSG - Roma | 2-2 | Highlights | UEFA Champions League 2026/27", channel: "CHEFON FF", date: "Nov 25, 2026" },
+{ id: "oWBVUsBmV78", title: "Manchester United vs Sporting CP 2-2 Highlights | Bruno Fernandes Goals | Champions League 2026", channel: "La2taTv", date: "Nov 25, 2026" },
+{ id: "2CKeoHlky4o", title: "Atletico Madrid vs Viking FK 2-0 All Goals | Extended Highlights | UEFA Champions League 2026/27", channel: "Derby Football", date: "Nov 25, 2026" },
 { id: "x9kmnAEbrY4", title: "HIGHLIGHTS - Sabah vs Barcelona | UEFA Champions League - Matchday 5 2026-27", channel: "TUDN USA", date: "Nov 25, 2026" },
 { id: "jpwQWiTEngM", title: "HIGHLIGHTS - Arsenal vs Borussia Dortmund | UEFA Champions League - Matchday 5 League Phase 2026-27", channel: "TUDN USA", date: "Nov 24, 2026" },
 { id: "f6J5uTffqso", title: "HIGHLIGHTS | Real Madrid 5-1 PSV | Champions League", channel: "Real Madrid", date: "Nov 24, 2026" },
@@ -935,14 +941,8 @@ async function renderHighlights() {
 { id: "_C00--Q7qxU", title: "Chelsea 1-4 Leeds United | Premier League highlights | Leeds run riot at Stamford Bridge!", channel: "Leeds United Official", date: "Nov 21, 2026" },
 { id: "bMB52YNFKv4", title: "Anderson volley rescues point for City 💥 | Man City 1-1 Fulham | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 21, 2026" },
 { id: "RAHIh08TbS0", title: "Kane forced off as Musiala makes his return | FC Bayern München – 1. FC Köln | Highlights Bundesliga", channel: "FC Bayern München", date: "Nov 20, 2026" },
-{ id: "xgcG0s8R7Os", title: "Rocket From Kimmich! | MAINZ 05 - FC BAYERN | Highlights | Matchday 9 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 7, 2026" },
-{ id: "C58JvvWbc_4", title: "Highlights Europa League | Una serata difficile a San Siro | Milan 0-2 Ferencváros", channel: "AC Milan", date: "Nov 5, 2026" },
 { id: "5b4BaFzojaI", title: "Highlights: Fiorentina - Juventus 2 - 2", channel: "ACF Fiorentina", date: "Nov 8, 2026" },
 { id: "CvcyMWt58sA", title: "ATLÉTICO MADRID 1 vs 2 FC BARCELONA | LALIGA 2026/27 MD12 🔵🔴", channel: "FC Barcelona", date: "Nov 8, 2026" },
-{ id: "iIy7T7apNeY", title: "ESPOSITO & THURAM SEAL THE WIN! ⚽ | INTER 2-0 COMO | HIGHLIGHTS", channel: "Inter", date: "Nov 8, 2026" },
-{ id: "wOLZ_jiQLdw", title: "Man Utd 4-4 Aston Villa | HIGHLIGHTS", channel: "Aston Villa Football Club", date: "Nov 8, 2026" },
-{ id: "6DEh00JjkmE", title: "Crazy Freekick Opens Score! | 1. FC KÖLN - BAYER 04 LEVERKUSEN | Highlights | Matchday 9 Bundesliga", channel: "Bundesliga", date: "Nov 8, 2026" },
-{ id: "RdejiWAqcBQ", title: "Match Highlights | Crystal Palace 1-3 Liverpool | Premier League", channel: "Crystal Palace FC", date: "Nov 8, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
