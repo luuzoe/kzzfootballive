@@ -916,7 +916,7 @@ async function renderHighlights() {
   html += `<div class="highlights-grid">`;
   const videos = [
 { id: "uDrYeEeptg4", title: "Sporting vs Manchester United 2-2 HIGHLIGHTS & All Goals - Champions League 2026", channel: "Dollar VFX", date: "Nov 25, 2026" },
-{ id: "3PHpPBfrNLk", title: "Liverpool vs Club Brugge 3-0 EXTENDED HIGHLIGHTS 😱🔥 Champions League 2026/27", channel: "Footballia", date: "Nov 25, 2026" },
+{ id: "fRgtPPL-PT8", title: "HIGHLIGHTS: Club Brugge 0-3 Liverpool | UEFA Champions League", channel: "BBC Football", date: "Nov 25, 2026" },
 { id: "9lLARr-mR8Y", title: "Inter - Stuttgart | 2-0 | Highlights | UEFA Champions League 2026/27", channel: "CHEFON FF", date: "Nov 25, 2026" },
 { id: "C6FnS8TeaTg", title: "Tough night in Lille | OSC Lille vs. FC Bayern 2-1 | Champions League Highlights", channel: "FC Bayern München", date: "Nov 25, 2026" },
 { id: "EOsHvBJ1GbE", title: "PSG - Roma | 2-2 | Highlights | UEFA Champions League 2026/27", channel: "CHEFON FF", date: "Nov 25, 2026" },
