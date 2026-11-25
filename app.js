@@ -916,7 +916,7 @@ async function renderHighlights() {
   html += `<div class="highlights-grid">`;
   const videos = [
 { id: "jpwQWiTEngM", title: "HIGHLIGHTS - Arsenal vs Borussia Dortmund | UEFA Champions League - Matchday 5 League Phase 2026-27", channel: "TUDN USA", date: "Nov 24, 2026" },
-{ id: "WbXWfXY28xQ", title: "SUPER EXTENDED HIGHLIGHTS - Real Madrid 5-1 PSV | UEFA Champions League - Matchday 5 2026-27", channel: "TUDN USA", date: "Nov 24, 2026" },
+{ id: "f6J5uTffqso", title: "HIGHLIGHTS | Real Madrid 5-1 PSV | Champions League", channel: "Real Madrid", date: "Nov 24, 2026" },
 { id: "rVtjaBljRgE", title: "Manchester City vs Napoli 2-2 Highlights | All Goals & Extended Highlights | Champions League 2026", channel: "لقـطة Tv", date: "Nov 24, 2026" },
 { id: "UexQBOWojsU", title: "Getafe 0-3 Atlético de Madrid | ⚽ Álex Baena, Johnny & Grimaldo | HIGHLIGHTS, 2026/27 LaLiga - MD13", channel: "Atlético de Madrid", date: "Nov 22, 2026" },
 { id: "REm065WrEL8", title: "INTER DENIED VICTORY IN THE 90TH MINUTE ⚽ | ATALANTA 4-4 INTER | HIGHLIGHTS", channel: "Inter", date: "Nov 22, 2026" },
