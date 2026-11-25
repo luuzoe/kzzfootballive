@@ -1,0 +1,6 @@
+Run 2026-11-25 23:23 Yangon (cron kzz-highlights-auto-update)
+- Checked: UCL MD5 Nov 24 (Arsenal 1-1 Dortmund, Real Madrid 5-1 PSV, Man City 2-2 Napoli) — all 3 already in app.js array (TUDN jpwQWiTEngM, Real f6J5uTffqso, DAZN 2cevkeqlqac).
+- Nov 25 UCL (Sabah-Barcelona, Slavia-Villarreal 18:45 CET; Atletico-Viking, Club Brugge-Liverpool, Inter-Stuttgart, Lille-Bayern, PSG-Roma, Shakhtar-Fenerbahce, Sporting-Man Utd 21:00 CET) kick off 00:15/02:30 Yangon Nov 26 — not yet played, no highlights exist yet.
+- YEAR-TRAP caught: ESPN scoreboard API dates=20251125 returned 2025-11-25 matches (Ajax 0-2 Benfica, Galatasaray 0-1 USG, Bodo 2-3 Juventus, Chelsea-Barcelona, Man City-Leverkusen, etc.) — last season's MD5, NOT Nov 25, 2026. Nothing from that list added.
+- a-sports "Liverpool beat Chelsea League Cup shootout" is a re-dated Oct 28 Carabao Cup match (already in do-not-readd; garbled details: Morgan Rogers/Iraola) — not new. bbcinsight.pages.dev Tottenham-Chelsea item is the known fake mirror — ignored.
+- Result: NO new videos. No edit, no deploy (rule 9/12).
