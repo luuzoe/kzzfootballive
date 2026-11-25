@@ -1,0 +1,8 @@
+2026-11-25 10:53 Yangon — kzz-highlights-auto-update run
+- No new videos added. No deploy.
+- Nov 24 UCL big-team matches already in array (added 07:53 run): Arsenal 1-1 Dortmund (TUDN jpwQWiTEngM), Real Madrid 5-1 PSV (Real Madrid official f6J5uTffqso), Man City 2-2 Napoli (DAZN 2cevkeqlqac).
+- Re-verified all 3 Nov 24 entries via oEmbed this run: 200 JSON, 200x113 16:9, channels TUDN USA / Real Madrid / DAZN Football (none banned).
+- Search surfaced 3 alternate embeds (t7O2GT3WUdQ, iWkN3Hnc2P4, RYjut9NCwUM via slobodenpecat.mk) for the same 3 matches — SKIPPED: matches already covered; existing entries are broadcaster/club-official, not fan copies, so no replacement per rule 8; uploader channels unknown.
+- "Chelsea 1-1 Arsenal" (bbcinsight.pages.dev) is FABRICATED — Chelsea-Arsenal is scheduled Nov 30, 2026 (premierleague.com); bbcinsight is the known fake BBC Mirror. Ignored; do NOT add.
+- Nov 25 UCL MD5 tonight (Sabah-Barcelona 00:15, Atletico-Viking, Inter-Stuttgart, Lille-Bayern, PSG-Roma, Club Brugge-Liverpool, Sporting-Man Utd ~02:00 Yangon Nov 26) not yet played — no highlights exist yet.
+- Array at cap 40 (28 match + 12 Classics).
