@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-24T08:54:36+06:30",
+ "updated": "2026-11-25T02:53:37+06:30",
  "summary": {
-  "resolved": 215,
-  "correct": 121,
-  "wrong": 94,
-  "accuracy_pct": 56.3,
+  "resolved": 224,
+  "correct": 128,
+  "wrong": 96,
+  "accuracy_pct": 57.1,
   "not_found": 3
  },
  "results": [
@@ -1987,6 +1987,87 @@
    "pick_en": "Levante win",
    "score": "1-1",
    "outcome": "wrong"
+  },
+  {
+   "date": "2026-11-24",
+   "home": "Bodø/Glimt",
+   "away": "LASK",
+   "league": "Champions League",
+   "pick_en": "Bodø/Glimt win",
+   "score": "1-0",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-24",
+   "home": "Galatasaray",
+   "away": "Aston Villa",
+   "league": "Champions League",
+   "pick_en": "Galatasaray win",
+   "score": "1-0",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-24",
+   "home": "Arsenal",
+   "away": "Borussia Dortmund",
+   "league": "Champions League",
+   "pick_en": "Arsenal win",
+   "score": "1-1",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-11-24",
+   "home": "Como",
+   "away": "AEK Athens",
+   "league": "Champions League",
+   "pick_en": "Como win",
+   "score": "1-0",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-24",
+   "home": "Feyenoord",
+   "away": "Porto",
+   "league": "Champions League",
+   "pick_en": "Porto win",
+   "score": "0-1",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-24",
+   "home": "Manchester City",
+   "away": "Napoli",
+   "league": "Champions League",
+   "pick_en": "Manchester City win",
+   "score": "2-2",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-11-24",
+   "home": "RB Leipzig",
+   "away": "Lens",
+   "league": "Champions League",
+   "pick_en": "RB Leipzig win",
+   "score": "3-1",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-24",
+   "home": "Real Madrid",
+   "away": "PSV Eindhoven",
+   "league": "Champions League",
+   "pick_en": "Real Madrid win",
+   "score": "5-1",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-24",
+   "home": "Slovan Bratislava",
+   "away": "Real Betis",
+   "league": "Champions League",
+   "pick_en": "Real Betis win",
+   "score": "0-2",
+   "outcome": "correct"
   }
  ]
 }
