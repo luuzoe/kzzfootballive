@@ -918,7 +918,7 @@ async function renderHighlights() {
 { id: "uDrYeEeptg4", title: "Sporting vs Manchester United 2-2 HIGHLIGHTS & All Goals - Champions League 2026", channel: "Dollar VFX", date: "Nov 25, 2026" },
 { id: "3PHpPBfrNLk", title: "Liverpool vs Club Brugge 3-0 EXTENDED HIGHLIGHTS 😱🔥 Champions League 2026/27", channel: "Footballia", date: "Nov 25, 2026" },
 { id: "9lLARr-mR8Y", title: "Inter - Stuttgart | 2-0 | Highlights | UEFA Champions League 2026/27", channel: "CHEFON FF", date: "Nov 25, 2026" },
-{ id: "QArtBNsd_78", title: "Lille - Bayern Munich | 2-1 | Highlights | UEFA Champions League 2026/27", channel: "CHEFON FF", date: "Nov 25, 2026" },
+{ id: "C6FnS8TeaTg", title: "Tough night in Lille | OSC Lille vs. FC Bayern 2-1 | Champions League Highlights", channel: "FC Bayern München", date: "Nov 25, 2026" },
 { id: "EOsHvBJ1GbE", title: "PSG - Roma | 2-2 | Highlights | UEFA Champions League 2026/27", channel: "CHEFON FF", date: "Nov 25, 2026" },
 { id: "2CKeoHlky4o", title: "Atletico Madrid vs Viking FK 2-0 All Goals | Extended Highlights | UEFA Champions League 2026/27", channel: "Derby Football", date: "Nov 25, 2026" },
 { id: "x9kmnAEbrY4", title: "HIGHLIGHTS - Sabah vs Barcelona | UEFA Champions League - Matchday 5 2026-27", channel: "TUDN USA", date: "Nov 25, 2026" },
