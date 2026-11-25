@@ -1,0 +1,13 @@
+KZZ Highlights run — Wed 2026-11-25 07:08 Yangon
+RESULT: No new videos — no change, no deploy (rule 9/12).
+
+State checked: array still 40 videos (28 match + 12 Classic), top 3 are the Nov 24 UCL MD5 matches added by the 05:38 run (commit aabdf09, app.js?v=582, live verified).
+
+Checked since 06:23 run (45 min ago):
+- Arsenal 1-1 Dortmund: official Arsenal video 1lG2hNS1msY ("VIKTOR GYOKERES SCORES A STUNNER") re-confirmed as a 2:00 single-goal clip only (fulltime.zone), NOT full match highlights — does not replace the full TUDN USA highlights (jpwQWiTEngM, broadcaster). oEmbed check this run returned "Unauthorized" for 1lG2hNS1msY — embedding DISABLED, so it could not be added even as a clip. RSWwOhhA1Hc = TNT Sports Football — BANNED, rule 3, skipped. PWZ5WZtdxKM ("Arsenal 1-1 Borussia Dortmund | Champions League 26/27 Match Highlights") looked UEFA-official from its title but oEmbed author_name = "beIN SPORTS Asia" — BANNED, rule 3, skipped (oEmbed itself was 200x113 16:9, but channel ban overrides). Kept: TUDN USA jpwQWiTEngM.
+- Real Madrid 5-1 PSV: no Real Madrid club-official full highlights surfaced. XTJw5HxGcR8 = fan, vKNp6Ucgd70 = fan, tpIDpQ7hkpU = single Bellingham-goal clip, jc1EKyr9kys = reaction/talk ("In today's Real Madrid vs PSV match reaction"), rule 5b(a) skip. Kept: TUDN USA WbXWfXY28xQ.
+- Man City 2-2 Napoli: no Man City/Napoli club-official full highlights on YouTube surfaced (mancity.com hosts its own 2-min highlights, not YouTube). yIusVukm_Go = beIN SPORTS Asia — BANNED, skipped. rVtjaBljRgE = fan copy already in array. Kept: fan copy rVtjaBljRgE (لقـطة Tv).
+- All other Nov 24 UCL matches (Bodø/LASK, Galatasaray/Villa, Como/AEK, Feyenoord/Porto, Leipzig/Lens, Slovan/Betis) — no big team, skipped. UEFA.com confirms this as the full Tue Nov 24 MD5 slate.
+- Wed Nov 25 UCL matches (Sabah vs Barcelona, Club Brugge vs Liverpool, Inter vs Stuttgart, Lille vs Bayern, PSG vs Roma, Sporting vs Man Utd, Atlético vs Viking) not yet played — kick off 18:45 CET = 00:15 Yangon Nov 26.
+
+Do-not-readd list checked: no candidate ID is listed. No fabricated items newly surfaced this run.
