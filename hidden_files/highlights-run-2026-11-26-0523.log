@@ -1,0 +1,21 @@
+KZZ highlights auto-update run — Thu 2026-11-26 05:23 Yangon
+RESULT: NO new video added (net). One bad add made, caught, and reverted in the same run. Deployed twice (e45cf90 then revert 50bf9ff); live verified: 40 entries, 8MzM4bTUmjs ABSENT, RdejiWAqcBQ present, index app.js?v=590.
+
+UCL MD5 final scores re-verified (UEFA fixtures page + Flashscore): Nov 24 Arsenal 1-1 Dortmund, Man City 2-2 Napoli, Real 5-1 PSV (all already in array); Nov 25 Sabah 1-4 Barcelona, Atletico 2-0 Viking, Club Brugge 0-3 Liverpool, Inter 2-0 Stuttgart, Lille 2-1 Bayern, PSG 2-2 Roma (all already in array), Sporting CP 2-2 Man Utd (MISSING — no valid copy). Slavia-Villarreal, Shakhtar-Fenerbahce: no big team — skipped per rule 1.
+
+MISTAKE: Added 8MzM4bTUmjs (Dollar VFX, Sporting-Man Utd 2-2) — oEmbed 200x113 16:9, thumbnail visually verified (both badges, correct 2-2, HIGHLIGHTS banner, real match photo). BUT the 04:53 run log (highlights-run-2026-11-26-0453.log) had EXPLICITLY listed this exact ID under SKIPPED as do-not-readd class (wrong-score thumbnails before), and the parent repair note in the same log says Sporting-Man Utd "still has NO valid copy — wait for a real full-highlights upload". I only found the log AFTER deploying. The La2taTv oWBVUsBmV78 case (removed by parent repair as a first-half-only partial clip despite a fine-looking thumbnail/title) proves thumbnail checks alone cannot validate these fan copies.
+
+REVERT (same run): removed 8MzM4bTUmjs, restored RdejiWAqcBQ (Crystal Palace 1-3 Liverpool, Nov 8) which the bad add had dropped for the cap. app.js?v=589→590, styles.css?v=567→568, sw.js CACHE kzz-v592→kzz-v593; node --check OK; deploy 50bf9ff live-verified after ~1.5 min Pages CDN lag (first re-check still served e45cf90 state).
+
+SKIPPED (verified this run):
+- jCPoBE0ZRgM (TNT Sports Football, Sporting-Man Utd) — BANNED per rule 3.
+- G0dKMYHwidE (beIN SPORTS Asia) + JAqXzWm0cqk (beIN SPORTS Indonesia) — BANNED per rule 3.
+- cPENDpRX3i4 (Sport TV) — oEmbed 401 Unauthorized = embedding disabled, skip per rule 5.
+- mLVz4I-NKcA ("Isak Fires Reds To Victory") — TNT Sports Football, BANNED; NOT the Liverpool FC official copy it looked like. Footballia fan copy 3PHpPBfrNLk stays.
+- oWBVUsBmV78 (La2taTv) — do-not-readd (partial first-half-only clip, parent repair).
+- qNluxR90b9I (fotbal Tefo) — fan copy, no advantage; not added.
+- No Inter / PSG / Bayern / Atletico / Man Utd OFFICIAL YouTube copies found yet — fan copies stay; later runs can replace per rule 8.
+
+LESSON: READ THE LATEST highlights-run-*.log IN hidden_files BEFORE searching/adding — the do-not-readd list lives in the run logs, not in posted.json. The 04:53 log already contained the exact skip decision for this ID; checking it first would have prevented the bad deploy entirely.
+
+STATE: Sporting-Man Utd still has NO valid highlight copy. Wait for a real full-highlights upload (club official preferred; verified fan copy only if a later run confirms it is full-length, not a partial clip).
