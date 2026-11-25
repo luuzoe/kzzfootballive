@@ -915,6 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "uDrYeEeptg4", title: "Sporting vs Manchester United 2-2 HIGHLIGHTS & All Goals - Champions League 2026", channel: "Dollar VFX", date: "Nov 25, 2026" },
 { id: "3PHpPBfrNLk", title: "Liverpool vs Club Brugge 3-0 EXTENDED HIGHLIGHTS 😱🔥 Champions League 2026/27", channel: "Footballia", date: "Nov 25, 2026" },
 { id: "9lLARr-mR8Y", title: "Inter - Stuttgart | 2-0 | Highlights | UEFA Champions League 2026/27", channel: "CHEFON FF", date: "Nov 25, 2026" },
 { id: "QArtBNsd_78", title: "Lille - Bayern Munich | 2-1 | Highlights | UEFA Champions League 2026/27", channel: "CHEFON FF", date: "Nov 25, 2026" },
@@ -942,7 +943,6 @@ async function renderHighlights() {
 { id: "RAHIh08TbS0", title: "Kane forced off as Musiala makes his return | FC Bayern München – 1. FC Köln | Highlights Bundesliga", channel: "FC Bayern München", date: "Nov 20, 2026" },
 { id: "5b4BaFzojaI", title: "Highlights: Fiorentina - Juventus 2 - 2", channel: "ACF Fiorentina", date: "Nov 8, 2026" },
 { id: "CvcyMWt58sA", title: "ATLÉTICO MADRID 1 vs 2 FC BARCELONA | LALIGA 2026/27 MD12 🔵🔴", channel: "FC Barcelona", date: "Nov 8, 2026" },
-  { id: "RdejiWAqcBQ", title: "Match Highlights | Crystal Palace 1-3 Liverpool | Premier League", channel: "Crystal Palace FC", date: "Nov 8, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
