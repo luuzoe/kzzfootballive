@@ -1,0 +1,6 @@
+Run 2026-11-25 22:38 Yangon (cron kzz-highlights-auto-update)
+- Checked: UCL MD5 Nov 24 (Arsenal 1-1 Dortmund, Real Madrid 5-1 PSV, Man City 2-2 Napoli) — all 3 already in app.js array.
+- Weekend Nov 20-22 matches all covered; Nov 23 Brentford-Everton no big team.
+- Nov 25 UCL (Barcelona, Liverpool, Inter, Bayern, PSG, Man Utd, Atletico) kick off 00:15/02:30 Yangon Nov 26 — not yet played.
+- Upgrade checks: Dortmund official Arsenal-BVB copy xuYoxHfqlKA — oEmbed 401 Unauthorized x3 (embedding disabled) -> SKIP, keep TUDN jpwQWiTEngM. Man City-Napoli: TNT QbGqhnDG-cY BANNED, beIN c488zKXB1hw BANNED, Stan Sport HwByLT-T5wE same tier as DAZN -> keep DAZN 2cevkeqlqac.
+- Result: NO new videos. No edit, no deploy (rule 9/12).
