@@ -145,36 +145,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-25-chelsea-barcelona.html</loc>
-    <lastmod>2026-11-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-25-manchester-city-bayer-leverkusen.html</loc>
-    <lastmod>2026-11-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-25-borussia-dortmund-villarreal.html</loc>
-    <lastmod>2026-11-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-25-bodo-glimt-juventus.html</loc>
-    <lastmod>2026-11-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-25-napoli-fk-qarabag.html</loc>
-    <lastmod>2026-11-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-25-atletico-madrid-viking-fk.html</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -320,6 +290,36 @@
   </url>
   <url>
     <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-21-manchester-city-fulham.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-20-bayern-munich-fc-cologne.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-08-atletico-madrid-barcelona.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-08-fiorentina-juventus.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-08-internazionale-como.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://luuzoe.github.io/kzzfootballive/analyses/2026-11-08-manchester-united-aston-villa.html</loc>
     <lastmod>2026-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
