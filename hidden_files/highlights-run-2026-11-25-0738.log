@@ -1,0 +1,14 @@
+KZZ Highlights run — Wed 2026-11-25 07:38 Yangon
+RESULT: No new videos — no change, no deploy (rule 9/12).
+
+State checked: array still 40 videos (28 match + 12 Classic), top 3 are the Nov 24 UCL MD5 matches added by the 05:38 run (commit aabdf09, app.js?v=582, live verified).
+
+Checked since 07:08 run (30 min ago) — no match has been played since:
+- Nov 23 (Mon): Brentford 4-0 Everton, Monza 3-0 Fiorentina, Levante 1-1 Elche — NO big team involved, skipped.
+- Nov 24 UCL MD5 (Tue): all 3 big-team matches already in array.
+  - Arsenal 1-1 Dortmund: official Arsenal copy 1lG2hNS1msY re-checked — oEmbed returns "Unauthorized" (embedding DISABLED), confirmed again; cannot be added. Kept: TUDN USA jpwQWiTEngM.
+  - Real Madrid 5-1 PSV: club-official copy DOES exist — f6J5uTffqso, author_name "Real Madrid", oEmbed 200, 200x113 16:9 (the 07:08 run's "no club-official copy surfaced" was wrong; it surfaced in this run's search). NOT swapped in: existing entry WbXWfXY28xQ is TUDN USA, a broadcaster (tier 3), not a fan copy — rule 8 replaces only FAN copies with official ones. Kept: TUDN USA WbXWfXY28xQ. If a future run re-surfaces f6J5uTffqso, same call applies unless the rule changes.
+  - Man City 2-2 Napoli: the two "Champions League 26/27 Match Highlights" copies are beIN SPORTS Asia (yIusVukm_Go) and beIN SPORTS Thailand (gg330SEs7HM) — BOTH BANNED, rule 3, skipped. CBS Sports Golazo extended highlights (gGs3UBkOV0Q) also BANNED. No Man City/UEFA official copy on YouTube. Kept: fan copy rVtjaBljRgE (لقـطة Tv), oEmbed 200, 16:9.
+- Wed Nov 25 UCL MD5 day 2 (PSG vs Roma, Liverpool at Club Brugge, Inter vs Stuttgart, Bayern at Lille, Man Utd at Sporting, Barcelona, Atlético) not yet played — kick off 18:45 CET = 00:15 Yangon Nov 26. Tomorrow's runs.
+
+Do-not-readd list checked: no candidate ID is listed. No fabricated items newly surfaced this run.
