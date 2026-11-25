@@ -915,7 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "UqD84kOetHU", title: "Barcelona vs Sabah FK 4-1 Highlights | All Goals & Extended Highlights | Champions League 2026", channel: "La2taTv", date: "Nov 25, 2026" },
+{ id: "x9kmnAEbrY4", title: "HIGHLIGHTS - Sabah vs Barcelona | UEFA Champions League - Matchday 5 2026-27", channel: "TUDN USA", date: "Nov 25, 2026" },
 { id: "jpwQWiTEngM", title: "HIGHLIGHTS - Arsenal vs Borussia Dortmund | UEFA Champions League - Matchday 5 League Phase 2026-27", channel: "TUDN USA", date: "Nov 24, 2026" },
 { id: "f6J5uTffqso", title: "HIGHLIGHTS | Real Madrid 5-1 PSV | Champions League", channel: "Real Madrid", date: "Nov 24, 2026" },
 { id: "2cevkeqlqac", title: "Manchester City vs Napoli | UEFA Champions League Highlights | Matchday 5 | 2026-2027", channel: "DAZN Football", date: "Nov 24, 2026" },
