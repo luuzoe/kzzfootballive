@@ -1,0 +1,31 @@
+KZZ highlights auto-update run — Thu 2026-11-26 04:53 Yangon
+RESULT: 6 new videos added, deployed (commit 401d086), live-verified.
+
+Final scores verified (The Times live blog + vijesti/parisfans/Transfermarkt graphics — all agree):
+- Sabah 1-4 Barcelona (already in array as TUDN USA x9kmnAEbrY4)
+- Atletico Madrid 2-0 Viking FK; Club Brugge 0-3 Liverpool; Inter 2-0 Stuttgart;
+  Lille 2-1 Bayern; PSG 2-2 Roma; Sporting CP 2-2 Man Utd
+- Slavia Prague 0-1 Villarreal, Shakhtar 0-1 Fenerbahce: no big team — skipped per rule 1.
+
+ADDED (all oEmbed 200x113 16:9, embed allowed, channel not banned, thumbnail checked — real match photo / highlights graphic, correct score, both badges):
+1. 3PHpPBfrNLk — Footballia — "Liverpool vs Club Brugge 3-0 EXTENDED HIGHLIGHTS" (Club Brugge 0-3 Liverpool)
+2. 9lLARr-mR8Y — CHEFON FF — "Inter - Stuttgart | 2-0 | Highlights" (Inter 2-0 Stuttgart)
+3. QArtBNsd_78 — CHEFON FF — "Lille - Bayern Munich | 2-1 | Highlights" (Lille 2-1 Bayern)
+4. EOsHvBJ1GbE — CHEFON FF — "PSG - Roma | 2-2 | Highlights" (PSG 2-2 Roma)
+5. oWBVUsBmV78 — La2taTv — "Manchester United vs Sporting CP 2-2 Highlights | Bruno Fernandes Goals" (Sporting 2-2 Man Utd)
+6. 2CKeoHlky4o — Derby Football — "Atletico Madrid vs Viking FK 2-0 All Goals | Extended Highlights" (Atletico 2-0 Viking)
+
+SKIPPED:
+- Dollar VFX copies (Sporting-Man Utd 8MzM4bTUmjs; Inter 2-0 I57uAlhbZGk; Lille-Bayern iDTSmkgCW5I; PSG-Roma viVrGgoCCFk/b5wYONPe780) — do-not-readd class (wrong-score thumbnails before).
+- CBS Sports Golazo extended highlights (Inter xGf_6QHCV6c, Lille OG4sayZy7B0, PSG drhloSGnTXg) — BANNED channel per rule 3.
+- TUDN single-goal clips (PSG-Roma igilPmOb9l8 Hermoso goal; VIcPsAIt5pE Malen pen) — goal clips, not full highlights.
+- EzPefMQuWGc — "Atletico vs Viking 0-2" — REVERSED score title (wrong-score class).
+- GameHeat / PRS SOUL eFootball-ePES simulations, Uncle Sharma "Match Reaction", BOB TUBEE video-game simulation, D-plays fake "penalty shootout" — rejected per rule 5b(a).
+- Premium Match _BHLaNmlsBY (Liverpool) — description covers only the 13' goal; Footballia extended copy preferred.
+- No Liverpool FC / Inter / Bayern / PSG / Man Utd / Atletico OFFICIAL copies found yet (~35 min after FT) — fan copies added now; later runs can replace with official per rule 8.
+
+TRIM (cap 40, keep 12 Classics): dropped 6 oldest non-Classic by date — Milan-Ferencvaros Nov 5 (C58JvvWbc_4), Mainz-Bayern Nov 7 (xgcG0s8R7Os), Inter-Como Nov 8 (iIy7T7apNeY), Man Utd-Aston Villa Nov 8 (wOLZ_jiQLdw), Koln-Leverkusen Nov 8 (6DEh00JjkmE), Crystal Palace-Liverpool Nov 8 (RdejiWAqcBQ). Array now 40 (28 match + 12 Classic).
+
+DEPLOY: app.js?v=586→587, styles.css?v=564→565, sw.js CACHE kzz-v589→kzz-v590; node --check OK; gh-pages-deploy pushed commit 401d086 (branch main — NOT gh-pages; raw check must use /main/). Live verified: raw.githubusercontent.com/luuzoe/kzzfootballive/main/app.js = 119050 bytes = local, 40 entries, all 6 new IDs present, all 6 dropped IDs absent; Pages URL also serving new file. (First Pages fetch right after deploy still served stale 119027-byte file — CDN lag ~1 min, resolved on re-check.)
+
+NOTE: Sabah-Barca fan copy UqD84kOetHU was already replaced by TUDN USA x9kmnAEbrY4 before this run (app.js mtime 21:40 UTC = 04:10 Yangon) but no 04:23 run log exists in hidden_files — the replacement run left no log. No action needed.
