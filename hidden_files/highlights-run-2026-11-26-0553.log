@@ -1,0 +1,17 @@
+KZZ highlights auto-update run — Thu 2026-11-26 05:53 Yangon
+RESULT: NO new videos. No edit, no deploy (rule 9/12). Array unchanged: 40 entries (28 match + 12 Classic), app.js?v=591, sw.js kzz-v594.
+
+Checked (all Nov 24 + Nov 25 UCL MD5 big-team matches already in array):
+- Nov 24: Arsenal 1-1 Dortmund (TUDN), Real 5-1 PSV (Real official), Man City 2-2 Napoli (DAZN) — all present.
+- Nov 25: Sabah 1-4 Barcelona (TUDN), Atletico 2-0 Viking (Derby Football fan), Club Brugge 0-3 Liverpool (Footballia fan), Inter 2-0 Stuttgart (CHEFON FF fan), Lille 2-1 Bayern (CHEFON FF fan), PSG 2-2 Roma (CHEFON FF fan) — all present. Sporting 2-2 Man Utd still has NO valid copy.
+
+Official-replacement hunt (rule 8) — none found yet:
+- Liverpool: n_P7xCISWMU = beIN SPORTS Asia (BANNED, skip); SlHCKFaQJBo = "tod" @tod_bybein (beIN OTT brand — banned class, skip); mLVz4I-NKcA = TNT (banned, already skipped); KXFHX2hqeJA = reaction video (reject 5b); _BHLaNmlsBY = single-goal clip only (already skipped). Footballia fan copy stays.
+- PSG: -kKEpT4IZKE = beIN SPORTS Asia (BANNED, skip). CHEFON FF fan copy stays.
+- Inter: no Inter official YouTube copy surfaced (Inter.it hosts highlights on own site, not YouTube; top YT result is a Short). CHEFON FF fan copy stays.
+- Bayern: no FC Bayern official YouTube copy surfaced. CHEFON FF fan copy stays.
+- Atletico: no Atletico official YouTube copy surfaced; Derby Football fan copy (already in array) is the only full copy. Stays.
+- Sporting-Man Utd: uDrYeEeptg4 + 8MzM4bTUmjs = Dollar VFX (DO-NOT-READD); _rC8HJ8cdlQ = La2taTv — SAME channel as oWBVUsBmV78 partial-clip (DO-NOT-READD); jCPoBE0ZRgM = TNT (banned); G0dKMYHwidE / JAqXzWm0cqk = beIN (banned); cPENDpRX3i4 = Sport TV, oEmbed 401 (embedding disabled). Still NO valid copy — wait for a real full-highlights upload (club official preferred).
+
+Not yet played: Nov 26 evening UCL MD5 matches (kick off tonight CET) — next runs will cover them.
+Do-not-readd reminder (from 04:53/05:23 logs): 8MzM4bTUmjs, oWBVUsBmV78, _rC8HJ8cdlQ (La2taTv), I57uAlhbZGk, iDTSmkgCW5I, viVrGgoCCFk, b5wYONPe780 (Dollar VFX class), EzPefMQuWGc (reversed score).
