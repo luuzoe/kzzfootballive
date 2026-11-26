@@ -1,0 +1,41 @@
+KZZ highlights auto-update run — 2026-11-26 22:53 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete: all 10 big-team matches already in array (Nov 24:
+  Arsenal 1-1 Dortmund, Man City 2-2 Napoli, Real Madrid 5-1 PSV;
+  Nov 25: Sporting 2-2 Man Utd, Club Brugge 0-3 Liverpool, Inter 2-0
+  Stuttgart, Lille 2-1 Bayern, PSG 2-2 Roma, Atlético 2-0 Viking,
+  Sabah 1-4 Barcelona). ESPN uefa.champions scoreboard for 20261126
+  and 20261127 returned zero events — no UCL matches tonight.
+- Europa League MD5 tonight Nov 26: ESPN uefa.europa scoreboard
+  shows ALL 18 matches still "pre Scheduled" at 22:53 Yangon
+  (16:23 UTC). Kickoffs 18:45/20:00 GMT = 01:15 / 02:30 Yangon
+  Nov 27. Big-team ties: Dinamo Zagreb-Leverkusen, Olympiacos-Milan,
+  Juventus-Omonia. Highlights become candidates in runs after
+  ~04:00 Yangon Nov 27.
+- Domestic leagues: last round Nov 20-22 already in array; next round
+  starts Fri Nov 27 (Forest-Chelsea), then Nov 28-29.
+
+Candidate checks this run (Club Brugge-Liverpool, current: BBC
+Football fRgtPPL-PT8, broadcaster tier):
+- mLVz4I-NKcA "Isak Fires Reds To Victory" — oEmbed 200, 16:9, but
+  author_name = TNT Sports Football → BANNED per rule 3. Already in
+  do-not-readd from an earlier run; no action.
+- RFR_WVjyQFk — Al Faris Production (fan, lower tier than BBC). No swap.
+- Gxwm2zDzEh8 — The American LFC Show (fan/talk). No swap.
+- iMQLBF927qw (fan) already in do-not-readd. h4JomY-sMBA = Liverpool FC
+  "Full-time analysis" (reaction/analysis, rule 5b) already in
+  do-not-readd. Liverpool FC highlights remain paywalled on
+  liverpoolfc.com (All Red members only) — no YouTube club-official copy.
+  BBC stays.
+
+Trap noted this run: ESCO1 Facebook post (posted Nov 25, BEFORE UEL
+MD5 kickoff) showing "final scores" Juventus 2-0 Omonia,
+Olympiacos 2-3 Milan, Dinamo Zagreb 2-1 Leverkusen — fabricated
+preview graphics; ESPN confirms matches not yet played. Added to
+do-not-readd stale_traps list (110 entries now).
+
+Array state: 40 videos total (28 match highlights + 12 Classics) —
+exactly at cap. No duplicates. No trimming needed. No deploy.
