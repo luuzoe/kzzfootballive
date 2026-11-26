@@ -1,0 +1,41 @@
+KZZ highlights auto-update run — 2026-11-26 07:08 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete (UEFA.com fixture list verified):
+  - Tue Nov 24: Arsenal 1-1 Dortmund, Man City 2-2 Napoli, Real Madrid 5-1 PSV
+    (other 6 fixtures had no big team) — all 3 already in array.
+  - Wed Nov 25: Sabah 1-4 Barcelona, Atletico 2-0 Viking, Club Brugge 0-3 Liverpool,
+    Inter 2-0 Stuttgart, Lille 2-1 Bayern, PSG 2-2 Roma, Sporting 2-2 Man Utd
+    (other 2 fixtures had no big team) — all 7 already in array.
+- Domestic leagues: last round Nov 20-22 already in array; next round Nov 28-29.
+- Europa League MD5: tonight Nov 26, not yet played at 07:08 Yangon.
+
+Official-upgrade checks (rule 8 — official replaces fan/broadcaster):
+- "Champions League 26/27 Match Highlights" titled videos are ALL beIN SPORTS
+  (Asia / Thailand / Indonesia) — BANNED per rule 3, skipped despite oEmbed 200:
+  - G0dKMYHwidE Sporting 2-2 Man Utd (beIN SPORTS Asia)
+  - H5GoLCJEyxk Atletico 2-0 Viking (beIN SPORTS Asia)
+  - n_P7xCISWMU Club Brugge 0-3 Liverpool (beIN SPORTS Asia)
+  - A5vPXhjwSjI PSG 2-2 Roma (beIN SPORTS Thailand)
+  - CogE6K7khl0 Sabah 1-4 Barcelona (beIN SPORTS Asia)
+  - PWZ5WZtdxKM Arsenal 1-1 Dortmund (beIN SPORTS Asia)
+  - JAqXzWm0cqk Sporting 2-2 Man Utd (beIN SPORTS Indonesia)
+- jCPoBE0ZRgM Sporting 2-2 Man Utd — TNT Sports Football — BANNED, skipped.
+- Man City 2-2 Napoli candidates: nKgM6d_EZLw Sony Sports Network (broadcaster,
+  same tier as current DAZN — no upgrade); HwByLT-T5wE Stan Sport Football
+  (broadcaster, same tier — no upgrade); LzdKSC1i848 Prime Video Sport IT —
+  Amazon Prime Video Sport, BANNED, skipped.
+- Man City official highlights exist only on mancity.com (not YouTube);
+  Man Utd official only on MUTV (login-gated); Liverpool FC YouTube only has
+  a "Full-time analysis" video (reaction/analysis — reject per 5b). No usable
+  club-official YouTube copy found for Sporting-Man Utd, Atletico-Viking,
+  PSG-Roma, Sabah-Barcelona, Arsenal-Dortmund, Man City-Napoli.
+- Current copies stand: Dollar VFX fan (Sporting-Man Utd), Derby Football fan
+  (Atletico-Viking), BBC Football (Club Brugge-Liverpool), TUDN USA (PSG-Roma,
+  Sabah-Barcelona, Arsenal-Dortmund), DAZN Football (Man City-Napoli),
+  club officials already in place for Inter, Bayern, Real Madrid.
+
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates (verified: no repeated IDs). No trimming needed.
