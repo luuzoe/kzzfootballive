@@ -1,0 +1,31 @@
+KZZ highlights auto-update run — 2026-11-26 18:53 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete: all 10 big-team matches already in array (Nov 24:
+  Arsenal 1-1 Dortmund, Man City 2-2 Napoli, Real Madrid 5-1 PSV;
+  Nov 25: Sporting 2-2 Man Utd, Club Brugge 0-3 Liverpool, Inter 2-0
+  Stuttgart, Lille 2-1 Bayern, PSG 2-2 Roma, Atlético 2-0 Viking,
+  Sabah 1-4 Barcelona). ESPN uefa.champions scoreboard for 20261126
+  returns NO matches — MD5 is finished.
+- Europa League MD5 tonight Nov 26 (Juventus-Omonia, Dinamo Zagreb-
+  Leverkusen, Olympiacos-Milan) — ESPN uefa.europa scoreboard shows all
+  fixtures still scheduled (12:45/15:00 EST = 00:15/02:30 Yangon Nov 27),
+  NOT yet played at 18:53. Highlights become candidates in runs after
+  ~04:00 Yangon Nov 27. Same fake pre-kickoff scores warning as 18:38 run
+  still applies — verify any UEL "highlights" against UEFA before adding.
+- Domestic leagues: last round Nov 20-22 already in array; next round Nov 28-29.
+
+Official-upgrade spot check this run:
+- Club Brugge-Liverpool (BBC fRgtPPL-PT8 stays): search surfaced no
+  Liverpool FC official YouTube copy (liverpoolfc.com highlights are
+  site-only). Fan copy 3PHpPBfrNLk already logged (hallucinated details:
+  Barcola assist, Iraola as Liverpool manager — both wrong). w3_OEFjJAgQ
+  is talk/analysis, not highlights (rule 5b(a)). dAgOjUKgwEA is a press
+  conference. RFR_WVjyQFk fan copy, lower tier than BBC. No upgrade.
+
+Do-not-readd: no new banned/trap IDs surfaced this run; no file update needed.
+
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates. No trimming needed. No deploy.
