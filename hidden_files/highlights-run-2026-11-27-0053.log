@@ -1,0 +1,33 @@
+KZZ highlights auto-update run — 2026-11-27 00:53 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete: all 10 big-team matches already in array (Nov 24:
+  Arsenal 1-1 Dortmund, Man City 2-2 Napoli, Real Madrid 5-1 PSV;
+  Nov 25: Sporting 2-2 Man Utd, Club Brugge 0-3 Liverpool, Inter 2-0
+  Stuttgart, Lille 2-1 Bayern, PSG 2-2 Roma, Atlético 2-0 Viking,
+  Sabah 1-4 Barcelona). No UCL matches Nov 26-27.
+- Europa League MD5 tonight, verified live at run time: Dinamo Zagreb
+  0-1 Leverkusen 38' (1H), Olympiacos 1-0 Milan 38' (1H), Juventus-
+  Omonia not started (21:00 CET = 02:30 Yangon). No finished matches,
+  no highlights yet. Highlights become candidates in runs after
+  ~04:00 Yangon Nov 27.
+  Facebook "final scores" graphic (Olympiacos 1-2 Milan, Dinamo 1-1
+  Leverkusen, Juventus 3-2 Omonia) is FABRICATED/PREVIEW — matches
+  still in 1st half at run time. NOT treated as results; no video
+  added on those scores. (Do-not-readd file lives at
+  ~/workspace/goals/monetize-goal-myanmar-youtube-channel/hidden_files/highlights-do-not-readd.json)
+- Fan copies found but correctly SKIPPED (rule 8, 1 per match):
+  Club Brugge-Liverpool fan copies iMQLBF927qw and RFR_WVjyQFk do NOT
+  displace the existing BBC Football broadcaster copy fRgtPPL-PT8.
+  Sporting-Man Utd already covered by SuperSport broadcaster copy
+  d6VLI3sNGuM. Liverpool FC's own highlights are members-only on
+  liverpoolfc.com, not a public YouTube embed.
+- Domestic leagues: no big-team match played Nov 26. Next: Forest-
+  Chelsea Fri Nov 27 20:00 UTC (not played yet).
+- Previous run 00:38 Nov 27 also found nothing new; array unchanged
+  since then.
+
+Array state: 40 videos total (28 match highlights + 12 Classics) —
+exactly at cap. No duplicates. No trimming needed. No deploy.
