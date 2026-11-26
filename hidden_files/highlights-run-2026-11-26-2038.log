@@ -1,0 +1,38 @@
+KZZ highlights auto-update run — 2026-11-26 20:38 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete: all 10 big-team matches already in array (Nov 24:
+  Arsenal 1-1 Dortmund, Man City 2-2 Napoli, Real Madrid 5-1 PSV;
+  Nov 25: Sporting 2-2 Man Utd, Club Brugge 0-3 Liverpool, Inter 2-0
+  Stuttgart, Lille 2-1 Bayern, PSG 2-2 Roma, Atlético 2-0 Viking,
+  Sabah 1-4 Barcelona). No new matches finished since the 19:08 run.
+- Europa League MD5 tonight Nov 26 (Juventus-Omonia 21:00 CET,
+  Dinamo Zagreb-Leverkusen, Olympiacos-Milan 18:45 CET) — kickoffs
+  00:15/02:30 Yangon Nov 27, NOT yet played at 20:38 (14:08 UTC).
+  Highlights become candidates in runs after ~04:00 Yangon Nov 27.
+  FAKE pre-kickoff scores already circulating: Facebook posts claim
+  Olympiacos 1-2 Milan / Juventus 3-2 Omonia (Nouveau BOSS) vs
+  Juventus 2-0 Omonia / Olympiacos 2-3 Milan / Dinamo 2-1 Leverkusen
+  (ESCO1) — mutually contradictory, and one "highlights" reel shows
+  Hakan Calhanoglu scoring for Milan (he plays for Inter). All fake;
+  verify any UEL "highlights" against UEFA before adding.
+- Domestic leagues: last round Nov 20-22 already in array; next round
+  starts Fri Nov 27 (Forest-Chelsea), then Nov 28-29.
+
+Official-upgrade spot checks this run (Sporting-Man Utd, current entry
+SuperSport broadcaster d6VLI3sNGuM stays):
+- _VWuOlmxfdg "EXTENDED HIGHLIGHTS" = fan/AI channel (keyword-stuffed
+  metadata package); _rC8HJ8cdlQ = another fan copy. Neither outranks
+  broadcaster. cPENDpRX3i4 Sport TV = same broadcaster tier as
+  SuperSport; no same-tier swap.
+- 8MzM4bTUmjs, uDrYeEeptg4 already in do-not-readd; jCPoBE0ZRgM TNT =
+  banned; qNluxR90b9I fotbal Tefo FAN = lower tier (all as 19:08 run).
+  No Man Utd / Sporting club-official copy surfaced.
+- Olympiacos-Milan YouTube result LQJgIEvNkHw is a pre-match fixture
+  page, not highlights; match not started.
+
+Do-not-readd file: no changes (still 128 removed entries).
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates. No trimming needed. No deploy.
