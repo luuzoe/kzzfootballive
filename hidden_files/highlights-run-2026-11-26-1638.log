@@ -1,0 +1,37 @@
+KZZ highlights auto-update run — 2026-11-26 16:38 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete: all 10 big-team matches already in array (7 from Nov 25:
+  Sporting-Man Utd, Club Brugge-Liverpool, Inter-Stuttgart, Lille-Bayern,
+  PSG-Roma, Atlético-Viking, Sabah-Barcelona; 3 from Nov 24: Arsenal-Dortmund,
+  Real-PSV, Man City-Napoli).
+- Domestic leagues: last round Nov 20-22 already in array; next round Nov 28-29.
+- Europa League MD5 tonight Nov 26 (Juventus-Omonia, Dinamo Zagreb-Leverkusen,
+  Olympiacos-Milan) — kickoffs ~23:15/02:00 Yangon, NOT yet played at 16:38.
+  Highlights become candidates in runs after ~04:00 Yangon Nov 27.
+
+Spot checks this run (possible club-official upgrades for broadcaster-held
+Nov 25 matches — none surfaced):
+- PSG-Roma: no PSG official copy; surfaced Footballia fan 9PYUAqqkZGQ
+  (do-not-readd), CBS banned drhloSGnTXg (do-not-readd), beIN banned
+  A5vPXhjwSjI (do-not-readd), L'Équipe "Match Ratings" talk video (rule 5b(a)).
+  TUDN USA copy XcL0_Qy91wc stays.
+- Atlético-Viking: no Atlético official copy; surfaced fan partial
+  Vk0MgDqW5II (description frozen at 88' live score — partial-clip class,
+  lower tier than TUDN anyway), TNT banned V-6DMup3D-8 (do-not-readd).
+  TUDN USA copy LzQt_LwaVSg stays.
+- Sabah-Barcelona: no FC Barcelona official copy; surfaced Footballia
+  partial PSQfkurHqvg, Dollar VFX Flj8fvLHEN8, Sportalystics hWJ7Z9nQu4o,
+  Al Faris M_FnxHObQDQ, beIN banned CogE6K7khl0 (all do-not-readd), CBS
+  Golazo reaction gkNeLcYvx0s (banned + talk), reaction PjS21mX4SlY
+  (rule 5b(a)). NEW fan copy logged: FootballPulse1x GyflnN2Kijk —
+  lower tier than TUDN USA x9kmnAEbrY4, added to do-not-readd.json.
+- Sporting-Man Utd: no Man Utd official copy; surfaced Dollar VFX
+  uDrYeEeptg4, La2taTv partial oWBVUsBmV78, TNT banned jCPoBE0ZRgM,
+  Nexus Football b-v0LSXa6vA (all do-not-readd). SuperSport copy
+  d6VLI3sNGuM stays.
+
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates. No trimming needed. No deploy.
