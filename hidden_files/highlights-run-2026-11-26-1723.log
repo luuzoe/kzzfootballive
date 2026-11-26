@@ -1,0 +1,47 @@
+KZZ highlights auto-update run — 2026-11-26 17:23 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete, verified against UEFA's official results list:
+  Nov 24: Arsenal 1-1 Dortmund, Man City 2-2 Napoli, Real Madrid 5-1 PSV
+  (all in array). Nov 25: Sporting 2-2 Man Utd, Club Brugge 0-3 Liverpool,
+  Inter 2-0 Stuttgart, Lille 2-1 Bayern, PSG 2-2 Roma, Atlético-Viking,
+  Sabah 1-4 Barcelona (all in array). No other big-team UCL MD5 match.
+- Domestic leagues: last round Nov 20-22 already in array; next round Nov 28-29.
+- Europa League MD5 tonight Nov 26 (Juventus-Omonia, Dinamo Zagreb-Leverkusen,
+  Olympiacos-Milan) — kickoffs ~00:15/02:30 Yangon Nov 27, NOT yet played at
+  17:23. Highlights become candidates in runs after ~04:00 Yangon Nov 27.
+
+Official-upgrade spot checks this run (broadcaster-held matches):
+- Arsenal-Dortmund (TUDN jpwQWiTEngM stays): Arsenal official 1lG2hNS1msY
+  oEmbed 401 = embedding disabled (SKIP, rule 5); BVB official xuYoxHfqlKA
+  oEmbed 401 again (already in do-not-readd.json, verified 2026-11-25).
+  beIN copy PWZ5WZtdxKM BANNED (already logged). DAZN rvObzYt2dVA same tier.
+- Man City-Napoli (DAZN 2cevkeqlqac stays): suspected UEFA copy yIusVukm_Go
+  is actually beIN SPORTS Asia per oEmbed author_name — BANNED (already
+  logged). CBS gGs3UBkOV0Q also banned. No Man City official YouTube copy
+  surfaced (mancity.com 2-min highlights are site-only).
+- Club Brugge-Liverpool (BBC fRgtPPL-PT8 stays): suspected Liverpool FC copy
+  mLVz4I-NKcA is actually TNT Sports Football per oEmbed — BANNED (already
+  logged). Liverpool FC's own video h4JomY-sMBA is full-time ANALYSIS, not
+  highlights (already logged). Fan copy 3PHpPBfrNLk has hallucinated details
+  (Barcola/Sommer/Iraola — all wrong club) — not a candidate.
+- PSG-Roma (TUDN XcL0_Qy91wc stays): no PSG official copy; Footballia fan
+  9PYUAqqkZGQ, beIN A5vPXhjwSjI, CBS drhloSGnTXg all already logged banned/
+  fan. DAZN e7ti0nKKGS8 same tier as TUDN. Two Shorts skipped (not 16:9).
+- Sabah-Barcelona (TUDN x9kmnAEbrY4 stays): no FC Barcelona official copy;
+  surfaced fan copies all already logged (Footballia PSQfkurHqvg, Dollar VFX
+  Flj8fvLHEN8, Sportalystics hWJ7Z9nQu4o, FootballPulse1x GyflnN2Kijk,
+  Al Faris M_FnxHObQDQ, beIN CogE6K7khl0) plus a Russian analysis video
+  (rule 5b(a)) and fan UqD84kOetHU with wrong scorer (Koundé credited for
+  Jesus's goal) — none outranks TUDN.
+- Sporting-Man Utd, Atlético-Viking: re-checked 16:38 run, no official
+  copies then; no re-check this run (45 min gap, clubs post within hours).
+
+Do-not-readd list: all banned/trap IDs surfaced this run were already logged
+(mLVz4I-NKcA, yIusVukm_Go, PWZ5WZtdxKM, 1lG2hNS1msY, 9PYUAqqkZGQ,
+A5vPXhjwSjI, drhloSGnTXg). No additions needed.
+
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates. No trimming needed. No deploy.
