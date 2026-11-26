@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 112; // bump on every deploy
+const APP_VERSION = 113; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -915,7 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "0ydBJWKCcjA", title: "Juventus vs Omonia 4-1 HIGHLIGHTS & Goals - UEFA Europa League 2026/27", channel: "Dollar VFX", date: "Nov 26, 2026" },
+{ id: "y_HwwB9pTp0", title: "EKHATOR’S FIRST JUVE GOAL IN A 4-1 WIN! | Juventus-Omonia | Highlights Europa League", channel: "Juventus", date: "Nov 26, 2026" },
 { id: "kwDj0eDWhdk", title: "Olympiacos - AC Milan 2:4 | UEFA Europa League Highlights", channel: "Arena Sport TV", date: "Nov 26, 2026" },
 { id: "b_Q8xEla1No", title: "Dinamo Zagreb - Bayer Leverkusen 0:2 | UEFA Europa League Highlights", channel: "Arena Sport TV", date: "Nov 26, 2026" },
 { id: "C02Vp7ZJb4w", title: "Sporting 2-2 Man Utd | Highlights | UEFA Champions League", channel: "Manchester United", date: "Nov 25, 2026" },
