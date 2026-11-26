@@ -915,8 +915,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "p4CJFFHGeTo", title: "Olympiacos vs AC Milan 2-4 HIGHLIGHTS - Ολυμπιακός vs Μίλαν Στιγμιότυπα - UEFA Europa League 2026", channel: "Dollar VFX", date: "Nov 26, 2026" },
-{ id: "-kGQBLCc2Mc", title: "Dinamo Zagreb - Bayer Leverkusen | 0-2 | Highlights | Europa League 2026-27", channel: "Sponitor", date: "Nov 26, 2026" },
+{ id: "kwDj0eDWhdk", title: "Olympiacos - AC Milan 2:4 | UEFA Europa League Highlights", channel: "Arena Sport TV", date: "Nov 26, 2026" },
+{ id: "b_Q8xEla1No", title: "Dinamo Zagreb - Bayer Leverkusen 0:2 | UEFA Europa League Highlights", channel: "Arena Sport TV", date: "Nov 26, 2026" },
 { id: "C02Vp7ZJb4w", title: "Sporting 2-2 Man Utd | Highlights | UEFA Champions League", channel: "Manchester United", date: "Nov 25, 2026" },
 { id: "fRgtPPL-PT8", title: "HIGHLIGHTS: Club Brugge 0-3 Liverpool | UEFA Champions League", channel: "BBC Football", date: "Nov 25, 2026" },
 { id: "o8CD_qvWL9k", title: "LAUTARO E SUČIĆ ABBATTONO LO STOCCARDA 🖤💙💥 | INTER 2-0 STOCCARDA | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Nov 25, 2026" },
