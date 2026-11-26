@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 111; // bump on every deploy
+const APP_VERSION = 112; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -915,6 +915,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "p4CJFFHGeTo", title: "Olympiacos vs AC Milan 2-4 HIGHLIGHTS - Ολυμπιακός vs Μίλαν Στιγμιότυπα - UEFA Europa League 2026", channel: "Dollar VFX", date: "Nov 26, 2026" },
+{ id: "-kGQBLCc2Mc", title: "Dinamo Zagreb - Bayer Leverkusen | 0-2 | Highlights | Europa League 2026-27", channel: "Sponitor", date: "Nov 26, 2026" },
 { id: "C02Vp7ZJb4w", title: "Sporting 2-2 Man Utd | Highlights | UEFA Champions League", channel: "Manchester United", date: "Nov 25, 2026" },
 { id: "fRgtPPL-PT8", title: "HIGHLIGHTS: Club Brugge 0-3 Liverpool | UEFA Champions League", channel: "BBC Football", date: "Nov 25, 2026" },
 { id: "o8CD_qvWL9k", title: "LAUTARO E SUČIĆ ABBATTONO LO STOCCARDA 🖤💙💥 | INTER 2-0 STOCCARDA | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Nov 25, 2026" },
@@ -941,8 +943,6 @@ async function renderHighlights() {
 { id: "_C00--Q7qxU", title: "Chelsea 1-4 Leeds United | Premier League highlights | Leeds run riot at Stamford Bridge!", channel: "Leeds United Official", date: "Nov 21, 2026" },
 { id: "bMB52YNFKv4", title: "Anderson volley rescues point for City 💥 | Man City 1-1 Fulham | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 21, 2026" },
 { id: "RAHIh08TbS0", title: "Kane forced off as Musiala makes his return | FC Bayern München – 1. FC Köln | Highlights Bundesliga", channel: "FC Bayern München", date: "Nov 20, 2026" },
-{ id: "5b4BaFzojaI", title: "Highlights: Fiorentina - Juventus 2 - 2", channel: "ACF Fiorentina", date: "Nov 8, 2026" },
-{ id: "CvcyMWt58sA", title: "ATLÉTICO MADRID 1 vs 2 FC BARCELONA | LALIGA 2026/27 MD12 🔵🔴", channel: "FC Barcelona", date: "Nov 8, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
