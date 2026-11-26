@@ -1,0 +1,29 @@
+KZZ highlights auto-update run — 2026-11-26 13:23 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete, all 10 big-team matches already in array (verified
+  against the 12:53 run, re-checked this run):
+  - Tue Nov 24: Arsenal 1-1 Dortmund (TUDN), Real Madrid 5-1 PSV (Real Madrid
+    official), Man City 2-2 Napoli (DAZN) — all present.
+  - Wed Nov 25: Sabah 1-4 Barcelona (TUDN), Atletico 2-0 Viking (TUDN),
+    Club Brugge 0-3 Liverpool (BBC Football), Inter 2-0 Stuttgart (Inter
+    official), Lille 2-1 Bayern (FC Bayern official), PSG 2-2 Roma (TUDN),
+    Sporting 2-2 Man Utd (Dollar VFX fan) — all present.
+- Domestic leagues: last round Nov 20-22 already in array; next round Nov 28-29.
+- Europa League MD5 (incl. Juventus vs Omonia): tonight Nov 26, not yet played
+  at 13:23 Yangon (kickoffs ~00:15/03:00 Yangon Nov 27).
+
+Spot checks this run (official-upgrade candidates, rule 8):
+- Sporting-Man Utd: search surfaced only held Dollar VFX uDrYeEeptg4,
+  do-not-readd partial clips oWBVUsBmV78 / 8MzM4bTUmjs, TNT jCPoBE0ZRgM
+  (BANNED), beIN JAqXzWm0cqk (BANNED). No Man Utd official copy.
+  Dollar VFX uDrYeEeptg4 stays.
+- PSG-Roma: 9PYUAqqkZGQ = Footballia fan (lower tier than TUDN, skipped);
+  c267m0z0g2I is a Short; A5vPXhjwSjI beIN Thailand (BANNED, do-not-readd);
+  drhloSGnTXg CBS Sports Golazo (BANNED). No PSG club-official copy.
+  TUDN XcL0_Qy91wc stays.
+
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates. No trimming needed. No deploy.
