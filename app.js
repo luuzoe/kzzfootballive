@@ -915,10 +915,11 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "0ydBJWKCcjA", title: "Juventus vs Omonia 4-1 HIGHLIGHTS & Goals - UEFA Europa League 2026/27", channel: "Dollar VFX", date: "Nov 26, 2026" },
 { id: "kwDj0eDWhdk", title: "Olympiacos - AC Milan 2:4 | UEFA Europa League Highlights", channel: "Arena Sport TV", date: "Nov 26, 2026" },
 { id: "b_Q8xEla1No", title: "Dinamo Zagreb - Bayer Leverkusen 0:2 | UEFA Europa League Highlights", channel: "Arena Sport TV", date: "Nov 26, 2026" },
 { id: "C02Vp7ZJb4w", title: "Sporting 2-2 Man Utd | Highlights | UEFA Champions League", channel: "Manchester United", date: "Nov 25, 2026" },
-{ id: "fRgtPPL-PT8", title: "HIGHLIGHTS: Club Brugge 0-3 Liverpool | UEFA Champions League", channel: "BBC Football", date: "Nov 25, 2026" },
+{ id: "p2GSrlfy3X4", title: "Highlights: Club Brugge 0-3 Liverpool | Isak & Wirtz Goals In Champions League Win!", channel: "Liverpool FC", date: "Nov 25, 2026" },
 { id: "o8CD_qvWL9k", title: "LAUTARO E SUČIĆ ABBATTONO LO STOCCARDA 🖤💙💥 | INTER 2-0 STOCCARDA | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Nov 25, 2026" },
 { id: "C6FnS8TeaTg", title: "Tough night in Lille | OSC Lille vs. FC Bayern 2-1 | Champions League Highlights", channel: "FC Bayern München", date: "Nov 25, 2026" },
 { id: "wVxDDEYlgbY", title: "PSG 2-2 ROMA | UCL HIGHLIGHTS 2026-27", channel: "AS Roma", date: "Nov 25, 2026" },
@@ -942,7 +943,6 @@ async function renderHighlights() {
 { id: "-f5rhR4zQiY", title: "Williams-Barnett makes history! | Tottenham 2-0 Ipswich | Premier League Highlights", channel: "Tottenham Hotspur", date: "Nov 21, 2026" },
 { id: "_C00--Q7qxU", title: "Chelsea 1-4 Leeds United | Premier League highlights | Leeds run riot at Stamford Bridge!", channel: "Leeds United Official", date: "Nov 21, 2026" },
 { id: "bMB52YNFKv4", title: "Anderson volley rescues point for City 💥 | Man City 1-1 Fulham | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 21, 2026" },
-{ id: "RAHIh08TbS0", title: "Kane forced off as Musiala makes his return | FC Bayern München – 1. FC Köln | Highlights Bundesliga", channel: "FC Bayern München", date: "Nov 20, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
