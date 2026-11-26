@@ -1,0 +1,31 @@
+KZZ highlights auto-update run — 2026-11-26 15:53 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete, all 10 big-team matches already in array (same as 15:38 run).
+- Domestic leagues: last round Nov 20-22 already in array; next round Nov 28-29.
+- Europa League MD5 tonight Nov 26 (Juventus-Omonia, Dinamo Zagreb-Leverkusen,
+  Olympiacos-Milan) — kickoffs 17:45/20:00 CET (~23:15/02:00 Yangon), NOT yet
+  played at 15:53. NOTE: a Facebook infographic dated Nov 25 shows "Juventus 3-0
+  Omonia" etc. — that is a PRE-MATCH prediction graphic, not results; do not treat
+  as played. Highlights for UEL MD5 become candidates in runs after ~04:00 Yangon
+  Nov 27.
+
+Spot checks this run (official-upgrade candidates, rule 8):
+- Sporting-Man Utd: NEW candidate b-v0LSXa6vA (tournaments.com embed) — oEmbed
+  200, 200x113 (16:9), author "Nexus Football" = FAN channel, lower tier than
+  current SuperSport broadcaster entry d6VLI3sNGuM (oEmbed re-verified 200).
+  No upgrade; SuperSport stays. b-v0LSXa6vA / "Nexus Football" already present
+  in highlights-do-not-readd.json (goal hidden_files) — consistent, do not add.
+- Club Brugge-Liverpool: no Liverpool FC official YouTube copy surfaced
+  (liverpoolfc.com highlights are website-only, members-only). BBC fRgtPPL-PT8
+  stays. Fan copies 3PHpPBfrNLk / iMQLBF927qw / RFR_WVjyQFk / Gxwm2zDzEh8 /
+  n_P7xCISWMU all lower tier; mLVz4I-NKcA = TNT Sports (BANNED, in do-not-readd
+  list); dAgOjUKgwEA = LFC post-match interview, not highlights. goalsarea.com
+  lists a TUDN USA full-highlights copy (PR/US only) — same broadcaster tier as
+  BBC, no upgrade, and geo-restricted note; BBC stays.
+- No UEFA-official-channel MD5 highlight copies surfaced for any match.
+
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates. No trimming needed. No deploy.
