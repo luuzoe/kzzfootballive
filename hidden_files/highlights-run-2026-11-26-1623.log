@@ -1,0 +1,24 @@
+KZZ highlights auto-update run — 2026-11-26 16:23 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete: all 10 big-team matches already in array (7 from Nov 25:
+  Sporting-Man Utd, Club Brugge-Liverpool, Inter-Stuttgart, Lille-Bayern,
+  PSG-Roma, Atlético-Viking, Sabah-Barcelona; 3 from Nov 24: Arsenal-Dortmund,
+  Real-PSV, Man City-Napoli). Cross-checked against UEFA round-up + analyses.json.
+- Other Nov 25 UCL matches (Shakhtar-Fenerbahçe, Slavia-Villarreal) involve no
+  big team — skipped per rule 1.
+- Domestic leagues: last round Nov 20-22 already in array; next round Nov 28-29.
+- Europa League MD5 tonight Nov 26 (Juventus-Omonia, Dinamo Zagreb-Leverkusen,
+  Olympiacos-Milan) — kickoffs ~23:15/02:00 Yangon, NOT yet played at 16:23.
+  Highlights become candidates in runs after ~04:00 Yangon Nov 27.
+
+Spot checks this run:
+- Club Brugge-Liverpool fan copy 3PHpPBfrNLk surfaced in search — lower tier than
+  current BBC Football entry fRgtPPL-PT8; 1-per-match rule, no upgrade.
+- No club-official YouTube copy surfaced for any Nov 25 match that would replace
+  a fan entry (all current entries are official/broadcaster tier).
+
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates. No trimming needed. No deploy.
