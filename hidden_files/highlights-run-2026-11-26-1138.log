@@ -1,0 +1,43 @@
+KZZ highlights auto-update run — 2026-11-26 11:38 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete, all 10 big-team matches already in array (verified
+  against the 11:08 run, re-checked this run):
+  - Tue Nov 24: Arsenal 1-1 Dortmund (TUDN), Real Madrid 5-1 PSV (Real Madrid
+    official), Man City 2-2 Napoli (DAZN) — all present.
+  - Wed Nov 25: Sabah 1-4 Barcelona (TUDN), Atletico 2-0 Viking (TUDN),
+    Club Brugge 0-3 Liverpool (BBC Football), Inter 2-0 Stuttgart (Inter
+    official), Lille 2-1 Bayern (FC Bayern official), PSG 2-2 Roma (TUDN),
+    Sporting 2-2 Man Utd (Dollar VFX fan) — all present.
+- Domestic leagues: last round Nov 20-22 already in array; next round Nov 28-29.
+- Europa League MD5 (incl. Juventus vs Omonia): tonight Nov 26, not yet played
+  at 11:38 Yangon (kickoffs ~00:15/03:00 Yangon Nov 27).
+
+Official-upgrade checks (rule 8 — official replaces fan/broadcaster):
+- Sporting-Man Utd: search surfaced only the held Dollar VFX copy
+  (uDrYeEeptg4), the do-not-readd partial clips oWBVUsBmV78 / 8MzM4bTUmjs,
+  Goldbridge reaction s2YbzbrqJIU (talk, reject 5b(a)), TNT jCPoBE0ZRgM
+  (BANNED) and beIN JAqXzWm0cqk (BANNED). No Man Utd official copy.
+  Dollar VFX uDrYeEeptg4 stays.
+- PSG-Roma: 9PYUAqqkZGQ = Footballia fan (lower tier than TUDN, skipped);
+  koralive points to CBS Sports Golazo drhloSGnTXg (BANNED); c267m0z0g2I is
+  a Short; A5vPXhjwSjI beIN Thailand (BANNED, do-not-readd). No PSG
+  club-official copy. TUDN XcL0_Qy91wc stays.
+- Sabah-Barcelona: PSQfkurHqvg (Footballia partial, do-not-readd),
+  Flj8fvLHEN8 (Dollar VFX fan, do-not-readd), GyflnN2Kijk (Football Pulse
+  fan, lower tier), gcpvVDyKYfs (The Daily Board game recap, talk),
+  UqD84kOetHU (La2taTv fan, lower tier than TUDN), gkNeLcYvx0s (CBS panel
+  talk/reaction, reject 5b(a)). No FC Barcelona official copy.
+  TUDN x9kmnAEbrY4 stays.
+- Club Brugge-Liverpool: 3PHpPBfrNLk (Footballia fan, lower tier),
+  dAgOjUKgwEA (press conference, talk), mLVz4I-NKcA (TNT, BANNED),
+  Gxwm2zDzEh8 / RFR_WVjyQFk (fan, lower tier), h4JomY-sMBA (full-time
+  analysis, talk). Liverpool FC's own highlights are members-only on
+  liverpoolfc.com, not on YouTube. BBC Football fRgtPPL-PT8 stays.
+- No fake/fabricated items surfaced this run (fake "Arsenal vs Chelsea 7-2"
+  xKXcNJ_pliY not in today's search results).
+
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates. No trimming needed. No deploy.
