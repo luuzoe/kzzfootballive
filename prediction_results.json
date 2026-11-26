@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-25T08:53:20+06:30",
+ "updated": "2026-11-26T08:53:34+06:30",
  "summary": {
-  "resolved": 224,
-  "correct": 128,
-  "wrong": 96,
-  "accuracy_pct": 57.1,
+  "resolved": 233,
+  "correct": 132,
+  "wrong": 101,
+  "accuracy_pct": 56.7,
   "not_found": 3
  },
  "results": [
@@ -2068,6 +2068,87 @@
    "pick_en": "Real Betis win",
    "score": "0-2",
    "outcome": "correct"
+  },
+  {
+   "date": "2026-11-25",
+   "home": "Sabah",
+   "away": "Barcelona",
+   "league": "Champions League",
+   "pick_en": "Barcelona win",
+   "score": "1-4",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-25",
+   "home": "Slavia Prague",
+   "away": "Villarreal",
+   "league": "Champions League",
+   "pick_en": "Draw",
+   "score": "0-1",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-11-25",
+   "home": "Atlético Madrid",
+   "away": "Viking",
+   "league": "Champions League",
+   "pick_en": "Atlético Madrid win",
+   "score": "2-0",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-25",
+   "home": "Club Brugge",
+   "away": "Liverpool",
+   "league": "Champions League",
+   "pick_en": "Liverpool win",
+   "score": "0-3",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-25",
+   "home": "Inter",
+   "away": "Stuttgart",
+   "league": "Champions League",
+   "pick_en": "Inter win",
+   "score": "2-0",
+   "outcome": "correct"
+  },
+  {
+   "date": "2026-11-25",
+   "home": "Lille",
+   "away": "Bayern Munich",
+   "league": "Champions League",
+   "pick_en": "Bayern Munich win",
+   "score": "2-1",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-11-25",
+   "home": "Paris Saint-Germain",
+   "away": "Roma",
+   "league": "Champions League",
+   "pick_en": "Paris Saint-Germain win",
+   "score": "2-2",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-11-25",
+   "home": "Shakhtar Donetsk",
+   "away": "Fenerbahçe",
+   "league": "Champions League",
+   "pick_en": "Draw",
+   "score": "0-1",
+   "outcome": "wrong"
+  },
+  {
+   "date": "2026-11-25",
+   "home": "Sporting CP",
+   "away": "Manchester United",
+   "league": "Champions League",
+   "pick_en": "Sporting CP win",
+   "score": "2-2",
+   "outcome": "wrong"
   }
  ]
 }
