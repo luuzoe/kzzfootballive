@@ -915,7 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "uDrYeEeptg4", title: "Sporting vs Manchester United 2-2 HIGHLIGHTS & All Goals - Champions League 2026", channel: "Dollar VFX", date: "Nov 25, 2026" },
+{ id: "d6VLI3sNGuM", title: "Sporting CP v Manchester United | Match Highlights | UEFA Champions League", channel: "SuperSport", date: "Nov 25, 2026" },
 { id: "fRgtPPL-PT8", title: "HIGHLIGHTS: Club Brugge 0-3 Liverpool | UEFA Champions League", channel: "BBC Football", date: "Nov 25, 2026" },
 { id: "o8CD_qvWL9k", title: "LAUTARO E SUČIĆ ABBATTONO LO STOCCARDA 🖤💙💥 | INTER 2-0 STOCCARDA | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Nov 25, 2026" },
 { id: "C6FnS8TeaTg", title: "Tough night in Lille | OSC Lille vs. FC Bayern 2-1 | Champions League Highlights", channel: "FC Bayern München", date: "Nov 25, 2026" },
