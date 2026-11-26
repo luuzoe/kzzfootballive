@@ -1,0 +1,42 @@
+KZZ highlights auto-update run — 2026-11-26 18:38 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete: all 10 big-team matches already in array (Nov 24:
+  Arsenal 1-1 Dortmund, Man City 2-2 Napoli, Real Madrid 5-1 PSV;
+  Nov 25: Sporting 2-2 Man Utd, Club Brugge 0-3 Liverpool, Inter 2-0
+  Stuttgart, Lille 2-1 Bayern, PSG 2-2 Roma, Atlético 2-0 Viking,
+  Sabah 1-4 Barcelona).
+- Domestic leagues: last round Nov 20-22 already in array; next round Nov 28-29.
+- Europa League MD5 tonight Nov 26 (Juventus-Omonia, Dinamo Zagreb-Leverkusen,
+  Olympiacos-Milan) — kickoffs 00:15/02:30 Yangon Nov 27, NOT yet played at
+  18:38. Highlights become candidates in runs after ~04:00 Yangon Nov 27.
+- No other big-team match ended between the 18:08 run and this run.
+
+Official-upgrade spot checks this run:
+- Sporting-Man Utd (SuperSport d6VLI3sNGuM stays): 6 newly surfaced copies
+  checked via oEmbed — uDrYeEeptg4 = Dollar VFX (fan), oWBVUsBmV78 /
+  _rC8HJ8cdlQ = Arabic TV fan, jCPoBE0ZRgM = TNT Sports Football BANNED
+  (rule 3), cPENDpRX3i4 = Sport TV, oEmbed "Unauthorized" (embedding
+  disabled) + same broadcaster tier, b-v0LSXa6vA = Nexus Football (fan).
+  No Man Utd or Sporting official copy surfaced.
+- Sabah-Barcelona (TUDN x9kmnAEbrY4 stays): 7 copies checked — UqD84kOetHU
+  oEmbed fail (embedding disabled), PSQfkurHqvg = Footballia (fan),
+  Flj8fvLHEN8 = Dollar VFX (fan), hWJ7Z9nQu4o = Sportalystics (fan),
+  CogE6K7khl0 = beIN SPORTS Asia BANNED (rule 3), M_FnxHObQDQ = Al Faris
+  Production (fan), Y9cMOyK_a0Y = Pulse Sports quiz video, not highlights.
+  No FC Barcelona official copy surfaced.
+
+Do-not-readd: CogE6K7khl0, jCPoBE0ZRgM, uDrYeEeptg4 all already listed —
+no file update needed.
+
+⚠️ FAKE-RESULTS ALERT (same class as fake Olympiacos 3-4 Real Madrid):
+Facebook posts already claim UEL MD5 final scores HOURS BEFORE kickoff,
+and they contradict each other — Juventus 3-0 vs 2-0 vs 3-2 Omonia;
+Dinamo Zagreb 1-2 vs 2-1 Leverkusen; Olympiacos 1-2 vs 2-3 Milan.
+Treat any UEL "highlights" surfacing before ~04:00 Yangon Nov 27 with
+extra suspicion; verify scores against UEFA before adding.
+
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates. No trimming needed. No deploy.
