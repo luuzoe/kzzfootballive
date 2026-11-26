@@ -1,0 +1,49 @@
+KZZ highlights auto-update run — 2026-11-26 19:08 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete: all 10 big-team matches already in array (Nov 24:
+  Arsenal 1-1 Dortmund, Man City 2-2 Napoli, Real Madrid 5-1 PSV;
+  Nov 25: Sporting 2-2 Man Utd, Club Brugge 0-3 Liverpool, Inter 2-0
+  Stuttgart, Lille 2-1 Bayern, PSG 2-2 Roma, Atlético 2-0 Viking,
+  Sabah 1-4 Barcelona). No new matches finished since the 18:53 run.
+- Europa League MD5 tonight Nov 26 (Juventus-Omonia, Dinamo Zagreb-
+  Leverkusen, Olympiacos-Milan) — kickoffs 00:15/02:30 Yangon Nov 27,
+  NOT yet played at 19:08. Highlights become candidates in runs after
+  ~04:00 Yangon Nov 27. Same fake pre-kickoff scores warning applies —
+  verify any UEL "highlights" against UEFA before adding.
+- Domestic leagues: last round Nov 20-22 already in array; next round Nov 28-29.
+
+Official-upgrade spot checks this run:
+- Sporting-Man Utd (SuperSport d6VLI3sNGuM stays): b-v0LSXa6vA = Nexus
+  Football FAN (lower tier); P4hlVDF6YFE = Stretford Paddock LIVE match
+  REVIEW (talk, rule 5b(a) reject); qNluxR90b9I = fotbal Tefo FAN (lower
+  tier). oEmbed 200 / 16:9 for all three, none outranks broadcaster.
+  Known banned/partial IDs (oWBVUsBmV78, uDrYeEeptg4, 8MzM4bTUmjs,
+  jCPoBE0ZRgM TNT, G0dKMYHwidE / JAqXzWm0cqk beIN, xt5O4dpgpUw CBS)
+  re-surfaced and correctly skipped. No Man Utd / Sporting club-official
+  copy surfaced.
+- Sabah-Barcelona (TUDN x9kmnAEbrY4 stays): no FC Barcelona official
+  copy surfaced. PSQfkurHqvg / Flj8fvLHEN8 already in do-not-readd;
+  gkNeLcYvx0s is CBS talk/analysis (rule 5b(a)).
+- Atlético-Viking (TUDN LzQt_LwaVSg stays): no Atlético official copy
+  surfaced. Vk0MgDqW5II fan "live score 88%" = partial-clip pattern;
+  ojvT53yMdxc DAZN = same broadcaster tier, no swap.
+- PSG-Roma (TUDN XcL0_Qy91wc stays): no PSG official copy surfaced.
+  drhloSGnTXg CBS = banned; A5vPXhjwSjI beIN = banned (both already
+  in do-not-readd); Ij2cCaYyPjQ L'Équipe = match-ratings talk.
+- Man City-Napoli (DAZN 2cevkeqlqac stays): NEW Man City OFFICIAL copy
+  WaN91Izyewk ("HIGHLIGHTS | Man City 2-2 Napoli | Late Cherki goal
+  rescues a point!") surfaced — oEmbed returns 401 'Unauthorized' =
+  embedding DISABLED (verified 19:08; thumbnail 200). Do NOT swap in.
+  Added to highlights-do-not-readd.json (removed list, now 128 entries).
+  Same class as Man City official HMsCeoinwlA (also 401).
+
+Do-not-readd file: one entry added (WaN91Izyewk). Note: first edit
+  accidentally landed the object in the stale_traps string array; caught
+  by JSON validation and moved to the `removed` array; file re-validated
+  (128 removed entries, stale_traps all strings).
+
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates. No trimming needed. No deploy.
