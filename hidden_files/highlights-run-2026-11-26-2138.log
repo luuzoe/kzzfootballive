@@ -1,0 +1,70 @@
+KZZ highlights auto-update run — 2026-11-26 21:38 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete: all 10 big-team matches already in array (Nov 24:
+  Arsenal 1-1 Dortmund, Man City 2-2 Napoli, Real Madrid 5-1 PSV;
+  Nov 25: Sporting 2-2 Man Utd, Club Brugge 0-3 Liverpool, Inter 2-0
+  Stuttgart, Lille 2-1 Bayern, PSG 2-2 Roma, Atlético 2-0 Viking,
+  Sabah 1-4 Barcelona). No new matches finished since the 21:08 run.
+- Europa League MD5 tonight Nov 26 (Juventus-Omonia, Dinamo Zagreb-
+  Leverkusen, Olympiacos-Milan, etc.) — kickoffs 17:45/20:00 GMT =
+  23:45 Yangon / 02:00 Yangon Nov 27, NOT yet played at 21:38
+  (15:08 UTC). Highlights become candidates in runs after ~04:00
+  Yangon Nov 27.
+- Domestic leagues: last round Nov 20-22 already in array; next round
+  starts Fri Nov 27 (Forest-Chelsea), then Nov 28-29.
+
+Official-upgrade spot checks this run (all confirmed no swap):
+- Sporting-Man Utd (current: SuperSport broadcaster d6VLI3sNGuM):
+  no Man Utd / Sporting club-official YouTube copy surfaced.
+  oWBVUsBmV78 (La2taTv partial, do-not-readd), uDrYeEeptg4 (Dollar
+  VFX fan — lower tier), jCPoBE0ZRgM (TNT, banned), P4hlVDF6YFE
+  (Stretford Paddock talk/review, do-not-readd), CBS Golazo (banned).
+  SuperSport stays.
+- Sabah-Barcelona (current: TUDN USA x9kmnAEbrY4):
+  hWJ7Z9nQu4o = Sportalystics fan (oEmbed 200, 16:9 — already in
+  do-not-readd from 13:53 run, lower tier), PSQfkurHqvg (Footballia
+  partial, do-not-readd), Flj8fvLHEN8 (Dollar VFX fan, lower tier),
+  C7E25m516Qo (Barça 'Un Dia De Partit' vlog, do-not-readd),
+  CBS Golazo talk (banned). TUDN stays.
+- Atlético-Viking (current: TUDN USA LzQt_LwaVSg):
+  EItqLQSu7i4 (fan, 'Live Score (88%)' = partial clip), V-6DMup3D-8
+  (TNT, banned, do-not-readd), H5GoLCJEyxk (beIN, banned,
+  do-not-readd), CBS Golazo (banned). No Atlético club-official
+  copy surfaced. TUDN stays.
+- PSG-Roma (current: TUDN USA XcL0_Qy91wc):
+  9PYUAqqkZGQ (fan, emoji 'EXTENDED HIGHLIGHTS' template, lower
+  tier), vi71w5YDFQI (Sport Daily fan, lower tier), -kKEpT4IZKE
+  (beIN, banned, do-not-readd), CBS Golazo drhloSGnTXg (banned).
+  No PSG club-official copy surfaced. TUDN stays.
+- Arsenal-Dortmund (current: TUDN USA jpwQWiTEngM):
+  kUty5WPgQJM (Dollar VFX fan, do-not-readd), fAKa_Z1h38g
+  (Sportalystics fan, lower tier), 66SA5FY_OnE (Footballia, oEmbed
+  failed, do-not-readd), WoElO7LYS4Q (unknown fan via
+  globalsportanalysis, lower tier), CBS Golazo / beIN (banned).
+  Arsenal.com hosts its own highlights on-site (no YouTube copy);
+  BVB official xuYoxHfqlKA already 401 in do-not-readd. TUDN stays.
+- Man City-Napoli (current: DAZN Football 2cevkeqlqac):
+  WaN91Izyewk = Man City official 2-min cut, oEmbed 401
+  'Unauthorized' = embedding disabled (re-verified this run;
+  already in do-not-readd from 19:08 run). DAZN stays.
+  LO2EVvq9G6U = WOWOWサッカー official broadcaster, oEmbed 200,
+  16:9 — SAME tier as DAZN (broadcaster = broadcaster), rule 8
+  allows replacement only by a HIGHER tier, so no swap. Also a
+  3-minute Japanese cut. NEW entry added to do-not-readd (134 total).
+  A1vaWjg0EIs (Dollar VFX fan), gGs3UBkOV0Q (CBS, banned),
+  QbGqhnDG-cY (TNT, banned), yIusVukm_Go (beIN, banned),
+  NIsncXJLmKM / DFm5tO_yd3g (fans, lower tier) — all do-not-readd.
+- Club Brugge-Liverpool (current: BBC Football fRgtPPL-PT8):
+  Liverpool FC highlights still paywalled on liverpoolfc.com
+  (All Red members only) — no YouTube club-official copy.
+  iMQLBF927qw (fan, lower tier), CBS Golazo (banned). BBC stays.
+
+Do-not-readd file: 1 entry added this run (LO2EVvq9G6U WOWOW).
+134 removed entries total, no duplicates. Three candidates this run
+(WaN91Izyewk, hWJ7Z9nQu4o, P4hlVDF6YFE) were already recorded by
+earlier runs today — independent re-verification matched exactly.
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates. No trimming needed. No deploy.
