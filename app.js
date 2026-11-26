@@ -917,9 +917,9 @@ async function renderHighlights() {
   const videos = [
 { id: "uDrYeEeptg4", title: "Sporting vs Manchester United 2-2 HIGHLIGHTS & All Goals - Champions League 2026", channel: "Dollar VFX", date: "Nov 25, 2026" },
 { id: "fRgtPPL-PT8", title: "HIGHLIGHTS: Club Brugge 0-3 Liverpool | UEFA Champions League", channel: "BBC Football", date: "Nov 25, 2026" },
-{ id: "9lLARr-mR8Y", title: "Inter - Stuttgart | 2-0 | Highlights | UEFA Champions League 2026/27", channel: "CHEFON FF", date: "Nov 25, 2026" },
+{ id: "o8CD_qvWL9k", title: "LAUTARO E SUČIĆ ABBATTONO LO STOCCARDA 🖤💙💥 | INTER 2-0 STOCCARDA | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Nov 25, 2026" },
 { id: "C6FnS8TeaTg", title: "Tough night in Lille | OSC Lille vs. FC Bayern 2-1 | Champions League Highlights", channel: "FC Bayern München", date: "Nov 25, 2026" },
-{ id: "EOsHvBJ1GbE", title: "PSG - Roma | 2-2 | Highlights | UEFA Champions League 2026/27", channel: "CHEFON FF", date: "Nov 25, 2026" },
+{ id: "XcL0_Qy91wc", title: "HIGHLIGHTS - PSG vs Roma | UEFA Champions League - Matchday 5 League Phase 2026-27 | TUDN", channel: "TUDN USA", date: "Nov 25, 2026" },
 { id: "2CKeoHlky4o", title: "Atletico Madrid vs Viking FK 2-0 All Goals | Extended Highlights | UEFA Champions League 2026/27", channel: "Derby Football", date: "Nov 25, 2026" },
 { id: "x9kmnAEbrY4", title: "HIGHLIGHTS - Sabah vs Barcelona | UEFA Champions League - Matchday 5 2026-27", channel: "TUDN USA", date: "Nov 25, 2026" },
 { id: "jpwQWiTEngM", title: "HIGHLIGHTS - Arsenal vs Borussia Dortmund | UEFA Champions League - Matchday 5 League Phase 2026-27", channel: "TUDN USA", date: "Nov 24, 2026" },
