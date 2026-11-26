@@ -1,0 +1,25 @@
+KZZ highlights auto-update run — 2026-11-27 00:38 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete: all 10 big-team matches already in array (Nov 24:
+  Arsenal 1-1 Dortmund, Man City 2-2 Napoli, Real Madrid 5-1 PSV;
+  Nov 25: Sporting 2-2 Man Utd, Club Brugge 0-3 Liverpool, Inter 2-0
+  Stuttgart, Lille 2-1 Bayern, PSG 2-2 Roma, Atlético 2-0 Viking,
+  Sabah 1-4 Barcelona). No UCL matches Nov 26-27.
+- Europa League MD5 tonight: early kickoffs 18:45 CET = 00:15 Yangon
+  Nov 27 — matches IN PROGRESS at run time (live: Dinamo Zagreb 0-1
+  Leverkusen 1H, Olympiacos 0-0 Milan 1H; Juventus-Omonia not started,
+  02:30 Yangon). No finished matches, no highlights yet. Highlights
+  become candidates in runs after ~04:00 Yangon Nov 27.
+  Fopa Facebook "final scores" graphic (Olympiacos 1-2 Milan, Dinamo
+  1-2 Leverkusen, Juventus 3-0 Omonia) already flagged FABRICATED/
+  PREVIEW in highlights-do-not-readd.json — NOT treated as results.
+- Domestic leagues: no big-team match played Nov 26. Next: Forest-
+  Chelsea Fri Nov 27 20:00 UTC (not played yet).
+- Previous run 00:23 Nov 27 also found nothing new; array unchanged
+  since then.
+
+Array state: 40 videos total (28 match highlights + 12 Classics) —
+exactly at cap. No duplicates. No trimming needed. No deploy.
