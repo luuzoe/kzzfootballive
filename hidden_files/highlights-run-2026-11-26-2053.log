@@ -1,0 +1,36 @@
+KZZ highlights auto-update run — 2026-11-26 20:53 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete: all 10 big-team matches already in array (Nov 24:
+  Arsenal 1-1 Dortmund, Man City 2-2 Napoli, Real Madrid 5-1 PSV;
+  Nov 25: Sporting 2-2 Man Utd, Club Brugge 0-3 Liverpool, Inter 2-0
+  Stuttgart, Lille 2-1 Bayern, PSG 2-2 Roma, Atlético 2-0 Viking,
+  Sabah 1-4 Barcelona). No new matches finished since the 20:38 run.
+- Europa League MD5 tonight Nov 26 (Juventus-Omonia, Dinamo Zagreb-
+  Leverkusen, Olympiacos-Milan, etc.) — kickoffs 17:45/20:00 GMT =
+  23:45 Yangon / 02:00 Yangon Nov 27, NOT yet played at 20:53
+  (14:23 UTC). Sportscafe still lists all as Upcoming 0-0 NS.
+  Facebook/Instagram "result" graphics (Juventus 4-0 Omonia,
+  Olympiacos 1-2 Milan, Dinamo 1-2 Leverkusen, etc.) remain pre-
+  kickoff fakes with mutually contradictory scores, as flagged in the
+  20:38 run. Highlights become candidates in runs after ~04:00
+  Yangon Nov 27.
+- Domestic leagues: last round Nov 20-22 already in array; next round
+  starts Fri Nov 27 (Forest-Chelsea), then Nov 28-29.
+
+Official-upgrade spot checks this run (Sporting-Man Utd, current entry
+SuperSport broadcaster d6VLI3sNGuM stays):
+- b-v0LSXa6vA (embedded in BBC Sport match report via tournaments.com)
+  oEmbed: author 'Nexus Football' = FAN channel, 200x113. Lower tier
+  than the SuperSport broadcaster copy held — no swap (rule 8).
+- P4hlVDF6YFE (Stretford Paddock embed) = "LIVE Champions League
+  Match Review" — reaction/talk video, REJECT per rule 5b(a).
+- No Man Utd / Sporting club-official copy surfaced. Known IDs
+  oWBVUsBmV78 (partial), uDrYeEeptg4, jCPoBE0ZRgM (TNT banned)
+  unchanged from earlier runs.
+
+Do-not-readd file: no changes (still 128 removed entries).
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates. No trimming needed. No deploy.
