@@ -1,0 +1,47 @@
+KZZ highlights auto-update run — 2026-11-26 10:53 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete, all 10 big-team matches already in array:
+  - Tue Nov 24: Arsenal 1-1 Dortmund (TUDN), Real Madrid 5-1 PSV (Real Madrid
+    official), Man City 2-2 Napoli (DAZN) — all present.
+  - Wed Nov 25: Sabah 1-4 Barcelona (TUDN), Atletico 2-0 Viking (TUDN),
+    Club Brugge 0-3 Liverpool (BBC Football), Inter 2-0 Stuttgart (Inter
+    official), Lille 2-1 Bayern (FC Bayern official), PSG 2-2 Roma (TUDN),
+    Sporting 2-2 Man Utd (Dollar VFX fan) — all present.
+  - Other MD5 fixtures (Slavia-Villarreal, Shakhtar-Fenerbahce, etc.) had no
+    big team — correctly skipped.
+- Domestic leagues: last round Nov 20-22 already in array; next round Nov 28-29.
+- Europa League MD5 (incl. Juventus vs Omonia): tonight Nov 26, not yet played
+  at 10:53 Yangon.
+- No Juventus UCL highlight exists yet (Juventus play tonight).
+
+Official-upgrade checks (rule 8 — official replaces fan/broadcaster):
+- Arsenal official copy 1lG2hNS1msY ("VIKTOR GYOKERES SCORES A STUNNER |
+  HIGHLIGHTS | Arsenal vs Borussia Dortmund") — oEmbed returns HTTP 401
+  "Unauthorized" = embedding DISABLED (per 2026-10-23 rule: 401 = skip).
+  TUDN copy stays. NEW finding vs 07:08 run.
+- TNT Sports Football — BANNED, skipped despite oEmbed 200:
+  - mLVz4I-NKcA Club Brugge 0-3 Liverpool
+  - 6ii61Zqeb1k Inter 2-0 Stuttgart
+  - V-6DMup3D-8 Atletico 2-0 Viking
+  - jCPoBE0ZRgM Sporting 2-2 Man Utd
+  - QbGqhnDG-cY Man City 2-2 Napoli
+- beIN SPORTS (Asia/Indonesia/Thailand) — BANNED, skipped:
+  - JAqXzWm0cqk Sporting 2-2 Man Utd (beIN Indonesia)
+  - A5vPXhjwSjI PSG 2-2 Roma (beIN Thailand)
+  - PWZ5WZtdxKM Arsenal 1-1 Dortmund (beIN Asia)
+- CBS Sports Golazo — BANNED + reaction/analysis, skipped:
+  - drhloSGnTXg PSG 2-2 Roma, bMZQg5aNuPA Arsenal-Dortmund,
+    gGs3UBkOV0Q Man City-Napoli, gkNeLcYvx0s Sabah-Barcelona (reaction).
+- Fan copies (Footballia 3PHpPBfrNLk Liverpool, Dollar VFX 8MzM4bTUmjs
+  Sporting-Man Utd, لقـطة Tv oWBVUsBmV78) — lower tier than current copies,
+  skipped; no 2nd copy per match (rule 8).
+- Man City-Napoli: HwByLT-T5wE Stan Sport Football = broadcaster, same tier
+  as current DAZN — no upgrade. Man City official only on mancity.com.
+- No PSG, Barcelona, Atletico or Man Utd club-official YouTube highlight
+  found for the Nov 25 matches. Current copies stand.
+
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates. No trimming needed. No deploy.
