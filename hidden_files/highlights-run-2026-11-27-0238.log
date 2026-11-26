@@ -1,0 +1,54 @@
+KZZ highlights auto-update run — 2026-11-27 02:38 Yangon
+=========================================================
+Result: NO NEW VIDEOS ADDED BY THIS RUN. No changes made, no deploy (rule 9).
+
+State found on arrival:
+- app.js was modified 19:43:44 UTC (= 02:13 Yangon) — AFTER the 00:53 run log —
+  with two new Nov 26 Europa League entries already at the top, plus
+  index.html (app.js?v=598) and sw.js (kzz-v601) bumped. No run log exists
+  for 01:08–02:23, so the run that added them left no log. The state itself
+  was verified correct this run (see below), so no repair needed — but the
+  missing log is a bookkeeping gap worth noting.
+
+Verification of the two already-added videos (done this run, since the
+adding run left no evidence):
+- Olympiacos 2-4 AC Milan — p4CJFFHGeTo, Dollar VFX (fan). Real score
+  confirmed: Olympiacos 2-4 Milan FT (Sportradar, UEFA.com, AC Milan
+  official posts). oEmbed valid JSON, 200x113 (16:9), author Dollar VFX
+  (not banned). Thumbnail checked: both badges + correct 2-4 score +
+  "HIGHLIGHTS" + real Pulisic match photo. PASS. (Note: this Dollar VFX
+  video is NOT the removed tJPhiMgJyQo — different ID, correct score.)
+- Dinamo Zagreb 0-2 Bayer Leverkusen — -kGQBLCc2Mc, Sponitor (fan). Real
+  score confirmed: Dinamo 0-2 Leverkusen FT (Sportradar, infosport,
+  Bayer 04 official posts). oEmbed valid JSON, 200x113 (16:9), author
+  Sponitor (not banned). Thumbnail checked: both badges + correct 0-2
+  score + "EUROPA LEAGUE" + real match photo. PASS.
+- Neither ID is in highlights-do-not-readd.json. No official club copy
+  found yet for either match in search (AC Milan / Bayer 04 channels
+  have not posted YouTube highlights as of this run); fan copies stand,
+  future runs may replace per rule 8 if an official copy appears.
+
+Live verification: https://luuzoe.github.io/kzzfootballive/app.js returns
+200, 119,103 bytes (identical to local), both new IDs present. Live site
+matches local state. (raw.githubusercontent.com gh-pages path returned
+404 for this repo — Pages URL used instead.)
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete: all 10 big-team matches already in array (Nov 24:
+  Arsenal 1-1 Dortmund, Man City 2-2 Napoli, Real Madrid 5-1 PSV;
+  Nov 25: Sporting 2-2 Man Utd, Club Brugge 0-3 Liverpool, Inter 2-0
+  Stuttgart, Lille 2-1 Bayern, PSG 2-2 Roma, Atlético 2-0 Viking,
+  Sabah 1-4 Barcelona). No UCL matches Nov 26-27.
+- Europa League MD5: Dinamo-Leverkusen and Olympiacos-Milan finished
+  and already in array (see above). Juventus-Omonia kicked off 21:00
+  CET = 02:30 Yangon — IN PROGRESS at run time, no highlights yet.
+  Highlights become candidates in runs after ~04:30 Yangon Nov 27.
+  The fabricated Facebook "final scores" graphic (Olympiacos 1-2 Milan,
+  Dinamo 1-1 Leverkusen, Juventus 3-2 Omonia) is WRONG on the first two
+  (real: 2-4 and 0-2) — confirmed fabricated/preview, never used.
+- Domestic leagues: no big-team match played Nov 26. Next: Forest-
+  Chelsea Fri Nov 27 20:00 UTC (not played yet).
+
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly
+at cap. 40 unique IDs, no duplicates, no 2-per-match. No trimming needed.
+No deploy.
