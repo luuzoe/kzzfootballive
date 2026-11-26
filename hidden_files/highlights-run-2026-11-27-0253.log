@@ -1,0 +1,34 @@
+KZZ highlights auto-update run — 2026-11-27 02:53 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+State on arrival: array unchanged since the 02:38 run 15 min ago
+(40 videos: 28 match highlights + 12 Classics, at cap; local app.js
+modified 19:43 UTC Nov 26). Live check this run: Pages app.js 200,
+119,103 bytes, byte-identical to local; both Nov 26 IDs present
+(p4CJFFHGeTo Olympiacos-Milan, -kGQBLCc2Mc Dinamo-Leverkusen).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete in array (Nov 24: Arsenal-Dortmund, Man City-Napoli,
+  Real-PSV; Nov 25: Sporting-Man Utd, Brugge-Liverpool, Inter-Stuttgart,
+  Lille-Bayern, PSG-Roma, Atlético-Viking, Sabah-Barcelona). No UCL
+  matches Nov 26-27.
+- Europa League MD5: Dinamo-Leverkusen and Olympiacos-Milan already in
+  array (verified 02:38 run). Juventus-Omonia kicked off 20:00 UTC =
+  02:30 Yangon — STILL IN PROGRESS at run time (~23 min in), no
+  highlights can exist yet. Candidates in runs after ~04:30 Yangon.
+  YouTube search surfaced a "JUVENTUS VS OMONIA FULL PENALTY SHOOTOUT"
+  video (fXjogeJJJ2Y) — impossible for a league-phase match still in
+  progress; do NOT treat as a highlight candidate. Also surfaced a
+  "Juventus vs Omonia LIVE / Preview" video (bzkj28surIU) — preview,
+  not highlights; skip.
+- YEAR-TRAP avoided again: web search for "Chelsea 3-0 Barcelona
+  Nov 25" returns the 2025 match (china.org.cn 2025-11-26 URL,
+  bundesliga.com 2025-2026 matchday, IG "25 Nov 25"). Chelsea did NOT
+  play Barcelona on Nov 25, 2026. No video added from it.
+- Domestic leagues: no big-team match played Nov 26. Next: Forest-
+  Chelsea Fri Nov 27 20:00 UTC (not played yet).
+
+Array state: 40 videos total, no duplicates, no 2-per-match.
+No trimming needed. No deploy. Next check: Juventus-Omonia highlights
+expected after ~04:30 Yangon Nov 27.
