@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 110; // bump on every deploy
+const APP_VERSION = 111; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -920,7 +920,7 @@ async function renderHighlights() {
 { id: "o8CD_qvWL9k", title: "LAUTARO E SUČIĆ ABBATTONO LO STOCCARDA 🖤💙💥 | INTER 2-0 STOCCARDA | UEFA CHAMPIONS LEAGUE", channel: "Inter", date: "Nov 25, 2026" },
 { id: "C6FnS8TeaTg", title: "Tough night in Lille | OSC Lille vs. FC Bayern 2-1 | Champions League Highlights", channel: "FC Bayern München", date: "Nov 25, 2026" },
 { id: "XcL0_Qy91wc", title: "HIGHLIGHTS - PSG vs Roma | UEFA Champions League - Matchday 5 League Phase 2026-27 | TUDN", channel: "TUDN USA", date: "Nov 25, 2026" },
-{ id: "2CKeoHlky4o", title: "Atletico Madrid vs Viking FK 2-0 All Goals | Extended Highlights | UEFA Champions League 2026/27", channel: "Derby Football", date: "Nov 25, 2026" },
+{ id: "LzQt_LwaVSg", title: "HIGHLIGHTS - Atlético de Madrid vs Viking | UEFA Champions League - Matchday 5 2026-27 | TUDN", channel: "TUDN USA", date: "Nov 25, 2026" },
 { id: "x9kmnAEbrY4", title: "HIGHLIGHTS - Sabah vs Barcelona | UEFA Champions League - Matchday 5 2026-27", channel: "TUDN USA", date: "Nov 25, 2026" },
 { id: "jpwQWiTEngM", title: "HIGHLIGHTS - Arsenal vs Borussia Dortmund | UEFA Champions League - Matchday 5 League Phase 2026-27", channel: "TUDN USA", date: "Nov 24, 2026" },
 { id: "f6J5uTffqso", title: "HIGHLIGHTS | Real Madrid 5-1 PSV | Champions League", channel: "Real Madrid", date: "Nov 24, 2026" },
