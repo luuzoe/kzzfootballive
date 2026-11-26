@@ -1,0 +1,60 @@
+KZZ highlights auto-update run — 2026-11-26 12:53 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete, all 10 big-team matches already in array:
+  - Tue Nov 24: Arsenal 1-1 Dortmund (TUDN), Real Madrid 5-1 PSV (Real Madrid
+    official), Man City 2-2 Napoli (DAZN) — all present.
+  - Wed Nov 25: Sabah 1-4 Barcelona (TUDN), Atletico 2-0 Viking (TUDN),
+    Club Brugge 0-3 Liverpool (BBC Football), Inter 2-0 Stuttgart (Inter
+    official), Lille 2-1 Bayern (FC Bayern official), PSG 2-2 Roma (TUDN),
+    Sporting 2-2 Man Utd (Dollar VFX fan) — all present.
+- Domestic leagues: last round Nov 20-22 already in array; next round Nov 28-29.
+- Europa League MD5 (incl. Juventus vs Omonia): tonight Nov 26, not yet played
+  at 12:53 Yangon (kickoffs ~00:15/03:00 Yangon Nov 27).
+
+Official-upgrade checks (rule 8 — official replaces fan/broadcaster):
+- Sporting-Man Utd: qNluxR90b9I = fotbal Tefo fan (oEmbed 200, 16:9) — same
+  tier as held Dollar VFX, no swap; b-v0LSXa6vA = Nexus Football fan — same
+  tier, no swap. oWBVUsBmV78 / 8MzM4bTUmjs = do-not-readd partial clips;
+  jCPoBE0ZRgM TNT + JAqXzWm0cqk beIN = BANNED. Dollar VFX uDrYeEeptg4 stays.
+- PSG-Roma: 9PYUAqqkZGQ = Footballia fan (lower tier than TUDN, skipped);
+  c267m0z0g2I is a Short; A5vPXhjwSjI beIN Thailand (BANNED, do-not-readd);
+  drhloSGnTXg CBS Sports Golazo (BANNED). No PSG club-official copy.
+  TUDN XcL0_Qy91wc stays.
+- Sabah-Barcelona: M_FnxHObQDQ = Al Faris Production fan (oEmbed 200, 16:9)
+  — lower tier than TUDN, skipped; UqD84kOetHU La2taTv fan + GyflnN2Kijk
+  Football Pulse fan (lower tier); gcpvVDyKYfs The Daily Board game recap
+  (talk); gkNeLcYvx0s CBS panel (talk/reaction). PSQfkurHqvg (Footballia) +
+  Flj8fvLHEN8 (Dollar VFX) = do-not-readd. No FC Barcelona official copy.
+  TUDN x9kmnAEbrY4 stays.
+- Arsenal-Dortmund: PWZ5WZtdxKM beIN Asia + umnk7jRqprM beIN Indonesia =
+  BANNED; bMZQg5aNuPA CBS Golazo = BANNED; RSWwOhhA1Hc TNT = BANNED;
+  WoElO7LYS4Q = tod (same broadcaster tier as TUDN, no swap);
+  kUty5WPgQJM = Dollar VFX fan (lower tier). Arsenal.com highlights are
+  website-only, not YouTube. TUDN jpwQWiTEngM stays.
+- Man City-Napoli: yIusVukm_Go beIN Asia + c488zKXB1hw beIN Indonesia =
+  BANNED; gGs3UBkOV0Q CBS Golazo = BANNED; QbGqhnDG-cY TNT = BANNED;
+  A1vaWjg0EIs Dollar VFX fan + NIsncXJLmKM Premium Match fan (lower tier
+  than DAZN); DFm5tO_yd3g oEmbed FAIL (embedding disabled/unavailable).
+  Man City's 2-min highlights are on mancity.com, not YouTube. DAZN
+  2cevkeqlqac stays.
+- Club Brugge-Liverpool: iMQLBF927qw = Dollar VFX fan (oEmbed 200, 16:9) —
+  lower tier than BBC Football broadcaster, skipped; n_P7xCISWMU = beIN
+  SPORTS Asia (BANNED); 3PHpPBfrNLk Footballia fan + RFR_WVjyQFk /
+  Gxwm2zDzEh8 fan (lower tier); dAgOjUKgwEA press conference (talk);
+  h4JomY-sMBA full-time analysis (talk, do-not-readd). Liverpool FC's own
+  highlights are members-only on liverpoolfc.com, not on YouTube.
+  BBC Football fRgtPPL-PT8 stays.
+
+FABRICATED STORIES CAUGHT (added to highlights-do-not-readd.json, now 108 entries):
+- "Liverpool beat Chelsea in League Cup shoot-out" (a-sports.tv) — ESPN
+  shows ZERO League Cup fixtures Nov 24-26, 2026; Liverpool actually played
+  Club Brugge in UCL on Nov 25. No such League Cup tie.
+- "Arsenal 2-1 Chelsea — Odegaard sinks Chelsea" (bbclatestnews.pages.dev)
+  — no EPL fixture Nov 25, 2026 (ESPN: 0 events); fake-BBC mirror site,
+  same class as the bbcinsight.pages.dev fake "Olympiacos 3-4 Real Madrid".
+
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates. No trimming needed. No deploy.
