@@ -1,0 +1,36 @@
+KZZ highlights auto-update run — 2026-11-26 23:53 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete: all 10 big-team matches already in array (Nov 24:
+  Arsenal 1-1 Dortmund, Man City 2-2 Napoli, Real Madrid 5-1 PSV;
+  Nov 25: Sporting 2-2 Man Utd, Club Brugge 0-3 Liverpool, Inter 2-0
+  Stuttgart, Lille 2-1 Bayern, PSG 2-2 Roma, Atlético 2-0 Viking,
+  Sabah 1-4 Barcelona). No UCL matches Nov 26-27.
+- Europa League MD5 tonight Nov 26: kickoffs 17:45/20:00 GMT = 00:15/
+  02:30 Yangon Nov 27 — not started yet at 23:53 Yangon. Big-team
+  ties: Dinamo Zagreb-Leverkusen, Olympiacos-Milan, Juventus-Omonia.
+  Highlights become candidates in runs after ~04:00 Yangon Nov 27.
+- Domestic leagues: no big-team match played Nov 26; next round starts
+  Fri Nov 27 (Forest-Chelsea), then Nov 28-29.
+
+Official-upgrade checks this run (rule 8 — official replaces broadcaster):
+- Club Brugge-Liverpool: mLVz4I-NKcA ("Isak Fires Reds To Victory") is
+  TNT Sports Football — BANNED (rule 3). SKIP. BBC entry stays.
+- Sporting-Man Utd: P4hlVDF6YFE is Stretford Paddock talk/review —
+  REJECT (rule 5b-a). b-v0LSXa6vA is fan channel Nexus Football —
+  lower than SuperSport broadcaster already in array. SKIP.
+- PSG-Roma: A5vPXhjwSjI is beIN SPORTS Thailand — BANNED (rule 3).
+  SKIP. drhloSGnTXg is CBS Sports Golazo — BANNED. SKIP. TUDN stays.
+- Sabah-Barcelona: hWJ7Z9nQu4o is fan channel Sportalystics — lower
+  than TUDN broadcaster. SKIP. TUDN stays.
+- Arsenal-Dortmund: PWZ5WZtdxKM is beIN SPORTS Asia — BANNED. SKIP.
+  1lG2hNS1msY (Arsenal official) oEmbed = HTTP 401 "Unauthorized" =
+  embedding DISABLED (rule 5) — SKIP. TUDN stays.
+- Man City-Napoli: WaN91Izyewk (Man City official) oEmbed = HTTP 401
+  "Unauthorized" = embedding DISABLED (rule 5) — SKIP. DAZN stays.
+  QbGqhnDG-cY is TNT Sports — BANNED. SKIP.
+
+Array state: 40 videos total (28 match highlights + 12 Classics) —
+exactly at cap. No duplicates. No trimming needed. No deploy.
