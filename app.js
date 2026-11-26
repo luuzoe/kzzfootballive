@@ -924,7 +924,7 @@ async function renderHighlights() {
 { id: "C6FnS8TeaTg", title: "Tough night in Lille | OSC Lille vs. FC Bayern 2-1 | Champions League Highlights", channel: "FC Bayern München", date: "Nov 25, 2026" },
 { id: "wVxDDEYlgbY", title: "PSG 2-2 ROMA | UCL HIGHLIGHTS 2026-27", channel: "AS Roma", date: "Nov 25, 2026" },
 { id: "OjYsmNi633w", title: "Atlético de Madrid 2-0 Viking | ⚽ Sørloth & Julián Alvarez | HIGHLIGHTS, UCL - MD5", channel: "Atlético de Madrid", date: "Nov 25, 2026" },
-{ id: "x9kmnAEbrY4", title: "HIGHLIGHTS - Sabah vs Barcelona | UEFA Champions League - Matchday 5 2026-27", channel: "TUDN USA", date: "Nov 25, 2026" },
+{ id: "IquqrSQe1as", title: "HIGHLIGHTS | SABAH 1 vs 4 FC BARCELONA | UEFA Champions League", channel: "FC Barcelona", date: "Nov 25, 2026" },
 { id: "jpwQWiTEngM", title: "HIGHLIGHTS - Arsenal vs Borussia Dortmund | UEFA Champions League - Matchday 5 League Phase 2026-27", channel: "TUDN USA", date: "Nov 24, 2026" },
 { id: "f6J5uTffqso", title: "HIGHLIGHTS | Real Madrid 5-1 PSV | Champions League", channel: "Real Madrid", date: "Nov 24, 2026" },
 { id: "2cevkeqlqac", title: "Manchester City vs Napoli | UEFA Champions League Highlights | Matchday 5 | 2026-2027", channel: "DAZN Football", date: "Nov 24, 2026" },
