@@ -1,0 +1,34 @@
+KZZ highlights auto-update run — 2026-11-26 18:08 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete: all 10 big-team matches already in array (Nov 24:
+  Arsenal 1-1 Dortmund, Man City 2-2 Napoli, Real Madrid 5-1 PSV;
+  Nov 25: Sporting 2-2 Man Utd, Club Brugge 0-3 Liverpool, Inter 2-0
+  Stuttgart, Lille 2-1 Bayern, PSG 2-2 Roma, Atlético 2-0 Viking,
+  Sabah 1-4 Barcelona).
+- Domestic leagues: last round Nov 20-22 already in array; next round Nov 28-29.
+- Europa League MD5 tonight Nov 26 (Juventus-Omonia, Dinamo Zagreb-Leverkusen,
+  Olympiacos-Milan) — kickoffs ~00:15/02:30 Yangon Nov 27, NOT yet played at
+  18:08. Highlights become candidates in runs after ~04:00 Yangon Nov 27.
+- No other big-team match ended between the 17:23 run and this run.
+
+Official-upgrade spot checks this run (broadcaster-held matches):
+- Sporting-Man Utd (SuperSport d6VLI3sNGuM stays): two newly surfaced
+  "Champions League 26/27 Match Highlights" copies checked via oEmbed:
+  G0dKMYHwidE = beIN SPORTS Asia — BANNED (rule 3); JAqXzWm0cqk = beIN
+  SPORTS Indonesia — BANNED (rule 3). G0dKMYHwidE already logged in
+  05:23/05:53/07:08 runs today. Third copy 8MzM4bTUmjs = Dollar VFX fan —
+  lower tier than SuperSport, SKIP. CBS xt5O4dpgpUw banned. No Man Utd
+  official copy surfaced.
+- Atlético-Viking (TUDN LzQt_LwaVSg stays): no Atlético official copy;
+  DAZN ojvT53yMdxc same tier as TUDN. Fan partial Vk0MgDqW5II and TNT
+  banned V-6DMup3D-8 already logged. Atlético's own site only has a
+  Sørloth post-match interview, no highlights video.
+
+Do-not-readd: beIN copies G0dKMYHwidE / JAqXzWm0cqk (Sporting-Man Utd)
+confirmed banned via oEmbed author_name this run.
+
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates. No trimming needed. No deploy.
