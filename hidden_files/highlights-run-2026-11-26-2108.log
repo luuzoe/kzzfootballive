@@ -1,0 +1,51 @@
+KZZ highlights auto-update run — 2026-11-26 21:08 Yangon
+=========================================================
+Result: NO NEW VIDEOS. No changes made, no deploy (rule 9).
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete: all 10 big-team matches already in array (Nov 24:
+  Arsenal 1-1 Dortmund, Man City 2-2 Napoli, Real Madrid 5-1 PSV;
+  Nov 25: Sporting 2-2 Man Utd, Club Brugge 0-3 Liverpool, Inter 2-0
+  Stuttgart, Lille 2-1 Bayern, PSG 2-2 Roma, Atlético 2-0 Viking,
+  Sabah 1-4 Barcelona). No new matches finished since the 20:53 run.
+  Shakhtar 0-1 Fenerbahçe (Nov 25) has no big team — correctly skipped.
+- Europa League MD5 tonight Nov 26 (Juventus-Omonia, Dinamo Zagreb-
+  Leverkusen, Olympiacos-Milan, etc.) — kickoffs 17:45/20:00 GMT =
+  23:45 Yangon / 02:00 Yangon Nov 27, NOT yet played at 21:08
+  (14:38 UTC). Highlights become candidates in runs after ~04:00
+  Yangon Nov 27.
+- Domestic leagues: last round Nov 20-22 already in array; next round
+  starts Fri Nov 27 (Forest-Chelsea), then Nov 28-29.
+
+Official-upgrade spot checks this run:
+- Sporting-Man Utd (current: SuperSport broadcaster d6VLI3sNGuM):
+  no Man Utd / Sporting club-official YouTube copy surfaced.
+  oWBVUsBmV78 (La2taTv partial, do-not-readd), uDrYeEeptg4 (Dollar
+  VFX fan — lower tier), jCPoBE0ZRgM (TNT, banned), qNluxR90b9I
+  (unknown fan — lower tier), b-v0LSXa6vA (Nexus Football fan).
+  SuperSport stays.
+- Club Brugge-Liverpool (current: BBC Football fRgtPPL-PT8):
+  Liverpool FC highlights are paywalled on liverpoolfc.com (All Red
+  Video members only) — no YouTube club-official copy surfaced.
+  iMQLBF927qw / RFR_WVjyQFk (fans, lower tier), mLVz4I-NKcA (TNT,
+  banned), h4JomY-sMBA (full-time analysis = talk, reject 5b(a)).
+  BBC stays.
+- Sabah-Barcelona (current: TUDN USA x9kmnAEbrY4):
+  C7E25m516Qo = FC Barcelona official, oEmbed 200 16:9 — BUT title
+  "Un Dia De Partit" = Barça's matchday behind-the-scenes vlog, NOT
+  match highlights. Thumbnail verified: "UN DIA DE PARTIT" graphic +
+  player close-up, both badges but NO score. REJECT per 5b(a), same
+  class as Bayern montage b-CuMCD-eGs. Recorded in do-not-readd.
+  TUDN stays.
+- Atlético-Viking (current: TUDN USA LzQt_LwaVSg):
+  V-6DMup3D-8 "Sorloth & Alvarez On Target" — oEmbed author_name
+  'TNT Sports Football' = BANNED channel (rule 3), oEmbed 200/16:9
+  notwithstanding. Recorded in do-not-readd. TUDN stays.
+  Vk0MgDqW5II (fan, "Live Score (88')" = partial clip, lower tier),
+  azYP51aoUFI (Cytavision, same broadcaster tier — no swap).
+
+Do-not-readd file: 2 entries added this run (V-6DMup3D-8 TNT banned;
+C7E25m516Qo Barça matchday vlog, not highlights). 133 removed entries
+total, no duplicates.
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly at
+cap. No duplicates. No trimming needed. No deploy.
