@@ -915,6 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "tcGix1Tpi3Q", title: "Nottingham Forest vs Chelsea 3-2 | Extended Highlights & All Goals | Gibbs-White Brace", channel: "uncle kiko sports", date: "Nov 27, 2026" },
 { id: "y_HwwB9pTp0", title: "EKHATOR’S FIRST JUVE GOAL IN A 4-1 WIN! | Juventus-Omonia | Highlights Europa League", channel: "Juventus", date: "Nov 26, 2026" },
 { id: "FrdskaTfTa8", title: "Highlights | LA RIMONTA DI ATENE! | Olympiacos-Milan 2-4 | Europa League", channel: "AC Milan", date: "Nov 26, 2026" },
 { id: "b_Q8xEla1No", title: "Dinamo Zagreb - Bayer Leverkusen 0:2 | UEFA Europa League Highlights", channel: "Arena Sport TV", date: "Nov 26, 2026" },
@@ -942,7 +943,6 @@ async function renderHighlights() {
 { id: "A3CwxZcK5rQ", title: "Nmecha did it again! | Gladbach v BVB | Highlights", channel: "Borussia Dortmund", date: "Nov 21, 2026" },
 { id: "-f5rhR4zQiY", title: "Williams-Barnett makes history! | Tottenham 2-0 Ipswich | Premier League Highlights", channel: "Tottenham Hotspur", date: "Nov 21, 2026" },
 { id: "_C00--Q7qxU", title: "Chelsea 1-4 Leeds United | Premier League highlights | Leeds run riot at Stamford Bridge!", channel: "Leeds United Official", date: "Nov 21, 2026" },
-{ id: "bMB52YNFKv4", title: "Anderson volley rescues point for City 💥 | Man City 1-1 Fulham | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 21, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
