@@ -1,0 +1,11 @@
+Highlights auto-update run — Fri 2026-11-27 20:08 Yangon
+Checked: UCL MD5 Nov 24-25, UEL MD5 Nov 26, fixtures Nov 27.
+- Nov 26 UEL big-team matches all already in array: Juventus 4-1 Omonia (y_HwwB9pTp0), Olympiacos 2-4 Milan (FrdskaTfTa8), Dinamo 0-2 Leverkusen (b_Q8xEla1No).
+- Nov 25 UCL MD5 all covered (Sporting-Man Utd, Brugge-Liverpool, Inter-Stuttgart, Lille-Bayern, PSG-Roma, Atletico-Viking, Sabah-Barca).
+- Nov 24 UCL all covered (Arsenal-Dortmund, Real-PSV, Man City-Napoli).
+- YEAR-TRAP check: "Chelsea 3-0 Barcelona" surfaced in search is Nov 25, 2025 (LiveScore event 2025-11-25T20:00Z) — NOT a 2026 match. Not added. Real Nov 25 2026 results confirm no Chelsea-Barca fixture.
+- Upgrade check: Borussia Dortmund official Arsenal-Dortmund copy (xuYoxHfqlKA) and Man City official Man City-Napoli copy (WaN91Izyewk) both return oEmbed HTTP 401 = embedding disabled. SKIP per rule 5 / 2026-10-23 lesson. Existing TUDN (jpwQWiTEngM) and DAZN (2cevkeqlqac) copies re-verified oEmbed 200, 16:9 — kept.
+- Banned-channel candidates seen and skipped: Amazon Prime Video Sport (aYb9RomzoC8), tod/beIN (WoElO7LYS4Q), TNT Sports Football (QbGqhnDG-cY), beIN (yIusVukm_Go keywords).
+- Nov 27: only big-team match is Nott'm Forest vs Chelsea, 20:00 UK (02:30 Yangon Nov 28) — not yet played.
+RESULT: No new videos, no upgrades. No edit, no deploy (rule 9).
+Array state: 28 match highlights + 12 Classics = 40 total (at cap).
