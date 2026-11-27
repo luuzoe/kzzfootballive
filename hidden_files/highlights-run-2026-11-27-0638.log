@@ -1,0 +1,84 @@
+KZZ highlights auto-update run — 2026-11-27 06:38 Yangon
+=========================================================
+Result: NO NEW VIDEOS ADDED BY THIS RUN. No changes made to app.js, no deploy (rule 9).
+
+State found on arrival:
+- app.js was modified 23:55:59 UTC (= 06:25 Yangon) — AFTER the 02:53 run log —
+  with Juventus-Omonia added (Juventus official y_HwwB9pTp0, top of array),
+  Olympiacos-Milan and Dinamo-Leverkusen swapped fan -> Arena Sport TV
+  broadcaster copies (kwDj0eDWhdk, b_Q8xEla1No), plus index.html bumped to
+  app.js?v=602 and sw.js to kzz-v605. No run log exists for 02:53–06:38, but
+  the do-not-readd file carries entries stamped "06:23 run" (beIN copies,
+  TUDN Sabah-Barcelona displacement, etc.), so the 06:23 run did this work
+  and updated the do-not-readd bookkeeping — it only skipped the run log.
+  Same bookkeeping gap as the 01:23 / 03:23 runs flagged by the 02:38 run.
+  The state itself was verified correct this run (see below), so no repair
+  needed.
+
+Verification of the five changed entries (done this run, since the adding
+run left no log evidence):
+- Juventus 4-1 Omonia — y_HwwB9pTp0, Juventus official. oEmbed valid JSON,
+  200x113 (16:9), author Juventus (not banned). Real score confirmed
+  (Juventus 4-1 Omonia, Europa League MD5, Nov 26). PASS. Club-official
+  copy, correct at top of array.
+- Olympiacos 2-4 AC Milan — kwDj0eDWhdk, Arena Sport TV (broadcaster).
+  oEmbed valid JSON, 200x113, author Arena Sport TV (not banned). Title
+  confirms real 2-4 score, Nov 26, 2026. PASS. Legit upgrade over the
+  displaced Dollar VFX fan copy p4CJFFHGeTo (broadcaster outranks fan,
+  rule 8).
+- Dinamo Zagreb 0-2 Bayer Leverkusen — b_Q8xEla1No, Arena Sport TV.
+  oEmbed valid JSON, 200x113, author Arena Sport TV (not banned). Title
+  confirms real 0-2 score, Nov 26, 2026. PASS. Legit upgrade over the
+  displaced Sponitor fan copy -kGQBLCc2Mc.
+- Club Brugge 0-3 Liverpool — p2GSrlfy3X4, Liverpool FC official. oEmbed
+  valid JSON, 200x113, author Liverpool FC. PASS. Club-official upgrade
+  over the BBC broadcaster copy.
+- Sporting 2-2 Man Utd — C02Vp7ZJb4w, Manchester United official. oEmbed
+  valid JSON, 200x113, author Manchester United. PASS. Club-official
+  upgrade over the SuperSport broadcaster copy.
+- None of the five IDs is itself a removed entry in
+  highlights-do-not-readd.json (grep hits are reason text naming them as
+  the held copies).
+
+Live verification: https://luuzoe.github.io/kzzfootballive/app.js returns
+200, 119,024 bytes, BYTE-IDENTICAL to local (cmp clean); all five IDs
+present live. Live site matches local state. No deploy needed.
+
+Coverage checked (last 2-3 days):
+- UCL MD5 complete in array (Nov 24: Arsenal-Dortmund, Man City-Napoli,
+  Real-PSV; Nov 25: Sporting-Man Utd, Brugge-Liverpool, Inter-Stuttgart,
+  Lille-Bayern, PSG-Roma, Atlético-Viking, Sabah-Barcelona). No UCL
+  matches Nov 26-27.
+- Europa League MD5 complete in array (Nov 26: Juventus-Omonia,
+  Olympiacos-Milan, Dinamo-Leverkusen). No other Nov 26 Europa tie
+  involves a big-team side (Palace-Sociedad, Bournemouth-Celta,
+  Besiktas-Hapoel, Celtic-Roma, Fenerbahce-Ferencvaros, Porto-Nice —
+  none qualify under rule 1).
+- Domestic leagues: no big-team match played Nov 26-27. Next:
+  Forest-Chelsea Fri Nov 27 20:00 UTC (02:30 Yangon Nov 28) — not
+  played yet.
+
+Official-upgrade checks this run (rule 8 — official replaces broadcaster):
+- Arsenal-Dortmund: aYb9RomzoC8 is Amazon Prime Video Sport — BANNED
+  (rule 3). SKIP. RSWwOhhA1Hc is TNT Sports Football — BANNED. SKIP.
+  TUDN copy stays (Arsenal official 1lG2hNS1msY embedding-disabled 401
+  per 23:53 run).
+- Olympiacos-Milan: WYxJGi29MKQ is beIN SPORTS Thailand — BANNED. SKIP
+  (added to do-not-readd this run, now 150 entries). oCcHoTDCdhc is DAZN
+  Football — broadcaster, SAME tier as Arena Sport TV held copy; rule 8
+  allows replacement only by a HIGHER tier. SKIP (already in
+  do-not-readd). 4C9_7xRGaqg is Sponitor fan — lower tier. SKIP.
+- Dinamo-Leverkusen: KLZl3EXe8F4 is Cric7 Cool fan — lower tier than
+  Arena Sport TV held copy. SKIP (already in do-not-readd).
+- No AC Milan or Bayer 04 club-official YouTube highlights found for
+  either Nov 26 Europa tie; broadcaster copies stand, future runs may
+  replace per rule 8 if an official copy appears.
+
+Bookkeeping done this run:
+- Added WYxJGi29MKQ (beIN SPORTS Thailand, Olympiacos-Milan) to
+  highlights-do-not-readd.json (150 entries now, JSON validated).
+- This log file written (runs 01:23–06:23 left none).
+
+Array state: 40 videos total (28 match highlights + 12 Classics) — exactly
+at cap. 40 unique IDs, no duplicates, no 2-per-match (verified by script).
+No trimming needed. No deploy.
