@@ -916,7 +916,7 @@ async function renderHighlights() {
   html += `<div class="highlights-grid">`;
   const videos = [
 { id: "y_HwwB9pTp0", title: "EKHATOR’S FIRST JUVE GOAL IN A 4-1 WIN! | Juventus-Omonia | Highlights Europa League", channel: "Juventus", date: "Nov 26, 2026" },
-{ id: "kwDj0eDWhdk", title: "Olympiacos - AC Milan 2:4 | UEFA Europa League Highlights", channel: "Arena Sport TV", date: "Nov 26, 2026" },
+{ id: "FrdskaTfTa8", title: "Highlights | LA RIMONTA DI ATENE! | Olympiacos-Milan 2-4 | Europa League", channel: "AC Milan", date: "Nov 26, 2026" },
 { id: "b_Q8xEla1No", title: "Dinamo Zagreb - Bayer Leverkusen 0:2 | UEFA Europa League Highlights", channel: "Arena Sport TV", date: "Nov 26, 2026" },
 { id: "C02Vp7ZJb4w", title: "Sporting 2-2 Man Utd | Highlights | UEFA Champions League", channel: "Manchester United", date: "Nov 25, 2026" },
 { id: "p2GSrlfy3X4", title: "Highlights: Club Brugge 0-3 Liverpool | Isak & Wirtz Goals In Champions League Win!", channel: "Liverpool FC", date: "Nov 25, 2026" },
