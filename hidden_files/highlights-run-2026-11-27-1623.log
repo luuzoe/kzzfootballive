@@ -1,0 +1,9 @@
+KZZ Highlights auto-update — Fri 2026-11-27 16:23 Yangon
+Checked: Nov 26 UEL MD5 upgrade re-check (Olympiacos-Milan, Dinamo-Leverkusen) + Nov 27 fixture scan.
+Big-team matches since last run (15:23): none played Nov 27 (Friday; all evening KOs still Scheduled — Forest-Chelsea 20:00 UTC = Nov 28 02:30 Yangon, Werder-Gladbach, Venezia-Bologna, Levante-Racing Santander, Brest-Paris FC — none finished). Weekend PL starts Nov 28. Nov 26 Europa League MD5 already fully covered (Juventus-Omonia, Olympiacos-Milan, Dinamo-Leverkusen all in array).
+Array status (40 total: 28 match + 12 Classic, at cap) — unchanged.
+Replacement check this run:
+- Olympiacos-Milan (held: kwDj0eDWhdk, Arena Sport TV broadcaster): new find DDviJ3u5N9k = beIN SPORTS Indonesia — oEmbed 200 / 16:9 BUT channel BANNED per rule 3, skip (already in do-not-readd list). AC Milan official still only Shorts (Y_MNz5vJtks). TUDN TnntKIfsSmk same broadcaster tier, no swap. DAZN oCcHoTDCdhc same tier, no swap. Fans 5XdkHMYo98k / 4C9_7xRGaqg / sQzap_CZa9s lower tier, no swap.
+- Dinamo-Leverkusen (held: b_Q8xEla1No, Arena Sport TV broadcaster): new find bwSUNIVsbaQ (via Goaloo embed) = beIN SPORTS Asia — oEmbed 200 / 16:9 BUT channel BANNED per rule 3, skip; ADDED to highlights-do-not-readd.json (162 entries). Fan copies KLZl3EXe8F4 / nHlThIf0nrQ lower tier, no swap. No Bayer 04 club-official copy. No swap.
+- Juventus-Omonia held copy is Juventus club-official (tier 1) — best possible.
+Result: NO new videos. No edit, no deploy (rule 9 — stay silent).
