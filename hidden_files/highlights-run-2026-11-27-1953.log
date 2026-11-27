@@ -1,0 +1,8 @@
+KZZ Highlights auto-update — Fri 2026-11-27 19:53 Yangon
+Checked: YouTube searches + fixture lists for Nov 26/27; analyses.json cross-check.
+Big-team matches finished since last run (18:38): none. Nov 26 UEL MD5 already fully covered (Juventus-Omonia, Olympiacos-Milan, Dinamo-Leverkusen all in array). Nov 27: no completed matches — all evening KOs still scheduled; only big-team fixture is Nottingham Forest vs Chelsea, KO 20:00 UK / 02:30 Yangon Nov 28.
+Upgrade check (Dinamo-Leverkusen, held: b_Q8xEla1No, Arena Sport TV broadcaster):
+- Search surfaced only the same two fan copies (KLZl3EXe8F4 Cric7 Cool, nHlThIf0nrQ UPires Futebol) — below held broadcaster, no swap. goalsarea lists a CBS Sports Golazo copy — BANNED per rule 3, skip. No Bayer 04 Leverkusen official copy surfaced. Held copy stays.
+Year-trap check: "Chelsea 3-0 Barcelona" search hits are 2025 content (Xinhua URL 20251126; chelseafc report says "Sunday 30 November" = 2025). No Chelsea-Barcelona match in 2026 UCL MD5 — correctly absent from array. analyses.json confirms the 13 real Nov 24-26 big-team matches, all already in array.
+Array status (40 total: 28 match + 12 Classic, at cap) — unchanged.
+Result: NO new videos. No edit, no deploy (rule 9 — stay silent).
