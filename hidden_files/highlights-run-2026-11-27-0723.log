@@ -1,0 +1,45 @@
+KZZ highlights auto-update run — 2026-11-27 07:23 Yangon
+=========================================================
+Result: NO NEW VIDEOS ADDED BY THIS RUN. No changes made to app.js, no deploy (rule 9).
+
+State found on arrival:
+- app.js unchanged since the 06:38 run (modified 23:55:59 UTC Nov 26).
+  40 videos total (28 match highlights + 12 Classics, at cap), 40 unique
+  IDs, no duplicates, no 2-per-match (verified by script this run).
+- Live check this run: https://luuzoe.github.io/kzzfootballive/app.js
+  returns 200, 119,024 bytes, BYTE-IDENTICAL to local (cmp clean).
+  Top 3 live: y_HwwB9pTp0 (Juventus-Omonia), kwDj0eDWhdk
+  (Olympiacos-Milan), b_Q8xEla1No (Dinamo-Leverkusen).
+
+Coverage checked (last 2-3 days):
+- ESPN scoreboards: 0 UEL events and 0 UCL events on Nov 27 — no
+  European matches played Nov 27. UEL MD5 (Nov 26) complete in array
+  (Juventus-Omonia, Olympiacos-Milan, Dinamo-Leverkusen); no other
+  Nov 26 Europa tie involves a big-team side.
+- Domestic leagues: no big-team match played Nov 26-27. Next:
+  Forest-Chelsea Fri Nov 27 20:00 UTC (02:30 Yangon Nov 28) — not
+  played yet.
+
+Official-upgrade checks this run (rule 8):
+- Olympiacos-Milan: PTbXeOcptnw ("Olympiakos 2-4 AC Milan | Europa
+  League 26/27 Match Highlights") — oEmbed valid JSON, 200x113, but
+  author_name = beIN SPORTS Asia — BANNED channel (rule 3). SKIP.
+  Already recorded in highlights-do-not-readd.json (152 entries; the
+  file also holds 3 string-form trap notes — no change made this run).
+  Other surfaced copies all already rejected: WYxJGi29MKQ (beIN
+  Thailand, banned), oCcHoTDCdhc (DAZN, same broadcaster tier as held
+  Arena Sport TV copy — no upgrade), 4C9_7xRGaqg (Sponitor fan, lower
+  tier), dMcGBJK7Wog (TUDN single-goal clip, not full highlights),
+  -IOz95L3qdo (reaction video, rule 5b), 4tkM7LxllWQ (Italian talk/
+  reaction), Q9pi-KfobHU (Shorts). No AC Milan club-official full
+  highlights found; Arena Sport TV copy stands.
+- Dinamo-Leverkusen: KLZl3EXe8F4 (Cric7 Cool fan) — lower tier than
+  held Arena Sport TV copy. SKIP (already in do-not-readd). No Bayer 04
+  club-official copy found; broadcaster copy stands.
+
+Bookkeeping done this run:
+- No do-not-readd change (PTbXeOcptnw already listed).
+- This log file written.
+
+Array state: 40 videos total, at cap. No trimming needed. No deploy.
+Next check: Forest-Chelsea highlights expected after ~04:30 Yangon Nov 28.
