@@ -1,0 +1,9 @@
+KZZ Highlights auto-update — Fri 2026-11-27 13:53 Yangon
+Checked: Nov 24 UCL official-upgrade re-check (Arsenal-Dortmund, Man City-Napoli) + Nov 26-27 fixture scan.
+Big-team matches since last run (13:08): none played Nov 27 (Friday; Forest-Chelsea KO Nov 27 20:00 UTC = Nov 28 02:30 Yangon, not played yet). Weekend PL starts Nov 28. Nov 26 Europa League MD5 already fully covered by earlier runs.
+Array status (40 total: 28 match + 12 Classic, at cap) — unchanged.
+Replacement check this run:
+- Arsenal 1-1 Dortmund (held: jpwQWiTEngM, TUDN USA broadcaster): no Arsenal/BVB club-official YouTube copy surfaced (Arsenal.com highlights are website-only). Candidates checked via oEmbed: kUty5WPgQJM + XgzIKxfL2G4 (Dollar VFX fan, 200/16:9, lower tier — no swap); fAKa_Z1h38g (Sportalystics fan — no swap); PWZ5WZtdxKM (beIN SPORTS Asia, BANNED); aYb9RomzoC8 (Amazon Prime Video Sport, BANNED); RSWwOhhA1Hc (TNT Sports, BANNED); bMZQg5aNuPA (CBS Sports Golazo, BANNED); AcGCSyPi59k + 66SA5FY_OnE (oEmbed Forbidden — embedding disabled, skip). No swap.
+- Man City 2-2 Napoli (held: 2cevkeqlqac, DAZN Football broadcaster): no Man City/Napoli club-official YouTube copy (mancity.com 2-min highlights are website-only). Candidates: A1vaWjg0EIs (Dollar VFX fan, 200/16:9 — no swap); NIsncXJLmKM (Premium Match fan — no swap); yIusVukm_Go (beIN SPORTS Asia, BANNED); gGs3UBkOV0Q (CBS Sports Golazo, BANNED); QbGqhnDG-cY (TNT Sports, BANNED); DFm5tO_yd3g (oEmbed Not Found — skip). No swap.
+Do-not-readd notes appended (12 new entries) in goal hidden_files/highlights-do-not-readd.json.
+Result: NO new videos. No edit, no deploy (rule 9 — stay silent).
