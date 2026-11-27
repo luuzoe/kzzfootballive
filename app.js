@@ -35,7 +35,7 @@ function leaguesOfText(txt) {
   return found;
 }
 
-const APP_VERSION = 113; // bump on every deploy
+const APP_VERSION = 114; // bump on every deploy
 
 const TABS = {
   live:        '🔴 တိုက်ရိုက်',
@@ -915,7 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "tcGix1Tpi3Q", title: "Nottingham Forest vs Chelsea 3-2 | Extended Highlights & All Goals | Gibbs-White Brace", channel: "uncle kiko sports", date: "Nov 27, 2026" },
+{ id: "0zVNtAQDcAY", title: "Gibbs-White at the double in big Forest win 🔴 | N. Forest 3-2 Chelsea | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 27, 2026" },
 { id: "y_HwwB9pTp0", title: "EKHATOR’S FIRST JUVE GOAL IN A 4-1 WIN! | Juventus-Omonia | Highlights Europa League", channel: "Juventus", date: "Nov 26, 2026" },
 { id: "FrdskaTfTa8", title: "Highlights | LA RIMONTA DI ATENE! | Olympiacos-Milan 2-4 | Europa League", channel: "AC Milan", date: "Nov 26, 2026" },
 { id: "b_Q8xEla1No", title: "Dinamo Zagreb - Bayer Leverkusen 0:2 | UEFA Europa League Highlights", channel: "Arena Sport TV", date: "Nov 26, 2026" },
