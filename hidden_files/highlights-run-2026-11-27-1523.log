@@ -1,0 +1,11 @@
+KZZ Highlights auto-update — Fri 2026-11-27 15:23 Yangon
+Checked: Nov 26 UEL MD5 fixture audit (ESPN scoreboard) + Nov 27 fixture scan + upgrade re-check for Olympiacos-Milan / Dinamo-Leverkusen.
+- ESPN UEL Nov 26: 18 FT matches. Only big-team matches: Juventus 4-1 Omonia ✓, Olympiacos 2-4 AC Milan ✓, Dinamo Zagreb 0-2 Bayer Leverkusen ✓ — all already in array.
+- FAKE-CLIP ALERT (do NOT add): "Football Today" FB/IG posts claim Ajax 3-0 Tottenham on Nov 26. DEBUNKED: ESPN UEL Nov 26 scoreboard has no Ajax-Spurs; Sportradar shows Ajax beat FC Thun 4-0 in the UEFA Conference League on Nov 26, 2026. Same class as fake "Olympiacos 3-4 Real Madrid" / "Arsenal 7-2 Chelsea". No such fixture — do not add any Ajax-Tottenham highlight.
+- Nov 27 (Fri): all evening KOs still Scheduled (Forest-Chelsea, Levante-Racing Santander, Venezia-Bologna, Werder-Gladbach, Brest-Paris FC) — none finished. No UCL Nov 26/27 (all MD5 done Nov 24-25, covered).
+- Upgrade re-check:
+  - Olympiacos-Milan (held: kwDj0eDWhdk, Arena Sport TV broadcaster): new find TnntKIfsSmk = TUDN USA full highlights — same broadcaster tier, and goalsarea lists it "(PR, US)" only, i.e. likely geo-blocked in Myanmar. No swap per rule 8. AC Milan official still only Shorts (Y_MNz5vJtks). DAZN oCcHoTDCdhc same tier, no swap. beIN WYxJGi29MKQ BANNED, fans sQzap_CZa9s / 4C9_7xRGaqg lower tier.
+  - Dinamo-Leverkusen (held: b_Q8xEla1No, Arena Sport TV broadcaster): only fan copies KLZl3EXe8F4 / nHlThIf0nrQ (already evaluated 15:08) + CBS Golazo (BANNED per rule 3). No Bayer 04 official copy. No swap.
+  - Juventus-Omonia held copy is Juventus club-official (tier 1) — best possible.
+Array status (40 total: 28 match + 12 Classic, at cap) — unchanged.
+Result: NO new videos. No edit, no deploy (rule 9 — stay silent).
