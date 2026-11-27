@@ -1,0 +1,18 @@
+KZZ Highlights auto-update — Fri 2026-11-27 11:08 Yangon
+Checked: Nov 26 Europa League MD5 (already fully covered) + official-upgrade re-check.
+Big-team matches Nov 26: Juventus 4-1 Omonia, Olympiacos 2-4 AC Milan, Dinamo Zagreb 0-2 Bayer Leverkusen.
+Array status (40 total: 28 match + 12 Classic, at cap):
+- Juventus-Omonia: y_HwwB9pTp0 (Juventus official) — already in array.
+- Olympiacos-Milan: kwDj0eDWhdk (Arena Sport TV, broadcaster) — already in array, oEmbed 200 / 16:9 re-verified.
+- Dinamo-Leverkusen: b_Q8xEla1No (Arena Sport TV, broadcaster) — already in array, oEmbed 200 / 16:9 re-verified.
+Replacement check this run:
+- Olympiacos-Milan: no AC Milan club-official full highlights exist (only Shorts Y_MNz5vJtks, F9JpX2sNz8s).
+  TnntKIfsSmk (TUDN USA) is broadcaster tier — same tier as held Arena Sport TV copy, no swap per rule 8.
+  sQzap_CZa9s (CHEFON FF fan) and 4C9_7xRGaqg (Sponitor fan) are lower tier — no swap.
+  WYxJGi29MKQ (beIN SPORTS Thailand, banned) and r3z6PF72qeA (CBS Sports Golazo, banned) — both
+  already in do-not-readd.json. -IOz95L3qdo / 4tkM7LxllWQ are reaction/talk (rule 5b). No swap.
+- Dinamo-Leverkusen: only surfaced copy KLZl3EXe8F4 (Cric7 Cool fan, lower tier) — no swap.
+  No Bayer 04 club-official copy found. No swap.
+Other Nov 26-27 results: no big-team match played Nov 27 (Friday; Forest-Chelsea KO Nov 27 20:00 UTC
+= Nov 28 02:30 Yangon, not played yet). Weekend PL starts Nov 28.
+Result: NO new videos. No edit, no deploy (rule 9 — stay silent).
