@@ -582,71 +582,71 @@
     "rank": 1,
     "player": "Bryan Linssen",
     "team": "နိုင်မီဂန်",
-    "goals": 4,
+    "goals": 5,
     "pid": "122954"
    },
    {
     "rank": 2,
+    "player": "Alphadjo Cissè",
+    "team": "အေစီမီလန်",
+    "goals": 4,
+    "pid": "359754"
+   },
+   {
+    "rank": 3,
+    "player": "Camilo Durán",
+    "team": "ဆဲလ်တစ်",
+    "goals": 4,
+    "pid": "367591"
+   },
+   {
+    "rank": 4,
+    "player": "Oumar Diakité",
+    "team": "စတုန်းဂရက်ဇ်",
+    "goals": 4,
+    "pid": "329483"
+   },
+   {
+    "rank": 5,
+    "player": "Rayan",
+    "team": "ဘုန်းမောက်",
+    "goals": 4,
+    "pid": "357719"
+   },
+   {
+    "rank": 6,
     "player": "Dion Drena Beljo",
     "team": "ဒီနာမိုဇာဂရက်",
     "goals": 4,
     "pid": "306647"
    },
    {
-    "rank": 3,
-    "player": "Sergio Gómez",
-    "team": "ရီးရဲလ်ဆိုစီဒက်",
-    "goals": 3,
-    "pid": "265993"
-   },
-   {
-    "rank": 4,
+    "rank": 7,
     "player": "Kristoffer Zachariassen",
     "team": "ဖီရန်စဗာရို့စ်",
     "goals": 3,
     "pid": "253991"
    },
    {
-    "rank": 5,
-    "player": "Nick Woltemade",
-    "team": "ဂျူဗင်တပ်စ်",
+    "rank": 8,
+    "player": "Tjaronn Chery",
+    "team": "နိုင်မီဂန်",
     "goals": 3,
-    "pid": "298349"
+    "pid": "116893"
    },
    {
-    "rank": 6,
+    "rank": 9,
     "player": "Yéremy Pino",
     "team": "ခရစ္စတယ်ပဲလေ့စ်",
     "goals": 3,
     "pid": "297370"
    },
    {
-    "rank": 7,
-    "player": "Camilo Durán",
-    "team": "ဆဲလ်တစ်",
-    "goals": 3,
-    "pid": "367591"
-   },
-   {
-    "rank": 8,
-    "player": "Alphadjo Cissè",
-    "team": "အေစီမီလန်",
-    "goals": 3,
-    "pid": "359754"
-   },
-   {
-    "rank": 9,
-    "player": "Mexx Meerdink",
-    "team": "အဲဇက်အယ်လ်ခ်မား",
-    "goals": 3,
-    "pid": "332465"
-   },
-   {
     "rank": 10,
-    "player": "Randal Kolo Muani",
-    "team": "ဂျူဗင်တပ်စ်",
+    "player": "Clement Bischoff",
+    "team": "နိုင်မီဂန်",
     "goals": 3,
-    "pid": "252971"
+    "pid": "372851"
    }
   ]
  },
@@ -1230,73 +1230,73 @@
   "uefa.europa": [
    {
     "rank": 1,
+    "player": "Louis Patris",
+    "team": "ယူနီယံစိန့်ဂီလွိုင်",
+    "assists": 3,
+    "pid": "306031"
+   },
+   {
+    "rank": 2,
     "player": "Javier Vazquez",
     "team": "တိုရေးရင်ဆီ",
     "assists": 3,
     "pid": "266780"
    },
    {
-    "rank": 2,
+    "rank": 3,
     "player": "Kristoffer Zachariassen",
     "team": "ဖီရန်စဗာရို့စ်",
     "assists": 3,
     "pid": "253991"
    },
    {
-    "rank": 3,
+    "rank": 4,
     "player": "Mikel Oyarzabal",
     "team": "ရီးရဲလ်ဆိုစီဒက်",
     "assists": 3,
     "pid": "229018"
    },
    {
-    "rank": 4,
+    "rank": 5,
+    "player": "Omari Hutchinson",
+    "team": "အေစီမီလန်",
+    "assists": 3,
+    "pid": "322771"
+   },
+   {
+    "rank": 6,
+    "player": "Tim Lemperle",
+    "team": "ဟော့ဖန်ဟိမ်း",
+    "assists": 3,
+    "pid": "303792"
+   },
+   {
+    "rank": 7,
+    "player": "Andrej Kramaric",
+    "team": "ဟော့ဖန်ဟိမ်း",
+    "assists": 3,
+    "pid": "139520"
+   },
+   {
+    "rank": 8,
     "player": "Junior Olaitan",
     "team": "ဘီရှစ်တပ်စ်",
     "assists": 3,
     "pid": "319985"
    },
    {
-    "rank": 5,
+    "rank": 9,
     "player": "Nicolaos Athanasiou",
     "team": "အိုအက်ဖ်အိုင်ခရီးတ်",
     "assists": 2,
     "pid": "312967"
    },
    {
-    "rank": 6,
-    "player": "Adam Wharton",
-    "team": "ခရစ္စတယ်ပဲလေ့စ်",
-    "assists": 2,
-    "pid": "333419"
-   },
-   {
-    "rank": 7,
-    "player": "Nick Woltemade",
-    "team": "ဂျူဗင်တပ်စ်",
-    "assists": 2,
-    "pid": "298349"
-   },
-   {
-    "rank": 8,
+    "rank": 10,
     "player": "Keito Nakamura",
     "team": "လိုင်ယွန်",
     "assists": 2,
     "pid": "265953"
-   },
-   {
-    "rank": 9,
-    "player": "Andrej Kramaric",
-    "team": "ဟော့ဖန်ဟိမ်း",
-    "assists": 2,
-    "pid": "139520"
-   },
-   {
-    "rank": 10,
-    "player": "Tim Lemperle",
-    "team": "ဟော့ဖန်ဟိမ်း",
-    "assists": 2,
-    "pid": "303792"
    }
   ]
  }
