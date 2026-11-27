@@ -1,0 +1,11 @@
+KZZ Highlights auto-update — Fri 2026-11-27 18:08 Yangon
+Checked: YouTube searches + fixture lists for Nov 26/27; oEmbed checks on Dinamo-Leverkusen candidates.
+Big-team matches finished since last run (17:53): none. Nov 26 UEL MD5 already fully covered (Juventus-Omonia, Olympiacos-Milan, Dinamo-Leverkusen all in array). Nov 27: no completed matches — Friday evening KOs still scheduled (Nottingham Forest vs Chelsea 20:00 UK / 02:30 Yangon Nov 28; Bremen-Gladbach, Venezia-Bologna, Brest-Paris FC, Levante-Santander). Weekend PL starts Nov 28.
+Upgrade check (Dinamo-Leverkusen, held: b_Q8xEla1No, Arena Sport TV broadcaster):
+- nHlThIf0nrQ = UPires Futebol (fan) — below held broadcaster, no swap.
+- KLZl3EXe8F4 = Cric7 Cool (fan) — below held broadcaster, no swap.
+- bwSUNIVsbaQ = beIN SPORTS Asia — BANNED per rule 3, skip.
+- Held b_Q8xEla1No re-verified: oEmbed 200, 16:9 (200x113), Arena Sport TV. Stays.
+Fabricated items: bbcinsight.pages.dev "Tottenham 0-1 Chelsea" is the known fake BBC-mirror class — ignored. No new fake "Arsenal vs Chelsea 7-2" sighting this run.
+Array status (40 total: 28 match + 12 Classic, at cap) — unchanged.
+Result: NO new videos. No edit, no deploy (rule 9 — stay silent).
