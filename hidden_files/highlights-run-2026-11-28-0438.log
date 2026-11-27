@@ -1,0 +1,11 @@
+Highlights auto-update run — Sat 2026-11-28 04:38 Yangon
+Checked: UCL MD5 Nov 24-25 (all in array), UEL MD5 Nov 26 (trio in array), Nov 27 fixtures.
+- Nott'm Forest 3-2 Chelsea (Fri Nov 27, 20:00 UK): Jesus 5', Gibbs-White 51' pen + 72', Emegha 54' + 89'. FT confirmed via Sky/BBC.
+- New video found: tcGix1Tpi3Q "Nottingham Forest vs Chelsea 3-2 | Extended Highlights & All Goals | Gibbs-White Brace", channel "uncle kiko sports" (fan, tier 3). oEmbed 200, 16:9 (200x113), channel NOT banned. Thumbnail checked: real match footage, both badges + 3-2 score + HIGHLIGHTS graphic — passes 5b(c). No Chelsea FC official or Sky Sports copy had surfaced yet at 04:45 Yangon; next runs should REPLACE with official when it appears (rule 8).
+- Rejected/not added: 7BSh2REApNw eFootball PES 21 gameplay (5b); ccc-vD6a_XM "Alonso SACKED!" talk-style title (5b(a)); old 2023/24 Forest-Chelsea videos (year-trap check).
+- Other Nov 27 fixtures (Werder-Gladbach 3-3, Venezia-Bologna, Brest-Paris FC, Levante-Racing) involve no big team — skipped.
+- Edit: added tcGix1Tpi3Q at top of array (date Nov 27, 2026); dropped oldest non-Classic bMB52YNFKv4 (Man City 1-1 Fulham, Nov 21) to stay at cap 40. 12 Classics untouched. node --check OK.
+- Versions bumped: app.js?v=604, styles.css?v=582, sw.js cache kzz-v607.
+- Deploy: commit 515333c "Update highlights to latest videos". Live verified: remote HEAD main = 515333c; live app.js?v=604 contains tcGix1Tpi3Q, bMB52YNFKv4 gone; live index.html refs v=604/v=582. (Note: raw.githubusercontent.com/gh-pages 404s — this repo deploys from branch main, not gh-pages; live site check is authoritative.)
+RESULT: 1 new highlight added + deployed + live-verified.
+Array state: 28 match highlights + 12 Classics = 40 total (at cap).
