@@ -1,0 +1,11 @@
+KZZ Highlights run 2026-11-28 23:23 Yangon
+- Array read: 40 entries (28 match + 12 Classic); top entry Forest 3-2 Chelsea Nov 27 (500ohy7vj38).
+- Fixtures finished since 22:38 run: HSV 0-0 Bayern (FT ~22:55), Man Utd 0-4 Brentford (FT ~23:15, verified via Sportradar + Man Utd official Instagram: Wilson x2, Ajer, Schade). No other big-team match finished (Elche-Atletico 00:00, Inter-Genoa 01:15, PSG-Lorient 01:15, Real Madrid-Alaves 02:30 all still to come; Torino-Lazio KO 23:30).
+- NEW videos added (2):
+  1. Q9wfXhYJf8w — "Manchester United vs Brentford 0-4 Highlights | Callum Wilson Goals | Premier League 2026", fan channel لقـطة Tv (tier 3; no club/broadcaster copy posted yet — Sky/Man Utd copies not out at check time). oEmbed valid 200x113; thumbnail checked: both badges, correct 0-4, real match footage, no reaction face/text. NOTE: لقـطة Tv fan copy used before (Nov 24-25) and later replaced by broadcaster — next runs should swap in a Sky/Man Utd official copy when one appears (rule 8).
+  2. Lsggpr_RNCU — "Massive Draw At Home! | HAMBURGER SV - FC BAYERN | Highlights | Matchday 11 – Bundesliga 2026/27", Bundesliga official (tier 2). oEmbed valid 200x113, author "Bundesliga".
+- Skipped: NBC goal clips (BANNED, rule 3); Dollar VFX Man Utd copy (thumbnail has small reaction-face inset + past wrong-score history); Footballia 3-0 copy (wrong score); PRS SOUL eFootball PES gameplay (rule 5b); live/watch-along/preview videos.
+- Cap: array was at 40; dropped 2 oldest non-Classic match entries to stay at 40: -f5rhR4zQiY (Tottenham 2-0 Ipswich, Nov 21) and _C00--Q7qxU (Chelsea 1-4 Leeds, Nov 21). 12 Classics untouched. No dupes; node eval count 40.
+- Deploy: app.js?v=608, styles.css?v=586, sw.js kzz-v611; commit 67819c8 (8 files changed).
+- Live verification: remote HEAD (main) = 67819c8; live site app.js contains both new IDs at top, 40 entries, dropped IDs absent; index.html v608/v586, sw.js kzz-v611. (Note: raw.githubusercontent.com gh-pages branch 404s — site deploys to main, not gh-pages; verify via luuzoe.github.io instead.)
+- Next run: watch for Sky/Man Utd official Man Utd-Brentford copy to replace the fan copy; tonight's late matches (Elche-Atletico, Inter-Genoa, PSG-Lorient, Real Madrid-Alaves) finish after midnight.
