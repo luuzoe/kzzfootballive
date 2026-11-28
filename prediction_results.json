@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T03:11:41+06:30",
+ "updated": "2026-11-28T09:02:47+06:30",
  "summary": {
   "resolved": 256,
   "correct": 144,
@@ -2444,6 +2444,15 @@
    "away": "Lens",
    "league": "Ligue 1",
    "pick_en": "Lens win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Torino",
+   "away": "Lazio",
+   "league": "Serie A",
+   "pick_en": "Lazio win",
    "score": null,
    "outcome": "pending"
   }
