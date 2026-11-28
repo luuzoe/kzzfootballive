@@ -464,38 +464,38 @@
    },
    {
     "rank": 5,
-    "player": "Leandro Antonetti",
-    "team": "အက်စ်ထရီလာ",
-    "goals": 5,
-    "pid": "332252"
-   },
-   {
-    "rank": 6,
     "player": "André Clóvis",
     "team": "ဗီဆူး",
     "goals": 5,
     "pid": "270648"
    },
    {
+    "rank": 6,
+    "player": "Barbero",
+    "team": "အာရူကာ",
+    "goals": 5,
+    "pid": "5334947"
+   },
+   {
     "rank": 7,
+    "player": "Leandro Antonetti",
+    "team": "အက်စ်ထရီလာ",
+    "goals": 5,
+    "pid": "332252"
+   },
+   {
+    "rank": 8,
     "player": "Georgios Koutsias",
     "team": "ဖာမလီကောင်",
     "goals": 5,
     "pid": "304317"
    },
    {
-    "rank": 8,
+    "rank": 9,
     "player": "Pau Víctor",
     "team": "ဘရာဂါ",
     "goals": 5,
     "pid": "303808"
-   },
-   {
-    "rank": 9,
-    "player": "Iván Martínez",
-    "team": "အာရူကာ",
-    "goals": 5,
-    "pid": "178579"
    },
    {
     "rank": 10,
@@ -1086,38 +1086,38 @@
   "por.1": [
    {
     "rank": 1,
-    "player": "Pepê",
-    "team": "ပေါ်တို",
-    "assists": 6,
-    "pid": "256909"
-   },
-   {
-    "rank": 2,
     "player": "Näis Djouahra",
     "team": "အာရူကာ",
     "assists": 6,
     "pid": "281113"
    },
    {
+    "rank": 2,
+    "player": "Pepê",
+    "team": "ပေါ်တို",
+    "assists": 6,
+    "pid": "256909"
+   },
+   {
     "rank": 3,
+    "player": "Cihan Kahraman",
+    "team": "ဗီဆူး",
+    "assists": 4,
+    "pid": "233987"
+   },
+   {
+    "rank": 4,
     "player": "Gianluca Prestianni",
     "team": "ဘန်ဖီကာ",
     "assists": 4,
     "pid": "339191"
    },
    {
-    "rank": 4,
+    "rank": 5,
     "player": "Iván Fresneda",
     "team": "စပေါ်တင်း",
     "assists": 4,
     "pid": "333209"
-   },
-   {
-    "rank": 5,
-    "player": "Cihan Kahraman",
-    "team": "ဗီဆူး",
-    "assists": 4,
-    "pid": "233987"
    },
    {
     "rank": 6,
@@ -1135,24 +1135,24 @@
    },
    {
     "rank": 8,
+    "player": "Diogo Bezerra",
+    "team": "ရီယိုအဲဗီ",
+    "assists": 3,
+    "pid": "335153"
+   },
+   {
+    "rank": 9,
     "player": "Mathias De Amorim",
     "team": "ဖာမလီကောင်",
     "assists": 3,
     "pid": "368008"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Vangelis Pavlidis",
     "team": "ဘန်ဖီကာ",
     "assists": 3,
     "pid": "220819"
-   },
-   {
-    "rank": 10,
-    "player": "Diogo Bezerra",
-    "team": "ရီယိုအဲဗီ",
-    "assists": 3,
-    "pid": "335153"
    }
   ],
   "uefa.champions": [
