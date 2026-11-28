@@ -915,6 +915,8 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
+{ id: "Q9wfXhYJf8w", title: "Manchester United vs Brentford 0-4 Highlights | Callum Wilson Goals | Premier League 2026", channel: "لقـطة Tv", date: "Nov 28, 2026" },
+{ id: "Lsggpr_RNCU", title: "Massive Draw At Home! | HAMBURGER SV - FC BAYERN | Highlights | Matchday 11 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 28, 2026" },
 { id: "500ohy7vj38", title: "Nottingham Forest 3-2 Chelsea | Premier League | Highlights 🎬", channel: "Nottingham Forest FC", date: "Nov 27, 2026" },
 { id: "y_HwwB9pTp0", title: "EKHATOR’S FIRST JUVE GOAL IN A 4-1 WIN! | Juventus-Omonia | Highlights Europa League", channel: "Juventus", date: "Nov 26, 2026" },
 { id: "FrdskaTfTa8", title: "Highlights | LA RIMONTA DI ATENE! | Olympiacos-Milan 2-4 | Europa League", channel: "AC Milan", date: "Nov 26, 2026" },
@@ -941,8 +943,6 @@ async function renderHighlights() {
 { id: "Cf34u3uz8aU", title: "12 VICTOIRES DE SUITE I LE RÉSUMÉ DE NICE - PSG", channel: "PSG - Paris Saint-Germain", date: "Nov 21, 2026" },
 { id: "t6qBkOKaXHk", title: "Moreira scores twice, Schick & Fernández add to the tally: 4–0 win over Paderborn | Highlights", channel: "Bayer 04 Leverkusen", date: "Nov 21, 2026" },
 { id: "A3CwxZcK5rQ", title: "Nmecha did it again! | Gladbach v BVB | Highlights", channel: "Borussia Dortmund", date: "Nov 21, 2026" },
-{ id: "-f5rhR4zQiY", title: "Williams-Barnett makes history! | Tottenham 2-0 Ipswich | Premier League Highlights", channel: "Tottenham Hotspur", date: "Nov 21, 2026" },
-{ id: "_C00--Q7qxU", title: "Chelsea 1-4 Leeds United | Premier League highlights | Leeds run riot at Stamford Bridge!", channel: "Leeds United Official", date: "Nov 21, 2026" },
     { id: "lfEnsErFD8o", title: "Best of: Mo Salah 2019/20 | Premier League Champion", channel: "Liverpool FC", date: "Classic" },
 { id: "STsFQj4aZM0", title: "Mo Salah's 100 Liverpool goals | Chelsea screamer, Man Utd celebration & penalty in Madrid", channel: "Liverpool FC", date: "Classic" },
 { id: "cGJBKbManZE", title: "Mo Salah's 100 Liverpool Premier League goals", channel: "Liverpool FC", date: "Classic" },
