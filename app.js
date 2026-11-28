@@ -915,7 +915,7 @@ async function renderHighlights() {
   let html = `<h2 class="section-title">🎬 ဟိုက်လိုက် ဗီဒီယိုများ</h2><p class="hl-note">ဗီဒီယိုများ ကြည့်မရပါက VPN ခံ ကြည့်ပါ</p>`;
   html += `<div class="highlights-grid">`;
   const videos = [
-{ id: "Q9wfXhYJf8w", title: "Manchester United vs Brentford 0-4 Highlights | Callum Wilson Goals | Premier League 2026", channel: "لقـطة Tv", date: "Nov 28, 2026" },
+{ id: "nliqiVNY3aQ", title: "Bees DEMOLISH Man Utd in Pochettino's home debut | Man Utd 0-4 Brentford | Premier League Highlights", channel: "Sky Sports Premier League", date: "Nov 28, 2026" },
 { id: "Lsggpr_RNCU", title: "Massive Draw At Home! | HAMBURGER SV - FC BAYERN | Highlights | Matchday 11 – Bundesliga 2026/27", channel: "Bundesliga", date: "Nov 28, 2026" },
 { id: "500ohy7vj38", title: "Nottingham Forest 3-2 Chelsea | Premier League | Highlights 🎬", channel: "Nottingham Forest FC", date: "Nov 27, 2026" },
 { id: "y_HwwB9pTp0", title: "EKHATOR’S FIRST JUVE GOAL IN A 4-1 WIN! | Juventus-Omonia | Highlights Europa League", channel: "Juventus", date: "Nov 26, 2026" },
