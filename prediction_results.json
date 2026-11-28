@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T08:56:15+06:30",
+ "updated": "2026-11-28T03:08:23+06:30",
  "summary": {
   "resolved": 251,
   "correct": 143,
   "wrong": 108,
   "accuracy_pct": 57.0,
-  "not_found": 3
+  "not_found": 4
  },
  "results": [
   {
@@ -2311,6 +2311,96 @@
    "pick_en": "Celtic win",
    "score": "1-2",
    "outcome": "correct"
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Real Betis",
+   "away": "Rayo Vallecano",
+   "league": "La Liga",
+   "pick_en": "Real Betis win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Frosinone",
+   "away": "Parma",
+   "league": "Serie A",
+   "pick_en": "Frosinone win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Mainz 05",
+   "away": "Union Berlin",
+   "league": "Bundesliga",
+   "pick_en": "Mainz win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Hamburger SV",
+   "away": "Bayern Munich",
+   "league": "Bundesliga",
+   "pick_en": "Bayern Munich win",
+   "score": null,
+   "outcome": "not_found"
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Köln",
+   "away": "Elversberg",
+   "league": "Bundesliga",
+   "pick_en": "Köln win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Paderborn",
+   "away": "Schalke 04",
+   "league": "Bundesliga",
+   "pick_en": "Draw",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Leeds United",
+   "away": "Coventry City",
+   "league": "Premier League",
+   "pick_en": "Leeds United win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Manchester United",
+   "away": "Brentford",
+   "league": "Premier League",
+   "pick_en": "Manchester United win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Málaga",
+   "away": "Athletic Bilbao",
+   "league": "La Liga",
+   "pick_en": "Athletic Bilbao win",
+   "score": null,
+   "outcome": "pending"
+  },
+  {
+   "date": "2026-11-28",
+   "home": "Angers",
+   "away": "Lens",
+   "league": "Ligue 1",
+   "pick_en": "Lens win",
+   "score": null,
+   "outcome": "pending"
   }
  ]
 }
