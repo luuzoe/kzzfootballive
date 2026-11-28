@@ -92,7 +92,7 @@
     "rank": 3,
     "player": "Yassir Zabiri",
     "team": "ရေးစင်းဆန်တန်ဒါး",
-    "goals": 11,
+    "goals": 12,
     "pid": "390389"
    },
    {
@@ -703,24 +703,24 @@
    },
    {
     "rank": 8,
-    "player": "Daichi Kamada",
-    "team": "ခရစ္စတယ်ပဲလေ့စ်",
-    "assists": 3,
-    "pid": "219362"
-   },
-   {
-    "rank": 9,
     "player": "Cole Palmer",
     "team": "ချယ်လ်ဆီး",
     "assists": 3,
     "pid": "296395"
    },
    {
-    "rank": 10,
-    "player": "Maxim De Cuyper",
-    "team": "ဘရိုက်တန်",
+    "rank": 9,
+    "player": "Morgan Gibbs-White",
+    "team": "နော်တင်ဟမ်ဖောရက်စ်",
     "assists": 3,
-    "pid": "301327"
+    "pid": "243396"
+   },
+   {
+    "rank": 10,
+    "player": "Daichi Kamada",
+    "team": "ခရစ္စတယ်ပဲလေ့စ်",
+    "assists": 3,
+    "pid": "219362"
    }
   ],
   "esp.1": [
@@ -754,45 +754,45 @@
    },
    {
     "rank": 5,
+    "player": "Iñigo Vicente",
+    "team": "ရေးစင်းဆန်တန်ဒါး",
+    "assists": 4,
+    "pid": "284699"
+   },
+   {
+    "rank": 6,
     "player": "Álex Berenguer",
     "team": "အက်သလတစ်ဘီလ်ဘာအို",
     "assists": 4,
     "pid": "209579"
    },
    {
-    "rank": 6,
+    "rank": 7,
     "player": "Arda Güler",
     "team": "ရီးယဲလ်",
     "assists": 4,
     "pid": "310452"
    },
    {
-    "rank": 7,
+    "rank": 8,
     "player": "Mariano Díaz",
     "team": "အလာဗတ်စ်",
     "assists": 4,
     "pid": "198832"
    },
    {
-    "rank": 8,
+    "rank": 9,
     "player": "Ángel Pérez",
     "team": "အလာဗတ်စ်",
     "assists": 4,
     "pid": "374621"
    },
    {
-    "rank": 9,
+    "rank": 10,
     "player": "Anthony Gordon",
     "team": "ဘာစီလိုနာ",
     "assists": 4,
     "pid": "268782"
-   },
-   {
-    "rank": 10,
-    "player": "Julián Álvarez",
-    "team": "အက်သလက်တီကိုမက်ဒရစ်",
-    "assists": 4,
-    "pid": "277206"
    }
   ],
   "ita.1": [
