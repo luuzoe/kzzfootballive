@@ -1,0 +1,8 @@
+KZZ Highlights run 2026-11-28 20:38 Yangon
+- ESPN scoreboards checked (2026 season, dates=20261125..28; uefa.champions slug verified):
+  - Nov 25 UCL: 7 big-team matches, all already in array (Sabah-Barca, Atletico-Viking, Brugge-Liverpool, Inter-Stuttgart, Lille-Bayern, PSG-Roma, Sporting-Man Utd).
+  - Nov 26 UEL: 3 big-team matches, all already in array (Dinamo-Leverkusen, Olympiacos-Milan, Juventus-Omonia).
+  - Nov 27: only big-team match Forest 3-2 Chelsea, already in array (500ohy7vj38, Nottingham Forest FC).
+  - Nov 28: NO big-team match finished yet. Man Utd-Brentford, Elche-Atletico, Real Madrid-Alaves, Inter-Genoa, Hamburg-Bayern, PSG-Lorient all kick off later tonight; Betis-Rayo and Frosinone-Parma in progress (no big team).
+- Search results contained stale/wrong-year and AI-generated pages (e.g. fake "Arsenal 1-2 Bournemouth / Liverpool 2-0 Fulham" Saturday round-up) — disregarded; ESPN scoreboard is ground truth.
+- Result: NO new videos. No edit, no deploy (rule 9). Array stays at 40 (28 match + 12 Classic).
