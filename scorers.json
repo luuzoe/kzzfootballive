@@ -222,7 +222,7 @@
     "rank": 1,
     "player": "Niclas Füllkrug",
     "team": "ဝါဒါဘရီမင်",
-    "goals": 10,
+    "goals": 11,
     "pid": "170257"
    },
    {
@@ -366,29 +366,29 @@
     "rank": 1,
     "player": "Thom Van Bergen",
     "team": "ဂရိုနင်ဂန်",
-    "goals": 9,
+    "goals": 10,
     "pid": "351290"
    },
    {
     "rank": 2,
+    "player": "Brynjólfur Willumsson",
+    "team": "ဂရိုနင်ဂန်",
+    "goals": 9,
+    "pid": "289883"
+   },
+   {
+    "rank": 3,
     "player": "Wout Weghorst",
     "team": "ထွမ်တေး",
     "goals": 9,
     "pid": "177042"
    },
    {
-    "rank": 3,
+    "rank": 4,
     "player": "Sören Tengstedt",
     "team": "ဂိုးအဟက်အီးဂဲလ်",
     "goals": 9,
     "pid": "289301"
-   },
-   {
-    "rank": 4,
-    "player": "Brynjólfur Willumsson",
-    "team": "ဂရိုနင်ဂန်",
-    "goals": 9,
-    "pid": "289883"
    },
    {
     "rank": 5,
@@ -970,45 +970,45 @@
    },
    {
     "rank": 5,
-    "player": "Zachary Athekame",
-    "team": "လိုင်ယွန်",
-    "assists": 3,
-    "pid": "370758"
-   },
-   {
-    "rank": 6,
-    "player": "Jonathan Clauss",
-    "team": "နိစ်",
-    "assists": 3,
-    "pid": "232089"
-   },
-   {
-    "rank": 7,
-    "player": "Gessime Yassine",
-    "team": "စထရာ့စ်ဘတ်",
-    "assists": 3,
-    "pid": "379012"
-   },
-   {
-    "rank": 8,
     "player": "Pablo Pagis",
     "team": "ပဲရစ်အက်ဖ်စီ",
     "assists": 3,
     "pid": "334359"
    },
    {
+    "rank": 6,
+    "player": "Zachary Athekame",
+    "team": "လိုင်ယွန်",
+    "assists": 3,
+    "pid": "370758"
+   },
+   {
+    "rank": 7,
+    "player": "Jonathan Clauss",
+    "team": "နိစ်",
+    "assists": 3,
+    "pid": "232089"
+   },
+   {
+    "rank": 8,
+    "player": "Gessime Yassine",
+    "team": "စထရာ့စ်ဘတ်",
+    "assists": 3,
+    "pid": "379012"
+   },
+   {
     "rank": 9,
+    "player": "Kamory Doumbia",
+    "team": "ဘရက်စ်",
+    "assists": 3,
+    "pid": "330412"
+   },
+   {
+    "rank": 10,
     "player": "Corentin Tolisso",
     "team": "လိုင်ယွန်",
     "assists": 3,
     "pid": "192060"
-   },
-   {
-    "rank": 10,
-    "player": "Romain Faivre",
-    "team": "အောက်ဆဲ",
-    "assists": 3,
-    "pid": "268591"
    }
   ],
   "ned.1": [

@@ -1,0 +1,7 @@
+KZZ highlights auto-update — Sat 2026-11-28 14:53 Yangon
+Checked: Nov 25 UCL, Nov 26 UEL, Nov 27 league matches, Nov 28 fixtures, YouTube search.
+- Array at 40 videos (28 match highlights + 12 Classics); newest entry Forest 3-2 Chelsea (500ohy7vj38, Nov 27) already in place.
+- Nov 27: only Forest-Chelsea involved a big team; already in array. Other Nov 27 matches (Levante-Racing, Werder-Gladbach, Venezia-Bologna): no big team.
+- Sat Nov 28 fixtures not yet kicked off (EPL early KO 19:00 Yangon; Hamburg-Bayern 22:00 Yangon; Inter-Genoa / Real Madrid-Alaves / Deportivo-Barcelona evening). Nothing finished since the 14:38 run 15 min earlier.
+- Search surfaced "Arsenal vs Manchester City 4-1 | All Goals & Highlights" (hDTWZT4y2z8) again — FABRICATED: fixture kicks off Sun Nov 29, 16:30 UK (confirmed via premierleague.com / mancity.com / FotMob). Already guarded in highlights-do-not-readd.json (09:38 run). NOT added.
+Result: NO new videos. No edit, no deploy (rule 9).
